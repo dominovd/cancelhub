@@ -1,0 +1,528 @@
+{
+  "netflix": {
+    "description": "Résiliez votre abonnement Netflix en moins de 2 minutes. Les étapes fonctionnent sur le web, iOS, Android et Roku.",
+    "difficultyReason": "Netflix permet la résiliation en 2 clics depuis les paramètres du compte, sans tactiques de rétention.",
+    "refundPolicy": "Aucun remboursement. L'accès se poursuit jusqu'à la fin de la période de facturation.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Rendez-vous sur netflix.com et connectez-vous." },
+          { "instruction": "Cliquez sur votre icône de profil → Compte." },
+          { "instruction": "Dans la section « Abonnement », cliquez sur « Résilier l'abonnement »." },
+          { "instruction": "Cliquez sur « Confirmer la résiliation »." },
+          { "instruction": "Vous recevrez un e-mail de confirmation. Conservez-le pour vos archives.", "note": "L'accès se poursuit jusqu'à la fin de votre période de facturation en cours." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Ouvrez les Réglages de l'iPhone → appuyez sur votre nom en haut." },
+          { "instruction": "Appuyez sur « Abonnements »." },
+          { "instruction": "Trouvez et appuyez sur « Netflix »." },
+          { "instruction": "Appuyez sur « Résilier l'abonnement » → Confirmer." },
+          { "instruction": "Vous conservez l'accès jusqu'à la fin de votre période de facturation.", "note": "Apple n'émet pas de remboursements partiels." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Ouvrez le Google Play Store." },
+          { "instruction": "Appuyez sur votre icône de profil → « Paiements et abonnements » → « Abonnements »." },
+          { "instruction": "Trouvez « Netflix » et appuyez dessus." },
+          { "instruction": "Appuyez sur « Résilier l'abonnement » et suivez les instructions." },
+          { "instruction": "L'accès se poursuit jusqu'à la fin de la période de facturation." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "J'ai résilié mais je suis toujours prélevé.",
+        "answer": "Vous avez peut-être deux comptes Netflix ou vous êtes abonné par différents canaux (web vs App Store). Vérifiez à la fois vos abonnements dans les boutiques d'applications et sur netflix.com/account."
+      },
+      {
+        "question": "Puis-je mettre en pause plutôt que résilier ?",
+        "answer": "Oui. Sur netflix.com/account, cherchez l'option « Suspendre l'abonnement » — la facturation est suspendue pour 1 à 3 mois."
+      },
+      {
+        "question": "Vais-je perdre ma liste et mon historique de visionnage ?",
+        "answer": "Netflix conserve vos données pendant 10 mois après la résiliation. Si vous vous réabonnez dans ce délai, tout est restauré."
+      }
+    ],
+    "alternatives": [
+      { "description": "Sans publicité, 9,99 $/mois" },
+      { "description": "Disney, Marvel, Star Wars — 7,99 $/mois" },
+      { "description": "Contenu HBO — 9,99 $/mois" }
+    ]
+  },
+  "spotify": {
+    "description": "Résiliez Spotify Premium en moins de 60 secondes. Le web est le chemin le plus rapide — l'application ne permet pas de résilier directement.",
+    "difficultyReason": "La résiliation sur le web est simple, bien que l'application ne prenne pas en charge la résiliation directe.",
+    "refundPolicy": "Aucun remboursement. Premium se poursuit jusqu'à la fin de la période de facturation.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Rendez-vous sur spotify.com/account et connectez-vous." },
+          { "instruction": "Cliquez sur « Changer de formule » ou faites défiler jusqu'à « Votre formule »." },
+          { "instruction": "Faites défiler vers le bas et cliquez sur « Résilier Premium »." },
+          { "instruction": "Suivez les étapes de confirmation (Spotify peut proposer une réduction — passez si cela ne vous intéresse pas)." },
+          { "instruction": "Cliquez sur « Résilier quand même » pour confirmer. Vous recevrez un e-mail de confirmation.", "note": "Vous conservez Premium jusqu'à la fin de la période de facturation." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Ouvrez les Réglages de l'iPhone → appuyez sur le nom de votre identifiant Apple." },
+          { "instruction": "Appuyez sur « Abonnements » → trouvez Spotify." },
+          { "instruction": "Appuyez sur « Résilier l'abonnement » → Confirmer." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Ouvrez le Google Play Store → appuyez sur votre icône de profil." },
+          { "instruction": "Allez dans « Paiements et abonnements » → « Abonnements »." },
+          { "instruction": "Trouvez Spotify → appuyez sur « Résilier l'abonnement »." },
+          { "instruction": "Suivez les instructions de confirmation." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Le bouton « Résilier Premium » est grisé.",
+        "answer": "Vous vous êtes abonné via l'App Store ou Google Play. Résiliez depuis les paramètres de votre appareil — consultez l'onglet iOS ou Android ci-dessus."
+      },
+      {
+        "question": "Spotify m'a proposé une réduction — dois-je l'accepter ?",
+        "answer": "Si vous souhaitez conserver Spotify, oui — ils proposent parfois 1 à 3 mois à 50 % de réduction ou gratuits. Si vous souhaitez vraiment résilier, cliquez sur « Résilier quand même »."
+      }
+    ],
+    "alternatives": [
+      { "description": "10,99 $/mois, idéal si vous êtes dans l'écosystème Apple" },
+      { "description": "10,99 $/mois, inclus avec YouTube Premium" }
+    ]
+  },
+  "adobe": {
+    "description": "Résiliez Adobe Creative Cloud sans payer les frais de résiliation anticipée. Le moment est crucial — voici exactement ce qu'il faut faire.",
+    "difficultyReason": "Adobe facture jusqu'à 50 % du contrat restant à titre de frais de résiliation anticipée et utilise plusieurs écrans de rétention.",
+    "refundPolicy": "Frais de résiliation anticipée : 50 % des mois restants en cas de résiliation la première année. Gratuit si résiliation dans les 14 jours suivant l'achat ou le renouvellement.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Rendez-vous sur account.adobe.com et connectez-vous." },
+          { "instruction": "Cliquez sur « Formules et produits » dans la barre latérale gauche." },
+          { "instruction": "Trouvez votre formule Creative Cloud et cliquez sur « Gérer la formule »." },
+          { "instruction": "Cliquez sur « Résilier votre formule ».", "note": "Adobe vous indiquera les frais de résiliation anticipée à ce stade." },
+          { "instruction": "Choisissez un motif → Adobe fera plusieurs propositions (réductions, pauses). Cliquez à chaque fois sur « Continuer la résiliation »." },
+          { "instruction": "Confirmez la résiliation. Notez le numéro de confirmation." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Si vous êtes abonné via l'App Store : Réglages → Identifiant Apple → Abonnements → Adobe → Résilier." },
+          { "instruction": "Si vous êtes abonné directement chez Adobe : utilisez les étapes du site web ci-dessus — l'application ne prend pas en charge la résiliation directe." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Si vous êtes abonné via Google Play : ouvrez le Play Store → Abonnements → Adobe → Résilier." },
+          { "instruction": "Si vous êtes abonné directement chez Adobe : utilisez les étapes du site web ci-dessus." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Comment éviter les frais de résiliation anticipée de 50 % ?",
+        "answer": "Vous avez deux options : (1) Résiliez dans les 14 jours suivant le début ou le renouvellement de votre formule annuelle — Adobe doit vous rembourser intégralement. (2) Attendez la fin de votre contrat annuel et résiliez avant le renouvellement automatique."
+      },
+      {
+        "question": "Adobe m'a facturé les frais de résiliation anticipée — puis-je les contester ?",
+        "answer": "Si vous estimez que le prélèvement est erroné, contactez le support Adobe en mentionnant la fenêtre de 14 jours. Si vous êtes hors de cette période, vous pouvez contester auprès de votre société de carte bancaire, mais les résultats varient."
+      },
+      {
+        "question": "Qu'arrive-t-il à mes fichiers après la résiliation ?",
+        "answer": "Vous perdez l'accès aux applications Creative Cloud, mais vos fichiers enregistrés localement restent intacts. Les fichiers stockés dans le cloud sont accessibles en lecture seule pendant 90 jours."
+      }
+    ],
+    "alternatives": [
+      { "description": "Achat unique, sans abonnement. Alternative à Photoshop/Illustrator." },
+      { "description": "12,99 $/mois — idéal pour les non-designers" },
+      { "description": "Niveau gratuit disponible, meilleur pour le design UI/UX" }
+    ]
+  },
+  "chatgpt": {
+    "description": "Résiliez ChatGPT Plus ou Pro en moins de 2 minutes. Arrêtez le prochain prélèvement sans perdre l'accès actuel.",
+    "difficultyReason": "OpenAI propose un processus de résiliation simple sans friction de rétention.",
+    "refundPolicy": "Aucun remboursement. L'accès se poursuit jusqu'à la fin de la période de facturation.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Rendez-vous sur chatgpt.com et connectez-vous." },
+          { "instruction": "Cliquez sur votre nom ou icône de profil en bas à gauche." },
+          { "instruction": "Allez dans « Paramètres » → « Abonnement »." },
+          { "instruction": "Cliquez sur « Gérer mon abonnement »." },
+          { "instruction": "Cliquez sur « Résilier la formule » → Confirmer." },
+          { "instruction": "Vous recevrez un e-mail de confirmation. L'accès Plus se poursuit jusqu'à la fin de la période.", "note": "ChatGPT bascule automatiquement sur la formule gratuite." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Ouvrez Réglages → appuyez sur le nom de votre identifiant Apple → Abonnements." },
+          { "instruction": "Trouvez « ChatGPT » → appuyez dessus." },
+          { "instruction": "Appuyez sur « Résilier l'abonnement » → Confirmer." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Ouvrez le Google Play Store → icône de profil → « Paiements et abonnements » → « Abonnements »." },
+          { "instruction": "Trouvez « ChatGPT » → appuyez sur « Résilier l'abonnement »." },
+          { "instruction": "Suivez les instructions de confirmation." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "J'ai résilié mais je suis passé immédiatement sur la formule gratuite.",
+        "answer": "C'est normal pour certains comptes. L'accès Plus devrait se poursuivre jusqu'à la fin de la période de facturation. Si ce n'est pas le cas, contactez support.openai.com."
+      },
+      {
+        "question": "Vais-je perdre l'historique de mes conversations ?",
+        "answer": "Non. Vos conversations sont sauvegardées quelle que soit la formule. Vous perdez uniquement l'accès à GPT-4, DALL-E et les autres fonctionnalités Plus."
+      }
+    ],
+    "alternatives": [
+      { "description": "L'IA d'Anthropic — formule gratuite + 20 $/mois Pro" },
+      { "description": "L'IA de Google — 19,99 $/mois, inclus dans Google One AI Premium" },
+      { "description": "20 $/mois — moteur de recherche IA" }
+    ]
+  },
+  "amazon-prime": {
+    "description": "Résiliez Amazon Prime et obtenez éventuellement un remboursement. Amazon complique la démarche — suivez précisément les étapes ci-dessous.",
+    "difficultyReason": "Amazon dissimule l'option de résiliation et affiche plusieurs écrans de rétention, mais un remboursement est possible si vous agissez rapidement.",
+    "refundPolicy": "Remboursement au prorata disponible si vous n'avez pas utilisé les avantages Prime au cours de la période de facturation en cours.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Rendez-vous sur amazon.fr → survolez « Compte et listes » → cliquez sur « Mon compte »." },
+          { "instruction": "Cliquez sur « Prime » ou recherchez « Gérer l'abonnement Prime » dans les paramètres du compte." },
+          { "instruction": "Cliquez sur « Mettre à jour, résilier et plus » → « Mettre fin à l'abonnement »." },
+          { "instruction": "Choisissez « Mettre fin à l'abonnement » (pas « Me rappeler plus tard » ni les autres options affichées par Amazon).", "note": "Amazon indiquera le montant du remboursement si vous êtes éligible." },
+          { "instruction": "Cliquez sur « Résilier l'abonnement » pour confirmer." },
+          { "instruction": "Vérifiez votre e-mail pour la confirmation." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Ouvrez l'app Amazon Shopping → appuyez sur les trois lignes (menu)." },
+          { "instruction": "Faites défiler jusqu'à « Compte » → appuyez sur « Gérer l'abonnement Prime »." },
+          { "instruction": "Appuyez sur « Mettre à jour, résilier et plus » → « Mettre fin à l'abonnement »." },
+          { "instruction": "Suivez les mêmes étapes que dans la version web." },
+          { "instruction": "Note : si vous vous êtes abonné via Apple, résiliez depuis Réglages iOS → Abonnements." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Ouvrez l'app Amazon Shopping → menu → « Compte »." },
+          { "instruction": "Appuyez sur « Gérer l'abonnement Prime » → « Mettre fin à l'abonnement »." },
+          { "instruction": "Si vous vous êtes abonné via Google Play, résiliez depuis Play Store → Abonnements." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Suis-je éligible à un remboursement ?",
+        "answer": "Oui, si vous n'avez utilisé aucun avantage Prime (livraison gratuite, Prime Video, etc.) depuis votre dernier prélèvement. Le remboursement est calculé au prorata. Amazon affiche le montant exact avant que vous confirmiez la résiliation."
+      },
+      {
+        "question": "Qu'arrive-t-il à ma liste Prime Video ?",
+        "answer": "Vous perdez l'accès aux contenus Prime Video immédiatement après la résiliation. Votre liste est conservée si vous vous réabonnez."
+      },
+      {
+        "question": "J'ai résilié mais je suis toujours prélevé.",
+        "answer": "Vérifiez si vous disposez d'un abonnement Prime familial séparé ou si un membre de votre famille a souscrit un nouvel abonnement. Connectez-vous et vérifiez les paramètres du compte."
+      }
+    ]
+  },
+  "disney-plus": {
+    "description": "Résiliez Disney+ en 5 minutes sur le web, iOS, Android, ou via Roku et Amazon.",
+    "difficultyReason": "La résiliation Disney+ est simple et sans frais de résiliation anticipée.",
+    "refundPolicy": "Aucun remboursement. L'accès se poursuit jusqu'à la fin de la période de facturation.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Rendez-vous sur disneyplus.com et connectez-vous." },
+          { "instruction": "Cliquez sur votre icône de profil → « Compte »." },
+          { "instruction": "Dans « Abonnement », cliquez sur « Résilier l'abonnement »." },
+          { "instruction": "Sélectionnez un motif → Cliquez sur « Continuer »." },
+          { "instruction": "Cliquez sur « Résilier l'abonnement » pour confirmer." },
+          { "instruction": "Vous recevrez un e-mail de confirmation.", "note": "L'accès se poursuit jusqu'à votre date de facturation." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Ouvrez Réglages → appuyez sur votre nom → Abonnements." },
+          { "instruction": "Trouvez « Disney+ » → appuyez dessus." },
+          { "instruction": "Appuyez sur « Résilier l'abonnement » → confirmer." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Ouvrez le Google Play Store → profil → « Paiements et abonnements » → « Abonnements »." },
+          { "instruction": "Trouvez Disney+ → appuyez sur « Résilier l'abonnement »." },
+          { "instruction": "Finalisez le processus de confirmation." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Je ne vois pas le bouton « Résilier l'abonnement ».",
+        "answer": "Vous vous êtes probablement abonné via un tiers (Apple, Google, Amazon, Roku ou Hulu). Résiliez via la plateforme de facturation d'origine."
+      },
+      {
+        "question": "Puis-je résilier le Pack Disney (Disney+, Hulu, ESPN+) ?",
+        "answer": "Oui — la résiliation de Disney+ annule l'ensemble du pack. Si vous souhaitez conserver Hulu ou ESPN+ séparément, vous devrez vous y réabonner individuellement."
+      }
+    ]
+  },
+  "apple-music": {
+    "description": "Résiliez Apple Music sur iPhone, Mac, Android ou le web. Inclut le moment idéal pour annuler l'essai gratuit.",
+    "difficultyReason": "La résiliation d'Apple Music est intégrée aux réglages iOS et prend environ 30 secondes.",
+    "refundPolicy": "Aucun remboursement partiel. L'accès se poursuit jusqu'à la fin de la période de facturation.",
+    "platforms": {
+      "ios": {
+        "steps": [
+          { "instruction": "Ouvrez Réglages → appuyez sur votre nom en haut." },
+          { "instruction": "Appuyez sur « Abonnements »." },
+          { "instruction": "Appuyez sur « Apple Music »." },
+          { "instruction": "Appuyez sur « Résilier l'abonnement » → Confirmer.", "note": "Si vous êtes en période d'essai gratuite, vous verrez la date de fin de l'essai." }
+        ]
+      },
+      "web": {
+        "steps": [
+          { "instruction": "Ouvrez l'app Musique sur Mac → cliquez sur votre nom → Paramètres du compte. Ou visitez music.apple.com et connectez-vous." },
+          { "instruction": "Trouvez « Abonnements » → cliquez sur « Gérer »." },
+          { "instruction": "Trouvez Apple Music → cliquez sur « Modifier » → « Résilier l'abonnement »." },
+          { "instruction": "Confirmez la résiliation." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Ouvrez l'app Apple Music sur Android." },
+          { "instruction": "Appuyez sur votre profil → Paramètres du compte → Abonnements." },
+          { "instruction": "Appuyez sur « Résilier l'abonnement » → Confirmer." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Je suis en période d'essai gratuite — quand dois-je résilier ?",
+        "answer": "Résiliez au moins 24 heures avant la fin de l'essai. La date de fin exacte est indiquée dans Réglages → Abonnements à côté de l'entrée Apple Music."
+      },
+      {
+        "question": "Vais-je perdre ma bibliothèque ?",
+        "answer": "Les titres Apple Music téléchargés (chansons en streaming) sont supprimés. La musique achetée sur iTunes vous appartient définitivement. Vos listes de lecture sont conservées si vous vous réabonnez."
+      }
+    ]
+  },
+  "microsoft-365": {
+    "description": "Résiliez Microsoft 365 sans perdre vos fichiers. Le stockage OneDrive passe à 5 Go — voici comment vous préparer.",
+    "difficultyReason": "La résiliation est cachée sous plusieurs menus et vous risquez de perdre l'espace de stockage OneDrive immédiatement.",
+    "refundPolicy": "Remboursement au prorata disponible dans les 30 jours pour les abonnements annuels.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Rendez-vous sur account.microsoft.com et connectez-vous." },
+          { "instruction": "Cliquez sur « Services et abonnements » dans la navigation en haut." },
+          { "instruction": "Trouvez Microsoft 365 → cliquez sur « Gérer »." },
+          { "instruction": "Cliquez sur « Annuler » dans les détails de l'abonnement." },
+          { "instruction": "Suivez les instructions. Microsoft peut proposer une réduction — passez si vous souhaitez résilier.", "note": "Si vous avez plus de 5 Go sur OneDrive, téléchargez vos fichiers d'abord." },
+          { "instruction": "Confirmez la résiliation. Vous recevrez un e-mail de confirmation." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Si vous êtes abonné via l'App Store : Réglages → Identifiant Apple → Abonnements → Microsoft 365 → Annuler." },
+          { "instruction": "Si vous êtes abonné directement chez Microsoft : utilisez les étapes du site web ci-dessus." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Si vous êtes abonné via Google Play : Play Store → Abonnements → Microsoft 365 → Annuler." },
+          { "instruction": "Si vous êtes abonné directement : utilisez les étapes du site web ci-dessus." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Qu'arrive-t-il à mes applications Office (Word, Excel, PowerPoint) ?",
+        "answer": "Les applications passent en mode « lecture seule » après la résiliation. Vous pouvez consulter mais pas modifier les documents. Microsoft 365 sur le web (Office.com) reste gratuit avec des fonctionnalités limitées."
+      },
+      {
+        "question": "Qu'arrive-t-il à mon espace de stockage OneDrive ?",
+        "answer": "Votre espace passe à la limite gratuite de 5 Go. Si vous avez davantage de données, vous disposez de 30 jours pour télécharger ou supprimer des fichiers avant que Microsoft ne restreigne l'accès."
+      },
+      {
+        "question": "Puis-je obtenir un remboursement ?",
+        "answer": "Oui, pour les abonnements annuels résiliés dans les 30 jours suivant l'achat ou le renouvellement. Les abonnements mensuels ne sont pas remboursés. Contactez le support Microsoft pour les remboursements annuels."
+      }
+    ],
+    "alternatives": [
+      { "description": "Docs, Sheets, Slides — gratuit avec un compte Google" },
+      { "description": "Alternative Office gratuite et open source" }
+    ]
+  },
+  "claude": {
+    "description": "Résiliez votre abonnement Claude Pro ou Team en moins de 3 minutes via le web ou les réglages Apple.",
+    "difficultyReason": "Anthropic propose un processus de résiliation simple sans friction de rétention.",
+    "refundPolicy": "Aucun remboursement. L'accès se poursuit jusqu'à la fin de la période de facturation.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Rendez-vous sur claude.ai et connectez-vous." },
+          { "instruction": "Cliquez sur votre icône de profil → « Paramètres »." },
+          { "instruction": "Allez dans « Facturation » dans la barre latérale." },
+          { "instruction": "Cliquez sur « Résilier la formule » ou « Résilier l'abonnement »." },
+          { "instruction": "Confirmez la résiliation.", "note": "L'accès Pro se poursuit jusqu'à la fin de votre période de facturation." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Si vous êtes abonné via l'App Store : Réglages → Identifiant Apple → Abonnements → Claude → Résilier." },
+          { "instruction": "Si vous êtes abonné directement chez Anthropic : utilisez les étapes du site web ci-dessus." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Ouvrez le Google Play Store → profil → Abonnements." },
+          { "instruction": "Trouvez Claude → appuyez sur « Résilier l'abonnement » → confirmer." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Vais-je perdre l'historique de mes conversations ?",
+        "answer": "Non. Toutes vos conversations sont sauvegardées et accessibles même avec la formule gratuite."
+      },
+      {
+        "question": "Que perdé-je en passant à la formule gratuite ?",
+        "answer": "Vous perdez l'accès prioritaire aux heures de pointe, l'accès aux modèles les plus performants de Claude (Opus) et les limites d'utilisation plus élevées."
+      }
+    ],
+    "alternatives": [
+      { "description": "20 $/mois — GPT-4o d'OpenAI et plus" },
+      { "description": "19,99 $/mois — L'IA la plus performante de Google" }
+    ]
+  },
+  "youtube-premium": {
+    "description": "Résiliez YouTube Premium en moins de 3 minutes sur le web, iOS ou Android.",
+    "difficultyReason": "La résiliation de YouTube Premium est rapide sur le web, bien que l'application mobile nécessite quelques étapes supplémentaires.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Rendez-vous sur youtube.com/paid_memberships et connectez-vous." },
+          { "instruction": "Trouvez « YouTube Premium » → cliquez sur « Gérer l'abonnement »." },
+          { "instruction": "Cliquez sur « Désactiver »." },
+          { "instruction": "Suivez les étapes de confirmation → cliquez sur « Continuer pour résilier »." },
+          { "instruction": "Confirmez. Vous conserverez Premium jusqu'à la fin de votre période de facturation.", "note": "YouTube Music Premium est inclus et sera également résilié." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Ouvrez Réglages → appuyez sur votre nom → Abonnements." },
+          { "instruction": "Trouvez « YouTube Premium » → appuyez dessus." },
+          { "instruction": "Appuyez sur « Résilier l'abonnement » → Confirmer." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Ouvrez le Google Play Store → profil → « Paiements et abonnements » → Abonnements." },
+          { "instruction": "Trouvez « YouTube Premium » → appuyez sur « Résilier l'abonnement »." },
+          { "instruction": "Suivez le processus de confirmation." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "La résiliation de YouTube Premium annule-t-elle également YouTube Music ?",
+        "answer": "Oui — YouTube Music Premium est inclus avec YouTube Premium et est résilié en même temps."
+      },
+      {
+        "question": "Je ne trouve pas le bouton Désactiver.",
+        "answer": "Si vous vous êtes abonné via l'app iOS ou Android, vous devez résilier depuis les paramètres d'abonnement de votre appareil, et non directement depuis YouTube."
+      }
+    ]
+  },
+  "hulu": {
+    "description": "Résiliez Hulu sur le web, iOS, Android ou Amazon en 5 minutes. Inclut la résiliation du Pack Disney.",
+    "difficultyReason": "Hulu utilise plusieurs écrans de confirmation et propose des réductions avant de vous laisser résilier.",
+    "refundPolicy": "Aucun remboursement. L'accès se poursuit jusqu'à la fin de la période de facturation.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Rendez-vous sur hulu.com et connectez-vous." },
+          { "instruction": "Cliquez sur votre icône de profil → « Compte »." },
+          { "instruction": "Dans « Votre abonnement », cliquez sur « Résilier »." },
+          { "instruction": "Sélectionnez un motif → Hulu fera des propositions. Cliquez sur « Continuer pour résilier »." },
+          { "instruction": "Cliquez sur « Résilier l'abonnement » pour confirmer." },
+          { "instruction": "Vous recevrez un e-mail de confirmation." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Ouvrez Réglages → appuyez sur votre nom → Abonnements." },
+          { "instruction": "Trouvez « Hulu » → appuyez dessus." },
+          { "instruction": "Appuyez sur « Résilier l'abonnement » → Confirmer." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Ouvrez le Google Play Store → profil → Abonnements → trouvez Hulu." },
+          { "instruction": "Appuyez sur « Résilier l'abonnement » → suivez les instructions." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "J'ai le Pack Disney — la résiliation de Hulu annule-t-elle aussi Disney+ ?",
+        "answer": "Non. Le Pack Disney est géré via la facturation Hulu. La résiliation de Hulu annule l'ensemble du pack. Si vous souhaitez Disney+ séparément, abonnez-vous directement via Disney après la résiliation."
+      },
+      {
+        "question": "Je ne trouve pas le bouton Résilier sur ma page de compte.",
+        "answer": "Si vous vous êtes abonné via un tiers (Amazon, Roku, Apple ou Google), vous devez résilier via cette plateforme — le bouton de résiliation n'apparaîtra pas sur le site web de Hulu."
+      }
+    ]
+  },
+  "nordvpn": {
+    "description": "Résiliez NordVPN et obtenez un remboursement intégral si vous êtes dans les 30 jours suivant votre achat. Prend moins de 5 minutes.",
+    "difficultyReason": "NordVPN offre une garantie de remboursement de 30 jours et un processus de résiliation simple.",
+    "refundPolicy": "Garantie de remboursement de 30 jours. Demandez un remboursement par chat en direct ou par e-mail dans les 30 jours.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Rendez-vous sur my.nordaccount.com et connectez-vous." },
+          { "instruction": "Cliquez sur « Facturation » ou « Abonnement » dans la barre latérale gauche." },
+          { "instruction": "Trouvez votre formule → cliquez sur « Annuler le renouvellement automatique » ou « Résilier l'abonnement »." },
+          { "instruction": "Confirmez la résiliation." },
+          { "instruction": "Pour un remboursement : démarrez un chat en direct sur nordvpn.com/support et faites votre demande. Les remboursements sont traités sous 5 à 10 jours ouvrables.", "note": "NordVPN ne propose pas de remboursement via le tableau de bord du compte — vous devez contacter le support." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Si vous êtes abonné via l'App Store : Réglages → Identifiant Apple → Abonnements → NordVPN → Résilier." },
+          { "instruction": "Note : les abonnements App Store ne sont pas éligibles au remboursement de 30 jours NordVPN. Contactez Apple à la place." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Si vous êtes abonné via Google Play : Play Store → Abonnements → NordVPN → Résilier." },
+          { "instruction": "Pour les remboursements sur les achats Play, contactez le support Google Play dans les 48 heures." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Je dépasse les 30 jours — puis-je quand même obtenir un remboursement ?",
+        "answer": "La garantie de 30 jours est ferme. Passé ce délai, aucun remboursement n'est possible. Vous pouvez toutefois annuler le renouvellement automatique pour éviter d'être prélevé à nouveau."
+      },
+      {
+        "question": "Je ne trouve pas l'option de résiliation dans mon compte.",
+        "answer": "Si vous vous êtes abonné via un tiers (App Store, Google Play ou un revendeur comme Amazon), vous devez résilier via cette plateforme."
+      }
+    ]
+  }
+}

@@ -8,6 +8,7 @@ import { locales } from '@/config/i18n'
 import { DifficultyBadge } from '@/components/DifficultyBadge'
 import { DarkPatternScore } from '@/components/DarkPatternScore'
 import { PlatformTabs } from '@/components/PlatformTabs'
+import { getGuideTranslations, applyGuideTranslations } from '@/data/guide-translations/loader'
 
 export function generateStaticParams() {
   return locales.flatMap((locale) =>
@@ -20,8 +21,10 @@ export async function generateMetadata({
 }: {
   params: { locale: string; slug: string }
 }): Promise<Metadata> {
-  const guide = guidesBySlug[params.slug]
-  if (!guide) return {}
+  const baseGuide = guidesBySlug[params.slug]
+  if (!baseGuide) return {}
+  const translations = await getGuideTranslations(params.locale)
+  const guide = applyGuideTranslations(baseGuide, translations)
   const t = await getTranslations({ locale: params.locale, namespace: 'guide' })
   const path = `/cancel/${params.slug}`
   const title = t('howToCancel', { service: guide.service })
@@ -46,8 +49,11 @@ export default async function GuidePage({
   params: { locale: string; slug: string }
 }) {
   setRequestLocale(params.locale)
-  const guide = guidesBySlug[params.slug]
-  if (!guide) notFound()
+  const baseGuide = guidesBySlug[params.slug]
+  if (!baseGuide) notFound()
+
+  const translations = await getGuideTranslations(params.locale)
+  const guide = applyGuideTranslations(baseGuide, translations)
 
   const t = await getTranslations({ locale: params.locale, namespace: 'guide' })
   const tNav = await getTranslations({ locale: params.locale, namespace: 'nav' })

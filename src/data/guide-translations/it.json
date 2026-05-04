@@ -1,0 +1,528 @@
+{
+  "netflix": {
+    "description": "Disdici il tuo abbonamento Netflix in meno di 2 minuti. I passaggi funzionano su web, iOS, Android e Roku.",
+    "difficultyReason": "Netflix consente la disdetta in 2 clic dalle impostazioni dell'account, senza tattiche di fidelizzazione.",
+    "refundPolicy": "Nessun rimborso. L'accesso continua fino alla fine del periodo di fatturazione.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Vai su netflix.com e accedi." },
+          { "instruction": "Clicca sull'icona del tuo profilo → Account." },
+          { "instruction": "Nella sezione \"Abbonamento\", clicca su \"Disdici abbonamento\"." },
+          { "instruction": "Clicca su \"Completa la disdetta\" per confermare." },
+          { "instruction": "Riceverai un'email di conferma. Conservala per i tuoi archivi.", "note": "L'accesso continua fino alla fine del periodo di fatturazione corrente." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Apri le Impostazioni dell'iPhone → tocca il tuo nome in cima." },
+          { "instruction": "Tocca \"Abbonamenti\"." },
+          { "instruction": "Trova e tocca \"Netflix\"." },
+          { "instruction": "Tocca \"Annulla abbonamento\" → Conferma." },
+          { "instruction": "Mantieni l'accesso fino alla fine del periodo di fatturazione.", "note": "Apple non emette rimborsi parziali." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Apri il Google Play Store." },
+          { "instruction": "Tocca l'icona del tuo profilo → \"Pagamenti e abbonamenti\" → \"Abbonamenti\"." },
+          { "instruction": "Trova \"Netflix\" e toccalo." },
+          { "instruction": "Tocca \"Annulla abbonamento\" e segui le istruzioni." },
+          { "instruction": "L'accesso continua fino alla fine del periodo di fatturazione." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ho disdetto ma continuo ad essere addebitato.",
+        "answer": "Potresti avere due account Netflix o aver sottoscritto l'abbonamento tramite canali diversi (web o App Store). Controlla sia gli abbonamenti nel tuo app store sia su netflix.com/account."
+      },
+      {
+        "question": "Posso mettere in pausa invece di disdire?",
+        "answer": "Sì. Su netflix.com/account, cerca \"Metti in pausa l'abbonamento\" — sospende la fatturazione per 1–3 mesi."
+      },
+      {
+        "question": "Perderò la mia lista e la cronologia delle visualizzazioni?",
+        "answer": "Netflix conserva i tuoi dati per 10 mesi dopo la disdetta. Se ti riabbonerà entro quel periodo, tutto verrà ripristinato."
+      }
+    ],
+    "alternatives": [
+      { "description": "Senza pubblicità, $9,99/mese" },
+      { "description": "Disney, Marvel, Star Wars — $7,99/mese" },
+      { "description": "Contenuti HBO — $9,99/mese" }
+    ]
+  },
+  "spotify": {
+    "description": "Disdici Spotify Premium in meno di 60 secondi. Il web è il percorso più rapido — l'app non consente la disdetta direttamente.",
+    "difficultyReason": "La disdetta sul web è semplice, sebbene l'app non supporti la cancellazione diretta.",
+    "refundPolicy": "Nessun rimborso. Il Premium continua fino alla fine del periodo di fatturazione.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Vai su spotify.com/account e accedi." },
+          { "instruction": "Clicca su \"Cambia piano\" o scorri fino a \"Il tuo piano\"." },
+          { "instruction": "Scorri verso il basso e clicca su \"Annulla Premium\"." },
+          { "instruction": "Segui i passaggi di conferma (Spotify potrebbe offrire uno sconto — salta se non sei interessato)." },
+          { "instruction": "Clicca su \"Annulla comunque\" per confermare. Riceverai un'email di conferma.", "note": "Mantieni il Premium fino alla fine del periodo di fatturazione." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Apri le Impostazioni dell'iPhone → tocca il tuo nome Apple ID." },
+          { "instruction": "Tocca \"Abbonamenti\" → trova Spotify." },
+          { "instruction": "Tocca \"Annulla abbonamento\" → Conferma." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Apri il Google Play Store → tocca l'icona del tuo profilo." },
+          { "instruction": "Vai su \"Pagamenti e abbonamenti\" → \"Abbonamenti\"." },
+          { "instruction": "Trova Spotify → tocca \"Annulla abbonamento\"." },
+          { "instruction": "Segui le istruzioni di conferma." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Il pulsante \"Annulla Premium\" è disattivato (grigio).",
+        "answer": "Hai effettuato l'abbonamento tramite App Store o Google Play. Disdici dalle impostazioni del dispositivo — vedi la scheda iOS o Android in alto."
+      },
+      {
+        "question": "Spotify mi ha offerto uno sconto — dovrei accettarlo?",
+        "answer": "Se vuoi continuare a usare Spotify, sì — a volte offrono 1–3 mesi al 50% di sconto o gratuiti. Se vuoi davvero disdire, clicca su \"Annulla comunque\"."
+      }
+    ],
+    "alternatives": [
+      { "description": "$10,99/mese, ottimo se sei nell'ecosistema Apple" },
+      { "description": "$10,99/mese, incluso con YouTube Premium" }
+    ]
+  },
+  "adobe": {
+    "description": "Disdici Adobe Creative Cloud senza pagare la penale per risoluzione anticipata. La tempistica è fondamentale — ecco esattamente cosa fare.",
+    "difficultyReason": "Adobe addebita fino al 50% dei mesi rimanenti del contratto come penale per risoluzione anticipata e utilizza più schermate di fidelizzazione.",
+    "refundPolicy": "Penale per risoluzione anticipata: 50% dei mesi rimanenti se disdetto nel primo anno. Gratuito se disdetto entro 14 giorni dall'acquisto o dal rinnovo.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Vai su account.adobe.com e accedi." },
+          { "instruction": "Clicca su \"Piani e prodotti\" nella barra laterale sinistra." },
+          { "instruction": "Trova il tuo piano Creative Cloud e clicca su \"Gestisci piano\"." },
+          { "instruction": "Clicca su \"Annulla il tuo piano\".", "note": "Adobe mostrerà la penale per risoluzione anticipata in questo momento." },
+          { "instruction": "Scegli un motivo → Adobe ti farà più offerte (sconti, pause). Clicca su \"Continua con la disdetta\" ogni volta." },
+          { "instruction": "Conferma la disdetta. Salva il numero di conferma." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Se hai sottoscritto tramite App Store: apri Impostazioni → Apple ID → Abbonamenti → Adobe → Annulla." },
+          { "instruction": "Se hai sottoscritto direttamente con Adobe: usa i passaggi del sito web — l'app non supporta la disdetta diretta." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Se hai sottoscritto tramite Google Play: apri il Play Store → Abbonamenti → Adobe → Annulla." },
+          { "instruction": "Se hai sottoscritto direttamente con Adobe: usa i passaggi del sito web." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Come evito la penale del 50% per risoluzione anticipata?",
+        "answer": "Hai due opzioni: (1) Disdici entro 14 giorni dall'inizio o dal rinnovo del piano annuale — Adobe deve rimborsarti integralmente. (2) Aspetta la fine del contratto annuale e disdici prima del rinnovo automatico."
+      },
+      {
+        "question": "Adobe mi ha addebitato la penale — posso contestarla?",
+        "answer": "Se ritieni che l'addebito non sia corretto, contatta il supporto Adobe e fai riferimento alla finestra di 14 giorni. Se sei al di fuori di tale periodo, puoi contestare con la società della tua carta di credito, ma i risultati variano."
+      },
+      {
+        "question": "Cosa succede ai miei file dopo la disdetta?",
+        "answer": "Perdi l'accesso alle app Creative Cloud, ma i file salvati localmente rimangono. I file archiviati nel cloud sono accessibili in sola lettura per 90 giorni."
+      }
+    ],
+    "alternatives": [
+      { "description": "Acquisto unico, nessun abbonamento. Alternativa a Photoshop/Illustrator." },
+      { "description": "$12,99/mese — ottimo per chi non è un designer" },
+      { "description": "Piano gratuito disponibile, ideale per design UI/UX" }
+    ]
+  },
+  "chatgpt": {
+    "description": "Disdici ChatGPT Plus o Pro in meno di 2 minuti. Blocca il prossimo addebito senza perdere l'accesso attuale.",
+    "difficultyReason": "OpenAI offre un processo di disdetta semplice senza friczioni di fidelizzazione.",
+    "refundPolicy": "Nessun rimborso. L'accesso continua fino alla fine del periodo di fatturazione.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Vai su chatgpt.com e accedi." },
+          { "instruction": "Clicca sul tuo nome o sull'icona del profilo in basso a sinistra." },
+          { "instruction": "Vai su \"Impostazioni\" → \"Abbonamento\"." },
+          { "instruction": "Clicca su \"Gestisci il mio abbonamento\"." },
+          { "instruction": "Clicca su \"Annulla piano\" → Conferma." },
+          { "instruction": "Riceverai un'email di conferma. L'accesso a Plus continua fino alla fine del periodo.", "note": "ChatGPT torna automaticamente al piano gratuito." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Apri Impostazioni → tocca il nome del tuo Apple ID → Abbonamenti." },
+          { "instruction": "Trova \"ChatGPT\" → toccalo." },
+          { "instruction": "Tocca \"Annulla abbonamento\" → Conferma." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Apri il Google Play Store → icona del profilo → \"Pagamenti e abbonamenti\" → \"Abbonamenti\"." },
+          { "instruction": "Trova \"ChatGPT\" → tocca \"Annulla abbonamento\"." },
+          { "instruction": "Segui le istruzioni di conferma." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ho disdetto ma sono già passato al piano gratuito immediatamente.",
+        "answer": "È normale per alcuni account. L'accesso a Plus dovrebbe continuare fino alla fine del periodo di fatturazione. In caso contrario, contatta support.openai.com."
+      },
+      {
+        "question": "Perderò la cronologia delle conversazioni?",
+        "answer": "No. Le tue chat vengono salvate indipendentemente dal piano. Perdi solo l'accesso a GPT-4, DALL-E e altre funzionalità Plus."
+      }
+    ],
+    "alternatives": [
+      { "description": "L'IA di Anthropic — piano gratuito + $20/mese Pro" },
+      { "description": "L'IA di Google — $19,99/mese, incluso in Google One AI Premium" },
+      { "description": "$20/mese — motore di ricerca con IA" }
+    ]
+  },
+  "amazon-prime": {
+    "description": "Disdici Amazon Prime e ottieni potenzialmente un rimborso. Amazon rende il processo complicato — segui esattamente i passaggi seguenti.",
+    "difficultyReason": "Amazon nasconde l'opzione di disdetta e mostra più schermate di fidelizzazione, ma è disponibile un rimborso se agisci in fretta.",
+    "refundPolicy": "Rimborso proporzionale disponibile se non hai utilizzato i vantaggi Prime durante il periodo di fatturazione corrente.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Vai su amazon.it → passa il mouse su \"Account e liste\" → clicca su \"Account\"." },
+          { "instruction": "Clicca su \"Prime\" o cerca \"Gestisci l'abbonamento Prime\" nelle impostazioni dell'account." },
+          { "instruction": "Clicca su \"Aggiorna, disdici e altro\" → \"Termina l'abbonamento\"." },
+          { "instruction": "Scegli \"Termina l'abbonamento\" (non \"Ricordamelo dopo\" o altre opzioni mostrate da Amazon).", "note": "Amazon mostrerà l'importo del rimborso se sei idoneo." },
+          { "instruction": "Clicca su \"Disdici l'abbonamento\" per confermare." },
+          { "instruction": "Controlla la tua email per la conferma." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Apri l'app Amazon Shopping → tocca le tre linee (menu)." },
+          { "instruction": "Scorri fino ad \"Account\" → tocca \"Gestisci l'abbonamento Prime\"." },
+          { "instruction": "Tocca \"Aggiorna, disdici e altro\" → \"Termina l'abbonamento\"." },
+          { "instruction": "Segui le stesse istruzioni della versione web." },
+          { "instruction": "Nota: se hai sottoscritto tramite Apple, disdici via Impostazioni iOS → Abbonamenti." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Apri l'app Amazon Shopping → menu → \"Account\"." },
+          { "instruction": "Tocca \"Gestisci l'abbonamento Prime\" → \"Termina l'abbonamento\"." },
+          { "instruction": "Se hai sottoscritto tramite Google Play, disdici via Play Store → Abbonamenti." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ho diritto a un rimborso?",
+        "answer": "Sì, se non hai utilizzato nessun vantaggio Prime (spedizione gratuita, Prime Video, ecc.) dall'ultimo addebito. Il rimborso è proporzionale. Amazon mostra l'importo esatto prima di confermare la disdetta."
+      },
+      {
+        "question": "Cosa succede alla mia lista di Prime Video?",
+        "answer": "Perdi immediatamente l'accesso ai contenuti Prime Video dopo la disdetta. La tua lista viene salvata se ti riabboni."
+      },
+      {
+        "question": "Ho disdetto ma continuo ad essere addebitato.",
+        "answer": "Controlla se hai un abbonamento Prime familiare separato o se un familiare ha avviato un nuovo abbonamento. Accedi e controlla le impostazioni dell'account."
+      }
+    ]
+  },
+  "disney-plus": {
+    "description": "Disdici Disney+ in 5 minuti su web, iOS, Android o tramite Roku e Amazon.",
+    "difficultyReason": "La disdetta di Disney+ è semplice senza penali per risoluzione anticipata.",
+    "refundPolicy": "Nessun rimborso. L'accesso continua fino alla fine del periodo di fatturazione.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Vai su disneyplus.com e accedi." },
+          { "instruction": "Clicca sull'icona del tuo profilo → \"Account\"." },
+          { "instruction": "Nella sezione \"Abbonamento\", clicca su \"Disdici abbonamento\"." },
+          { "instruction": "Seleziona un motivo → clicca su \"Continua\"." },
+          { "instruction": "Clicca su \"Disdici abbonamento\" per confermare." },
+          { "instruction": "Riceverai un'email di conferma.", "note": "L'accesso continua fino alla data di fatturazione." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Apri Impostazioni → tocca il tuo nome → Abbonamenti." },
+          { "instruction": "Trova \"Disney+\" → toccalo." },
+          { "instruction": "Tocca \"Annulla abbonamento\" → conferma." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Apri il Google Play Store → profilo → \"Pagamenti e abbonamenti\" → \"Abbonamenti\"." },
+          { "instruction": "Trova Disney+ → tocca \"Annulla abbonamento\"." },
+          { "instruction": "Completa il processo di conferma." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Non vedo il pulsante \"Disdici abbonamento\".",
+        "answer": "Probabilmente hai sottoscritto tramite una terza parte (Apple, Google, Amazon, Roku o Hulu). Disdici tramite la piattaforma di fatturazione originale."
+      },
+      {
+        "question": "Posso disdire il Bundle Disney (Disney+, Hulu, ESPN+)?",
+        "answer": "Sì — disdire Disney+ annulla l'intero bundle. Se vuoi mantenere Hulu o ESPN+ separatamente, dovrai riabbonarti a ciascuno individualmente."
+      }
+    ]
+  },
+  "apple-music": {
+    "description": "Disdici Apple Music su iPhone, Mac, Android o dal web. Include le tempistiche per la prova gratuita.",
+    "difficultyReason": "La disdetta di Apple Music è integrata nelle impostazioni iOS e richiede circa 30 secondi.",
+    "refundPolicy": "Nessun rimborso parziale. L'accesso continua fino alla fine del periodo di fatturazione.",
+    "platforms": {
+      "ios": {
+        "steps": [
+          { "instruction": "Apri Impostazioni → tocca il tuo nome in cima." },
+          { "instruction": "Tocca \"Abbonamenti\"." },
+          { "instruction": "Tocca \"Apple Music\"." },
+          { "instruction": "Tocca \"Annulla abbonamento\" → Conferma.", "note": "Se sei nel periodo di prova gratuita, vedrai la data di scadenza della prova." }
+        ]
+      },
+      "web": {
+        "steps": [
+          { "instruction": "Apri l'app Musica su Mac → clicca sul tuo nome → Impostazioni account. Oppure visita music.apple.com e accedi." },
+          { "instruction": "Trova \"Abbonamenti\" → clicca su \"Gestisci\"." },
+          { "instruction": "Trova Apple Music → clicca su \"Modifica\" → \"Annulla abbonamento\"." },
+          { "instruction": "Conferma la disdetta." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Apri l'app Apple Music su Android." },
+          { "instruction": "Tocca il tuo profilo → Impostazioni account → Abbonamenti." },
+          { "instruction": "Tocca \"Annulla abbonamento\" → Conferma." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Sono nel periodo di prova gratuita — quando devo disdire?",
+        "answer": "Disdici almeno 24 ore prima della fine della prova. La data esatta di scadenza è mostrata in Impostazioni → Abbonamenti, accanto alla voce Apple Music."
+      },
+      {
+        "question": "Perderò la mia libreria?",
+        "answer": "I brani di Apple Music (canzoni in streaming) vengono rimossi. La musica acquistata su iTunes è tua in modo permanente. Le playlist vengono salvate se ti riabboni."
+      }
+    ]
+  },
+  "microsoft-365": {
+    "description": "Disdici Microsoft 365 senza perdere i tuoi file. Lo spazio di archiviazione OneDrive scende a 5 GB — ecco come prepararti.",
+    "difficultyReason": "La disdetta è nascosta sotto più menu e rischi di perdere subito lo spazio di archiviazione OneDrive.",
+    "refundPolicy": "Rimborso proporzionale disponibile entro 30 giorni per gli abbonamenti annuali.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Vai su account.microsoft.com e accedi." },
+          { "instruction": "Clicca su \"Servizi e abbonamenti\" nella navigazione in alto." },
+          { "instruction": "Trova Microsoft 365 → clicca su \"Gestisci\"." },
+          { "instruction": "Clicca su \"Annulla\" sotto i dettagli dell'abbonamento." },
+          { "instruction": "Segui le istruzioni. Microsoft potrebbe offrire uno sconto — salta se vuoi disdire.", "note": "Se hai più di 5 GB su OneDrive, scarica prima i tuoi file." },
+          { "instruction": "Conferma la disdetta. Riceverai un'email di conferma." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Se hai sottoscritto tramite App Store: Impostazioni → Apple ID → Abbonamenti → Microsoft 365 → Annulla." },
+          { "instruction": "Se hai sottoscritto direttamente tramite Microsoft: usa i passaggi del sito web." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Se hai sottoscritto tramite Google Play: Play Store → Abbonamenti → Microsoft 365 → Annulla." },
+          { "instruction": "Se hai sottoscritto direttamente: usa i passaggi del sito web." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Cosa succede alle mie app Office (Word, Excel, PowerPoint)?",
+        "answer": "Le app passano in modalità \"sola lettura\" dopo la disdetta. Puoi visualizzare ma non modificare i documenti. Microsoft 365 sul web (Office.com) rimane gratuito con funzionalità limitate."
+      },
+      {
+        "question": "Cosa succede allo spazio di archiviazione OneDrive?",
+        "answer": "Il tuo spazio scende al limite gratuito di 5 GB. Se hai più dati, hai 30 giorni per scaricare o eliminare i file prima che Microsoft limiti l'accesso."
+      },
+      {
+        "question": "Posso ottenere un rimborso?",
+        "answer": "Sì, per gli abbonamenti annuali disdetti entro 30 giorni dall'acquisto o dal rinnovo. Gli abbonamenti mensili non vengono rimborsati. Contatta il supporto Microsoft per i rimborsi annuali."
+      }
+    ],
+    "alternatives": [
+      { "description": "Documenti, Fogli, Presentazioni — gratuiti con account Google" },
+      { "description": "Gratuito, alternativa open-source a Office" }
+    ]
+  },
+  "claude": {
+    "description": "Disdici l'abbonamento Claude Pro o Team in meno di 3 minuti via web o dalle impostazioni Apple.",
+    "difficultyReason": "Anthropic offre un processo di disdetta semplice senza friczioni di fidelizzazione.",
+    "refundPolicy": "Nessun rimborso. L'accesso continua fino alla fine del periodo di fatturazione.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Vai su claude.ai e accedi." },
+          { "instruction": "Clicca sull'icona del tuo profilo → \"Impostazioni\"." },
+          { "instruction": "Vai su \"Fatturazione\" nella barra laterale." },
+          { "instruction": "Clicca su \"Annulla piano\" o \"Disdici abbonamento\"." },
+          { "instruction": "Conferma la disdetta.", "note": "L'accesso Pro continua fino alla fine del periodo di fatturazione." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Se hai sottoscritto tramite App Store: Impostazioni → Apple ID → Abbonamenti → Claude → Annulla." },
+          { "instruction": "Se hai sottoscritto direttamente con Anthropic: usa i passaggi del sito web." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Apri il Google Play Store → profilo → Abbonamenti." },
+          { "instruction": "Trova Claude → tocca \"Annulla abbonamento\" → conferma." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Perderò la cronologia delle conversazioni?",
+        "answer": "No. Tutte le tue conversazioni vengono salvate e sono accessibili anche con il piano gratuito."
+      },
+      {
+        "question": "Cosa perdo passando al piano gratuito?",
+        "answer": "Perdi l'accesso prioritario nei momenti di picco, l'accesso ai modelli più avanzati di Claude (Opus) e limiti di utilizzo più elevati."
+      }
+    ],
+    "alternatives": [
+      { "description": "$20/mese — GPT-4o di OpenAI e altro" },
+      { "description": "$19,99/mese — L'IA più avanzata di Google" }
+    ]
+  },
+  "youtube-premium": {
+    "description": "Disdici YouTube Premium in meno di 3 minuti su web, iOS o Android.",
+    "difficultyReason": "La disdetta di YouTube Premium è rapida dal web, sebbene l'app mobile richieda qualche tocco in più.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Vai su youtube.com/paid_memberships e accedi." },
+          { "instruction": "Trova \"YouTube Premium\" → clicca su \"Gestisci abbonamento\"." },
+          { "instruction": "Clicca su \"Disattiva\"." },
+          { "instruction": "Segui i passaggi di conferma → clicca su \"Continua con la disdetta\"." },
+          { "instruction": "Conferma. Mantieni il Premium fino alla fine del periodo di fatturazione.", "note": "YouTube Music Premium è incluso e verrà anch'esso disdetto." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Apri Impostazioni → tocca il tuo nome → Abbonamenti." },
+          { "instruction": "Trova \"YouTube Premium\" → toccalo." },
+          { "instruction": "Tocca \"Annulla abbonamento\" → Conferma." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Apri il Google Play Store → profilo → \"Pagamenti e abbonamenti\" → Abbonamenti." },
+          { "instruction": "Trova \"YouTube Premium\" → tocca \"Annulla abbonamento\"." },
+          { "instruction": "Segui il processo di conferma." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Disdire YouTube Premium annulla anche YouTube Music?",
+        "answer": "Sì — YouTube Music Premium è incluso con YouTube Premium e viene disdetto insieme."
+      },
+      {
+        "question": "Non trovo il pulsante Disattiva.",
+        "answer": "Se hai sottoscritto tramite l'app iOS o Android, devi disdire dalle impostazioni degli abbonamenti del dispositivo, non direttamente da YouTube."
+      }
+    ]
+  },
+  "hulu": {
+    "description": "Disdici Hulu su web, iOS, Android o Amazon in 5 minuti. Include la disdetta del Bundle Disney.",
+    "difficultyReason": "Hulu utilizza più schermate di conferma e offre sconti prima di lasciarti disdire.",
+    "refundPolicy": "Nessun rimborso. L'accesso continua fino alla fine del periodo di fatturazione.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Vai su hulu.com e accedi." },
+          { "instruction": "Clicca sull'icona del tuo profilo → \"Account\"." },
+          { "instruction": "Nella sezione \"Il tuo abbonamento\", clicca su \"Disdici\"." },
+          { "instruction": "Seleziona un motivo → Hulu farà delle offerte. Clicca su \"Continua con la disdetta\"." },
+          { "instruction": "Clicca su \"Disdici abbonamento\" per confermare." },
+          { "instruction": "Riceverai un'email di conferma." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Apri Impostazioni → tocca il tuo nome → Abbonamenti." },
+          { "instruction": "Trova \"Hulu\" → toccalo." },
+          { "instruction": "Tocca \"Annulla abbonamento\" → Conferma." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Apri il Google Play Store → profilo → Abbonamenti → trova Hulu." },
+          { "instruction": "Tocca \"Annulla abbonamento\" → segui le istruzioni." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ho il Bundle Disney — disdire Hulu annulla anche Disney+?",
+        "answer": "No. Il Bundle Disney è gestito tramite la fatturazione di Hulu. Disdire Hulu annulla l'intero bundle. Se vuoi Disney+ separatamente, abbonati direttamente tramite Disney dopo la disdetta."
+      },
+      {
+        "question": "Non trovo il pulsante Disdici nella pagina del mio account.",
+        "answer": "Se hai sottoscritto tramite una terza parte (Amazon, Roku, Apple o Google), devi disdire tramite quella piattaforma — il pulsante di disdetta non apparirà sul sito di Hulu."
+      }
+    ]
+  },
+  "nordvpn": {
+    "description": "Disdici NordVPN e ottieni un rimborso completo se sei entro 30 giorni dall'acquisto. Richiede meno di 5 minuti.",
+    "difficultyReason": "NordVPN offre una garanzia di rimborso di 30 giorni e un processo di disdetta semplice.",
+    "refundPolicy": "Garanzia di rimborso di 30 giorni. Richiedi il rimborso tramite live chat o email entro 30 giorni.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Vai su my.nordaccount.com e accedi." },
+          { "instruction": "Clicca su \"Fatturazione\" o \"Abbonamento\" nella barra laterale sinistra." },
+          { "instruction": "Trova il tuo piano → clicca su \"Annulla rinnovo automatico\" o \"Annulla abbonamento\"." },
+          { "instruction": "Conferma la disdetta." },
+          { "instruction": "Per il rimborso: avvia una live chat su nordvpn.com/support e richiedilo. I rimborsi vengono elaborati in 5–10 giorni lavorativi.", "note": "NordVPN non offre rimborsi tramite il pannello dell'account — devi contattare il supporto." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Se hai sottoscritto tramite App Store: Impostazioni → Apple ID → Abbonamenti → NordVPN → Annulla." },
+          { "instruction": "Nota: gli abbonamenti App Store non sono idonei alla garanzia di rimborso di 30 giorni di NordVPN. Contatta Apple." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Se hai sottoscritto tramite Google Play: Play Store → Abbonamenti → NordVPN → Annulla." },
+          { "instruction": "Per i rimborsi sugli acquisti Play, contatta il supporto di Google Play entro 48 ore." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Sono oltre i 30 giorni — posso ancora ottenere un rimborso?",
+        "answer": "La garanzia di 30 giorni è definitiva. Dopo tale periodo, non sono disponibili rimborsi. Puoi comunque annullare il rinnovo automatico per non essere addebitato di nuovo."
+      },
+      {
+        "question": "Non riesco a trovare l'opzione di disdetta nel mio account.",
+        "answer": "Se hai sottoscritto tramite una terza parte (App Store, Google Play o un rivenditore come Amazon), devi disdire tramite quella piattaforma."
+      }
+    ]
+  }
+}

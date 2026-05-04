@@ -33,3 +33,25 @@ export interface CancelGuide {
   alternatives?: { name: string; url: string; description: string }[]
   tags: string[]
 }
+
+// ─── Localization types ───────────────────────────────────────────────────────
+
+export interface GuideStepTranslation {
+  instruction: string
+  note?: string
+}
+
+export interface GuidePlatformTranslation {
+  steps: GuideStepTranslation[]
+}
+
+export interface GuideContentTranslation {
+  description?: string
+  difficultyReason?: string
+  refundPolicy?: string
+  platforms?: Partial<Record<Platform, GuidePlatformTranslation>>
+  commonIssues?: { question: string; answer: string }[]
+  alternatives?: { description: string }[]
+}
+
+export type AllGuidesTranslations = Partial<Record<string, GuideContentTranslation>>

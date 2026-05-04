@@ -1,0 +1,842 @@
+{
+  "netflix": {
+    "description": "Kündige dein Netflix-Abonnement in unter 2 Minuten. Die Schritte funktionieren im Web, auf iOS, Android und Roku.",
+    "difficultyReason": "Netflix erlaubt die Kündigung mit 2 Klicks in den Kontoeinstellungen – ohne Haltetaktiken.",
+    "refundPolicy": "Keine Rückerstattungen. Der Zugang läuft bis zum Ende des Abrechnungszeitraums.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu netflix.com und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf dein Profilsymbol → Konto."
+          },
+          {
+            "instruction": "Klicke unter „Mitgliedschaft“ auf „Mitgliedschaft kündigen“."
+          },
+          {
+            "instruction": "Klicke auf „Kündigung abschließen“, um zu bestätigen."
+          },
+          {
+            "instruction": "Du erhältst eine Bestätigungs-E-Mail. Bewahre sie für deine Unterlagen auf.",
+            "note": "Der Zugang läuft bis zum Ende deines aktuellen Abrechnungszeitraums."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Öffne die iPhone-Einstellungen → tippe oben auf deinen Namen."
+          },
+          {
+            "instruction": "Tippe auf „Abonnements“."
+          },
+          {
+            "instruction": "Suche und tippe auf „Netflix“."
+          },
+          {
+            "instruction": "Tippe auf „Abonnement kündigen“ → Bestätigen."
+          },
+          {
+            "instruction": "Du behältst den Zugang bis zum Ende deines Abrechnungszeitraums.",
+            "note": "Apple erstattet keine anteiligen Beträge."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Öffne den Google Play Store."
+          },
+          {
+            "instruction": "Tippe auf dein Profilsymbol → „Zahlungen & Abonnements“ → „Abonnements“."
+          },
+          {
+            "instruction": "Suche „Netflix“ und tippe darauf."
+          },
+          {
+            "instruction": "Tippe auf „Abonnement kündigen“ und folge den Anweisungen."
+          },
+          {
+            "instruction": "Der Zugang läuft bis zum Ende des Abrechnungszeitraums."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ich habe gekündigt, werde aber trotzdem noch belastet.",
+        "answer": "Du hast möglicherweise zwei Netflix-Konten oder hast über verschiedene Kanäle abonniert (Web vs. App Store). Prüfe sowohl deine App-Store-Abonnements als auch netflix.com/account."
+      },
+      {
+        "question": "Kann ich pausieren statt zu kündigen?",
+        "answer": "Ja. Auf netflix.com/account gibt es die Option „Mitgliedschaft pausieren“ – die Abrechnung wird für 1–3 Monate ausgesetzt."
+      },
+      {
+        "question": "Verliere ich meine Merkliste und meinen Wiedergabeverlauf?",
+        "answer": "Netflix speichert deine Daten 10 Monate nach der Kündigung. Wenn du dich innerhalb dieses Zeitraums erneut anmeldest, wird alles wiederhergestellt."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Werbefrei, 9,99 $/Monat"
+      },
+      {
+        "description": "Disney, Marvel, Star Wars – 7,99 $/Monat"
+      },
+      {
+        "description": "HBO-Inhalte – 9,99 $/Monat"
+      }
+    ]
+  },
+  "spotify": {
+    "description": "Kündige Spotify Premium in unter 60 Sekunden. Der schnellste Weg ist das Web – die App unterstützt keine direkte Kündigung.",
+    "difficultyReason": "Die Kündigung über das Web ist unkompliziert, obwohl die App keine direkte Kündigung ermöglicht.",
+    "refundPolicy": "Keine Rückerstattungen. Premium läuft bis zum Ende des Abrechnungszeitraums.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu spotify.com/account und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf „Plan ändern“ oder scrolle zu „Dein Plan“."
+          },
+          {
+            "instruction": "Scrolle nach unten und klicke auf „Premium kündigen“."
+          },
+          {
+            "instruction": "Folge den Bestätigungsschritten (Spotify bietet möglicherweise einen Rabatt an – überspringe ihn, wenn du nicht interessiert bist)."
+          },
+          {
+            "instruction": "Klicke auf „Trotzdem kündigen“, um zu bestätigen. Du erhältst eine Bestätigungs-E-Mail.",
+            "note": "Du behältst Premium bis zum Ende des Abrechnungszeitraums."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Öffne die iPhone-Einstellungen → tippe auf deinen Apple-ID-Namen."
+          },
+          {
+            "instruction": "Tippe auf „Abonnements“ → suche Spotify."
+          },
+          {
+            "instruction": "Tippe auf „Abonnement kündigen“ → Bestätigen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Öffne den Google Play Store → tippe auf dein Profilsymbol."
+          },
+          {
+            "instruction": "Gehe zu „Zahlungen & Abonnements“ → „Abonnements“."
+          },
+          {
+            "instruction": "Suche Spotify → tippe auf „Abonnement kündigen“."
+          },
+          {
+            "instruction": "Folge den Bestätigungsanweisungen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Der Button „Premium kündigen“ ist ausgegraut.",
+        "answer": "Du hast über den App Store oder Google Play abonniert. Kündige stattdessen über die Einstellungen deines Geräts – siehe den iOS- oder Android-Tab oben."
+      },
+      {
+        "question": "Spotify hat mir einen Rabatt angeboten – soll ich ihn annehmen?",
+        "answer": "Wenn du Spotify behalten möchtest, ja – manchmal werden 1–3 Monate zu 50 % Rabatt oder kostenlos angeboten. Wenn du wirklich kündigen möchtest, klicke auf „Trotzdem kündigen“."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "10,99 $/Monat, ideal wenn du im Apple-Ökosystem bist"
+      },
+      {
+        "description": "10,99 $/Monat, im YouTube-Premium-Abo enthalten"
+      }
+    ]
+  },
+  "adobe": {
+    "description": "Kündige Adobe Creative Cloud ohne Zahlung der vorzeitigen Kündigungsgebühr. Das Timing ist entscheidend – hier erfährst du genau, was zu tun ist.",
+    "difficultyReason": "Adobe berechnet bis zu 50 % der verbleibenden Vertragslaufzeit als vorzeitige Kündigungsgebühr und verwendet mehrere Haltebildschirme.",
+    "refundPolicy": "Vorzeitige Kündigungsgebühr: 50 % der verbleibenden Monate bei Kündigung im ersten Jahr. Kostenlos bei Kündigung innerhalb von 14 Tagen nach Kauf oder Verlängerung.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu account.adobe.com und melde dich an."
+          },
+          {
+            "instruction": "Klicke in der linken Seitenleiste auf „Pläne und Produkte“."
+          },
+          {
+            "instruction": "Suche deinen Creative-Cloud-Plan und klicke auf „Plan verwalten“."
+          },
+          {
+            "instruction": "Klicke auf „Plan kündigen“.",
+            "note": "Adobe zeigt dir die vorzeitige Kündigungsgebühr an dieser Stelle an."
+          },
+          {
+            "instruction": "Wähle einen Grund → Adobe macht mehrere Angebote (Rabatte, Pausen). Klicke jedes Mal auf „Weiter zur Kündigung“."
+          },
+          {
+            "instruction": "Bestätige die Kündigung. Notiere dir die Bestätigungsnummer."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Wenn du über den App Store abonniert hast: Einstellungen → Apple ID → Abonnements → Adobe → Kündigen."
+          },
+          {
+            "instruction": "Wenn du direkt bei Adobe abonniert hast: Verwende die oben beschriebenen Website-Schritte – die App unterstützt keine direkte Kündigung."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Wenn du über Google Play abonniert hast: Öffne den Play Store → Abonnements → Adobe → Kündigen."
+          },
+          {
+            "instruction": "Wenn du direkt bei Adobe abonniert hast: Verwende die oben beschriebenen Website-Schritte."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Wie vermeide ich die 50-%-Kündigungsgebühr?",
+        "answer": "Du hast zwei Möglichkeiten: (1) Kündige innerhalb von 14 Tagen nach Beginn oder Verlängerung deines Jahresplans – Adobe muss dir den vollen Betrag erstatten. (2) Warte bis dein Jahresvertrag ausläuft und kündige vor der automatischen Verlängerung."
+      },
+      {
+        "question": "Adobe hat mir die Kündigungsgebühr berechnet – kann ich das anfechten?",
+        "answer": "Wenn du der Meinung bist, dass die Gebühr falsch ist, kontaktiere den Adobe-Support und verweise auf das 14-Tage-Fenster. Wenn du außerhalb dieses Zeitraums bist, kannst du bei deinem Kreditkartenunternehmen Einspruch erheben, aber die Ergebnisse variieren."
+      },
+      {
+        "question": "Was passiert mit meinen Dateien nach der Kündigung?",
+        "answer": "Du verlierst den Zugang zu den Creative-Cloud-Apps, aber lokal gespeicherte Dateien bleiben erhalten. In der Cloud gespeicherte Dateien sind 90 Tage lang schreibgeschützt zugänglich."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Einmaliger Kauf, kein Abonnement. Alternative zu Photoshop/Illustrator."
+      },
+      {
+        "description": "12,99 $/Monat – ideal für Nicht-Designer"
+      },
+      {
+        "description": "Kostenlose Version verfügbar, am besten für UI/UX-Design"
+      }
+    ]
+  },
+  "chatgpt": {
+    "description": "Kündige ChatGPT Plus oder Pro in unter 2 Minuten. Stoppe die nächste Abbuchung ohne den aktuellen Zugang zu verlieren.",
+    "difficultyReason": "OpenAI bietet einen einfachen Kündigungsablauf ohne Haltetaktiken.",
+    "refundPolicy": "Keine Rückerstattungen. Der Zugang läuft bis zum Ende des Abrechnungszeitraums.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu chatgpt.com und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf deinen Namen oder dein Profilsymbol unten links."
+          },
+          {
+            "instruction": "Gehe zu „Einstellungen“ → „Abonnement“."
+          },
+          {
+            "instruction": "Klicke auf „Mein Abonnement verwalten“."
+          },
+          {
+            "instruction": "Klicke auf „Plan kündigen“ → Bestätigen."
+          },
+          {
+            "instruction": "Du erhältst eine Bestätigungs-E-Mail. Plus-Zugang läuft bis zum Ende des Zeitraums.",
+            "note": "ChatGPT wechselt automatisch zum kostenlosen Plan."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Öffne Einstellungen → tippe auf deinen Apple-ID-Namen → Abonnements."
+          },
+          {
+            "instruction": "Suche „ChatGPT“ → tippe darauf."
+          },
+          {
+            "instruction": "Tippe auf „Abonnement kündigen“ → Bestätigen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Öffne den Google Play Store → Profilsymbol → „Zahlungen & Abonnements“ → „Abonnements“."
+          },
+          {
+            "instruction": "Suche „ChatGPT“ → tippe auf „Abonnement kündigen“."
+          },
+          {
+            "instruction": "Folge den Bestätigungsanweisungen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ich habe gekündigt, bin aber sofort auf dem kostenlosen Plan.",
+        "answer": "Das ist bei manchen Konten normal. Der Plus-Zugang sollte bis zum Ende des Abrechnungszeitraums andauern. Falls nicht, kontaktiere support.openai.com."
+      },
+      {
+        "question": "Verliere ich meinen Gesprächsverlauf?",
+        "answer": "Nein. Deine Chats werden unabhängig vom Plan gespeichert. Du verlierst lediglich den GPT-4-Zugang, DALL-E und andere Plus-Funktionen."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Anthropics KI – kostenlose Version + 20 $/Monat Pro"
+      },
+      {
+        "description": "Googles KI – 19,99 $/Monat, in Google One AI Premium enthalten"
+      },
+      {
+        "description": "20 $/Monat – KI-Suchmaschine"
+      }
+    ]
+  },
+  "amazon-prime": {
+    "description": "Kündige Amazon Prime und erhalte möglicherweise eine Rückerstattung. Amazon macht das schwierig – folge den genauen Schritten unten.",
+    "difficultyReason": "Amazon versteckt die Kündigungsoption und zeigt mehrere Haltebildschirme, aber eine Rückerstattung ist möglich, wenn du schnell handelst.",
+    "refundPolicy": "Anteilige Rückerstattung möglich, wenn du die Prime-Vorteile im aktuellen Abrechnungszeitraum nicht genutzt hast.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu amazon.de → zeige auf „Konto und Listen“ → klicke auf „Mein Konto“."
+          },
+          {
+            "instruction": "Klicke auf „Prime“ oder suche in den Kontoeinstellungen nach „Prime-Mitgliedschaft verwalten“."
+          },
+          {
+            "instruction": "Klicke auf „Aktualisieren, kündigen und mehr“ → „Mitgliedschaft beenden“."
+          },
+          {
+            "instruction": "Wähle „Mitgliedschaft beenden“ (nicht „Später erinnern“ oder andere Optionen, die Amazon anzeigt).",
+            "note": "Amazon zeigt den Rückerstattungsbetrag an, wenn du berechtigt bist."
+          },
+          {
+            "instruction": "Klicke auf „Mitgliedschaft kündigen“, um zu bestätigen."
+          },
+          {
+            "instruction": "Prüfe deine E-Mail auf die Bestätigung."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Öffne die Amazon-Shopping-App → tippe auf die drei Linien (Menü)."
+          },
+          {
+            "instruction": "Scrolle zu „Konto“ → tippe auf „Prime-Mitgliedschaft verwalten“."
+          },
+          {
+            "instruction": "Tippe auf „Aktualisieren, kündigen und mehr“ → „Mitgliedschaft beenden“."
+          },
+          {
+            "instruction": "Folge denselben Anweisungen wie in der Web-Version."
+          },
+          {
+            "instruction": "Hinweis: Wenn du über Apple abonniert hast, kündige über iOS-Einstellungen → Abonnements."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Öffne die Amazon-Shopping-App → Menü → „Konto“."
+          },
+          {
+            "instruction": "Tippe auf „Prime-Mitgliedschaft verwalten“ → „Mitgliedschaft beenden“."
+          },
+          {
+            "instruction": "Wenn du über Google Play abonniert hast, kündige stattdessen über Play Store → Abonnements."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Habe ich Anspruch auf eine Rückerstattung?",
+        "answer": "Ja, wenn du seit deiner letzten Abbuchung keine Prime-Vorteile genutzt hast (kostenlosen Versand, Prime Video usw.). Die Rückerstattung ist anteilig. Amazon zeigt den genauen Betrag an, bevor du die Kündigung bestätigst."
+      },
+      {
+        "question": "Was passiert mit meiner Prime-Video-Merkliste?",
+        "answer": "Du verlierst sofort nach der Kündigung den Zugang zu Prime-Video-Inhalten. Deine Merkliste wird gespeichert, wenn du dich erneut anmeldest."
+      },
+      {
+        "question": "Ich habe gekündigt, werde aber trotzdem noch belastet.",
+        "answer": "Prüfe, ob du eine separate Prime-Familienmitgliedschaft hast oder ob ein Familienmitglied eine neue Mitgliedschaft begonnen hat. Melde dich an und prüfe die Kontoeinstellungen."
+      }
+    ]
+  },
+  "disney-plus": {
+    "description": "Kündige Disney+ in 5 Minuten im Web, auf iOS, Android, über Roku oder Amazon.",
+    "difficultyReason": "Die Kündigung bei Disney+ ist unkompliziert und ohne vorzeitige Kündigungsgebühren.",
+    "refundPolicy": "Keine Rückerstattungen. Der Zugang läuft bis zum Ende des Abrechnungszeitraums.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu disneyplus.com und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf dein Profilsymbol → „Konto“."
+          },
+          {
+            "instruction": "Klicke unter „Abonnement“ auf „Abonnement kündigen“."
+          },
+          {
+            "instruction": "Wähle einen Grund → Klicke auf „Weiter“."
+          },
+          {
+            "instruction": "Klicke zur Bestätigung auf „Abonnement kündigen“."
+          },
+          {
+            "instruction": "Du erhältst eine Bestätigungs-E-Mail.",
+            "note": "Der Zugang läuft bis zu deinem nächsten Abrechnungsdatum."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Öffne Einstellungen → tippe auf deinen Namen → Abonnements."
+          },
+          {
+            "instruction": "Suche „Disney+“ → tippe darauf."
+          },
+          {
+            "instruction": "Tippe auf „Abonnement kündigen“ → Bestätigen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Öffne den Google Play Store → Profil → „Zahlungen & Abonnements“ → „Abonnements“."
+          },
+          {
+            "instruction": "Suche Disney+ → tippe auf „Abonnement kündigen“."
+          },
+          {
+            "instruction": "Schließe den Bestätigungsvorgang ab."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ich sehe keinen Button „Abonnement kündigen“.",
+        "answer": "Du hast wahrscheinlich über einen Drittanbieter abonniert (Apple, Google, Amazon, Roku oder Hulu). Kündige stattdessen über die ursprüngliche Abrechnungsplattform."
+      },
+      {
+        "question": "Kann ich das Disney-Bundle (Disney+, Hulu, ESPN+) kündigen?",
+        "answer": "Ja – die Kündigung von Disney+ kündigt das gesamte Bundle. Wenn du Hulu oder ESPN+ separat behalten möchtest, musst du sie einzeln neu abonnieren."
+      }
+    ]
+  },
+  "apple-music": {
+    "description": "Kündige Apple Music auf iPhone, Mac, Android oder im Web. Inklusive Hinweisen zum Timing bei kostenlosen Testzeiträumen.",
+    "difficultyReason": "Die Kündigung von Apple Music ist in die iOS-Einstellungen integriert und dauert etwa 30 Sekunden.",
+    "refundPolicy": "Keine anteiligen Rückerstattungen. Der Zugang läuft bis zum Ende des Abrechnungszeitraums.",
+    "platforms": {
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Öffne Einstellungen → tippe oben auf deinen Namen."
+          },
+          {
+            "instruction": "Tippe auf „Abonnements“."
+          },
+          {
+            "instruction": "Tippe auf „Apple Music“."
+          },
+          {
+            "instruction": "Tippe auf „Abonnement kündigen“ → Bestätigen.",
+            "note": "Wenn du dich im kostenlosen Testzeitraum befindest, wird das Enddatum des Tests angezeigt."
+          }
+        ]
+      },
+      "web": {
+        "steps": [
+          {
+            "instruction": "Öffne die Musik-App auf dem Mac → klicke auf deinen Namen → Kontoeinstellungen. Oder besuche music.apple.com und melde dich an."
+          },
+          {
+            "instruction": "Suche „Abonnements“ → klicke auf „Verwalten“."
+          },
+          {
+            "instruction": "Suche Apple Music → klicke auf „Bearbeiten“ → „Abonnement kündigen“."
+          },
+          {
+            "instruction": "Bestätige die Kündigung."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Öffne die Apple-Music-App auf Android."
+          },
+          {
+            "instruction": "Tippe auf dein Profil → Kontoeinstellungen → Abonnements."
+          },
+          {
+            "instruction": "Tippe auf „Abonnement kündigen“ → Bestätigen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ich bin im kostenlosen Testzeitraum – wann sollte ich kündigen?",
+        "answer": "Kündige mindestens 24 Stunden vor Ende des Testzeitraums. Das genaue Enddatum wird in Einstellungen → Abonnements neben dem Apple-Music-Eintrag angezeigt."
+      },
+      {
+        "question": "Verliere ich meine Bibliothek?",
+        "answer": "Heruntergeladene Apple-Music-Titel (gestreamte Songs) werden entfernt. Musik, die du bei iTunes gekauft hast, bleibt dauerhaft dein. Deine Playlists werden gespeichert, wenn du dich erneut anmeldest."
+      }
+    ]
+  },
+  "microsoft-365": {
+    "description": "Kündige Microsoft 365 ohne deine Dateien zu verlieren. Der OneDrive-Speicher sinkt auf 5 GB – hier erfährst du, wie du dich vorbereitest.",
+    "difficultyReason": "Die Kündigung ist unter mehreren Menüs versteckt, und du riskierst, sofort OneDrive-Speicher zu verlieren.",
+    "refundPolicy": "Anteilige Rückerstattung für Jahresabonnements innerhalb von 30 Tagen möglich.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu account.microsoft.com und melde dich an."
+          },
+          {
+            "instruction": "Klicke oben in der Navigation auf „Dienste und Abonnements“."
+          },
+          {
+            "instruction": "Suche Microsoft 365 → klicke auf „Verwalten“."
+          },
+          {
+            "instruction": "Klicke unter den Abonnementdetails auf „Kündigen“."
+          },
+          {
+            "instruction": "Folge den Anweisungen. Microsoft bietet möglicherweise einen Rabatt an – überspringe ihn, wenn du kündigen möchtest.",
+            "note": "Wenn du mehr als 5 GB auf OneDrive hast, lade deine Dateien zuerst herunter."
+          },
+          {
+            "instruction": "Bestätige die Kündigung. Du erhältst eine Bestätigungs-E-Mail."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Wenn du über den App Store abonniert hast: Einstellungen → Apple ID → Abonnements → Microsoft 365 → Kündigen."
+          },
+          {
+            "instruction": "Wenn du direkt bei Microsoft abonniert hast: Verwende die oben beschriebenen Website-Schritte."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Wenn du über Google Play abonniert hast: Play Store → Abonnements → Microsoft 365 → Kündigen."
+          },
+          {
+            "instruction": "Wenn du direkt abonniert hast: Verwende die oben beschriebenen Website-Schritte."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Was passiert mit meinen Office-Apps (Word, Excel, PowerPoint)?",
+        "answer": "Die Apps wechseln nach der Kündigung in den „Nur-Lesen“-Modus. Du kannst Dokumente anzeigen, aber nicht bearbeiten. Microsoft 365 im Web (Office.com) bleibt mit eingeschränkten Funktionen kostenlos."
+      },
+      {
+        "question": "Was passiert mit meinem OneDrive-Speicher?",
+        "answer": "Dein Speicher sinkt auf das kostenlose Limit von 5 GB. Wenn du mehr Daten hast, hast du 30 Tage Zeit, um Dateien herunterzuladen oder zu löschen, bevor Microsoft den Zugang einschränkt."
+      },
+      {
+        "question": "Kann ich eine Rückerstattung erhalten?",
+        "answer": "Ja, für Jahresabonnements, die innerhalb von 30 Tagen nach Kauf oder Verlängerung gekündigt werden. Monatsabonnements werden nicht erstattet. Wende dich für Jahreserstattungen an den Microsoft-Support."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Docs, Tabellen, Präsentationen – kostenlos mit Google-Konto"
+      },
+      {
+        "description": "Kostenlose Open-Source-Office-Alternative"
+      }
+    ]
+  },
+  "claude": {
+    "description": "Kündige Claude Pro oder ein Team-Abonnement in unter 3 Minuten über das Web oder die Apple-Einstellungen.",
+    "difficultyReason": "Anthropic bietet einen einfachen Kündigungsablauf ohne Haltetaktiken.",
+    "refundPolicy": "Keine Rückerstattungen. Der Zugang läuft bis zum Ende des Abrechnungszeitraums.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu claude.ai und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf dein Profilsymbol → „Einstellungen“."
+          },
+          {
+            "instruction": "Gehe in der Seitenleiste zu „Abrechnung“."
+          },
+          {
+            "instruction": "Klicke auf „Plan kündigen“ oder „Abonnement kündigen“."
+          },
+          {
+            "instruction": "Bestätige die Kündigung.",
+            "note": "Der Pro-Zugang läuft bis zum Ende deines Abrechnungszeitraums."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Wenn du über den App Store abonniert hast: Einstellungen → Apple ID → Abonnements → Claude → Kündigen."
+          },
+          {
+            "instruction": "Wenn du direkt bei Anthropic abonniert hast: Verwende die oben beschriebenen Website-Schritte."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Öffne den Google Play Store → Profil → Abonnements."
+          },
+          {
+            "instruction": "Suche Claude → tippe auf „Abonnement kündigen“ → Bestätigen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Verliere ich meinen Gesprächsverlauf?",
+        "answer": "Nein. Alle deine Gespräche werden gespeichert und sind auch im kostenlosen Plan zugänglich."
+      },
+      {
+        "question": "Was verliere ich beim Wechsel auf den kostenlosen Plan?",
+        "answer": "Du verlierst den Vorrangzugang zu Stoßzeiten, den Zugang zu Claudes leistungsfähigsten Modellen (Opus) und höhere Nutzungslimits."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "20 $/Monat – OpenAIs GPT-4o und mehr"
+      },
+      {
+        "description": "19,99 $/Monat – Googles leistungsfähigste KI"
+      }
+    ]
+  },
+  "youtube-premium": {
+    "description": "Kündige YouTube Premium in unter 3 Minuten im Web, auf iOS oder Android.",
+    "difficultyReason": "Die Kündigung von YouTube Premium ist im Web schnell, obwohl die mobile App einige zusätzliche Schritte erfordert.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu youtube.com/paid_memberships und melde dich an."
+          },
+          {
+            "instruction": "Suche „YouTube Premium“ → klicke auf „Mitgliedschaft verwalten“."
+          },
+          {
+            "instruction": "Klicke auf „Deaktivieren“."
+          },
+          {
+            "instruction": "Folge den Bestätigungsschritten → klicke auf „Weiter zur Kündigung“."
+          },
+          {
+            "instruction": "Bestätigen. Du behältst Premium bis zum Ende deines Abrechnungszeitraums.",
+            "note": "YouTube Music Premium ist inbegriffen und wird ebenfalls gekündigt."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Öffne Einstellungen → tippe auf deinen Namen → Abonnements."
+          },
+          {
+            "instruction": "Suche „YouTube Premium“ → tippe darauf."
+          },
+          {
+            "instruction": "Tippe auf „Abonnement kündigen“ → Bestätigen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Öffne den Google Play Store → Profil → „Zahlungen & Abonnements“ → Abonnements."
+          },
+          {
+            "instruction": "Suche „YouTube Premium“ → tippe auf „Abonnement kündigen“."
+          },
+          {
+            "instruction": "Folge dem Bestätigungsvorgang."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Wird durch die Kündigung von YouTube Premium auch YouTube Music gekündigt?",
+        "answer": "Ja – YouTube Music Premium ist mit YouTube Premium gebündelt und wird zusammen gekündigt."
+      },
+      {
+        "question": "Ich kann den Button „Deaktivieren“ nicht finden.",
+        "answer": "Wenn du über die iOS- oder Android-App abonniert hast, musst du über die Abonnementeinstellungen deines Geräts kündigen, nicht direkt über YouTube."
+      }
+    ]
+  },
+  "hulu": {
+    "description": "Kündige Hulu im Web, auf iOS, Android oder über Amazon in 5 Minuten. Inklusive Disney-Bundle-Kündigung.",
+    "difficultyReason": "Hulu verwendet mehrere Bestätigungsbildschirme und bietet Rabatte an, bevor du kündigen kannst.",
+    "refundPolicy": "Keine Rückerstattungen. Der Zugang läuft bis zum Ende des Abrechnungszeitraums.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu hulu.com und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf dein Profilsymbol → „Konto“."
+          },
+          {
+            "instruction": "Klicke unter „Dein Abonnement“ auf „Kündigen“."
+          },
+          {
+            "instruction": "Wähle einen Grund → Hulu macht Angebote. Klicke auf „Weiter zur Kündigung“."
+          },
+          {
+            "instruction": "Klicke zur Bestätigung auf „Abonnement kündigen“."
+          },
+          {
+            "instruction": "Du erhältst eine Bestätigungs-E-Mail."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Öffne Einstellungen → tippe auf deinen Namen → Abonnements."
+          },
+          {
+            "instruction": "Suche „Hulu“ → tippe darauf."
+          },
+          {
+            "instruction": "Tippe auf „Abonnement kündigen“ → Bestätigen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Öffne den Google Play Store → Profil → Abonnements → suche Hulu."
+          },
+          {
+            "instruction": "Tippe auf „Abonnement kündigen“ → folge den Anweisungen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ich habe das Disney-Bundle – wird durch die Kündigung von Hulu auch Disney+ gekündigt?",
+        "answer": "Nein. Das Disney-Bundle wird über die Hulu-Abrechnung verwaltet. Die Kündigung von Hulu kündigt das gesamte Bundle. Wenn du Disney+ separat möchtest, abonniere es nach der Kündigung direkt über Disney."
+      },
+      {
+        "question": "Ich kann den Kündigungsbutton auf meiner Kontoseite nicht finden.",
+        "answer": "Wenn du über einen Drittanbieter abonniert hast (Amazon, Roku, Apple oder Google), musst du über diese Plattform kündigen – der Kündigungsbutton erscheint nicht auf der Hulu-Website."
+      }
+    ]
+  },
+  "nordvpn": {
+    "description": "Kündige NordVPN und erhalte eine vollständige Rückerstattung, wenn du dich innerhalb von 30 Tagen nach dem Kauf befindest. Dauert unter 5 Minuten.",
+    "difficultyReason": "NordVPN bietet eine 30-tägige Geld-zurück-Garantie und einen einfachen Kündigungsablauf.",
+    "refundPolicy": "30-tägige Geld-zurück-Garantie. Fordere eine Rückerstattung per Live-Chat oder E-Mail innerhalb von 30 Tagen an.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu my.nordaccount.com und melde dich an."
+          },
+          {
+            "instruction": "Klicke in der linken Seitenleiste auf „Abrechnung“ oder „Abonnement“."
+          },
+          {
+            "instruction": "Suche deinen Plan → klicke auf „Automatische Verlängerung kündigen“ oder „Abonnement kündigen“."
+          },
+          {
+            "instruction": "Bestätige die Kündigung."
+          },
+          {
+            "instruction": "Für eine Rückerstattung: Starte einen Live-Chat auf nordvpn.com/support und fordere sie an. Rückerstattungen werden innerhalb von 5–10 Werktagen bearbeitet.",
+            "note": "NordVPN bietet keine Rückerstattungen über das Konto-Dashboard an – du musst den Support kontaktieren."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Wenn du über den App Store abonniert hast: Einstellungen → Apple ID → Abonnements → NordVPN → Kündigen."
+          },
+          {
+            "instruction": "Hinweis: App-Store-Abonnements sind nicht für die NordVPN-30-Tage-Rückerstattung berechtigt. Wende dich stattdessen an Apple."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Wenn du über Google Play abonniert hast: Play Store → Abonnements → NordVPN → Kündigen."
+          },
+          {
+            "instruction": "Für Rückerstattungen bei Play-Käufen wende dich innerhalb von 48 Stunden an den Google-Play-Support."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ich bin nach 30 Tagen – kann ich noch eine Rückerstattung bekommen?",
+        "answer": "Die 30-Tage-Garantie ist bindend. Danach sind keine Rückerstattungen mehr möglich. Du kannst die automatische Verlängerung trotzdem kündigen, damit du nicht erneut belastet wirst."
+      },
+      {
+        "question": "Ich kann die Kündigungsoption in meinem Konto nicht finden.",
+        "answer": "Wenn du über einen Drittanbieter abonniert hast (App Store, Google Play oder einen Händler wie Amazon), musst du über diese Plattform kündigen."
+      }
+    ]
+  }
+}

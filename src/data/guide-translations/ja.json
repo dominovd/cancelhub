@@ -1,0 +1,528 @@
+{
+  "netflix": {
+    "description": "Netflixのサブスクリプションを2分以内にキャンセルできます。手順はウェブ、iOS、Android、Rokuで利用できます。",
+    "difficultyReason": "Netflixはアカウント設定から2回のクリックでキャンセルでき、引き止め工作はありません。",
+    "refundPolicy": "返金はありません。請求期間終了までアクセスは継続されます。",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "netflix.comにアクセスしてサインインします。" },
+          { "instruction": "プロフィールアイコンをクリック →「アカウント」。" },
+          { "instruction": "「メンバーシップ」の下にある「メンバーシップをキャンセル」をクリックします。" },
+          { "instruction": "「キャンセルを完了する」をクリックして確認します。" },
+          { "instruction": "確認メールが届きます。記録として保存しておいてください。", "note": "現在の請求期間終了までアクセスは継続されます。" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "iPhoneの設定を開く →上部にある自分の名前をタップ。" },
+          { "instruction": "「サブスクリプション」をタップします。" },
+          { "instruction": "「Netflix」を見つけてタップします。" },
+          { "instruction": "「サブスクリプションをキャンセル」をタップ → 確認。" },
+          { "instruction": "請求期間終了までアクセスは継続されます。", "note": "Appleは一部返金を行いません。" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Google Playストアを開きます。" },
+          { "instruction": "プロフィールアイコンをタップ →「お支払いとサブスクリプション」→「サブスクリプション」。" },
+          { "instruction": "「Netflix」を見つけてタップします。" },
+          { "instruction": "「サブスクリプションをキャンセル」をタップし、画面の指示に従います。" },
+          { "instruction": "請求期間終了までアクセスは継続されます。" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "キャンセルしたのにまだ請求されています。",
+        "answer": "Netflixアカウントが2つあるか、異なる経路（ウェブとApp Store）で登録している可能性があります。アプリストアのサブスクリプションとnetflix.com/accountの両方を確認してください。"
+      },
+      {
+        "question": "キャンセルの代わりに一時停止できますか？",
+        "answer": "はい。netflix.com/accountで「メンバーシップを一時停止」を探してください — 1〜3か月間請求を一時停止できます。"
+      },
+      {
+        "question": "視聴リストや視聴履歴は失われますか？",
+        "answer": "Netflixはキャンセル後10か月間データを保持します。その期間内に再登録すると、すべてのデータが復元されます。"
+      }
+    ],
+    "alternatives": [
+      { "description": "広告なし、月額$9.99" },
+      { "description": "ディズニー、マーベル、スター・ウォーズ — 月額$7.99" },
+      { "description": "HBOコンテンツ — 月額$9.99" }
+    ]
+  },
+  "spotify": {
+    "description": "Spotify Premiumを60秒以内にキャンセルできます。ウェブが最速の方法です — アプリからは直接キャンセルできません。",
+    "difficultyReason": "ウェブでのキャンセルは簡単ですが、アプリは直接キャンセルに対応していません。",
+    "refundPolicy": "返金はありません。Premiumは請求期間終了まで継続されます。",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "spotify.com/accountにアクセスしてログインします。" },
+          { "instruction": "「プランを変更」をクリックするか、「現在のプラン」までスクロールします。" },
+          { "instruction": "下にスクロールして「Premiumをキャンセル」をクリックします。" },
+          { "instruction": "確認手順に従います（Spotifyが割引を提案する場合があります — 不要であればスキップしてください）。" },
+          { "instruction": "「それでもキャンセル」をクリックして確認します。確認メールが届きます。", "note": "請求期間終了までPremiumは継続されます。" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "iPhoneの設定を開く → Apple IDの名前をタップ。" },
+          { "instruction": "「サブスクリプション」をタップ → Spotifyを見つける。" },
+          { "instruction": "「サブスクリプションをキャンセル」をタップ → 確認。" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Google Playストアを開く → プロフィールアイコンをタップ。" },
+          { "instruction": "「お支払いとサブスクリプション」→「サブスクリプション」へ進む。" },
+          { "instruction": "Spotifyを見つけ →「サブスクリプションをキャンセル」をタップ。" },
+          { "instruction": "確認の指示に従います。" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "「Premiumをキャンセル」ボタンがグレーアウトしています。",
+        "answer": "App StoreまたはGoogle Play経由でサブスクリプションしています。デバイスの設定からキャンセルしてください — 上のiOSまたはAndroidタブをご覧ください。"
+      },
+      {
+        "question": "Spotifyが割引を提案しましたが、受け入れるべきですか？",
+        "answer": "Spotifyを使い続けたい場合はyes — 50%オフや無料の1〜3か月を提供することがあります。本当にキャンセルしたい場合は「それでもキャンセル」をクリックしてください。"
+      }
+    ],
+    "alternatives": [
+      { "description": "月額$10.99、Appleエコシステムに最適" },
+      { "description": "月額$10.99、YouTube Premiumに付属" }
+    ]
+  },
+  "adobe": {
+    "description": "早期解約手数料を払わずにAdobe Creative Cloudをキャンセルする方法。タイミングが重要です — 具体的な手順をご確認ください。",
+    "difficultyReason": "Adobeは残りの契約期間の最大50%を早期解約手数料として請求し、複数の引き止め画面を表示します。",
+    "refundPolicy": "早期解約手数料：最初の1年以内にキャンセルした場合、残りの月数の50%。購入または更新から14日以内にキャンセルした場合は無料。",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "account.adobe.comにアクセスしてサインインします。" },
+          { "instruction": "左のサイドバーから「プランと製品」をクリックします。" },
+          { "instruction": "Creative Cloudプランを見つけて「プランを管理」をクリックします。" },
+          { "instruction": "「プランをキャンセル」をクリックします。", "note": "この時点でAdobeが早期解約手数料を表示します。" },
+          { "instruction": "理由を選択 → Adobeが複数のオファー（割引、一時停止）をします。毎回「キャンセルを続ける」をクリックしてください。" },
+          { "instruction": "キャンセルを確認します。確認番号を保存してください。" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "App Store経由で購入した場合：設定 → Apple ID → サブスクリプション → Adobe → キャンセル。" },
+          { "instruction": "Adobe直接購入の場合：上記のウェブサイトの手順を使用してください — アプリは直接キャンセルに対応していません。" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Google Play経由で購入した場合：Playストア → サブスクリプション → Adobe → キャンセル。" },
+          { "instruction": "Adobe直接購入の場合：上記のウェブサイトの手順を使用してください。" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "50%の早期解約手数料を避けるにはどうすればいいですか？",
+        "answer": "2つの方法があります：(1) 年間プランの開始または更新から14日以内にキャンセルする — Adobeは全額返金する必要があります。(2) 年間契約が終了するまで待ち、自動更新前にキャンセルする。"
+      },
+      {
+        "question": "Adobeに早期解約手数料を請求されました — 異議申し立てできますか？",
+        "answer": "請求が誤りだと思う場合は、Adobeサポートに連絡して14日間の条件を伝えてください。その期間外であれば、クレジットカード会社に異議申し立てをすることもできますが、結果はさまざまです。"
+      },
+      {
+        "question": "キャンセル後、ファイルはどうなりますか？",
+        "answer": "Creative Cloudアプリへのアクセスは失われますが、ローカルに保存されたファイルは残ります。クラウド保存されたファイルは90日間読み取り専用でアクセスできます。"
+      }
+    ],
+    "alternatives": [
+      { "description": "買い切り、サブスクリプション不要。Photoshop/Illustratorの代替。" },
+      { "description": "月額$12.99 — デザイナー以外に最適" },
+      { "description": "無料プランあり、UI/UXデザインに最適" }
+    ]
+  },
+  "chatgpt": {
+    "description": "ChatGPT PlusまたはProを2分以内にキャンセルできます。現在のアクセスを失わずに次回の請求を止めます。",
+    "difficultyReason": "OpenAIは引き止め工作なしのシンプルなキャンセルフローを提供しています。",
+    "refundPolicy": "返金はありません。アクセスは請求期間終了まで継続されます。",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "chatgpt.comにアクセスしてサインインします。" },
+          { "instruction": "左下の名前またはプロフィールアイコンをクリックします。" },
+          { "instruction": "「設定」→「サブスクリプション」へ進みます。" },
+          { "instruction": "「サブスクリプションを管理する」をクリックします。" },
+          { "instruction": "「プランをキャンセル」→ 確認をクリックします。" },
+          { "instruction": "確認メールが届きます。Plusのアクセスは期間終了まで継続されます。", "note": "ChatGPTは自動的に無料プランに戻ります。" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "設定を開く → Apple IDの名前をタップ → サブスクリプション。" },
+          { "instruction": "「ChatGPT」を見つけてタップします。" },
+          { "instruction": "「サブスクリプションをキャンセル」をタップ → 確認。" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Google Playストアを開く → プロフィールアイコン →「お支払いとサブスクリプション」→「サブスクリプション」。" },
+          { "instruction": "「ChatGPT」を見つけ →「サブスクリプションをキャンセル」をタップ。" },
+          { "instruction": "確認の指示に従います。" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "キャンセルしたのに即座に無料プランになりました。",
+        "answer": "一部のアカウントでは想定される動作です。Plusのアクセスは請求期間終了まで継続されるはずです。継続されない場合は、support.openai.comにお問い合わせください。"
+      },
+      {
+        "question": "会話履歴は失われますか？",
+        "answer": "いいえ。チャット履歴はプランに関わらず保存されます。失われるのはGPT-4、DALL-Eおよびその他のPlusの機能へのアクセスのみです。"
+      }
+    ],
+    "alternatives": [
+      { "description": "AnthropicのAI — 無料プラン＋月額$20のPro" },
+      { "description": "GoogleのAI — 月額$19.99、Google One AI Premiumに付属" },
+      { "description": "月額$20 — AI検索エンジン" }
+    ]
+  },
+  "amazon-prime": {
+    "description": "Amazon Primeをキャンセルして場合によっては返金を受ける方法。Amazonは手順をわかりにくくしています — 以下の手順をそのまま実行してください。",
+    "difficultyReason": "Amazonはキャンセルオプションを隠し、複数の引き止め画面を表示しますが、素早く行動すれば返金が可能です。",
+    "refundPolicy": "現在の請求期間中にPrime特典を使用していない場合、日割り計算での返金が可能です。",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "amazon.co.jpにアクセス →「アカウント＆リスト」にカーソルを合わせ →「アカウントサービス」をクリック。" },
+          { "instruction": "「Prime」をクリックするか、アカウント設定で「Primeを管理する」を検索します。" },
+          { "instruction": "「更新、キャンセルなど」→「会員資格を終了する」をクリックします。" },
+          { "instruction": "「会員資格を終了する」を選択します（Amazonが表示する「後で通知する」などのオプションは選ばないこと）。", "note": "対象となる場合、Amazonは返金額を表示します。" },
+          { "instruction": "「会員資格をキャンセルする」をクリックして確認します。" },
+          { "instruction": "確認メールをご確認ください。" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Amazon Shoppingアプリを開く → 三本線（メニュー）をタップ。" },
+          { "instruction": "「アカウント」までスクロール →「Primeを管理する」をタップ。" },
+          { "instruction": "「更新、キャンセルなど」→「会員資格を終了する」をタップ。" },
+          { "instruction": "ウェブ版と同じ手順に従います。" },
+          { "instruction": "注意：Apple経由で購入した場合は、iOS設定 → サブスクリプションからキャンセルしてください。" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Amazon Shoppingアプリを開く → メニュー →「アカウント」。" },
+          { "instruction": "「Primeを管理する」→「会員資格を終了する」をタップ。" },
+          { "instruction": "Google Play経由で購入した場合は、Playストア → サブスクリプションからキャンセルしてください。" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "返金の対象になりますか？",
+        "answer": "はい、前回の請求以降にPrime特典（無料配送、Prime Videoなど）を利用していない場合に対象となります。返金は日割り計算です。キャンセル確認前にAmazonが正確な金額を表示します。"
+      },
+      {
+        "question": "Prime Videoのウォッチリストはどうなりますか？",
+        "answer": "キャンセル後はすぐにPrime Videoコンテンツへのアクセスを失います。再登録するとウォッチリストは保存されています。"
+      },
+      {
+        "question": "キャンセルしたのにまだ請求されています。",
+        "answer": "別の家族プライム会員がいるか、家族が新しい会員を開始した可能性があります。ログインしてアカウント設定を確認してください。"
+      }
+    ]
+  },
+  "disney-plus": {
+    "description": "Disney+をウェブ、iOS、Android、またはRokuやAmazonから5分でキャンセルできます。",
+    "difficultyReason": "Disney+のキャンセルは早期解約手数料なしで簡単に行えます。",
+    "refundPolicy": "返金はありません。アクセスは請求期間終了まで継続されます。",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "disneyplus.comにアクセスしてサインインします。" },
+          { "instruction": "プロフィールアイコンをクリック →「アカウント」。" },
+          { "instruction": "「サブスクリプション」の下にある「サブスクリプションをキャンセル」をクリックします。" },
+          { "instruction": "理由を選択 →「続ける」をクリックします。" },
+          { "instruction": "「サブスクリプションをキャンセル」をクリックして確認します。" },
+          { "instruction": "確認メールが届きます。", "note": "請求日までアクセスは継続されます。" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "設定を開く → 名前をタップ → サブスクリプション。" },
+          { "instruction": "「Disney+」を見つけてタップします。" },
+          { "instruction": "「サブスクリプションをキャンセル」をタップ → 確認。" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Google Playストアを開く → プロフィール →「お支払いとサブスクリプション」→「サブスクリプション」。" },
+          { "instruction": "Disney+を見つけ →「サブスクリプションをキャンセル」をタップ。" },
+          { "instruction": "確認フローを完了します。" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "「サブスクリプションをキャンセル」ボタンが表示されません。",
+        "answer": "第三者（Apple、Google、Amazon、Roku、またはHulu）経由でサブスクリプションしている可能性があります。元の請求プラットフォームからキャンセルしてください。"
+      },
+      {
+        "question": "Disneyバンドル（Disney+、Hulu、ESPN+）をキャンセルできますか？",
+        "answer": "はい — Disney+をキャンセルするとバンドル全体がキャンセルされます。HuluやESPN+を個別に継続したい場合は、それぞれに個別に再登録する必要があります。"
+      }
+    ]
+  },
+  "apple-music": {
+    "description": "iPhone、Mac、Android、またはウェブでApple Musicをキャンセルできます。無料トライアル期間のタイミングも説明しています。",
+    "difficultyReason": "Apple MusicのキャンセルはiOSの設定から行え、約30秒で完了します。",
+    "refundPolicy": "一部返金はありません。アクセスは請求期間終了まで継続されます。",
+    "platforms": {
+      "ios": {
+        "steps": [
+          { "instruction": "設定を開く → 上部の自分の名前をタップ。" },
+          { "instruction": "「サブスクリプション」をタップします。" },
+          { "instruction": "「Apple Music」をタップします。" },
+          { "instruction": "「サブスクリプションをキャンセル」をタップ → 確認。", "note": "無料トライアル中の場合、トライアルの終了日が表示されます。" }
+        ]
+      },
+      "web": {
+        "steps": [
+          { "instruction": "MacのMusicアプリを開く → 自分の名前をクリック → アカウント設定。またはmusic.apple.comにアクセスしてサインインします。" },
+          { "instruction": "「サブスクリプション」を見つけ →「管理」をクリックします。" },
+          { "instruction": "Apple Musicを見つけ →「編集」→「サブスクリプションをキャンセル」をクリックします。" },
+          { "instruction": "キャンセルを確認します。" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "AndroidでApple Musicアプリを開きます。" },
+          { "instruction": "プロフィールをタップ → アカウント設定 → サブスクリプション。" },
+          { "instruction": "「サブスクリプションをキャンセル」をタップ → 確認。" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "無料トライアル中ですが、いつキャンセルすればいいですか？",
+        "answer": "トライアル終了の少なくとも24時間前にキャンセルしてください。正確な終了日は、設定 → サブスクリプションのApple Musicの横に表示されています。"
+      },
+      {
+        "question": "ライブラリは失われますか？",
+        "answer": "Apple Musicのトラック（ストリーミング楽曲）は削除されます。iTunesで購入した音楽は永続的にあなたのものです。再登録するとプレイリストは保存されています。"
+      }
+    ]
+  },
+  "microsoft-365": {
+    "description": "ファイルを失わずにMicrosoft 365をキャンセルする方法。OneDriveのストレージが5GBに減少します — 準備方法をご説明します。",
+    "difficultyReason": "キャンセルオプションが複数のメニューの奥に隠れており、OneDriveのストレージをすぐに失うリスクがあります。",
+    "refundPolicy": "年間サブスクリプションは30日以内に日割り計算での返金が可能です。",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "account.microsoft.comにアクセスしてサインインします。" },
+          { "instruction": "上部ナビゲーションの「サービスとサブスクリプション」をクリックします。" },
+          { "instruction": "Microsoft 365を見つけ →「管理」をクリックします。" },
+          { "instruction": "サブスクリプションの詳細の下にある「キャンセル」をクリックします。" },
+          { "instruction": "指示に従います。Microsoftが割引を提案する場合があります — キャンセルしたい場合はスキップしてください。", "note": "OneDriveに5GB以上のデータがある場合は、先にファイルをダウンロードしてください。" },
+          { "instruction": "キャンセルを確認します。確認メールが届きます。" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "App Store経由で購入した場合：設定 → Apple ID → サブスクリプション → Microsoft 365 → キャンセル。" },
+          { "instruction": "Microsoft直接購入の場合：上記のウェブサイトの手順を使用してください。" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Google Play経由で購入した場合：Playストア → サブスクリプション → Microsoft 365 → キャンセル。" },
+          { "instruction": "直接購入の場合：上記のウェブサイトの手順を使用してください。" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Officeアプリ（Word、Excel、PowerPoint）はどうなりますか？",
+        "answer": "キャンセル後、アプリは「読み取り専用」モードに切り替わります。文書の表示はできますが編集はできません。ウェブ上のMicrosoft 365（Office.com）は機能制限付きで無料のまま使用できます。"
+      },
+      {
+        "question": "OneDriveのストレージはどうなりますか？",
+        "answer": "ストレージは無料の5GBの上限まで削減されます。それ以上のデータがある場合は、Microsoftがアクセスを制限する前に30日以内にファイルをダウンロードまたは削除してください。"
+      },
+      {
+        "question": "返金は受けられますか？",
+        "answer": "はい、購入または更新から30日以内にキャンセルした年間サブスクリプションに対して可能です。月次サブスクリプションは返金されません。年間返金についてはMicrosoftサポートにお問い合わせください。"
+      }
+    ],
+    "alternatives": [
+      { "description": "ドキュメント、スプレッドシート、スライド — Googleアカウントで無料" },
+      { "description": "無料のオープンソースOffice代替" }
+    ]
+  },
+  "claude": {
+    "description": "Claude ProまたはTeamサブスクリプションをウェブまたはAppleの設定から3分以内にキャンセルできます。",
+    "difficultyReason": "Anthropicは引き止め工作なしのシンプルなキャンセルフローを提供しています。",
+    "refundPolicy": "返金はありません。アクセスは請求期間終了まで継続されます。",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "claude.aiにアクセスしてサインインします。" },
+          { "instruction": "プロフィールアイコンをクリック →「設定」。" },
+          { "instruction": "サイドバーの「請求」へ進みます。" },
+          { "instruction": "「プランをキャンセル」または「サブスクリプションをキャンセル」をクリックします。" },
+          { "instruction": "キャンセルを確認します。", "note": "Proアクセスは請求期間終了まで継続されます。" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "App Store経由で購入した場合：設定 → Apple ID → サブスクリプション → Claude → キャンセル。" },
+          { "instruction": "Anthropic直接購入の場合：上記のウェブサイトの手順を使用してください。" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Google Playストアを開く → プロフィール → サブスクリプション。" },
+          { "instruction": "Claudeを見つけ →「サブスクリプションをキャンセル」をタップ → 確認。" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "会話履歴は失われますか？",
+        "answer": "いいえ。すべての会話は保存され、無料プランでもアクセス可能です。"
+      },
+      {
+        "question": "無料プランにダウングレードすると何を失いますか？",
+        "answer": "ピーク時の優先アクセス、Claudeの最も高性能なモデル（Opus）へのアクセス、および高い使用量上限を失います。"
+      }
+    ],
+    "alternatives": [
+      { "description": "月額$20 — OpenAIのGPT-4oなど" },
+      { "description": "月額$19.99 — GoogleのAI" }
+    ]
+  },
+  "youtube-premium": {
+    "description": "YouTube Premiumをウェブ、iOS、またはAndroidで3分以内にキャンセルできます。",
+    "difficultyReason": "YouTube Premiumのキャンセルはウェブでは素早くできますが、モバイルアプリではタップが数回多く必要です。",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "youtube.com/paid_membershipsにアクセスしてサインインします。" },
+          { "instruction": "「YouTube Premium」を見つけ →「メンバーシップを管理する」をクリック。" },
+          { "instruction": "「無効にする」をクリックします。" },
+          { "instruction": "確認手順に従い →「キャンセルを続ける」をクリックします。" },
+          { "instruction": "確認します。請求期間終了までPremiumは継続されます。", "note": "YouTube Music Premiumも含まれており、同時にキャンセルされます。" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "設定を開く → 名前をタップ → サブスクリプション。" },
+          { "instruction": "「YouTube Premium」を見つけてタップします。" },
+          { "instruction": "「サブスクリプションをキャンセル」をタップ → 確認。" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Google Playストアを開く → プロフィール →「お支払いとサブスクリプション」→ サブスクリプション。" },
+          { "instruction": "「YouTube Premium」を見つけ →「サブスクリプションをキャンセル」をタップ。" },
+          { "instruction": "確認フローに従います。" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "YouTube PremiumをキャンセルするとYouTube Musicもキャンセルされますか？",
+        "answer": "はい — YouTube Music PremiumはYouTube Premiumにバンドルされており、同時にキャンセルされます。"
+      },
+      {
+        "question": "「無効にする」ボタンが見つかりません。",
+        "answer": "iOSまたはAndroidアプリで購入した場合は、YouTube上ではなくデバイスのサブスクリプション設定からキャンセルする必要があります。"
+      }
+    ]
+  },
+  "hulu": {
+    "description": "Huluをウェブ、iOS、Android、またはAmazonから5分でキャンセルできます。Disneyバンドルのキャンセル方法も含みます。",
+    "difficultyReason": "Huluはキャンセル前に複数の確認画面を表示し、割引を提案します。",
+    "refundPolicy": "返金はありません。アクセスは請求期間終了まで継続されます。",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "hulu.comにアクセスしてサインインします。" },
+          { "instruction": "プロフィールアイコンをクリック →「アカウント」。" },
+          { "instruction": "「サブスクリプション」の下にある「キャンセル」をクリックします。" },
+          { "instruction": "理由を選択 → Huluがオファーをします。「キャンセルを続ける」をクリックします。" },
+          { "instruction": "「サブスクリプションをキャンセル」をクリックして確認します。" },
+          { "instruction": "確認メールが届きます。" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "設定を開く → 名前をタップ → サブスクリプション。" },
+          { "instruction": "「Hulu」を見つけてタップします。" },
+          { "instruction": "「サブスクリプションをキャンセル」をタップ → 確認。" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Google Playストアを開く → プロフィール → サブスクリプション → Huluを見つける。" },
+          { "instruction": "「サブスクリプションをキャンセル」をタップ → 指示に従います。" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Disneyバンドルに加入していますが、HuluをキャンセルするとDisney+もキャンセルされますか？",
+        "answer": "いいえ。DisneyバンドルはHuluの請求で管理されています。Huluをキャンセルするとバンドル全体がキャンセルされます。Disney+を個別に継続したい場合は、キャンセル後にDisney経由で直接登録してください。"
+      },
+      {
+        "question": "アカウントページにキャンセルボタンが見つかりません。",
+        "answer": "第三者（Amazon、Roku、Apple、またはGoogle）経由で購入した場合は、そのプラットフォームからキャンセルする必要があります — HuluのウェブサイトにはキャンセルボタンAfterが表示されません。"
+      }
+    ]
+  },
+  "nordvpn": {
+    "description": "NordVPNをキャンセルして、購入から30日以内であれば全額返金を受けられます。5分以内に完了します。",
+    "difficultyReason": "NordVPNは30日間の返金保証とシンプルなキャンセルフローを提供しています。",
+    "refundPolicy": "30日間の返金保証。購入から30日以内にライブチャットまたはメールで返金をリクエストしてください。",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "my.nordaccount.comにアクセスしてサインインします。" },
+          { "instruction": "左のサイドバーから「請求」または「サブスクリプション」をクリックします。" },
+          { "instruction": "プランを見つけ →「自動更新をキャンセル」または「サブスクリプションをキャンセル」をクリックします。" },
+          { "instruction": "キャンセルを確認します。" },
+          { "instruction": "返金を希望する場合：nordvpn.com/supportでライブチャットを開始してリクエストしてください。返金は5〜10営業日で処理されます。", "note": "NordVPNはアカウントダッシュボードから返金を行っていません — サポートに連絡する必要があります。" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "App Store経由で購入した場合：設定 → Apple ID → サブスクリプション → NordVPN → キャンセル。" },
+          { "instruction": "注意：App Storeのサブスクリプションは、NordVPNの30日間返金保証の対象外です。Appleにお問い合わせください。" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Google Play経由で購入した場合：Playストア → サブスクリプション → NordVPN → キャンセル。" },
+          { "instruction": "Play購入の返金については、48時間以内にGoogle Playサポートにお問い合わせください。" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "30日を過ぎていますが、まだ返金を受けられますか？",
+        "answer": "30日間保証は絶対的なものです。それ以降は返金がありません。ただし、自動更新をキャンセルすることで再度請求されることはなくなります。"
+      },
+      {
+        "question": "アカウントにキャンセルオプションが見つかりません。",
+        "answer": "第三者（App Store、Google Play、またはAmazonなどのリセラー）経由で購入した場合は、そのプラットフォームからキャンセルする必要があります。"
+      }
+    ]
+  }
+}

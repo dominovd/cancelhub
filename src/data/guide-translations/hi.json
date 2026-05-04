@@ -1,0 +1,528 @@
+{
+  "netflix": {
+    "description": "2 मिनट से कम में अपना Netflix सब्सक्रिप्शन रद्द करें। ये स्टेप्स वेब, iOS, Android और Roku पर काम करते हैं।",
+    "difficultyReason": "Netflix आपको अकाउंट सेटिंग्स से 2 क्लिक में सब्सक्रिप्शन रद्द करने देता है, बिना किसी रिटेंशन ट्रिक के।",
+    "refundPolicy": "कोई रिफंड नहीं। बिलिंग पीरियड के अंत तक एक्सेस जारी रहती है।",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "netflix.com पर जाएं और साइन इन करें।" },
+          { "instruction": "अपना प्रोफाइल आइकन क्लिक करें → अकाउंट।" },
+          { "instruction": "\"Membership\" के तहत, \"Cancel Membership\" क्लिक करें।" },
+          { "instruction": "\"Finish Cancellation\" क्लिक करें।" },
+          { "instruction": "आपको एक कन्फर्मेशन ईमेल मिलेगा। इसे अपने रिकॉर्ड के लिए सेव करें।", "note": "एक्सेस आपकी वर्तमान बिलिंग पीरियड के अंत तक जारी रहती है।" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "iPhone सेटिंग्स खोलें → ऊपर अपना नाम टैप करें।" },
+          { "instruction": "\"Subscriptions\" टैप करें।" },
+          { "instruction": "\"Netflix\" ढूंढें और टैप करें।" },
+          { "instruction": "\"Cancel Subscription\" टैप करें → Confirm करें।" },
+          { "instruction": "बिलिंग पीरियड समाप्त होने तक आपकी एक्सेस रहती है।", "note": "Apple आंशिक रिफंड नहीं देता।" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Google Play Store खोलें।" },
+          { "instruction": "अपना प्रोफाइल आइकन टैप करें → \"Payments & subscriptions\" → \"Subscriptions\"।" },
+          { "instruction": "\"Netflix\" ढूंढें और उसे टैप करें।" },
+          { "instruction": "\"Cancel subscription\" टैप करें और निर्देशों का पालन करें।" },
+          { "instruction": "बिलिंग पीरियड के अंत तक एक्सेस जारी रहती है।" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "मैंने रद्द किया लेकिन अभी भी चार्ज हो रहा है।",
+        "answer": "आपके पास दो Netflix अकाउंट हो सकते हैं या आपने अलग-अलग चैनलों (वेब बनाम App Store) से सब्सक्राइब किया हो सकता है। अपने ऐप स्टोर सब्सक्रिप्शन और netflix.com/account दोनों जांचें।"
+      },
+      {
+        "question": "क्या मैं रद्द करने की बजाय पॉज़ कर सकता हूं?",
+        "answer": "हां। netflix.com/account पर \"Pause Membership\" देखें — 1–3 महीनों के लिए बिलिंग रुक जाती है।"
+      },
+      {
+        "question": "क्या मेरी वॉचलिस्ट और देखने का इतिहास खो जाएगा?",
+        "answer": "Netflix रद्द करने के बाद 10 महीने तक आपका डेटा सेव रखता है। अगर आप उस विंडो में फिर से सब्सक्राइब करते हैं, तो सब कुछ वापस आ जाता है।"
+      }
+    ],
+    "alternatives": [
+      { "description": "विज्ञापन-मुक्त, ₹499/माह" },
+      { "description": "Disney, Marvel, Star Wars — ₹299/माह" },
+      { "description": "HBO कंटेंट — ₹699/माह" }
+    ]
+  },
+  "spotify": {
+    "description": "60 सेकंड से कम में Spotify Premium रद्द करें। वेब सबसे तेज़ तरीका है — ऐप आपको सीधे रद्द नहीं करने देता।",
+    "difficultyReason": "वेब पर रद्द करना सीधा है, हालांकि ऐप सीधे रद्द करने का समर्थन नहीं करता।",
+    "refundPolicy": "कोई रिफंड नहीं। बिलिंग पीरियड के अंत तक Premium जारी रहता है।",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "spotify.com/account पर जाएं और लॉग इन करें।" },
+          { "instruction": "\"Change plan\" क्लिक करें या \"Your plan\" तक स्क्रॉल करें।" },
+          { "instruction": "नीचे स्क्रॉल करें और \"Cancel Premium\" क्लिक करें।" },
+          { "instruction": "कन्फर्मेशन स्टेप्स का पालन करें (Spotify डिस्काउंट ऑफर कर सकता है — अगर रुचि न हो तो छोड़ दें)।" },
+          { "instruction": "\"Cancel anyway\" क्लिक करें। आपको एक कन्फर्मेशन ईमेल मिलेगा।", "note": "बिलिंग पीरियड समाप्त होने तक आपके पास Premium रहता है।" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "iPhone सेटिंग्स खोलें → अपना Apple ID नाम टैप करें।" },
+          { "instruction": "\"Subscriptions\" टैप करें → Spotify ढूंढें।" },
+          { "instruction": "\"Cancel Subscription\" टैप करें → Confirm करें।" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Google Play Store खोलें → अपना प्रोफाइल आइकन टैप करें।" },
+          { "instruction": "\"Payments & subscriptions\" → \"Subscriptions\" पर जाएं।" },
+          { "instruction": "Spotify ढूंढें → \"Cancel subscription\" टैप करें।" },
+          { "instruction": "कन्फर्मेशन निर्देशों का पालन करें।" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "\"Cancel Premium\" बटन ग्रे हो गया है।",
+        "answer": "आपने App Store या Google Play से सब्सक्राइब किया है। अपनी डिवाइस सेटिंग्स से रद्द करें — ऊपर iOS या Android टैब देखें।"
+      },
+      {
+        "question": "Spotify ने मुझे डिस्काउंट ऑफर किया — क्या मैं लूं?",
+        "answer": "अगर आप Spotify रखना चाहते हैं, हां — वे कभी-कभी 1–3 महीने 50% छूट या मुफ्त ऑफर करते हैं। अगर आप वाकई रद्द करना चाहते हैं, तो \"Cancel anyway\" क्लिक करें।"
+      }
+    ],
+    "alternatives": [
+      { "description": "₹899/माह, Apple इकोसिस्टम में बेहतरीन" },
+      { "description": "₹899/माह, YouTube Premium के साथ शामिल" }
+    ]
+  },
+  "adobe": {
+    "description": "Adobe Creative Cloud बिना अर्ली टर्मिनेशन फीस दिए रद्द करें। समय महत्वपूर्ण है — यहां बताया गया है कि क्या करना है।",
+    "difficultyReason": "Adobe आपके बचे हुए कॉन्ट्रैक्ट का 50% तक अर्ली टर्मिनेशन फीस के रूप में चार्ज करता है और कई रिटेंशन स्क्रीन उपयोग करता है।",
+    "refundPolicy": "अर्ली टर्मिनेशन फीस: पहले साल में रद्द करने पर बचे हुए महीनों का 50%। खरीद या नवीनीकरण के 14 दिनों के भीतर रद्द करने पर मुफ्त।",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "account.adobe.com पर जाएं और साइन इन करें।" },
+          { "instruction": "बाईं साइडबार में \"Plans & Products\" क्लिक करें।" },
+          { "instruction": "अपना Creative Cloud प्लान ढूंढें और \"Manage plan\" क्लिक करें।" },
+          { "instruction": "\"Cancel your plan\" क्लिक करें।", "note": "Adobe इस बिंदु पर अर्ली टर्मिनेशन फीस दिखाएगा।" },
+          { "instruction": "एक कारण चुनें → Adobe कई ऑफर देगा (डिस्काउंट, पॉज़)। हर बार \"Continue to cancel\" क्लिक करें।" },
+          { "instruction": "रद्द करने की पुष्टि करें। कन्फर्मेशन नंबर सेव करें।" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "अगर App Store से सब्सक्राइब किया: सेटिंग्स खोलें → Apple ID → Subscriptions → Adobe → Cancel।" },
+          { "instruction": "अगर सीधे Adobe से सब्सक्राइब किया: ऊपर दिए वेबसाइट स्टेप्स उपयोग करें — ऐप सीधे रद्द करने का समर्थन नहीं करता।" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "अगर Google Play से सब्सक्राइब किया: Play Store खोलें → Subscriptions → Adobe → Cancel।" },
+          { "instruction": "अगर सीधे Adobe से सब्सक्राइब किया: ऊपर दिए वेबसाइट स्टेप्स उपयोग करें।" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "50% अर्ली टर्मिनेशन फीस से कैसे बचें?",
+        "answer": "आपके पास दो विकल्प हैं: (1) वार्षिक प्लान शुरू होने या नवीनीकृत होने के 14 दिनों के भीतर रद्द करें — Adobe को पूरा रिफंड देना होगा। (2) अपने वार्षिक कॉन्ट्रैक्ट के समाप्त होने तक प्रतीक्षा करें और ऑटो-रिन्यू होने से पहले रद्द करें।"
+      },
+      {
+        "question": "Adobe ने मुझसे ETF चार्ज किया — क्या मैं इसे विवादित कर सकता हूं?",
+        "answer": "अगर आपको लगता है कि चार्ज गलत है, Adobe सपोर्ट से संपर्क करें और 14-दिन की विंडो का हवाला दें। अगर आप उस विंडो के बाहर हैं, तो आप अपनी क्रेडिट कार्ड कंपनी से विवाद कर सकते हैं लेकिन परिणाम अलग-अलग होते हैं।"
+      },
+      {
+        "question": "रद्द करने के बाद मेरी फाइलों का क्या होगा?",
+        "answer": "आपको Creative Cloud ऐप्स का एक्सेस खो जाएगा लेकिन स्थानीय रूप से सेव की गई फाइलें रहेंगी। क्लाउड में स्टोर फाइलें 90 दिनों तक रीड-ओनली एक्सेस में उपलब्ध रहती हैं।"
+      }
+    ],
+    "alternatives": [
+      { "description": "एकमुश्त खरीद, कोई सब्सक्रिप्शन नहीं। Photoshop/Illustrator का विकल्प।" },
+      { "description": "₹1,085/माह — गैर-डिज़ाइनरों के लिए बढ़िया" },
+      { "description": "मुफ्त टियर उपलब्ध, UI/UX डिज़ाइन के लिए सर्वोत्तम" }
+    ]
+  },
+  "chatgpt": {
+    "description": "2 मिनट से कम में ChatGPT Plus या Pro रद्द करें। वर्तमान एक्सेस खोए बिना अगला चार्ज रोकें।",
+    "difficultyReason": "OpenAI बिना किसी रिटेंशन फ्रिक्शन के एक सरल रद्दीकरण प्रक्रिया प्रदान करता है।",
+    "refundPolicy": "कोई रिफंड नहीं। बिलिंग पीरियड के अंत तक एक्सेस जारी रहती है।",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "chatgpt.com पर जाएं और साइन इन करें।" },
+          { "instruction": "नीचे-बाईं ओर अपना नाम या प्रोफाइल आइकन क्लिक करें।" },
+          { "instruction": "\"Settings\" → \"Subscription\" पर जाएं।" },
+          { "instruction": "\"Manage my subscription\" क्लिक करें।" },
+          { "instruction": "\"Cancel plan\" क्लिक करें → Confirm करें।" },
+          { "instruction": "आपको एक कन्फर्मेशन ईमेल मिलेगा। Plus एक्सेस पीरियड के अंत तक जारी रहती है।", "note": "ChatGPT स्वचालित रूप से मुफ्त प्लान पर वापस आ जाता है।" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "सेटिंग्स खोलें → अपना Apple ID नाम टैप करें → Subscriptions।" },
+          { "instruction": "\"ChatGPT\" ढूंढें → उसे टैप करें।" },
+          { "instruction": "\"Cancel Subscription\" टैप करें → Confirm करें।" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Google Play Store खोलें → प्रोफाइल आइकन → \"Payments & subscriptions\" → \"Subscriptions\"।" },
+          { "instruction": "\"ChatGPT\" ढूंढें → \"Cancel subscription\" टैप करें।" },
+          { "instruction": "कन्फर्मेशन निर्देशों का पालन करें।" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "मैंने रद्द किया लेकिन तुरंत मुफ्त प्लान पर आ गया।",
+        "answer": "कुछ अकाउंट के लिए यह सामान्य है। Plus एक्सेस बिलिंग पीरियड के अंत तक जारी रहनी चाहिए। अगर नहीं, तो support.openai.com से संपर्क करें।"
+      },
+      {
+        "question": "क्या मेरी बातचीत का इतिहास खो जाएगा?",
+        "answer": "नहीं। आपके चैट प्लान की परवाह किए बिना सेव रहते हैं। आप बस GPT-4 एक्सेस, DALL-E और अन्य Plus फीचर खो देते हैं।"
+      }
+    ],
+    "alternatives": [
+      { "description": "Anthropic का AI — मुफ्त टियर + ₹1,650/माह Pro" },
+      { "description": "Google का AI — ₹1,650/माह, Google One AI Premium में शामिल" },
+      { "description": "₹1,650/माह — AI सर्च इंजन" }
+    ]
+  },
+  "amazon-prime": {
+    "description": "Amazon Prime रद्द करें और संभावित रूप से रिफंड पाएं। Amazon इसे मुश्किल बनाता है — नीचे दिए गए सटीक चरणों का पालन करें।",
+    "difficultyReason": "Amazon रद्द करने का विकल्प छुपाता है और कई रिटेंशन स्क्रीन दिखाता है, लेकिन अगर आप जल्दी काम करें तो रिफंड संभव है।",
+    "refundPolicy": "यदि आपने वर्तमान बिलिंग पीरियड के दौरान Prime लाभों का उपयोग नहीं किया है तो आनुपातिक रिफंड उपलब्ध है।",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "amazon.in पर जाएं → \"Account & Lists\" पर होवर करें → \"Account\" क्लिक करें।" },
+          { "instruction": "\"Prime\" क्लिक करें या अकाउंट सेटिंग्स में \"Manage Prime Membership\" खोजें।" },
+          { "instruction": "\"Update, cancel, and more\" → \"End membership\" क्लिक करें।" },
+          { "instruction": "\"End Membership\" चुनें (Amazon द्वारा दिखाए गए \"Remind me later\" या अन्य विकल्प नहीं)।", "note": "अगर आप पात्र हैं तो Amazon रिफंड राशि दिखाएगा।" },
+          { "instruction": "\"Cancel membership\" क्लिक करके पुष्टि करें।" },
+          { "instruction": "कन्फर्मेशन के लिए अपना ईमेल जांचें।" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Amazon Shopping ऐप खोलें → तीन लाइनें (मेनू) टैप करें।" },
+          { "instruction": "\"Account\" तक स्क्रॉल करें → \"Manage Prime Membership\" टैप करें।" },
+          { "instruction": "\"Update, cancel, and more\" → \"End membership\" टैप करें।" },
+          { "instruction": "वेब वर्शन जैसे ही प्रॉम्प्ट का पालन करें।" },
+          { "instruction": "नोट: अगर आपने Apple से सब्सक्राइब किया है, तो iOS सेटिंग्स → Subscriptions से रद्द करें।" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Amazon Shopping ऐप खोलें → मेनू → \"Account\"।" },
+          { "instruction": "\"Manage Prime Membership\" → \"End membership\" टैप करें।" },
+          { "instruction": "अगर Google Play से सब्सक्राइब किया है, तो Play Store → Subscriptions से रद्द करें।" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "क्या मैं रिफंड के लिए पात्र हूं?",
+        "answer": "हां, अगर आपने आखिरी चार्ज के बाद से कोई Prime लाभ (मुफ्त शिपिंग, Prime Video आदि) इस्तेमाल नहीं किया है। रिफंड आनुपातिक है। Amazon रद्द करने की पुष्टि से पहले सटीक राशि दिखाता है।"
+      },
+      {
+        "question": "मेरी Prime Video वॉचलिस्ट का क्या होगा?",
+        "answer": "रद्द करने पर तुरंत Prime Video कंटेंट का एक्सेस खो जाता है। अगर आप फिर से सब्सक्राइब करते हैं तो आपकी वॉचलिस्ट सेव रहती है।"
+      },
+      {
+        "question": "मैंने रद्द किया लेकिन अभी भी चार्ज हो रहा है।",
+        "answer": "जांचें कि क्या आपके पास अलग परिवार Prime सदस्यता है या किसी परिवार के सदस्य ने नई सदस्यता शुरू की है। लॉग इन करें और अकाउंट सेटिंग्स जांचें।"
+      }
+    ]
+  },
+  "disney-plus": {
+    "description": "वेब, iOS, Android, या Roku और Amazon के माध्यम से 5 मिनट में Disney+ रद्द करें।",
+    "difficultyReason": "Disney+ रद्द करना सीधा है, बिना किसी अर्ली टर्मिनेशन फीस के।",
+    "refundPolicy": "कोई रिफंड नहीं। बिलिंग पीरियड के अंत तक एक्सेस जारी रहती है।",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "disneyplus.com पर जाएं और साइन इन करें।" },
+          { "instruction": "अपना प्रोफाइल आइकन क्लिक करें → \"Account\"।" },
+          { "instruction": "\"Subscription\" के तहत, \"Cancel subscription\" क्लिक करें।" },
+          { "instruction": "एक कारण चुनें → \"Continue\" क्लिक करें।" },
+          { "instruction": "\"Cancel subscription\" क्लिक करके पुष्टि करें।" },
+          { "instruction": "आपको एक कन्फर्मेशन ईमेल मिलेगा।", "note": "आपकी बिलिंग तारीख तक एक्सेस जारी रहती है।" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "सेटिंग्स खोलें → अपना नाम टैप करें → Subscriptions।" },
+          { "instruction": "\"Disney+\" ढूंढें → उसे टैप करें।" },
+          { "instruction": "\"Cancel Subscription\" टैप करें → पुष्टि करें।" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Google Play Store खोलें → प्रोफाइल → \"Payments & subscriptions\" → \"Subscriptions\"।" },
+          { "instruction": "Disney+ ढूंढें → \"Cancel subscription\" टैप करें।" },
+          { "instruction": "कन्फर्मेशन प्रक्रिया पूरी करें।" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "मुझे \"Cancel subscription\" बटन नहीं दिख रहा।",
+        "answer": "आपने शायद किसी तृतीय पक्ष (Apple, Google, Amazon, Roku, या Hulu) से सब्सक्राइब किया है। मूल बिलिंग प्लेटफॉर्म से रद्द करें।"
+      },
+      {
+        "question": "क्या मैं Disney Bundle (Disney+, Hulu, ESPN+) रद्द कर सकता हूं?",
+        "answer": "हां — Disney+ रद्द करने से पूरा बंडल रद्द हो जाता है। अगर आप Hulu या ESPN+ अलग से रखना चाहते हैं, तो उन्हें व्यक्तिगत रूप से फिर से सब्सक्राइब करना होगा।"
+      }
+    ]
+  },
+  "apple-music": {
+    "description": "iPhone, Mac, Android या वेब पर Apple Music रद्द करें। मुफ्त ट्रायल टाइमिंग शामिल है।",
+    "difficultyReason": "Apple Music रद्द करना iOS सेटिंग्स में बना है और लगभग 30 सेकंड लेता है।",
+    "refundPolicy": "कोई आंशिक रिफंड नहीं। बिलिंग पीरियड समाप्त होने तक एक्सेस जारी रहती है।",
+    "platforms": {
+      "ios": {
+        "steps": [
+          { "instruction": "सेटिंग्स खोलें → ऊपर अपना नाम टैप करें।" },
+          { "instruction": "\"Subscriptions\" टैप करें।" },
+          { "instruction": "\"Apple Music\" टैप करें।" },
+          { "instruction": "\"Cancel Subscription\" टैप करें → Confirm करें।", "note": "अगर आप मुफ्त ट्रायल में हैं, तो आपको ट्रायल समाप्ति तारीख दिखेगी।" }
+        ]
+      },
+      "web": {
+        "steps": [
+          { "instruction": "Mac पर Music ऐप खोलें → अपना नाम क्लिक करें → Account Settings। या music.apple.com पर जाएं और साइन इन करें।" },
+          { "instruction": "\"Subscriptions\" ढूंढें → \"Manage\" क्लिक करें।" },
+          { "instruction": "Apple Music ढूंढें → \"Edit\" → \"Cancel Subscription\" क्लिक करें।" },
+          { "instruction": "रद्दीकरण की पुष्टि करें।" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Android पर Apple Music ऐप खोलें।" },
+          { "instruction": "अपना प्रोफाइल टैप करें → Account Settings → Subscriptions।" },
+          { "instruction": "\"Cancel Subscription\" टैप करें → Confirm करें।" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "मैं मुफ्त ट्रायल में हूं — कब रद्द करूं?",
+        "answer": "ट्रायल समाप्त होने से कम से कम 24 घंटे पहले रद्द करें। सटीक समाप्ति तारीख सेटिंग्स → Subscriptions में Apple Music एंट्री के बगल में दिखती है।"
+      },
+      {
+        "question": "क्या मेरी लाइब्रेरी खो जाएगी?",
+        "answer": "डाउनलोड किए गए Apple Music ट्रैक (स्ट्रीम किए गए गाने) हटा दिए जाते हैं। iTunes से खरीदा गया संगीत हमेशा के लिए आपका है। अगर आप फिर से सब्सक्राइब करते हैं तो आपकी प्लेलिस्ट सेव रहती है।"
+      }
+    ]
+  },
+  "microsoft-365": {
+    "description": "Microsoft 365 अपनी फाइलें खोए बिना रद्द करें। OneDrive स्टोरेज 5GB तक कम हो जाती है — यहां बताया गया है कि कैसे तैयारी करें।",
+    "difficultyReason": "रद्दीकरण कई मेनू के नीचे छुपा है, और आप तुरंत OneDrive स्टोरेज खोने का जोखिम उठाते हैं।",
+    "refundPolicy": "वार्षिक सब्सक्रिप्शन के लिए 30 दिनों के भीतर आनुपातिक रिफंड उपलब्ध है।",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "account.microsoft.com पर जाएं और साइन इन करें।" },
+          { "instruction": "ऊपरी नेविगेशन में \"Services & subscriptions\" क्लिक करें।" },
+          { "instruction": "Microsoft 365 ढूंढें → \"Manage\" क्लिक करें।" },
+          { "instruction": "सब्सक्रिप्शन विवरण के तहत \"Cancel\" क्लिक करें।" },
+          { "instruction": "निर्देशों का पालन करें। Microsoft डिस्काउंट ऑफर कर सकता है — रद्द करना चाहते हैं तो छोड़ दें।", "note": "अगर OneDrive में 5GB से ज़्यादा डेटा है, तो पहले अपनी फाइलें डाउनलोड करें।" },
+          { "instruction": "रद्दीकरण की पुष्टि करें। आपको एक कन्फर्मेशन ईमेल मिलेगा।" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "अगर App Store से सब्सक्राइब किया: सेटिंग्स → Apple ID → Subscriptions → Microsoft 365 → Cancel।" },
+          { "instruction": "अगर सीधे Microsoft से सब्सक्राइब किया: ऊपर दिए वेबसाइट स्टेप्स उपयोग करें।" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "अगर Google Play से सब्सक्राइब किया: Play Store → Subscriptions → Microsoft 365 → Cancel।" },
+          { "instruction": "अगर सीधे सब्सक्राइब किया: ऊपर दिए वेबसाइट स्टेप्स उपयोग करें।" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "मेरे Office ऐप्स (Word, Excel, PowerPoint) का क्या होगा?",
+        "answer": "रद्द करने के बाद ऐप्स \"read-only\" मोड में आ जाते हैं। आप दस्तावेज़ देख सकते हैं लेकिन संपादित नहीं कर सकते। वेब पर Microsoft 365 (Office.com) सीमित सुविधाओं के साथ मुफ्त रहता है।"
+      },
+      {
+        "question": "OneDrive स्टोरेज का क्या होगा?",
+        "answer": "आपकी स्टोरेज मुफ्त 5GB सीमा तक कम हो जाती है। अगर आपके पास ज़्यादा डेटा है, तो Microsoft के एक्सेस प्रतिबंधित करने से पहले फाइलें डाउनलोड या हटाने के लिए आपके पास 30 दिन हैं।"
+      },
+      {
+        "question": "क्या मुझे रिफंड मिल सकता है?",
+        "answer": "हां, खरीद या नवीनीकरण के 30 दिनों के भीतर रद्द किए गए वार्षिक सब्सक्रिप्शन के लिए। मासिक सब्सक्रिप्शन रिफंड नहीं होते। वार्षिक रिफंड के लिए Microsoft सपोर्ट से संपर्क करें।"
+      }
+    ],
+    "alternatives": [
+      { "description": "Docs, Sheets, Slides — Google अकाउंट के साथ मुफ्त" },
+      { "description": "मुफ्त, ओपन-सोर्स Office विकल्प" }
+    ]
+  },
+  "claude": {
+    "description": "वेब या Apple सेटिंग्स के माध्यम से 3 मिनट से कम में Claude Pro या Team सब्सक्रिप्शन रद्द करें।",
+    "difficultyReason": "Anthropic बिना किसी रिटेंशन फ्रिक्शन के एक सरल रद्दीकरण प्रक्रिया प्रदान करता है।",
+    "refundPolicy": "कोई रिफंड नहीं। बिलिंग पीरियड के अंत तक एक्सेस जारी रहती है।",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "claude.ai पर जाएं और साइन इन करें।" },
+          { "instruction": "अपना प्रोफाइल आइकन क्लिक करें → \"Settings\"।" },
+          { "instruction": "साइडबार में \"Billing\" पर जाएं।" },
+          { "instruction": "\"Cancel plan\" या \"Cancel subscription\" क्लिक करें।" },
+          { "instruction": "रद्दीकरण की पुष्टि करें।", "note": "Pro एक्सेस आपकी बिलिंग पीरियड के अंत तक जारी रहती है।" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "अगर App Store से सब्सक्राइब किया: सेटिंग्स → Apple ID → Subscriptions → Claude → Cancel।" },
+          { "instruction": "अगर सीधे Anthropic से सब्सक्राइब किया: ऊपर दिए वेबसाइट स्टेप्स उपयोग करें।" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Google Play Store खोलें → प्रोफाइल → Subscriptions।" },
+          { "instruction": "Claude ढूंढें → \"Cancel subscription\" टैप करें → पुष्टि करें।" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "क्या मेरी बातचीत का इतिहास खो जाएगा?",
+        "answer": "नहीं। आपकी सभी बातचीत सेव रहती है और मुफ्त प्लान पर भी उपलब्ध रहती है।"
+      },
+      {
+        "question": "मुफ्त में डाउनग्रेड करने पर मैं क्या खोता हूं?",
+        "answer": "आप पीक टाइम पर प्राथमिकता एक्सेस, Claude के सबसे सक्षम मॉडल (Opus) का एक्सेस और उच्च उपयोग सीमाएं खो देते हैं।"
+      }
+    ],
+    "alternatives": [
+      { "description": "₹1,650/माह — OpenAI का GPT-4o और अधिक" },
+      { "description": "₹1,650/माह — Google का सबसे सक्षम AI" }
+    ]
+  },
+  "youtube-premium": {
+    "description": "वेब, iOS या Android पर 3 मिनट से कम में YouTube Premium रद्द करें।",
+    "difficultyReason": "वेब पर YouTube Premium रद्द करना जल्दी है, हालांकि मोबाइल ऐप में कुछ अतिरिक्त टैप की जरूरत है।",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "youtube.com/paid_memberships पर जाएं और साइन इन करें।" },
+          { "instruction": "\"YouTube Premium\" ढूंढें → \"Manage membership\" क्लिक करें।" },
+          { "instruction": "\"Deactivate\" क्लिक करें।" },
+          { "instruction": "कन्फर्मेशन स्टेप्स का पालन करें → \"Continue to cancel\" क्लिक करें।" },
+          { "instruction": "पुष्टि करें। आपकी बिलिंग पीरियड के अंत तक Premium रहेगा।", "note": "YouTube Music Premium शामिल है और वह भी रद्द हो जाएगा।" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "सेटिंग्स खोलें → अपना नाम टैप करें → Subscriptions।" },
+          { "instruction": "\"YouTube Premium\" ढूंढें → उसे टैप करें।" },
+          { "instruction": "\"Cancel Subscription\" टैप करें → Confirm करें।" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Google Play Store खोलें → प्रोफाइल → \"Payments & subscriptions\" → Subscriptions।" },
+          { "instruction": "\"YouTube Premium\" ढूंढें → \"Cancel subscription\" टैप करें।" },
+          { "instruction": "कन्फर्मेशन प्रक्रिया का पालन करें।" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "क्या YouTube Premium रद्द करने से YouTube Music भी रद्द हो जाता है?",
+        "answer": "हां — YouTube Music Premium YouTube Premium के साथ बंडल है और एक साथ रद्द हो जाता है।"
+      },
+      {
+        "question": "मुझे Deactivate बटन नहीं मिल रहा।",
+        "answer": "अगर आपने iOS या Android ऐप से सब्सक्राइब किया है, तो आपको अपनी डिवाइस की सब्सक्रिप्शन सेटिंग्स से रद्द करना होगा, सीधे YouTube से नहीं।"
+      }
+    ]
+  },
+  "hulu": {
+    "description": "वेब, iOS, Android या Amazon पर 5 मिनट में Hulu रद्द करें। Disney Bundle रद्दीकरण शामिल है।",
+    "difficultyReason": "Hulu रद्द करने से पहले कई कन्फर्मेशन स्क्रीन और डिस्काउंट ऑफर करता है।",
+    "refundPolicy": "कोई रिफंड नहीं। बिलिंग पीरियड के अंत तक एक्सेस जारी रहती है।",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "hulu.com पर जाएं और साइन इन करें।" },
+          { "instruction": "अपना प्रोफाइल आइकन क्लिक करें → \"Account\"।" },
+          { "instruction": "\"Your Subscription\" के तहत, \"Cancel\" क्लिक करें।" },
+          { "instruction": "एक कारण चुनें → Hulu ऑफर देगा। \"Continue to Cancel\" क्लिक करें।" },
+          { "instruction": "\"Cancel Subscription\" क्लिक करके पुष्टि करें।" },
+          { "instruction": "आपको एक कन्फर्मेशन ईमेल मिलेगा।" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "सेटिंग्स खोलें → अपना नाम टैप करें → Subscriptions।" },
+          { "instruction": "\"Hulu\" ढूंढें → उसे टैप करें।" },
+          { "instruction": "\"Cancel Subscription\" टैप करें → Confirm करें।" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Google Play Store खोलें → प्रोफाइल → Subscriptions → Hulu ढूंढें।" },
+          { "instruction": "\"Cancel subscription\" टैप करें → निर्देशों का पालन करें।" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "मेरे पास Disney Bundle है — Hulu रद्द करने से Disney+ भी रद्द होता है?",
+        "answer": "नहीं। Disney Bundle Hulu बिलिंग के माध्यम से प्रबंधित होता है। Hulu रद्द करने से पूरा बंडल रद्द हो जाता है। अगर आप अलग से Disney+ चाहते हैं, तो रद्दीकरण के बाद सीधे Disney से सब्सक्राइब करें।"
+      },
+      {
+        "question": "मुझे अपने अकाउंट पेज पर Cancel बटन नहीं मिल रहा।",
+        "answer": "अगर आपने किसी तृतीय पक्ष (Amazon, Roku, Apple, या Google) से सब्सक्राइब किया है, तो उस प्लेटफॉर्म से रद्द करना होगा — Hulu की वेबसाइट पर रद्द करने का बटन नहीं दिखेगा।"
+      }
+    ]
+  },
+  "nordvpn": {
+    "description": "NordVPN रद्द करें और खरीदारी के 30 दिनों के भीतर पूरा रिफंड पाएं। 5 मिनट से कम लगता है।",
+    "difficultyReason": "NordVPN 30 दिन की मनी-बैक गारंटी और एक सरल रद्दीकरण प्रक्रिया प्रदान करता है।",
+    "refundPolicy": "30 दिन की मनी-बैक गारंटी। 30 दिनों के भीतर लाइव चैट या ईमेल से रिफंड का अनुरोध करें।",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "my.nordaccount.com पर जाएं और साइन इन करें।" },
+          { "instruction": "बाईं साइडबार में \"Billing\" या \"Subscription\" क्लिक करें।" },
+          { "instruction": "अपना प्लान ढूंढें → \"Cancel auto-renewal\" या \"Cancel subscription\" क्लिक करें।" },
+          { "instruction": "रद्दीकरण की पुष्टि करें।" },
+          { "instruction": "रिफंड के लिए: nordvpn.com/support पर लाइव चैट शुरू करें और अनुरोध करें। रिफंड 5–10 कार्यदिवसों में प्रोसेस होता है।", "note": "NordVPN अकाउंट डैशबोर्ड के माध्यम से रिफंड नहीं देता — आपको सपोर्ट से संपर्क करना होगा।" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "अगर App Store से सब्सक्राइब किया: सेटिंग्स → Apple ID → Subscriptions → NordVPN → Cancel।" },
+          { "instruction": "नोट: App Store सब्सक्रिप्शन NordVPN की 30-दिन रिफंड के लिए पात्र नहीं हैं। इसके बजाय Apple से संपर्क करें।" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "अगर Google Play से सब्सक्राइब किया: Play Store → Subscriptions → NordVPN → Cancel।" },
+          { "instruction": "Play खरीदारी पर रिफंड के लिए, 48 घंटों के भीतर Google Play सपोर्ट से संपर्क करें।" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "मैं 30 दिनों के बाद हूं — क्या मुझे अभी भी रिफंड मिल सकता है?",
+        "answer": "30-दिन की गारंटी निश्चित है। उसके बाद कोई रिफंड उपलब्ध नहीं है। आप अभी भी ऑटो-रिन्यूअल रद्द कर सकते हैं ताकि फिर से चार्ज न हो।"
+      },
+      {
+        "question": "मुझे अपने अकाउंट में रद्द करने का विकल्प नहीं मिल रहा।",
+        "answer": "अगर आपने किसी तृतीय पक्ष (App Store, Google Play, या Amazon जैसे रीसेलर) से सब्सक्राइब किया है, तो उस प्लेटफॉर्म से रद्द करना होगा।"
+      }
+    ]
+  }
+}

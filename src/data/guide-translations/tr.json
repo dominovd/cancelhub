@@ -1,0 +1,528 @@
+{
+  "netflix": {
+    "description": "Netflix aboneliğinizi 2 dakikadan kısa sürede iptal edin. Adımlar web, iOS, Android ve Roku'da çalışır.",
+    "difficultyReason": "Netflix, herhangi bir elde tutma taktiği olmaksızın hesap ayarlarından 2 tıklamayla iptal etmenize izin verir.",
+    "refundPolicy": "İade yoktur. Fatura dönemi sonuna kadar erişim devam eder.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "netflix.com adresine gidin ve oturum açın." },
+          { "instruction": "Profil simgenize → Hesap'a tıklayın." },
+          { "instruction": "\"Üyelik\" bölümünde \"Üyeliği İptal Et\"e tıklayın." },
+          { "instruction": "Onaylamak için \"İptali Tamamla\"ya tıklayın." },
+          { "instruction": "Bir onay e-postası alacaksınız. Kayıtlarınız için saklayın.", "note": "Erişim, mevcut fatura döneminizin sonuna kadar devam eder." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "iPhone Ayarlar'ı açın → üstteki adınıza dokunun." },
+          { "instruction": "\"Abonelikler\"e dokunun." },
+          { "instruction": "\"Netflix\"i bulun ve üzerine dokunun." },
+          { "instruction": "\"Aboneliği İptal Et\"e → Onayla'ya dokunun." },
+          { "instruction": "Fatura döneминиз sonuna kadar erişiminiz devam eder.", "note": "Apple kısmi iade yapmaz." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Google Play Store'u açın." },
+          { "instruction": "Profil simgenize → \"Ödemeler ve abonelikler\" → \"Abonelikler\"e dokunun." },
+          { "instruction": "\"Netflix\"i bulun ve üzerine dokunun." },
+          { "instruction": "\"Aboneliği iptal et\"e dokunun ve yönergeleri izleyin." },
+          { "instruction": "Fatura dönemi sonuna kadar erişim devam eder." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "İptal ettim ama hâlâ ücret alınıyor.",
+        "answer": "İki Netflix hesabınız olabilir veya farklı kanallar üzerinden (web ve App Store) abone olmuş olabilirsiniz. Uygulama mağazası aboneliklerinizi ve netflix.com/account'u kontrol edin."
+      },
+      {
+        "question": "İptal etmek yerine duraklatabilir miyim?",
+        "answer": "Evet. netflix.com/account'ta \"Üyeliği Duraklat\" seçeneğini arayın — 1–3 ay boyunca faturalandırmayı durdurur."
+      },
+      {
+        "question": "İzleme listem ve izleme geçmişim kaybolacak mı?",
+        "answer": "Netflix, iptal sonrasında verilerinizi 10 ay boyunca saklar. Bu süre içinde yeniden abone olursanız her şey geri yüklenir."
+      }
+    ],
+    "alternatives": [
+      { "description": "Reklamlı, 109,99 TL/ay" },
+      { "description": "Disney, Marvel, Star Wars — 74,99 TL/ay" },
+      { "description": "HBO içerikleri — 149,99 TL/ay" }
+    ]
+  },
+  "spotify": {
+    "description": "Spotify Premium'u 60 saniyeden kısa sürede iptal edin. Web en hızlı yoldur — uygulama doğrudan iptal etmenize izin vermez.",
+    "difficultyReason": "Web üzerinden iptal etmek oldukça kolaydır; ancak uygulama doğrudan iptali desteklemez.",
+    "refundPolicy": "İade yoktur. Premium, fatura dönemi sonuna kadar devam eder.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "spotify.com/account adresine gidin ve oturum açın." },
+          { "instruction": "\"Planı değiştir\"e tıklayın veya \"Planınız\" bölümüne gidin." },
+          { "instruction": "Aşağı kaydırın ve \"Premium'u İptal Et\"e tıklayın." },
+          { "instruction": "Onay adımlarını izleyin (Spotify indirim sunabilir — ilgilenmiyorsanız atlayın)." },
+          { "instruction": "Onaylamak için \"Yine de iptal et\"e tıklayın. Bir onay e-postası alacaksınız.", "note": "Fatura dönemi sonuna kadar Premium'unuz devam eder." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "iPhone Ayarlar'ı açın → Apple ID adınıza dokunun." },
+          { "instruction": "\"Abonelikler\"e → Spotify'ı bulun." },
+          { "instruction": "\"Aboneliği İptal Et\"e → Onayla'ya dokunun." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Google Play Store'u açın → profil simgenize dokunun." },
+          { "instruction": "\"Ödemeler ve abonelikler\" → \"Abonelikler\"e gidin." },
+          { "instruction": "Spotify'ı bulun → \"Aboneliği iptal et\"e dokunun." },
+          { "instruction": "Onay yönergelerini izleyin." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "\"Premium'u İptal Et\" düğmesi gri görünüyor.",
+        "answer": "App Store veya Google Play üzerinden abone oldunuz. Bunun yerine cihaz ayarlarından iptal edin — yukarıdaki iOS veya Android sekmesine bakın."
+      },
+      {
+        "question": "Spotify bana indirim teklif etti — kabul etmeli miyim?",
+        "answer": "Spotify'ı kullanmaya devam etmek istiyorsanız evet — bazen 1–3 ay %50 indirimli veya ücretsiz teklif ediyorlar. Gerçekten iptal etmek istiyorsanız \"Yine de iptal et\"e tıklayın."
+      }
+    ],
+    "alternatives": [
+      { "description": "109,99 TL/ay, Apple ekosistemindeyseniz harika" },
+      { "description": "109,99 TL/ay, YouTube Premium'a dahil" }
+    ]
+  },
+  "adobe": {
+    "description": "Adobe Creative Cloud'u erken fesih ücreti ödemeden iptal edin. Zamanlama önemlidir — yapmanız gerekenleri tam olarak açıklıyoruz.",
+    "difficultyReason": "Adobe, erken fesih ücreti olarak kalan sözleşmenizin %50'sine kadar ücret alır ve birden fazla elde tutma ekranı kullanır.",
+    "refundPolicy": "Erken fesih ücreti: İlk yılda iptal edilirse kalan ayların %50'si. Satın alma veya yenilemeden itibaren 14 gün içinde iptal edilirse ücretsiz.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "account.adobe.com adresine gidin ve oturum açın." },
+          { "instruction": "Sol kenar çubuğunda \"Plans & Products\"a tıklayın." },
+          { "instruction": "Creative Cloud planınızı bulun ve \"Planı yönet\"e tıklayın." },
+          { "instruction": "\"Planınızı iptal edin\"e tıklayın.", "note": "Adobe bu noktada erken fesih ücretini gösterecektir." },
+          { "instruction": "Bir neden seçin → Adobe birden fazla teklif yapacak (indirimler, duraklatma). Her seferinde \"İptale devam et\"e tıklayın." },
+          { "instruction": "İptali onaylayın. Onay numarasını kaydedin." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "App Store üzerinden abone olduysanız: Ayarlar → Apple ID → Abonelikler → Adobe → İptal'e gidin." },
+          { "instruction": "Doğrudan Adobe'den abone olduysanız: Uygulama doğrudan iptali desteklemediğinden yukarıdaki web adımlarını kullanın." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Google Play üzerinden abone olduysanız: Play Store → Abonelikler → Adobe → İptal'e gidin." },
+          { "instruction": "Doğrudan Adobe'den abone olduysanız: yukarıdaki web adımlarını kullanın." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "%50 erken fesih ücretinden nasıl kaçınabilirim?",
+        "answer": "İki seçeneğiniz var: (1) Yıllık planınız başladıktan veya yenilendikten sonraki 14 gün içinde iptal edin — Adobe tam iade yapmak zorundadır. (2) Yıllık sözleşmeniz sona erene kadar bekleyin ve otomatik yenilenmeden önce iptal edin."
+      },
+      {
+        "question": "Adobe benden ETF aldı — itiraz edebilir miyim?",
+        "answer": "Ücretin hatalı olduğunu düşünüyorsanız Adobe desteğiyle iletişime geçin ve 14 günlük süreyi referans alın. Bu sürenin dışındaysanız kredi kartı şirketinizle itiraz edebilirsiniz ancak sonuçlar değişkendir."
+      },
+      {
+        "question": "İptal sonrasında dosyalarıma ne olacak?",
+        "answer": "Creative Cloud uygulamalarına erişiminizi kaybedersiniz ancak yerel olarak kaydedilen dosyalarınız kalır. Bulutta saklanan dosyalara 90 gün boyunca salt okunur modda erişilebilir."
+      }
+    ],
+    "alternatives": [
+      { "description": "Tek seferlik satın alma, abonelik yok. Photoshop/Illustrator alternatifi." },
+      { "description": "399 TL/ay — tasarımcı olmayanlar için harika" },
+      { "description": "Ücretsiz katman mevcut, UI/UX tasarımı için en iyisi" }
+    ]
+  },
+  "chatgpt": {
+    "description": "ChatGPT Plus veya Pro'yu 2 dakikadan kısa sürede iptal edin. Mevcut erişiminizi kaybetmeden bir sonraki ödemeyi durdurun.",
+    "difficultyReason": "OpenAI, herhangi bir elde tutma sürtünmesi olmaksızın basit bir iptal akışı sunar.",
+    "refundPolicy": "İade yoktur. Fatura dönemi sonuna kadar erişim devam eder.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "chatgpt.com adresine gidin ve oturum açın." },
+          { "instruction": "Sol alttaki adınıza veya profil simgenize tıklayın." },
+          { "instruction": "\"Ayarlar\" → \"Abonelik\"e gidin." },
+          { "instruction": "\"Aboneliğimi yönet\"e tıklayın." },
+          { "instruction": "\"Planı iptal et\"e → Onayla'ya tıklayın." },
+          { "instruction": "Bir onay e-postası alacaksınız. Plus erişimi dönem sonuna kadar devam eder.", "note": "ChatGPT otomatik olarak ücretsiz plana geri döner." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Ayarlar'ı açın → Apple ID adınıza → Abonelikler'e dokunun." },
+          { "instruction": "\"ChatGPT\"yi bulun → üzerine dokunun." },
+          { "instruction": "\"Aboneliği İptal Et\"e → Onayla'ya dokunun." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Google Play Store'u açın → profil simgesi → \"Ödemeler ve abonelikler\" → \"Abonelikler\"." },
+          { "instruction": "\"ChatGPT\"yi bulun → \"Aboneliği iptal et\"e dokunun." },
+          { "instruction": "Onay yönergelerini izleyin." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "İptal ettim ama hemen ücretsiz plana geçtim.",
+        "answer": "Bu bazı hesaplar için beklenen bir durumdur. Plus erişimi fatura dönemi sonuna kadar devam etmelidir. Devam etmiyorsa support.openai.com ile iletişime geçin."
+      },
+      {
+        "question": "Konuşma geçmişimi kaybedecek miyim?",
+        "answer": "Hayır. Sohbetleriniz plandan bağımsız olarak kaydedilir. Yalnızca GPT-4 erişimini, DALL-E'yi ve diğer Plus özelliklerini kaybedersiniz."
+      }
+    ],
+    "alternatives": [
+      { "description": "Anthropic'in yapay zekası — ücretsiz katman + 649 TL/ay Pro" },
+      { "description": "Google'ın yapay zekası — 649 TL/ay, Google One AI Premium'a dahil" },
+      { "description": "649 TL/ay — yapay zeka arama motoru" }
+    ]
+  },
+  "amazon-prime": {
+    "description": "Amazon Prime'ı iptal edin ve potansiyel olarak iade alın. Amazon bunu zorlaştırıyor — aşağıdaki adımları tam olarak izleyin.",
+    "difficultyReason": "Amazon iptal seçeneğini gizler ve birden fazla elde tutma ekranı gösterir; ancak hızlı davranırsanız iade alınabilir.",
+    "refundPolicy": "Mevcut fatura döneminde Prime avantajlarından yararlanmadıysanız orantılı iade mevcuttur.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "amazon.com.tr'ye gidin → \"Hesap ve Listeler\" üzerine gelin → \"Hesap\"a tıklayın." },
+          { "instruction": "\"Prime\"a tıklayın veya hesap ayarlarında \"Prime Üyeliğini Yönet\"i arayın." },
+          { "instruction": "\"Güncelle, iptal et ve daha fazlası\" → \"Üyeliği sonlandır\"a tıklayın." },
+          { "instruction": "\"Üyeliği Sonlandır\"ı seçin (Amazon'un gösterdiği \"Daha sonra hatırlat\" veya diğer seçenekleri değil).", "note": "Hak kazanıyorsanız Amazon iade tutarını gösterecektir." },
+          { "instruction": "Onaylamak için \"Üyeliği iptal et\"e tıklayın." },
+          { "instruction": "Onay için e-postanızı kontrol edin." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Amazon Alışveriş uygulamasını açın → üç çizgiye (menü) dokunun." },
+          { "instruction": "\"Hesap\"a gidin → \"Prime Üyeliğini Yönet\"e dokunun." },
+          { "instruction": "\"Güncelle, iptal et ve daha fazlası\" → \"Üyeliği sonlandır\"a dokunun." },
+          { "instruction": "Web sürümüyle aynı yönergeleri izleyin." },
+          { "instruction": "Not: Apple üzerinden abone olduysanız, iOS Ayarlar → Abonelikler üzerinden iptal edin." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Amazon Alışveriş uygulamasını açın → menü → \"Hesap\"." },
+          { "instruction": "\"Prime Üyeliğini Yönet\" → \"Üyeliği sonlandır\"a dokunun." },
+          { "instruction": "Google Play üzerinden abone olduysanız, Play Store → Abonelikler üzerinden iptal edin." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "İade almaya hak kazanıyor muyum?",
+        "answer": "Evet, son ücretin alınmasından bu yana herhangi bir Prime avantajından (ücretsiz kargo, Prime Video vb.) yararlanmadıysanız. İade orantılıdır. Amazon, iptali onaylamadan önce tam tutarı gösterir."
+      },
+      {
+        "question": "Prime Video izleme listem ne olacak?",
+        "answer": "İptal anında Prime Video içeriklerine erişiminizi kaybedersiniz. Yeniden abone olursanız izleme listeniz kaydedilmiş olur."
+      },
+      {
+        "question": "İptal ettim ama hâlâ ücret alınıyor.",
+        "answer": "Ayrı bir aile Prime üyeliğinizin olup olmadığını veya bir aile üyesinin yeni bir üyelik başlatıp başlatmadığını kontrol edin. Oturum açın ve hesap ayarlarını inceleyin."
+      }
+    ]
+  },
+  "disney-plus": {
+    "description": "Disney+'ı web, iOS, Android veya Roku ve Amazon üzerinden 5 dakikada iptal edin.",
+    "difficultyReason": "Disney+ iptali, erken fesih ücreti olmaksızın oldukça kolaydır.",
+    "refundPolicy": "İade yoktur. Fatura dönemi sonuna kadar erişim devam eder.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "disneyplus.com adresine gidin ve oturum açın." },
+          { "instruction": "Profil simgenize → \"Hesap\"a tıklayın." },
+          { "instruction": "\"Abonelik\" bölümünde \"Aboneliği iptal et\"e tıklayın." },
+          { "instruction": "Bir neden seçin → \"Devam\"a tıklayın." },
+          { "instruction": "Onaylamak için \"Aboneliği iptal et\"e tıklayın." },
+          { "instruction": "Bir onay e-postası alacaksınız.", "note": "Fatura tarihinize kadar erişim devam eder." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Ayarlar'ı açın → adınıza → Abonelikler'e dokunun." },
+          { "instruction": "\"Disney+\"ı bulun → üzerine dokunun." },
+          { "instruction": "\"Aboneliği İptal Et\"e → onayla'ya dokunun." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Google Play Store'u açın → profil → \"Ödemeler ve abonelikler\" → \"Abonelikler\"." },
+          { "instruction": "Disney+'ı bulun → \"Aboneliği iptal et\"e dokunun." },
+          { "instruction": "Onay akışını tamamlayın." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "\"Aboneliği iptal et\" düğmesini göremiyorum.",
+        "answer": "Büyük olasılıkla üçüncü bir taraf (Apple, Google, Amazon, Roku veya Hulu) aracılığıyla abone oldunuz. Bunun yerine orijinal faturalandırma platformundan iptal edin."
+      },
+      {
+        "question": "Disney Bundle'ı (Disney+, Hulu, ESPN+) iptal edebilir miyim?",
+        "answer": "Evet — Disney+'ı iptal etmek tüm paketi iptal eder. Hulu veya ESPN+'ı ayrı tutmak istiyorsanız bunlara ayrı ayrı yeniden abone olmanız gerekir."
+      }
+    ]
+  },
+  "apple-music": {
+    "description": "iPhone, Mac, Android veya web üzerinden Apple Music'i iptal edin. Ücretsiz deneme süresi zamanlaması dahil.",
+    "difficultyReason": "Apple Music iptali iOS ayarlarına entegre edilmiştir ve yaklaşık 30 saniye sürer.",
+    "refundPolicy": "Kısmi iade yoktur. Fatura dönemi sonuna kadar erişim devam eder.",
+    "platforms": {
+      "ios": {
+        "steps": [
+          { "instruction": "Ayarlar'ı açın → üstteki adınıza dokunun." },
+          { "instruction": "\"Abonelikler\"e dokunun." },
+          { "instruction": "\"Apple Music\"e dokunun." },
+          { "instruction": "\"Aboneliği İptal Et\"e → Onayla'ya dokunun.", "note": "Ücretsiz deneme sürümündeyseniz deneme bitiş tarihini göreceksiniz." }
+        ]
+      },
+      "web": {
+        "steps": [
+          { "instruction": "Mac'te Müzik uygulamasını açın → adınıza → Hesap Ayarları'na tıklayın. Ya da music.apple.com'u ziyaret edin ve oturum açın." },
+          { "instruction": "\"Abonelikler\"i bulun → \"Yönet\"e tıklayın." },
+          { "instruction": "Apple Music'i bulun → \"Düzenle\" → \"Aboneliği İptal Et\"e tıklayın." },
+          { "instruction": "İptali onaylayın." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Android'de Apple Music uygulamasını açın." },
+          { "instruction": "Profilinize → Hesap Ayarları → Abonelikler'e dokunun." },
+          { "instruction": "\"Aboneliği İptal Et\"e → Onayla'ya dokunun." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ücretsiz deneme sürümündeyim — ne zaman iptal etmeliyim?",
+        "answer": "Deneme süresi bitmeden en az 24 saat önce iptal edin. Kesin bitiş tarihi, Ayarlar → Abonelikler'de Apple Music girişinin yanında gösterilir."
+      },
+      {
+        "question": "Kütüphanemi kaybedecek miyim?",
+        "answer": "İndirilen Apple Music parçaları (akışlı şarkılar) kaldırılır. iTunes'dan satın aldığınız müzikler kalıcı olarak size aittir. Yeniden abone olursanız çalma listeleriniz kaydedilmiş olur."
+      }
+    ]
+  },
+  "microsoft-365": {
+    "description": "Dosyalarınızı kaybetmeden Microsoft 365'i iptal edin. OneDrive depolama alanı 5 GB'a düşer — hazırlık için yapmanız gerekenler burada.",
+    "difficultyReason": "İptal, birden fazla menünün altına gizlenmiştir ve OneDrive depolama alanınızı anında kaybetme riskiniz vardır.",
+    "refundPolicy": "Yıllık abonelikler için 30 gün içinde orantılı iade mevcuttur.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "account.microsoft.com adresine gidin ve oturum açın." },
+          { "instruction": "Üst gezintide \"Hizmetler ve abonelikler\"e tıklayın." },
+          { "instruction": "Microsoft 365'i bulun → \"Yönet\"e tıklayın." },
+          { "instruction": "Abonelik ayrıntılarının altındaki \"İptal\"e tıklayın." },
+          { "instruction": "Yönergeleri izleyin. Microsoft indirim sunabilir — iptal etmek istiyorsanız atlayın.", "note": "OneDrive'da 5 GB'dan fazla veriniz varsa önce dosyalarınızı indirin." },
+          { "instruction": "İptali onaylayın. Bir onay e-postası alacaksınız." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "App Store üzerinden abone olduysanız: Ayarlar → Apple ID → Abonelikler → Microsoft 365 → İptal." },
+          { "instruction": "Doğrudan Microsoft üzerinden abone olduysanız: yukarıdaki web adımlarını kullanın." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Google Play üzerinden abone olduysanız: Play Store → Abonelikler → Microsoft 365 → İptal." },
+          { "instruction": "Doğrudan abone olduysanız: yukarıdaki web adımlarını kullanın." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Office uygulamalarıma (Word, Excel, PowerPoint) ne olacak?",
+        "answer": "İptal sonrasında uygulamalar \"salt okunur\" moduna geçer. Belgeleri görüntüleyebilir ancak düzenleyemezsiniz. Web'deki Microsoft 365 (Office.com) sınırlı özelliklerle ücretsiz kalmaya devam eder."
+      },
+      {
+        "question": "OneDrive depolama alanıma ne olacak?",
+        "answer": "Depolama alanınız ücretsiz 5 GB limitine düşer. Daha fazla veriniz varsa Microsoft erişimi kısıtlamadan önce dosyaları indirmek veya silmek için 30 gününüz var."
+      },
+      {
+        "question": "İade alabilir miyim?",
+        "answer": "Evet, satın alma veya yenilemeden itibaren 30 gün içinde iptal edilen yıllık abonelikler için. Aylık abonelikler iade edilmez. Yıllık iadeler için Microsoft desteğiyle iletişime geçin."
+      }
+    ],
+    "alternatives": [
+      { "description": "Dokümanlar, E-Tablolar, Slaytlar — Google hesabıyla ücretsiz" },
+      { "description": "Ücretsiz, açık kaynaklı Office alternatifi" }
+    ]
+  },
+  "claude": {
+    "description": "Claude Pro veya Ekip aboneliğini web ya da Apple ayarları aracılığıyla 3 dakikadan kısa sürede iptal edin.",
+    "difficultyReason": "Anthropic, herhangi bir elde tutma sürtünmesi olmaksızın basit bir iptal akışı sunar.",
+    "refundPolicy": "İade yoktur. Fatura dönemi sonuna kadar erişim devam eder.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "claude.ai adresine gidin ve oturum açın." },
+          { "instruction": "Profil simgenize → \"Ayarlar\"a tıklayın." },
+          { "instruction": "Kenar çubuğundan \"Faturalandırma\"ya gidin." },
+          { "instruction": "\"Planı iptal et\" veya \"Aboneliği iptal et\"e tıklayın." },
+          { "instruction": "İptali onaylayın.", "note": "Pro erişimi, fatura döneminizin sonuna kadar devam eder." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "App Store üzerinden abone olduysanız: Ayarlar → Apple ID → Abonelikler → Claude → İptal." },
+          { "instruction": "Doğrudan Anthropic üzerinden abone olduysanız: yukarıdaki web adımlarını kullanın." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Google Play Store'u açın → profil → Abonelikler." },
+          { "instruction": "Claude'u bulun → \"Aboneliği iptal et\"e → onayla'ya dokunun." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Konuşma geçmişimi kaybedecek miyim?",
+        "answer": "Hayır. Tüm konuşmalarınız kaydedilir ve ücretsiz planda bile erişilebilir."
+      },
+      {
+        "question": "Ücretsiz plana geçtiğimde ne kaybederim?",
+        "answer": "Yoğun saatlerde öncelikli erişimi, Claude'un en yetenekli modellerine (Opus) erişimi ve daha yüksek kullanım limitlerini kaybedersiniz."
+      }
+    ],
+    "alternatives": [
+      { "description": "649 TL/ay — OpenAI'ın GPT-4o'su ve daha fazlası" },
+      { "description": "649 TL/ay — Google'ın en yetenekli yapay zekası" }
+    ]
+  },
+  "youtube-premium": {
+    "description": "YouTube Premium'u web, iOS veya Android'de 3 dakikadan kısa sürede iptal edin.",
+    "difficultyReason": "YouTube Premium iptali web üzerinde hızlıdır; ancak mobil uygulama birkaç ek adım gerektirir.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "youtube.com/paid_memberships adresine gidin ve oturum açın." },
+          { "instruction": "\"YouTube Premium\"u bulun → \"Üyeliği yönet\"e tıklayın." },
+          { "instruction": "\"Devre dışı bırak\"a tıklayın." },
+          { "instruction": "Onay adımlarını izleyin → \"İptale devam et\"e tıklayın." },
+          { "instruction": "Onaylayın. Fatura dönemi sonuna kadar Premium'unuz devam eder.", "note": "YouTube Music Premium dahildir ve o da iptal edilecektir." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Ayarlar'ı açın → adınıza → Abonelikler'e dokunun." },
+          { "instruction": "\"YouTube Premium\"u bulun → üzerine dokunun." },
+          { "instruction": "\"Aboneliği İptal Et\"e → Onayla'ya dokunun." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Google Play Store'u açın → profil → \"Ödemeler ve abonelikler\" → Abonelikler." },
+          { "instruction": "\"YouTube Premium\"u bulun → \"Aboneliği iptal et\"e dokunun." },
+          { "instruction": "Onay akışını izleyin." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "YouTube Premium'u iptal etmek YouTube Music'i de iptal eder mi?",
+        "answer": "Evet — YouTube Music Premium, YouTube Premium'a dahildir ve birlikte iptal edilir."
+      },
+      {
+        "question": "Devre Dışı Bırak düğmesini bulamıyorum.",
+        "answer": "iOS veya Android uygulaması üzerinden abone olduysanız, YouTube üzerinden değil, cihazınızın abonelik ayarlarından iptal etmeniz gerekir."
+      }
+    ]
+  },
+  "hulu": {
+    "description": "Hulu'yu web, iOS, Android veya Amazon'da 5 dakikada iptal edin. Disney Bundle iptali dahil.",
+    "difficultyReason": "Hulu, iptal etmenize izin vermeden önce birden fazla onay ekranı kullanır ve indirimler sunar.",
+    "refundPolicy": "İade yoktur. Fatura dönemi sonuna kadar erişim devam eder.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "hulu.com adresine gidin ve oturum açın." },
+          { "instruction": "Profil simgenize → \"Hesap\"a tıklayın." },
+          { "instruction": "\"Aboneliğiniz\" bölümünde \"İptal\"e tıklayın." },
+          { "instruction": "Bir neden seçin → Hulu teklifler sunacak. \"İptale Devam Et\"e tıklayın." },
+          { "instruction": "Onaylamak için \"Aboneliği İptal Et\"e tıklayın." },
+          { "instruction": "Bir onay e-postası alacaksınız." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Ayarlar'ı açın → adınıza → Abonelikler'e dokunun." },
+          { "instruction": "\"Hulu\"yu bulun → üzerine dokunun." },
+          { "instruction": "\"Aboneliği İptal Et\"e → Onayla'ya dokunun." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Google Play Store'u açın → profil → Abonelikler → Hulu'yu bulun." },
+          { "instruction": "\"Aboneliği iptal et\"e dokunun → yönergeleri izleyin." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Disney Bundle'ım var — Hulu'yu iptal etmek Disney+'ı da iptal eder mi?",
+        "answer": "Hayır. Disney Bundle, Hulu faturalandırması aracılığıyla yönetilir. Hulu'yu iptal etmek tüm paketi iptal eder. Disney+'ı ayrı tutmak istiyorsanız iptal sonrasında doğrudan Disney üzerinden abone olmanız gerekir."
+      },
+      {
+        "question": "Hesap sayfamda İptal düğmesini bulamıyorum.",
+        "answer": "Üçüncü bir taraf (Amazon, Roku, Apple veya Google) üzerinden abone olduysanız o platform üzerinden iptal etmeniz gerekir — İptal düğmesi Hulu'nun web sitesinde görünmeyecektir."
+      }
+    ]
+  },
+  "nordvpn": {
+    "description": "NordVPN'i iptal edin ve satın alma tarihinden itibaren 30 gün içindeyseniz tam iade alın. 5 dakikadan az sürer.",
+    "difficultyReason": "NordVPN, 30 günlük para iade garantisi ve basit bir iptal akışı sunar.",
+    "refundPolicy": "30 günlük para iade garantisi. 30 gün içinde canlı sohbet veya e-posta yoluyla iade talebinde bulunun.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "my.nordaccount.com adresine gidin ve oturum açın." },
+          { "instruction": "Sol kenar çubuğunda \"Faturalandırma\" veya \"Abonelik\"e tıklayın." },
+          { "instruction": "Planınızı bulun → \"Otomatik yenilemeyi iptal et\" veya \"Aboneliği iptal et\"e tıklayın." },
+          { "instruction": "İptali onaylayın." },
+          { "instruction": "İade için: nordvpn.com/support'ta canlı sohbet başlatın ve talebinizi iletin. İadeler 5–10 iş günü içinde işleme alınır.", "note": "NordVPN, hesap panosu üzerinden iade sunmaz — destek ekibiyle iletişime geçmeniz gerekir." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "App Store üzerinden abone olduysanız: Ayarlar → Apple ID → Abonelikler → NordVPN → İptal." },
+          { "instruction": "Not: App Store abonelikleri NordVPN'in 30 günlük iade garantisi kapsamında değildir. Bunun yerine Apple ile iletişime geçin." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Google Play üzerinden abone olduysanız: Play Store → Abonelikler → NordVPN → İptal." },
+          { "instruction": "Play satın alımları için iade almak üzere 48 saat içinde Google Play desteğiyle iletişime geçin." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "30 günü geçtim — hâlâ iade alabilir miyim?",
+        "answer": "30 günlük garanti kesindir. Bu sürenin ötesinde iade yapılmaz. Yine de tekrar ücretlendirilmemek için otomatik yenilemeyi iptal edebilirsiniz."
+      },
+      {
+        "question": "Hesabımda iptal seçeneğini bulamıyorum.",
+        "answer": "Üçüncü bir taraf (App Store, Google Play veya Amazon gibi bir satıcı) üzerinden abone olduysanız o platform üzerinden iptal etmeniz gerekir."
+      }
+    ]
+  }
+}

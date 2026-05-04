@@ -1,0 +1,528 @@
+{
+  "netflix": {
+    "description": "Cancela a tua subscrição Netflix em menos de 2 minutos. Os passos funcionam na web, iOS, Android e Roku.",
+    "difficultyReason": "O Netflix permite cancelar em 2 cliques nas definições da conta, sem táticas de retenção.",
+    "refundPolicy": "Sem reembolsos. O acesso mantém-se até ao fim do período de faturação.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Vai a netflix.com e inicia sessão." },
+          { "instruction": "Clica no ícone do teu perfil → Conta." },
+          { "instruction": "Em «Subscrição», clica em «Cancelar subscrição»." },
+          { "instruction": "Clica em «Concluir cancelamento» para confirmar." },
+          { "instruction": "Receberás um e-mail de confirmação. Guarda-o para os teus registos.", "note": "O acesso mantém-se até ao fim do teu período de faturação atual." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Abre as Definições do iPhone → toca no teu nome no topo." },
+          { "instruction": "Toca em «Subscrições»." },
+          { "instruction": "Encontra e toca em «Netflix»." },
+          { "instruction": "Toca em «Cancelar subscrição» → Confirmar." },
+          { "instruction": "Mantens o acesso até ao fim do teu período de faturação.", "note": "A Apple não emite reembolsos parciais." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Abre a Google Play Store." },
+          { "instruction": "Toca no ícone do teu perfil → «Pagamentos e subscrições» → «Subscrições»." },
+          { "instruction": "Encontra «Netflix» e toca nele." },
+          { "instruction": "Toca em «Cancelar subscrição» e segue as instruções." },
+          { "instruction": "O acesso mantém-se até ao fim do período de faturação." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Cancelei mas continuo a ser cobrado.",
+        "answer": "Podes ter duas contas Netflix ou ter subscrito por canais diferentes (web vs. App Store). Verifica tanto as subscrições na loja de aplicações como em netflix.com/account."
+      },
+      {
+        "question": "Posso pausar em vez de cancelar?",
+        "answer": "Sim. Em netflix.com/account, procura «Pausar subscrição» — suspende a faturação durante 1 a 3 meses."
+      },
+      {
+        "question": "Vou perder a minha lista e o histórico de visualizações?",
+        "answer": "O Netflix conserva os teus dados durante 10 meses após o cancelamento. Se voltares a subscrever dentro desse período, tudo é restaurado."
+      }
+    ],
+    "alternatives": [
+      { "description": "Sem anúncios, 9,99 $/mês" },
+      { "description": "Disney, Marvel, Star Wars — 7,99 $/mês" },
+      { "description": "Conteúdo HBO — 9,99 $/mês" }
+    ]
+  },
+  "spotify": {
+    "description": "Cancela o Spotify Premium em menos de 60 segundos. A web é o caminho mais rápido — a aplicação não permite cancelar diretamente.",
+    "difficultyReason": "O cancelamento na web é simples, embora a aplicação não suporte cancelamento direto.",
+    "refundPolicy": "Sem reembolsos. O Premium mantém-se até ao fim do período de faturação.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Vai a spotify.com/account e inicia sessão." },
+          { "instruction": "Clica em «Mudar plano» ou desliza até «O teu plano»." },
+          { "instruction": "Desliza para baixo e clica em «Cancelar Premium»." },
+          { "instruction": "Segue os passos de confirmação (o Spotify pode oferecer um desconto — ignora se não tiveres interesse)." },
+          { "instruction": "Clica em «Cancelar mesmo assim» para confirmar. Receberás um e-mail de confirmação.", "note": "Mantens o Premium até ao fim do período de faturação." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Abre as Definições do iPhone → toca no nome do teu ID Apple." },
+          { "instruction": "Toca em «Subscrições» → encontra o Spotify." },
+          { "instruction": "Toca em «Cancelar subscrição» → Confirmar." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Abre a Google Play Store → toca no ícone do teu perfil." },
+          { "instruction": "Vai a «Pagamentos e subscrições» → «Subscrições»." },
+          { "instruction": "Encontra o Spotify → toca em «Cancelar subscrição»." },
+          { "instruction": "Segue as instruções de confirmação." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "O botão «Cancelar Premium» está a cinzento.",
+        "answer": "Subscreveste através da App Store ou Google Play. Cancela nas definições do teu dispositivo — consulta o separador iOS ou Android acima."
+      },
+      {
+        "question": "O Spotify ofereceu-me um desconto — devo aceitar?",
+        "answer": "Se quiseres manter o Spotify, sim — às vezes oferecem 1 a 3 meses a 50% de desconto ou gratuitamente. Se realmente quiseres cancelar, clica em «Cancelar mesmo assim»."
+      }
+    ],
+    "alternatives": [
+      { "description": "10,99 $/mês, ótimo se estiveres no ecossistema Apple" },
+      { "description": "10,99 $/mês, incluído com o YouTube Premium" }
+    ]
+  },
+  "adobe": {
+    "description": "Cancela o Adobe Creative Cloud sem pagar a taxa de rescisão antecipada. O momento é crucial — aqui está exatamente o que deves fazer.",
+    "difficultyReason": "A Adobe cobra até 50% do contrato restante como taxa de rescisão antecipada e usa vários ecrãs de retenção.",
+    "refundPolicy": "Taxa de rescisão antecipada: 50% dos meses restantes se cancelares no primeiro ano. Gratuita se cancelares nos 14 dias após a compra ou renovação.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Vai a account.adobe.com e inicia sessão." },
+          { "instruction": "Clica em «Planos e produtos» na barra lateral esquerda." },
+          { "instruction": "Encontra o teu plano Creative Cloud e clica em «Gerir plano»." },
+          { "instruction": "Clica em «Cancelar o teu plano».", "note": "A Adobe mostrará a taxa de rescisão antecipada neste momento." },
+          { "instruction": "Escolhe um motivo → A Adobe fará várias ofertas (descontos, pausas). Clica em «Continuar a cancelar» em cada uma." },
+          { "instruction": "Confirma o cancelamento. Guarda o número de confirmação." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Se subscreveste através da App Store: Definições → ID Apple → Subscrições → Adobe → Cancelar." },
+          { "instruction": "Se subscreveste diretamente na Adobe: usa os passos do site acima — a aplicação não suporta cancelamento direto." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Se subscreveste através da Google Play: abre a Play Store → Subscrições → Adobe → Cancelar." },
+          { "instruction": "Se subscreveste diretamente na Adobe: usa os passos do site acima." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Como evito a taxa de rescisão antecipada de 50%?",
+        "answer": "Tens duas opções: (1) Cancela nos 14 dias após o início ou renovação do teu plano anual — a Adobe tem de te reembolsar na totalidade. (2) Aguarda que o teu contrato anual termine e cancela antes da renovação automática."
+      },
+      {
+        "question": "A Adobe cobrou-me a taxa de rescisão antecipada — posso contestar?",
+        "answer": "Se achares que o valor está errado, contacta o suporte da Adobe e menciona a janela de 14 dias. Se estiveres fora desse prazo, podes contestar junto do teu banco, mas os resultados variam."
+      },
+      {
+        "question": "O que acontece aos meus ficheiros após o cancelamento?",
+        "answer": "Perdes o acesso às aplicações Creative Cloud, mas os ficheiros guardados localmente ficam intactos. Os ficheiros guardados na nuvem ficam acessíveis apenas em modo de leitura durante 90 dias."
+      }
+    ],
+    "alternatives": [
+      { "description": "Compra única, sem subscrição. Alternativa ao Photoshop/Illustrator." },
+      { "description": "12,99 $/mês — ótimo para não designers" },
+      { "description": "Plano gratuito disponível, o melhor para design UI/UX" }
+    ]
+  },
+  "chatgpt": {
+    "description": "Cancela o ChatGPT Plus ou Pro em menos de 2 minutos. Impede o próximo débito sem perder o acesso atual.",
+    "difficultyReason": "A OpenAI disponibiliza um processo de cancelamento simples sem fricção de retenção.",
+    "refundPolicy": "Sem reembolsos. O acesso mantém-se até ao fim do período de faturação.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Vai a chatgpt.com e inicia sessão." },
+          { "instruction": "Clica no teu nome ou ícone de perfil no canto inferior esquerdo." },
+          { "instruction": "Vai a «Definições» → «Subscrição»." },
+          { "instruction": "Clica em «Gerir a minha subscrição»." },
+          { "instruction": "Clica em «Cancelar plano» → Confirmar." },
+          { "instruction": "Receberás um e-mail de confirmação. O acesso Plus mantém-se até ao fim do período.", "note": "O ChatGPT regressa automaticamente ao plano gratuito." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Abre Definições → toca no nome do teu ID Apple → Subscrições." },
+          { "instruction": "Encontra «ChatGPT» → toca nele." },
+          { "instruction": "Toca em «Cancelar subscrição» → Confirmar." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Abre a Google Play Store → ícone de perfil → «Pagamentos e subscrições» → «Subscrições»." },
+          { "instruction": "Encontra «ChatGPT» → toca em «Cancelar subscrição»." },
+          { "instruction": "Segue as instruções de confirmação." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Cancelei mas fui imediatamente para o plano gratuito.",
+        "answer": "Isso é esperado em algumas contas. O acesso Plus deve manter-se até ao fim do período de faturação. Caso contrário, contacta support.openai.com."
+      },
+      {
+        "question": "Vou perder o meu histórico de conversas?",
+        "answer": "Não. As tuas conversas ficam guardadas independentemente do plano. Apenas perdes o acesso ao GPT-4, DALL-E e outras funcionalidades Plus."
+      }
+    ],
+    "alternatives": [
+      { "description": "A IA da Anthropic — plano gratuito + 20 $/mês Pro" },
+      { "description": "A IA da Google — 19,99 $/mês, incluído no Google One AI Premium" },
+      { "description": "20 $/mês — motor de pesquisa com IA" }
+    ]
+  },
+  "amazon-prime": {
+    "description": "Cancela o Amazon Prime e possivelmente obtém um reembolso. A Amazon dificulta o processo — segue os passos exatos abaixo.",
+    "difficultyReason": "A Amazon esconde a opção de cancelamento e mostra vários ecrãs de retenção, mas é possível obter reembolso se agires rapidamente.",
+    "refundPolicy": "Reembolso proporcional disponível se não tiveres utilizado os benefícios Prime durante o período de faturação atual.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Vai a amazon.es → passa o rato sobre «Conta e listas» → clica em «A minha conta»." },
+          { "instruction": "Clica em «Prime» ou procura «Gerir subscrição Prime» nas definições da conta." },
+          { "instruction": "Clica em «Atualizar, cancelar e mais» → «Terminar subscrição»." },
+          { "instruction": "Escolhe «Terminar subscrição» (não «Lembrar mais tarde» nem as outras opções que a Amazon apresenta).", "note": "A Amazon mostrará o valor do reembolso se fores elegível." },
+          { "instruction": "Clica em «Cancelar subscrição» para confirmar." },
+          { "instruction": "Verifica o teu e-mail para a confirmação." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Abre a aplicação Amazon Shopping → toca nas três linhas (menu)." },
+          { "instruction": "Desliza até «Conta» → toca em «Gerir subscrição Prime»." },
+          { "instruction": "Toca em «Atualizar, cancelar e mais» → «Terminar subscrição»." },
+          { "instruction": "Segue os mesmos passos que na versão web." },
+          { "instruction": "Nota: se subscreveste através da Apple, cancela em Definições iOS → Subscrições." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Abre a aplicação Amazon Shopping → menu → «Conta»." },
+          { "instruction": "Toca em «Gerir subscrição Prime» → «Terminar subscrição»." },
+          { "instruction": "Se subscreveste através da Google Play, cancela em Play Store → Subscrições." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Tenho direito a reembolso?",
+        "answer": "Sim, se não tiveres utilizado nenhum benefício Prime (envio gratuito, Prime Video, etc.) desde o último débito. O reembolso é proporcional. A Amazon mostra o valor exato antes de confirmares o cancelamento."
+      },
+      {
+        "question": "O que acontece à minha lista do Prime Video?",
+        "answer": "Perdes o acesso ao conteúdo Prime Video imediatamente após o cancelamento. A tua lista fica guardada se voltares a subscrever."
+      },
+      {
+        "question": "Cancelei mas continuo a ser cobrado.",
+        "answer": "Verifica se tens uma subscrição Prime familiar separada ou se um familiar criou uma nova subscrição. Inicia sessão e verifica as definições da conta."
+      }
+    ]
+  },
+  "disney-plus": {
+    "description": "Cancela o Disney+ em 5 minutos na web, iOS, Android, ou através do Roku e Amazon.",
+    "difficultyReason": "O cancelamento do Disney+ é simples e sem taxas de rescisão antecipada.",
+    "refundPolicy": "Sem reembolsos. O acesso mantém-se até ao fim do período de faturação.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Vai a disneyplus.com e inicia sessão." },
+          { "instruction": "Clica no ícone do teu perfil → «Conta»." },
+          { "instruction": "Em «Subscrição», clica em «Cancelar subscrição»." },
+          { "instruction": "Seleciona um motivo → Clica em «Continuar»." },
+          { "instruction": "Clica em «Cancelar subscrição» para confirmar." },
+          { "instruction": "Receberás um e-mail de confirmação.", "note": "O acesso mantém-se até à tua data de faturação." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Abre Definições → toca no teu nome → Subscrições." },
+          { "instruction": "Encontra «Disney+» → toca nele." },
+          { "instruction": "Toca em «Cancelar subscrição» → confirmar." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Abre a Google Play Store → perfil → «Pagamentos e subscrições» → «Subscrições»." },
+          { "instruction": "Encontra o Disney+ → toca em «Cancelar subscrição»." },
+          { "instruction": "Conclui o processo de confirmação." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Não vejo o botão «Cancelar subscrição».",
+        "answer": "Provavelmente subscreveste através de um terceiro (Apple, Google, Amazon, Roku ou Hulu). Cancela através da plataforma de faturação original."
+      },
+      {
+        "question": "Posso cancelar o pacote Disney (Disney+, Hulu, ESPN+)?",
+        "answer": "Sim — cancelar o Disney+ cancela o pacote completo. Se quiseres manter o Hulu ou o ESPN+ separadamente, terás de subscrever individualmente."
+      }
+    ]
+  },
+  "apple-music": {
+    "description": "Cancela o Apple Music no iPhone, Mac, Android ou web. Inclui o momento certo para cancelar a subscrição de avaliação gratuita.",
+    "difficultyReason": "O cancelamento do Apple Music está integrado nas definições do iOS e demora cerca de 30 segundos.",
+    "refundPolicy": "Sem reembolsos parciais. O acesso mantém-se até ao fim do período de faturação.",
+    "platforms": {
+      "ios": {
+        "steps": [
+          { "instruction": "Abre Definições → toca no teu nome no topo." },
+          { "instruction": "Toca em «Subscrições»." },
+          { "instruction": "Toca em «Apple Music»." },
+          { "instruction": "Toca em «Cancelar subscrição» → Confirmar.", "note": "Se estiveres num período de avaliação gratuita, verás a data de fim da avaliação." }
+        ]
+      },
+      "web": {
+        "steps": [
+          { "instruction": "Abre a aplicação Música no Mac → clica no teu nome → Definições da conta. Ou vai a music.apple.com e inicia sessão." },
+          { "instruction": "Encontra «Subscrições» → clica em «Gerir»." },
+          { "instruction": "Encontra o Apple Music → clica em «Editar» → «Cancelar subscrição»." },
+          { "instruction": "Confirma o cancelamento." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Abre a aplicação Apple Music no Android." },
+          { "instruction": "Toca no teu perfil → Definições da conta → Subscrições." },
+          { "instruction": "Toca em «Cancelar subscrição» → Confirmar." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Estou num período de avaliação gratuita — quando devo cancelar?",
+        "answer": "Cancela pelo menos 24 horas antes de o período de avaliação terminar. A data exata de fim é mostrada em Definições → Subscrições ao lado da entrada do Apple Music."
+      },
+      {
+        "question": "Vou perder a minha biblioteca?",
+        "answer": "As faixas do Apple Music descarregadas (músicas em streaming) são removidas. A música que compraste no iTunes é tua permanentemente. As tuas listas de reprodução ficam guardadas se voltares a subscrever."
+      }
+    ]
+  },
+  "microsoft-365": {
+    "description": "Cancela o Microsoft 365 sem perder os teus ficheiros. O armazenamento do OneDrive desce para 5 GB — aqui está como te preparares.",
+    "difficultyReason": "O cancelamento está escondido em vários menus e corres o risco de perder espaço no OneDrive imediatamente.",
+    "refundPolicy": "Reembolso proporcional disponível nos primeiros 30 dias para subscrições anuais.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Vai a account.microsoft.com e inicia sessão." },
+          { "instruction": "Clica em «Serviços e subscrições» na navegação superior." },
+          { "instruction": "Encontra o Microsoft 365 → clica em «Gerir»." },
+          { "instruction": "Clica em «Cancelar» nos detalhes da subscrição." },
+          { "instruction": "Segue as instruções. A Microsoft pode oferecer um desconto — ignora se quiseres cancelar.", "note": "Se tiveres mais de 5 GB no OneDrive, descarrega os teus ficheiros primeiro." },
+          { "instruction": "Confirma o cancelamento. Receberás um e-mail de confirmação." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Se subscreveste através da App Store: Definições → ID Apple → Subscrições → Microsoft 365 → Cancelar." },
+          { "instruction": "Se subscreveste diretamente na Microsoft: usa os passos do site acima." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Se subscreveste através da Google Play: Play Store → Subscrições → Microsoft 365 → Cancelar." },
+          { "instruction": "Se subscreveste diretamente: usa os passos do site acima." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "O que acontece às minhas aplicações Office (Word, Excel, PowerPoint)?",
+        "answer": "As aplicações passam para o modo «só de leitura» após o cancelamento. Podes ver mas não editar documentos. O Microsoft 365 na web (Office.com) continua gratuito com funcionalidades limitadas."
+      },
+      {
+        "question": "O que acontece ao armazenamento do OneDrive?",
+        "answer": "O teu espaço desce para o limite gratuito de 5 GB. Se tiveres mais dados, tens 30 dias para descarregar ou eliminar ficheiros antes de a Microsoft restringir o acesso."
+      },
+      {
+        "question": "Posso obter um reembolso?",
+        "answer": "Sim, para subscrições anuais canceladas nos 30 dias após a compra ou renovação. As subscrições mensais não são reembolsadas. Contacta o suporte da Microsoft para reembolsos anuais."
+      }
+    ],
+    "alternatives": [
+      { "description": "Docs, Sheets, Slides — gratuito com conta Google" },
+      { "description": "Alternativa Office gratuita e open source" }
+    ]
+  },
+  "claude": {
+    "description": "Cancela a subscrição Claude Pro ou Team em menos de 3 minutos pela web ou pelas definições da Apple.",
+    "difficultyReason": "A Anthropic disponibiliza um processo de cancelamento simples sem fricção de retenção.",
+    "refundPolicy": "Sem reembolsos. O acesso mantém-se até ao fim do período de faturação.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Vai a claude.ai e inicia sessão." },
+          { "instruction": "Clica no ícone do teu perfil → «Definições»." },
+          { "instruction": "Vai a «Faturação» na barra lateral." },
+          { "instruction": "Clica em «Cancelar plano» ou «Cancelar subscrição»." },
+          { "instruction": "Confirma o cancelamento.", "note": "O acesso Pro mantém-se até ao fim do teu período de faturação." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Se subscreveste através da App Store: Definições → ID Apple → Subscrições → Claude → Cancelar." },
+          { "instruction": "Se subscreveste diretamente na Anthropic: usa os passos do site acima." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Abre a Google Play Store → perfil → Subscrições." },
+          { "instruction": "Encontra o Claude → toca em «Cancelar subscrição» → confirmar." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Vou perder o meu histórico de conversas?",
+        "answer": "Não. Todas as tuas conversas ficam guardadas e acessíveis mesmo no plano gratuito."
+      },
+      {
+        "question": "O que perco ao passar para o plano gratuito?",
+        "answer": "Perdes o acesso prioritário nas horas de pico, o acesso aos modelos mais avançados do Claude (Opus) e os limites de utilização mais elevados."
+      }
+    ],
+    "alternatives": [
+      { "description": "20 $/mês — GPT-4o da OpenAI e mais" },
+      { "description": "19,99 $/mês — A IA mais capaz da Google" }
+    ]
+  },
+  "youtube-premium": {
+    "description": "Cancela o YouTube Premium em menos de 3 minutos na web, iOS ou Android.",
+    "difficultyReason": "O cancelamento do YouTube Premium é rápido na web, embora a aplicação móvel exija alguns passos adicionais.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Vai a youtube.com/paid_memberships e inicia sessão." },
+          { "instruction": "Encontra «YouTube Premium» → clica em «Gerir subscrição»." },
+          { "instruction": "Clica em «Desativar»." },
+          { "instruction": "Segue os passos de confirmação → clica em «Continuar para cancelar»." },
+          { "instruction": "Confirmar. Mantens o Premium até ao fim do teu período de faturação.", "note": "O YouTube Music Premium está incluído e também será cancelado." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Abre Definições → toca no teu nome → Subscrições." },
+          { "instruction": "Encontra «YouTube Premium» → toca nele." },
+          { "instruction": "Toca em «Cancelar subscrição» → Confirmar." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Abre a Google Play Store → perfil → «Pagamentos e subscrições» → Subscrições." },
+          { "instruction": "Encontra «YouTube Premium» → toca em «Cancelar subscrição»." },
+          { "instruction": "Segue o processo de confirmação." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Cancelar o YouTube Premium também cancela o YouTube Music?",
+        "answer": "Sim — o YouTube Music Premium está incluído no YouTube Premium e é cancelado em conjunto."
+      },
+      {
+        "question": "Não consigo encontrar o botão Desativar.",
+        "answer": "Se subscreveste através da aplicação iOS ou Android, terás de cancelar nas definições de subscrições do teu dispositivo, e não diretamente no YouTube."
+      }
+    ]
+  },
+  "hulu": {
+    "description": "Cancela o Hulu na web, iOS, Android ou Amazon em 5 minutos. Inclui o cancelamento do pacote Disney.",
+    "difficultyReason": "O Hulu usa vários ecrãs de confirmação e oferece descontos antes de te deixar cancelar.",
+    "refundPolicy": "Sem reembolsos. O acesso mantém-se até ao fim do período de faturação.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Vai a hulu.com e inicia sessão." },
+          { "instruction": "Clica no ícone do teu perfil → «Conta»." },
+          { "instruction": "Em «A tua subscrição», clica em «Cancelar»." },
+          { "instruction": "Seleciona um motivo → O Hulu fará ofertas. Clica em «Continuar para cancelar»." },
+          { "instruction": "Clica em «Cancelar subscrição» para confirmar." },
+          { "instruction": "Receberás um e-mail de confirmação." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Abre Definições → toca no teu nome → Subscrições." },
+          { "instruction": "Encontra «Hulu» → toca nele." },
+          { "instruction": "Toca em «Cancelar subscrição» → Confirmar." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Abre a Google Play Store → perfil → Subscrições → encontra o Hulu." },
+          { "instruction": "Toca em «Cancelar subscrição» → segue as instruções." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Tenho o pacote Disney — cancelar o Hulu também cancela o Disney+?",
+        "answer": "Não. O pacote Disney é gerido através da faturação do Hulu. Cancelar o Hulu cancela o pacote completo. Se quiseres o Disney+ separadamente, subscreve diretamente no Disney após o cancelamento."
+      },
+      {
+        "question": "Não consigo encontrar o botão Cancelar na minha página de conta.",
+        "answer": "Se subscreveste através de um terceiro (Amazon, Roku, Apple ou Google), tens de cancelar através dessa plataforma — o botão de cancelamento não aparecerá no site do Hulu."
+      }
+    ]
+  },
+  "nordvpn": {
+    "description": "Cancela o NordVPN e obtém um reembolso total se estiveres nos 30 dias após a compra. Demora menos de 5 minutos.",
+    "difficultyReason": "O NordVPN oferece uma garantia de reembolso de 30 dias e um processo de cancelamento simples.",
+    "refundPolicy": "Garantia de reembolso de 30 dias. Solicita o reembolso por chat ao vivo ou e-mail nos 30 dias.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Vai a my.nordaccount.com e inicia sessão." },
+          { "instruction": "Clica em «Faturação» ou «Subscrição» na barra lateral esquerda." },
+          { "instruction": "Encontra o teu plano → clica em «Cancelar renovação automática» ou «Cancelar subscrição»." },
+          { "instruction": "Confirma o cancelamento." },
+          { "instruction": "Para reembolso: inicia um chat ao vivo em nordvpn.com/support e solicita-o. Os reembolsos são processados em 5 a 10 dias úteis.", "note": "O NordVPN não oferece reembolsos através do painel da conta — tens de contactar o suporte." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Se subscreveste através da App Store: Definições → ID Apple → Subscrições → NordVPN → Cancelar." },
+          { "instruction": "Nota: as subscrições da App Store não são elegíveis para o reembolso de 30 dias do NordVPN. Contacta a Apple." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Se subscreveste através da Google Play: Play Store → Subscrições → NordVPN → Cancelar." },
+          { "instruction": "Para reembolsos em compras Play, contacta o suporte da Google Play nas 48 horas." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Já passaram os 30 dias — ainda posso obter reembolso?",
+        "answer": "A garantia de 30 dias é definitiva. Após esse prazo, não há reembolsos disponíveis. Podes ainda cancelar a renovação automática para não seres cobrado novamente."
+      },
+      {
+        "question": "Não consigo encontrar a opção de cancelamento na minha conta.",
+        "answer": "Se subscreveste através de um terceiro (App Store, Google Play ou um revendedor como a Amazon), tens de cancelar através dessa plataforma."
+      }
+    ]
+  }
+}

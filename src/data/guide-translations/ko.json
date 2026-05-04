@@ -1,0 +1,528 @@
+{
+  "netflix": {
+    "description": "Netflix 구독을 2분 이내에 해지하세요. 웹, iOS, Android, Roku에서 모두 동일한 방법으로 진행할 수 있습니다.",
+    "difficultyReason": "Netflix는 계정 설정에서 2번의 클릭으로 해지할 수 있으며, 붙잡기 전략이 없습니다.",
+    "refundPolicy": "환불 없음. 결제 기간 종료 시까지 이용 가능합니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "netflix.com에 접속하여 로그인합니다." },
+          { "instruction": "프로필 아이콘 클릭 → 계정." },
+          { "instruction": "\"멤버십\" 아래에서 \"멤버십 해지\"를 클릭합니다." },
+          { "instruction": "\"해지 완료\"를 클릭하여 확인합니다." },
+          { "instruction": "확인 이메일이 발송됩니다. 기록을 위해 보관해 두세요.", "note": "현재 결제 기간 종료 시까지 이용 가능합니다." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "iPhone 설정 열기 → 상단의 이름 탭." },
+          { "instruction": "\"구독\"을 탭합니다." },
+          { "instruction": "\"Netflix\"를 찾아 탭합니다." },
+          { "instruction": "\"구독 취소\" 탭 → 확인." },
+          { "instruction": "결제 기간 종료 시까지 이용 가능합니다.", "note": "Apple은 부분 환불을 제공하지 않습니다." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Google Play 스토어를 엽니다." },
+          { "instruction": "프로필 아이콘 탭 → \"결제 및 구독\" → \"구독\"." },
+          { "instruction": "\"Netflix\"를 찾아 탭합니다." },
+          { "instruction": "\"구독 취소\"를 탭하고 안내에 따릅니다." },
+          { "instruction": "결제 기간 종료 시까지 이용 가능합니다." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "해지했는데 계속 결제되고 있습니다.",
+        "answer": "Netflix 계정이 두 개이거나 다른 경로(웹 vs. App Store)로 구독했을 수 있습니다. 앱 스토어 구독과 netflix.com/account를 모두 확인해 보세요."
+      },
+      {
+        "question": "해지 대신 일시정지할 수 있나요?",
+        "answer": "네. netflix.com/account에서 \"멤버십 일시정지\"를 찾으세요 — 1~3개월 동안 결제를 중단할 수 있습니다."
+      },
+      {
+        "question": "찜 목록과 시청 기록이 삭제되나요?",
+        "answer": "Netflix는 해지 후 10개월 동안 데이터를 보관합니다. 그 기간 내에 재구독하면 모든 것이 복원됩니다."
+      }
+    ],
+    "alternatives": [
+      { "description": "광고 없음, $9.99/월" },
+      { "description": "Disney, Marvel, Star Wars — $7.99/월" },
+      { "description": "HBO 콘텐츠 — $9.99/월" }
+    ]
+  },
+  "spotify": {
+    "description": "Spotify Premium을 60초 이내에 해지하세요. 웹이 가장 빠른 방법입니다 — 앱에서는 직접 해지할 수 없습니다.",
+    "difficultyReason": "웹에서의 해지는 간단하지만, 앱은 직접 해지를 지원하지 않습니다.",
+    "refundPolicy": "환불 없음. Premium은 결제 기간 종료 시까지 계속됩니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "spotify.com/account에 접속하여 로그인합니다." },
+          { "instruction": "\"플랜 변경\"을 클릭하거나 \"현재 플랜\"으로 스크롤합니다." },
+          { "instruction": "아래로 스크롤하여 \"Premium 취소\"를 클릭합니다." },
+          { "instruction": "확인 단계를 따릅니다 (Spotify에서 할인을 제안할 수 있습니다 — 원하지 않으면 건너뛰세요)." },
+          { "instruction": "\"그래도 취소\"를 클릭하여 확인합니다. 확인 이메일이 발송됩니다.", "note": "결제 기간 종료 시까지 Premium을 유지합니다." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "iPhone 설정 열기 → Apple ID 이름 탭." },
+          { "instruction": "\"구독\" 탭 → Spotify 찾기." },
+          { "instruction": "\"구독 취소\" 탭 → 확인." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Google Play 스토어 열기 → 프로필 아이콘 탭." },
+          { "instruction": "\"결제 및 구독\" → \"구독\"으로 이동합니다." },
+          { "instruction": "Spotify 찾기 → \"구독 취소\" 탭." },
+          { "instruction": "확인 안내에 따릅니다." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "\"Premium 취소\" 버튼이 비활성화(회색)되어 있습니다.",
+        "answer": "App Store 또는 Google Play를 통해 구독했습니다. 기기 설정에서 취소하세요 — 위의 iOS 또는 Android 탭을 확인하세요."
+      },
+      {
+        "question": "Spotify에서 할인을 제안했는데 받아야 할까요?",
+        "answer": "Spotify를 계속 사용하고 싶다면 네 — 1~3개월을 50% 할인 또는 무료로 제공하는 경우도 있습니다. 정말로 취소하고 싶다면 \"그래도 취소\"를 클릭하세요."
+      }
+    ],
+    "alternatives": [
+      { "description": "$10.99/월, Apple 생태계 사용자에게 최적" },
+      { "description": "$10.99/월, YouTube Premium에 포함" }
+    ]
+  },
+  "adobe": {
+    "description": "조기 해지 수수료 없이 Adobe Creative Cloud를 해지하는 방법. 타이밍이 중요합니다 — 정확한 방법을 안내합니다.",
+    "difficultyReason": "Adobe는 조기 해지 시 남은 계약 기간의 최대 50%를 수수료로 청구하며, 여러 개의 유지 화면을 사용합니다.",
+    "refundPolicy": "조기 해지 수수료: 첫 1년 이내 취소 시 남은 월수의 50%. 구매 또는 갱신 후 14일 이내 취소 시 무료.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "account.adobe.com에 접속하여 로그인합니다." },
+          { "instruction": "왼쪽 사이드바에서 \"플랜 및 제품\"을 클릭합니다." },
+          { "instruction": "Creative Cloud 플랜을 찾아 \"플랜 관리\"를 클릭합니다." },
+          { "instruction": "\"플랜 취소\"를 클릭합니다.", "note": "이 시점에서 Adobe가 조기 해지 수수료를 표시합니다." },
+          { "instruction": "이유 선택 → Adobe에서 여러 제안(할인, 일시정지)을 제시합니다. 매번 \"취소 계속\"을 클릭하세요." },
+          { "instruction": "취소를 확인합니다. 확인 번호를 저장해 두세요." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "App Store를 통해 구독한 경우: 설정 → Apple ID → 구독 → Adobe → 취소." },
+          { "instruction": "Adobe에서 직접 구독한 경우: 위의 웹사이트 단계를 이용하세요 — 앱은 직접 취소를 지원하지 않습니다." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Google Play를 통해 구독한 경우: Play 스토어 → 구독 → Adobe → 취소." },
+          { "instruction": "Adobe에서 직접 구독한 경우: 위의 웹사이트 단계를 이용하세요." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "50% 조기 해지 수수료를 피하려면 어떻게 해야 하나요?",
+        "answer": "두 가지 방법이 있습니다: (1) 연간 플랜 시작 또는 갱신 후 14일 이내에 취소하면 Adobe가 전액 환불해야 합니다. (2) 연간 계약이 끝날 때까지 기다렸다가 자동 갱신 전에 취소합니다."
+      },
+      {
+        "question": "Adobe가 조기 해지 수수료를 청구했습니다 — 이의를 제기할 수 있나요?",
+        "answer": "청구가 잘못되었다고 생각하면 Adobe 지원에 연락하여 14일 기간을 언급하세요. 그 기간을 벗어났다면 신용카드사에 이의를 제기할 수 있지만 결과는 다양합니다."
+      },
+      {
+        "question": "취소 후 파일은 어떻게 되나요?",
+        "answer": "Creative Cloud 앱에 대한 액세스는 잃지만 로컬에 저장된 파일은 유지됩니다. 클라우드 저장 파일은 90일 동안 읽기 전용으로 액세스할 수 있습니다."
+      }
+    ],
+    "alternatives": [
+      { "description": "일회성 구매, 구독 없음. Photoshop/Illustrator 대안." },
+      { "description": "$12.99/월 — 비디자이너에게 최적" },
+      { "description": "무료 플랜 제공, UI/UX 디자인에 최적" }
+    ]
+  },
+  "chatgpt": {
+    "description": "ChatGPT Plus 또는 Pro를 2분 이내에 해지하세요. 현재 이용을 유지하면서 다음 결제를 중단할 수 있습니다.",
+    "difficultyReason": "OpenAI는 유지 마찰 없이 간단한 해지 절차를 제공합니다.",
+    "refundPolicy": "환불 없음. 결제 기간 종료 시까지 이용 가능합니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "chatgpt.com에 접속하여 로그인합니다." },
+          { "instruction": "왼쪽 하단의 이름 또는 프로필 아이콘을 클릭합니다." },
+          { "instruction": "\"설정\" → \"구독\"으로 이동합니다." },
+          { "instruction": "\"내 구독 관리\"를 클릭합니다." },
+          { "instruction": "\"플랜 취소\" → 확인을 클릭합니다." },
+          { "instruction": "확인 이메일이 발송됩니다. Plus 이용은 기간 종료 시까지 계속됩니다.", "note": "ChatGPT는 자동으로 무료 플랜으로 전환됩니다." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "설정 열기 → Apple ID 이름 탭 → 구독." },
+          { "instruction": "\"ChatGPT\" 찾아 탭." },
+          { "instruction": "\"구독 취소\" 탭 → 확인." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Google Play 스토어 열기 → 프로필 아이콘 → \"결제 및 구독\" → \"구독\"." },
+          { "instruction": "\"ChatGPT\" 찾기 → \"구독 취소\" 탭." },
+          { "instruction": "확인 안내에 따릅니다." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "취소했는데 즉시 무료 플랜으로 전환되었습니다.",
+        "answer": "일부 계정에서는 예상되는 동작입니다. Plus 이용은 결제 기간 종료 시까지 계속되어야 합니다. 그렇지 않으면 support.openai.com에 문의하세요."
+      },
+      {
+        "question": "대화 기록이 삭제되나요?",
+        "answer": "아니요. 채팅은 플랜에 관계없이 저장됩니다. GPT-4, DALL-E 및 기타 Plus 기능에 대한 액세스만 잃게 됩니다."
+      }
+    ],
+    "alternatives": [
+      { "description": "Anthropic의 AI — 무료 플랜 + Pro $20/월" },
+      { "description": "Google의 AI — $19.99/월, Google One AI Premium에 포함" },
+      { "description": "$20/월 — AI 검색 엔진" }
+    ]
+  },
+  "amazon-prime": {
+    "description": "Amazon Prime을 해지하고 환불을 받을 수도 있습니다. Amazon이 과정을 복잡하게 만들어 놓았으니 — 아래 정확한 단계를 따르세요.",
+    "difficultyReason": "Amazon은 취소 옵션을 숨기고 여러 유지 화면을 표시하지만, 빠르게 행동하면 환불이 가능합니다.",
+    "refundPolicy": "현재 결제 기간 동안 Prime 혜택을 이용하지 않은 경우 일할 계산 환불이 가능합니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "amazon.com 접속 → \"계정 및 목록\"에 마우스 올리기 → \"계정\"클릭." },
+          { "instruction": "\"Prime\" 클릭 또는 계정 설정에서 \"Prime 멤버십 관리\"를 검색합니다." },
+          { "instruction": "\"업데이트, 취소 등\" → \"멤버십 종료\"를 클릭합니다." },
+          { "instruction": "\"멤버십 종료\"를 선택합니다 (Amazon이 표시하는 \"나중에 알림\" 등의 다른 옵션은 선택하지 마세요).", "note": "환불 자격이 있는 경우 Amazon이 환불 금액을 표시합니다." },
+          { "instruction": "\"멤버십 취소\"를 클릭하여 확인합니다." },
+          { "instruction": "이메일로 확인서를 확인합니다." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Amazon 쇼핑 앱 열기 → 세 줄(메뉴) 탭." },
+          { "instruction": "\"계정\"으로 스크롤 → \"Prime 멤버십 관리\" 탭." },
+          { "instruction": "\"업데이트, 취소 등\" → \"멤버십 종료\" 탭." },
+          { "instruction": "웹 버전과 동일한 안내에 따릅니다." },
+          { "instruction": "참고: Apple을 통해 구독한 경우 iOS 설정 → 구독에서 취소하세요." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Amazon 쇼핑 앱 열기 → 메뉴 → \"계정\"." },
+          { "instruction": "\"Prime 멤버십 관리\" → \"멤버십 종료\" 탭." },
+          { "instruction": "Google Play를 통해 구독한 경우 Play 스토어 → 구독에서 취소하세요." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "환불 자격이 되나요?",
+        "answer": "네, 마지막 청구 이후 Prime 혜택(무료 배송, Prime Video 등)을 이용하지 않은 경우 가능합니다. 환불은 일할 계산됩니다. 취소 확인 전 Amazon이 정확한 금액을 표시합니다."
+      },
+      {
+        "question": "Prime Video 찜 목록은 어떻게 되나요?",
+        "answer": "취소 즉시 Prime Video 콘텐츠에 대한 액세스를 잃습니다. 재구독하면 찜 목록은 저장되어 있습니다."
+      },
+      {
+        "question": "취소했는데 계속 결제되고 있습니다.",
+        "answer": "별도의 가족 Prime 멤버십이 있거나 가족 중 누군가가 새로운 멤버십을 시작했는지 확인하세요. 로그인하여 계정 설정을 확인해 보세요."
+      }
+    ]
+  },
+  "disney-plus": {
+    "description": "Disney+를 웹, iOS, Android 또는 Roku와 Amazon을 통해 5분 내에 해지하세요.",
+    "difficultyReason": "Disney+ 해지는 조기 해지 수수료 없이 간단합니다.",
+    "refundPolicy": "환불 없음. 결제 기간 종료 시까지 이용 가능합니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "disneyplus.com에 접속하여 로그인합니다." },
+          { "instruction": "프로필 아이콘 클릭 → \"계정\"." },
+          { "instruction": "\"구독\" 아래에서 \"구독 취소\"를 클릭합니다." },
+          { "instruction": "이유 선택 → \"계속\"을 클릭합니다." },
+          { "instruction": "\"구독 취소\"를 클릭하여 확인합니다." },
+          { "instruction": "확인 이메일이 발송됩니다.", "note": "결제 날짜까지 이용 가능합니다." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "설정 열기 → 이름 탭 → 구독." },
+          { "instruction": "\"Disney+\" 찾아 탭." },
+          { "instruction": "\"구독 취소\" 탭 → 확인." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Google Play 스토어 열기 → 프로필 → \"결제 및 구독\" → \"구독\"." },
+          { "instruction": "Disney+ 찾기 → \"구독 취소\" 탭." },
+          { "instruction": "확인 절차를 완료합니다." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "\"구독 취소\" 버튼이 보이지 않습니다.",
+        "answer": "제3자(Apple, Google, Amazon, Roku 또는 Hulu)를 통해 구독했을 가능성이 있습니다. 원래 결제 플랫폼을 통해 취소하세요."
+      },
+      {
+        "question": "Disney 번들(Disney+, Hulu, ESPN+)을 취소할 수 있나요?",
+        "answer": "네 — Disney+를 취소하면 전체 번들이 취소됩니다. Hulu나 ESPN+를 별도로 유지하려면 각각 개별적으로 재구독해야 합니다."
+      }
+    ]
+  },
+  "apple-music": {
+    "description": "iPhone, Mac, Android 또는 웹에서 Apple Music을 해지하세요. 무료 체험 기간 타이밍도 설명합니다.",
+    "difficultyReason": "Apple Music 해지는 iOS 설정에 내장되어 있으며 약 30초 정도 걸립니다.",
+    "refundPolicy": "부분 환불 없음. 결제 기간 종료 시까지 이용 가능합니다.",
+    "platforms": {
+      "ios": {
+        "steps": [
+          { "instruction": "설정 열기 → 상단의 이름 탭." },
+          { "instruction": "\"구독\"을 탭합니다." },
+          { "instruction": "\"Apple Music\"을 탭합니다." },
+          { "instruction": "\"구독 취소\" 탭 → 확인.", "note": "무료 체험 중이라면 체험 종료 날짜가 표시됩니다." }
+        ]
+      },
+      "web": {
+        "steps": [
+          { "instruction": "Mac에서 음악 앱 열기 → 이름 클릭 → 계정 설정. 또는 music.apple.com에 접속하여 로그인합니다." },
+          { "instruction": "\"구독\" 찾기 → \"관리\" 클릭." },
+          { "instruction": "Apple Music 찾기 → \"편집\" → \"구독 취소\" 클릭." },
+          { "instruction": "취소를 확인합니다." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Android에서 Apple Music 앱을 엽니다." },
+          { "instruction": "프로필 탭 → 계정 설정 → 구독." },
+          { "instruction": "\"구독 취소\" 탭 → 확인." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "무료 체험 중인데 언제 취소해야 하나요?",
+        "answer": "체험 종료 최소 24시간 전에 취소하세요. 정확한 종료 날짜는 설정 → 구독에서 Apple Music 항목 옆에 표시됩니다."
+      },
+      {
+        "question": "라이브러리가 삭제되나요?",
+        "answer": "Apple Music 트랙(스트리밍 곡)은 삭제됩니다. iTunes에서 구매한 음악은 영구적으로 소유합니다. 재구독하면 재생목록은 저장되어 있습니다."
+      }
+    ]
+  },
+  "microsoft-365": {
+    "description": "파일을 잃지 않고 Microsoft 365를 해지하세요. OneDrive 저장 공간이 5GB로 줄어들므로 — 준비 방법을 안내합니다.",
+    "difficultyReason": "해지 옵션이 여러 메뉴 아래에 숨겨져 있으며 OneDrive 저장 공간을 즉시 잃을 위험이 있습니다.",
+    "refundPolicy": "연간 구독의 경우 30일 이내에 일할 계산 환불이 가능합니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "account.microsoft.com에 접속하여 로그인합니다." },
+          { "instruction": "상단 탐색에서 \"서비스 및 구독\"을 클릭합니다." },
+          { "instruction": "Microsoft 365 찾기 → \"관리\" 클릭." },
+          { "instruction": "구독 세부 정보 아래의 \"취소\"를 클릭합니다." },
+          { "instruction": "안내에 따릅니다. Microsoft가 할인을 제안할 수 있습니다 — 취소하려면 건너뛰세요.", "note": "OneDrive에 5GB 이상의 데이터가 있다면 먼저 파일을 다운로드하세요." },
+          { "instruction": "취소를 확인합니다. 확인 이메일이 발송됩니다." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "App Store를 통해 구독한 경우: 설정 → Apple ID → 구독 → Microsoft 365 → 취소." },
+          { "instruction": "Microsoft 직접 구독인 경우: 위의 웹사이트 단계를 이용하세요." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Google Play를 통해 구독한 경우: Play 스토어 → 구독 → Microsoft 365 → 취소." },
+          { "instruction": "직접 구독인 경우: 위의 웹사이트 단계를 이용하세요." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Office 앱(Word, Excel, PowerPoint)은 어떻게 되나요?",
+        "answer": "취소 후 앱이 \"읽기 전용\" 모드로 전환됩니다. 문서를 볼 수는 있지만 편집할 수 없습니다. 웹의 Microsoft 365(Office.com)는 제한된 기능으로 무료로 유지됩니다."
+      },
+      {
+        "question": "OneDrive 저장 공간은 어떻게 되나요?",
+        "answer": "저장 공간이 무료 5GB 한도로 줄어듭니다. 더 많은 데이터가 있다면 Microsoft가 액세스를 제한하기 전 30일 내에 파일을 다운로드하거나 삭제하세요."
+      },
+      {
+        "question": "환불을 받을 수 있나요?",
+        "answer": "네, 구매 또는 갱신 후 30일 이내에 취소한 연간 구독에 대해 가능합니다. 월간 구독은 환불되지 않습니다. 연간 환불은 Microsoft 지원에 문의하세요."
+      }
+    ],
+    "alternatives": [
+      { "description": "문서, 스프레드시트, 프레젠테이션 — Google 계정으로 무료" },
+      { "description": "무료 오픈소스 Office 대안" }
+    ]
+  },
+  "claude": {
+    "description": "Claude Pro 또는 Team 구독을 웹 또는 Apple 설정에서 3분 이내에 해지하세요.",
+    "difficultyReason": "Anthropic은 유지 마찰 없이 간단한 해지 절차를 제공합니다.",
+    "refundPolicy": "환불 없음. 결제 기간 종료 시까지 이용 가능합니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "claude.ai에 접속하여 로그인합니다." },
+          { "instruction": "프로필 아이콘 클릭 → \"설정\"." },
+          { "instruction": "사이드바에서 \"청구\"로 이동합니다." },
+          { "instruction": "\"플랜 취소\" 또는 \"구독 취소\"를 클릭합니다." },
+          { "instruction": "취소를 확인합니다.", "note": "Pro 이용은 결제 기간 종료 시까지 계속됩니다." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "App Store를 통해 구독한 경우: 설정 → Apple ID → 구독 → Claude → 취소." },
+          { "instruction": "Anthropic 직접 구독인 경우: 위의 웹사이트 단계를 이용하세요." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Google Play 스토어 열기 → 프로필 → 구독." },
+          { "instruction": "Claude 찾기 → \"구독 취소\" 탭 → 확인." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "대화 기록이 삭제되나요?",
+        "answer": "아니요. 모든 대화는 저장되며 무료 플랜에서도 이용할 수 있습니다."
+      },
+      {
+        "question": "무료 플랜으로 다운그레이드하면 무엇을 잃나요?",
+        "answer": "피크 시간대의 우선 접근, Claude의 가장 강력한 모델(Opus)에 대한 액세스, 그리고 더 높은 사용량 한도를 잃게 됩니다."
+      }
+    ],
+    "alternatives": [
+      { "description": "$20/월 — OpenAI의 GPT-4o 등" },
+      { "description": "$19.99/월 — Google의 가장 강력한 AI" }
+    ]
+  },
+  "youtube-premium": {
+    "description": "YouTube Premium을 웹, iOS 또는 Android에서 3분 이내에 해지하세요.",
+    "difficultyReason": "YouTube Premium 해지는 웹에서 빠르게 할 수 있지만 모바일 앱은 몇 번의 추가 탭이 필요합니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "youtube.com/paid_memberships에 접속하여 로그인합니다." },
+          { "instruction": "\"YouTube Premium\" 찾기 → \"멤버십 관리\" 클릭." },
+          { "instruction": "\"비활성화\"를 클릭합니다." },
+          { "instruction": "확인 단계에 따릅니다 → \"계속 취소\"를 클릭합니다." },
+          { "instruction": "확인합니다. 결제 기간 종료 시까지 Premium을 유지합니다.", "note": "YouTube Music Premium도 포함되어 함께 취소됩니다." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "설정 열기 → 이름 탭 → 구독." },
+          { "instruction": "\"YouTube Premium\" 찾아 탭." },
+          { "instruction": "\"구독 취소\" 탭 → 확인." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Google Play 스토어 열기 → 프로필 → \"결제 및 구독\" → 구독." },
+          { "instruction": "\"YouTube Premium\" 찾기 → \"구독 취소\" 탭." },
+          { "instruction": "확인 절차에 따릅니다." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "YouTube Premium을 취소하면 YouTube Music도 취소되나요?",
+        "answer": "네 — YouTube Music Premium은 YouTube Premium에 번들로 포함되어 함께 취소됩니다."
+      },
+      {
+        "question": "비활성화 버튼을 찾을 수 없습니다.",
+        "answer": "iOS 또는 Android 앱을 통해 구독한 경우 YouTube에서 직접이 아닌 기기의 구독 설정에서 취소해야 합니다."
+      }
+    ]
+  },
+  "hulu": {
+    "description": "Hulu를 웹, iOS, Android 또는 Amazon에서 5분 내에 해지하세요. Disney 번들 취소 방법도 포함합니다.",
+    "difficultyReason": "Hulu는 취소 전에 여러 확인 화면을 표시하고 할인을 제안합니다.",
+    "refundPolicy": "환불 없음. 결제 기간 종료 시까지 이용 가능합니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "hulu.com에 접속하여 로그인합니다." },
+          { "instruction": "프로필 아이콘 클릭 → \"계정\"." },
+          { "instruction": "\"구독\" 아래에서 \"취소\"를 클릭합니다." },
+          { "instruction": "이유 선택 → Hulu에서 제안을 합니다. \"계속 취소\"를 클릭합니다." },
+          { "instruction": "\"구독 취소\"를 클릭하여 확인합니다." },
+          { "instruction": "확인 이메일이 발송됩니다." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "설정 열기 → 이름 탭 → 구독." },
+          { "instruction": "\"Hulu\" 찾아 탭." },
+          { "instruction": "\"구독 취소\" 탭 → 확인." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Google Play 스토어 열기 → 프로필 → 구독 → Hulu 찾기." },
+          { "instruction": "\"구독 취소\" 탭 → 안내에 따릅니다." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Disney 번들에 가입했는데 Hulu를 취소하면 Disney+도 취소되나요?",
+        "answer": "아니요. Disney 번들은 Hulu 청구로 관리됩니다. Hulu를 취소하면 전체 번들이 취소됩니다. Disney+를 별도로 원한다면 취소 후 Disney를 통해 직접 구독하세요."
+      },
+      {
+        "question": "계정 페이지에서 취소 버튼을 찾을 수 없습니다.",
+        "answer": "제3자(Amazon, Roku, Apple 또는 Google)를 통해 구독한 경우 해당 플랫폼을 통해 취소해야 합니다 — 취소 버튼이 Hulu 웹사이트에는 표시되지 않습니다."
+      }
+    ]
+  },
+  "nordvpn": {
+    "description": "NordVPN을 해지하고 구매 후 30일 이내라면 전액 환불을 받으세요. 5분 이내에 완료됩니다.",
+    "difficultyReason": "NordVPN은 30일 환불 보장과 간단한 해지 절차를 제공합니다.",
+    "refundPolicy": "30일 환불 보장. 30일 이내에 라이브 채팅 또는 이메일로 환불을 요청하세요.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "my.nordaccount.com에 접속하여 로그인합니다." },
+          { "instruction": "왼쪽 사이드바에서 \"청구\" 또는 \"구독\"을 클릭합니다." },
+          { "instruction": "플랜 찾기 → \"자동 갱신 취소\" 또는 \"구독 취소\" 클릭." },
+          { "instruction": "취소를 확인합니다." },
+          { "instruction": "환불을 원하는 경우: nordvpn.com/support에서 라이브 채팅을 시작하여 요청하세요. 환불은 5~10 영업일 내에 처리됩니다.", "note": "NordVPN은 계정 대시보드에서 환불을 제공하지 않습니다 — 지원팀에 직접 문의해야 합니다." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "App Store를 통해 구독한 경우: 설정 → Apple ID → 구독 → NordVPN → 취소." },
+          { "instruction": "참고: App Store 구독은 NordVPN의 30일 환불 보장 대상이 아닙니다. 대신 Apple에 문의하세요." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Google Play를 통해 구독한 경우: Play 스토어 → 구독 → NordVPN → 취소." },
+          { "instruction": "Play 구매 환불은 48시간 이내에 Google Play 지원팀에 문의하세요." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "30일이 지났는데 환불을 받을 수 있나요?",
+        "answer": "30일 보장은 엄격히 적용됩니다. 그 이후에는 환불이 불가합니다. 자동 갱신을 취소하여 다시 청구되지 않도록 할 수 있습니다."
+      },
+      {
+        "question": "계정에서 취소 옵션을 찾을 수 없습니다.",
+        "answer": "제3자(App Store, Google Play 또는 Amazon 같은 리셀러)를 통해 구독한 경우 해당 플랫폼을 통해 취소해야 합니다."
+      }
+    ]
+  }
+}

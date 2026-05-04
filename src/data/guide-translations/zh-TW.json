@@ -1,0 +1,528 @@
+{
+  "netflix": {
+    "description": "在不到 2 分鐘內取消您的 Netflix 訂閱。步驟適用於網頁版、iOS、Android 及 Roku。",
+    "difficultyReason": "Netflix 允許在帳戶設定中點擊 2 下即可取消，沒有任何挽留動作。",
+    "refundPolicy": "不提供退款。可繼續使用至目前計費週期結束。",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "前往 netflix.com 並登入。" },
+          { "instruction": "點擊您的個人頭像 → 帳戶。" },
+          { "instruction": "在「會員資格」下，點擊「取消會員資格」。" },
+          { "instruction": "點擊「完成取消」以確認。" },
+          { "instruction": "您將收到確認電子郵件，請妥善保存。", "note": "可繼續使用至目前計費週期結束。" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "開啟 iPhone 設定 → 點擊頂部的您的姓名。" },
+          { "instruction": "點擊「訂閱項目」。" },
+          { "instruction": "找到並點擊「Netflix」。" },
+          { "instruction": "點擊「取消訂閱」→ 確認。", "note": "Apple 不提供部分退款。" },
+          { "instruction": "您可繼續使用至計費週期結束。" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "開啟 Google Play 商店。" },
+          { "instruction": "點擊個人頭像 → 「付款與訂閱」→「訂閱項目」。" },
+          { "instruction": "找到「Netflix」並點擊。" },
+          { "instruction": "點擊「取消訂閱」並依照提示操作。" },
+          { "instruction": "可繼續使用至計費週期結束。" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我已取消但仍持續被扣款。",
+        "answer": "您可能有兩個 Netflix 帳號，或透過不同管道訂閱（網頁版與 App Store）。請同時檢查應用程式商店中的訂閱及 netflix.com/account。"
+      },
+      {
+        "question": "我可以暫停而不是取消嗎？",
+        "answer": "可以。在 netflix.com/account 尋找「暫停會員資格」— 可暫停計費 1 至 3 個月。"
+      },
+      {
+        "question": "我的待看清單和觀看記錄會消失嗎？",
+        "answer": "Netflix 在取消後保存您的資料 10 個月。若您在該期間內重新訂閱，所有資料將會恢復。"
+      }
+    ],
+    "alternatives": [
+      { "description": "無廣告，每月 $9.99 美元" },
+      { "description": "Disney、Marvel、Star Wars — 每月 $7.99 美元" },
+      { "description": "HBO 內容 — 每月 $9.99 美元" }
+    ]
+  },
+  "spotify": {
+    "description": "在不到 60 秒內取消 Spotify Premium。網頁版是最快的途徑 — 應用程式不支援直接取消。",
+    "difficultyReason": "網頁版取消流程簡單，但應用程式不直接支援取消訂閱。",
+    "refundPolicy": "不提供退款。Premium 可繼續使用至計費週期結束。",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "前往 spotify.com/account 並登入。" },
+          { "instruction": "點擊「更改方案」或滾動至「您的方案」。" },
+          { "instruction": "向下滾動並點擊「取消 Premium」。" },
+          { "instruction": "依照確認步驟操作（Spotify 可能提供折扣 — 如不感興趣可略過）。" },
+          { "instruction": "點擊「仍要取消」以確認。您將收到確認電子郵件。", "note": "您可繼續享有 Premium 至計費週期結束。" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "開啟 iPhone 設定 → 點擊您的 Apple ID 名稱。" },
+          { "instruction": "點擊「訂閱項目」→ 找到 Spotify。" },
+          { "instruction": "點擊「取消訂閱」→ 確認。" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "開啟 Google Play 商店 → 點擊個人頭像。" },
+          { "instruction": "前往「付款與訂閱」→「訂閱項目」。" },
+          { "instruction": "找到 Spotify → 點擊「取消訂閱」。" },
+          { "instruction": "依照確認提示操作。" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "「取消 Premium」按鈕呈灰色無法點擊。",
+        "answer": "您是透過 App Store 或 Google Play 訂閱的。請透過裝置設定取消 — 請參閱上方 iOS 或 Android 頁籤。"
+      },
+      {
+        "question": "Spotify 提供折扣給我 — 應該接受嗎？",
+        "answer": "如果您想繼續使用 Spotify，可以接受 — 有時會提供 1 至 3 個月 50% 折扣或免費優惠。若您確實要取消，請點擊「仍要取消」。"
+      }
+    ],
+    "alternatives": [
+      { "description": "每月 $10.99 美元，特別適合 Apple 生態系統用戶" },
+      { "description": "每月 $10.99 美元，隨 YouTube Premium 一併提供" }
+    ]
+  },
+  "adobe": {
+    "description": "取消 Adobe Creative Cloud 而不支付提前終止費。時機非常重要 — 以下是確切的操作步驟。",
+    "difficultyReason": "Adobe 會收取最多 50% 的剩餘合約金額作為提前終止費，並設有多個挽留畫面。",
+    "refundPolicy": "提前終止費：在第一年取消時須支付剩餘月份的 50%。在購買或續約後 14 天內取消則免費。",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "前往 account.adobe.com 並登入。" },
+          { "instruction": "點擊左側側欄的「方案與產品」。" },
+          { "instruction": "找到您的 Creative Cloud 方案並點擊「管理方案」。" },
+          { "instruction": "點擊「取消您的方案」。", "note": "Adobe 將在此步驟顯示提前終止費金額。" },
+          { "instruction": "選擇原因 → Adobe 將提出多項方案（折扣、暫停）。每次都點擊「繼續取消」。" },
+          { "instruction": "確認取消。請保存確認編號。" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "若透過 App Store 訂閱：開啟設定 → Apple ID → 訂閱項目 → Adobe → 取消。" },
+          { "instruction": "若直接向 Adobe 訂閱：請使用上方的網站步驟 — 應用程式不支援直接取消。" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "若透過 Google Play 訂閱：開啟 Play 商店 → 訂閱項目 → Adobe → 取消。" },
+          { "instruction": "若直接向 Adobe 訂閱：請使用上方的網站步驟。" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "如何避免 50% 的提前終止費？",
+        "answer": "有兩個選項：(1) 在年度方案開始或續約後 14 天內取消 — Adobe 必須全額退款。(2) 等待年度合約到期，並在自動續約前取消。"
+      },
+      {
+        "question": "Adobe 向我收取了 ETF — 我可以提出爭議嗎？",
+        "answer": "若您認為收費有誤，請聯繫 Adobe 支援並引用 14 天視窗。若已超過該期限，您可向信用卡公司提出爭議，但結果不一定成功。"
+      },
+      {
+        "question": "取消後我的檔案會怎樣？",
+        "answer": "您將失去對 Creative Cloud 應用程式的存取權限，但本機儲存的檔案仍保留。儲存在雲端的檔案可在 90 天內以唯讀方式存取。"
+      }
+    ],
+    "alternatives": [
+      { "description": "一次性購買，無需訂閱。Photoshop/Illustrator 的替代選擇。" },
+      { "description": "每月 $12.99 美元 — 非設計師的絕佳選擇" },
+      { "description": "提供免費版，最適合 UI/UX 設計" }
+    ]
+  },
+  "chatgpt": {
+    "description": "在不到 2 分鐘內取消 ChatGPT Plus 或 Pro。在不失去目前存取權限的情況下停止下次扣款。",
+    "difficultyReason": "OpenAI 提供簡單的取消流程，沒有任何挽留阻礙。",
+    "refundPolicy": "不提供退款。可繼續使用至計費週期結束。",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "前往 chatgpt.com 並登入。" },
+          { "instruction": "點擊左下角的您的名字或個人頭像。" },
+          { "instruction": "前往「設定」→「訂閱」。" },
+          { "instruction": "點擊「管理我的訂閱」。" },
+          { "instruction": "點擊「取消方案」→ 確認。" },
+          { "instruction": "您將收到確認電子郵件。Plus 存取權可繼續至週期結束。", "note": "ChatGPT 將自動恢復為免費方案。" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "開啟設定 → 點擊您的 Apple ID 名稱 → 訂閱項目。" },
+          { "instruction": "找到「ChatGPT」→ 點擊它。" },
+          { "instruction": "點擊「取消訂閱」→ 確認。" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "開啟 Google Play 商店 → 個人頭像 → 「付款與訂閱」→「訂閱項目」。" },
+          { "instruction": "找到「ChatGPT」→ 點擊「取消訂閱」。" },
+          { "instruction": "依照確認提示操作。" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我取消了，但立即被切換到免費方案。",
+        "answer": "這對某些帳號來說是正常的。Plus 存取應繼續至計費週期結束。若未如此，請聯繫 support.openai.com。"
+      },
+      {
+        "question": "我的對話記錄會消失嗎？",
+        "answer": "不會。您的對話記錄無論使用何種方案都會保存。您只會失去 GPT-4、DALL-E 及其他 Plus 功能的存取權。"
+      }
+    ],
+    "alternatives": [
+      { "description": "Anthropic 的 AI — 免費版 + 每月 $20 美元 Pro" },
+      { "description": "Google 的 AI — 每月 $19.99 美元，包含於 Google One AI Premium" },
+      { "description": "每月 $20 美元 — AI 搜尋引擎" }
+    ]
+  },
+  "amazon-prime": {
+    "description": "取消 Amazon Prime 並可能獲得退款。Amazon 讓這個過程很繁瑣 — 請依照以下確切步驟操作。",
+    "difficultyReason": "Amazon 隱藏取消選項並顯示多個挽留畫面，但若迅速採取行動可獲得退款。",
+    "refundPolicy": "若您在目前計費週期內未使用任何 Prime 福利，可獲得按比例計算的退款。",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "前往 amazon.com → 將滑鼠懸停在「帳號與清單」→ 點擊「帳號」。" },
+          { "instruction": "點擊「Prime」或在帳號設定中搜尋「管理 Prime 會員資格」。" },
+          { "instruction": "點擊「更新、取消及更多」→「終止會員資格」。" },
+          { "instruction": "選擇「終止會員資格」（而非 Amazon 顯示的「稍後提醒我」或其他選項）。", "note": "若您符合資格，Amazon 將顯示退款金額。" },
+          { "instruction": "點擊「取消會員資格」以確認。" },
+          { "instruction": "查收確認電子郵件。" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "開啟 Amazon 購物應用程式 → 點擊三條橫線（選單）。" },
+          { "instruction": "滾動至「帳號」→ 點擊「管理 Prime 會員資格」。" },
+          { "instruction": "點擊「更新、取消及更多」→「終止會員資格」。" },
+          { "instruction": "依照與網頁版相同的提示操作。" },
+          { "instruction": "注意：若您透過 Apple 訂閱，請改為透過 iOS 設定 → 訂閱項目取消。" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "開啟 Amazon 購物應用程式 → 選單 →「帳號」。" },
+          { "instruction": "點擊「管理 Prime 會員資格」→「終止會員資格」。" },
+          { "instruction": "若透過 Google Play 訂閱，請改為透過 Play 商店 → 訂閱項目取消。" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我是否符合退款資格？",
+        "answer": "是的，若您自上次扣款後未使用任何 Prime 福利（免費配送、Prime Video 等）。退款按比例計算。Amazon 在您確認取消前會顯示確切金額。"
+      },
+      {
+        "question": "我的 Prime Video 待看清單會怎樣？",
+        "answer": "取消後您將立即失去對 Prime Video 內容的存取權。若您重新訂閱，待看清單將保留。"
+      },
+      {
+        "question": "我已取消但仍持續被扣款。",
+        "answer": "請確認是否有獨立的家庭 Prime 會員資格，或家庭成員是否新開了會員資格。登入並查看帳號設定。"
+      }
+    ]
+  },
+  "disney-plus": {
+    "description": "在 5 分鐘內於網頁版、iOS、Android、Roku 或 Amazon 上取消 Disney+。",
+    "difficultyReason": "Disney+ 取消流程簡單，沒有提前終止費。",
+    "refundPolicy": "不提供退款。可繼續使用至計費週期結束。",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "前往 disneyplus.com 並登入。" },
+          { "instruction": "點擊個人頭像 →「帳號」。" },
+          { "instruction": "在「訂閱」下，點擊「取消訂閱」。" },
+          { "instruction": "選擇原因 → 點擊「繼續」。" },
+          { "instruction": "點擊「取消訂閱」以確認。" },
+          { "instruction": "您將收到確認電子郵件。", "note": "可繼續使用至您的計費日期。" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "開啟設定 → 點擊您的名字 → 訂閱項目。" },
+          { "instruction": "找到「Disney+」→ 點擊它。" },
+          { "instruction": "點擊「取消訂閱」→ 確認。" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "開啟 Google Play 商店 → 個人資料 →「付款與訂閱」→「訂閱項目」。" },
+          { "instruction": "找到 Disney+ → 點擊「取消訂閱」。" },
+          { "instruction": "完成確認流程。" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我找不到「取消訂閱」按鈕。",
+        "answer": "您可能透過第三方（Apple、Google、Amazon、Roku 或 Hulu）訂閱。請透過原始計費平台取消。"
+      },
+      {
+        "question": "我可以取消 Disney Bundle（Disney+、Hulu、ESPN+）嗎？",
+        "answer": "可以 — 取消 Disney+ 將取消整個套組。若您希望單獨保留 Hulu 或 ESPN+，需要分別重新訂閱。"
+      }
+    ]
+  },
+  "apple-music": {
+    "description": "在 iPhone、Mac、Android 或網頁上取消 Apple Music。包含免費試用期的取消時機說明。",
+    "difficultyReason": "Apple Music 取消功能內建於 iOS 設定中，約需 30 秒。",
+    "refundPolicy": "不提供部分退款。可繼續使用至計費週期結束。",
+    "platforms": {
+      "ios": {
+        "steps": [
+          { "instruction": "開啟設定 → 點擊頂部的您的名字。" },
+          { "instruction": "點擊「訂閱項目」。" },
+          { "instruction": "點擊「Apple Music」。" },
+          { "instruction": "點擊「取消訂閱」→ 確認。", "note": "若您正在免費試用期，將會看到試用結束日期。" }
+        ]
+      },
+      "web": {
+        "steps": [
+          { "instruction": "在 Mac 上開啟「音樂」應用程式 → 點擊您的名字 → 帳號設定。或前往 music.apple.com 並登入。" },
+          { "instruction": "找到「訂閱項目」→ 點擊「管理」。" },
+          { "instruction": "找到 Apple Music → 點擊「編輯」→「取消訂閱」。" },
+          { "instruction": "確認取消。" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "在 Android 上開啟 Apple Music 應用程式。" },
+          { "instruction": "點擊個人資料 → 帳號設定 → 訂閱項目。" },
+          { "instruction": "點擊「取消訂閱」→ 確認。" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我在免費試用期 — 何時應該取消？",
+        "answer": "請在試用期結束前至少 24 小時取消。確切結束日期顯示在設定 → 訂閱項目中的 Apple Music 項目旁。"
+      },
+      {
+        "question": "我的音樂庫會消失嗎？",
+        "answer": "已下載的 Apple Music 曲目（串流歌曲）將被移除。您從 iTunes 購買的音樂永久歸您所有。若您重新訂閱，播放清單將保留。"
+      }
+    ]
+  },
+  "microsoft-365": {
+    "description": "取消 Microsoft 365 而不遺失您的檔案。OneDrive 儲存空間將降至 5GB — 以下是準備方法。",
+    "difficultyReason": "取消選項隱藏在多個選單下，且您可能立即面臨 OneDrive 儲存空間損失的風險。",
+    "refundPolicy": "年度訂閱可在 30 天內獲得按比例計算的退款。",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "前往 account.microsoft.com 並登入。" },
+          { "instruction": "點擊頂部導覽中的「服務與訂閱」。" },
+          { "instruction": "找到 Microsoft 365 → 點擊「管理」。" },
+          { "instruction": "點擊訂閱詳細資料下的「取消」。" },
+          { "instruction": "依照提示操作。Microsoft 可能提供折扣 — 若要取消請略過。", "note": "若您在 OneDrive 中有超過 5GB 的資料，請先下載您的檔案。" },
+          { "instruction": "確認取消。您將收到確認電子郵件。" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "若透過 App Store 訂閱：設定 → Apple ID → 訂閱項目 → Microsoft 365 → 取消。" },
+          { "instruction": "若直接透過 Microsoft 訂閱：請使用上方的網站步驟。" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "若透過 Google Play 訂閱：Play 商店 → 訂閱項目 → Microsoft 365 → 取消。" },
+          { "instruction": "若直接訂閱：請使用上方的網站步驟。" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我的 Office 應用程式（Word、Excel、PowerPoint）會怎樣？",
+        "answer": "取消後應用程式將切換為「唯讀」模式。您可以檢視但無法編輯文件。網頁版 Microsoft 365（Office.com）功能有限但仍免費提供。"
+      },
+      {
+        "question": "我的 OneDrive 儲存空間會怎樣？",
+        "answer": "您的儲存空間將降至免費的 5GB 限制。若您有更多資料，Microsoft 限制存取前有 30 天時間可下載或刪除檔案。"
+      },
+      {
+        "question": "我可以獲得退款嗎？",
+        "answer": "可以，年度訂閱在購買或續約後 30 天內取消可獲退款。月費訂閱不提供退款。年度退款請聯繫 Microsoft 支援。"
+      }
+    ],
+    "alternatives": [
+      { "description": "文件、試算表、簡報 — 使用 Google 帳號免費使用" },
+      { "description": "免費的開源 Office 替代方案" }
+    ]
+  },
+  "claude": {
+    "description": "透過網頁或 Apple 設定，在不到 3 分鐘內取消 Claude Pro 或 Team 訂閱。",
+    "difficultyReason": "Anthropic 提供簡單的取消流程，沒有任何挽留阻礙。",
+    "refundPolicy": "不提供退款。可繼續使用至計費週期結束。",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "前往 claude.ai 並登入。" },
+          { "instruction": "點擊個人頭像 →「設定」。" },
+          { "instruction": "前往側欄中的「帳單」。" },
+          { "instruction": "點擊「取消方案」或「取消訂閱」。" },
+          { "instruction": "確認取消。", "note": "Pro 存取可繼續至您的計費週期結束。" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "若透過 App Store 訂閱：設定 → Apple ID → 訂閱項目 → Claude → 取消。" },
+          { "instruction": "若直接透過 Anthropic 訂閱：請使用上方的網站步驟。" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "開啟 Google Play 商店 → 個人資料 → 訂閱項目。" },
+          { "instruction": "找到 Claude → 點擊「取消訂閱」→ 確認。" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我的對話記錄會消失嗎？",
+        "answer": "不會。您的所有對話都會保存，即使在免費方案下也可存取。"
+      },
+      {
+        "question": "降級至免費版後我會失去什麼？",
+        "answer": "您將失去尖峰時段的優先存取權、Claude 最強大模型（Opus）的存取權，以及較高的使用量限制。"
+      }
+    ],
+    "alternatives": [
+      { "description": "每月 $20 美元 — OpenAI 的 GPT-4o 及更多功能" },
+      { "description": "每月 $19.99 美元 — Google 最強大的 AI" }
+    ]
+  },
+  "youtube-premium": {
+    "description": "在不到 3 分鐘內於網頁版、iOS 或 Android 上取消 YouTube Premium。",
+    "difficultyReason": "YouTube Premium 在網頁版取消速度很快，但行動應用程式需要多幾個步驟。",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "前往 youtube.com/paid_memberships 並登入。" },
+          { "instruction": "找到「YouTube Premium」→ 點擊「管理會員資格」。" },
+          { "instruction": "點擊「停用」。" },
+          { "instruction": "依照確認步驟 → 點擊「繼續取消」。" },
+          { "instruction": "確認。您可繼續享有 Premium 至計費週期結束。", "note": "YouTube Music Premium 已包含在內，也將一併取消。" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "開啟設定 → 點擊您的名字 → 訂閱項目。" },
+          { "instruction": "找到「YouTube Premium」→ 點擊它。" },
+          { "instruction": "點擊「取消訂閱」→ 確認。" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "開啟 Google Play 商店 → 個人資料 →「付款與訂閱」→ 訂閱項目。" },
+          { "instruction": "找到「YouTube Premium」→ 點擊「取消訂閱」。" },
+          { "instruction": "依照確認流程操作。" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "取消 YouTube Premium 也會取消 YouTube Music 嗎？",
+        "answer": "是的 — YouTube Music Premium 與 YouTube Premium 綁定，將一併取消。"
+      },
+      {
+        "question": "我找不到「停用」按鈕。",
+        "answer": "若您透過 iOS 或 Android 應用程式訂閱，需透過裝置的訂閱設定取消，而非直接在 YouTube 操作。"
+      }
+    ]
+  },
+  "hulu": {
+    "description": "在 5 分鐘內透過網頁版、iOS、Android 或 Amazon 取消 Hulu。包含 Disney Bundle 取消說明。",
+    "difficultyReason": "Hulu 使用多個確認畫面並在取消前提供折扣優惠。",
+    "refundPolicy": "不提供退款。可繼續使用至計費週期結束。",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "前往 hulu.com 並登入。" },
+          { "instruction": "點擊個人頭像 →「帳號」。" },
+          { "instruction": "在「您的訂閱」下，點擊「取消」。" },
+          { "instruction": "選擇原因 → Hulu 將提出優惠。點擊「繼續取消」。" },
+          { "instruction": "點擊「取消訂閱」以確認。" },
+          { "instruction": "您將收到確認電子郵件。" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "開啟設定 → 點擊您的名字 → 訂閱項目。" },
+          { "instruction": "找到「Hulu」→ 點擊它。" },
+          { "instruction": "點擊「取消訂閱」→ 確認。" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "開啟 Google Play 商店 → 個人資料 → 訂閱項目 → 找到 Hulu。" },
+          { "instruction": "點擊「取消訂閱」→ 依照提示操作。" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我有 Disney Bundle — 取消 Hulu 也會取消 Disney+ 嗎？",
+        "answer": "是的。Disney Bundle 透過 Hulu 帳單管理。取消 Hulu 將取消整個套組。若您想單獨保留 Disney+，請在取消後直接透過 Disney 訂閱。"
+      },
+      {
+        "question": "我在帳號頁面找不到取消按鈕。",
+        "answer": "若您透過第三方（Amazon、Roku、Apple 或 Google）訂閱，必須透過該平台取消 — 取消按鈕不會出現在 Hulu 網站上。"
+      }
+    ]
+  },
+  "nordvpn": {
+    "description": "取消 NordVPN 並在購買後 30 天內獲得全額退款。不到 5 分鐘即可完成。",
+    "difficultyReason": "NordVPN 提供 30 天退款保證及簡單的取消流程。",
+    "refundPolicy": "30 天退款保證。請在 30 天內透過即時聊天或電子郵件申請退款。",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "前往 my.nordaccount.com 並登入。" },
+          { "instruction": "點擊左側側欄的「帳單」或「訂閱」。" },
+          { "instruction": "找到您的方案 → 點擊「取消自動續約」或「取消訂閱」。" },
+          { "instruction": "確認取消。" },
+          { "instruction": "申請退款：在 nordvpn.com/support 開啟即時聊天並提出申請。退款處理時間為 5–10 個工作天。", "note": "NordVPN 不透過帳號儀表板提供退款 — 您必須聯繫客服。" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "若透過 App Store 訂閱：設定 → Apple ID → 訂閱項目 → NordVPN → 取消。" },
+          { "instruction": "注意：App Store 訂閱不適用 NordVPN 的 30 天退款保證。請改為聯繫 Apple。" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "若透過 Google Play 訂閱：Play 商店 → 訂閱項目 → NordVPN → 取消。" },
+          { "instruction": "如需 Play 購買的退款，請在 48 小時內聯繫 Google Play 客服。" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "已超過 30 天 — 我還能獲得退款嗎？",
+        "answer": "30 天保證期限嚴格執行。超過後不提供退款。您仍可取消自動續約，以避免再次被扣款。"
+      },
+      {
+        "question": "我在帳號中找不到取消選項。",
+        "answer": "若您透過第三方（App Store、Google Play 或 Amazon 等經銷商）訂閱，必須透過該平台取消。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,528 @@
+{
+  "netflix": {
+    "description": "Annuleer je Netflix-abonnement in minder dan 2 minuten. Stappen werken op web, iOS, Android en Roku.",
+    "difficultyReason": "Netflix maakt annuleren mogelijk met 2 klikken vanuit de accountinstellingen, zonder retentiepogingen.",
+    "refundPolicy": "Geen terugbetalingen. Toegang loopt door tot het einde van de factureringsperiode.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Ga naar netflix.com en meld je aan." },
+          { "instruction": "Klik op je profielicoontje → Account." },
+          { "instruction": "Klik onder \"Lidmaatschap\" op \"Lidmaatschap opzeggen\"." },
+          { "instruction": "Klik op \"Beëindig opzegging\" om te bevestigen." },
+          { "instruction": "Je ontvangt een bevestigingsmail. Bewaar deze voor je administratie.", "note": "Toegang loopt door tot het einde van je huidige factureringsperiode." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Open iPhone-instellingen → tik op je naam bovenaan." },
+          { "instruction": "Tik op \"Abonnementen\"." },
+          { "instruction": "Zoek en tik op \"Netflix\"." },
+          { "instruction": "Tik op \"Abonnement opzeggen\" → Bevestigen.", "note": "Apple verleent geen gedeeltelijke terugbetalingen." },
+          { "instruction": "Je behoudt toegang tot het einde van je factureringsperiode." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Open de Google Play Store." },
+          { "instruction": "Tik op je profielicoontje → \"Betalingen & abonnementen\" → \"Abonnementen\"." },
+          { "instruction": "Zoek \"Netflix\" en tik erop." },
+          { "instruction": "Tik op \"Abonnement opzeggen\" en volg de instructies." },
+          { "instruction": "Toegang loopt door tot het einde van de factureringsperiode." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ik heb opgezegd maar word nog steeds afgeschreven.",
+        "answer": "Mogelijk heb je twee Netflix-accounts of heb je je geabonneerd via verschillende kanalen (web vs. App Store). Controleer zowel je app store-abonnementen als netflix.com/account."
+      },
+      {
+        "question": "Kan ik pauzeren in plaats van opzeggen?",
+        "answer": "Ja. Ga op netflix.com/account op zoek naar \"Lidmaatschap pauzeren\" — pauzeert de facturering voor 1–3 maanden."
+      },
+      {
+        "question": "Verlies ik mijn kijklijst en kijkgeschiedenis?",
+        "answer": "Netflix bewaart je gegevens 10 maanden na opzegging. Als je je binnen dat tijdvenster herinnert, wordt alles hersteld."
+      }
+    ],
+    "alternatives": [
+      { "description": "Advertentievrij, €9,99/mnd" },
+      { "description": "Disney, Marvel, Star Wars — €7,99/mnd" },
+      { "description": "HBO-inhoud — €9,99/mnd" }
+    ]
+  },
+  "spotify": {
+    "description": "Annuleer Spotify Premium in minder dan 60 seconden. Web is de snelste weg — de app laat je niet direct opzeggen.",
+    "difficultyReason": "Opzegging via het web is eenvoudig, hoewel de app geen directe opzegging ondersteunt.",
+    "refundPolicy": "Geen terugbetalingen. Premium loopt door tot het einde van de factureringsperiode.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Ga naar spotify.com/account en log in." },
+          { "instruction": "Klik op \"Abonnement wijzigen\" of scroll naar \"Jouw abonnement\"." },
+          { "instruction": "Scroll naar beneden en klik op \"Premium opzeggen\"." },
+          { "instruction": "Volg de bevestigingsstappen (Spotify kan een korting aanbieden — sla over als je niet geïnteresseerd bent)." },
+          { "instruction": "Klik op \"Toch opzeggen\" om te bevestigen. Je ontvangt een bevestigingsmail.", "note": "Je behoudt Premium tot het einde van de factureringsperiode." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Open iPhone-instellingen → tik op je Apple ID-naam." },
+          { "instruction": "Tik op \"Abonnementen\" → zoek Spotify." },
+          { "instruction": "Tik op \"Abonnement opzeggen\" → Bevestigen." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Open Google Play Store → tik op je profielicoontje." },
+          { "instruction": "Ga naar \"Betalingen & abonnementen\" → \"Abonnementen\"." },
+          { "instruction": "Zoek Spotify → tik op \"Abonnement opzeggen\"." },
+          { "instruction": "Volg de bevestigingsprompts." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "De knop \"Premium opzeggen\" is grijs.",
+        "answer": "Je hebt je geabonneerd via de App Store of Google Play. Annuleer via de instellingen van je apparaat — zie het iOS- of Android-tabblad hierboven."
+      },
+      {
+        "question": "Spotify bood mij een korting aan — moet ik die accepteren?",
+        "answer": "Als je Spotify wilt behouden, ja — ze bieden soms 1–3 maanden 50% korting of gratis aan. Als je echt wilt opzeggen, klik je op \"Toch opzeggen\"."
+      }
+    ],
+    "alternatives": [
+      { "description": "€10,99/mnd, ideaal als je in het Apple-ecosysteem zit" },
+      { "description": "€10,99/mnd, inbegrepen bij YouTube Premium" }
+    ]
+  },
+  "adobe": {
+    "description": "Annuleer Adobe Creative Cloud zonder de vroegtijdige beëindigingsvergoeding te betalen. Timing is belangrijk — hier is precies wat je moet doen.",
+    "difficultyReason": "Adobe rekent tot 50% van je resterende contract als vroegtijdige beëindigingsvergoeding en gebruikt meerdere retentieschermen.",
+    "refundPolicy": "Vroegtijdige beëindigingsvergoeding: 50% van de resterende maanden bij annulering in het eerste jaar. Gratis bij annulering binnen 14 dagen na aankoop of verlenging.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Ga naar account.adobe.com en meld je aan." },
+          { "instruction": "Klik op \"Plannen & producten\" in de linker zijbalk." },
+          { "instruction": "Zoek je Creative Cloud-plan en klik op \"Plan beheren\"." },
+          { "instruction": "Klik op \"Je plan opzeggen\".", "note": "Adobe toont je op dit punt de vroegtijdige beëindigingsvergoeding." },
+          { "instruction": "Kies een reden → Adobe doet meerdere aanbiedingen (kortingen, pauzes). Klik elke keer op \"Doorgaan met opzeggen\"." },
+          { "instruction": "Bevestig de opzegging. Sla het bevestigingsnummer op." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Als je je hebt geabonneerd via de App Store: open Instellingen → Apple ID → Abonnementen → Adobe → Opzeggen." },
+          { "instruction": "Als je rechtstreeks bij Adobe bent geabonneerd: gebruik de bovenstaande websitestappen — de app ondersteunt geen directe opzegging." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Als je je hebt geabonneerd via Google Play: open Play Store → Abonnementen → Adobe → Opzeggen." },
+          { "instruction": "Als je rechtstreeks bij Adobe bent geabonneerd: gebruik de bovenstaande websitestappen." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Hoe vermijd ik de 50% vroegtijdige beëindigingsvergoeding?",
+        "answer": "Je hebt twee opties: (1) Annuleer binnen 14 dagen na de start of verlenging van je jaarplan — Adobe moet je volledig terugbetalen. (2) Wacht tot je jaarcontract afloopt en annuleer voordat het automatisch verlengd wordt."
+      },
+      {
+        "question": "Adobe heeft me de ETF in rekening gebracht — kan ik dit betwisten?",
+        "answer": "Als je denkt dat de kosten onjuist zijn, neem dan contact op met Adobe-ondersteuning en verwijs naar het 14-dagenvenster. Als je buiten dat venster valt, kun je het betwisten bij je creditcardmaatschappij, maar de resultaten variëren."
+      },
+      {
+        "question": "Wat gebeurt er met mijn bestanden na opzegging?",
+        "answer": "Je verliest toegang tot Creative Cloud-apps, maar lokaal opgeslagen bestanden blijven behouden. Bestanden in de cloud zijn 90 dagen alleen-lezen toegankelijk."
+      }
+    ],
+    "alternatives": [
+      { "description": "Eenmalige aankoop, geen abonnement. Alternatief voor Photoshop/Illustrator." },
+      { "description": "€12,99/mnd — ideaal voor niet-ontwerpers" },
+      { "description": "Gratis versie beschikbaar, beste keuze voor UI/UX-ontwerp" }
+    ]
+  },
+  "chatgpt": {
+    "description": "Annuleer ChatGPT Plus of Pro in minder dan 2 minuten. Stop de volgende afschrijving zonder huidige toegang te verliezen.",
+    "difficultyReason": "OpenAI biedt een eenvoudig opzeggingsproces zonder retentiedrempel.",
+    "refundPolicy": "Geen terugbetalingen. Toegang loopt door tot het einde van de factureringsperiode.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Ga naar chatgpt.com en meld je aan." },
+          { "instruction": "Klik op je naam of profielicoontje linksonder." },
+          { "instruction": "Ga naar \"Instellingen\" → \"Abonnement\"." },
+          { "instruction": "Klik op \"Mijn abonnement beheren\"." },
+          { "instruction": "Klik op \"Plan opzeggen\" → Bevestigen." },
+          { "instruction": "Je ontvangt een bevestigingsmail. Plus-toegang loopt door tot het einde van de periode.", "note": "ChatGPT schakelt automatisch terug naar het gratis plan." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Open Instellingen → tik op je Apple ID-naam → Abonnementen." },
+          { "instruction": "Zoek \"ChatGPT\" → tik erop." },
+          { "instruction": "Tik op \"Abonnement opzeggen\" → Bevestigen." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Open Google Play Store → profielicoontje → \"Betalingen & abonnementen\" → \"Abonnementen\"." },
+          { "instruction": "Zoek \"ChatGPT\" → tik op \"Abonnement opzeggen\"." },
+          { "instruction": "Volg de bevestigingsprompts." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ik heb opgezegd maar zit meteen op het gratis plan.",
+        "answer": "Dat is voor sommige accounts normaal. Plus-toegang zou moeten doorlopen tot het einde van de factureringsperiode. Als dat niet het geval is, neem dan contact op met support.openai.com."
+      },
+      {
+        "question": "Verlies ik mijn gespreksgeschiedenis?",
+        "answer": "Nee. Je chats worden opgeslagen ongeacht het abonnement. Je verliest alleen toegang tot GPT-4, DALL-E en andere Plus-functies."
+      }
+    ],
+    "alternatives": [
+      { "description": "Anthropic's AI — gratis versie + €20/mnd Pro" },
+      { "description": "Google's AI — €19,99/mnd, inbegrepen bij Google One AI Premium" },
+      { "description": "€20/mnd — AI-zoekmachine" }
+    ]
+  },
+  "amazon-prime": {
+    "description": "Annuleer Amazon Prime en ontvang mogelijk een terugbetaling. Amazon maakt dit lastig — volg de exacte stappen hieronder.",
+    "difficultyReason": "Amazon verbergt de annuleringsoptie en toont meerdere retentieschermen, maar een terugbetaling is mogelijk als je snel handelt.",
+    "refundPolicy": "Gedeeltelijke terugbetaling mogelijk als je geen Prime-voordelen hebt gebruikt tijdens de huidige factureringsperiode.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Ga naar amazon.com → zweef over \"Account & lijsten\" → klik op \"Account\"." },
+          { "instruction": "Klik op \"Prime\" of zoek naar \"Prime-lidmaatschap beheren\" in de accountinstellingen." },
+          { "instruction": "Klik op \"Bijwerken, annuleren en meer\" → \"Lidmaatschap beëindigen\"." },
+          { "instruction": "Kies \"Lidmaatschap beëindigen\" (niet \"Herinner me later\" of andere opties die Amazon toont).", "note": "Amazon toont een terugbetalingsbedrag als je in aanmerking komt." },
+          { "instruction": "Klik op \"Lidmaatschap annuleren\" om te bevestigen." },
+          { "instruction": "Controleer je e-mail op bevestiging." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Open de Amazon Shopping-app → tik op de drie lijnen (menu)." },
+          { "instruction": "Scroll naar \"Account\" → tik op \"Prime-lidmaatschap beheren\"." },
+          { "instruction": "Tik op \"Bijwerken, annuleren en meer\" → \"Lidmaatschap beëindigen\"." },
+          { "instruction": "Volg dezelfde stappen als de webversie." },
+          { "instruction": "Let op: als je je hebt geabonneerd via Apple, annuleer dan via iOS Instellingen → Abonnementen." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Open de Amazon Shopping-app → menu → \"Account\"." },
+          { "instruction": "Tik op \"Prime-lidmaatschap beheren\" → \"Lidmaatschap beëindigen\"." },
+          { "instruction": "Als je bent geabonneerd via Google Play, annuleer dan via Play Store → Abonnementen." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kom ik in aanmerking voor een terugbetaling?",
+        "answer": "Ja, als je geen Prime-voordelen (gratis verzending, Prime Video, enz.) hebt gebruikt sinds je laatste afschrijving. De terugbetaling is proportioneel. Amazon toont het exacte bedrag voordat je de annulering bevestigt."
+      },
+      {
+        "question": "Wat gebeurt er met mijn Prime Video-kijklijst?",
+        "answer": "Je verliest onmiddellijk toegang tot Prime Video-inhoud na opzegging. Je kijklijst wordt opgeslagen als je je opnieuw abonneert."
+      },
+      {
+        "question": "Ik heb opgezegd maar word nog steeds afgeschreven.",
+        "answer": "Controleer of je een apart Prime-lidmaatschap voor een huishouden hebt of dat een gezinslid een nieuw lidmaatschap heeft gestart. Log in en controleer de accountinstellingen."
+      }
+    ]
+  },
+  "disney-plus": {
+    "description": "Annuleer Disney+ in 5 minuten via web, iOS, Android of via Roku en Amazon.",
+    "difficultyReason": "Disney+-annulering is eenvoudig zonder vroegtijdige beëindigingsvergoedingen.",
+    "refundPolicy": "Geen terugbetalingen. Toegang loopt door tot het einde van de factureringsperiode.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Ga naar disneyplus.com en meld je aan." },
+          { "instruction": "Klik op je profielicoontje → \"Account\"." },
+          { "instruction": "Klik onder \"Abonnement\" op \"Abonnement opzeggen\"." },
+          { "instruction": "Selecteer een reden → klik op \"Doorgaan\"." },
+          { "instruction": "Klik op \"Abonnement opzeggen\" om te bevestigen." },
+          { "instruction": "Je ontvangt een bevestigingsmail.", "note": "Toegang loopt door tot je factuurdatum." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Open Instellingen → tik op je naam → Abonnementen." },
+          { "instruction": "Zoek \"Disney+\" → tik erop." },
+          { "instruction": "Tik op \"Abonnement opzeggen\" → bevestigen." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Open Google Play Store → profiel → \"Betalingen & abonnementen\" → \"Abonnementen\"." },
+          { "instruction": "Zoek Disney+ → tik op \"Abonnement opzeggen\"." },
+          { "instruction": "Voltooi de bevestigingsstroom." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ik zie geen knop \"Abonnement opzeggen\".",
+        "answer": "Je hebt je waarschijnlijk geabonneerd via een derde partij (Apple, Google, Amazon, Roku of Hulu). Annuleer via het oorspronkelijke factureringsplatform."
+      },
+      {
+        "question": "Kan ik het Disney Bundle (Disney+, Hulu, ESPN+) opzeggen?",
+        "answer": "Ja — het opzeggen van Disney+ annuleert het volledige pakket. Als je Hulu of ESPN+ afzonderlijk wilt behouden, moet je je er afzonderlijk op abonneren."
+      }
+    ]
+  },
+  "apple-music": {
+    "description": "Annuleer Apple Music op iPhone, Mac, Android of het web. Inclusief timing voor gratis proefperiodes.",
+    "difficultyReason": "Apple Music-annulering is ingebouwd in de iOS-instellingen en duurt ongeveer 30 seconden.",
+    "refundPolicy": "Geen gedeeltelijke terugbetalingen. Toegang loopt door tot het einde van de factureringsperiode.",
+    "platforms": {
+      "ios": {
+        "steps": [
+          { "instruction": "Open Instellingen → tik op je naam bovenaan." },
+          { "instruction": "Tik op \"Abonnementen\"." },
+          { "instruction": "Tik op \"Apple Music\"." },
+          { "instruction": "Tik op \"Abonnement opzeggen\" → Bevestigen.", "note": "Als je een gratis proefperiode hebt, zie je de einddatum van de proefperiode." }
+        ]
+      },
+      "web": {
+        "steps": [
+          { "instruction": "Open de Muziek-app op Mac → klik op je naam → Accountinstellingen. Of bezoek music.apple.com en meld je aan." },
+          { "instruction": "Zoek \"Abonnementen\" → klik op \"Beheren\"." },
+          { "instruction": "Zoek Apple Music → klik op \"Bewerken\" → \"Abonnement opzeggen\"." },
+          { "instruction": "Bevestig de opzegging." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Open de Apple Music-app op Android." },
+          { "instruction": "Tik op je profiel → Accountinstellingen → Abonnementen." },
+          { "instruction": "Tik op \"Abonnement opzeggen\" → Bevestigen." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ik heb een gratis proefperiode — wanneer moet ik opzeggen?",
+        "answer": "Zeg minimaal 24 uur voor het einde van de proefperiode op. De exacte einddatum wordt weergegeven in Instellingen → Abonnementen naast de Apple Music-vermelding."
+      },
+      {
+        "question": "Verlies ik mijn bibliotheek?",
+        "answer": "Gedownloade Apple Music-nummers (gestreamde nummers) worden verwijderd. Muziek die je via iTunes hebt gekocht, blijft permanent van jou. Je afspeellijsten worden opgeslagen als je je opnieuw abonneert."
+      }
+    ]
+  },
+  "microsoft-365": {
+    "description": "Annuleer Microsoft 365 zonder je bestanden te verliezen. OneDrive-opslag daalt naar 5 GB — hier lees je hoe je je voorbereidt.",
+    "difficultyReason": "Annulering is verborgen onder meerdere menu's en je riskeert direct verlies van OneDrive-opslag.",
+    "refundPolicy": "Proportionele terugbetaling mogelijk binnen 30 dagen voor jaarlijkse abonnementen.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Ga naar account.microsoft.com en meld je aan." },
+          { "instruction": "Klik op \"Services & abonnementen\" in de bovenste navigatie." },
+          { "instruction": "Zoek Microsoft 365 → klik op \"Beheren\"." },
+          { "instruction": "Klik op \"Opzeggen\" onder de abonnementsdetails." },
+          { "instruction": "Volg de prompts. Microsoft kan een korting aanbieden — sla over als je wilt opzeggen.", "note": "Als je meer dan 5 GB in OneDrive hebt, download dan eerst je bestanden." },
+          { "instruction": "Bevestig de opzegging. Je ontvangt een bevestigingsmail." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Als je bent geabonneerd via de App Store: Instellingen → Apple ID → Abonnementen → Microsoft 365 → Opzeggen." },
+          { "instruction": "Als je bent geabonneerd via Microsoft direct: gebruik de bovenstaande websitestappen." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Als je bent geabonneerd via Google Play: Play Store → Abonnementen → Microsoft 365 → Opzeggen." },
+          { "instruction": "Als je direct bent geabonneerd: gebruik de bovenstaande websitestappen." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Wat gebeurt er met mijn Office-apps (Word, Excel, PowerPoint)?",
+        "answer": "Apps schakelen over naar \"alleen-lezen\" modus na opzegging. Je kunt documenten bekijken maar niet bewerken. Microsoft 365 op het web (Office.com) blijft gratis beschikbaar met beperkte functies."
+      },
+      {
+        "question": "Wat gebeurt er met mijn OneDrive-opslag?",
+        "answer": "Je opslag daalt naar de gratis limiet van 5 GB. Als je meer gegevens hebt, heb je 30 dagen om bestanden te downloaden of te verwijderen voordat Microsoft de toegang beperkt."
+      },
+      {
+        "question": "Kan ik een terugbetaling krijgen?",
+        "answer": "Ja, voor jaarlijkse abonnementen die binnen 30 dagen na aankoop of verlenging worden opgezegd. Maandelijkse abonnementen worden niet terugbetaald. Neem contact op met Microsoft-ondersteuning voor jaarlijkse terugbetalingen."
+      }
+    ],
+    "alternatives": [
+      { "description": "Documenten, Spreadsheets, Presentaties — gratis met Google-account" },
+      { "description": "Gratis, open-source Office-alternatief" }
+    ]
+  },
+  "claude": {
+    "description": "Annuleer Claude Pro of Team-abonnement in minder dan 3 minuten via web of Apple-instellingen.",
+    "difficultyReason": "Anthropic biedt een eenvoudig opzeggingsproces zonder retentiedrempel.",
+    "refundPolicy": "Geen terugbetalingen. Toegang loopt door tot het einde van de factureringsperiode.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Ga naar claude.ai en meld je aan." },
+          { "instruction": "Klik op je profielicoontje → \"Instellingen\"." },
+          { "instruction": "Ga naar \"Facturering\" in de zijbalk." },
+          { "instruction": "Klik op \"Plan opzeggen\" of \"Abonnement opzeggen\"." },
+          { "instruction": "Bevestig de opzegging.", "note": "Pro-toegang loopt door tot het einde van je factureringsperiode." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Als je bent geabonneerd via de App Store: Instellingen → Apple ID → Abonnementen → Claude → Opzeggen." },
+          { "instruction": "Als je bent geabonneerd via Anthropic direct: gebruik de bovenstaande websitestappen." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Open Google Play Store → profiel → Abonnementen." },
+          { "instruction": "Zoek Claude → tik op \"Abonnement opzeggen\" → bevestigen." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Verlies ik mijn gespreksgeschiedenis?",
+        "answer": "Nee. Al je gesprekken worden opgeslagen en zijn toegankelijk, zelfs op het gratis plan."
+      },
+      {
+        "question": "Wat verlies ik als ik downgrade naar gratis?",
+        "answer": "Je verliest prioriteitstoegang tijdens piekuren, toegang tot Claude's meest capabele modellen (Opus) en hogere gebruikslimieten."
+      }
+    ],
+    "alternatives": [
+      { "description": "€20/mnd — OpenAI's GPT-4o en meer" },
+      { "description": "€19,99/mnd — Google's meest capabele AI" }
+    ]
+  },
+  "youtube-premium": {
+    "description": "Annuleer YouTube Premium in minder dan 3 minuten via web, iOS of Android.",
+    "difficultyReason": "YouTube Premium-annulering gaat snel via het web, hoewel de mobiele app een paar extra tikken vereist.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Ga naar youtube.com/paid_memberships en meld je aan." },
+          { "instruction": "Zoek \"YouTube Premium\" → klik op \"Lidmaatschap beheren\"." },
+          { "instruction": "Klik op \"Deactiveren\"." },
+          { "instruction": "Volg de bevestigingsstappen → klik op \"Doorgaan met opzeggen\"." },
+          { "instruction": "Bevestigen. Je behoudt Premium tot het einde van je factureringsperiode.", "note": "YouTube Music Premium is inbegrepen en wordt ook opgezegd." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Open Instellingen → tik op je naam → Abonnementen." },
+          { "instruction": "Zoek \"YouTube Premium\" → tik erop." },
+          { "instruction": "Tik op \"Abonnement opzeggen\" → Bevestigen." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Open Google Play Store → profiel → \"Betalingen & abonnementen\" → Abonnementen." },
+          { "instruction": "Zoek \"YouTube Premium\" → tik op \"Abonnement opzeggen\"." },
+          { "instruction": "Volg de bevestigingsstroom." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Wordt YouTube Music ook opgezegd als ik YouTube Premium opzeg?",
+        "answer": "Ja — YouTube Music Premium is gebundeld met YouTube Premium en wordt tegelijk opgezegd."
+      },
+      {
+        "question": "Ik kan de knop Deactiveren niet vinden.",
+        "answer": "Als je je hebt geabonneerd via de iOS- of Android-app, moet je opzeggen via de abonnementsinstellingen van je apparaat, niet rechtstreeks via YouTube."
+      }
+    ]
+  },
+  "hulu": {
+    "description": "Annuleer Hulu via web, iOS, Android of Amazon in 5 minuten. Inclusief Disney Bundle-annulering.",
+    "difficultyReason": "Hulu gebruikt meerdere bevestigingsschermen en biedt kortingen aan voordat je kunt opzeggen.",
+    "refundPolicy": "Geen terugbetalingen. Toegang loopt door tot het einde van de factureringsperiode.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Ga naar hulu.com en meld je aan." },
+          { "instruction": "Klik op je profielicoontje → \"Account\"." },
+          { "instruction": "Klik onder \"Jouw abonnement\" op \"Opzeggen\"." },
+          { "instruction": "Selecteer een reden → Hulu doet aanbiedingen. Klik op \"Doorgaan met opzeggen\"." },
+          { "instruction": "Klik op \"Abonnement opzeggen\" om te bevestigen." },
+          { "instruction": "Je ontvangt een bevestigingsmail." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Open Instellingen → tik op je naam → Abonnementen." },
+          { "instruction": "Zoek \"Hulu\" → tik erop." },
+          { "instruction": "Tik op \"Abonnement opzeggen\" → Bevestigen." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Open Google Play Store → profiel → Abonnementen → zoek Hulu." },
+          { "instruction": "Tik op \"Abonnement opzeggen\" → volg de prompts." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ik heb het Disney Bundle — wordt Disney+ ook opgezegd als ik Hulu opzeg?",
+        "answer": "Ja. Het Disney Bundle wordt beheerd via Hulu-facturering. Het opzeggen van Hulu annuleert het volledige pakket. Als je Disney+ afzonderlijk wilt, abonneer je je na opzegging rechtstreeks via Disney."
+      },
+      {
+        "question": "Ik kan de knop Opzeggen op mijn accountpagina niet vinden.",
+        "answer": "Als je je hebt geabonneerd via een derde partij (Amazon, Roku, Apple of Google), moet je opzeggen via dat platform — de knop Opzeggen verschijnt niet op de website van Hulu."
+      }
+    ]
+  },
+  "nordvpn": {
+    "description": "Annuleer NordVPN en ontvang een volledige terugbetaling als je binnen 30 dagen na aankoop bent. Duurt minder dan 5 minuten.",
+    "difficultyReason": "NordVPN biedt een 30-dagen geld-terug-garantie en een eenvoudig annuleringsproces.",
+    "refundPolicy": "30-dagen geld-terug-garantie. Vraag binnen 30 dagen een terugbetaling aan via live chat of e-mail.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Ga naar my.nordaccount.com en meld je aan." },
+          { "instruction": "Klik op \"Facturering\" of \"Abonnement\" in de linker zijbalk." },
+          { "instruction": "Zoek je plan → klik op \"Automatische verlenging annuleren\" of \"Abonnement opzeggen\"." },
+          { "instruction": "Bevestig de annulering." },
+          { "instruction": "Voor een terugbetaling: start een live chat op nordvpn.com/support en vraag ernaar. Terugbetalingen worden verwerkt in 5–10 werkdagen.", "note": "NordVPN biedt geen terugbetalingen via het accountdashboard — je moet contact opnemen met ondersteuning." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Als je bent geabonneerd via de App Store: Instellingen → Apple ID → Abonnementen → NordVPN → Opzeggen." },
+          { "instruction": "Let op: App Store-abonnementen komen niet in aanmerking voor de NordVPN 30-dagen terugbetaling. Neem in plaats daarvan contact op met Apple." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Als je bent geabonneerd via Google Play: Play Store → Abonnementen → NordVPN → Opzeggen." },
+          { "instruction": "Voor terugbetalingen op Play-aankopen, neem je binnen 48 uur contact op met Google Play-ondersteuning." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ik ben voorbij de 30 dagen — kan ik nog steeds een terugbetaling krijgen?",
+        "answer": "De 30-dagen garantie is definitief. Daarna zijn er geen terugbetalingen meer mogelijk. Je kunt nog steeds automatische verlenging annuleren zodat je niet opnieuw wordt afgeschreven."
+      },
+      {
+        "question": "Ik kan de annuleringsoptie niet vinden in mijn account.",
+        "answer": "Als je je hebt geabonneerd via een derde partij (App Store, Google Play of een reseller zoals Amazon), moet je opzeggen via dat platform."
+      }
+    ]
+  }
+}

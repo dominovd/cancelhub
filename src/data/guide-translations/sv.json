@@ -1,0 +1,528 @@
+{
+  "netflix": {
+    "description": "Avsluta din Netflix-prenumeration på under 2 minuter. Stegen fungerar på webb, iOS, Android och Roku.",
+    "difficultyReason": "Netflix låter dig avsluta prenumerationen med 2 klick i kontoinställningarna utan några retentionsknep.",
+    "refundPolicy": "Inga återbetalningar. Åtkomsten fortsätter till slutet av faktureringsperioden.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Gå till netflix.com och logga in." },
+          { "instruction": "Klicka på din profilikon → Konto." },
+          { "instruction": "Under \"Medlemskap\", klicka på \"Avsluta medlemskap\"." },
+          { "instruction": "Klicka på \"Slutför avslutning\" för att bekräfta." },
+          { "instruction": "Du får ett bekräftelsemail. Spara det som bevis.", "note": "Åtkomsten fortsätter till slutet av din aktuella faktureringsperiod." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Öppna iPhone-inställningar → tryck på ditt namn längst upp." },
+          { "instruction": "Tryck på \"Prenumerationer\"." },
+          { "instruction": "Hitta och tryck på \"Netflix\"." },
+          { "instruction": "Tryck på \"Avsluta prenumeration\" → Bekräfta." },
+          { "instruction": "Du behåller åtkomsten till slutet av faktureringsperioden.", "note": "Apple utfärdar inte delvisa återbetalningar." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Öppna Google Play Butik." },
+          { "instruction": "Tryck på din profilikon → \"Betalningar och prenumerationer\" → \"Prenumerationer\"." },
+          { "instruction": "Hitta \"Netflix\" och tryck på det." },
+          { "instruction": "Tryck på \"Avsluta prenumeration\" och följ anvisningarna." },
+          { "instruction": "Åtkomsten fortsätter till slutet av faktureringsperioden." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Jag avslutade prenumerationen men debiteras fortfarande.",
+        "answer": "Du kan ha två Netflix-konton eller ha prenumererat via olika kanaler (webb jämfört med App Store). Kontrollera både dina appbutiksprenumerationer och netflix.com/account."
+      },
+      {
+        "question": "Kan jag pausa istället för att avsluta?",
+        "answer": "Ja. På netflix.com/account, leta efter \"Pausa medlemskap\" — det pausar faktureringen i 1–3 månader."
+      },
+      {
+        "question": "Förlorar jag min bevakningslista och tittarhistorik?",
+        "answer": "Netflix sparar dina uppgifter i 10 månader efter avslutning. Om du återprenumererar inom den perioden återställs allt."
+      }
+    ],
+    "alternatives": [
+      { "description": "Reklamfri, 99 kr/mån" },
+      { "description": "Disney, Marvel, Star Wars — 79 kr/mån" },
+      { "description": "HBO-innehåll — 99 kr/mån" }
+    ]
+  },
+  "spotify": {
+    "description": "Avsluta Spotify Premium på under 60 sekunder. Webben är det snabbaste sättet — appen låter dig inte avsluta direkt.",
+    "difficultyReason": "Avslutning via webben är enkel, men appen stöder inte direkt avslutning.",
+    "refundPolicy": "Inga återbetalningar. Premium fortsätter till slutet av faktureringsperioden.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Gå till spotify.com/account och logga in." },
+          { "instruction": "Klicka på \"Byt plan\" eller scrolla till \"Din plan\"." },
+          { "instruction": "Scrolla ned och klicka på \"Avsluta Premium\"." },
+          { "instruction": "Följ bekräftelsestegen (Spotify kan erbjuda rabatt — hoppa över om du inte är intresserad)." },
+          { "instruction": "Klicka på \"Avsluta ändå\" för att bekräfta. Du får ett bekräftelsemail.", "note": "Du behåller Premium till slutet av faktureringsperioden." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Öppna iPhone-inställningar → tryck på ditt Apple-ID-namn." },
+          { "instruction": "Tryck på \"Prenumerationer\" → hitta Spotify." },
+          { "instruction": "Tryck på \"Avsluta prenumeration\" → Bekräfta." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Öppna Google Play Butik → tryck på din profilikon." },
+          { "instruction": "Gå till \"Betalningar och prenumerationer\" → \"Prenumerationer\"." },
+          { "instruction": "Hitta Spotify → tryck på \"Avsluta prenumeration\"." },
+          { "instruction": "Följ bekräftelseanvisningarna." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Knappen \"Avsluta Premium\" är nedtonad.",
+        "answer": "Du prenumererade via App Store eller Google Play. Avsluta via enhetens inställningar istället — se iOS- eller Android-fliken ovan."
+      },
+      {
+        "question": "Spotify erbjöd mig rabatt — ska jag ta den?",
+        "answer": "Om du vill behålla Spotify, ja — de erbjuder ibland 1–3 månader till 50% rabatt eller gratis. Om du verkligen vill avsluta, klicka på \"Avsluta ändå\"."
+      }
+    ],
+    "alternatives": [
+      { "description": "109 kr/mån, bra om du är i Apples ekosystem" },
+      { "description": "109 kr/mån, ingår i YouTube Premium" }
+    ]
+  },
+  "adobe": {
+    "description": "Avsluta Adobe Creative Cloud utan att betala avgiften för förtida avslutning. Tidpunkten är viktig — här är exakt vad du ska göra.",
+    "difficultyReason": "Adobe tar ut upp till 50% av återstående avtalstid som avgift för förtida avslutning och använder flera retentionsskärmar.",
+    "refundPolicy": "Avgift för förtida avslutning: 50% av återstående månader om prenumerationen avslutas under det första året. Gratis om den avslutas inom 14 dagar efter köp eller förnyelse.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Gå till account.adobe.com och logga in." },
+          { "instruction": "Klicka på \"Planer och produkter\" i den vänstra sidopanelen." },
+          { "instruction": "Hitta din Creative Cloud-plan och klicka på \"Hantera plan\"." },
+          { "instruction": "Klicka på \"Avsluta din plan\".", "note": "Adobe visar avgiften för förtida avslutning vid det här steget." },
+          { "instruction": "Välj ett skäl → Adobe kommer att ge flera erbjudanden (rabatter, pauser). Klicka på \"Fortsätt till avslutning\" varje gång." },
+          { "instruction": "Bekräfta avslutningen. Spara bekräftelsenumret." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Om du prenumererade via App Store: öppna Inställningar → Apple-ID → Prenumerationer → Adobe → Avsluta." },
+          { "instruction": "Om du prenumererade direkt hos Adobe: använd webstegen ovan — appen stöder inte direkt avslutning." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Om du prenumererade via Google Play: öppna Play Butik → Prenumerationer → Adobe → Avsluta." },
+          { "instruction": "Om du prenumererade direkt hos Adobe: använd webstegen ovan." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Hur undviker jag avgiften på 50% för förtida avslutning?",
+        "answer": "Du har två alternativ: (1) Avsluta inom 14 dagar från att din årsplan startade eller förnyades — Adobe måste återbetala dig i sin helhet. (2) Vänta tills ditt årsavtal löper ut och avsluta innan det automatiskt förnyas."
+      },
+      {
+        "question": "Adobe debiterade mig avgiften för förtida avslutning — kan jag bestrida den?",
+        "answer": "Om du anser att debiteringen är felaktig, kontakta Adobes support och hänvisa till 14-dagarsperioden. Om du är utanför den perioden kan du bestrida med ditt kreditkortsföretag men resultaten varierar."
+      },
+      {
+        "question": "Vad händer med mina filer efter avslutning?",
+        "answer": "Du förlorar åtkomst till Creative Cloud-appar men filer sparade lokalt kvarstår. Molnlagrade filer är tillgängliga i skrivskyddat läge i 90 dagar."
+      }
+    ],
+    "alternatives": [
+      { "description": "Engångsköp, ingen prenumeration. Alternativ till Photoshop/Illustrator." },
+      { "description": "129 kr/mån — bra för icke-designers" },
+      { "description": "Gratisplan tillgänglig, bäst för UI/UX-design" }
+    ]
+  },
+  "chatgpt": {
+    "description": "Avsluta ChatGPT Plus eller Pro på under 2 minuter. Stoppa nästa debitering utan att förlora nuvarande åtkomst.",
+    "difficultyReason": "OpenAI erbjuder ett enkelt avslutningsflöde utan retentionsfriktioner.",
+    "refundPolicy": "Inga återbetalningar. Åtkomsten fortsätter till slutet av faktureringsperioden.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Gå till chatgpt.com och logga in." },
+          { "instruction": "Klicka på ditt namn eller profilikon nere till vänster." },
+          { "instruction": "Gå till \"Inställningar\" → \"Prenumeration\"." },
+          { "instruction": "Klicka på \"Hantera min prenumeration\"." },
+          { "instruction": "Klicka på \"Avsluta plan\" → Bekräfta." },
+          { "instruction": "Du får ett bekräftelsemail. Plus-åtkomsten fortsätter till slutet av perioden.", "note": "ChatGPT återgår automatiskt till gratisplanen." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Öppna Inställningar → tryck på ditt Apple-ID-namn → Prenumerationer." },
+          { "instruction": "Hitta \"ChatGPT\" → tryck på det." },
+          { "instruction": "Tryck på \"Avsluta prenumeration\" → Bekräfta." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Öppna Google Play Butik → profilikon → \"Betalningar och prenumerationer\" → \"Prenumerationer\"." },
+          { "instruction": "Hitta \"ChatGPT\" → tryck på \"Avsluta prenumeration\"." },
+          { "instruction": "Följ bekräftelseanvisningarna." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Jag avslutade men är direkt på gratisplanen.",
+        "answer": "Det är förväntat för vissa konton. Plus-åtkomsten bör fortsätta till slutet av faktureringsperioden. Om inte, kontakta support.openai.com."
+      },
+      {
+        "question": "Förlorar jag min konversationshistorik?",
+        "answer": "Nej. Dina chattar sparas oavsett plan. Du förlorar bara GPT-4-åtkomst, DALL-E och andra Plus-funktioner."
+      }
+    ],
+    "alternatives": [
+      { "description": "Anthropics AI — gratisplan + 200 kr/mån Pro" },
+      { "description": "Googles AI — 199 kr/mån, ingår i Google One AI Premium" },
+      { "description": "200 kr/mån — AI-sökmotor" }
+    ]
+  },
+  "amazon-prime": {
+    "description": "Avsluta Amazon Prime och eventuellt få återbetalning. Amazon gör detta krångligt — följ de exakta stegen nedan.",
+    "difficultyReason": "Amazon döljer avslutningsalternativet och visar flera retentionsskärmar, men återbetalning är möjlig om du agerar snabbt.",
+    "refundPolicy": "Proportionerlig återbetalning tillgänglig om du inte har använt Prime-förmåner under den aktuella faktureringsperioden.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Gå till amazon.se → håll muspekaren över \"Konto och listor\" → klicka på \"Konto\"." },
+          { "instruction": "Klicka på \"Prime\" eller sök efter \"Hantera Prime-medlemskap\" i kontoinställningarna." },
+          { "instruction": "Klicka på \"Uppdatera, avsluta och mer\" → \"Avsluta medlemskap\"." },
+          { "instruction": "Välj \"Avsluta medlemskap\" (inte \"Påminn mig senare\" eller andra alternativ Amazon visar).", "note": "Amazon visar återbetalningsbeloppet om du är berättigad." },
+          { "instruction": "Klicka på \"Avsluta medlemskap\" för att bekräfta." },
+          { "instruction": "Kontrollera din e-post för bekräftelse." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Öppna Amazon Shopping-appen → tryck på de tre strecken (meny)." },
+          { "instruction": "Scrolla till \"Konto\" → tryck på \"Hantera Prime-medlemskap\"." },
+          { "instruction": "Tryck på \"Uppdatera, avsluta och mer\" → \"Avsluta medlemskap\"." },
+          { "instruction": "Följ samma anvisningar som webbversionen." },
+          { "instruction": "Obs: Om du prenumererade via Apple, avsluta via iOS-inställningar → Prenumerationer istället." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Öppna Amazon Shopping-appen → meny → \"Konto\"." },
+          { "instruction": "Tryck på \"Hantera Prime-medlemskap\" → \"Avsluta medlemskap\"." },
+          { "instruction": "Om du prenumererade via Google Play, avsluta via Play Butik → Prenumerationer istället." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Är jag berättigad till återbetalning?",
+        "answer": "Ja, om du inte har använt några Prime-förmåner (fri frakt, Prime Video osv.) sedan din senaste debitering. Återbetalningen är proportionerlig. Amazon visar det exakta beloppet innan du bekräftar avslutningen."
+      },
+      {
+        "question": "Vad händer med min Prime Video-bevakningslista?",
+        "answer": "Du förlorar åtkomst till Prime Video-innehåll omedelbart vid avslutning. Din bevakningslista sparas om du återprenumererar."
+      },
+      {
+        "question": "Jag avslutade men debiteras fortfarande.",
+        "answer": "Kontrollera om du har ett separat Prime-familjemedlemskap eller om en familjemedlem startade ett nytt medlemskap. Logga in och kontrollera kontoinställningarna."
+      }
+    ]
+  },
+  "disney-plus": {
+    "description": "Avsluta Disney+ på 5 minuter via webb, iOS, Android eller via Roku och Amazon.",
+    "difficultyReason": "Avslutning av Disney+ är enkel utan avgifter för förtida avslutning.",
+    "refundPolicy": "Inga återbetalningar. Åtkomsten fortsätter till slutet av faktureringsperioden.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Gå till disneyplus.com och logga in." },
+          { "instruction": "Klicka på din profilikon → \"Konto\"." },
+          { "instruction": "Under \"Prenumeration\", klicka på \"Avsluta prenumeration\"." },
+          { "instruction": "Välj ett skäl → klicka på \"Fortsätt\"." },
+          { "instruction": "Klicka på \"Avsluta prenumeration\" för att bekräfta." },
+          { "instruction": "Du får ett bekräftelsemail.", "note": "Åtkomsten fortsätter till ditt faktureringsdatum." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Öppna Inställningar → tryck på ditt namn → Prenumerationer." },
+          { "instruction": "Hitta \"Disney+\" → tryck på det." },
+          { "instruction": "Tryck på \"Avsluta prenumeration\" → bekräfta." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Öppna Google Play Butik → profil → \"Betalningar och prenumerationer\" → \"Prenumerationer\"." },
+          { "instruction": "Hitta Disney+ → tryck på \"Avsluta prenumeration\"." },
+          { "instruction": "Slutför bekräftelseflödet." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Jag ser ingen knapp för \"Avsluta prenumeration\".",
+        "answer": "Du prenumererade troligtvis via en tredje part (Apple, Google, Amazon, Roku eller Hulu). Avsluta via den ursprungliga faktureringsplattformen istället."
+      },
+      {
+        "question": "Kan jag avsluta Disney-paketet (Disney+, Hulu, ESPN+)?",
+        "answer": "Ja — att avsluta Disney+ avslutar hela paketet. Om du vill behålla Hulu eller ESPN+ separat måste du prenumerera på dem individuellt."
+      }
+    ]
+  },
+  "apple-music": {
+    "description": "Avsluta Apple Music på iPhone, Mac, Android eller via webben. Inkluderar tidpunkt för gratis provperiod.",
+    "difficultyReason": "Avslutning av Apple Music är inbyggt i iOS-inställningarna och tar ungefär 30 sekunder.",
+    "refundPolicy": "Inga delvisa återbetalningar. Åtkomsten fortsätter till slutet av faktureringsperioden.",
+    "platforms": {
+      "ios": {
+        "steps": [
+          { "instruction": "Öppna Inställningar → tryck på ditt namn längst upp." },
+          { "instruction": "Tryck på \"Prenumerationer\"." },
+          { "instruction": "Tryck på \"Apple Music\"." },
+          { "instruction": "Tryck på \"Avsluta prenumeration\" → Bekräfta.", "note": "Om du är i en gratis provperiod ser du provperiodens slutdatum." }
+        ]
+      },
+      "web": {
+        "steps": [
+          { "instruction": "Öppna Music-appen på Mac → klicka på ditt namn → Kontoinställningar. Eller besök music.apple.com och logga in." },
+          { "instruction": "Hitta \"Prenumerationer\" → klicka på \"Hantera\"." },
+          { "instruction": "Hitta Apple Music → klicka på \"Redigera\" → \"Avsluta prenumeration\"." },
+          { "instruction": "Bekräfta avslutningen." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Öppna Apple Music-appen på Android." },
+          { "instruction": "Tryck på din profil → Kontoinställningar → Prenumerationer." },
+          { "instruction": "Tryck på \"Avsluta prenumeration\" → Bekräfta." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Jag är i en gratis provperiod — när ska jag avsluta?",
+        "answer": "Avsluta minst 24 timmar innan provperioden slutar. Det exakta slutdatumet visas i Inställningar → Prenumerationer bredvid Apple Music-posten."
+      },
+      {
+        "question": "Förlorar jag mitt bibliotek?",
+        "answer": "Nedladdade Apple Music-låtar (streamade låtar) tas bort. Musik du köpte från iTunes är permanent din. Dina spellistor sparas om du återprenumererar."
+      }
+    ]
+  },
+  "microsoft-365": {
+    "description": "Avsluta Microsoft 365 utan att förlora dina filer. OneDrive-lagringen minskar till 5 GB — här är hur du förbereder dig.",
+    "difficultyReason": "Avslutningen är gömd under flera menyer och du riskerar att omedelbart förlora OneDrive-lagringen.",
+    "refundPolicy": "Proportionerlig återbetalning tillgänglig inom 30 dagar för årsabonnemang.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Gå till account.microsoft.com och logga in." },
+          { "instruction": "Klicka på \"Tjänster och prenumerationer\" i den övre navigationen." },
+          { "instruction": "Hitta Microsoft 365 → klicka på \"Hantera\"." },
+          { "instruction": "Klicka på \"Avsluta\" under prenumerationsdetaljerna." },
+          { "instruction": "Följ anvisningarna. Microsoft kan erbjuda rabatt — hoppa över om du vill avsluta.", "note": "Om du har mer än 5 GB i OneDrive, ladda ned dina filer först." },
+          { "instruction": "Bekräfta avslutningen. Du får ett bekräftelsemail." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Om du prenumererade via App Store: Inställningar → Apple-ID → Prenumerationer → Microsoft 365 → Avsluta." },
+          { "instruction": "Om du prenumererade direkt via Microsoft: använd webstegen ovan." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Om du prenumererade via Google Play: Play Butik → Prenumerationer → Microsoft 365 → Avsluta." },
+          { "instruction": "Om du prenumererade direkt: använd webstegen ovan." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Vad händer med mina Office-appar (Word, Excel, PowerPoint)?",
+        "answer": "Apparna växlar till \"skrivskyddat\" läge efter avslutning. Du kan visa men inte redigera dokument. Microsoft 365 på webben (Office.com) förblir gratis med begränsade funktioner."
+      },
+      {
+        "question": "Vad händer med OneDrive-lagringen?",
+        "answer": "Din lagring minskar till den kostnadsfria gränsen på 5 GB. Om du har mer data har du 30 dagar på dig att ladda ned eller ta bort filer innan Microsoft begränsar åtkomsten."
+      },
+      {
+        "question": "Kan jag få återbetalning?",
+        "answer": "Ja, för årsabonnemang som avslutas inom 30 dagar från köp eller förnyelse. Månadsabonnemang återbetalas inte. Kontakta Microsofts support för årsåterbetalningar."
+      }
+    ],
+    "alternatives": [
+      { "description": "Docs, Kalkylark, Presentationer — gratis med Google-konto" },
+      { "description": "Gratis, öppen källkod-alternativ till Office" }
+    ]
+  },
+  "claude": {
+    "description": "Avsluta Claude Pro- eller Team-prenumerationen på under 3 minuter via webben eller Apple-inställningar.",
+    "difficultyReason": "Anthropic erbjuder ett enkelt avslutningsflöde utan retentionsfriktioner.",
+    "refundPolicy": "Inga återbetalningar. Åtkomsten fortsätter till slutet av faktureringsperioden.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Gå till claude.ai och logga in." },
+          { "instruction": "Klicka på din profilikon → \"Inställningar\"." },
+          { "instruction": "Gå till \"Fakturering\" i sidopanelen." },
+          { "instruction": "Klicka på \"Avsluta plan\" eller \"Avsluta prenumeration\"." },
+          { "instruction": "Bekräfta avslutningen.", "note": "Pro-åtkomsten fortsätter till slutet av din faktureringsperiod." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Om du prenumererade via App Store: Inställningar → Apple-ID → Prenumerationer → Claude → Avsluta." },
+          { "instruction": "Om du prenumererade direkt via Anthropic: använd webstegen ovan." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Öppna Google Play Butik → profil → Prenumerationer." },
+          { "instruction": "Hitta Claude → tryck på \"Avsluta prenumeration\" → bekräfta." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Förlorar jag min konversationshistorik?",
+        "answer": "Nej. Alla dina konversationer sparas och är tillgängliga även på gratisplanen."
+      },
+      {
+        "question": "Vad förlorar jag när jag nedgraderar till gratis?",
+        "answer": "Du förlorar prioriterad åtkomst under högtrafiktider, åtkomst till Claudes mest kapabla modeller (Opus) och högre användningsgränser."
+      }
+    ],
+    "alternatives": [
+      { "description": "200 kr/mån — OpenAIs GPT-4o och mer" },
+      { "description": "199 kr/mån — Googles mest kapabla AI" }
+    ]
+  },
+  "youtube-premium": {
+    "description": "Avsluta YouTube Premium på under 3 minuter via webb, iOS eller Android.",
+    "difficultyReason": "Avslutning av YouTube Premium är snabb via webben, men mobilappen kräver några extra tryckningar.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Gå till youtube.com/paid_memberships och logga in." },
+          { "instruction": "Hitta \"YouTube Premium\" → klicka på \"Hantera medlemskap\"." },
+          { "instruction": "Klicka på \"Inaktivera\"." },
+          { "instruction": "Följ bekräftelsestegen → klicka på \"Fortsätt till avslutning\"." },
+          { "instruction": "Bekräfta. Du behåller Premium till slutet av faktureringsperioden.", "note": "YouTube Music Premium ingår och avslutas också." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Öppna Inställningar → tryck på ditt namn → Prenumerationer." },
+          { "instruction": "Hitta \"YouTube Premium\" → tryck på det." },
+          { "instruction": "Tryck på \"Avsluta prenumeration\" → Bekräfta." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Öppna Google Play Butik → profil → \"Betalningar och prenumerationer\" → Prenumerationer." },
+          { "instruction": "Hitta \"YouTube Premium\" → tryck på \"Avsluta prenumeration\"." },
+          { "instruction": "Följ bekräftelseflödet." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Avslutar avslutningen av YouTube Premium också YouTube Music?",
+        "answer": "Ja — YouTube Music Premium ingår i YouTube Premium och avslutas samtidigt."
+      },
+      {
+        "question": "Jag hittar inte knappen Inaktivera.",
+        "answer": "Om du prenumererade via iOS- eller Android-appen måste du avsluta via enhetens prenumerationsinställningar, inte direkt via YouTube."
+      }
+    ]
+  },
+  "hulu": {
+    "description": "Avsluta Hulu via webb, iOS, Android eller Amazon på 5 minuter. Inkluderar avslutning av Disney-paketet.",
+    "difficultyReason": "Hulu använder flera bekräftelseskärmar och erbjuder rabatter innan du kan avsluta.",
+    "refundPolicy": "Inga återbetalningar. Åtkomsten fortsätter till slutet av faktureringsperioden.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Gå till hulu.com och logga in." },
+          { "instruction": "Klicka på din profilikon → \"Konto\"." },
+          { "instruction": "Under \"Din prenumeration\", klicka på \"Avsluta\"." },
+          { "instruction": "Välj ett skäl → Hulu ger erbjudanden. Klicka på \"Fortsätt till avslutning\"." },
+          { "instruction": "Klicka på \"Avsluta prenumeration\" för att bekräfta." },
+          { "instruction": "Du får ett bekräftelsemail." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Öppna Inställningar → tryck på ditt namn → Prenumerationer." },
+          { "instruction": "Hitta \"Hulu\" → tryck på det." },
+          { "instruction": "Tryck på \"Avsluta prenumeration\" → Bekräfta." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Öppna Google Play Butik → profil → Prenumerationer → hitta Hulu." },
+          { "instruction": "Tryck på \"Avsluta prenumeration\" → följ anvisningarna." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Jag har Disney-paketet — avslutar avslutningen av Hulu även Disney+?",
+        "answer": "Nej. Disney-paketet hanteras via Hulus fakturering. Att avsluta Hulu avslutar hela paketet. Om du vill ha Disney+ separat prenumererar du direkt via Disney efter avslutningen."
+      },
+      {
+        "question": "Jag hittar inte knappen Avsluta på min kontosida.",
+        "answer": "Om du prenumererade via en tredje part (Amazon, Roku, Apple eller Google) måste du avsluta via den plattformen — avslutningsknappen visas inte på Hulus webbplats."
+      }
+    ]
+  },
+  "nordvpn": {
+    "description": "Avsluta NordVPN och få full återbetalning om du är inom 30 dagar från köpet. Tar under 5 minuter.",
+    "difficultyReason": "NordVPN erbjuder 30 dagars pengarna-tillbaka-garanti och ett enkelt avslutningsflöde.",
+    "refundPolicy": "30 dagars pengarna-tillbaka-garanti. Begär återbetalning via livechatt eller e-post inom 30 dagar.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Gå till my.nordaccount.com och logga in." },
+          { "instruction": "Klicka på \"Fakturering\" eller \"Prenumeration\" i den vänstra sidopanelen." },
+          { "instruction": "Hitta din plan → klicka på \"Avsluta automatisk förnyelse\" eller \"Avsluta prenumeration\"." },
+          { "instruction": "Bekräfta avslutningen." },
+          { "instruction": "För återbetalning: starta en livechatt på nordvpn.com/support och begär den. Återbetalningar behandlas inom 5–10 arbetsdagar.", "note": "NordVPN erbjuder inte återbetalningar via kontopanelen — du måste kontakta supporten." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Om du prenumererade via App Store: Inställningar → Apple-ID → Prenumerationer → NordVPN → Avsluta." },
+          { "instruction": "Obs: App Store-prenumerationer är inte berättigade till NordVPNs 30-dagarsåterbetalning. Kontakta Apple istället." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Om du prenumererade via Google Play: Play Butik → Prenumerationer → NordVPN → Avsluta." },
+          { "instruction": "För återbetalningar på Play-köp, kontakta Google Play-support inom 48 timmar." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Jag är efter 30 dagar — kan jag fortfarande få återbetalning?",
+        "answer": "30-dagarsgarantin är fast. Efter det finns inga återbetalningar tillgängliga. Du kan fortfarande avsluta automatisk förnyelse så att du inte debiteras igen."
+      },
+      {
+        "question": "Jag hittar inte avslutningsalternativet i mitt konto.",
+        "answer": "Om du prenumererade via en tredje part (App Store, Google Play eller en återförsäljare som Amazon) måste du avsluta via den plattformen."
+      }
+    ]
+  }
+}

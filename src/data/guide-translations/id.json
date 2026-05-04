@@ -1,0 +1,528 @@
+{
+  "netflix": {
+    "description": "Batalkan langganan Netflix Anda dalam waktu kurang dari 2 menit. Langkah-langkah ini berlaku di web, iOS, Android, dan Roku.",
+    "difficultyReason": "Netflix memungkinkan pembatalan hanya dengan 2 klik dari pengaturan akun tanpa taktik retensi apapun.",
+    "refundPolicy": "Tidak ada pengembalian dana. Akses berlanjut hingga akhir periode penagihan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Buka netflix.com dan masuk ke akun Anda." },
+          { "instruction": "Klik ikon profil Anda → Akun." },
+          { "instruction": "Di bawah \"Keanggotaan\", klik \"Batalkan Keanggotaan\"." },
+          { "instruction": "Klik \"Selesaikan Pembatalan\" untuk mengonfirmasi." },
+          { "instruction": "Anda akan menerima email konfirmasi. Simpan sebagai bukti.", "note": "Akses berlanjut hingga akhir periode penagihan Anda saat ini." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Buka Pengaturan iPhone → ketuk nama Anda di bagian atas." },
+          { "instruction": "Ketuk \"Langganan\"." },
+          { "instruction": "Cari dan ketuk \"Netflix\"." },
+          { "instruction": "Ketuk \"Batalkan Langganan\" → Konfirmasi." },
+          { "instruction": "Anda tetap memiliki akses hingga akhir periode penagihan.", "note": "Apple tidak memberikan pengembalian dana sebagian." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Buka Google Play Store." },
+          { "instruction": "Ketuk ikon profil Anda → \"Pembayaran & langganan\" → \"Langganan\"." },
+          { "instruction": "Cari \"Netflix\" dan ketuk." },
+          { "instruction": "Ketuk \"Batalkan langganan\" dan ikuti petunjuknya." },
+          { "instruction": "Akses berlanjut hingga akhir periode penagihan." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Saya sudah membatalkan tetapi masih ditagih.",
+        "answer": "Anda mungkin memiliki dua akun Netflix atau berlangganan melalui saluran berbeda (web vs App Store). Periksa langganan app store dan netflix.com/account Anda."
+      },
+      {
+        "question": "Bisakah saya menjeda daripada membatalkan?",
+        "answer": "Ya. Di netflix.com/account, cari \"Jeda Keanggotaan\" — menghentikan penagihan selama 1–3 bulan."
+      },
+      {
+        "question": "Apakah daftar tontonan dan riwayat menonton saya akan hilang?",
+        "answer": "Netflix menyimpan data Anda selama 10 bulan setelah pembatalan. Jika Anda berlangganan kembali dalam periode tersebut, semuanya akan dipulihkan."
+      }
+    ],
+    "alternatives": [
+      { "description": "Bebas iklan, Rp49.000/bln" },
+      { "description": "Disney, Marvel, Star Wars — Rp39.000/bln" },
+      { "description": "Konten HBO — Rp109.000/bln" }
+    ]
+  },
+  "spotify": {
+    "description": "Batalkan Spotify Premium dalam waktu kurang dari 60 detik. Web adalah cara tercepat — aplikasi tidak mengizinkan pembatalan langsung.",
+    "difficultyReason": "Pembatalan melalui web mudah dilakukan, meskipun aplikasi tidak mendukung pembatalan secara langsung.",
+    "refundPolicy": "Tidak ada pengembalian dana. Premium berlanjut hingga akhir periode penagihan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Buka spotify.com/account dan masuk." },
+          { "instruction": "Klik \"Ganti paket\" atau gulir ke \"Paket Anda\"." },
+          { "instruction": "Gulir ke bawah dan klik \"Batalkan Premium\"." },
+          { "instruction": "Ikuti langkah konfirmasi (Spotify mungkin menawarkan diskon — lewati jika tidak tertarik)." },
+          { "instruction": "Klik \"Tetap batalkan\" untuk mengonfirmasi. Anda akan mendapat email konfirmasi.", "note": "Anda tetap memiliki Premium hingga akhir periode penagihan." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Buka Pengaturan iPhone → ketuk nama Apple ID Anda." },
+          { "instruction": "Ketuk \"Langganan\" → cari Spotify." },
+          { "instruction": "Ketuk \"Batalkan Langganan\" → Konfirmasi." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Buka Google Play Store → ketuk ikon profil Anda." },
+          { "instruction": "Buka \"Pembayaran & langganan\" → \"Langganan\"." },
+          { "instruction": "Cari Spotify → ketuk \"Batalkan langganan\"." },
+          { "instruction": "Ikuti petunjuk konfirmasi." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Tombol \"Batalkan Premium\" berwarna abu-abu.",
+        "answer": "Anda berlangganan melalui App Store atau Google Play. Batalkan melalui pengaturan perangkat Anda — lihat tab iOS atau Android di atas."
+      },
+      {
+        "question": "Spotify menawarkan diskon — haruskah saya ambil?",
+        "answer": "Jika Anda ingin tetap menggunakan Spotify, ya — mereka terkadang menawarkan 1–3 bulan dengan diskon 50% atau gratis. Jika Anda benar-benar ingin membatalkan, klik \"Tetap batalkan\"."
+      }
+    ],
+    "alternatives": [
+      { "description": "Rp109.000/bln, bagus untuk pengguna ekosistem Apple" },
+      { "description": "Rp109.000/bln, termasuk dalam YouTube Premium" }
+    ]
+  },
+  "adobe": {
+    "description": "Batalkan Adobe Creative Cloud tanpa membayar biaya penghentian dini. Waktu sangat penting — inilah yang harus dilakukan.",
+    "difficultyReason": "Adobe membebankan hingga 50% dari sisa kontrak sebagai biaya penghentian dini dan menggunakan beberapa layar retensi.",
+    "refundPolicy": "Biaya penghentian dini: 50% dari bulan yang tersisa jika dibatalkan dalam tahun pertama. Gratis jika dibatalkan dalam 14 hari sejak pembelian atau pembaruan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Buka account.adobe.com dan masuk." },
+          { "instruction": "Klik \"Plans & Products\" di bilah sisi kiri." },
+          { "instruction": "Temukan paket Creative Cloud Anda dan klik \"Kelola paket\"." },
+          { "instruction": "Klik \"Batalkan paket Anda\".", "note": "Adobe akan menampilkan biaya penghentian dini pada langkah ini." },
+          { "instruction": "Pilih alasan → Adobe akan membuat beberapa penawaran (diskon, jeda). Klik \"Lanjutkan untuk membatalkan\" setiap kali." },
+          { "instruction": "Konfirmasi pembatalan. Simpan nomor konfirmasi." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Jika berlangganan melalui App Store: buka Pengaturan → Apple ID → Langganan → Adobe → Batalkan." },
+          { "instruction": "Jika berlangganan langsung dengan Adobe: gunakan langkah-langkah web di atas — aplikasi tidak mendukung pembatalan langsung." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Jika berlangganan melalui Google Play: buka Play Store → Langganan → Adobe → Batalkan." },
+          { "instruction": "Jika berlangganan langsung dengan Adobe: gunakan langkah-langkah web di atas." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Bagaimana cara menghindari biaya penghentian dini 50%?",
+        "answer": "Anda memiliki dua opsi: (1) Batalkan dalam 14 hari setelah paket tahunan dimulai atau diperbarui — Adobe harus mengembalikan dana penuh. (2) Tunggu hingga kontrak tahunan Anda berakhir dan batalkan sebelum diperbarui secara otomatis."
+      },
+      {
+        "question": "Adobe membebankan ETF — bisakah saya mengajukan sengketa?",
+        "answer": "Jika Anda merasa biaya tersebut tidak benar, hubungi dukungan Adobe dan rujuk jendela 14 hari. Jika Anda berada di luar jendela tersebut, Anda dapat mengajukan sengketa kepada perusahaan kartu kredit tetapi hasilnya bervariasi."
+      },
+      {
+        "question": "Apa yang terjadi pada file saya setelah pembatalan?",
+        "answer": "Anda kehilangan akses ke aplikasi Creative Cloud tetapi file yang disimpan secara lokal tetap ada. File yang disimpan di cloud dapat diakses dalam mode baca saja selama 90 hari."
+      }
+    ],
+    "alternatives": [
+      { "description": "Pembelian sekali, tanpa langganan. Alternatif Photoshop/Illustrator." },
+      { "description": "Rp199.000/bln — bagus untuk non-desainer" },
+      { "description": "Tersedia tier gratis, terbaik untuk desain UI/UX" }
+    ]
+  },
+  "chatgpt": {
+    "description": "Batalkan ChatGPT Plus atau Pro dalam waktu kurang dari 2 menit. Hentikan tagihan berikutnya tanpa kehilangan akses saat ini.",
+    "difficultyReason": "OpenAI menyediakan alur pembatalan yang sederhana tanpa hambatan retensi.",
+    "refundPolicy": "Tidak ada pengembalian dana. Akses berlanjut hingga akhir periode penagihan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Buka chatgpt.com dan masuk." },
+          { "instruction": "Klik nama atau ikon profil Anda di pojok kiri bawah." },
+          { "instruction": "Buka \"Pengaturan\" → \"Langganan\"." },
+          { "instruction": "Klik \"Kelola langganan saya\"." },
+          { "instruction": "Klik \"Batalkan paket\" → Konfirmasi." },
+          { "instruction": "Anda akan menerima email konfirmasi. Akses Plus berlanjut hingga akhir periode.", "note": "ChatGPT secara otomatis kembali ke paket gratis." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Buka Pengaturan → ketuk nama Apple ID Anda → Langganan." },
+          { "instruction": "Cari \"ChatGPT\" → ketuk." },
+          { "instruction": "Ketuk \"Batalkan Langganan\" → Konfirmasi." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Buka Google Play Store → ikon profil → \"Pembayaran & langganan\" → \"Langganan\"." },
+          { "instruction": "Cari \"ChatGPT\" → ketuk \"Batalkan langganan\"." },
+          { "instruction": "Ikuti petunjuk konfirmasi." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Saya membatalkan tetapi langsung beralih ke paket gratis.",
+        "answer": "Ini hal yang wajar untuk beberapa akun. Akses Plus seharusnya berlanjut hingga akhir periode penagihan. Jika tidak, hubungi support.openai.com."
+      },
+      {
+        "question": "Apakah riwayat percakapan saya akan hilang?",
+        "answer": "Tidak. Obrolan Anda disimpan terlepas dari paket. Anda hanya kehilangan akses GPT-4, DALL-E, dan fitur Plus lainnya."
+      }
+    ],
+    "alternatives": [
+      { "description": "AI dari Anthropic — tier gratis + Rp329.000/bln Pro" },
+      { "description": "AI dari Google — Rp329.000/bln, termasuk dalam Google One AI Premium" },
+      { "description": "Rp329.000/bln — mesin pencari berbasis AI" }
+    ]
+  },
+  "amazon-prime": {
+    "description": "Batalkan Amazon Prime dan berpotensi mendapatkan pengembalian dana. Amazon membuat ini rumit — ikuti langkah-langkah tepat di bawah ini.",
+    "difficultyReason": "Amazon menyembunyikan opsi pembatalan dan menampilkan beberapa layar retensi, tetapi pengembalian dana tersedia jika Anda bertindak cepat.",
+    "refundPolicy": "Pengembalian dana prorata tersedia jika Anda belum menggunakan manfaat Prime selama periode penagihan saat ini.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Buka amazon.co.id → arahkan kursor ke \"Akun & Daftar\" → klik \"Akun\"." },
+          { "instruction": "Klik \"Prime\" atau cari \"Kelola Keanggotaan Prime\" di pengaturan akun." },
+          { "instruction": "Klik \"Perbarui, batalkan, dan lainnya\" → \"Akhiri keanggotaan\"." },
+          { "instruction": "Pilih \"Akhiri Keanggotaan\" (bukan \"Ingatkan saya nanti\" atau opsi lain yang ditampilkan Amazon).", "note": "Amazon akan menampilkan jumlah pengembalian dana jika Anda memenuhi syarat." },
+          { "instruction": "Klik \"Batalkan keanggotaan\" untuk mengonfirmasi." },
+          { "instruction": "Periksa email Anda untuk konfirmasi." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Buka aplikasi Amazon Shopping → ketuk tiga garis (menu)." },
+          { "instruction": "Gulir ke \"Akun\" → ketuk \"Kelola Keanggotaan Prime\"." },
+          { "instruction": "Ketuk \"Perbarui, batalkan, dan lainnya\" → \"Akhiri keanggotaan\"." },
+          { "instruction": "Ikuti petunjuk yang sama seperti versi web." },
+          { "instruction": "Catatan: jika Anda berlangganan melalui Apple, batalkan melalui Pengaturan iOS → Langganan." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Buka aplikasi Amazon Shopping → menu → \"Akun\"." },
+          { "instruction": "Ketuk \"Kelola Keanggotaan Prime\" → \"Akhiri keanggotaan\"." },
+          { "instruction": "Jika berlangganan melalui Google Play, batalkan melalui Play Store → Langganan." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Apakah saya memenuhi syarat untuk mendapatkan pengembalian dana?",
+        "answer": "Ya, jika Anda belum menggunakan manfaat Prime apa pun (pengiriman gratis, Prime Video, dll.) sejak tagihan terakhir. Pengembalian dana bersifat prorata. Amazon menampilkan jumlah pasti sebelum Anda mengonfirmasi pembatalan."
+      },
+      {
+        "question": "Apa yang terjadi pada daftar tontonan Prime Video saya?",
+        "answer": "Anda kehilangan akses ke konten Prime Video segera setelah pembatalan. Daftar tontonan Anda disimpan jika Anda berlangganan kembali."
+      },
+      {
+        "question": "Saya sudah membatalkan tetapi masih ditagih.",
+        "answer": "Periksa apakah Anda memiliki keanggotaan Prime keluarga yang terpisah atau apakah anggota keluarga memulai keanggotaan baru. Masuk dan periksa pengaturan akun."
+      }
+    ]
+  },
+  "disney-plus": {
+    "description": "Batalkan Disney+ dalam 5 menit di web, iOS, Android, atau melalui Roku dan Amazon.",
+    "difficultyReason": "Pembatalan Disney+ mudah dilakukan tanpa biaya penghentian dini.",
+    "refundPolicy": "Tidak ada pengembalian dana. Akses berlanjut hingga akhir periode penagihan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Buka disneyplus.com dan masuk." },
+          { "instruction": "Klik ikon profil Anda → \"Akun\"." },
+          { "instruction": "Di bawah \"Langganan\", klik \"Batalkan langganan\"." },
+          { "instruction": "Pilih alasan → Klik \"Lanjutkan\"." },
+          { "instruction": "Klik \"Batalkan langganan\" untuk mengonfirmasi." },
+          { "instruction": "Anda akan menerima email konfirmasi.", "note": "Akses berlanjut hingga tanggal penagihan Anda." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Buka Pengaturan → ketuk nama Anda → Langganan." },
+          { "instruction": "Cari \"Disney+\" → ketuk." },
+          { "instruction": "Ketuk \"Batalkan Langganan\" → konfirmasi." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Buka Google Play Store → profil → \"Pembayaran & langganan\" → \"Langganan\"." },
+          { "instruction": "Cari Disney+ → ketuk \"Batalkan langganan\"." },
+          { "instruction": "Selesaikan alur konfirmasi." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Saya tidak melihat tombol \"Batalkan langganan\".",
+        "answer": "Anda kemungkinan berlangganan melalui pihak ketiga (Apple, Google, Amazon, Roku, atau Hulu). Batalkan melalui platform penagihan asli."
+      },
+      {
+        "question": "Bisakah saya membatalkan Disney Bundle (Disney+, Hulu, ESPN+)?",
+        "answer": "Ya — membatalkan Disney+ membatalkan seluruh bundel. Jika Anda ingin mempertahankan Hulu atau ESPN+ secara terpisah, Anda perlu berlangganan kembali secara individual."
+      }
+    ]
+  },
+  "apple-music": {
+    "description": "Batalkan Apple Music di iPhone, Mac, Android, atau web. Termasuk panduan waktu uji coba gratis.",
+    "difficultyReason": "Pembatalan Apple Music sudah terintegrasi di pengaturan iOS dan membutuhkan waktu sekitar 30 detik.",
+    "refundPolicy": "Tidak ada pengembalian dana sebagian. Akses berlanjut hingga akhir periode penagihan.",
+    "platforms": {
+      "ios": {
+        "steps": [
+          { "instruction": "Buka Pengaturan → ketuk nama Anda di bagian atas." },
+          { "instruction": "Ketuk \"Langganan\"." },
+          { "instruction": "Ketuk \"Apple Music\"." },
+          { "instruction": "Ketuk \"Batalkan Langganan\" → Konfirmasi.", "note": "Jika Anda sedang dalam uji coba gratis, Anda akan melihat tanggal berakhirnya uji coba." }
+        ]
+      },
+      "web": {
+        "steps": [
+          { "instruction": "Buka aplikasi Musik di Mac → klik nama Anda → Pengaturan Akun. Atau kunjungi music.apple.com dan masuk." },
+          { "instruction": "Temukan \"Langganan\" → klik \"Kelola\"." },
+          { "instruction": "Temukan Apple Music → klik \"Edit\" → \"Batalkan Langganan\"." },
+          { "instruction": "Konfirmasi pembatalan." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Buka aplikasi Apple Music di Android." },
+          { "instruction": "Ketuk profil Anda → Pengaturan Akun → Langganan." },
+          { "instruction": "Ketuk \"Batalkan Langganan\" → Konfirmasi." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Saya sedang dalam uji coba gratis — kapan sebaiknya membatalkan?",
+        "answer": "Batalkan setidaknya 24 jam sebelum uji coba berakhir. Tanggal berakhir yang tepat ditampilkan di Pengaturan → Langganan di sebelah entri Apple Music."
+      },
+      {
+        "question": "Apakah perpustakaan saya akan hilang?",
+        "answer": "Lagu Apple Music yang diunduh (lagu streaming) akan dihapus. Musik yang Anda beli dari iTunes adalah milik Anda selamanya. Daftar putar Anda disimpan jika Anda berlangganan kembali."
+      }
+    ]
+  },
+  "microsoft-365": {
+    "description": "Batalkan Microsoft 365 tanpa kehilangan file Anda. Penyimpanan OneDrive turun menjadi 5GB — inilah cara mempersiapkannya.",
+    "difficultyReason": "Pembatalan tersembunyi di bawah beberapa menu, dan Anda berisiko kehilangan penyimpanan OneDrive segera.",
+    "refundPolicy": "Pengembalian dana prorata tersedia dalam 30 hari untuk langganan tahunan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Buka account.microsoft.com dan masuk." },
+          { "instruction": "Klik \"Layanan & langganan\" di navigasi atas." },
+          { "instruction": "Temukan Microsoft 365 → klik \"Kelola\"." },
+          { "instruction": "Klik \"Batalkan\" di bawah detail langganan." },
+          { "instruction": "Ikuti petunjuknya. Microsoft mungkin menawarkan diskon — lewati jika ingin membatalkan.", "note": "Jika Anda memiliki lebih dari 5GB di OneDrive, unduh file Anda terlebih dahulu." },
+          { "instruction": "Konfirmasi pembatalan. Anda akan mendapat email konfirmasi." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Jika berlangganan melalui App Store: Pengaturan → Apple ID → Langganan → Microsoft 365 → Batalkan." },
+          { "instruction": "Jika berlangganan melalui Microsoft langsung: gunakan langkah-langkah web di atas." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Jika berlangganan melalui Google Play: Play Store → Langganan → Microsoft 365 → Batalkan." },
+          { "instruction": "Jika berlangganan langsung: gunakan langkah-langkah web di atas." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Apa yang terjadi pada aplikasi Office saya (Word, Excel, PowerPoint)?",
+        "answer": "Aplikasi beralih ke mode \"baca saja\" setelah pembatalan. Anda dapat melihat tetapi tidak dapat mengedit dokumen. Microsoft 365 di web (Office.com) tetap gratis dengan fitur terbatas."
+      },
+      {
+        "question": "Apa yang terjadi pada penyimpanan OneDrive?",
+        "answer": "Penyimpanan Anda turun ke batas gratis 5GB. Jika Anda memiliki lebih banyak data, Anda memiliki 30 hari untuk mengunduh atau menghapus file sebelum Microsoft membatasi akses."
+      },
+      {
+        "question": "Bisakah saya mendapatkan pengembalian dana?",
+        "answer": "Ya, untuk langganan tahunan yang dibatalkan dalam 30 hari sejak pembelian atau pembaruan. Langganan bulanan tidak dikembalikan. Hubungi dukungan Microsoft untuk pengembalian dana tahunan."
+      }
+    ],
+    "alternatives": [
+      { "description": "Docs, Sheets, Slides — gratis dengan akun Google" },
+      { "description": "Gratis, alternatif Office sumber terbuka" }
+    ]
+  },
+  "claude": {
+    "description": "Batalkan langganan Claude Pro atau Team dalam waktu kurang dari 3 menit melalui web atau pengaturan Apple.",
+    "difficultyReason": "Anthropic menyediakan alur pembatalan yang sederhana tanpa hambatan retensi.",
+    "refundPolicy": "Tidak ada pengembalian dana. Akses berlanjut hingga akhir periode penagihan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Buka claude.ai dan masuk." },
+          { "instruction": "Klik ikon profil Anda → \"Pengaturan\"." },
+          { "instruction": "Buka \"Penagihan\" di bilah sisi." },
+          { "instruction": "Klik \"Batalkan paket\" atau \"Batalkan langganan\"." },
+          { "instruction": "Konfirmasi pembatalan.", "note": "Akses Pro berlanjut hingga akhir periode penagihan Anda." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Jika berlangganan melalui App Store: Pengaturan → Apple ID → Langganan → Claude → Batalkan." },
+          { "instruction": "Jika berlangganan langsung melalui Anthropic: gunakan langkah-langkah web di atas." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Buka Google Play Store → profil → Langganan." },
+          { "instruction": "Cari Claude → ketuk \"Batalkan langganan\" → konfirmasi." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Apakah riwayat percakapan saya akan hilang?",
+        "answer": "Tidak. Semua percakapan Anda disimpan dan dapat diakses bahkan di paket gratis."
+      },
+      {
+        "question": "Apa yang hilang saat saya turun ke paket gratis?",
+        "answer": "Anda kehilangan akses prioritas pada waktu sibuk, akses ke model Claude paling canggih (Opus), dan batas penggunaan yang lebih tinggi."
+      }
+    ],
+    "alternatives": [
+      { "description": "Rp329.000/bln — GPT-4o OpenAI dan lainnya" },
+      { "description": "Rp329.000/bln — AI Google yang paling canggih" }
+    ]
+  },
+  "youtube-premium": {
+    "description": "Batalkan YouTube Premium dalam waktu kurang dari 3 menit di web, iOS, atau Android.",
+    "difficultyReason": "Pembatalan YouTube Premium cepat di web, meskipun aplikasi seluler memerlukan beberapa ketukan tambahan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Buka youtube.com/paid_memberships dan masuk." },
+          { "instruction": "Temukan \"YouTube Premium\" → klik \"Kelola keanggotaan\"." },
+          { "instruction": "Klik \"Nonaktifkan\"." },
+          { "instruction": "Ikuti langkah konfirmasi → klik \"Lanjutkan untuk membatalkan\"." },
+          { "instruction": "Konfirmasi. Anda tetap memiliki Premium hingga akhir periode penagihan.", "note": "YouTube Music Premium sudah termasuk dan juga akan dibatalkan." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Buka Pengaturan → ketuk nama Anda → Langganan." },
+          { "instruction": "Temukan \"YouTube Premium\" → ketuk." },
+          { "instruction": "Ketuk \"Batalkan Langganan\" → Konfirmasi." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Buka Google Play Store → profil → \"Pembayaran & langganan\" → Langganan." },
+          { "instruction": "Temukan \"YouTube Premium\" → ketuk \"Batalkan langganan\"." },
+          { "instruction": "Ikuti alur konfirmasi." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Apakah membatalkan YouTube Premium juga membatalkan YouTube Music?",
+        "answer": "Ya — YouTube Music Premium sudah termasuk dalam YouTube Premium dan dibatalkan bersamaan."
+      },
+      {
+        "question": "Saya tidak dapat menemukan tombol Nonaktifkan.",
+        "answer": "Jika Anda berlangganan melalui aplikasi iOS atau Android, Anda perlu membatalkan melalui pengaturan langganan perangkat Anda, bukan langsung melalui YouTube."
+      }
+    ]
+  },
+  "hulu": {
+    "description": "Batalkan Hulu di web, iOS, Android, atau Amazon dalam 5 menit. Termasuk pembatalan Disney Bundle.",
+    "difficultyReason": "Hulu menggunakan beberapa layar konfirmasi dan menawarkan diskon sebelum mengizinkan Anda membatalkan.",
+    "refundPolicy": "Tidak ada pengembalian dana. Akses berlanjut hingga akhir periode penagihan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Buka hulu.com dan masuk." },
+          { "instruction": "Klik ikon profil Anda → \"Akun\"." },
+          { "instruction": "Di bawah \"Langganan Anda\", klik \"Batalkan\"." },
+          { "instruction": "Pilih alasan → Hulu akan membuat penawaran. Klik \"Lanjutkan untuk Membatalkan\"." },
+          { "instruction": "Klik \"Batalkan Langganan\" untuk mengonfirmasi." },
+          { "instruction": "Anda akan menerima email konfirmasi." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Buka Pengaturan → ketuk nama Anda → Langganan." },
+          { "instruction": "Temukan \"Hulu\" → ketuk." },
+          { "instruction": "Ketuk \"Batalkan Langganan\" → Konfirmasi." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Buka Google Play Store → profil → Langganan → cari Hulu." },
+          { "instruction": "Ketuk \"Batalkan langganan\" → ikuti petunjuknya." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Saya memiliki Disney Bundle — apakah membatalkan Hulu juga membatalkan Disney+?",
+        "answer": "Tidak. Disney Bundle dikelola melalui penagihan Hulu. Membatalkan Hulu membatalkan seluruh bundel. Jika Anda menginginkan Disney+ secara terpisah, berlangganan langsung melalui Disney setelah pembatalan."
+      },
+      {
+        "question": "Saya tidak dapat menemukan tombol Batalkan di halaman akun saya.",
+        "answer": "Jika Anda berlangganan melalui pihak ketiga (Amazon, Roku, Apple, atau Google), Anda harus membatalkan melalui platform tersebut — tombol batalkan tidak akan muncul di situs web Hulu."
+      }
+    ]
+  },
+  "nordvpn": {
+    "description": "Batalkan NordVPN dan dapatkan pengembalian dana penuh jika Anda masih dalam 30 hari sejak pembelian. Membutuhkan waktu kurang dari 5 menit.",
+    "difficultyReason": "NordVPN menawarkan garansi uang kembali 30 hari dan alur pembatalan yang sederhana.",
+    "refundPolicy": "Garansi uang kembali 30 hari. Minta pengembalian dana melalui live chat atau email dalam 30 hari.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Buka my.nordaccount.com dan masuk." },
+          { "instruction": "Klik \"Penagihan\" atau \"Langganan\" di bilah sisi kiri." },
+          { "instruction": "Temukan paket Anda → klik \"Batalkan pembaruan otomatis\" atau \"Batalkan langganan\"." },
+          { "instruction": "Konfirmasi pembatalan." },
+          { "instruction": "Untuk pengembalian dana: mulai live chat di nordvpn.com/support dan minta pengembalian dana. Pengembalian dana diproses dalam 5–10 hari kerja.", "note": "NordVPN tidak menawarkan pengembalian dana melalui dasbor akun — Anda harus menghubungi dukungan." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Jika berlangganan melalui App Store: Pengaturan → Apple ID → Langganan → NordVPN → Batalkan." },
+          { "instruction": "Catatan: Langganan App Store tidak memenuhi syarat untuk pengembalian dana 30 hari NordVPN. Hubungi Apple sebagai gantinya." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Jika berlangganan melalui Google Play: Play Store → Langganan → NordVPN → Batalkan." },
+          { "instruction": "Untuk pengembalian dana pembelian Play, hubungi dukungan Google Play dalam 48 jam." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Saya sudah melewati 30 hari — bisakah saya masih mendapatkan pengembalian dana?",
+        "answer": "Garansi 30 hari bersifat pasti. Setelah itu, tidak ada pengembalian dana yang tersedia. Anda masih dapat membatalkan pembaruan otomatis agar tidak ditagih lagi."
+      },
+      {
+        "question": "Saya tidak dapat menemukan opsi pembatalan di akun saya.",
+        "answer": "Jika Anda berlangganan melalui pihak ketiga (App Store, Google Play, atau reseller seperti Amazon), Anda harus membatalkan melalui platform tersebut."
+      }
+    ]
+  }
+}
