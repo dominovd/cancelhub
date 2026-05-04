@@ -524,5 +524,453 @@
         "answer": "Se hai sottoscritto tramite una terza parte (App Store, Google Play o un rivenditore come Amazon), devi disdire tramite quella piattaforma."
       }
     ]
+  },
+  "doordash": {
+    "description": "Disdici DashPass in meno di 2 minuti. Nessuna penale di disdetta — l'accesso continua fino alla fine del periodo di fatturazione.",
+    "difficultyReason": "DoorDash consente una facile disdetta tramite l'app o il sito web, senza schermate di fidelizzazione.",
+    "refundPolicy": "Nessun rimborso. I vantaggi DashPass continuano fino alla fine del periodo di fatturazione.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Vai su doordash.com e accedi." },
+          { "instruction": "Clicca sull'icona del tuo profilo → Ottieni DashPass oppure vai su doordash.com/account." },
+          { "instruction": "Scorri fino a DashPass → clicca su Gestisci DashPass." },
+          { "instruction": "Clicca su Annulla DashPass." },
+          { "instruction": "Segui le istruzioni di conferma → clicca su Annulla DashPass per confermare.", "note": "Mantieni i vantaggi DashPass fino alla fine del tuo periodo di fatturazione." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Apri l'app DoorDash → tocca l'icona del tuo profilo (in basso a destra)." },
+          { "instruction": "Tocca Ottieni DashPass o Gestisci DashPass." },
+          { "instruction": "Tocca Annulla DashPass → conferma." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Apri l'app DoorDash → tocca l'icona del tuo profilo." },
+          { "instruction": "Tocca Gestisci DashPass." },
+          { "instruction": "Tocca Annulla DashPass → segui le istruzioni di conferma." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Non riesco a trovare l'opzione DashPass nel mio account.",
+        "answer": "Assicurati di aver effettuato l'accesso con lo stesso account usato per l'abbonamento. Se ti sei abbonato tramite i vantaggi della carta di credito Chase, devi annullare tramite Chase, non direttamente tramite DoorDash."
+      },
+      {
+        "question": "Perderò DashPass a metà mese?",
+        "answer": "No. I vantaggi DashPass continuano fino alla fine del tuo periodo di fatturazione corrente."
+      }
+    ],
+    "alternatives": [
+      { "description": "$9,99/mese — consegna gratuita su Uber Eats + corse Uber" },
+      { "description": "$9,99/mese — consegna gratuita sugli ordini Grubhub" }
+    ]
+  },
+  "peacock": {
+    "description": "Disdici Peacock Premium in meno di 3 minuti sul web o tramite le impostazioni di abbonamento del tuo dispositivo.",
+    "difficultyReason": "Il flusso di disdetta di Peacock è semplice con una minima attrito di fidelizzazione.",
+    "refundPolicy": "Nessun rimborso. L'accesso continua fino alla fine del periodo di fatturazione.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Vai su peacocktv.com e accedi." },
+          { "instruction": "Clicca sull'icona del tuo profilo → Account." },
+          { "instruction": "In Piano, clicca su Cambia o annulla piano." },
+          { "instruction": "Clicca su Annulla piano." },
+          { "instruction": "Seleziona un motivo → clicca su Continua.", "note": "Il tuo accesso a Peacock Premium continua fino alla data di fatturazione." },
+          { "instruction": "Conferma la disdetta." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Apri Impostazioni → tocca il tuo nome → Abbonamenti." },
+          { "instruction": "Trova Peacock → toccalo." },
+          { "instruction": "Tocca Annulla abbonamento → conferma." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Apri il Google Play Store → profilo → Pagamenti e abbonamenti → Abbonamenti." },
+          { "instruction": "Trova Peacock → tocca Annulla abbonamento → conferma." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Mi sono abbonato tramite il mio fornitore TV — come faccio a disdire?",
+        "answer": "Se Peacock era incluso nel tuo piano televisivo via cavo o internet, devi annullare tramite il tuo provider TV/internet, non direttamente tramite Peacock."
+      },
+      {
+        "question": "Ho il livello gratuito — devo disdire?",
+        "answer": "No. Il livello gratuito di Peacock non ha un abbonamento da disdire. Solo Premium e Premium Plus richiedono la disdetta."
+      }
+    ],
+    "alternatives": [
+      { "description": "$7,99/mese — CBS, MTV, Nickelodeon" },
+      { "description": "$9,99/mese — contenuti HBO" }
+    ]
+  },
+  "audible": {
+    "description": "Disdici Audible senza perdere i tuoi crediti o gli audiolibri acquistati. Il momento della disdetta è importante.",
+    "difficultyReason": "Audible utilizza più schermate di fidelizzazione, offre pause e sconti, ma la disdetta è infine disponibile.",
+    "refundPolicy": "I crediti inutilizzati vengono persi alla disdetta. Gli audiolibri acquistati sono tuoi per sempre.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Vai su audible.com e accedi." },
+          { "instruction": "Passa il mouse sul tuo nome → clicca su Dettagli account." },
+          { "instruction": "Clicca su Annulla abbonamento nella barra laterale sinistra o sotto Dettagli abbonamento." },
+          { "instruction": "Audible mostrerà un'opzione per mettere in pausa l'abbonamento — clicca su Continua ad annullare se vuoi procedere.", "note": "Usa i tuoi crediti prima di annullare — scadono quando termina il tuo abbonamento." },
+          { "instruction": "Seleziona un motivo → clicca su Annulla abbonamento." },
+          { "instruction": "Riceverai un'email di conferma." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Se hai sottoscritto tramite App Store: Impostazioni → Apple ID → Abbonamenti → Audible → Annulla." },
+          { "instruction": "Se hai sottoscritto direttamente con Amazon/Audible: usa i passaggi del sito web." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Se hai sottoscritto tramite Google Play: Play Store → Abbonamenti → Audible → Annulla." },
+          { "instruction": "Se hai sottoscritto direttamente: usa i passaggi del sito web." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Cosa succede ai miei crediti quando annullo?",
+        "answer": "Eventuali crediti inutilizzati vengono persi all'annullamento. Usali prima di annullare — puoi acquistare audiolibri con i crediti e tenerli per sempre anche dopo l'annullamento."
+      },
+      {
+        "question": "Perderò gli audiolibri acquistati?",
+        "answer": "No. Gli audiolibri acquistati con crediti o comprati direttamente sono tuoi in modo permanente. Puoi accedervi tramite l'app Audible anche senza abbonamento."
+      },
+      {
+        "question": "Posso mettere in pausa invece di annullare?",
+        "answer": "Sì. Audible ti consente di mettere in pausa per 1–3 mesi. Durante la pausa, non ti verrà addebitato nulla ma non accumulerai crediti. Trovi l'opzione durante il flusso di annullamento."
+      }
+    ],
+    "alternatives": [
+      { "description": "$11,99/mese — ebook + alcuni audiolibri" },
+      { "description": "$11,99/mese — audiolibri, ebook, documenti" }
+    ]
+  },
+  "fabletics": {
+    "description": "Disdici l'abbonamento VIP Fabletics — richiede una telefonata o una chat. Prima evita la trappola dei crediti membro.",
+    "difficultyReason": "Fabletics richiede la disdetta tramite telefono o live chat (nessun autoservizio online), usa tattiche di fidelizzazione aggressive e addebita automaticamente $59,95 se dimentichi di saltare il mese entro il giorno 5.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Accedi a fabletics.com e utilizza i crediti accumulati prima di disdire." },
+          { "instruction": "Clicca su Crediti membro per verificare il tuo saldo.", "note": "I crediti scadono dopo la disdetta — usali prima." },
+          { "instruction": "Apri la live chat su fabletics.com o chiama 1-844-322-5384." },
+          { "instruction": "Di' all'agente che vuoi disdire il tuo abbonamento VIP." },
+          { "instruction": "Rifiuta tutte le offerte di fidelizzazione (sconti, pause, offerte di crediti)." },
+          { "instruction": "Conferma la disdetta e chiedi un numero o un'email di conferma." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Fabletics non supporta la disdetta tramite l'app iOS o App Store." },
+          { "instruction": "Usa il telefono (1-844-322-5384) o la live chat su fabletics.com." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Fabletics non supporta la disdetta tramite l'app Android o Play Store." },
+          { "instruction": "Usa il telefono o la live chat — vedi i passaggi web sopra." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Mi hanno addebitato $59,95 — posso ottenere un rimborso?",
+        "answer": "Se sei stato addebitato senza volerlo, contatta immediatamente il supporto Fabletics. Potrebbero emettere un credito, ma i rimborsi in contanti sono rari. L'addebito avviene se non salti il mese entro il giorno 5."
+      },
+      {
+        "question": "Cos'è l'opzione di saltare il mese?",
+        "answer": "Ogni mese devi accedere e cliccare su Salta questo mese entro il giorno 5 per evitare di essere addebitato. Questo è un dark pattern intenzionale — imposta un promemoria ricorrente nel calendario."
+      },
+      {
+        "question": "Posso disdire online senza chiamare?",
+        "answer": "Fabletics ha aggiunto un'opzione di live chat. La chat è disponibile su fabletics.com ed è generalmente più veloce del telefono."
+      }
+    ]
+  },
+  "experian": {
+    "description": "Disdici l'abbonamento Experian CreditWorks o IdentityWorks. Richiede telefono o chat — nessuna disdetta online.",
+    "difficultyReason": "Experian non offre la disdetta online in autoservizio. Devi chiamare o usare la chat, e gli agenti usano tattiche di fidelizzazione.",
+    "refundPolicy": "Rimborsi proporzionali disponibili in alcuni casi. Contatta il supporto entro il ciclo di fatturazione per i migliori risultati.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Accedi a experian.com o vai alle impostazioni del tuo account." },
+          { "instruction": "Se non è disponibile alcun pulsante di annullamento (comune), apri la live chat tramite experian.com/consumer/help.html.", "note": "Experian spesso nasconde l'opzione di annullamento — la live chat è di solito il percorso più veloce." },
+          { "instruction": "Di' all'agente che vuoi annullare il tuo abbonamento." },
+          { "instruction": "Rifiuta qualsiasi offerta di fidelizzazione (pausa del monitoraggio del credito, sconti)." },
+          { "instruction": "Richiedi un'email di conferma con la data di annullamento." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Se hai sottoscritto tramite App Store: Impostazioni → Apple ID → Abbonamenti → Experian → Annulla." },
+          { "instruction": "Se hai sottoscritto direttamente con Experian: usa il telefono (1-479-343-6239) o la live chat." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Se hai sottoscritto tramite Google Play: Play Store → Abbonamenti → Experian → Annulla." },
+          { "instruction": "Se hai sottoscritto direttamente: usa la live chat o chiama il supporto Experian." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Non riesco a trovare un pulsante di annullamento sul sito.",
+        "answer": "Experian rende intenzionalmente difficile trovare l'annullamento in autoservizio. Vai direttamente su experian.com/consumer/cancel.html o usa la live chat. Anche chiamare il 1-479-343-6239 è affidabile."
+      },
+      {
+        "question": "Annullare influenzerà il mio punteggio di credito?",
+        "answer": "No. L'annullamento del tuo abbonamento Experian non influisce in alcun modo sul tuo punteggio di credito."
+      },
+      {
+        "question": "Cosa succede al mio monitoraggio del credito?",
+        "answer": "Gli avvisi di monitoraggio del credito si interrompono. I dati del tuo rapporto di credito non vengono eliminati — puoi ancora ottenere rapporti annuali gratuiti su annualcreditreport.com."
+      }
+    ],
+    "alternatives": [
+      { "description": "Monitoraggio del credito gratuito — nessun abbonamento richiesto" },
+      { "description": "$8,99/mese — protezione contro il furto d'identità" }
+    ]
+  },
+  "crunch-fitness": {
+    "description": "Disdici la tua iscrizione alla Crunch Fitness di persona, tramite raccomandata o a volte online. I contratti annuali hanno penali per risoluzione anticipata.",
+    "difficultyReason": "Crunch richiede la disdetta di persona o tramite raccomandata per la maggior parte degli iscritti. I contratti annuali hanno penali per risoluzione anticipata fino a $175.",
+    "refundPolicy": "Nessun rimborso. Gli iscritti con contratto annuale devono pagare una penale di risoluzione anticipata se annullano prima della scadenza del contratto.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Accedi a crunch.com e verifica se la tua sede offre la disdetta online (raro — la maggior parte non lo fa)." },
+          { "instruction": "Se la disdetta online non è disponibile, recati di persona nella tua sede con un documento d'identità con foto." },
+          { "instruction": "Chiedi di parlare con un consulente per le iscrizioni e richiedi la disdetta.", "note": "Porta il tuo ID membro o l'email usata per iscriverti." },
+          { "instruction": "In alternativa, invia una raccomandata alla tua sede con: nome completo, ID membro, indirizzo e firma." },
+          { "instruction": "Conserva la ricevuta della raccomandata come prova. La disdetta solitamente ha effetto 30 giorni dopo il ricevimento." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Crunch non supporta la disdetta tramite l'app iOS." },
+          { "instruction": "Disdici di persona nella tua sede o tramite raccomandata — vedi i passaggi web." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Crunch non supporta la disdetta tramite l'app Android." },
+          { "instruction": "Disdici di persona o tramite raccomandata — vedi i passaggi web." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Sono in un contratto annuale — qual è la penale per risoluzione anticipata?",
+        "answer": "La penale è tipicamente $175 o il saldo rimanente del contratto (il minore dei due). Gli iscritti mensili possono disdire in qualsiasi momento con un preavviso di 30 giorni."
+      },
+      {
+        "question": "Posso disdire se mi sono trasferito?",
+        "answer": "Sì — il trasloco è un motivo accettabile. Dovrai fornire prova del nuovo indirizzo che dimostri che vivi a più di 25 miglia da qualsiasi sede Crunch."
+      },
+      {
+        "question": "Posso congelare la mia iscrizione invece di disdire?",
+        "answer": "Sì. La maggior parte delle sedi Crunch consente un congelamento da 1 a 3 mesi per una piccola tariffa ($10–$15/mese). Chiedi nella tua sede."
+      }
+    ],
+    "alternatives": [
+      { "description": "$10–$25/mese — disdetta online facile" },
+      { "description": "$30–$50/mese — accesso 24/7" }
+    ]
+  },
+  "xfinity": {
+    "description": "Disdici internet, TV via cavo o streaming Xfinity senza pagare penali per risoluzione anticipata. Richiede una telefonata o una visita in negozio.",
+    "difficultyReason": "Xfinity è nota per i lunghi tempi di attesa, le tattiche di fidelizzazione aggressive e la fatturazione complessa. Le penali per risoluzione anticipata possono raggiungere $110 o più.",
+    "refundPolicy": "Rimborso proporzionale per i giorni non utilizzati dopo la disdetta. Penale per risoluzione anticipata se si è sotto contratto.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Vai su xfinity.com/support e accedi.", "note": "Controlla prima la data di scadenza del contratto — vai su Il mio account → Contratto di servizio per verificare se devi una penale di risoluzione anticipata." },
+          { "instruction": "Usa la chat dell'Assistente Xfinity e digita Annulla servizio — a volte funziona senza attesa." },
+          { "instruction": "In alternativa, chiama 1-800-934-6489. Prevedi 15–45 minuti di attesa." },
+          { "instruction": "Di' all'operatore che vuoi annullare, non effettuare un downgrade. Rifiuta tutte le offerte di fidelizzazione." },
+          { "instruction": "Chiedi un numero di conferma dell'annullamento e un'email." },
+          { "instruction": "Restituisci qualsiasi attrezzatura in affitto (modem, router, decoder) a un negozio Xfinity o tramite kit di restituzione prepagato entro 10 giorni per evitare addebiti per l'attrezzatura." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Apri l'app Xfinity → tocca l'icona dell'account." },
+          { "instruction": "Tocca Gestisci il mio piano — opzioni di annullamento limitate nell'app. L'annullamento completo richiede una telefonata o una visita in negozio." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Apri l'app Xfinity → icona dell'account → Gestisci il mio piano." },
+          { "instruction": "Per l'annullamento completo, chiama o visita un negozio." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Qual è la penale per risoluzione anticipata?",
+        "answer": "Se sei sotto un contratto di 1 o 2 anni, Xfinity addebita fino a $110 di penali per risoluzione anticipata. La penale diminuisce mensilmente all'avvicinarsi della fine del contratto. I clienti mensili non hanno penali."
+      },
+      {
+        "question": "Devo restituire l'attrezzatura?",
+        "answer": "Sì — l'attrezzatura non restituita comporta addebiti di $110–$350 per dispositivo. Restituisci entro 10 giorni dalla disdetta per evitare le tariffe."
+      },
+      {
+        "question": "Posso annullare online senza chiamare?",
+        "answer": "Alcuni account possono usare la chat dell'Assistente Xfinity per annullare. Altri richiedono una telefonata o una visita in negozio. La chat è più veloce se funziona per il tuo tipo di account."
+      }
+    ],
+    "alternatives": [
+      { "description": "Internet in fibra — prezzi competitivi" },
+      { "description": "Nessun contratto, nessun limite di dati" }
+    ]
+  },
+  "fubotv": {
+    "description": "Disdici FuboTV in meno di 2 minuti sul web. Nessuna penale di disdetta — l'accesso continua fino alla fine del periodo di fatturazione.",
+    "difficultyReason": "FuboTV offre una semplice disdetta online senza penali per risoluzione anticipata.",
+    "refundPolicy": "Nessun rimborso. L'accesso continua fino alla fine del periodo di fatturazione.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Vai su fubo.tv e accedi." },
+          { "instruction": "Clicca sull'icona del tuo profilo (in alto a destra) → Il mio account." },
+          { "instruction": "Clicca su Gestisci abbonamento." },
+          { "instruction": "Clicca su Annulla abbonamento.", "note": "FuboTV potrebbe mostrarti un'opzione di pausa — clicca su Annulla solo se vuoi annullare completamente." },
+          { "instruction": "Seleziona un motivo → conferma la disdetta." },
+          { "instruction": "Riceverai un'email di conferma." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Apri Impostazioni → tocca il tuo nome → Abbonamenti." },
+          { "instruction": "Trova FuboTV → toccalo." },
+          { "instruction": "Tocca Annulla abbonamento → conferma." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Apri il Google Play Store → profilo → Pagamenti e abbonamenti → Abbonamenti." },
+          { "instruction": "Trova FuboTV → tocca Annulla abbonamento → conferma." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Mi sono abbonato tramite Roku o Amazon — come faccio a disdire?",
+        "answer": "Disdici tramite la piattaforma che hai usato: Roku (Impostazioni → Abbonamenti → FuboTV), Amazon (amazon.com/mysubscriptions) o le impostazioni di abbonamento del dispositivo Apple/Google."
+      },
+      {
+        "question": "FuboTV offre una prova gratuita?",
+        "answer": "Le prove gratuite sono offerte occasionalmente. Se annulli durante una prova, annulla almeno 24 ore prima che termini per evitare addebiti."
+      }
+    ],
+    "alternatives": [
+      { "description": "$72,99/mese — 100+ canali, DVR illimitato" },
+      { "description": "Da $40/mese — pacchetti di canali flessibili" },
+      { "description": "Da $64,99/mese — focus sullo sport in diretta" }
+    ]
+  },
+  "uber-eats": {
+    "description": "Disdici Uber One (abbonamento Uber Eats + corse Uber) in meno di 2 minuti tramite l'app o il sito web.",
+    "difficultyReason": "La disdetta è semplice tramite l'app Uber senza attrito di fidelizzazione.",
+    "refundPolicy": "Nessun rimborso. I vantaggi Uber One continuano fino alla fine del periodo di fatturazione.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Vai su uber.com e accedi." },
+          { "instruction": "Clicca sull'icona del tuo profilo → Uber One." },
+          { "instruction": "Clicca su Gestisci abbonamento." },
+          { "instruction": "Clicca su Annulla abbonamento.", "note": "I tuoi vantaggi Uber One continuano fino alla fine del periodo di fatturazione." },
+          { "instruction": "Conferma la disdetta." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Apri l'app Uber o Uber Eats → tocca l'icona del tuo profilo." },
+          { "instruction": "Tocca Uber One → Gestisci abbonamento." },
+          { "instruction": "Tocca Annulla abbonamento → conferma." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Apri l'app Uber o Uber Eats → icona del profilo." },
+          { "instruction": "Tocca Uber One → Gestisci abbonamento → Annulla abbonamento." },
+          { "instruction": "Conferma la disdetta." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Annullare Uber One cancella sia i vantaggi delle corse Uber che di Uber Eats?",
+        "answer": "Sì. Uber One è un abbonamento unico che copre sia gli sconti sulle corse Uber che i vantaggi di consegna di Uber Eats. L'annullamento rimuove entrambi."
+      },
+      {
+        "question": "Sono stato addebitato dopo aver annullato.",
+        "answer": "Se hai annullato prima della data di rinnovo ma sei ancora stato addebitato, contatta il supporto Uber tramite l'app (Aiuto → Account → Uber One) per un rimborso."
+      }
+    ],
+    "alternatives": [
+      { "description": "$9,99/mese — consegna gratuita su DoorDash" },
+      { "description": "$9,99/mese — consegna gratuita su Grubhub" }
+    ]
+  },
+  "instacart": {
+    "description": "Disdici Instacart+ in meno di 2 minuti tramite l'app o il sito web.",
+    "difficultyReason": "La disdetta di Instacart+ è semplice tramite l'app con un minimo di attrito di fidelizzazione.",
+    "refundPolicy": "Nessun rimborso. I vantaggi continuano fino alla fine del periodo di fatturazione. Gli abbonati annuali potrebbero ricevere un rimborso proporzionale se non utilizzato.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Vai su instacart.com e accedi." },
+          { "instruction": "Clicca sull'icona del tuo profilo → Instacart+." },
+          { "instruction": "Clicca su Gestisci il tuo abbonamento." },
+          { "instruction": "Clicca su Annulla abbonamento.", "note": "Se hai un piano annuale con mesi rimanenti, Instacart potrebbe offrire un rimborso proporzionale." },
+          { "instruction": "Conferma la disdetta." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Apri l'app Instacart → tocca l'icona del tuo profilo." },
+          { "instruction": "Tocca Instacart+ → Gestisci abbonamento." },
+          { "instruction": "Tocca Annulla abbonamento → conferma." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Apri l'app Instacart → icona del profilo → Instacart+." },
+          { "instruction": "Tocca Gestisci abbonamento → Annulla abbonamento → conferma." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Posso ottenere un rimborso sul mio piano annuale Instacart+?",
+        "answer": "Sì, se non hai utilizzato molto l'abbonamento. Instacart potrebbe offrire un rimborso proporzionale per la parte non utilizzata. Contatta il supporto se l'opzione non viene mostrata durante la disdetta."
+      },
+      {
+        "question": "Cosa succede ai miei ordini in sospeso dopo la disdetta?",
+        "answer": "Gli ordini attivi non sono influenzati dalla disdetta. Le esenzioni dalla tariffa di consegna non si applicheranno ai nuovi ordini effettuati dopo la disdetta."
+      }
+    ],
+    "alternatives": [
+      { "description": "Consegna gratuita con Prime — consegna di generi alimentari" },
+      { "description": "$99/anno — Target + altri rivenditori" }
+    ]
   }
 }

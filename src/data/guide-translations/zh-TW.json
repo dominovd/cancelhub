@@ -524,5 +524,453 @@
         "answer": "若您透過第三方（App Store、Google Play 或 Amazon 等經銷商）訂閱，必須透過該平台取消。"
       }
     ]
+  },
+  "doordash": {
+    "description": "在不到 2 分鐘內取消 DashPass。沒有取消費用 — 可繼續使用至計費週期結束。",
+    "difficultyReason": "DoorDash 允許透過應用程式或網站輕鬆取消，沒有任何挽留畫面。",
+    "refundPolicy": "不提供退款。DashPass 福利持續至計費週期結束。",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "前往 doordash.com 並登入。" },
+          { "instruction": "點擊個人頭像 → 取得 DashPass 或前往 doordash.com/account。" },
+          { "instruction": "滾動至 DashPass → 點擊「管理 DashPass」。" },
+          { "instruction": "點擊「取消 DashPass」。" },
+          { "instruction": "依照確認提示操作 → 點擊「取消 DashPass」以確認。", "note": "您可保留 DashPass 福利至計費週期結束。" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "開啟 DoorDash 應用程式 → 點擊個人頭像（右下角）。" },
+          { "instruction": "點擊「取得 DashPass」或「管理 DashPass」。" },
+          { "instruction": "點擊「取消 DashPass」→ 確認。" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "開啟 DoorDash 應用程式 → 點擊個人頭像。" },
+          { "instruction": "點擊「管理 DashPass」。" },
+          { "instruction": "點擊「取消 DashPass」→ 依照確認提示操作。" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我在帳號中找不到 DashPass 選項。",
+        "answer": "請確保您登入的是用於訂閱的同一帳號。若您透過 Chase 信用卡福利訂閱，必須透過 Chase 取消，而非直接透過 DoorDash。"
+      },
+      {
+        "question": "我會在月中失去 DashPass 嗎？",
+        "answer": "不會。DashPass 福利持續至目前計費週期結束。"
+      }
+    ],
+    "alternatives": [
+      { "description": "每月 $9.99 美元 — Uber Eats 免費外送 + Uber 乘車" },
+      { "description": "每月 $9.99 美元 — Grubhub 訂單免費外送" }
+    ]
+  },
+  "peacock": {
+    "description": "在不到 3 分鐘內於網頁或透過裝置訂閱設定取消 Peacock Premium。",
+    "difficultyReason": "Peacock 的取消流程直接，挽留阻礙最少。",
+    "refundPolicy": "不提供退款。可繼續使用至計費週期結束。",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "前往 peacocktv.com 並登入。" },
+          { "instruction": "點擊個人頭像 →「帳號」。" },
+          { "instruction": "在「方案」下，點擊「變更或取消方案」。" },
+          { "instruction": "點擊「取消方案」。" },
+          { "instruction": "選擇原因 → 點擊「繼續」。", "note": "您的 Peacock Premium 存取權可繼續至計費日期。" },
+          { "instruction": "確認取消。" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "開啟設定 → 點擊您的名字 → 訂閱項目。" },
+          { "instruction": "找到 Peacock → 點擊它。" },
+          { "instruction": "點擊「取消訂閱」→ 確認。" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "開啟 Google Play 商店 → 個人資料 → 付款與訂閱 → 訂閱項目。" },
+          { "instruction": "找到 Peacock → 點擊「取消訂閱」→ 確認。" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我透過電視供應商訂閱 — 如何取消？",
+        "answer": "若 Peacock 與您的有線或網路方案綑綁，必須透過您的電視/網路供應商取消，而非直接透過 Peacock。"
+      },
+      {
+        "question": "我使用免費方案 — 需要取消嗎？",
+        "answer": "不需要。Peacock 免費方案沒有訂閱需要取消。只有 Premium 和 Premium Plus 需要取消。"
+      }
+    ],
+    "alternatives": [
+      { "description": "每月 $7.99 美元 — CBS、MTV、Nickelodeon" },
+      { "description": "每月 $9.99 美元 — HBO 內容" }
+    ]
+  },
+  "audible": {
+    "description": "取消 Audible 而不失去點數或已購買的有聲書。取消時機非常重要。",
+    "difficultyReason": "Audible 使用多個挽留畫面，提供暫停和折扣選項，但最終仍可取消。",
+    "refundPolicy": "取消時未使用的點數將消失。已購買的有聲書永久歸您所有。",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "前往 audible.com 並登入。" },
+          { "instruction": "將滑鼠懸停在您的名字上 → 點擊「帳號詳細資料」。" },
+          { "instruction": "點擊左側側欄或「會員資格詳細資料」下的「取消會員資格」。" },
+          { "instruction": "Audible 將顯示暫停會員資格選項 — 若要取消，請點擊「繼續取消」。", "note": "取消前請先使用您的點數 — 會員資格結束時點數將消失。" },
+          { "instruction": "選擇原因 → 點擊「取消會員資格」。" },
+          { "instruction": "您將收到確認電子郵件。" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "若透過 App Store 訂閱：設定 → Apple ID → 訂閱項目 → Audible → 取消。" },
+          { "instruction": "若直接向 Amazon/Audible 訂閱：請使用上方的網站步驟。" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "若透過 Google Play 訂閱：Play 商店 → 訂閱項目 → Audible → 取消。" },
+          { "instruction": "若直接訂閱：請使用上方的網站步驟。" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "取消時我的點數會怎樣？",
+        "answer": "取消時任何未使用的點數將消失。取消前請先使用它們 — 您可以用點數購買有聲書，即使取消後也可永久保留。"
+      },
+      {
+        "question": "我購買的有聲書會消失嗎？",
+        "answer": "不會。您用點數購買或直接購入的有聲書永久歸您所有。即使沒有會員資格，您仍可透過 Audible 應用程式存取它們。"
+      },
+      {
+        "question": "我可以暫停而不是取消嗎？",
+        "answer": "可以。Audible 允許暫停 1 至 3 個月。暫停期間不會扣款，但也不會獲得點數。可在取消流程中找到此選項。"
+      }
+    ],
+    "alternatives": [
+      { "description": "每月 $11.99 美元 — 電子書 + 部分有聲書" },
+      { "description": "每月 $11.99 美元 — 有聲書、電子書、文件" }
+    ]
+  },
+  "fabletics": {
+    "description": "取消 Fabletics VIP 會員資格 — 需要電話或聊天。請先避開會員點數陷阱。",
+    "difficultyReason": "Fabletics 需要透過電話或即時聊天取消（不提供線上自助服務），使用積極的挽留策略，並且若您忘記在每月 5 日前跳過，將自動扣取 $59.95 美元。",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "登入 fabletics.com，取消前先使用任何累積的點數。" },
+          { "instruction": "點擊「會員點數」查看您的餘額。", "note": "取消後點數將消失 — 請先使用它們。" },
+          { "instruction": "在 fabletics.com 開啟即時聊天或致電 1-844-322-5384。" },
+          { "instruction": "告知客服人員您要取消 VIP 會員資格。" },
+          { "instruction": "拒絕所有挽留優惠（折扣、暫停、點數優惠）。" },
+          { "instruction": "確認取消並索取確認編號或電子郵件。" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Fabletics 不支援透過 iOS 應用程式或 App Store 取消。" },
+          { "instruction": "請使用電話（1-844-322-5384）或在 fabletics.com 使用即時聊天。" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Fabletics 不支援透過 Android 應用程式或 Play 商店取消。" },
+          { "instruction": "請使用電話或即時聊天 — 請參閱上方的網頁步驟。" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我被扣了 $59.95 美元 — 可以退款嗎？",
+        "answer": "若您不希望被扣款，請立即聯繫 Fabletics 客服。他們可能會發放點數，但現金退款很少見。若您未在 5 日前跳過當月，就會發生此扣款。"
+      },
+      {
+        "question": "什麼是「跳過本月」選項？",
+        "answer": "每個月您必須在 5 日前登入並點擊「跳過本月」，以避免被扣款。這是一種刻意的黑暗模式 — 請設定重複的行事曆提醒。"
+      },
+      {
+        "question": "我可以不打電話就在線上取消嗎？",
+        "answer": "Fabletics 新增了即時聊天選項。聊天功能在 fabletics.com 上提供，通常比打電話更快。"
+      }
+    ]
+  },
+  "experian": {
+    "description": "取消 Experian CreditWorks 或 IdentityWorks 訂閱。需要電話或聊天 — 不提供線上自助取消。",
+    "difficultyReason": "Experian 不提供線上自助取消服務。您必須致電或聊天，客服人員會使用挽留策略。",
+    "refundPolicy": "某些情況下可獲得按比例計算的退款。在計費週期內聯繫客服可獲得最佳結果。",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "登入 experian.com 或前往您的帳號設定。" },
+          { "instruction": "若沒有取消按鈕，請透過 experian.com/consumer/help.html 開啟即時聊天。", "note": "Experian 經常隱藏取消選項 — 即時聊天通常是最快的途徑。" },
+          { "instruction": "告知客服人員您要取消訂閱。" },
+          { "instruction": "拒絕任何挽留優惠（信用監控暫停、折扣）。" },
+          { "instruction": "索取包含取消日期的確認電子郵件。" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "若透過 App Store 訂閱：設定 → Apple ID → 訂閱項目 → Experian → 取消。" },
+          { "instruction": "若直接向 Experian 訂閱：請使用電話（1-479-343-6239）或即時聊天。" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "若透過 Google Play 訂閱：Play 商店 → 訂閱項目 → Experian → 取消。" },
+          { "instruction": "若直接訂閱：請使用即時聊天或致電 Experian 客服。" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我在網站上找不到取消按鈕。",
+        "answer": "Experian 刻意使自助取消難以找到。直接前往 experian.com/consumer/cancel.html 或使用即時聊天選項。致電 1-479-343-6239 也是可靠的方式。"
+      },
+      {
+        "question": "取消會影響我的信用評分嗎？",
+        "answer": "不會。取消您的 Experian 訂閱不會以任何方式影響您的信用評分。"
+      },
+      {
+        "question": "我的信用監控會怎樣？",
+        "answer": "信用監控提醒將停止。您的信用報告資料不會被刪除 — 您仍可在 annualcreditreport.com 免費獲取年度報告。"
+      }
+    ],
+    "alternatives": [
+      { "description": "免費信用監控 — 無需訂閱" },
+      { "description": "每月 $8.99 美元 — 身份盜竊保護" }
+    ]
+  },
+  "crunch-fitness": {
+    "description": "親自前往、以掛號信件，或有時可線上取消您的 Crunch Fitness 會員資格。年度合約有提前終止費。",
+    "difficultyReason": "Crunch 要求大多數會員親自或以掛號信件取消。年度合約的提前終止費最高可達 $175 美元。",
+    "refundPolicy": "不提供退款。年度合約會員在合約期滿前取消須支付提前終止費。",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "登入 crunch.com，確認您的健身房是否提供線上取消功能（罕見 — 大多數不提供）。" },
+          { "instruction": "若無法線上取消，請攜帶附照片的身份證件親自前往您的主要健身房。" },
+          { "instruction": "要求與會員顧問交談並申請取消。", "note": "請攜帶會員編號或註冊時使用的電子郵件。" },
+          { "instruction": "或者，以掛號信件寄送至您的主要健身房，內含：全名、會員編號、地址和簽名。" },
+          { "instruction": "保留掛號信收據作為證明。取消通常在收到後 30 天生效。" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Crunch 不支援透過 iOS 應用程式取消。" },
+          { "instruction": "請親自前往主要健身房或以掛號信件取消。" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Crunch 不支援透過 Android 應用程式取消。" },
+          { "instruction": "請親自前往或以掛號信件取消 — 請參閱網頁步驟。" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我有年度合約 — 提前終止費是多少？",
+        "answer": "提前終止費通常為 $175 美元或合約剩餘餘額（以較低者為準）。月付制會員可隨時在提前 30 天通知後取消。"
+      },
+      {
+        "question": "我搬家了 — 可以取消嗎？",
+        "answer": "可以 — 搬遷是可接受的理由。您需要提供新地址的證明，顯示您距離任何 Crunch 健身房超過 25 英里。"
+      },
+      {
+        "question": "我可以凍結會員資格而不是取消嗎？",
+        "answer": "可以。大多數 Crunch 健身房允許以小額費用（每月 $10–$15 美元）凍結 1 至 3 個月。請在您的主要健身房詢問。"
+      }
+    ],
+    "alternatives": [
+      { "description": "每月 $10–$25 美元 — 簡單的線上取消" },
+      { "description": "每月 $30–$50 美元 — 24/7 全天候使用" }
+    ]
+  },
+  "xfinity": {
+    "description": "取消 Xfinity 網路、有線電視或串流服務而不支付提前終止費。需要致電或親赴門市。",
+    "difficultyReason": "Xfinity 以漫長的等待時間、積極的挽留策略和複雜的計費而聞名。提前終止費可達 $110 美元以上。",
+    "refundPolicy": "取消後未使用天數可獲按比例退款。合約期間取消須支付提前終止費。",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "前往 xfinity.com/support 並登入。", "note": "請先確認您的合約到期日 — 前往「我的帳號」→「服務協議」查看是否需支付提前終止費。" },
+          { "instruction": "使用 Xfinity 助理聊天並輸入「取消服務」— 有時無需等待即可完成。" },
+          { "instruction": "或致電 1-800-934-6489。預計等待時間 15 至 45 分鐘。" },
+          { "instruction": "告知客服人員您要取消，而非降級方案。拒絕所有挽留優惠。" },
+          { "instruction": "索取取消確認編號和電子郵件。" },
+          { "instruction": "在 10 天內歸還任何租借設備，以避免設備費用。" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "開啟 Xfinity 應用程式 → 點擊帳號圖示。" },
+          { "instruction": "點擊「管理我的方案」— 完整取消需要致電或前往門市。" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "開啟 Xfinity 應用程式 → 帳號圖示 →「管理我的方案」。" },
+          { "instruction": "如需完整取消，請致電或前往門市。" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "提前終止費是多少？",
+        "answer": "若您有 1 年或 2 年合約，Xfinity 最高收取 $110 美元的提前終止費。月付制客戶無提前終止費。"
+      },
+      {
+        "question": "我必須歸還設備嗎？",
+        "answer": "是的 — 未歸還設備將被收取每台 $110–$350 美元的費用。請在 10 天內歸還。"
+      },
+      {
+        "question": "我可以不打電話就在線上取消嗎？",
+        "answer": "部分帳號可使用 Xfinity 助理聊天取消。其他帳號需要致電或親赴門市。"
+      }
+    ],
+    "alternatives": [
+      { "description": "光纖網路 — 具競爭力的定價" },
+      { "description": "無合約，無流量限制" }
+    ]
+  },
+  "fubotv": {
+    "description": "在不到 2 分鐘內於網頁上取消 FuboTV。沒有取消費用 — 可繼續使用至計費週期結束。",
+    "difficultyReason": "FuboTV 提供簡單的線上取消，沒有提前終止費。",
+    "refundPolicy": "不提供退款。可繼續使用至計費週期結束。",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "前往 fubo.tv 並登入。" },
+          { "instruction": "點擊個人頭像（右上角）→「我的帳號」。" },
+          { "instruction": "點擊「管理訂閱」。" },
+          { "instruction": "點擊「取消訂閱」。", "note": "FuboTV 可能顯示暫停選項 — 只有在要完全取消時才點擊「取消」。" },
+          { "instruction": "選擇原因 → 確認取消。" },
+          { "instruction": "您將收到確認電子郵件。" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "開啟設定 → 點擊您的名字 → 訂閱項目。" },
+          { "instruction": "找到 FuboTV → 點擊它。" },
+          { "instruction": "點擊「取消訂閱」→ 確認。" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "開啟 Google Play 商店 → 個人資料 → 付款與訂閱 → 訂閱項目。" },
+          { "instruction": "找到 FuboTV → 點擊「取消訂閱」→ 確認。" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我透過 Roku 或 Amazon 訂閱 — 如何取消？",
+        "answer": "請透過您使用的平台取消：Roku（設定 → 訂閱 → FuboTV）、Amazon（amazon.com/mysubscriptions），或 Apple/Google 裝置的訂閱設定。"
+      },
+      {
+        "question": "FuboTV 有提供免費試用嗎？",
+        "answer": "免費試用偶爾會提供。若在試用期間取消，請在試用結束前至少 24 小時取消，以避免被扣款。"
+      }
+    ],
+    "alternatives": [
+      { "description": "每月 $72.99 美元 — 100 多個頻道，無限 DVR" },
+      { "description": "每月從 $40 美元起 — 彈性頻道套餐" },
+      { "description": "每月從 $64.99 美元起 — 專注於即時體育" }
+    ]
+  },
+  "uber-eats": {
+    "description": "透過應用程式或網站在不到 2 分鐘內取消 Uber One（Uber Eats + Uber 乘車會員資格）。",
+    "difficultyReason": "透過 Uber 應用程式取消非常直接，沒有任何挽留阻礙。",
+    "refundPolicy": "不提供退款。Uber One 福利持續至計費週期結束。",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "前往 uber.com 並登入。" },
+          { "instruction": "點擊個人頭像 → Uber One。" },
+          { "instruction": "點擊「管理會員資格」。" },
+          { "instruction": "點擊「取消會員資格」。", "note": "您的 Uber One 福利持續至計費週期結束。" },
+          { "instruction": "確認取消。" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "開啟 Uber 或 Uber Eats 應用程式 → 點擊個人頭像。" },
+          { "instruction": "點擊 Uber One →「管理會員資格」。" },
+          { "instruction": "點擊「取消會員資格」→ 確認。" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "開啟 Uber 或 Uber Eats 應用程式 → 個人頭像。" },
+          { "instruction": "點擊 Uber One →「管理會員資格」→「取消會員資格」。" },
+          { "instruction": "確認取消。" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "取消 Uber One 會同時取消 Uber 乘車和 Uber Eats 的福利嗎？",
+        "answer": "是的。Uber One 是一個涵蓋 Uber 乘車折扣和 Uber Eats 外送福利的單一會員資格。取消後兩者都將移除。"
+      },
+      {
+        "question": "取消後我仍被扣款。",
+        "answer": "若您在續約日期前取消但仍被扣款，請透過應用程式聯繫 Uber 客服（說明 → 帳號 → Uber One）申請退款。"
+      }
+    ],
+    "alternatives": [
+      { "description": "每月 $9.99 美元 — DoorDash 免費外送" },
+      { "description": "每月 $9.99 美元 — Grubhub 免費外送" }
+    ]
+  },
+  "instacart": {
+    "description": "透過應用程式或網站在不到 2 分鐘內取消 Instacart+。",
+    "difficultyReason": "Instacart+ 透過應用程式取消非常直接，挽留阻礙最少。",
+    "refundPolicy": "不提供退款。福利持續至計費週期結束。年度訂閱者若未大量使用，可能獲得按比例計算的退款。",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "前往 instacart.com 並登入。" },
+          { "instruction": "點擊個人頭像 → Instacart+。" },
+          { "instruction": "點擊「管理您的會員資格」。" },
+          { "instruction": "點擊「取消會員資格」。", "note": "若您有剩餘月份的年度方案，Instacart 可能提供按比例計算的退款。" },
+          { "instruction": "確認取消。" }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "開啟 Instacart 應用程式 → 點擊個人頭像。" },
+          { "instruction": "點擊 Instacart+ →「管理會員資格」。" },
+          { "instruction": "點擊「取消會員資格」→ 確認。" }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "開啟 Instacart 應用程式 → 個人頭像 → Instacart+。" },
+          { "instruction": "點擊「管理會員資格」→「取消會員資格」→ 確認。" }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我可以退還年度 Instacart+ 方案的費用嗎？",
+        "answer": "可以，若您沒有大量使用會員資格。Instacart 可能為未使用部分提供按比例計算的退款。若取消時未顯示此選項，請聯繫客服。"
+      },
+      {
+        "question": "取消後我的待處理訂單會怎樣？",
+        "answer": "取消不影響進行中的訂單。取消後新下的訂單將不適用外送費豁免。"
+      }
+    ],
+    "alternatives": [
+      { "description": "Prime 免費外送 — 生鮮雜貨配送" },
+      { "description": "每年 $99 美元 — Target 及其他零售商" }
+    ]
   }
 }

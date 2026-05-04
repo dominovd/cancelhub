@@ -524,5 +524,453 @@
         "answer": "Üçüncü bir taraf (App Store, Google Play veya Amazon gibi bir satıcı) üzerinden abone olduysanız o platform üzerinden iptal etmeniz gerekir."
       }
     ]
+  },
+  "doordash": {
+    "description": "DashPass'i 2 dakikadan kısa sürede iptal edin. İptal ücreti yok — erişim fatura dönemi sonuna kadar devam eder.",
+    "difficultyReason": "DoorDash, retensiyon ekranları olmaksızın uygulama veya web sitesi üzerinden kolay iptal imkânı sunar.",
+    "refundPolicy": "İade yoktur. DashPass avantajları fatura dönemi sonuna kadar devam eder.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "doordash.com adresine gidin ve oturum açın." },
+          { "instruction": "Profil simgenize → DashPass Al'a tıklayın veya doordash.com/account'a gidin." },
+          { "instruction": "DashPass'e gidin → DashPass'i Yönet'e tıklayın." },
+          { "instruction": "DashPass'i İptal Et'e tıklayın." },
+          { "instruction": "Onay istemlerini izleyin → onaylamak için DashPass'i İptal Et'e tıklayın.", "note": "Fatura döneminin sonuna kadar DashPass avantajlarınızdan yararlanmaya devam edersiniz." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "DoorDash uygulamasını açın → profil simgenize dokunun (sağ alt)." },
+          { "instruction": "DashPass Al veya DashPass'i Yönet'e dokunun." },
+          { "instruction": "DashPass'i İptal Et'e dokunun → onaylayın." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "DoorDash uygulamasını açın → profil simgenize dokunun." },
+          { "instruction": "DashPass'i Yönet'e dokunun." },
+          { "instruction": "DashPass'i İptal Et'e dokunun → onay istemlerini izleyin." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Hesabımda DashPass seçeneğini bulamıyorum.",
+        "answer": "Abonelik için kullanılan hesapla giriş yaptığınızdan emin olun. Chase kredi kartı avantajları aracılığıyla abone olduysanız, doğrudan DoorDash üzerinden değil Chase üzerinden iptal etmeniz gerekir."
+      },
+      {
+        "question": "DashPass'i ayın ortasında kaybeder miyim?",
+        "answer": "Hayır. DashPass avantajları mevcut fatura döneminizin sonuna kadar devam eder."
+      }
+    ],
+    "alternatives": [
+      { "description": "Ayda $9,99 — Uber Eats + Uber seyahatlerinde ücretsiz teslimat" },
+      { "description": "Ayda $9,99 — Grubhub siparişlerinde ücretsiz teslimat" }
+    ]
+  },
+  "peacock": {
+    "description": "Peacock Premium'u web üzerinden veya cihazınızın abonelik ayarları aracılığıyla 3 dakikadan kısa sürede iptal edin.",
+    "difficultyReason": "Peacock'ın iptal akışı, minimum retensiyon sürtünmesiyle oldukça kolaydır.",
+    "refundPolicy": "İade yoktur. Erişim fatura dönemi sonuna kadar devam eder.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "peacocktv.com adresine gidin ve oturum açın." },
+          { "instruction": "Profil simgenize → Hesap'a tıklayın." },
+          { "instruction": "Plan bölümünde Planı değiştir veya iptal et'e tıklayın." },
+          { "instruction": "Planı iptal et'e tıklayın." },
+          { "instruction": "Bir neden seçin → Devam'a tıklayın.", "note": "Peacock Premium erişiminiz fatura tarihine kadar devam eder." },
+          { "instruction": "İptali onaylayın." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Ayarlar'ı açın → adınıza → Abonelikler'e dokunun." },
+          { "instruction": "Peacock'ı bulun → üzerine dokunun." },
+          { "instruction": "Aboneliği İptal Et'e → onayla'ya dokunun." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Google Play Store'u açın → profil → Ödemeler ve abonelikler → Abonelikler." },
+          { "instruction": "Peacock'ı bulun → Aboneliği iptal et'e dokunun → onaylayın." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "TV sağlayıcım aracılığıyla abone oldum — nasıl iptal ederim?",
+        "answer": "Peacock kablo veya internet planınıza dahilse, doğrudan Peacock üzerinden değil TV/internet sağlayıcınız aracılığıyla iptal etmeniz gerekir."
+      },
+      {
+        "question": "Ücretsiz katmandayım — iptal etmem gerekiyor mu?",
+        "answer": "Hayır. Ücretsiz Peacock katmanında iptal edilecek bir abonelik yoktur. Yalnızca Premium ve Premium Plus için iptal gerekmektedir."
+      }
+    ],
+    "alternatives": [
+      { "description": "Ayda $7,99 — CBS, MTV, Nickelodeon" },
+      { "description": "Ayda $9,99 — HBO içerikleri" }
+    ]
+  },
+  "audible": {
+    "description": "Audible'ı kredilerinizi veya satın aldığınız sesli kitapları kaybetmeden iptal edin. İptali zamanlamak önemlidir.",
+    "difficultyReason": "Audible birden fazla retensiyon ekranı kullanır, duraklama ve indirimler sunar ancak iptal sonuçta mümkündür.",
+    "refundPolicy": "Kullanılmayan krediler iptal sırasında kaybolur. Satın alınan sesli kitaplar sonsuza kadar sizindir.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "audible.com adresine gidin ve oturum açın." },
+          { "instruction": "Adınızın üzerine gelin → Hesap Ayrıntıları'na tıklayın." },
+          { "instruction": "Sol kenar çubuğunda veya Üyelik Ayrıntıları bölümünde Üyeliği İptal Et'e tıklayın." },
+          { "instruction": "Audible, üyeliği duraklatma seçeneği gösterecektir — iptal etmek istiyorsanız İptal İçin Devam Et'e tıklayın.", "note": "İptal etmeden önce kredilerinizi kullanın — üyeliğiniz sona erdiğinde krediler de sona erer." },
+          { "instruction": "Bir neden seçin → Üyeliği iptal et'e tıklayın." },
+          { "instruction": "Bir onay e-postası alacaksınız." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "App Store üzerinden abone olduysanız: Ayarlar → Apple ID → Abonelikler → Audible → İptal." },
+          { "instruction": "Doğrudan abone olduysanız: yukarıdaki web adımlarını kullanın." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Google Play üzerinden abone olduysanız: Play Store → Abonelikler → Audible → İptal." },
+          { "instruction": "Doğrudan abone olduysanız: yukarıdaki web adımlarını kullanın." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "İptal ettiğimde kredilerime ne olur?",
+        "answer": "Kullanılmayan krediler iptal ettiğinizde kaybolur. İptal etmeden önce kullanın — sesli kitap satın alabilir ve sonsuza kadar saklayabilirsiniz."
+      },
+      {
+        "question": "Satın aldığım sesli kitapları kaybeder miyim?",
+        "answer": "Hayır. Satın aldığınız sesli kitaplar kalıcı olarak sizindir; üyelik olmadan bile Audible uygulaması aracılığıyla erişilebilir."
+      },
+      {
+        "question": "İptal etmek yerine duraklatabilir miyim?",
+        "answer": "Evet. Audible, ücret almaksızın 1–3 ay duraklatmanıza izin verir. Seçeneği iptal akışı sırasında bulabilirsiniz."
+      }
+    ],
+    "alternatives": [
+      { "description": "Ayda $11,99 — e-kitaplar + bazı sesli kitaplar" },
+      { "description": "Ayda $11,99 — sesli kitaplar, e-kitaplar, belgeler" }
+    ]
+  },
+  "fabletics": {
+    "description": "Fabletics VIP üyeliğini iptal edin — telefon araması veya sohbet gerektirir. Önce üye kredisi tuzağından kaçının.",
+    "difficultyReason": "Fabletics, telefon veya canlı sohbet yoluyla iptal gerektirmektedir (çevrimiçi self servis yok), agresif retensiyon taktikleri kullanmaktadır ve ayın 5'ine kadar atlamayı unutursanız otomatik olarak $59,95 tahsil etmektedir.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "fabletics.com'da oturum açın ve iptal etmeden önce birikmiş kredilerinizi kullanın." },
+          { "instruction": "Bakiyenizi kontrol etmek için Üye Kredileri'ne tıklayın.", "note": "Krediler iptal sonrasında sona erer — önce kullanın." },
+          { "instruction": "fabletics.com'da canlı sohbet açın veya 1-844-322-5384'ü arayın." },
+          { "instruction": "Temsilciye VIP üyeliğinizi iptal etmek istediğinizi söyleyin." },
+          { "instruction": "Tüm retensiyon tekliflerini (indirimler, duraklatma, kredi teklifleri) reddedin." },
+          { "instruction": "İptali onaylayın ve bir onay numarası veya e-posta isteyin." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Fabletics, iOS uygulaması veya App Store aracılığıyla iptal işlemini desteklememektedir." },
+          { "instruction": "Telefon (1-844-322-5384) veya fabletics.com'da canlı sohbet kullanın." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Fabletics, Android uygulaması veya Play Store aracılığıyla iptal işlemini desteklememektedir." },
+          { "instruction": "Telefon veya canlı sohbet kullanın — yukarıdaki web adımlarına bakın." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "$59,95 tahsil edildi — iade alabilir miyim?",
+        "answer": "Fabletics desteğiyle hemen iletişime geçin. Kredi verebilirler ancak nakit iade nadirdir. Ücret, ayın 5'ine kadar ayı atlamazsanız uygulanır."
+      },
+      {
+        "question": "\"Ayı atla\" seçeneği nedir?",
+        "answer": "Her ay, ücretlendirilmemek için 5'inden önce giriş yapın ve Bu ayı atla'ya tıklayın. Yinelenen bir takvim hatırlatıcısı kurun."
+      },
+      {
+        "question": "Aramadan çevrimiçi iptal edebilir miyim?",
+        "answer": "Fabletics, fabletics.com'a canlı sohbet seçeneği ekledi — genellikle aramaktan daha hızlı."
+      }
+    ]
+  },
+  "experian": {
+    "description": "Experian CreditWorks veya IdentityWorks aboneliğini iptal edin. Telefon veya sohbet gerektirir — çevrimiçi self servis iptal yok.",
+    "difficultyReason": "Experian, çevrimiçi self servis iptal sunmamaktadır. Telefon etmeniz veya sohbet etmeniz gerekir ve temsilciler retensiyon taktikleri kullanır.",
+    "refundPolicy": "Bazı durumlarda orantılı iade mevcuttur. En iyi sonuçlar için fatura döngüsü içinde destekle iletişime geçin.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "experian.com'da oturum açın veya hesap ayarlarınıza gidin." },
+          { "instruction": "İptal düğmesi yoksa experian.com/consumer/help.html üzerinden canlı sohbet açın.", "note": "Experian genellikle iptal seçeneğini gizler — canlı sohbet genellikle en hızlı yoldur." },
+          { "instruction": "Temsilciye aboneliğinizi iptal etmek istediğinizi söyleyin." },
+          { "instruction": "Retensiyon tekliflerini reddedin." },
+          { "instruction": "İptal tarihinizi içeren bir onay e-postası isteyin." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "App Store üzerinden abone olduysanız: Ayarlar → Apple ID → Abonelikler → Experian → İptal." },
+          { "instruction": "Doğrudan abone olduysanız: telefon veya canlı sohbet kullanın." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Google Play üzerinden abone olduysanız: Play Store → Abonelikler → Experian → İptal." },
+          { "instruction": "Doğrudan abone olduysanız: canlı sohbet kullanın veya desteği arayın." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Web sitesinde iptal düğmesi bulamıyorum.",
+        "answer": "Experian kasıtlı olarak self servis iptali zorlaştırmaktadır. Canlı sohbet kullanın veya 1-479-343-6239'u arayın."
+      },
+      {
+        "question": "İptal etmek kredi puanımı etkiler mi?",
+        "answer": "Hayır. Experian aboneliğinizi iptal etmek kredi puanınızı etkilemez."
+      },
+      {
+        "question": "Kredi izlememe ne olur?",
+        "answer": "Kredi izleme uyarıları durur. Yine de annualcreditreport.com'da ücretsiz yıllık raporlar alabilirsiniz."
+      }
+    ],
+    "alternatives": [
+      { "description": "Ücretsiz kredi izleme — abonelik gerekmez" },
+      { "description": "Ayda $8,99 — kimlik hırsızlığı koruması" }
+    ]
+  },
+  "crunch-fitness": {
+    "description": "Crunch Fitness üyeliğinizi şahsen, taahhütlü posta yoluyla veya bazen çevrimiçi olarak iptal edin. Yıllık sözleşmelerde erken fesih ücreti bulunur.",
+    "difficultyReason": "Crunch, üyelerin çoğu için şahsen veya taahhütlü posta yoluyla iptal gerektirmektedir. Yıllık sözleşmelerde 175 dolara kadar erken fesih ücreti uygulanmaktadır.",
+    "refundPolicy": "İade yoktur. Yıllık sözleşmeli üyeler, sözleşme sona ermeden iptal ederlerse erken fesih ücreti ödemekle yükümlüdür.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "crunch.com'da oturum açın ve konumunuzun çevrimiçi iptal sunup sunmadığını kontrol edin (nadir)." },
+          { "instruction": "Çevrimiçi mevcut değilse, fotoğraflı kimlikle ana kulübünüze şahsen gidin." },
+          { "instruction": "Üyelik danışmanıyla görüşmek isteyin ve iptal talebinde bulunun.", "note": "Üye kimliğinizi veya kayıt sırasında kullanılan e-postayı yanınızda getirin." },
+          { "instruction": "Alternatif olarak, ana kulübünüze tam adınız, üye kimliğiniz, adresiniz ve imzanızla taahhütlü mektup gönderin." },
+          { "instruction": "Taahhütlü posta makbuzunu kanıt olarak saklayın. İptal, teslim alınmasından 30 gün sonra geçerli olur." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Crunch, iOS uygulaması aracılığıyla iptali desteklememektedir." },
+          { "instruction": "Şahsen veya taahhütlü posta yoluyla iptal edin." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Crunch, Android uygulaması aracılığıyla iptali desteklememektedir." },
+          { "instruction": "Şahsen veya taahhütlü posta yoluyla iptal edin." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Yıllık sözleşmedeyim — erken fesih ücreti nedir?",
+        "answer": "ETF genellikle $175 veya sözleşmenizin kalan bakiyesidir (hangisi düşükse). Ay-ay üyeler 30 günlük bildirimle iptal eder."
+      },
+      {
+        "question": "Taşındıysam iptal edebilir miyim?",
+        "answer": "Evet — herhangi bir Crunch konumundan 25 milden fazla uzakta yaşadığınızı gösteren yeni adresinizin kanıtını sunun."
+      },
+      {
+        "question": "Bunun yerine üyeliğimi dondurabilir miyim?",
+        "answer": "Evet. Çoğu konum, $10–$15/ay karşılığında 1–3 aylık dondurma işlemine izin vermektedir. Ana kulübünüzde sorun."
+      }
+    ],
+    "alternatives": [
+      { "description": "$10–$25/ay — kolay çevrimiçi iptal" },
+      { "description": "$30–$50/ay — 7/24 erişim" }
+    ]
+  },
+  "xfinity": {
+    "description": "Xfinity internet, kablo veya yayın hizmetini erken fesih ücreti ödemeden iptal edin. Telefon araması veya mağaza ziyareti gerektirir.",
+    "difficultyReason": "Xfinity, uzun bekleme süreleri, agresif retensiyon taktikleri ve karmaşık faturalandırma ile ünlüdür. Erken fesih ücretleri $110+'ya ulaşabilir.",
+    "refundPolicy": "İptal sonrasında kullanılmayan günler için orantılı iade. Sözleşme kapsamındaysa erken fesih ücreti uygulanır.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "xfinity.com/support adresine gidin ve oturum açın.", "note": "Önce Hesabım → Hizmet Sözleşmesi bölümünden sözleşme bitiş tarihinizi kontrol edin." },
+          { "instruction": "Xfinity Assistant sohbetini kullanın ve Hizmeti iptal et yazın." },
+          { "instruction": "Alternatif olarak 1-800-934-6489'u arayın. 15–45 dakikalık bekleme süresi bekleyin." },
+          { "instruction": "Temsilciye iptal etmek istediğinizi söyleyin. Tüm retensiyon tekliflerini reddedin." },
+          { "instruction": "İptal onay numarası ve e-posta isteyin." },
+          { "instruction": "Ekipman ücretlerinden kaçınmak için kiralık ekipmanı 10 gün içinde iade edin." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Xfinity uygulamasını açın → hesap simgesi." },
+          { "instruction": "Planımı yönet'e dokunun — tam iptal için telefon araması veya mağaza ziyareti gerekir." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Xfinity uygulamasını açın → Planımı yönet." },
+          { "instruction": "Tam iptal için arayın veya mağazayı ziyaret edin." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Erken fesih ücreti nedir?",
+        "answer": "1 veya 2 yıllık sözleşme kapsamında $110'a kadar. Sözleşme sonuna yaklaştıkça aylık olarak azalır. Ay-ay: ETF yok."
+      },
+      {
+        "question": "Ekipmanı iade etmek zorunda mıyım?",
+        "answer": "Evet — iade edilmeyen ekipman, cihaz başına $110–$350 ücrete yol açar. 10 gün içinde iade edin."
+      },
+      {
+        "question": "Aramadan çevrimiçi iptal edebilir miyim?",
+        "answer": "Bazı hesaplar Xfinity Assistant sohbetini kullanabilir. Diğerleri için telefon araması veya mağaza ziyareti gerekmektedir."
+      }
+    ],
+    "alternatives": [
+      { "description": "Fiber internet — rekabetçi fiyatlandırma" },
+      { "description": "Sözleşme yok, veri kotası yok" }
+    ]
+  },
+  "fubotv": {
+    "description": "FuboTV'yi web üzerinden 2 dakikadan kısa sürede iptal edin. İptal ücreti yok — erişim fatura dönemi sonuna kadar devam eder.",
+    "difficultyReason": "FuboTV, erken fesih ücreti olmaksızın basit bir çevrimiçi iptal imkânı sunar.",
+    "refundPolicy": "İade yoktur. Erişim fatura dönemi sonuna kadar devam eder.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "fubo.tv adresine gidin ve oturum açın." },
+          { "instruction": "Profil simgenize → Hesabım'a tıklayın." },
+          { "instruction": "Aboneliği Yönet'e tıklayın." },
+          { "instruction": "Aboneliği İptal Et'e tıklayın.", "note": "FuboTV bir duraklatma seçeneği gösterebilir — yalnızca tamamen iptal etmek istiyorsanız İptal'e tıklayın." },
+          { "instruction": "Bir neden seçin → iptali onaylayın." },
+          { "instruction": "Bir onay e-postası alacaksınız." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Ayarlar'ı açın → adınıza → Abonelikler'e dokunun." },
+          { "instruction": "FuboTV'yi bulun → üzerine dokunun." },
+          { "instruction": "Aboneliği İptal Et'e → Onayla'ya dokunun." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Google Play Store'u açın → profil → Ödemeler ve abonelikler → Abonelikler." },
+          { "instruction": "FuboTV'yi bulun → Aboneliği iptal et'e dokunun → onaylayın." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Roku veya Amazon üzerinden abone oldum — nasıl iptal ederim?",
+        "answer": "Kullandığınız platform üzerinden iptal edin: Roku, Amazon (amazon.com/mysubscriptions) veya Apple/Google cihaz abonelik ayarları."
+      },
+      {
+        "question": "FuboTV ücretsiz deneme sunuyor mu?",
+        "answer": "Bazen. Ücretlendirilmemek için deneme sona ermeden en az 24 saat önce iptal edin."
+      }
+    ],
+    "alternatives": [
+      { "description": "Ayda $72,99 — 100'den fazla kanal, sınırsız DVR" },
+      { "description": "$40/ay'dan — esnek kanal paketleri" },
+      { "description": "$64,99/ay'dan — canlı spor odağı" }
+    ]
+  },
+  "uber-eats": {
+    "description": "Uber One'ı (Uber Eats + Uber seyahatleri üyeliği) uygulama veya web sitesi üzerinden 2 dakikadan kısa sürede iptal edin.",
+    "difficultyReason": "İptal, Uber uygulaması üzerinden retensiyon sürtünmesi olmaksızın oldukça kolaydır.",
+    "refundPolicy": "İade yoktur. Uber One avantajları fatura dönemi sonuna kadar devam eder.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "uber.com adresine gidin ve oturum açın." },
+          { "instruction": "Profil simgenize → Uber One'a tıklayın." },
+          { "instruction": "Üyeliği yönet'e tıklayın." },
+          { "instruction": "Üyeliği iptal et'e tıklayın.", "note": "Uber One avantajlarınız fatura dönemi sona erene kadar devam eder." },
+          { "instruction": "İptali onaylayın." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Uber veya Uber Eats uygulamasını açın → profil simgenize dokunun." },
+          { "instruction": "Uber One → Üyeliği yönet'e dokunun." },
+          { "instruction": "Üyeliği iptal et'e → onayla'ya dokunun." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Uygulamayı açın → profil simgesi." },
+          { "instruction": "Uber One → Üyeliği yönet → Üyeliği iptal et'e dokunun." },
+          { "instruction": "İptali onaylayın." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Uber One'ı iptal etmek hem Uber seyahatleri hem de Uber Eats avantajlarını iptal eder mi?",
+        "answer": "Evet. Uber One her ikisini de kapsar. İptal etmek her iki avantajı da kaldırır."
+      },
+      {
+        "question": "İptal sonrasında ücret alındı.",
+        "answer": "İade için uygulama üzerinden Uber desteğiyle iletişime geçin (Yardım → Hesap → Uber One)."
+      }
+    ],
+    "alternatives": [
+      { "description": "Ayda $9,99 — DoorDash'te ücretsiz teslimat" },
+      { "description": "Ayda $9,99 — Grubhub'da ücretsiz teslimat" }
+    ]
+  },
+  "instacart": {
+    "description": "Instacart+'ı uygulama veya web sitesinde 2 dakikadan kısa sürede iptal edin.",
+    "difficultyReason": "Instacart+ iptali, minimum retensiyon sürtünmesiyle uygulama üzerinden oldukça kolaydır.",
+    "refundPolicy": "İade yoktur. Avantajlar fatura dönemi sonuna kadar devam eder. Yıllık aboneler kullanılmamışsa orantılı iade alabilir.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "instacart.com adresine gidin ve oturum açın." },
+          { "instruction": "Profil simgenize → Instacart+'a tıklayın." },
+          { "instruction": "Üyeliğinizi yönetin'e tıklayın." },
+          { "instruction": "Üyeliği iptal et'e tıklayın.", "note": "Yıllık planınız varsa Instacart orantılı iade teklif edebilir." },
+          { "instruction": "İptali onaylayın." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Instacart uygulamasını açın → profil simgenize dokunun." },
+          { "instruction": "Instacart+ → Üyeliği yönet'e dokunun." },
+          { "instruction": "Üyeliği iptal et'e → onayla'ya dokunun." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Uygulamayı açın → profil simgesi → Instacart+." },
+          { "instruction": "Üyeliği yönet → Üyeliği iptal et → onayla'ya dokunun." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Yıllık Instacart+ planımda iade alabilir miyim?",
+        "answer": "Evet, üyeliği yoğun biçimde kullanmadıysanız. İade seçeneği gösterilmiyorsa destekle iletişime geçin."
+      },
+      {
+        "question": "İptal sonrasında bekleyen siparişlerime ne olur?",
+        "answer": "Aktif siparişler etkilenmez. İptal sonrasında yeni siparişlerde teslimat ücreti muafiyeti geçerli olmaz."
+      }
+    ],
+    "alternatives": [
+      { "description": "Prime ile ücretsiz teslimat — market teslimatı" },
+      { "description": "Yılda $99 — Target + diğer perakendeciler" }
+    ]
   }
 }

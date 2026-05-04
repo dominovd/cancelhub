@@ -838,5 +838,378 @@
         "answer": "Wenn du über einen Drittanbieter abonniert hast (App Store, Google Play oder einen Händler wie Amazon), musst du über diese Plattform kündigen."
       }
     ]
+  },
+  "doordash": {
+    "description": "Kündige DashPass in unter 2 Minuten. Keine Kündigungsgebühr – der Zugang läuft bis zum Ende des Abrechnungszeitraums.",
+    "difficultyReason": "DoorDash ermöglicht eine einfache Kündigung über die App oder Website ohne Haltebildschirme.",
+    "refundPolicy": "Keine Rückerstattungen. Die DashPass-Vorteile laufen bis zum Ende des Abrechnungszeitraums.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {"instruction": "Gehe zu doordash.com und melde dich an."},
+          {"instruction": "Klicke auf dein Profilsymbol → „DashPass erhalten" oder gehe zu doordash.com/account."},
+          {"instruction": "Scrolle zu „DashPass" → klicke auf „DashPass verwalten"."},
+          {"instruction": "Klicke auf „DashPass kündigen"."},
+          {"instruction": "Folge den Bestätigungsaufforderungen → klicke auf „DashPass kündigen", um zu bestätigen.", "note": "Du behältst die DashPass-Vorteile bis zum Ende deines Abrechnungszeitraums."}
+        ]
+      },
+      "ios": {
+        "steps": [
+          {"instruction": "Öffne die DoorDash-App → tippe auf dein Profilsymbol (unten rechts)."},
+          {"instruction": "Tippe auf „DashPass erhalten" oder „DashPass verwalten"."},
+          {"instruction": "Tippe auf „DashPass kündigen" → bestätigen."}
+        ]
+      },
+      "android": {
+        "steps": [
+          {"instruction": "Öffne die DoorDash-App → tippe auf dein Profilsymbol."},
+          {"instruction": "Tippe auf „DashPass verwalten"."},
+          {"instruction": "Tippe auf „DashPass kündigen" → folge den Bestätigungsaufforderungen."}
+        ]
+      }
+    },
+    "commonIssues": [
+      {"question": "Ich kann die DashPass-Option in meinem Konto nicht finden.", "answer": "Stelle sicher, dass du mit demselben Konto angemeldet bist, das du für das Abonnement verwendet hast. Wenn du DashPass über die Chase-Kreditkartenvorteile abonniert hast, musst du über Chase kündigen, nicht direkt über DoorDash."},
+      {"question": "Verliere ich meinen DashPass mitten im Monat?", "answer": "Nein. Die DashPass-Vorteile laufen bis zum Ende deines aktuellen Abrechnungszeitraums."}
+    ],
+    "alternatives": [
+      {"description": "9,99 $/Monat – kostenlose Lieferung bei Uber Eats + Uber-Fahrten"},
+      {"description": "9,99 $/Monat – kostenlose Lieferung bei Grubhub-Bestellungen"}
+    ]
+  },
+  "peacock": {
+    "description": "Kündige Peacock Premium in unter 3 Minuten im Web oder über die Abonnementeinstellungen deines Geräts.",
+    "difficultyReason": "Der Kündigungsablauf bei Peacock ist unkompliziert mit minimaler Haltereibung.",
+    "refundPolicy": "Keine Rückerstattungen. Der Zugang läuft bis zum Ende des Abrechnungszeitraums.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {"instruction": "Gehe zu peacocktv.com und melde dich an."},
+          {"instruction": "Klicke auf dein Profilsymbol → „Konto"."},
+          {"instruction": "Klicke unter „Plan" auf „Plan ändern oder kündigen"."},
+          {"instruction": "Klicke auf „Plan kündigen"."},
+          {"instruction": "Wähle einen Grund → klicke auf „Weiter".", "note": "Dein Peacock-Premium-Zugang läuft bis zum Abrechnungsdatum."},
+          {"instruction": "Bestätige die Kündigung."}
+        ]
+      },
+      "ios": {
+        "steps": [
+          {"instruction": "Öffne Einstellungen → tippe auf deinen Namen → Abonnements."},
+          {"instruction": "Suche „Peacock" → tippe darauf."},
+          {"instruction": "Tippe auf „Abonnement kündigen" → bestätigen."}
+        ]
+      },
+      "android": {
+        "steps": [
+          {"instruction": "Öffne den Google Play Store → Profil → „Zahlungen & Abonnements" → Abonnements."},
+          {"instruction": "Suche „Peacock" → tippe auf „Abonnement kündigen" → bestätigen."}
+        ]
+      }
+    },
+    "commonIssues": [
+      {"question": "Ich habe über meinen TV-Anbieter abonniert – wie kündige ich?", "answer": "Wenn Peacock mit deinem Kabel- oder Internetvertrag gebündelt war, musst du über deinen TV-/Internetanbieter kündigen, nicht direkt über Peacock."},
+      {"question": "Ich habe den kostenlosen Tarif – muss ich kündigen?", "answer": "Nein. Der kostenlose Peacock-Tarif hat kein Abonnement zum Kündigen. Nur Premium und Premium Plus erfordern eine Kündigung."}
+    ],
+    "alternatives": [
+      {"description": "7,99 $/Monat – CBS, MTV, Nickelodeon"},
+      {"description": "9,99 $/Monat – HBO-Inhalte"}
+    ]
+  },
+  "audible": {
+    "description": "Kündige Audible ohne deine Credits oder gekauften Hörbücher zu verlieren. Der Zeitpunkt der Kündigung ist entscheidend.",
+    "difficultyReason": "Audible verwendet mehrere Haltebildschirme und bietet Pausen und Rabatte an, aber die Kündigung ist letztendlich möglich.",
+    "refundPolicy": "Ungenutzte Credits verfallen bei der Kündigung. Gekaufte Hörbücher gehören dir für immer.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {"instruction": "Gehe zu audible.com und melde dich an."},
+          {"instruction": "Zeige auf deinen Namen → klicke auf „Kontodetails"."},
+          {"instruction": "Klicke in der linken Seitenleiste oder unter „Mitgliedschaftsdetails" auf „Mitgliedschaft kündigen"."},
+          {"instruction": "Audible zeigt eine Option zum „Mitgliedschaft pausieren" – klicke auf „Weiter zur Kündigung", wenn du kündigen möchtest.", "note": "Verwende deine Credits vor der Kündigung – sie verfallen, wenn deine Mitgliedschaft endet."},
+          {"instruction": "Wähle einen Grund → klicke auf „Mitgliedschaft kündigen"."},
+          {"instruction": "Du erhältst eine Bestätigungs-E-Mail."}
+        ]
+      },
+      "ios": {
+        "steps": [
+          {"instruction": "Bei App-Store-Abonnement: Einstellungen → Apple-ID → Abonnements → Audible → Kündigen."},
+          {"instruction": "Bei direktem Abonnement bei Amazon/Audible: verwende die obigen Website-Schritte."}
+        ]
+      },
+      "android": {
+        "steps": [
+          {"instruction": "Bei Google-Play-Abonnement: Play Store → Abonnements → Audible → Kündigen."},
+          {"instruction": "Bei direktem Abonnement: verwende die obigen Website-Schritte."}
+        ]
+      }
+    },
+    "commonIssues": [
+      {"question": "Was passiert mit meinen Credits, wenn ich kündige?", "answer": "Alle ungenutzten Credits verfallen, wenn du kündigst. Verwende sie vor der Kündigung – du kannst Hörbücher mit Credits kaufen und sie für immer behalten, auch nach der Kündigung."},
+      {"question": "Verliere ich meine gekauften Hörbücher?", "answer": "Nein. Hörbücher, die du mit Credits oder direkt gekauft hast, gehören dir dauerhaft. Du kannst sie über die Audible-App auch ohne Mitgliedschaft aufrufen."},
+      {"question": "Kann ich pausieren statt zu kündigen?", "answer": "Ja. Audible ermöglicht eine Pause von 1–3 Monaten. Während der Pause wirst du nicht belastet, verdienst aber auch keine Credits. Die Option findest du im Kündigungsablauf."}
+    ],
+    "alternatives": [
+      {"description": "11,99 $/Monat – E-Books + einige Hörbücher"},
+      {"description": "11,99 $/Monat – Hörbücher, E-Books, Dokumente"}
+    ]
+  },
+  "fabletics": {
+    "description": "Kündige die Fabletics-VIP-Mitgliedschaft – erfordert einen Telefonanruf oder Chat. Nutze zuerst dein Mitgliedsguthaben.",
+    "difficultyReason": "Fabletics erfordert die Kündigung per Telefon oder Live-Chat (kein Online-Self-Service), verwendet aggressive Haltetaktiken und berechnet automatisch 59,95 $, wenn du vergisst, bis zum 5. des Monats zu überspringen.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {"instruction": "Melde dich bei fabletics.com an und verwende alle angesammelten Credits vor der Kündigung."},
+          {"instruction": "Klicke auf „Mitglieds-Credits", um deinen Kontostand zu prüfen.", "note": "Credits verfallen nach der Kündigung – nutze sie zuerst."},
+          {"instruction": "Öffne den Live-Chat auf fabletics.com oder ruf an unter 1-844-322-5384."},
+          {"instruction": "Teile dem Agenten mit, dass du deine VIP-Mitgliedschaft kündigen möchtest."},
+          {"instruction": "Lehne alle Halte-Angebote ab (Rabatte, Pausen, Credit-Angebote)."},
+          {"instruction": "Bestätige die Kündigung und bitte um eine Bestätigungsnummer oder E-Mail."}
+        ]
+      },
+      "ios": {
+        "steps": [
+          {"instruction": "Fabletics unterstützt keine Kündigung über die iOS-App oder den App Store."},
+          {"instruction": "Verwende das Telefon (1-844-322-5384) oder den Live-Chat auf fabletics.com."}
+        ]
+      },
+      "android": {
+        "steps": [
+          {"instruction": "Fabletics unterstützt keine Kündigung über die Android-App oder Play Store."},
+          {"instruction": "Verwende das Telefon oder den Live-Chat – siehe Web-Schritte oben."}
+        ]
+      }
+    },
+    "commonIssues": [
+      {"question": "Mir wurden 59,95 $ berechnet – kann ich eine Rückerstattung bekommen?", "answer": "Wenn du belastet wurdest, aber nicht wolltest, kontaktiere sofort den Fabletics-Support. Sie können möglicherweise eine Gutschrift ausstellen, aber Barerstattungen sind selten. Die Belastung erfolgt, wenn du den Monat nicht bis zum 5. überspringst."},
+      {"question": "Was ist die „Monat überspringen"-Option?", "answer": "Jeden Monat musst du dich einloggen und vor dem 5. auf „Diesen Monat überspringen" klicken, um eine Belastung zu vermeiden. Dies ist ein bewusstes Dark Pattern – richte eine wiederkehrende Kalendererinnerung ein."},
+      {"question": "Kann ich online kündigen, ohne anzurufen?", "answer": "Fabletics hat eine Live-Chat-Option hinzugefügt. Der Chat ist auf fabletics.com verfügbar und ist in der Regel schneller als ein Anruf."}
+    ]
+  },
+  "experian": {
+    "description": "Kündige das Experian CreditWorks- oder IdentityWorks-Abonnement. Erfordert Telefon oder Chat – keine Online-Selbstkündigung.",
+    "difficultyReason": "Experian bietet keine Online-Selbstkündigung an. Du musst anrufen oder chatten, und Agenten verwenden Haltetaktiken.",
+    "refundPolicy": "Anteilige Rückerstattungen in manchen Fällen möglich. Kontaktiere den Support innerhalb des Abrechnungszeitraums für beste Ergebnisse.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {"instruction": "Melde dich bei experian.com an oder gehe zu deinen Kontoeinstellungen."},
+          {"instruction": "Wenn kein Kündigungsbutton verfügbar ist (häufig), öffne den Live-Chat über experian.com/consumer/help.html.", "note": "Experian versteckt oft die Kündigungsoption – der Live-Chat ist in der Regel der schnellste Weg."},
+          {"instruction": "Teile dem Agenten mit, dass du dein Abonnement kündigen möchtest."},
+          {"instruction": "Lehne alle Halte-Angebote ab (Pause der Kreditüberwachung, Rabatte)."},
+          {"instruction": "Bitte um eine Bestätigungs-E-Mail mit deinem Kündigungsdatum."}
+        ]
+      },
+      "ios": {
+        "steps": [
+          {"instruction": "Bei App-Store-Abonnement: Einstellungen → Apple-ID → Abonnements → Experian → Kündigen."},
+          {"instruction": "Bei direktem Abonnement bei Experian: verwende das Telefon (1-479-343-6239) oder den Live-Chat."}
+        ]
+      },
+      "android": {
+        "steps": [
+          {"instruction": "Bei Google-Play-Abonnement: Play Store → Abonnements → Experian → Kündigen."},
+          {"instruction": "Bei direktem Abonnement: verwende den Live-Chat oder rufe den Experian-Support an."}
+        ]
+      }
+    },
+    "commonIssues": [
+      {"question": "Ich kann keinen Kündigungsbutton auf der Website finden.", "answer": "Experian macht die Selbstkündigung absichtlich schwer zu finden. Gehe direkt zu experian.com/consumer/cancel.html oder verwende die Live-Chat-Option. Ein Anruf unter 1-479-343-6239 ist ebenfalls zuverlässig."},
+      {"question": "Beeinträchtigt die Kündigung meinen Kredit-Score?", "answer": "Nein. Die Kündigung deines Experian-Abonnements hat keinen Einfluss auf deinen Kredit-Score."},
+      {"question": "Was passiert mit meiner Kreditüberwachung?", "answer": "Kreditüberwachungs-Benachrichtigungen enden. Deine Kredit-Berichtsdaten werden nicht gelöscht – du kannst weiterhin kostenlose Jahresberichte unter annualcreditreport.com abrufen."}
+    ],
+    "alternatives": [
+      {"description": "Kostenlose Kreditüberwachung – kein Abonnement erforderlich"},
+      {"description": "8,99 $/Monat – Schutz vor Identitätsdiebstahl"}
+    ]
+  },
+  "crunch-fitness": {
+    "description": "Kündige deine Crunch-Fitness-Mitgliedschaft persönlich, per Einschreiben oder manchmal online. Jahresverträge haben Vorzeitigkündigungsgebühren.",
+    "difficultyReason": "Crunch erfordert für die meisten Mitglieder eine persönliche oder schriftliche Kündigung per Einschreiben. Jahresverträge tragen Vorzeitigkündigungsgebühren bis zu 175 $..",
+    "refundPolicy": "Keine Rückerstattungen. Mitglieder mit Jahresvertrag müssen eine Vorzeitigkündigungsgebühr zahlen, wenn sie vor Vertragsende kündigen.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {"instruction": "Melde dich bei crunch.com an und prüfe, ob dein Standort eine Online-Kündigung anbietet (selten – die meisten tun es nicht)."},
+          {"instruction": "Wenn keine Online-Kündigung möglich ist, gehe persönlich zu deinem Heimclub mit einem Lichtbildausweis."},
+          {"instruction": "Bitte um ein Gespräch mit einem Mitgliedschaftsberater und beantrage die Kündigung.", "note": "Bringe deine Mitglieds-ID oder die E-Mail mit, die du bei der Anmeldung verwendet hast."},
+          {"instruction": "Alternativ sende einen Einschreibebrief an deinen Heimclub mit: vollständigem Namen, Mitglieds-ID, Adresse und Unterschrift."},
+          {"instruction": "Bewahre die Einschreibequittung als Nachweis auf. Die Kündigung wird in der Regel 30 Tage nach Eingang wirksam."}
+        ]
+      },
+      "ios": {
+        "steps": [
+          {"instruction": "Crunch unterstützt keine Kündigung über die iOS-App."},
+          {"instruction": "Kündige persönlich in deinem Heimclub oder per Einschreiben – siehe Web-Schritte."}
+        ]
+      },
+      "android": {
+        "steps": [
+          {"instruction": "Crunch unterstützt keine Kündigung über die Android-App."},
+          {"instruction": "Kündige persönlich oder per Einschreiben – siehe Web-Schritte."}
+        ]
+      }
+    },
+    "commonIssues": [
+      {"question": "Ich habe einen Jahresvertrag – wie hoch ist die Vorzeitigkündigungsgebühr?", "answer": "Die VKG beträgt in der Regel 175 $ oder den verbleibenden Vertragsbetrag (je nachdem, was geringer ist). Monatlich kündbare Mitglieder können jederzeit mit 30 Tagen Kündigungsfrist kündigen."},
+      {"question": "Kann ich kündigen, wenn ich umgezogen bin?", "answer": "Ja – Umzug ist ein akzeptabler Grund. Du musst einen Nachweis deiner neuen Adresse vorlegen, der zeigt, dass du mehr als 40 km von einem Crunch-Standort entfernt wohnst."},
+      {"question": "Kann ich meine Mitgliedschaft einfrieren statt zu kündigen?", "answer": "Ja. Die meisten Crunch-Standorte ermöglichen ein Einfrieren für 1–3 Monate gegen eine kleine Gebühr (10–15 $/Monat). Frage in deinem Heimclub nach."}
+    ],
+    "alternatives": [
+      {"description": "10–25 $/Monat – einfache Online-Kündigung"},
+      {"description": "30–50 $/Monat – 24/7-Zugang"}
+    ]
+  },
+  "xfinity": {
+    "description": "Kündige Xfinity-Internet, -Kabel oder -Streaming ohne vorzeitige Kündigungsgebühren. Erfordert einen Anruf oder Store-Besuch.",
+    "difficultyReason": "Xfinity ist bekannt für lange Wartezeiten, aggressive Haltetaktiken und komplexe Abrechnung. Vorzeitige Kündigungsgebühren können 110 $ oder mehr betragen.",
+    "refundPolicy": "Anteilige Rückerstattung für ungenutzte Tage nach der Kündigung. Vorzeitige Kündigungsgebühr gilt bei laufendem Vertrag.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {"instruction": "Gehe zu xfinity.com/support und melde dich an.", "note": "Prüfe zuerst dein Vertragsende – gehe zu Mein Konto → Servicevereinbarung, um zu sehen, ob du eine VKG schuldest."},
+          {"instruction": "Verwende den Xfinity-Assistenten-Chat und tippe „Dienst kündigen" – das funktioniert manchmal ohne Wartezeit."},
+          {"instruction": "Alternativ ruf an unter 1-800-934-6489. Erwarte 15–45 Minuten Wartezeit."},
+          {"instruction": "Teile dem Mitarbeiter mit, dass du kündigen möchtest, nicht herabstufen. Lehne alle Halte-Angebote ab."},
+          {"instruction": "Bitte um eine Kündigungsbestätigungsnummer und E-Mail."},
+          {"instruction": "Gib alle gemieteten Geräte (Modem, Router, Kabelbox) innerhalb von 10 Tagen in einem Xfinity-Store oder per Rücksendepaket zurück, um Gerätegebühren zu vermeiden."}
+        ]
+      },
+      "ios": {
+        "steps": [
+          {"instruction": "Öffne die Xfinity-App → tippe auf das Kontosymbol."},
+          {"instruction": "Tippe auf „Meinen Plan verwalten" – begrenzte Kündigungsoptionen in der App. Vollständige Kündigung erfordert einen Anruf oder Store-Besuch."}
+        ]
+      },
+      "android": {
+        "steps": [
+          {"instruction": "Öffne die Xfinity-App → Kontosymbol → „Meinen Plan verwalten"."},
+          {"instruction": "Für die vollständige Kündigung ruf an oder besuche einen Store."}
+        ]
+      }
+    },
+    "commonIssues": [
+      {"question": "Was ist die vorzeitige Kündigungsgebühr?", "answer": "Wenn du einen 1- oder 2-Jahresvertrag hast, berechnet Xfinity bis zu 110 $ VKG. Die Gebühr sinkt monatlich, je näher du dem Vertragsende kommst. Monatskunden haben keine VKG."},
+      {"question": "Muss ich Geräte zurückgeben?", "answer": "Ja – nicht zurückgegebene Geräte führen zu Gebühren von 110–350 $ pro Gerät. Gib sie innerhalb von 10 Tagen nach der Kündigung zurück, um Gebühren zu vermeiden."},
+      {"question": "Kann ich online kündigen, ohne anzurufen?", "answer": "Manche Konten können den Xfinity-Assistenten-Chat zur Kündigung nutzen. Andere erfordern einen Telefonanruf oder Store-Besuch. Der Chat-Weg ist schneller, wenn er für deinen Kontotyp funktioniert."}
+    ],
+    "alternatives": [
+      {"description": "Glasfaser-Internet – wettbewerbsfähige Preise"},
+      {"description": "Keine Verträge, keine Datenlimits"}
+    ]
+  },
+  "fubotv": {
+    "description": "Kündige FuboTV in unter 2 Minuten im Web. Keine Kündigungsgebühr – der Zugang läuft bis zum Ende des Abrechnungszeitraums.",
+    "difficultyReason": "FuboTV bietet eine einfache Online-Kündigung ohne vorzeitige Kündigungsgebühren.",
+    "refundPolicy": "Keine Rückerstattungen. Der Zugang läuft bis zum Ende des Abrechnungszeitraums.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {"instruction": "Gehe zu fubo.tv und melde dich an."},
+          {"instruction": "Klicke auf dein Profilsymbol (oben rechts) → Mein Konto."},
+          {"instruction": "Klicke auf „Abonnement verwalten"."},
+          {"instruction": "Klicke auf „Abonnement kündigen".", "note": "FuboTV zeigt möglicherweise eine Pause-Option – klicke nur auf Kündigen, wenn du vollständig kündigen möchtest."},
+          {"instruction": "Wähle einen Grund → bestätige die Kündigung."},
+          {"instruction": "Du erhältst eine Bestätigungs-E-Mail."}
+        ]
+      },
+      "ios": {
+        "steps": [
+          {"instruction": "Öffne Einstellungen → tippe auf deinen Namen → Abonnements."},
+          {"instruction": "Suche FuboTV → tippe darauf."},
+          {"instruction": "Tippe auf „Abonnement kündigen" → bestätigen."}
+        ]
+      },
+      "android": {
+        "steps": [
+          {"instruction": "Öffne den Google Play Store → Profil → „Zahlungen & Abonnements" → Abonnements."},
+          {"instruction": "Suche FuboTV → tippe auf „Abonnement kündigen" → bestätigen."}
+        ]
+      }
+    },
+    "commonIssues": [
+      {"question": "Ich habe über Roku oder Amazon abonniert – wie kündige ich?", "answer": "Kündige über die Plattform, die du verwendet hast: Roku (Einstellungen → Abonnements → FuboTV), Amazon (amazon.com/mysubscriptions) oder die Apple-/Google-Geräte-Abonnementeinstellungen."},
+      {"question": "Bietet FuboTV eine kostenlose Testphase an?", "answer": "Kostenlose Testphasen werden gelegentlich angeboten. Wenn du während einer Testphase kündigst, kündige mindestens 24 Stunden vor dem Ende, um eine Belastung zu vermeiden."}
+    ],
+    "alternatives": [
+      {"description": "72,99 $/Monat – 100+ Sender, unbegrenzter DVR"},
+      {"description": "Ab 40 $/Monat – flexible Senderpakete"},
+      {"description": "Ab 64,99 $/Monat – Fokus auf Live-Sport"}
+    ]
+  },
+  "uber-eats": {
+    "description": "Kündige Uber One (Uber Eats + Uber-Fahrten-Mitgliedschaft) in unter 2 Minuten über die App oder Website.",
+    "difficultyReason": "Die Kündigung ist über die Uber-App unkompliziert ohne Haltereibung.",
+    "refundPolicy": "Keine Rückerstattungen. Die Uber-One-Vorteile laufen bis zum Ende des Abrechnungszeitraums.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {"instruction": "Gehe zu uber.com und melde dich an."},
+          {"instruction": "Klicke auf dein Profilsymbol → Uber One oder gehe direkt zu uber.com/uberpro/uber-one."},
+          {"instruction": "Klicke auf „Mitgliedschaft verwalten"."},
+          {"instruction": "Klicke auf „Mitgliedschaft kündigen".", "note": "Deine Uber-One-Vorteile laufen bis zum Ende des Abrechnungszeitraums."},
+          {"instruction": "Bestätige die Kündigung."}
+        ]
+      },
+      "ios": {
+        "steps": [
+          {"instruction": "Öffne die Uber- oder Uber-Eats-App → tippe auf dein Profilsymbol."},
+          {"instruction": "Tippe auf Uber One → Mitgliedschaft verwalten."},
+          {"instruction": "Tippe auf „Mitgliedschaft kündigen" → bestätigen."}
+        ]
+      },
+      "android": {
+        "steps": [
+          {"instruction": "Öffne die Uber- oder Uber-Eats-App → Profilsymbol."},
+          {"instruction": "Tippe auf Uber One → Mitgliedschaft verwalten → Mitgliedschaft kündigen."},
+          {"instruction": "Bestätige die Kündigung."}
+        ]
+      }
+    },
+    "commonIssues": [
+      {"question": "Kündigt die Kündigung von Uber One sowohl die Uber-Fahrten- als auch die Uber-Eats-Vorteile?", "answer": "Ja. Uber One ist eine einzige Mitgliedschaft, die sowohl Uber-Fahrtrabatte als auch Uber-Eats-Liefervorteile abdeckt. Die Kündigung entfernt beides."},
+      {"question": "Ich wurde nach der Kündigung belastet.", "answer": "Wenn du vor deinem Verlängerungsdatum gekündigt hast, aber trotzdem belastet wurdest, kontaktiere den Uber-Support über die App (Hilfe → Konto → Uber One) für eine Rückerstattung."}
+    ],
+    "alternatives": [
+      {"description": "9,99 $/Monat – kostenlose Lieferung bei DoorDash"},
+      {"description": "9,99 $/Monat – kostenlose Lieferung bei Grubhub"}
+    ]
+  },
+  "instacart": {
+    "description": "Kündige Instacart+ in unter 2 Minuten über die App oder Website.",
+    "difficultyReason": "Die Kündigung von Instacart+ ist über die App unkompliziert mit minimaler Haltereibung.",
+    "refundPolicy": "Keine Rückerstattungen. Die Vorteile laufen bis zum Ende des Abrechnungszeitraums. Jahresabonnenten erhalten möglicherweise eine anteilige Rückerstattung, wenn sie nicht genutzt haben.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {"instruction": "Gehe zu instacart.com und melde dich an."},
+          {"instruction": "Klicke auf dein Profilsymbol → Instacart+."},
+          {"instruction": "Klicke auf „Mitgliedschaft verwalten"."},
+          {"instruction": "Klicke auf „Mitgliedschaft kündigen".", "note": "Wenn du einen Jahresplan mit verbleibenden Monaten hast, bietet Instacart möglicherweise eine anteilige Rückerstattung an."},
+          {"instruction": "Bestätige die Kündigung."}
+        ]
+      },
+      "ios": {
+        "steps": [
+          {"instruction": "Öffne die Instacart-App → tippe auf dein Profilsymbol."},
+          {"instruction": "Tippe auf Instacart+ → Mitgliedschaft verwalten."},
+          {"instruction": "Tippe auf „Mitgliedschaft kündigen" → bestätigen."}
+        ]
+      },
+      "android": {
+        "steps": [
+          {"instruction": "Öffne die Instacart-App → Profilsymbol → Instacart+."},
+          {"instruction": "Tippe auf „Mitgliedschaft verwalten" → Mitgliedschaft kündigen → bestätigen."}
+        ]
+      }
+    },
+    "commonIssues": [
+      {"question": "Kann ich eine Rückerstattung für meinen jährlichen Instacart+-Plan erhalten?", "answer": "Ja, wenn du die Mitgliedschaft nicht intensiv genutzt hast. Instacart bietet möglicherweise eine anteilige Rückerstattung für den ungenutzten Anteil an. Kontaktiere den Support, wenn die Option bei der Kündigung nicht angezeigt wird."},
+      {"question": "Was passiert mit meinen ausstehenden Bestellungen nach der Kündigung?", "answer": "Aktive Bestellungen sind von der Kündigung nicht betroffen. Liefergebührenbefreiungen gelten nicht für neue Bestellungen, die nach der Kündigung aufgegeben werden."}
+    ],
+    "alternatives": [
+      {"description": "Kostenlose Lieferung mit Prime – Lebensmittellieferung"},
+      {"description": "99 $/Jahr – Target + andere Händler"}
+    ]
   }
 }

@@ -524,5 +524,453 @@
         "answer": "Als je je hebt geabonneerd via een derde partij (App Store, Google Play of een reseller zoals Amazon), moet je opzeggen via dat platform."
       }
     ]
+  },
+  "doordash": {
+    "description": "Annuleer DashPass in minder dan 2 minuten. Geen annuleringskosten — toegang loopt door tot het einde van de factureringsperiode.",
+    "difficultyReason": "DoorDash maakt eenvoudige annulering mogelijk via de app of website zonder retentieschermen.",
+    "refundPolicy": "Geen terugbetalingen. DashPass-voordelen lopen door tot het einde van de factureringsperiode.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Ga naar doordash.com en meld je aan." },
+          { "instruction": "Klik op je profielicoontje → Haal DashPass op of ga naar doordash.com/account." },
+          { "instruction": "Scroll naar DashPass → klik op DashPass beheren." },
+          { "instruction": "Klik op DashPass annuleren." },
+          { "instruction": "Volg de bevestigingsprompts → klik op DashPass annuleren om te bevestigen.", "note": "Je behoudt DashPass-voordelen tot het einde van je factureringsperiode." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Open de DoorDash-app → tik op je profielicoontje (rechtsonder)." },
+          { "instruction": "Tik op Haal DashPass op of DashPass beheren." },
+          { "instruction": "Tik op DashPass annuleren → bevestigen." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Open de DoorDash-app → tik op je profielicoontje." },
+          { "instruction": "Tik op DashPass beheren." },
+          { "instruction": "Tik op DashPass annuleren → volg de bevestigingsprompts." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ik kan de DashPass-optie niet vinden in mijn account.",
+        "answer": "Zorg ervoor dat je bent ingelogd op hetzelfde account dat is gebruikt om je te abonneren. Als je je hebt geabonneerd via Chase-creditcardvoordelen, moet je annuleren via Chase, niet rechtstreeks via DoorDash."
+      },
+      {
+        "question": "Verlies ik mijn DashPass halverwege de maand?",
+        "answer": "Nee. DashPass-voordelen lopen door tot het einde van je huidige factureringsperiode."
+      }
+    ],
+    "alternatives": [
+      { "description": "$9,99/mnd — gratis bezorging op Uber Eats + Uber-ritten" },
+      { "description": "$9,99/mnd — gratis bezorging op Grubhub-bestellingen" }
+    ]
+  },
+  "peacock": {
+    "description": "Annuleer Peacock Premium in minder dan 3 minuten op het web of via de abonnementsinstellingen van je apparaat.",
+    "difficultyReason": "De annuleringsstroom van Peacock is eenvoudig met minimale retentieweerstand.",
+    "refundPolicy": "Geen terugbetalingen. Toegang loopt door tot het einde van de factureringsperiode.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Ga naar peacocktv.com en meld je aan." },
+          { "instruction": "Klik op je profielicoontje → Account." },
+          { "instruction": "Klik onder Plan op Plan wijzigen of annuleren." },
+          { "instruction": "Klik op Plan annuleren." },
+          { "instruction": "Selecteer een reden → klik op Doorgaan.", "note": "Je Peacock Premium-toegang loopt door tot de factuurdatum." },
+          { "instruction": "Bevestig de annulering." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Open Instellingen → tik op je naam → Abonnementen." },
+          { "instruction": "Zoek Peacock → tik erop." },
+          { "instruction": "Tik op Abonnement opzeggen → bevestigen." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Open Google Play Store → profiel → Betalingen & abonnementen → Abonnementen." },
+          { "instruction": "Zoek Peacock → tik op Abonnement opzeggen → bevestigen." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ik heb me geabonneerd via mijn tv-provider — hoe annuleer ik?",
+        "answer": "Als Peacock was gebundeld met je kabel- of internetabonnement, moet je annuleren via je tv-/internetprovider, niet rechtstreeks via Peacock."
+      },
+      {
+        "question": "Ik heb de gratis versie — moet ik opzeggen?",
+        "answer": "Nee. De gratis Peacock-versie heeft geen abonnement om op te zeggen. Alleen Premium en Premium Plus vereisen annulering."
+      }
+    ],
+    "alternatives": [
+      { "description": "$7,99/mnd — CBS, MTV, Nickelodeon" },
+      { "description": "$9,99/mnd — HBO-content" }
+    ]
+  },
+  "audible": {
+    "description": "Annuleer Audible zonder je credits of gekochte luisterboeken te verliezen. Het moment van annulering is belangrijk.",
+    "difficultyReason": "Audible gebruikt meerdere retentieschermen, biedt pauzes en kortingen aan, maar annulering is uiteindelijk beschikbaar.",
+    "refundPolicy": "Ongebruikte credits vervallen bij annulering. Gekochte luisterboeken blijven voor altijd van jou.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Ga naar audible.com en meld je aan." },
+          { "instruction": "Zweef over je naam → klik op Accountdetails." },
+          { "instruction": "Klik op Lidmaatschap opzeggen in de linker zijbalk of onder Lidmaatschapsdetails." },
+          { "instruction": "Audible toont een optie om het lidmaatschap te pauzeren — klik op Doorgaan met opzeggen als je wilt annuleren.", "note": "Gebruik je credits voor het opzeggen — ze vervallen als je lidmaatschap eindigt." },
+          { "instruction": "Selecteer een reden → klik op Lidmaatschap opzeggen." },
+          { "instruction": "Je ontvangt een bevestigingsmail." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Als je bent geabonneerd via de App Store: Instellingen → Apple ID → Abonnementen → Audible → Opzeggen." },
+          { "instruction": "Als je rechtstreeks bent geabonneerd bij Amazon/Audible: gebruik de bovenstaande websitestappen." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Als je bent geabonneerd via Google Play: Play Store → Abonnementen → Audible → Opzeggen." },
+          { "instruction": "Als je rechtstreeks bent geabonneerd: gebruik de bovenstaande websitestappen." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Wat gebeurt er met mijn credits als ik opzeg?",
+        "answer": "Ongebruikte credits vervallen wanneer je opzegt. Gebruik ze voor het opzeggen — je kunt luisterboeken kopen met credits en ze voor altijd bewaren, zelfs na annulering."
+      },
+      {
+        "question": "Verlies ik mijn gekochte luisterboeken?",
+        "answer": "Nee. Luisterboeken die je hebt gekocht met credits of rechtstreeks hebt aangeschaft, zijn permanent van jou. Je kunt ze openen via de Audible-app, zelfs zonder lidmaatschap."
+      },
+      {
+        "question": "Kan ik pauzeren in plaats van opzeggen?",
+        "answer": "Ja. Audible laat je 1–3 maanden pauzeren. Tijdens de pauze word je niet afgeschreven maar verdien je ook geen credits. Vind de optie tijdens de annuleringsstroom."
+      }
+    ],
+    "alternatives": [
+      { "description": "$11,99/mnd — e-books + sommige luisterboeken" },
+      { "description": "$11,99/mnd — luisterboeken, e-books, documenten" }
+    ]
+  },
+  "fabletics": {
+    "description": "Annuleer Fabletics VIP-lidmaatschap — vereist een telefoontje of chat. Vermijd eerst de ledencreditval.",
+    "difficultyReason": "Fabletics vereist annulering via telefoon of live chat (geen online zelfbediening), gebruikt agressieve retentietactieken en schrijft automatisch $59,95 af als je vergeet de maand over te slaan vóór de 5e.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Log in op fabletics.com en gebruik eventuele opgebouwde credits voordat je opzegt." },
+          { "instruction": "Klik op Ledencredits om je saldo te controleren.", "note": "Credits vervallen na annulering — gebruik ze eerst." },
+          { "instruction": "Open de live chat op fabletics.com of bel 1-844-322-5384." },
+          { "instruction": "Vertel de medewerker dat je je VIP-lidmaatschap wilt annuleren." },
+          { "instruction": "Wijs alle retentieaanbiedingen af (kortingen, pauzes, creditaanbiedingen)." },
+          { "instruction": "Bevestig de annulering en vraag om een bevestigingsnummer of e-mail." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Fabletics ondersteunt geen annulering via de iOS-app of App Store." },
+          { "instruction": "Gebruik telefoon (1-844-322-5384) of live chat op fabletics.com." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Fabletics ondersteunt geen annulering via de Android-app of Play Store." },
+          { "instruction": "Gebruik telefoon of live chat — zie de webstappen hierboven." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Er is $59,95 afgeschreven — kan ik een terugbetaling krijgen?",
+        "answer": "Als je onbedoeld bent afgeschreven, neem dan onmiddellijk contact op met Fabletics-ondersteuning. Ze kunnen een credit uitgeven, maar contante terugbetalingen zijn zeldzaam. De afschrijving gebeurt als je de maand niet vóór de 5e overslaat."
+      },
+      {
+        "question": "Wat is de optie \"maand overslaan\"?",
+        "answer": "Elke maand moet je vóór de 5e inloggen en op \"Deze maand overslaan\" klikken om te voorkomen dat je wordt afgeschreven. Dit is een bewust donker patroon — stel een terugkerende kalenderherinnering in."
+      },
+      {
+        "question": "Kan ik online opzeggen zonder te bellen?",
+        "answer": "Fabletics heeft een live chat-optie toegevoegd. Chat is beschikbaar op fabletics.com en is over het algemeen sneller dan bellen."
+      }
+    ]
+  },
+  "experian": {
+    "description": "Annuleer Experian CreditWorks of IdentityWorks-abonnement. Vereist telefonisch contact of chat — geen online zelfannulering.",
+    "difficultyReason": "Experian biedt geen online zelfbedieningsannulering. Je moet bellen of chatten en medewerkers gebruiken retentietactieken.",
+    "refundPolicy": "Proportionele terugbetalingen beschikbaar in sommige gevallen. Neem binnen de factureringscyclus contact op met ondersteuning voor de beste resultaten.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Log in op experian.com of ga naar je accountinstellingen." },
+          { "instruction": "Als er geen annuleringsknop beschikbaar is, open dan live chat via experian.com/consumer/help.html.", "note": "Experian verbergt de annuleringsoptie vaak — live chat is doorgaans de snelste route." },
+          { "instruction": "Vertel de medewerker dat je je abonnement wilt annuleren." },
+          { "instruction": "Wijs retentieaanbiedingen af (pauze van kredietbewaking, kortingen)." },
+          { "instruction": "Vraag om een bevestigingsmail met je annuleringsdatum." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Als je bent geabonneerd via de App Store: Instellingen → Apple ID → Abonnementen → Experian → Opzeggen." },
+          { "instruction": "Als je rechtstreeks bent geabonneerd bij Experian: gebruik telefoon (1-479-343-6239) of live chat." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Als je bent geabonneerd via Google Play: Play Store → Abonnementen → Experian → Opzeggen." },
+          { "instruction": "Als je rechtstreeks bent geabonneerd: gebruik live chat of bel Experian-ondersteuning." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ik kan geen annuleringsknop vinden op de website.",
+        "answer": "Experian maakt zelfbedieningsannulering opzettelijk moeilijk te vinden. Ga rechtstreeks naar experian.com/consumer/cancel.html of gebruik de live chat-optie. Bellen naar 1-479-343-6239 is ook betrouwbaar."
+      },
+      {
+        "question": "Heeft opzeggen invloed op mijn kredietscore?",
+        "answer": "Nee. Het opzeggen van je Experian-abonnement heeft op geen enkele manier invloed op je kredietscore."
+      },
+      {
+        "question": "Wat gebeurt er met mijn kredietbewaking?",
+        "answer": "Kredietbewakingsmeldingen stoppen. Je kredietrapportgegevens worden niet verwijderd — je kunt nog steeds gratis jaarlijkse rapporten opvragen via annualcreditreport.com."
+      }
+    ],
+    "alternatives": [
+      { "description": "Gratis kredietbewaking — geen abonnement nodig" },
+      { "description": "$8,99/mnd — bescherming tegen identiteitsdiefstal" }
+    ]
+  },
+  "crunch-fitness": {
+    "description": "Annuleer je Crunch Fitness-lidmaatschap persoonlijk, per aangetekende post of soms online. Jaarcontracten hebben kosten voor vroegtijdige beëindiging.",
+    "difficultyReason": "Crunch vereist persoonlijke annulering of aangetekende post voor de meeste leden. Jaarcontracten hebben kosten voor vroegtijdige beëindiging tot $175.",
+    "refundPolicy": "Geen terugbetalingen. Jaarcontractleden zijn een vroegtijdige beëindigingsvergoeding verschuldigd bij annulering vóór het einde van het contract.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Log in op crunch.com en controleer of je locatie online annulering aanbiedt (zeldzaam — de meeste doen dit niet)." },
+          { "instruction": "Als online annulering niet beschikbaar is, ga dan persoonlijk naar je thuisclub met een foto-ID." },
+          { "instruction": "Vraag om een lidmaatschapsadviseur te spreken en verzoek annulering.", "note": "Neem je ledennummer of het e-mailadres mee dat je hebt gebruikt om je aan te melden." },
+          { "instruction": "U kunt ook een aangetekende brief sturen naar je thuisclub met: je volledige naam, ledennummer, adres en handtekening." },
+          { "instruction": "Bewaar het aangetekende postbewijs. Annulering treedt doorgaans 30 dagen na ontvangst in werking." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Crunch ondersteunt geen annulering via de iOS-app." },
+          { "instruction": "Annuleer persoonlijk bij je thuisclub of via aangetekende post." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Crunch ondersteunt geen annulering via de Android-app." },
+          { "instruction": "Annuleer persoonlijk of per aangetekende post — zie de webstappen." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ik heb een jaarcontract — wat zijn de kosten voor vroegtijdige beëindiging?",
+        "answer": "De ETF is doorgaans $175 of het resterende saldo van je contract (afhankelijk van wat lager is). Maand-tot-maand leden kunnen op elk moment opzeggen met 30 dagen opzegtermijn."
+      },
+      {
+        "question": "Kan ik opzeggen als ik ben verhuisd?",
+        "answer": "Ja — verhuizing is een acceptabele reden. Je moet bewijs van je nieuwe adres overleggen waaruit blijkt dat je meer dan 40 km van elke Crunch-locatie woont."
+      },
+      {
+        "question": "Kan ik mijn lidmaatschap bevriezen in plaats van opzeggen?",
+        "answer": "Ja. De meeste Crunch-locaties bieden een bevriezing van 1–3 maanden aan voor een kleine vergoeding ($10–$15/mnd). Vraag dit bij je thuisclub."
+      }
+    ],
+    "alternatives": [
+      { "description": "$10–$25/mnd — eenvoudige online annulering" },
+      { "description": "$30–$50/mnd — 24/7 toegang" }
+    ]
+  },
+  "xfinity": {
+    "description": "Annuleer Xfinity internet, kabel of streaming zonder vroegtijdige beëindigingskosten te betalen. Vereist een telefoontje of winkelbezoek.",
+    "difficultyReason": "Xfinity staat bekend om lange wachttijden, agressieve retentietactieken en complexe facturering. Vroegtijdige beëindigingskosten kunnen oplopen tot $110+.",
+    "refundPolicy": "Proportionele terugbetaling voor ongebruikte dagen na annulering. Vroegtijdige beëindigingsvergoeding is van toepassing als je onder contract staat.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Ga naar xfinity.com/support en meld je aan.", "note": "Controleer eerst je contracteinddatum — ga naar Mijn Account → Serviceovereenkomst om te zien of je een ETF verschuldigd bent." },
+          { "instruction": "Gebruik de Xfinity Assistant-chat en typ Service annuleren — dit werkt soms zonder wachttijd." },
+          { "instruction": "Of bel 1-800-934-6489. Verwacht wachttijden van 15–45 minuten." },
+          { "instruction": "Vertel de medewerker dat je wilt annuleren, niet downgraden. Wijs alle retentieaanbiedingen af." },
+          { "instruction": "Vraag om een annuleringsbevestigingsnummer en e-mail." },
+          { "instruction": "Retourneer eventuele gehuurde apparatuur binnen 10 dagen om apparatuurkosten te vermijden." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Open de Xfinity-app → tik op het accounticoontje." },
+          { "instruction": "Tik op Mijn plan beheren — volledige annulering vereist een telefoontje of winkelbezoek." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Open de Xfinity-app → accounticoontje → Mijn plan beheren." },
+          { "instruction": "Voor volledige annulering, bel of bezoek een winkel." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Wat zijn de kosten voor vroegtijdige beëindiging?",
+        "answer": "Als je een 1- of 2-jarig contract hebt, brengt Xfinity tot $110 aan ETF in rekening. Maand-tot-maand klanten hebben geen ETF."
+      },
+      {
+        "question": "Moet ik apparatuur retourneren?",
+        "answer": "Ja — niet geretourneerde apparatuur resulteert in kosten van $110–$350 per apparaat. Retourneer binnen 10 dagen."
+      },
+      {
+        "question": "Kan ik online annuleren zonder te bellen?",
+        "answer": "Sommige accounts kunnen de Xfinity Assistant-chat gebruiken om te annuleren. Anderen vereisen een telefoontje of winkelbezoek."
+      }
+    ],
+    "alternatives": [
+      { "description": "Glasvezelinternet — concurrerende prijzen" },
+      { "description": "Geen contracten, geen datalimieten" }
+    ]
+  },
+  "fubotv": {
+    "description": "Annuleer FuboTV in minder dan 2 minuten op het web. Geen annuleringskosten — toegang loopt door tot het einde van de factureringsperiode.",
+    "difficultyReason": "FuboTV biedt een eenvoudige online annulering zonder vroegtijdige beëindigingskosten.",
+    "refundPolicy": "Geen terugbetalingen. Toegang loopt door tot het einde van de factureringsperiode.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Ga naar fubo.tv en meld je aan." },
+          { "instruction": "Klik op je profielicoontje (rechtsboven) → Mijn Account." },
+          { "instruction": "Klik op Abonnement beheren." },
+          { "instruction": "Klik op Abonnement opzeggen.", "note": "FuboTV kan een pauzeoptie tonen — klik alleen op Opzeggen als je volledig wilt annuleren." },
+          { "instruction": "Selecteer een reden → bevestig annulering." },
+          { "instruction": "Je ontvangt een bevestigingsmail." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Open Instellingen → tik op je naam → Abonnementen." },
+          { "instruction": "Zoek FuboTV → tik erop." },
+          { "instruction": "Tik op Abonnement opzeggen → bevestigen." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Open Google Play Store → profiel → Betalingen & abonnementen → Abonnementen." },
+          { "instruction": "Zoek FuboTV → tik op Abonnement opzeggen → bevestigen." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ik heb me geabonneerd via Roku of Amazon — hoe annuleer ik?",
+        "answer": "Annuleer via het platform dat je hebt gebruikt: Roku (Instellingen → Abonnementen → FuboTV), Amazon (amazon.com/mysubscriptions), of de abonnementsinstellingen van je Apple/Google-apparaat."
+      },
+      {
+        "question": "Biedt FuboTV een gratis proefperiode?",
+        "answer": "Gratis proefperiodes worden af en toe aangeboden. Als je tijdens een proefperiode annuleert, doe dit dan minimaal 24 uur voor het einde om te voorkomen dat je wordt afgeschreven."
+      }
+    ],
+    "alternatives": [
+      { "description": "$72,99/mnd — 100+ zenders, onbeperkte DVR" },
+      { "description": "Vanaf $40/mnd — flexibele zenderpakketten" },
+      { "description": "Vanaf $64,99/mnd — focus op live sport" }
+    ]
+  },
+  "uber-eats": {
+    "description": "Annuleer Uber One (Uber Eats + Uber-rittenlidmaatschap) in minder dan 2 minuten via de app of website.",
+    "difficultyReason": "Annulering is eenvoudig via de Uber-app zonder retentieproblemen.",
+    "refundPolicy": "Geen terugbetalingen. Uber One-voordelen lopen door tot het einde van de factureringsperiode.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Ga naar uber.com en meld je aan." },
+          { "instruction": "Klik op je profielicoontje → Uber One." },
+          { "instruction": "Klik op Lidmaatschap beheren." },
+          { "instruction": "Klik op Lidmaatschap opzeggen.", "note": "Je Uber One-voordelen lopen door tot het einde van de factureringsperiode." },
+          { "instruction": "Bevestig annulering." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Open de Uber- of Uber Eats-app → tik op je profielicoontje." },
+          { "instruction": "Tik op Uber One → Lidmaatschap beheren." },
+          { "instruction": "Tik op Lidmaatschap opzeggen → bevestigen." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Open de Uber- of Uber Eats-app → profielicoontje." },
+          { "instruction": "Tik op Uber One → Lidmaatschap beheren → Lidmaatschap opzeggen." },
+          { "instruction": "Bevestig annulering." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Annuleert het opzeggen van Uber One zowel de Uber-ritten als de Uber Eats-voordelen?",
+        "answer": "Ja. Uber One is een enkel lidmaatschap dat zowel Uber-ritkortingen als Uber Eats-bezorgvoordelen dekt. Annulering verwijdert beide."
+      },
+      {
+        "question": "Ik ben afgeschreven na annulering.",
+        "answer": "Als je vóór je verlengingsdatum hebt opgezegd maar toch bent afgeschreven, neem dan contact op met Uber-ondersteuning via de app (Help → Account → Uber One) voor een terugbetaling."
+      }
+    ],
+    "alternatives": [
+      { "description": "$9,99/mnd — gratis bezorging op DoorDash" },
+      { "description": "$9,99/mnd — gratis bezorging op Grubhub" }
+    ]
+  },
+  "instacart": {
+    "description": "Annuleer Instacart+ in minder dan 2 minuten via de app of website.",
+    "difficultyReason": "Instacart+-annulering is eenvoudig via de app met minimale retentieproblemen.",
+    "refundPolicy": "Geen terugbetalingen. Voordelen lopen door tot het einde van de factureringsperiode. Jaarlijkse abonnees kunnen mogelijk een proportionele terugbetaling krijgen als ze niet hebben gebruikt.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Ga naar instacart.com en meld je aan." },
+          { "instruction": "Klik op je profielicoontje → Instacart+." },
+          { "instruction": "Klik op Je lidmaatschap beheren." },
+          { "instruction": "Klik op Lidmaatschap opzeggen.", "note": "Als je een jaarplan hebt met resterende maanden, kan Instacart een proportionele terugbetaling aanbieden." },
+          { "instruction": "Bevestig annulering." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Open de Instacart-app → tik op je profielicoontje." },
+          { "instruction": "Tik op Instacart+ → Lidmaatschap beheren." },
+          { "instruction": "Tik op Lidmaatschap opzeggen → bevestigen." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Open de Instacart-app → profielicoontje → Instacart+." },
+          { "instruction": "Tik op Lidmaatschap beheren → Lidmaatschap opzeggen → bevestigen." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kan ik een terugbetaling krijgen op mijn jaarlijkse Instacart+-plan?",
+        "answer": "Ja, als je het lidmaatschap niet intensief hebt gebruikt. Instacart kan een proportionele terugbetaling aanbieden voor het ongebruikte deel. Neem contact op met ondersteuning als de optie niet wordt getoond tijdens annulering."
+      },
+      {
+        "question": "Wat gebeurt er met mijn lopende bestellingen na annulering?",
+        "answer": "Actieve bestellingen worden niet beïnvloed door annulering. Vrijstellingen van bezorgkosten zijn niet van toepassing op nieuwe bestellingen die na annulering worden geplaatst."
+      }
+    ],
+    "alternatives": [
+      { "description": "Gratis bezorging met Prime — boodschappenbezorging" },
+      { "description": "$99/jaar — Target + andere retailers" }
+    ]
   }
 }

@@ -11,6 +11,16 @@ import { claude } from './claude'
 import { youtubePremium } from './youtube-premium'
 import { hulu } from './hulu'
 import { nordvpn } from './nordvpn'
+import { doordash } from './doordash'
+import { peacock } from './peacock'
+import { audible } from './audible'
+import { fabletics } from './fabletics'
+import { experian } from './experian'
+import { crunchFitness } from './crunch-fitness'
+import { xfinity } from './xfinity'
+import { fuboTV } from './fubotv'
+import { uberEats } from './uber-eats'
+import { instacart } from './instacart'
 
 export const allGuides: CancelGuide[] = [
   netflix,
@@ -25,6 +35,16 @@ export const allGuides: CancelGuide[] = [
   youtubePremium,
   hulu,
   nordvpn,
+  doordash,
+  peacock,
+  audible,
+  fabletics,
+  experian,
+  crunchFitness,
+  xfinity,
+  fuboTV,
+  uberEats,
+  instacart,
 ]
 
 export const guidesBySlug: Record<string, CancelGuide> = Object.fromEntries(

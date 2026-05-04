@@ -524,5 +524,453 @@
         "answer": "Jika Anda berlangganan melalui pihak ketiga (App Store, Google Play, atau reseller seperti Amazon), Anda harus membatalkan melalui platform tersebut."
       }
     ]
+  },
+  "doordash": {
+    "description": "Batalkan DashPass dalam waktu kurang dari 2 menit. Tidak ada biaya pembatalan — akses berlanjut hingga akhir periode penagihan.",
+    "difficultyReason": "DoorDash mengizinkan pembatalan mudah melalui aplikasi atau situs web tanpa layar retensi.",
+    "refundPolicy": "Tidak ada pengembalian dana. Manfaat DashPass berlanjut hingga akhir periode penagihan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Buka doordash.com dan masuk." },
+          { "instruction": "Klik ikon profil Anda → Dapatkan DashPass atau buka doordash.com/account." },
+          { "instruction": "Gulir ke DashPass → klik Kelola DashPass." },
+          { "instruction": "Klik Batalkan DashPass." },
+          { "instruction": "Ikuti petunjuk konfirmasi → klik Batalkan DashPass untuk mengonfirmasi.", "note": "Anda tetap mendapatkan manfaat DashPass hingga akhir periode penagihan." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Buka aplikasi DoorDash → ketuk ikon profil Anda (kanan bawah)." },
+          { "instruction": "Ketuk Dapatkan DashPass atau Kelola DashPass." },
+          { "instruction": "Ketuk Batalkan DashPass → konfirmasi." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Buka aplikasi DoorDash → ketuk ikon profil Anda." },
+          { "instruction": "Ketuk Kelola DashPass." },
+          { "instruction": "Ketuk Batalkan DashPass → ikuti petunjuk konfirmasi." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Saya tidak dapat menemukan opsi DashPass di akun saya.",
+        "answer": "Pastikan Anda masuk ke akun yang sama yang digunakan untuk berlangganan. Jika Anda berlangganan melalui manfaat kartu kredit Chase, Anda harus membatalkan melalui Chase, bukan langsung melalui DoorDash."
+      },
+      {
+        "question": "Apakah saya akan kehilangan DashPass di tengah bulan?",
+        "answer": "Tidak. Manfaat DashPass berlanjut hingga akhir periode penagihan Anda saat ini."
+      }
+    ],
+    "alternatives": [
+      { "description": "$9,99/bln — pengiriman gratis di Uber Eats + perjalanan Uber" },
+      { "description": "$9,99/bln — pengiriman gratis untuk pesanan Grubhub" }
+    ]
+  },
+  "peacock": {
+    "description": "Batalkan Peacock Premium dalam waktu kurang dari 3 menit di web atau melalui pengaturan langganan perangkat Anda.",
+    "difficultyReason": "Alur pembatalan Peacock mudah dengan hambatan retensi yang minimal.",
+    "refundPolicy": "Tidak ada pengembalian dana. Akses berlanjut hingga akhir periode penagihan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Buka peacocktv.com dan masuk." },
+          { "instruction": "Klik ikon profil Anda → Akun." },
+          { "instruction": "Di bawah Paket, klik Ubah atau batalkan paket." },
+          { "instruction": "Klik Batalkan paket." },
+          { "instruction": "Pilih alasan → klik Lanjutkan.", "note": "Akses Peacock Premium Anda berlanjut hingga tanggal penagihan." },
+          { "instruction": "Konfirmasi pembatalan." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Buka Pengaturan → ketuk nama Anda → Langganan." },
+          { "instruction": "Temukan Peacock → ketuk." },
+          { "instruction": "Ketuk Batalkan Langganan → konfirmasi." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Buka Google Play Store → profil → Pembayaran & langganan → Langganan." },
+          { "instruction": "Temukan Peacock → ketuk Batalkan langganan → konfirmasi." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Saya berlangganan melalui penyedia TV — bagaimana cara membatalkan?",
+        "answer": "Jika Peacock digabungkan dengan paket kabel atau internet Anda, Anda harus membatalkan melalui penyedia TV/internet Anda, bukan langsung melalui Peacock."
+      },
+      {
+        "question": "Saya memiliki tier gratis — apakah perlu membatalkan?",
+        "answer": "Tidak. Tier gratis Peacock tidak memiliki langganan yang perlu dibatalkan. Hanya Premium dan Premium Plus yang memerlukan pembatalan."
+      }
+    ],
+    "alternatives": [
+      { "description": "$7,99/bln — CBS, MTV, Nickelodeon" },
+      { "description": "$9,99/bln — konten HBO" }
+    ]
+  },
+  "audible": {
+    "description": "Batalkan Audible tanpa kehilangan kredit atau buku audio yang dibeli. Waktu pembatalan sangat penting.",
+    "difficultyReason": "Audible menggunakan beberapa layar retensi, menawarkan jeda dan diskon, tetapi pembatalan akhirnya tersedia.",
+    "refundPolicy": "Kredit yang tidak terpakai hilang saat pembatalan. Buku audio yang dibeli adalah milik Anda selamanya.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Buka audible.com dan masuk." },
+          { "instruction": "Arahkan kursor ke nama Anda → klik Detail Akun." },
+          { "instruction": "Klik Batalkan keanggotaan di bilah sisi kiri atau di bawah Detail Keanggotaan." },
+          { "instruction": "Audible akan menampilkan opsi jeda keanggotaan — klik Lanjutkan untuk Membatalkan jika Anda ingin membatalkan.", "note": "Gunakan kredit Anda sebelum membatalkan — kredit akan kedaluwarsa ketika keanggotaan berakhir." },
+          { "instruction": "Pilih alasan → klik Batalkan keanggotaan." },
+          { "instruction": "Anda akan menerima email konfirmasi." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Jika berlangganan melalui App Store: Pengaturan → Apple ID → Langganan → Audible → Batalkan." },
+          { "instruction": "Jika berlangganan langsung: gunakan langkah-langkah web di atas." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Jika berlangganan melalui Google Play: Play Store → Langganan → Audible → Batalkan." },
+          { "instruction": "Jika berlangganan langsung: gunakan langkah-langkah web di atas." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Apa yang terjadi pada kredit saya saat membatalkan?",
+        "answer": "Kredit yang tidak terpakai hilang saat Anda membatalkan. Gunakan sebelum membatalkan — Anda dapat membeli buku audio dan menyimpannya selamanya."
+      },
+      {
+        "question": "Apakah saya akan kehilangan buku audio yang dibeli?",
+        "answer": "Tidak. Buku audio yang Anda beli adalah milik Anda selamanya, dapat diakses melalui aplikasi Audible bahkan tanpa keanggotaan."
+      },
+      {
+        "question": "Bisakah saya menjeda daripada membatalkan?",
+        "answer": "Ya. Audible memungkinkan Anda menjeda selama 1–3 bulan tanpa dikenai biaya. Temukan opsi tersebut selama alur pembatalan."
+      }
+    ],
+    "alternatives": [
+      { "description": "$11,99/bln — ebook + beberapa buku audio" },
+      { "description": "$11,99/bln — buku audio, ebook, dokumen" }
+    ]
+  },
+  "fabletics": {
+    "description": "Batalkan keanggotaan Fabletics VIP — memerlukan panggilan telepon atau obrolan. Hindari jebakan kredit anggota terlebih dahulu.",
+    "difficultyReason": "Fabletics mengharuskan pembatalan melalui telepon atau live chat (tidak ada layanan mandiri online), menggunakan taktik retensi agresif, dan secara otomatis menagih $59,95 jika Anda lupa melewati bulan sebelum tanggal 5.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Masuk ke fabletics.com dan gunakan kredit yang terkumpul sebelum membatalkan." },
+          { "instruction": "Klik Kredit Anggota untuk memeriksa saldo Anda.", "note": "Kredit kedaluwarsa setelah pembatalan — gunakan terlebih dahulu." },
+          { "instruction": "Buka live chat di fabletics.com atau hubungi 1-844-322-5384." },
+          { "instruction": "Beritahu agen bahwa Anda ingin membatalkan keanggotaan VIP Anda." },
+          { "instruction": "Tolak semua penawaran retensi (diskon, jeda, penawaran kredit)." },
+          { "instruction": "Konfirmasi pembatalan dan minta nomor konfirmasi atau email." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Fabletics tidak mendukung pembatalan melalui aplikasi iOS atau App Store." },
+          { "instruction": "Gunakan telepon (1-844-322-5384) atau live chat di fabletics.com." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Fabletics tidak mendukung pembatalan melalui aplikasi Android atau Play Store." },
+          { "instruction": "Gunakan telepon atau live chat — lihat langkah-langkah web di atas." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Saya ditagih $59,95 — bisakah saya mendapatkan pengembalian dana?",
+        "answer": "Hubungi dukungan Fabletics segera. Mereka mungkin mengeluarkan kredit, tetapi pengembalian dana tunai jarang terjadi. Tagihan terjadi jika Anda tidak melewati bulan sebelum tanggal 5."
+      },
+      {
+        "question": "Apa itu opsi \"lewati bulan\"?",
+        "answer": "Setiap bulan, masuk dan klik Lewati bulan ini sebelum tanggal 5 untuk menghindari tagihan. Atur pengingat kalender berulang."
+      },
+      {
+        "question": "Bisakah saya membatalkan secara online tanpa menelepon?",
+        "answer": "Fabletics menambahkan opsi live chat di fabletics.com — umumnya lebih cepat daripada menelepon."
+      }
+    ]
+  },
+  "experian": {
+    "description": "Batalkan langganan Experian CreditWorks atau IdentityWorks. Memerlukan telepon atau obrolan — tidak ada pembatalan mandiri online.",
+    "difficultyReason": "Experian tidak menawarkan pembatalan layanan mandiri online. Anda harus menelepon atau mengobrol, dan agen menggunakan taktik retensi.",
+    "refundPolicy": "Pengembalian dana prorata tersedia dalam beberapa kasus. Hubungi dukungan dalam siklus penagihan untuk hasil terbaik.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Masuk ke experian.com atau buka pengaturan akun Anda." },
+          { "instruction": "Jika tidak ada tombol batalkan yang tersedia, buka live chat melalui experian.com/consumer/help.html.", "note": "Experian sering menyembunyikan opsi batalkan — live chat biasanya jalur tercepat." },
+          { "instruction": "Beritahu agen bahwa Anda ingin membatalkan langganan Anda." },
+          { "instruction": "Tolak penawaran retensi apapun." },
+          { "instruction": "Minta email konfirmasi dengan tanggal pembatalan Anda." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Jika berlangganan melalui App Store: Pengaturan → Apple ID → Langganan → Experian → Batalkan." },
+          { "instruction": "Jika berlangganan langsung: gunakan telepon atau live chat." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Jika berlangganan melalui Google Play: Play Store → Langganan → Experian → Batalkan." },
+          { "instruction": "Jika berlangganan langsung: gunakan live chat atau hubungi dukungan." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Saya tidak dapat menemukan tombol batalkan di situs web.",
+        "answer": "Experian sengaja membuat pembatalan layanan mandiri sulit. Gunakan live chat atau hubungi 1-479-343-6239."
+      },
+      {
+        "question": "Apakah membatalkan akan memengaruhi skor kredit saya?",
+        "answer": "Tidak. Membatalkan langganan Experian tidak memengaruhi skor kredit Anda."
+      },
+      {
+        "question": "Apa yang terjadi pada pemantauan kredit saya?",
+        "answer": "Peringatan pemantauan kredit berhenti. Anda masih dapat mendapatkan laporan tahunan gratis di annualcreditreport.com."
+      }
+    ],
+    "alternatives": [
+      { "description": "Pemantauan kredit gratis — tidak perlu berlangganan" },
+      { "description": "$8,99/bln — perlindungan pencurian identitas" }
+    ]
+  },
+  "crunch-fitness": {
+    "description": "Batalkan keanggotaan Crunch Fitness Anda secara langsung, melalui surat tercatat, atau terkadang secara online. Kontrak tahunan memiliki biaya penghentian dini.",
+    "difficultyReason": "Crunch mengharuskan pembatalan secara langsung atau melalui surat tercatat bagi sebagian besar anggota. Kontrak tahunan memiliki biaya penghentian dini hingga $175.",
+    "refundPolicy": "Tidak ada pengembalian dana. Anggota dengan kontrak tahunan wajib membayar biaya penghentian dini jika membatalkan sebelum kontrak berakhir.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Masuk di crunch.com dan periksa apakah lokasi Anda menawarkan pembatalan online (jarang)." },
+          { "instruction": "Jika tidak tersedia online, kunjungi klub utama Anda secara langsung dengan foto ID." },
+          { "instruction": "Minta berbicara dengan penasihat keanggotaan dan ajukan permintaan pembatalan.", "note": "Bawa ID anggota atau email yang digunakan saat mendaftar." },
+          { "instruction": "Atau, kirim surat tercatat ke klub utama Anda dengan nama lengkap, ID anggota, alamat, dan tanda tangan." },
+          { "instruction": "Simpan tanda terima surat tercatat sebagai bukti. Pembatalan berlaku 30 hari setelah diterima." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Crunch tidak mendukung pembatalan melalui aplikasi iOS." },
+          { "instruction": "Batalkan secara langsung atau melalui surat tercatat." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Crunch tidak mendukung pembatalan melalui aplikasi Android." },
+          { "instruction": "Batalkan secara langsung atau melalui surat tercatat." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Saya dalam kontrak tahunan — berapa biaya penghentian dini?",
+        "answer": "ETF biasanya $175 atau sisa saldo kontrak Anda (mana yang lebih rendah). Anggota bulan-ke-bulan membatalkan dengan pemberitahuan 30 hari."
+      },
+      {
+        "question": "Bisakah saya membatalkan jika saya pindah?",
+        "answer": "Ya — berikan bukti alamat baru Anda yang menunjukkan bahwa Anda tinggal lebih dari 25 mil dari lokasi Crunch manapun."
+      },
+      {
+        "question": "Bisakah saya membekukan keanggotaan saya?",
+        "answer": "Ya. Sebagian besar lokasi mengizinkan pembekuan 1–3 bulan seharga $10–$15/bln. Tanyakan di klub utama Anda."
+      }
+    ],
+    "alternatives": [
+      { "description": "$10–$25/bln — pembatalan online yang mudah" },
+      { "description": "$30–$50/bln — akses 24/7" }
+    ]
+  },
+  "xfinity": {
+    "description": "Batalkan internet, kabel, atau streaming Xfinity tanpa membayar biaya penghentian dini. Memerlukan panggilan telepon atau kunjungan toko.",
+    "difficultyReason": "Xfinity terkenal dengan waktu tunggu yang lama, taktik retensi agresif, dan penagihan yang rumit. Biaya penghentian dini bisa mencapai $110+.",
+    "refundPolicy": "Pengembalian dana prorata untuk hari yang tidak terpakai setelah pembatalan. Biaya penghentian dini berlaku jika masih dalam kontrak.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Buka xfinity.com/support dan masuk.", "note": "Periksa tanggal akhir kontrak Anda terlebih dahulu di Akun Saya → Perjanjian Layanan." },
+          { "instruction": "Gunakan obrolan Xfinity Assistant dan ketik Batalkan layanan." },
+          { "instruction": "Atau, hubungi 1-800-934-6489. Perkirakan waktu tunggu 15–45 menit." },
+          { "instruction": "Beritahu perwakilan bahwa Anda ingin membatalkan. Tolak semua penawaran retensi." },
+          { "instruction": "Minta nomor konfirmasi pembatalan dan email." },
+          { "instruction": "Kembalikan peralatan yang disewa dalam 10 hari untuk menghindari biaya peralatan." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Buka aplikasi Xfinity → ikon akun." },
+          { "instruction": "Ketuk Kelola paket saya — pembatalan penuh memerlukan panggilan telepon atau kunjungan toko." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Buka aplikasi Xfinity → Kelola paket saya." },
+          { "instruction": "Untuk pembatalan penuh, hubungi atau kunjungi toko." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Berapa biaya penghentian dini?",
+        "answer": "Hingga $110 di bawah kontrak 1 atau 2 tahun. Berkurang setiap bulan saat mendekati akhir kontrak. Bulan-ke-bulan: tidak ada ETF."
+      },
+      {
+        "question": "Apakah saya harus mengembalikan peralatan?",
+        "answer": "Ya — peralatan yang tidak dikembalikan mengakibatkan biaya $110–$350 per perangkat. Kembalikan dalam 10 hari."
+      },
+      {
+        "question": "Bisakah saya membatalkan secara online tanpa menelepon?",
+        "answer": "Beberapa akun dapat menggunakan obrolan Xfinity Assistant. Yang lain memerlukan panggilan telepon atau kunjungan toko."
+      }
+    ],
+    "alternatives": [
+      { "description": "Internet serat — harga kompetitif" },
+      { "description": "Tanpa kontrak, tanpa batas data" }
+    ]
+  },
+  "fubotv": {
+    "description": "Batalkan FuboTV dalam waktu kurang dari 2 menit di web. Tidak ada biaya pembatalan — akses berlanjut hingga akhir periode penagihan.",
+    "difficultyReason": "FuboTV menawarkan pembatalan online yang sederhana tanpa biaya penghentian dini.",
+    "refundPolicy": "Tidak ada pengembalian dana. Akses berlanjut hingga akhir periode penagihan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Buka fubo.tv dan masuk." },
+          { "instruction": "Klik ikon profil Anda → Akun Saya." },
+          { "instruction": "Klik Kelola Langganan." },
+          { "instruction": "Klik Batalkan Langganan.", "note": "FuboTV mungkin menampilkan opsi jeda — klik Batalkan hanya jika Anda ingin membatalkan sepenuhnya." },
+          { "instruction": "Pilih alasan → konfirmasi pembatalan." },
+          { "instruction": "Anda akan menerima email konfirmasi." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Buka Pengaturan → ketuk nama Anda → Langganan." },
+          { "instruction": "Temukan FuboTV → ketuk." },
+          { "instruction": "Ketuk Batalkan Langganan → konfirmasi." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Buka Google Play Store → profil → Pembayaran & langganan → Langganan." },
+          { "instruction": "Temukan FuboTV → ketuk Batalkan langganan → konfirmasi." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Saya berlangganan melalui Roku atau Amazon — bagaimana cara membatalkan?",
+        "answer": "Batalkan melalui platform yang Anda gunakan: Roku, Amazon (amazon.com/mysubscriptions), atau pengaturan langganan perangkat Apple/Google."
+      },
+      {
+        "question": "Apakah FuboTV menawarkan uji coba gratis?",
+        "answer": "Sesekali. Batalkan setidaknya 24 jam sebelum uji coba berakhir untuk menghindari tagihan."
+      }
+    ],
+    "alternatives": [
+      { "description": "$72,99/bln — 100+ saluran, DVR tak terbatas" },
+      { "description": "Dari $40/bln — paket saluran yang fleksibel" },
+      { "description": "Dari $64,99/bln — fokus olahraga langsung" }
+    ]
+  },
+  "uber-eats": {
+    "description": "Batalkan Uber One (keanggotaan Uber Eats + perjalanan Uber) dalam waktu kurang dari 2 menit melalui aplikasi atau situs web.",
+    "difficultyReason": "Pembatalan mudah dilakukan melalui aplikasi Uber tanpa hambatan retensi.",
+    "refundPolicy": "Tidak ada pengembalian dana. Manfaat Uber One berlanjut hingga akhir periode penagihan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Buka uber.com dan masuk." },
+          { "instruction": "Klik ikon profil Anda → Uber One." },
+          { "instruction": "Klik Kelola keanggotaan." },
+          { "instruction": "Klik Batalkan keanggotaan.", "note": "Manfaat Uber One Anda berlanjut hingga periode penagihan berakhir." },
+          { "instruction": "Konfirmasi pembatalan." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Buka aplikasi Uber atau Uber Eats → ketuk ikon profil Anda." },
+          { "instruction": "Ketuk Uber One → Kelola keanggotaan." },
+          { "instruction": "Ketuk Batalkan keanggotaan → konfirmasi." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Buka aplikasi → ikon profil." },
+          { "instruction": "Ketuk Uber One → Kelola keanggotaan → Batalkan keanggotaan." },
+          { "instruction": "Konfirmasi pembatalan." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Apakah membatalkan Uber One juga membatalkan manfaat perjalanan Uber dan Uber Eats?",
+        "answer": "Ya. Uber One mencakup keduanya. Membatalkan menghapus kedua manfaat tersebut."
+      },
+      {
+        "question": "Saya ditagih setelah membatalkan.",
+        "answer": "Hubungi dukungan Uber melalui aplikasi (Bantuan → Akun → Uber One) untuk pengembalian dana."
+      }
+    ],
+    "alternatives": [
+      { "description": "$9,99/bln — pengiriman gratis di DoorDash" },
+      { "description": "$9,99/bln — pengiriman gratis di Grubhub" }
+    ]
+  },
+  "instacart": {
+    "description": "Batalkan Instacart+ dalam waktu kurang dari 2 menit di aplikasi atau situs web.",
+    "difficultyReason": "Pembatalan Instacart+ mudah dilakukan melalui aplikasi dengan hambatan retensi yang minimal.",
+    "refundPolicy": "Tidak ada pengembalian dana. Manfaat berlanjut hingga akhir periode penagihan. Pelanggan tahunan mungkin mendapatkan pengembalian dana prorata jika tidak terpakai.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Buka instacart.com dan masuk." },
+          { "instruction": "Klik ikon profil Anda → Instacart+." },
+          { "instruction": "Klik Kelola keanggotaan Anda." },
+          { "instruction": "Klik Batalkan keanggotaan.", "note": "Jika Anda memiliki paket tahunan, Instacart mungkin menawarkan pengembalian dana prorata." },
+          { "instruction": "Konfirmasi pembatalan." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Buka aplikasi Instacart → ketuk ikon profil Anda." },
+          { "instruction": "Ketuk Instacart+ → Kelola keanggotaan." },
+          { "instruction": "Ketuk Batalkan keanggotaan → konfirmasi." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Buka aplikasi → ikon profil → Instacart+." },
+          { "instruction": "Ketuk Kelola keanggotaan → Batalkan keanggotaan → konfirmasi." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Bisakah saya mendapatkan pengembalian dana untuk paket tahunan Instacart+?",
+        "answer": "Ya, jika Anda belum banyak menggunakan keanggotaan. Hubungi dukungan jika opsi pengembalian dana tidak ditampilkan."
+      },
+      {
+        "question": "Apa yang terjadi pada pesanan tertunda saya setelah pembatalan?",
+        "answer": "Pesanan aktif tidak terpengaruh. Pembebasan biaya pengiriman tidak akan berlaku untuk pesanan baru setelah pembatalan."
+      }
+    ],
+    "alternatives": [
+      { "description": "Pengiriman gratis dengan Prime — pengiriman bahan makanan" },
+      { "description": "$99/thn — Target + pengecer lainnya" }
+    ]
   }
 }

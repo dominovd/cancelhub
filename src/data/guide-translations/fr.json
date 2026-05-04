@@ -524,5 +524,378 @@
         "answer": "Si vous vous êtes abonné via un tiers (App Store, Google Play ou un revendeur comme Amazon), vous devez résilier via cette plateforme."
       }
     ]
+  },
+  "doordash": {
+    "description": "Résiliez DashPass en moins de 2 minutes. Aucuns frais de résiliation — l'accès se poursuit jusqu'à la fin de la période de facturation.",
+    "difficultyReason": "DoorDash permet une résiliation facile via l'application ou le site web sans écrans de rétention.",
+    "refundPolicy": "Aucun remboursement. Les avantages DashPass se poursuivent jusqu'à la fin de la période de facturation.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {"instruction": "Rendez-vous sur doordash.com et connectez-vous."},
+          {"instruction": "Cliquez sur votre icône de profil → «Obtenir DashPass» ou allez sur doordash.com/account."},
+          {"instruction": "Faites défiler jusqu'à «DashPass» → cliquez sur «Gérer DashPass»."},
+          {"instruction": "Cliquez sur «Annuler DashPass»."},
+          {"instruction": "Suivez les confirmations → cliquez sur «Annuler DashPass» pour confirmer.", "note": "Vous conservez les avantages DashPass jusqu'à la fin de votre période de facturation."}
+        ]
+      },
+      "ios": {
+        "steps": [
+          {"instruction": "Ouvrez l'application DoorDash → appuyez sur votre icône de profil (en bas à droite)."},
+          {"instruction": "Appuyez sur «Obtenir DashPass» ou «Gérer DashPass»."},
+          {"instruction": "Appuyez sur «Annuler DashPass» → confirmer."}
+        ]
+      },
+      "android": {
+        "steps": [
+          {"instruction": "Ouvrez l'application DoorDash → appuyez sur votre icône de profil."},
+          {"instruction": "Appuyez sur «Gérer DashPass»."},
+          {"instruction": "Appuyez sur «Annuler DashPass» → suivez les confirmations."}
+        ]
+      }
+    },
+    "commonIssues": [
+      {"question": "Je ne trouve pas l'option DashPass dans mon compte.", "answer": "Assurez-vous d'être connecté avec le même compte utilisé pour l'abonnement. Si vous vous êtes abonné via les avantages de la carte de crédit Chase, vous devez annuler via Chase, pas directement via DoorDash."},
+      {"question": "Vais-je perdre mon DashPass en milieu de mois ?", "answer": "Non. Les avantages DashPass se poursuivent jusqu'à la fin de votre période de facturation en cours."}
+    ],
+    "alternatives": [
+      {"description": "9,99 $/mois — livraison gratuite sur Uber Eats + trajets Uber"},
+      {"description": "9,99 $/mois — livraison gratuite sur les commandes Grubhub"}
+    ]
+  },
+  "peacock": {
+    "description": "Résiliez Peacock Premium en moins de 3 minutes sur le web ou via les paramètres d'abonnement de votre appareil.",
+    "difficultyReason": "Le processus de résiliation de Peacock est simple avec une friction de rétention minimale.",
+    "refundPolicy": "Aucun remboursement. L'accès se poursuit jusqu'à la fin de la période de facturation.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {"instruction": "Rendez-vous sur peacocktv.com et connectez-vous."},
+          {"instruction": "Cliquez sur votre icône de profil → «Compte»."},
+          {"instruction": "Dans «Formule», cliquez sur «Changer ou annuler la formule»."},
+          {"instruction": "Cliquez sur «Annuler la formule»."},
+          {"instruction": "Sélectionnez un motif → cliquez sur «Continuer».", "note": "Votre accès à Peacock Premium se poursuit jusqu'à la date de facturation."},
+          {"instruction": "Confirmez la résiliation."}
+        ]
+      },
+      "ios": {
+        "steps": [
+          {"instruction": "Ouvrez Réglages → appuyez sur votre nom → Abonnements."},
+          {"instruction": "Trouvez «Peacock» → appuyez dessus."},
+          {"instruction": "Appuyez sur «Résilier l'abonnement» → confirmer."}
+        ]
+      },
+      "android": {
+        "steps": [
+          {"instruction": "Ouvrez le Google Play Store → profil → «Paiements et abonnements» → Abonnements."},
+          {"instruction": "Trouvez «Peacock» → appuyez sur «Résilier l'abonnement» → confirmer."}
+        ]
+      }
+    },
+    "commonIssues": [
+      {"question": "Je me suis abonné via mon fournisseur TV — comment annuler ?", "answer": "Si Peacock était inclus avec votre forfait câble ou internet, vous devez annuler via votre fournisseur TV/internet, et non directement via Peacock."},
+      {"question": "J'ai le niveau gratuit — dois-je annuler ?", "answer": "Non. Le niveau gratuit de Peacock n'a pas d'abonnement à résilier. Seuls Premium et Premium Plus nécessitent une résiliation."}
+    ],
+    "alternatives": [
+      {"description": "7,99 $/mois — CBS, MTV, Nickelodeon"},
+      {"description": "9,99 $/mois — contenu HBO"}
+    ]
+  },
+  "audible": {
+    "description": "Résiliez Audible sans perdre vos crédits ni vos livres audio achetés. Le moment de la résiliation est important.",
+    "difficultyReason": "Audible utilise plusieurs écrans de rétention, propose des pauses et des réductions, mais la résiliation est finalement possible.",
+    "refundPolicy": "Les crédits non utilisés sont perdus à la résiliation. Les livres audio achetés vous appartiennent pour toujours.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {"instruction": "Rendez-vous sur audible.com et connectez-vous."},
+          {"instruction": "Survolez votre nom → cliquez sur «Détails du compte»."},
+          {"instruction": "Cliquez sur «Annuler l'abonnement» dans la barre latérale gauche ou dans «Détails de l'abonnement»."},
+          {"instruction": "Audible affichera une option «suspendre l'abonnement» — cliquez sur «Continuer pour annuler» si vous souhaitez résilier.", "note": "Utilisez vos crédits avant d'annuler — ils expirent à la fin de votre abonnement."},
+          {"instruction": "Sélectionnez un motif → cliquez sur «Annuler l'abonnement»."},
+          {"instruction": "Vous recevrez un e-mail de confirmation."}
+        ]
+      },
+      "ios": {
+        "steps": [
+          {"instruction": "Si abonné via l'App Store : Réglages → Identifiant Apple → Abonnements → Audible → Résilier."},
+          {"instruction": "Si abonné directement avec Amazon/Audible : utilisez les étapes du site web ci-dessus."}
+        ]
+      },
+      "android": {
+        "steps": [
+          {"instruction": "Si abonné via Google Play : Play Store → Abonnements → Audible → Résilier."},
+          {"instruction": "Si abonné directement : utilisez les étapes du site web ci-dessus."}
+        ]
+      }
+    },
+    "commonIssues": [
+      {"question": "Qu'arrive-t-il à mes crédits quand j'annule ?", "answer": "Les crédits non utilisés sont perdus à la résiliation. Utilisez-les avant d'annuler — vous pouvez acheter des livres audio avec des crédits et les conserver pour toujours même après la résiliation."},
+      {"question": "Vais-je perdre mes livres audio achetés ?", "answer": "Non. Les livres audio que vous avez achetés avec des crédits ou directement vous appartiennent définitivement. Vous pouvez y accéder via l'application Audible même sans abonnement."},
+      {"question": "Puis-je suspendre plutôt qu'annuler ?", "answer": "Oui. Audible permet de suspendre l'abonnement de 1 à 3 mois. Pendant la suspension, vous n'êtes pas prélevé mais ne gagnez pas non plus de crédits. Trouvez cette option dans le processus de résiliation."}
+    ],
+    "alternatives": [
+      {"description": "11,99 $/mois — ebooks + quelques livres audio"},
+      {"description": "11,99 $/mois — livres audio, ebooks, documents"}
+    ]
+  },
+  "fabletics": {
+    "description": "Résiliez l'abonnement VIP Fabletics — nécessite un appel téléphonique ou un chat. Utilisez d'abord votre crédit membre.",
+    "difficultyReason": "Fabletics exige une résiliation par téléphone ou chat en direct (pas d'autoservice en ligne), utilise des tactiques de rétention agressives et prélève automatiquement 59,95 $ si vous oubliez de passer le mois avant le 5.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {"instruction": "Connectez-vous à fabletics.com et utilisez les crédits accumulés avant d'annuler."},
+          {"instruction": "Cliquez sur «Crédits membres» pour vérifier votre solde.", "note": "Les crédits expirent après la résiliation — utilisez-les d'abord."},
+          {"instruction": "Ouvrez le chat en direct sur fabletics.com ou appelez le 1-844-322-5384."},
+          {"instruction": "Dites à l'agent que vous souhaitez résilier votre abonnement VIP."},
+          {"instruction": "Refusez toutes les offres de rétention (remises, pauses, offres de crédits)."},
+          {"instruction": "Confirmez la résiliation et demandez un numéro de confirmation ou un e-mail."}
+        ]
+      },
+      "ios": {
+        "steps": [
+          {"instruction": "Fabletics ne prend pas en charge la résiliation via l'application iOS ni l'App Store."},
+          {"instruction": "Utilisez le téléphone (1-844-322-5384) ou le chat en direct sur fabletics.com."}
+        ]
+      },
+      "android": {
+        "steps": [
+          {"instruction": "Fabletics ne prend pas en charge la résiliation via l'application Android ni le Play Store."},
+          {"instruction": "Utilisez le téléphone ou le chat en direct — voir les étapes web ci-dessus."}
+        ]
+      }
+    },
+    "commonIssues": [
+      {"question": "J'ai été prélevé de 59,95 $ — puis-je obtenir un remboursement ?", "answer": "Si vous avez été prélevé sans le vouloir, contactez immédiatement le support Fabletics. Ils peuvent émettre un crédit, mais les remboursements en espèces sont rares. Le prélèvement a lieu si vous ne passez pas le mois avant le 5."},
+      {"question": "Qu'est-ce que l'option «passer le mois» ?", "answer": "Chaque mois, vous devez vous connecter et cliquer sur «Passer ce mois» avant le 5 pour éviter d'être prélevé. Il s'agit d'un schéma obscur délibéré — configurez un rappel de calendrier récurrent."},
+      {"question": "Puis-je annuler en ligne sans appeler ?", "answer": "Fabletics a ajouté une option de chat en direct. Le chat est disponible sur fabletics.com et est généralement plus rapide qu'un appel."}
+    ]
+  },
+  "experian": {
+    "description": "Résiliez l'abonnement Experian CreditWorks ou IdentityWorks. Nécessite un appel ou un chat — pas de résiliation en ligne.",
+    "difficultyReason": "Experian ne propose pas de résiliation en libre-service en ligne. Vous devez appeler ou chatter, et les agents utilisent des tactiques de rétention.",
+    "refundPolicy": "Remboursements au prorata disponibles dans certains cas. Contactez le support dans le cycle de facturation pour de meilleurs résultats.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {"instruction": "Connectez-vous à experian.com ou accédez aux paramètres de votre compte."},
+          {"instruction": "Si aucun bouton d'annulation n'est disponible (courant), ouvrez le chat en direct via experian.com/consumer/help.html.", "note": "Experian cache souvent l'option d'annulation — le chat en direct est généralement la voie la plus rapide."},
+          {"instruction": "Dites à l'agent que vous souhaitez résilier votre abonnement."},
+          {"instruction": "Refusez toute offre de rétention (pause de surveillance du crédit, remises)."},
+          {"instruction": "Demandez un e-mail de confirmation avec votre date de résiliation."}
+        ]
+      },
+      "ios": {
+        "steps": [
+          {"instruction": "Si abonné via l'App Store : Réglages → Identifiant Apple → Abonnements → Experian → Résilier."},
+          {"instruction": "Si abonné directement avec Experian : utilisez le téléphone (1-479-343-6239) ou le chat en direct."}
+        ]
+      },
+      "android": {
+        "steps": [
+          {"instruction": "Si abonné via Google Play : Play Store → Abonnements → Experian → Résilier."},
+          {"instruction": "Si abonné directement : utilisez le chat en direct ou appelez le support Experian."}
+        ]
+      }
+    },
+    "commonIssues": [
+      {"question": "Je ne trouve pas de bouton d'annulation sur le site web.", "answer": "Experian rend intentionnellement difficile la résiliation en libre-service. Accédez directement à experian.com/consumer/cancel.html ou utilisez le chat en direct. Appeler le 1-479-343-6239 est également fiable."},
+      {"question": "La résiliation affectera-t-elle mon score de crédit ?", "answer": "Non. Résilier votre abonnement Experian n'affecte pas du tout votre score de crédit."},
+      {"question": "Qu'arrive-t-il à ma surveillance du crédit ?", "answer": "Les alertes de surveillance du crédit s'arrêtent. Les données de votre rapport de crédit ne sont pas supprimées — vous pouvez toujours obtenir des rapports annuels gratuits sur annualcreditreport.com."}
+    ],
+    "alternatives": [
+      {"description": "Surveillance du crédit gratuite — sans abonnement"},
+      {"description": "8,99 $/mois — protection contre l'usurpation d'identité"}
+    ]
+  },
+  "crunch-fitness": {
+    "description": "Résiliez votre abonnement Crunch Fitness en personne, par courrier recommandé ou parfois en ligne. Les contrats annuels ont des frais de résiliation anticipée.",
+    "difficultyReason": "Crunch exige une résiliation en personne ou par courrier recommandé pour la plupart des membres. Les contrats annuels comportent des frais de résiliation anticipée pouvant atteindre 175 $.",
+    "refundPolicy": "Aucun remboursement. Les membres avec un contrat annuel doivent payer des frais de résiliation anticipée s'ils annulent avant la fin du contrat.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {"instruction": "Connectez-vous sur crunch.com et vérifiez si votre club propose l'annulation en ligne (rare — la plupart ne le font pas)."},
+          {"instruction": "Si l'annulation en ligne n'est pas disponible, rendez-vous en personne dans votre club d'origine avec une pièce d'identité."},
+          {"instruction": "Demandez à parler à un conseiller en adhésion et demandez la résiliation.", "note": "Apportez votre numéro de membre ou l'e-mail utilisé lors de l'inscription."},
+          {"instruction": "Vous pouvez également envoyer une lettre recommandée à votre club d'origine avec : votre nom complet, numéro de membre, adresse et signature."},
+          {"instruction": "Conservez le récépissé du courrier recommandé comme preuve. La résiliation prend généralement effet 30 jours après réception."}
+        ]
+      },
+      "ios": {
+        "steps": [
+          {"instruction": "Crunch ne prend pas en charge la résiliation via l'application iOS."},
+          {"instruction": "Annulez en personne dans votre club d'origine ou par courrier recommandé — voir les étapes web."}
+        ]
+      },
+      "android": {
+        "steps": [
+          {"instruction": "Crunch ne prend pas en charge la résiliation via l'application Android."},
+          {"instruction": "Annulez en personne ou par courrier recommandé — voir les étapes web."}
+        ]
+      }
+    },
+    "commonIssues": [
+      {"question": "J'ai un contrat annuel — quels sont les frais de résiliation anticipée ?", "answer": "Les frais sont généralement de 175 $ ou le solde restant du contrat (le moins élevé des deux). Les membres au mois peuvent annuler à tout moment avec un préavis de 30 jours."},
+      {"question": "Puis-je annuler si j'ai déménagé ?", "answer": "Oui — le déménagement est une raison acceptable. Vous devrez fournir une preuve de votre nouvelle adresse montrant que vous vivez à plus de 40 km de tout club Crunch."},
+      {"question": "Puis-je suspendre mon abonnement plutôt qu'annuler ?", "answer": "Oui. La plupart des clubs Crunch permettent une suspension de 1 à 3 mois pour une petite somme (10–15 $/mois). Renseignez-vous auprès de votre club d'origine."}
+    ],
+    "alternatives": [
+      {"description": "10–25 $/mois — résiliation en ligne facile"},
+      {"description": "30–50 $/mois — accès 24h/24 7j/7"}
+    ]
+  },
+  "xfinity": {
+    "description": "Résiliez internet, câble ou streaming Xfinity sans payer de frais de résiliation anticipée. Nécessite un appel ou une visite en magasin.",
+    "difficultyReason": "Xfinity est connu pour ses longs temps d'attente, ses tactiques de rétention agressives et sa facturation complexe. Les frais de résiliation anticipée peuvent dépasser 110 $.",
+    "refundPolicy": "Remboursement au prorata pour les jours non utilisés après résiliation. Des frais de résiliation anticipée s'appliquent en cas de contrat en cours.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {"instruction": "Rendez-vous sur xfinity.com/support et connectez-vous.", "note": "Vérifiez d'abord la date de fin de votre contrat — allez dans Mon compte → Accord de service pour voir si vous devez des frais de résiliation anticipée."},
+          {"instruction": "Utilisez le chat de l'assistant Xfinity et tapez Résilier le service — cela fonctionne parfois sans attente."},
+          {"instruction": "Vous pouvez aussi appeler le 1-800-934-6489. Prévoyez 15 à 45 minutes d'attente."},
+          {"instruction": "Dites au représentant que vous souhaitez résilier, pas rétrograder. Refusez toutes les offres de rétention."},
+          {"instruction": "Demandez un numéro de confirmation de résiliation et un e-mail."},
+          {"instruction": "Retournez tout équipement loué (modem, routeur, décodeur) dans un magasin Xfinity ou par kit de retour prépayé dans les 10 jours pour éviter les frais d'équipement."}
+        ]
+      },
+      "ios": {
+        "steps": [
+          {"instruction": "Ouvrez l'application Xfinity → appuyez sur l'icône de compte."},
+          {"instruction": "Appuyez sur Gérer mon forfait — options de résiliation limitées dans l'application. La résiliation complète nécessite un appel ou une visite en magasin."}
+        ]
+      },
+      "android": {
+        "steps": [
+          {"instruction": "Ouvrez l'application Xfinity → icône de compte → Gérer mon forfait."},
+          {"instruction": "Pour une résiliation complète, appelez ou visitez un magasin."}
+        ]
+      }
+    },
+    "commonIssues": [
+      {"question": "Quels sont les frais de résiliation anticipée ?", "answer": "Si vous êtes sous un contrat d'1 ou 2 ans, Xfinity facture jusqu'à 110 $ de frais de résiliation anticipée. Ces frais diminuent chaque mois à mesure que vous approchez de la fin du contrat. Les clients au mois n'ont pas de frais de résiliation anticipée."},
+      {"question": "Dois-je rendre l'équipement ?", "answer": "Oui — l'équipement non rendu entraîne des frais de 110 à 350 $ par appareil. Retournez-le dans les 10 jours suivant la résiliation pour éviter ces frais."},
+      {"question": "Puis-je annuler en ligne sans appeler ?", "answer": "Certains comptes peuvent utiliser le chat de l'assistant Xfinity pour annuler. D'autres nécessitent un appel téléphonique ou une visite en magasin. La voie du chat est plus rapide si elle fonctionne pour votre type de compte."}
+    ],
+    "alternatives": [
+      {"description": "Internet fibre — tarifs compétitifs"},
+      {"description": "Sans engagement, sans limite de données"}
+    ]
+  },
+  "fubotv": {
+    "description": "Résiliez FuboTV en moins de 2 minutes sur le web. Aucuns frais de résiliation — l'accès se poursuit jusqu'à la fin de la période de facturation.",
+    "difficultyReason": "FuboTV propose une résiliation en ligne simple sans frais de résiliation anticipée.",
+    "refundPolicy": "Aucun remboursement. L'accès se poursuit jusqu'à la fin de la période de facturation.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {"instruction": "Rendez-vous sur fubo.tv et connectez-vous."},
+          {"instruction": "Cliquez sur votre icône de profil (en haut à droite) → Mon compte."},
+          {"instruction": "Cliquez sur Gérer l'abonnement."},
+          {"instruction": "Cliquez sur Résilier l'abonnement.", "note": "FuboTV peut vous proposer une option de suspension — ne cliquez sur Résilier que si vous souhaitez annuler complètement."},
+          {"instruction": "Sélectionnez un motif → confirmez la résiliation."},
+          {"instruction": "Vous recevrez un e-mail de confirmation."}
+        ]
+      },
+      "ios": {
+        "steps": [
+          {"instruction": "Ouvrez Réglages → appuyez sur votre nom → Abonnements."},
+          {"instruction": "Trouvez FuboTV → appuyez dessus."},
+          {"instruction": "Appuyez sur Résilier l'abonnement → confirmer."}
+        ]
+      },
+      "android": {
+        "steps": [
+          {"instruction": "Ouvrez le Google Play Store → profil → Paiements et abonnements → Abonnements."},
+          {"instruction": "Trouvez FuboTV → appuyez sur Résilier l'abonnement → confirmer."}
+        ]
+      }
+    },
+    "commonIssues": [
+      {"question": "Je me suis abonné via Roku ou Amazon — comment annuler ?", "answer": "Annulez via la plateforme utilisée : Roku (Paramètres → Abonnements → FuboTV), Amazon (amazon.com/mysubscriptions), ou les paramètres d'abonnement de l'appareil Apple/Google."},
+      {"question": "FuboTV propose-t-il un essai gratuit ?", "answer": "Des essais gratuits sont proposés occasionnellement. Si vous annulez pendant un essai, faites-le au moins 24 heures avant la fin pour éviter d'être prélevé."}
+    ],
+    "alternatives": [
+      {"description": "72,99 $/mois — plus de 100 chaînes, DVR illimité"},
+      {"description": "À partir de 40 $/mois — forfaits de chaînes flexibles"},
+      {"description": "À partir de 64,99 $/mois — axé sur le sport en direct"}
+    ]
+  },
+  "uber-eats": {
+    "description": "Résiliez Uber One (abonnement Uber Eats + trajets Uber) en moins de 2 minutes via l'application ou le site web.",
+    "difficultyReason": "La résiliation est simple via l'application Uber sans friction de rétention.",
+    "refundPolicy": "Aucun remboursement. Les avantages Uber One se poursuivent jusqu'à la fin de la période de facturation.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {"instruction": "Rendez-vous sur uber.com et connectez-vous."},
+          {"instruction": "Cliquez sur votre icône de profil → Uber One ou allez directement sur uber.com/uberpro/uber-one."},
+          {"instruction": "Cliquez sur Gérer l'abonnement."},
+          {"instruction": "Cliquez sur Résilier l'abonnement.", "note": "Vos avantages Uber One se poursuivent jusqu'à la fin de la période de facturation."},
+          {"instruction": "Confirmez la résiliation."}
+        ]
+      },
+      "ios": {
+        "steps": [
+          {"instruction": "Ouvrez l'application Uber ou Uber Eats → appuyez sur votre icône de profil."},
+          {"instruction": "Appuyez sur Uber One → Gérer l'abonnement."},
+          {"instruction": "Appuyez sur Résilier l'abonnement → confirmer."}
+        ]
+      },
+      "android": {
+        "steps": [
+          {"instruction": "Ouvrez l'application Uber ou Uber Eats → icône de profil."},
+          {"instruction": "Appuyez sur Uber One → Gérer l'abonnement → Résilier l'abonnement."},
+          {"instruction": "Confirmez la résiliation."}
+        ]
+      }
+    },
+    "commonIssues": [
+      {"question": "Résilier Uber One annule-t-il à la fois les avantages Uber trajets et Uber Eats ?", "answer": "Oui. Uber One est un abonnement unique qui couvre à la fois les réductions sur les trajets Uber et les avantages de livraison Uber Eats. La résiliation supprime les deux."},
+      {"question": "J'ai été prélevé après avoir annulé.", "answer": "Si vous avez annulé avant votre date de renouvellement mais avez quand même été prélevé, contactez le support Uber via l'application (Aide → Compte → Uber One) pour un remboursement."}
+    ],
+    "alternatives": [
+      {"description": "9,99 $/mois — livraison gratuite sur DoorDash"},
+      {"description": "9,99 $/mois — livraison gratuite sur Grubhub"}
+    ]
+  },
+  "instacart": {
+    "description": "Résiliez Instacart+ en moins de 2 minutes sur l'application ou le site web.",
+    "difficultyReason": "La résiliation d'Instacart+ est simple via l'application avec une friction de rétention minimale.",
+    "refundPolicy": "Aucun remboursement. Les avantages se poursuivent jusqu'à la fin de la période de facturation. Les abonnés annuels peuvent obtenir un remboursement au prorata si l'abonnement est peu utilisé.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {"instruction": "Rendez-vous sur instacart.com et connectez-vous."},
+          {"instruction": "Cliquez sur votre icône de profil → Instacart+."},
+          {"instruction": "Cliquez sur Gérer votre abonnement."},
+          {"instruction": "Cliquez sur Résilier l'abonnement.", "note": "Si vous avez un forfait annuel avec des mois restants, Instacart peut proposer un remboursement au prorata."},
+          {"instruction": "Confirmez la résiliation."}
+        ]
+      },
+      "ios": {
+        "steps": [
+          {"instruction": "Ouvrez l'application Instacart → appuyez sur votre icône de profil."},
+          {"instruction": "Appuyez sur Instacart+ → Gérer l'abonnement."},
+          {"instruction": "Appuyez sur Résilier l'abonnement → confirmer."}
+        ]
+      },
+      "android": {
+        "steps": [
+          {"instruction": "Ouvrez l'application Instacart → icône de profil → Instacart+."},
+          {"instruction": "Appuyez sur Gérer l'abonnement → Résilier l'abonnement → confirmer."}
+        ]
+      }
+    },
+    "commonIssues": [
+      {"question": "Puis-je obtenir un remboursement pour mon forfait annuel Instacart+ ?", "answer": "Oui, si vous n'avez pas beaucoup utilisé l'abonnement. Instacart peut proposer un remboursement au prorata pour la partie non utilisée. Contactez le support si l'option n'est pas affichée lors de la résiliation."},
+      {"question": "Qu'arrive-t-il à mes commandes en cours après la résiliation ?", "answer": "Les commandes actives ne sont pas affectées par la résiliation. Les exonérations de frais de livraison ne s'appliqueront pas aux nouvelles commandes passées après la résiliation."}
+    ],
+    "alternatives": [
+      {"description": "Livraison gratuite avec Prime — livraison d'épicerie"},
+      {"description": "99 $/an — Target + autres détaillants"}
+    ]
   }
 }

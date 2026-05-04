@@ -524,5 +524,453 @@
         "answer": "Se você assinou por um terceiro (App Store, Google Play ou revendedor como a Amazon), é necessário cancelar por essa plataforma."
       }
     ]
+  },
+  "doordash": {
+    "description": "Cancele o DashPass em menos de 2 minutos. Sem taxa de cancelamento — o acesso continua até o fim do período de cobrança.",
+    "difficultyReason": "O DoorDash permite o cancelamento fácil pelo aplicativo ou site, sem telas de retenção.",
+    "refundPolicy": "Sem reembolsos. Os benefícios do DashPass continuam até o fim do período de cobrança.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Acesse doordash.com e faça login." },
+          { "instruction": "Clique no ícone do seu perfil → Obter DashPass ou acesse doordash.com/account." },
+          { "instruction": "Role até DashPass → clique em Gerenciar DashPass." },
+          { "instruction": "Clique em Cancelar DashPass." },
+          { "instruction": "Siga as instruções de confirmação → clique em Cancelar DashPass para confirmar.", "note": "Você mantém os benefícios do DashPass até o fim do seu período de cobrança." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Abra o aplicativo DoorDash → toque no ícone do seu perfil (canto inferior direito)." },
+          { "instruction": "Toque em Obter DashPass ou Gerenciar DashPass." },
+          { "instruction": "Toque em Cancelar DashPass → confirme." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Abra o aplicativo DoorDash → toque no ícone do seu perfil." },
+          { "instruction": "Toque em Gerenciar DashPass." },
+          { "instruction": "Toque em Cancelar DashPass → siga as instruções de confirmação." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Não consigo encontrar a opção DashPass na minha conta.",
+        "answer": "Certifique-se de estar logado na mesma conta usada para assinar. Se você assinou por meio dos benefícios do cartão de crédito Chase, deve cancelar pelo Chase, não diretamente pelo DoorDash."
+      },
+      {
+        "question": "Vou perder o DashPass no meio do mês?",
+        "answer": "Não. Os benefícios do DashPass continuam até o fim do seu período de cobrança atual."
+      }
+    ],
+    "alternatives": [
+      { "description": "$9,99/mês — entrega grátis no Uber Eats + corridas no Uber" },
+      { "description": "$9,99/mês — entrega grátis em pedidos no Grubhub" }
+    ]
+  },
+  "peacock": {
+    "description": "Cancele o Peacock Premium em menos de 3 minutos pela web ou pelas configurações de assinatura do seu dispositivo.",
+    "difficultyReason": "O fluxo de cancelamento do Peacock é simples, com pouca fricção de retenção.",
+    "refundPolicy": "Sem reembolsos. O acesso continua até o fim do período de cobrança.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Acesse peacocktv.com e faça login." },
+          { "instruction": "Clique no ícone do seu perfil → Conta." },
+          { "instruction": "Em Plano, clique em Alterar ou cancelar plano." },
+          { "instruction": "Clique em Cancelar plano." },
+          { "instruction": "Selecione um motivo → clique em Continuar.", "note": "Seu acesso ao Peacock Premium continua até a data de cobrança." },
+          { "instruction": "Confirme o cancelamento." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Abra Configurações → toque no seu nome → Assinaturas." },
+          { "instruction": "Encontre Peacock → toque nele." },
+          { "instruction": "Toque em Cancelar assinatura → confirme." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Abra a Google Play Store → perfil → Pagamentos e assinaturas → Assinaturas." },
+          { "instruction": "Encontre Peacock → toque em Cancelar assinatura → confirme." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Assinei pelo meu provedor de TV — como cancelo?",
+        "answer": "Se o Peacock foi incluído com seu plano de TV a cabo ou internet, você deve cancelar pelo seu provedor de TV/internet, não diretamente pelo Peacock."
+      },
+      {
+        "question": "Tenho o plano gratuito — preciso cancelar?",
+        "answer": "Não. O nível gratuito do Peacock não tem assinatura para cancelar. Apenas Premium e Premium Plus requerem cancelamento."
+      }
+    ],
+    "alternatives": [
+      { "description": "$7,99/mês — CBS, MTV, Nickelodeon" },
+      { "description": "$9,99/mês — conteúdo HBO" }
+    ]
+  },
+  "audible": {
+    "description": "Cancele o Audible sem perder seus créditos ou audiolivros comprados. O momento do cancelamento é importante.",
+    "difficultyReason": "O Audible usa várias telas de retenção, oferece pausas e descontos, mas o cancelamento está disponível.",
+    "refundPolicy": "Créditos não utilizados são perdidos ao cancelar. Audiolivros comprados são seus para sempre.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Acesse audible.com e faça login." },
+          { "instruction": "Passe o cursor sobre seu nome → clique em Detalhes da conta." },
+          { "instruction": "Clique em Cancelar assinatura na barra lateral esquerda ou em Detalhes da assinatura." },
+          { "instruction": "O Audible mostrará a opção de pausar a assinatura — clique em Continuar o cancelamento se quiser cancelar.", "note": "Use seus créditos antes de cancelar — eles expiram quando sua assinatura termina." },
+          { "instruction": "Selecione um motivo → clique em Cancelar assinatura." },
+          { "instruction": "Você receberá um e-mail de confirmação." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Se assinou pela App Store: Configurações → Apple ID → Assinaturas → Audible → Cancelar." },
+          { "instruction": "Se assinou diretamente com a Amazon/Audible: use os passos do site acima." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Se assinou pelo Google Play: Play Store → Assinaturas → Audible → Cancelar." },
+          { "instruction": "Se assinou diretamente: use os passos do site acima." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "O que acontece com meus créditos ao cancelar?",
+        "answer": "Quaisquer créditos não utilizados são perdidos ao cancelar. Use-os antes de cancelar — você pode comprar audiolivros com créditos e mantê-los para sempre mesmo após o cancelamento."
+      },
+      {
+        "question": "Vou perder meus audiolivros comprados?",
+        "answer": "Não. Audiolivros comprados com créditos ou adquiridos diretamente são seus permanentemente. Você pode acessá-los pelo aplicativo Audible mesmo sem assinatura."
+      },
+      {
+        "question": "Posso pausar em vez de cancelar?",
+        "answer": "Sim. O Audible permite pausar por 1 a 3 meses. Durante a pausa, você não será cobrado, mas também não acumulará créditos. Encontre a opção durante o fluxo de cancelamento."
+      }
+    ],
+    "alternatives": [
+      { "description": "$11,99/mês — e-books + alguns audiolivros" },
+      { "description": "$11,99/mês — audiolivros, e-books, documentos" }
+    ]
+  },
+  "fabletics": {
+    "description": "Cancele a assinatura VIP da Fabletics — requer ligação telefônica ou chat. Evite a armadilha dos créditos antes de cancelar.",
+    "difficultyReason": "A Fabletics exige cancelamento por telefone ou chat ao vivo (sem autoatendimento online), usa táticas agressivas de retenção e cobra automaticamente $59,95 se você esquecer de pular até o dia 5 do mês.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Faça login em fabletics.com e use todos os créditos acumulados antes de cancelar." },
+          { "instruction": "Clique em Créditos de membro para verificar seu saldo.", "note": "Os créditos expiram após o cancelamento — use-os antes." },
+          { "instruction": "Abra o chat ao vivo em fabletics.com ou ligue para 1-844-322-5384." },
+          { "instruction": "Diga ao atendente que deseja cancelar sua assinatura VIP." },
+          { "instruction": "Recuse todas as ofertas de retenção (descontos, pausas, ofertas de créditos)." },
+          { "instruction": "Confirme o cancelamento e solicite um número de confirmação ou e-mail." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "A Fabletics não suporta cancelamento pelo aplicativo iOS ou App Store." },
+          { "instruction": "Use o telefone (1-844-322-5384) ou o chat ao vivo em fabletics.com." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "A Fabletics não suporta cancelamento pelo aplicativo Android ou Play Store." },
+          { "instruction": "Use o telefone ou o chat ao vivo — veja os passos do site acima." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Fui cobrado $59,95 — posso obter reembolso?",
+        "answer": "Se você foi cobrado sem querer, entre em contato com o suporte da Fabletics imediatamente. Eles podem emitir um crédito, mas reembolsos em dinheiro são raros. A cobrança acontece se você não pular o mês até o dia 5."
+      },
+      {
+        "question": "O que é a opção de pular o mês?",
+        "answer": "Todo mês, você deve fazer login e clicar em Pular este mês antes do dia 5 para evitar ser cobrado. Isso é um padrão obscuro intencional — defina um lembrete recorrente no calendário."
+      },
+      {
+        "question": "Posso cancelar online sem ligar?",
+        "answer": "A Fabletics adicionou a opção de chat ao vivo. O chat está disponível em fabletics.com e geralmente é mais rápido do que ligar."
+      }
+    ]
+  },
+  "experian": {
+    "description": "Cancele a assinatura do Experian CreditWorks ou IdentityWorks. Requer ligação ou chat — sem cancelamento online.",
+    "difficultyReason": "O Experian não oferece cancelamento online por autoatendimento. Você deve ligar ou usar o chat, e os agentes usam táticas de retenção.",
+    "refundPolicy": "Reembolsos proporcionais disponíveis em alguns casos. Entre em contato com o suporte dentro do ciclo de cobrança para melhores resultados.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Faça login em experian.com ou acesse as configurações da sua conta." },
+          { "instruction": "Se não houver botão de cancelamento disponível (comum), abra o chat ao vivo em experian.com/consumer/help.html.", "note": "O Experian frequentemente esconde a opção de cancelamento — o chat ao vivo geralmente é a rota mais rápida." },
+          { "instruction": "Diga ao atendente que deseja cancelar sua assinatura." },
+          { "instruction": "Recuse quaisquer ofertas de retenção (pausa no monitoramento de crédito, descontos)." },
+          { "instruction": "Solicite um e-mail de confirmação com a data de cancelamento." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Se assinou pela App Store: Configurações → Apple ID → Assinaturas → Experian → Cancelar." },
+          { "instruction": "Se assinou diretamente com o Experian: use o telefone (1-479-343-6239) ou o chat ao vivo." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Se assinou pelo Google Play: Play Store → Assinaturas → Experian → Cancelar." },
+          { "instruction": "Se assinou diretamente: use o chat ao vivo ou ligue para o suporte do Experian." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Não consigo encontrar o botão de cancelamento no site.",
+        "answer": "O Experian torna o cancelamento por autoatendimento difícil de encontrar intencionalmente. Acesse diretamente experian.com/consumer/cancel.html ou use o chat ao vivo. Ligar para 1-479-343-6239 também é confiável."
+      },
+      {
+        "question": "Cancelar afetará meu score de crédito?",
+        "answer": "Não. Cancelar sua assinatura do Experian não afeta seu score de crédito de forma alguma."
+      },
+      {
+        "question": "O que acontece com meu monitoramento de crédito?",
+        "answer": "Os alertas de monitoramento de crédito são interrompidos. Seus dados de relatório de crédito não são excluídos — você ainda pode obter relatórios anuais gratuitos em annualcreditreport.com."
+      }
+    ],
+    "alternatives": [
+      { "description": "Monitoramento de crédito gratuito — sem assinatura necessária" },
+      { "description": "$8,99/mês — proteção contra roubo de identidade" }
+    ]
+  },
+  "crunch-fitness": {
+    "description": "Cancele sua assinatura da Crunch Fitness pessoalmente, por carta registrada ou às vezes online. Contratos anuais têm taxas de rescisão antecipada.",
+    "difficultyReason": "A Crunch exige cancelamento presencial ou por carta registrada para a maioria dos membros. Contratos anuais têm taxas de rescisão antecipada de até $175.",
+    "refundPolicy": "Sem reembolsos. Membros com contrato anual devem pagar a taxa de rescisão antecipada se cancelarem antes do fim do contrato.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Faça login em crunch.com e verifique se sua unidade oferece cancelamento online (raro — a maioria não oferece)." },
+          { "instruction": "Se o cancelamento online não estiver disponível, vá pessoalmente à sua unidade com um documento de identidade com foto." },
+          { "instruction": "Peça para falar com um consultor de associação e solicite o cancelamento.", "note": "Leve seu ID de membro ou o e-mail usado no cadastro." },
+          { "instruction": "Alternativamente, envie uma carta registrada para sua unidade com: nome completo, ID de membro, endereço e assinatura." },
+          { "instruction": "Guarde o comprovante de envio da carta registrada. O cancelamento geralmente entra em vigor 30 dias após o recebimento." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "A Crunch não suporta cancelamento pelo aplicativo iOS." },
+          { "instruction": "Cancele pessoalmente na sua unidade ou por carta registrada — veja os passos do site." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "A Crunch não suporta cancelamento pelo aplicativo Android." },
+          { "instruction": "Cancele pessoalmente ou por carta registrada — veja os passos do site." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Estou em um contrato anual — qual é a taxa de rescisão antecipada?",
+        "answer": "A taxa é geralmente $175 ou o saldo restante do contrato (o que for menor). Membros mensais podem cancelar a qualquer momento com 30 dias de aviso."
+      },
+      {
+        "question": "Posso cancelar se me mudei?",
+        "answer": "Sim — mudança de endereço é um motivo aceitável. Você precisará fornecer comprovante do novo endereço mostrando que mora a mais de 25 milhas de qualquer unidade Crunch."
+      },
+      {
+        "question": "Posso congelar minha assinatura em vez de cancelar?",
+        "answer": "Sim. A maioria das unidades Crunch permite um congelamento de 1 a 3 meses por uma pequena taxa ($10–$15/mês). Pergunte na sua unidade."
+      }
+    ],
+    "alternatives": [
+      { "description": "$10–$25/mês — cancelamento online fácil" },
+      { "description": "$30–$50/mês — acesso 24 horas por dia, 7 dias por semana" }
+    ]
+  },
+  "xfinity": {
+    "description": "Cancele o internet, TV a cabo ou streaming da Xfinity sem pagar taxas de rescisão antecipada. Requer ligação ou visita à loja.",
+    "difficultyReason": "A Xfinity é conhecida pelos longos tempos de espera, táticas agressivas de retenção e cobrança complexa. As taxas de rescisão antecipada podem chegar a $110 ou mais.",
+    "refundPolicy": "Reembolso proporcional pelos dias não utilizados após o cancelamento. Taxa de rescisão antecipada se estiver em contrato.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Acesse xfinity.com/support e faça login.", "note": "Verifique a data de término do contrato primeiro — acesse Minha Conta → Contrato de Serviço para verificar se você deve uma taxa de rescisão antecipada." },
+          { "instruction": "Use o chat do Assistente Xfinity e digite Cancelar serviço — isso às vezes funciona sem espera." },
+          { "instruction": "Alternativamente, ligue para 1-800-934-6489. Espere 15 a 45 minutos de espera." },
+          { "instruction": "Diga ao atendente que deseja cancelar, não fazer downgrade. Recuse todas as ofertas de retenção." },
+          { "instruction": "Solicite um número de confirmação de cancelamento e e-mail." },
+          { "instruction": "Devolva qualquer equipamento alugado (modem, roteador, decodificador) a uma loja Xfinity ou pelo kit de devolução pré-pago dentro de 10 dias para evitar cobranças de equipamento." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Abra o aplicativo Xfinity → toque no ícone da conta." },
+          { "instruction": "Toque em Gerenciar meu plano — opções limitadas de cancelamento no aplicativo. O cancelamento completo requer ligação ou visita à loja." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Abra o aplicativo Xfinity → ícone da conta → Gerenciar meu plano." },
+          { "instruction": "Para cancelamento completo, ligue ou visite uma loja." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Qual é a taxa de rescisão antecipada?",
+        "answer": "Se você estiver em um contrato de 1 ou 2 anos, a Xfinity cobra até $110 em taxas de rescisão antecipada. A taxa diminui mensalmente conforme você se aproxima do fim do contrato. Clientes mensais não têm taxa de rescisão."
+      },
+      {
+        "question": "Preciso devolver o equipamento?",
+        "answer": "Sim — equipamentos não devolvidos resultam em cobranças de $110 a $350 por dispositivo. Devolva dentro de 10 dias do cancelamento para evitar taxas."
+      },
+      {
+        "question": "Posso cancelar online sem ligar?",
+        "answer": "Algumas contas podem usar o chat do Assistente Xfinity para cancelar. Outras requerem ligação ou visita à loja. O chat é mais rápido se funcionar para o seu tipo de conta."
+      }
+    ],
+    "alternatives": [
+      { "description": "Internet de fibra — preços competitivos" },
+      { "description": "Sem contratos, sem limites de dados" }
+    ]
+  },
+  "fubotv": {
+    "description": "Cancele o FuboTV em menos de 2 minutos na web. Sem taxa de cancelamento — o acesso continua até o fim do período de cobrança.",
+    "difficultyReason": "O FuboTV oferece um cancelamento online simples sem taxas de rescisão antecipada.",
+    "refundPolicy": "Sem reembolsos. O acesso continua até o fim do período de cobrança.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Acesse fubo.tv e faça login." },
+          { "instruction": "Clique no ícone do seu perfil (canto superior direito) → Minha Conta." },
+          { "instruction": "Clique em Gerenciar Assinatura." },
+          { "instruction": "Clique em Cancelar Assinatura.", "note": "O FuboTV pode mostrar a opção de pausar — clique em Cancelar apenas se quiser cancelar completamente." },
+          { "instruction": "Selecione um motivo → confirme o cancelamento." },
+          { "instruction": "Você receberá um e-mail de confirmação." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Abra Configurações → toque no seu nome → Assinaturas." },
+          { "instruction": "Encontre FuboTV → toque nele." },
+          { "instruction": "Toque em Cancelar assinatura → confirme." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Abra a Google Play Store → perfil → Pagamentos e assinaturas → Assinaturas." },
+          { "instruction": "Encontre FuboTV → toque em Cancelar assinatura → confirme." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Assinei pelo Roku ou Amazon — como cancelo?",
+        "answer": "Cancele pela plataforma que você usou: Roku (Configurações → Assinaturas → FuboTV), Amazon (amazon.com/mysubscriptions) ou pelas configurações de assinatura do dispositivo Apple/Google."
+      },
+      {
+        "question": "O FuboTV oferece período de teste gratuito?",
+        "answer": "Testes gratuitos são oferecidos ocasionalmente. Se cancelar durante um teste, cancele pelo menos 24 horas antes do término para evitar ser cobrado."
+      }
+    ],
+    "alternatives": [
+      { "description": "$72,99/mês — mais de 100 canais, DVR ilimitado" },
+      { "description": "A partir de $40/mês — pacotes de canais flexíveis" },
+      { "description": "A partir de $64,99/mês — foco em esportes ao vivo" }
+    ]
+  },
+  "uber-eats": {
+    "description": "Cancele o Uber One (assinatura do Uber Eats + corridas Uber) em menos de 2 minutos pelo aplicativo ou site.",
+    "difficultyReason": "O cancelamento é simples pelo aplicativo Uber, sem fricção de retenção.",
+    "refundPolicy": "Sem reembolsos. Os benefícios do Uber One continuam até o fim do período de cobrança.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Acesse uber.com e faça login." },
+          { "instruction": "Clique no ícone do seu perfil → Uber One." },
+          { "instruction": "Clique em Gerenciar assinatura." },
+          { "instruction": "Clique em Cancelar assinatura.", "note": "Seus benefícios do Uber One continuam até o fim do período de cobrança." },
+          { "instruction": "Confirme o cancelamento." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Abra o aplicativo Uber ou Uber Eats → toque no ícone do seu perfil." },
+          { "instruction": "Toque em Uber One → Gerenciar assinatura." },
+          { "instruction": "Toque em Cancelar assinatura → confirme." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Abra o aplicativo Uber ou Uber Eats → ícone de perfil." },
+          { "instruction": "Toque em Uber One → Gerenciar assinatura → Cancelar assinatura." },
+          { "instruction": "Confirme o cancelamento." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Cancelar o Uber One cancela os benefícios do Uber rides e Uber Eats?",
+        "answer": "Sim. O Uber One é uma assinatura única que cobre tanto descontos em corridas Uber quanto benefícios de entrega do Uber Eats. Cancelar remove ambos."
+      },
+      {
+        "question": "Fui cobrado depois de cancelar.",
+        "answer": "Se você cancelou antes da data de renovação, mas ainda foi cobrado, entre em contato com o suporte do Uber pelo aplicativo (Ajuda → Conta → Uber One) para solicitar reembolso."
+      }
+    ],
+    "alternatives": [
+      { "description": "$9,99/mês — entrega grátis no DoorDash" },
+      { "description": "$9,99/mês — entrega grátis no Grubhub" }
+    ]
+  },
+  "instacart": {
+    "description": "Cancele o Instacart+ em menos de 2 minutos pelo aplicativo ou site.",
+    "difficultyReason": "O cancelamento do Instacart+ é simples pelo aplicativo com mínima fricção de retenção.",
+    "refundPolicy": "Sem reembolsos. Os benefícios continuam até o fim do período de cobrança. Assinantes anuais podem receber reembolso proporcional se não tiver usado.",
+    "platforms": {
+      "web": {
+        "steps": [
+          { "instruction": "Acesse instacart.com e faça login." },
+          { "instruction": "Clique no ícone do seu perfil → Instacart+." },
+          { "instruction": "Clique em Gerenciar sua assinatura." },
+          { "instruction": "Clique em Cancelar assinatura.", "note": "Se você tem um plano anual com meses restantes, o Instacart pode oferecer reembolso proporcional." },
+          { "instruction": "Confirme o cancelamento." }
+        ]
+      },
+      "ios": {
+        "steps": [
+          { "instruction": "Abra o aplicativo Instacart → toque no ícone do seu perfil." },
+          { "instruction": "Toque em Instacart+ → Gerenciar assinatura." },
+          { "instruction": "Toque em Cancelar assinatura → confirme." }
+        ]
+      },
+      "android": {
+        "steps": [
+          { "instruction": "Abra o aplicativo Instacart → ícone de perfil → Instacart+." },
+          { "instruction": "Toque em Gerenciar assinatura → Cancelar assinatura → confirme." }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Posso obter reembolso no meu plano anual do Instacart+?",
+        "answer": "Sim, se você não tiver usado muito a assinatura. O Instacart pode oferecer reembolso proporcional pela parte não utilizada. Entre em contato com o suporte se a opção não aparecer durante o cancelamento."
+      },
+      {
+        "question": "O que acontece com meus pedidos pendentes após o cancelamento?",
+        "answer": "Pedidos ativos não são afetados pelo cancelamento. As isenções de taxa de entrega não se aplicarão a novos pedidos feitos após o cancelamento."
+      }
+    ],
+    "alternatives": [
+      { "description": "Entrega grátis com Prime — entrega de supermercado" },
+      { "description": "$99/ano — Target + outros varejistas" }
+    ]
   }
 }
