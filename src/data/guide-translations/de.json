@@ -2090,5 +2090,497 @@
         "answer": "Sende unerwünschte Artikel innerhalb von 3 Tagen nach Erhalt zuruck. Danach wird dir der Preis fur die behaltenen Artikel berechnet."
       }
     ]
+  },
+  "norton": {
+    "description": "Kündige Norton 360 und stoppe die automatische Verlängerung in unter 5 Minuten. Inklusive Schritten zur 60-Tage-Rückerstattung.",
+    "difficultyReason": "Die Kündigung erfordert mehrere Schritte im Konto und ggf. einen Live-Chat für die Rückerstattung.",
+    "refundPolicy": "60-Tage-Rückerstattung über den Live-Chat unter norton.com/support mit Angabe der Bestellnummer.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu my.norton.com und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf Meine Abonnements."
+          },
+          {
+            "instruction": "Klicke auf Automatische Verlängerung deaktivieren."
+          },
+          {
+            "instruction": "Bestätige die Kündigung."
+          },
+          {
+            "instruction": "Für eine Rückerstattung kontaktiere den Support per Live-Chat unter norton.com/support innerhalb von 60 Tagen.",
+            "note": "Halte deine Bestellnummer bereit."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Öffne die iPhone-Einstellungen → tippe auf deinen Namen."
+          },
+          {
+            "instruction": "Tippe auf Abonnements → Norton 360 → Abonnement kündigen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Öffne den Google Play Store → Profil → Zahlungen & Abonnements → Abonnements."
+          },
+          {
+            "instruction": "Tippe auf Norton 360 → Abonnement kündigen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ich habe die App deinstalliert. Ist das Abonnement damit gekündigt?",
+        "answer": "Nein. Das Deinstallieren der App kündigt das Abonnement nicht. Du musst es separat über my.norton.com oder die App-Store-Einstellungen kündigen."
+      },
+      {
+        "question": "Wie erhalte ich die 60-Tage-Rückerstattung?",
+        "answer": "Kontaktiere den Norton-Support per Live-Chat unter norton.com/support innerhalb von 60 Tagen nach dem Kauf und gib deine Bestellnummer an."
+      }
+    ]
+  },
+  "tinder-gold": {
+    "description": "Kündige Tinder Gold oder Tinder Plus in unter 2 Minuten über iOS, Android oder das Web.",
+    "difficultyReason": "Die Kündigung ist einfach, sofern du weisst, über welchen Kanal du abonniert hast.",
+    "refundPolicy": "Keine Rückerstattungen. Der Zugang läuft bis zum Ende des Abrechnungszeitraums.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu account.gotinder.com und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf Zahlungskonto verwalten."
+          },
+          {
+            "instruction": "Klicke auf Abonnement kündigen und bestätige."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Öffne die iPhone-Einstellungen → tippe auf deine Apple-ID."
+          },
+          {
+            "instruction": "Tippe auf Abonnements → Tinder → Abonnement kündigen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Öffne den Google Play Store → Profil → Zahlungen & Abonnements → Abonnements."
+          },
+          {
+            "instruction": "Tippe auf Tinder Gold → Abonnement kündigen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ich finde Tinder nicht im App Store.",
+        "answer": "Wenn du Tinder Gold nicht im App Store findest, hast du wahrscheinlich über das Web abonniert. Kündige über account.gotinder.com."
+      },
+      {
+        "question": "Verliere ich meine Matches und Nachrichten nach der Kündigung?",
+        "answer": "Nein. Deine Matches und Nachrichten bleiben im kostenlosen Tarif erhalten."
+      }
+    ]
+  },
+  "bumble": {
+    "description": "Kündige Bumble Boost oder Premium in unter 3 Minuten über iOS, Android oder das Web.",
+    "difficultyReason": "Die Kündigung ist unkompliziert, hängt jedoch davon ab, über welchen Kanal du abonniert hast.",
+    "refundPolicy": "Keine Rückerstattungen. Der Zugang läuft bis zum Ende des Abrechnungszeitraums.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu bumble.com und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf Profil → Einstellungen → Abonnement verwalten."
+          },
+          {
+            "instruction": "Klicke auf Abonnement kündigen und bestätige."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Öffne die iPhone-Einstellungen → tippe auf deinen Namen → Abonnements."
+          },
+          {
+            "instruction": "Tippe auf Bumble → Abonnement kündigen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Öffne den Google Play Store → Profil → Zahlungen & Abonnements → Abonnements."
+          },
+          {
+            "instruction": "Tippe auf Bumble → Abonnement kündigen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Verliere ich meine Matches nach der Kündigung?",
+        "answer": "Nein. Deine Matches bleiben im kostenlosen Tarif erhalten."
+      },
+      {
+        "question": "Ich habe ein In-App-Abonnement. Kann ich es auf der Website kündigen?",
+        "answer": "Nein. In-App-Abonnements müssen über die jeweiligen Geräteeinstellungen (iOS oder Android) gekündigt werden."
+      }
+    ]
+  },
+  "kindle-unlimited": {
+    "description": "Kündige Kindle Unlimited in unter 2 Minuten bei Amazon. Alle ausgeliehenen Bücher werden nach Ablauf des Zeitraums entfernt.",
+    "difficultyReason": "Die Kündigung über amazon.com ist einfach und mit wenigen Klicks erledigt.",
+    "refundPolicy": "Keine Rückerstattungen. Zugang bis zum Ende des Abrechnungszeitraums. Danach werden alle ausgeliehenen Bücher entfernt.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu amazon.com und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf Konto & Listen → Mitgliedschaften & Abonnements."
+          },
+          {
+            "instruction": "Klicke auf Kindle Unlimited → Kindle Unlimited kündigen."
+          },
+          {
+            "instruction": "Bestätige die Kündigung."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Es gibt keine In-App-Kündigung. Besuche amazon.com im mobilen Browser und folge den Web-Schritten."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Es gibt keine In-App-Kündigung. Besuche amazon.com im mobilen Browser und folge den Web-Schritten."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Was passiert mit meinen ausgeliehenen Büchern nach der Kündigung?",
+        "answer": "Alle ausgeliehenen Kindle-Unlimited-Bücher werden nach dem Ende des Abrechnungszeitraums aus deiner Bibliothek entfernt."
+      },
+      {
+        "question": "Kann ich Kindle Unlimited pausieren?",
+        "answer": "Ja. Du kannst die Mitgliedschaft für 1 bis 3 Monate pausieren, anstatt sie vollständig zu kündigen."
+      }
+    ]
+  },
+  "hims": {
+    "description": "Kündige dein Hims-Abonnement über den Chat oder die Kontoeinstellungen. Kündige vor dem Verarbeitungsdatum, um die nächste Lieferung zu vermeiden.",
+    "difficultyReason": "Die Kündigung erfordert die Kontaktaufnahme mit dem Support oder mehrere Schritte in den Kontoeinstellungen.",
+    "refundPolicy": "Keine Rückerstattungen nach der Verarbeitung. Kündige mindestens 48 Stunden vor dem Verarbeitungsdatum.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu forhims.com/account und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf Abonnement → Verwalten → Kündigen."
+          },
+          {
+            "instruction": "Alternativ: Nutze den Live-Chat auf forhims.com, um die Kündigung zu beantragen.",
+            "note": "Kündige mindestens 48 Stunden vor dem Verarbeitungsdatum."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Hims verwaltet keine Abonnements über die App. Besuche forhims.com im mobilen Browser und folge den Web-Schritten."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Hims verwaltet keine Abonnements über die App. Besuche forhims.com im mobilen Browser und folge den Web-Schritten."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ich habe die Frist verpasst und wurde bereits abgebucht.",
+        "answer": "Wenn du nach dem Verarbeitungsdatum kündigst, wirst du für die nächste Lieferung belastet. Kontaktiere den Support umgehend, um eine Lösung zu finden."
+      },
+      {
+        "question": "Kann ich Lieferungen pausieren oder verzögern?",
+        "answer": "Ja. Du kannst Lieferungen über dein Konto bei forhims.com pausieren oder verzögern, ohne das Abonnement zu kündigen."
+      }
+    ]
+  },
+  "icloud-plus": {
+    "description": "Kündige iCloud+ (Downgrade auf kostenlosen 5-GB-Plan) in unter 2 Minuten auf iPhone, Mac oder im Web.",
+    "difficultyReason": "Der Downgrade ist einfach und direkt in den Apple-Einstellungen verfügbar.",
+    "refundPolicy": "Keine Rückerstattungen. Der Plan läuft bis zum Ende des Abrechnungszeitraums.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu appleid.apple.com und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf iCloud+ → Speicher verwalten."
+          },
+          {
+            "instruction": "Klicke auf Speicherplan ändern → Auf kostenlosen 5-GB-Plan downgraden."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Öffne Einstellungen → tippe auf deinen Namen → iCloud."
+          },
+          {
+            "instruction": "Tippe auf Kontospeicher verwalten → Speicherplan ändern."
+          },
+          {
+            "instruction": "Wähle Auf kostenlosen Plan downgraden und bestätige."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Android-Nutzer besuchen appleid.apple.com und folgen den Web-Schritten."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Was passiert mit meinen Daten, die den kostenlosen 5-GB-Speicher überschreiten?",
+        "answer": "Daten, die 5 GB überschreiten, werden nicht mehr synchronisiert. Lade deine Fotos und Dokumente vor dem Downgrade herunter."
+      },
+      {
+        "question": "Wann tritt der Downgrade in Kraft?",
+        "answer": "Der Downgrade tritt am Ende des aktuellen Abrechnungszeitraums in Kraft."
+      }
+    ]
+  },
+  "uber-one": {
+    "description": "Kündige die Uber One Mitgliedschaft in unter 3 Minuten in der Uber- oder Uber Eats-App.",
+    "difficultyReason": "Die Kündigung ist einfach und direkt in der Uber-App verfügbar.",
+    "refundPolicy": "Kontaktiere den Support für eine Rückerstattung, wenn du dich gerade erst angemeldet hast.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu uber.com und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf Konto → Uber One → Verwalten."
+          },
+          {
+            "instruction": "Klicke auf Mitgliedschaft kündigen und bestätige."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Öffne die Uber-App → Konto → Uber One."
+          },
+          {
+            "instruction": "Tippe auf Mitgliedschaft verwalten → Mitgliedschaft kündigen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Öffne die Uber-App → Konto → Uber One."
+          },
+          {
+            "instruction": "Tippe auf Mitgliedschaft verwalten → Mitgliedschaft kündigen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Verliere ich meine Uber Eats-Vorteile nach der Kündigung?",
+        "answer": "Ja. Die Kündigung von Uber One entfernt die Vorteile sowohl bei Uber als auch bei Uber Eats."
+      },
+      {
+        "question": "Kann ich eine Rückerstattung erhalten?",
+        "answer": "Kontaktiere den Uber-Support, wenn du dich gerade erst angemeldet hast. Rückerstattungen werden nicht garantiert, können aber gewährt werden."
+      }
+    ]
+  },
+  "onstar": {
+    "description": "Kündige OnStar telefonisch - eine Online-Kündigung ist nicht möglich. Ruf 1-888-466-7827 an.",
+    "difficultyReason": "Die Kündigung ist nur telefonisch möglich, es gibt keine Online- oder App-Option.",
+    "refundPolicy": "Anteilige Rückerstattungen möglich. Bitte beim Anruf nachfragen.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Eine Online-Kündigung ist nicht verfügbar. Nutze den Telefon-Kanal."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Die OnStar-App kann das Abonnement nicht kündigen. Rufe 1-888-466-7827 an."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Die OnStar-App kann das Abonnement nicht kündigen. Rufe 1-888-466-7827 an."
+          }
+        ]
+      },
+      "phone": {
+        "steps": [
+          {
+            "instruction": "Rufe 1-888-466-7827 an."
+          },
+          {
+            "instruction": "Sage Kündigen, um zur richtigen Abteilung weitergeleitet zu werden."
+          },
+          {
+            "instruction": "Beantrage die Kündigung und erhalte eine Bestätigung."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kann ich OnStar online oder über die App kündigen?",
+        "answer": "Nein. OnStar kann ausschliesslich telefonisch unter 1-888-466-7827 gekündigt werden."
+      },
+      {
+        "question": "Was passiert nach der Kündigung mit dem Notfalldienst?",
+        "answer": "Notfalldienste wie Unfallmeldung und Pannenhilfe werden nach der Kündigung eingestellt."
+      }
+    ]
+  },
+  "ipsy": {
+    "description": "Kündige IPSY Glam Bag vor dem 1. des Monats, um die nächste Abbuchung zu vermeiden. Online in 3 Minuten erledigt.",
+    "difficultyReason": "Die Kündigung ist einfach, erfordert jedoch die Einhaltung der Frist vor dem 1. des Monats.",
+    "refundPolicy": "Keine Rückerstattungen nach dem 1. des Monats. Kündige rechtzeitig vor der Frist.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu ipsy.com/manage-membership und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf Mitgliedschaft kündigen."
+          },
+          {
+            "instruction": "Bestätige die Kündigung.",
+            "note": "Kündige vor dem 1. des Monats, um die nächste Abbuchung zu vermeiden."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "IPSY verwaltet keine Abonnements über die App. Besuche ipsy.com im mobilen Browser und folge den Web-Schritten."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "IPSY verwaltet keine Abonnements über die App. Besuche ipsy.com im mobilen Browser und folge den Web-Schritten."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ich wurde nach der angeblichen Kündigung noch abgebucht.",
+        "answer": "Prüfe deine E-Mail auf eine Bestätigungsmail. Ohne Bestätigung wurde die Kündigung möglicherweise nicht abgeschlossen."
+      },
+      {
+        "question": "Kann ich einen Monat überspringen, anstatt zu kündigen?",
+        "answer": "Ja. Du kannst bis zu 3 Monate pro Jahr überspringen, ohne das Abonnement zu kündigen."
+      }
+    ]
+  },
+  "capcut": {
+    "description": "Kündige CapCut Pro in unter 2 Minuten über iOS, Android oder die Web-Kontoeinstellungen.",
+    "difficultyReason": "Die Kündigung ist einfach und über alle Plattformen verfügbar.",
+    "refundPolicy": "Keine Rückerstattungen. Der Zugang läuft bis zum Ende des Abrechnungszeitraums.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu capcut.com und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf Profil → Abonnement → Kündigen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Öffne die iPhone-Einstellungen → tippe auf deine Apple-ID → Abonnements."
+          },
+          {
+            "instruction": "Tippe auf CapCut → Abonnement kündigen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Öffne den Google Play Store → Profil → Zahlungen & Abonnements → Abonnements."
+          },
+          {
+            "instruction": "Tippe auf CapCut Pro → Abonnement kündigen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Verliere ich meine Videos und Projekte nach der Kündigung?",
+        "answer": "Nein. Deine Videos und Projekte bleiben nach der Kündigung erhalten."
+      },
+      {
+        "question": "CapCut ist in meinem Land gesperrt. Wie kündige ich?",
+        "answer": "Kündige über die Geräteeinstellungen: iOS-Abonnements unter den Apple-ID-Einstellungen, Android-Abonnements im Google Play Store."
+      }
+    ]
   }
 }

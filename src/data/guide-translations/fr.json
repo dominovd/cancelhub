@@ -2087,5 +2087,497 @@
         "answer": "Retournez les articles non désirés dans un délai de 3 jours après la réception. Passé ce délai, le prix des articles conservés vous sera facturé."
       }
     ]
+  },
+  "norton": {
+    "description": "Résiliez Norton 360 et arrêtez le renouvellement automatique en moins de 5 minutes. Inclut les étapes pour obtenir un remboursement de 60 jours.",
+    "difficultyReason": "La résiliation nécessite plusieurs étapes dans le compte et éventuellement un chat en direct pour le remboursement.",
+    "refundPolicy": "Remboursement de 60 jours via le chat en direct sur norton.com/support avec le numéro de commande.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Rendez-vous sur my.norton.com et connectez-vous."
+          },
+          {
+            "instruction": "Cliquez sur Mes abonnements."
+          },
+          {
+            "instruction": "Cliquez sur Désactiver le renouvellement automatique."
+          },
+          {
+            "instruction": "Confirmez la résiliation."
+          },
+          {
+            "instruction": "Pour un remboursement, contactez le support par chat en direct sur norton.com/support dans les 60 jours.",
+            "note": "Ayez votre numéro de commande à portée de main."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ouvrez les Réglages de l'iPhone → appuyez sur votre nom."
+          },
+          {
+            "instruction": "Appuyez sur Abonnements → Norton 360 → Résilier l'abonnement."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ouvrez le Google Play Store → Profil → Paiements et abonnements → Abonnements."
+          },
+          {
+            "instruction": "Appuyez sur Norton 360 → Résilier l'abonnement."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "J'ai désinstallé l'application. Cela annule-t-il l'abonnement ?",
+        "answer": "Non. Désinstaller l'application n'annule pas l'abonnement. Vous devez le résilier séparément via my.norton.com ou les paramètres de la boutique d'applications."
+      },
+      {
+        "question": "Comment obtenir le remboursement de 60 jours ?",
+        "answer": "Contactez le support Norton par chat en direct sur norton.com/support dans les 60 jours suivant l'achat et fournissez votre numéro de commande."
+      }
+    ]
+  },
+  "tinder-gold": {
+    "description": "Résiliez Tinder Gold ou Tinder Plus en moins de 2 minutes via iOS, Android ou le web.",
+    "difficultyReason": "La résiliation est simple à condition de savoir par quel canal vous vous êtes abonné.",
+    "refundPolicy": "Aucun remboursement. L'accès se poursuit jusqu'à la fin de la période de facturation.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Rendez-vous sur account.gotinder.com et connectez-vous."
+          },
+          {
+            "instruction": "Cliquez sur Gérer le compte de paiement."
+          },
+          {
+            "instruction": "Cliquez sur Résilier l'abonnement et confirmez."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ouvrez les Réglages de l'iPhone → appuyez sur votre identifiant Apple."
+          },
+          {
+            "instruction": "Appuyez sur Abonnements → Tinder → Résilier l'abonnement."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ouvrez le Google Play Store → Profil → Paiements et abonnements → Abonnements."
+          },
+          {
+            "instruction": "Appuyez sur Tinder Gold → Résilier l'abonnement."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Je ne trouve pas Tinder dans l'App Store.",
+        "answer": "Si vous ne trouvez pas Tinder Gold dans l'App Store, vous vous êtes probablement abonné via le web. Résiliez sur account.gotinder.com."
+      },
+      {
+        "question": "Vais-je perdre mes correspondances et messages en résiliant ?",
+        "answer": "Non. Vos correspondances et messages sont conservés dans le forfait gratuit."
+      }
+    ]
+  },
+  "bumble": {
+    "description": "Résiliez Bumble Boost ou Premium en moins de 3 minutes via iOS, Android ou le web.",
+    "difficultyReason": "La résiliation est simple, mais dépend du canal par lequel vous vous êtes abonné.",
+    "refundPolicy": "Aucun remboursement. L'accès se poursuit jusqu'à la fin de la période de facturation.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Rendez-vous sur bumble.com et connectez-vous."
+          },
+          {
+            "instruction": "Cliquez sur Profil → Paramètres → Gérer l'abonnement."
+          },
+          {
+            "instruction": "Cliquez sur Résilier l'abonnement et confirmez."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ouvrez les Réglages de l'iPhone → appuyez sur votre nom → Abonnements."
+          },
+          {
+            "instruction": "Appuyez sur Bumble → Résilier l'abonnement."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ouvrez le Google Play Store → Profil → Paiements et abonnements → Abonnements."
+          },
+          {
+            "instruction": "Appuyez sur Bumble → Résilier l'abonnement."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Vais-je perdre mes correspondances en résiliant ?",
+        "answer": "Non. Vos correspondances sont conservées dans le forfait gratuit."
+      },
+      {
+        "question": "J'ai un abonnement in-app. Puis-je le résilier sur le site web ?",
+        "answer": "Non. Les abonnements in-app doivent être résiliés via les paramètres de l'appareil (iOS ou Android)."
+      }
+    ]
+  },
+  "kindle-unlimited": {
+    "description": "Résiliez Kindle Unlimited en moins de 2 minutes sur Amazon. Tous les livres empruntés sont supprimés à la fin de la période.",
+    "difficultyReason": "La résiliation sur amazon.com est simple et s'effectue en quelques clics.",
+    "refundPolicy": "Aucun remboursement. L'accès se poursuit jusqu'à la fin de la période de facturation. Les livres empruntés sont ensuite supprimés.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Rendez-vous sur amazon.com et connectez-vous."
+          },
+          {
+            "instruction": "Cliquez sur Compte et listes → Abonnements et adhésions."
+          },
+          {
+            "instruction": "Cliquez sur Kindle Unlimited → Annuler Kindle Unlimited."
+          },
+          {
+            "instruction": "Confirmez la résiliation."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Il n'y a pas de résiliation in-app. Visitez amazon.com dans le navigateur mobile et suivez les étapes web."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Il n'y a pas de résiliation in-app. Visitez amazon.com dans le navigateur mobile et suivez les étapes web."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Que devient mes livres empruntés après la résiliation ?",
+        "answer": "Tous les livres empruntés via Kindle Unlimited seront supprimés de votre bibliothèque à la fin de la période de facturation."
+      },
+      {
+        "question": "Puis-je mettre Kindle Unlimited en pause ?",
+        "answer": "Oui. Vous pouvez suspendre l'adhésion de 1 à 3 mois au lieu de la résilier définitivement."
+      }
+    ]
+  },
+  "hims": {
+    "description": "Résiliez votre abonnement Hims via le chat ou les paramètres du compte. Résiliez avant la date de traitement pour éviter la prochaine livraison.",
+    "difficultyReason": "La résiliation nécessite de contacter le support ou de suivre plusieurs étapes dans les paramètres du compte.",
+    "refundPolicy": "Aucun remboursement après traitement. Résiliez au moins 48 heures avant la date de traitement.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Rendez-vous sur forhims.com/account et connectez-vous."
+          },
+          {
+            "instruction": "Cliquez sur Abonnement → Gérer → Résilier."
+          },
+          {
+            "instruction": "Alternativement, utilisez le chat en direct sur forhims.com pour demander la résiliation.",
+            "note": "Résiliez au moins 48 heures avant la date de traitement."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Hims ne gère pas les abonnements via l'application. Visitez forhims.com dans le navigateur mobile et suivez les étapes web."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Hims ne gère pas les abonnements via l'application. Visitez forhims.com dans le navigateur mobile et suivez les étapes web."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "J'ai manqué la date limite et j'ai déjà été prélevé.",
+        "answer": "Si vous résiliez après la date de traitement, vous serez facturé pour la prochaine livraison. Contactez le support immédiatement pour tenter de trouver une solution."
+      },
+      {
+        "question": "Puis-je mettre en pause ou retarder les livraisons ?",
+        "answer": "Oui. Vous pouvez mettre en pause ou retarder les livraisons depuis votre compte sur forhims.com sans résilier l'abonnement."
+      }
+    ]
+  },
+  "icloud-plus": {
+    "description": "Résiliez iCloud+ (repassez au plan gratuit de 5 Go) en moins de 2 minutes sur iPhone, Mac ou le web.",
+    "difficultyReason": "Le passage à un plan inférieur est simple et disponible directement dans les réglages Apple.",
+    "refundPolicy": "Aucun remboursement. Le plan se poursuit jusqu'à la fin de la période de facturation.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Rendez-vous sur appleid.apple.com et connectez-vous."
+          },
+          {
+            "instruction": "Cliquez sur iCloud+ → Gérer le stockage."
+          },
+          {
+            "instruction": "Cliquez sur Modifier le plan de stockage → Passer au plan gratuit de 5 Go."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ouvrez Réglages → appuyez sur votre nom → iCloud."
+          },
+          {
+            "instruction": "Appuyez sur Gérer le stockage du compte → Modifier le plan de stockage."
+          },
+          {
+            "instruction": "Sélectionnez Passer au plan gratuit et confirmez."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Les utilisateurs Android visitent appleid.apple.com et suivent les étapes web."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Que se passe-t-il avec mes données dépassant les 5 Go gratuits ?",
+        "answer": "Les données dépassant 5 Go ne seront plus synchronisées. Téléchargez vos photos et documents avant de passer à un plan inférieur."
+      },
+      {
+        "question": "Quand le changement de plan prend-il effet ?",
+        "answer": "Le passage à un plan inférieur prend effet à la fin de la période de facturation en cours."
+      }
+    ]
+  },
+  "uber-one": {
+    "description": "Résiliez votre adhésion Uber One en moins de 3 minutes dans l'application Uber ou Uber Eats.",
+    "difficultyReason": "La résiliation est simple et disponible directement dans l'application Uber.",
+    "refundPolicy": "Contactez le support pour un remboursement si vous venez de vous abonner.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Rendez-vous sur uber.com et connectez-vous."
+          },
+          {
+            "instruction": "Cliquez sur Compte → Uber One → Gérer."
+          },
+          {
+            "instruction": "Cliquez sur Annuler l'adhésion et confirmez."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ouvrez l'application Uber → Compte → Uber One."
+          },
+          {
+            "instruction": "Appuyez sur Gérer l'adhésion → Annuler l'adhésion."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ouvrez l'application Uber → Compte → Uber One."
+          },
+          {
+            "instruction": "Appuyez sur Gérer l'adhésion → Annuler l'adhésion."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Vais-je perdre mes avantages Uber Eats en résiliant ?",
+        "answer": "Oui. La résiliation d'Uber One supprime les avantages à la fois sur Uber et Uber Eats."
+      },
+      {
+        "question": "Puis-je obtenir un remboursement ?",
+        "answer": "Contactez le support Uber si vous venez de vous abonner. Les remboursements ne sont pas garantis mais peuvent être accordés."
+      }
+    ]
+  },
+  "onstar": {
+    "description": "Résiliez OnStar par téléphone — aucune résiliation en ligne n'est possible. Appelez le 1-888-466-7827.",
+    "difficultyReason": "La résiliation n'est possible que par téléphone, sans option en ligne ni dans l'application.",
+    "refundPolicy": "Remboursements au prorata possibles. Renseignez-vous lors de l'appel.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "La résiliation en ligne n'est pas disponible. Utilisez le canal téléphonique."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "L'application OnStar ne peut pas résilier l'abonnement. Appelez le 1-888-466-7827."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "L'application OnStar ne peut pas résilier l'abonnement. Appelez le 1-888-466-7827."
+          }
+        ]
+      },
+      "phone": {
+        "steps": [
+          {
+            "instruction": "Appelez le 1-888-466-7827."
+          },
+          {
+            "instruction": "Dites Résilier pour être dirigé vers le bon service."
+          },
+          {
+            "instruction": "Demandez la résiliation et obtenez une confirmation."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Puis-je résilier OnStar en ligne ou via l'application ?",
+        "answer": "Non. OnStar ne peut être résilié que par téléphone au 1-888-466-7827."
+      },
+      {
+        "question": "Qu'advient-il des services d'urgence après la résiliation ?",
+        "answer": "Les services d'urgence tels que la réponse aux accidents et l'assistance routière cessent après la résiliation."
+      }
+    ]
+  },
+  "ipsy": {
+    "description": "Résiliez IPSY Glam Bag avant le 1er du mois pour éviter le prochain prélèvement. À faire en 3 minutes en ligne.",
+    "difficultyReason": "La résiliation est simple, mais vous devez respecter la date limite avant le 1er du mois.",
+    "refundPolicy": "Aucun remboursement après le 1er du mois. Résiliez avant la date limite.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Rendez-vous sur ipsy.com/manage-membership et connectez-vous."
+          },
+          {
+            "instruction": "Cliquez sur Annuler l'adhésion."
+          },
+          {
+            "instruction": "Confirmez la résiliation.",
+            "note": "Résiliez avant le 1er du mois pour éviter le prochain prélèvement."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "IPSY ne gère pas les abonnements via l'application. Visitez ipsy.com dans le navigateur mobile et suivez les étapes web."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "IPSY ne gère pas les abonnements via l'application. Visitez ipsy.com dans le navigateur mobile et suivez les étapes web."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "J'ai été prélevé après avoir supposément résilié.",
+        "answer": "Vérifiez votre boîte mail pour un e-mail de confirmation. Sans confirmation, la résiliation n'a peut-être pas été finalisée."
+      },
+      {
+        "question": "Puis-je sauter un mois plutôt que résilier ?",
+        "answer": "Oui. Vous pouvez sauter jusqu'à 3 mois par an sans résilier l'abonnement."
+      }
+    ]
+  },
+  "capcut": {
+    "description": "Résiliez CapCut Pro en moins de 2 minutes via iOS, Android ou les paramètres du compte web.",
+    "difficultyReason": "La résiliation est simple et disponible sur toutes les plateformes.",
+    "refundPolicy": "Aucun remboursement. L'accès se poursuit jusqu'à la fin de la période de facturation.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Rendez-vous sur capcut.com et connectez-vous."
+          },
+          {
+            "instruction": "Cliquez sur Profil → Abonnement → Résilier."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ouvrez les Réglages de l'iPhone → appuyez sur votre identifiant Apple → Abonnements."
+          },
+          {
+            "instruction": "Appuyez sur CapCut → Résilier l'abonnement."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ouvrez le Google Play Store → Profil → Paiements et abonnements → Abonnements."
+          },
+          {
+            "instruction": "Appuyez sur CapCut Pro → Résilier l'abonnement."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Vais-je perdre mes vidéos et projets en résiliant ?",
+        "answer": "Non. Vos vidéos et projets sont conservés après la résiliation."
+      },
+      {
+        "question": "CapCut est bloqué dans mon pays. Comment résilier ?",
+        "answer": "Résiliez via les paramètres de l'appareil : abonnements iOS dans les réglages de l'identifiant Apple, abonnements Android dans le Google Play Store."
+      }
+    ]
   }
 }

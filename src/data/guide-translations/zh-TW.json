@@ -2229,5 +2229,501 @@
         "description": "Amazon Personal Shopper — Prime 會員專屬造型服務"
       }
     ]
+  },
+  "norton": {
+    "description": "在 5 分鐘內取消 Norton 360 並停止自動續約。",
+    "difficultyReason": "您需要登入 Norton 入口網站並明確停用自動續約 — 解除安裝軟體並不會取消訂閱。",
+    "refundPolicy": "可透過支援聊天申請 60 天退款保證。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 my.norton.com 並登入帳號。"
+          },
+          {
+            "instruction": "進入「我的訂閱」。"
+          },
+          {
+            "instruction": "點擊 Norton 360 旁的「取消自動續約」。"
+          },
+          {
+            "instruction": "確認取消。",
+            "note": "解除安裝 Norton 軟體並不會取消訂閱，請務必透過入口網站操作。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "解除安裝 Norton 會停止自動續約嗎？",
+        "answer": "不會。您必須透過 my.norton.com 停用自動續約。單純解除安裝軟體不會取消訂閱。"
+      },
+      {
+        "question": "我可以申請退款嗎？",
+        "answer": "可以。Norton 提供 60 天退款保證。請聯絡 norton.com 上的支援聊天申請退款。"
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Malwarebytes — 免費與付費防毒選項"
+      },
+      {
+        "description": "Windows Defender — Windows 內建免費防護"
+      },
+      {
+        "description": "Bitdefender — 評價優良的防毒軟體"
+      }
+    ]
+  },
+  "tinder-gold": {
+    "description": "在 2 分鐘內取消 Tinder Gold。",
+    "difficultyReason": "取消方式透過網站或裝置設定，視訂閱方式而定。",
+    "refundPolicy": "不提供退款。可繼續使用至計費週期結束。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 account.gotinder.com 並登入。"
+          },
+          {
+            "instruction": "點擊「管理訂閱」。"
+          },
+          {
+            "instruction": "點擊「取消訂閱」並確認。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "開啟 iPhone 設定 → 點擊您的姓名。"
+          },
+          {
+            "instruction": "點擊「訂閱項目」→ 找到 Tinder。"
+          },
+          {
+            "instruction": "點擊「取消訂閱」→ 確認。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "開啟 Google Play → 點擊個人資料圖示。"
+          },
+          {
+            "instruction": "前往「付款與訂閱」→「訂閱項目」。"
+          },
+          {
+            "instruction": "找到 Tinder → 點擊「取消訂閱」並確認。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "取消 Tinder Gold 後我的配對會消失嗎？",
+        "answer": "不會。降回免費方案後，您的配對仍會保留。您只會失去 Gold 功能。"
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Bumble — 有免費版本的交友應用程式"
+      },
+      {
+        "description": "Hinge — 著重認真交往的交友應用程式"
+      }
+    ]
+  },
+  "bumble": {
+    "description": "在 3 分鐘內取消 Bumble Boost 或 Premium。",
+    "difficultyReason": "可輕鬆透過應用程式或裝置設定取消。",
+    "refundPolicy": "不提供退款。可繼續使用至計費週期結束。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "開啟 Bumble 應用程式或前往 bumble.com。"
+          },
+          {
+            "instruction": "前往個人資料 → 設定 → 管理訂閱。"
+          },
+          {
+            "instruction": "點擊「取消」並確認。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "開啟 iPhone 設定 → 姓名 → 訂閱項目。"
+          },
+          {
+            "instruction": "找到 Bumble 並點擊。"
+          },
+          {
+            "instruction": "點擊「取消訂閱」→ 確認。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "開啟 Google Play → 付款與訂閱 → 訂閱項目。"
+          },
+          {
+            "instruction": "找到 Bumble → 點擊「取消訂閱」並確認。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "取消後我的配對會消失嗎？",
+        "answer": "不會。您的配對在免費方案中仍會保留。只有 Boost 或 Premium 功能會停用。"
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Tinder — 有免費版本的熱門交友應用程式"
+      },
+      {
+        "description": "Hinge — 著重認真交往的交友應用程式"
+      }
+    ]
+  },
+  "kindle-unlimited": {
+    "description": "在 Amazon 2 分鐘內取消 Kindle Unlimited。",
+    "difficultyReason": "透過 Amazon 網站即可輕鬆取消。",
+    "refundPolicy": "不提供退款。可暫停會員資格 1 至 3 個月。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 amazon.com 並登入。"
+          },
+          {
+            "instruction": "前往「會員資格與訂閱」。"
+          },
+          {
+            "instruction": "點擊「取消 Kindle Unlimited」。"
+          },
+          {
+            "instruction": "確認取消。",
+            "note": "計費期結束後，借閱的書籍將被移除。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "使用瀏覽器前往 amazon.com — 請勿透過應用程式取消。"
+          },
+          {
+            "instruction": "前往「會員資格與訂閱」→「取消 Kindle Unlimited」。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "使用瀏覽器前往 amazon.com — 請勿透過應用程式取消。"
+          },
+          {
+            "instruction": "前往「會員資格與訂閱」→「取消 Kindle Unlimited」。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "借閱的書籍會怎樣？",
+        "answer": "Kindle Unlimited 借閱的書籍將在計費期結束後被移除。取消前請先下載您想保留的書籍。"
+      },
+      {
+        "question": "我可以暫停而非取消嗎？",
+        "answer": "可以。您可以透過 amazon.com 的「會員資格與訂閱」頁面暫停 Kindle Unlimited 1 至 3 個月。"
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Scribd — 電子書、有聲書及更多內容"
+      },
+      {
+        "description": "Libby — 透過圖書館免費借閱電子書"
+      }
+    ]
+  },
+  "hims": {
+    "description": "在處理日期前取消 Hims 訂閱，以避免下次出貨。",
+    "difficultyReason": "必須在處理日期前至少 48 小時取消，以避免被收費。",
+    "refundPolicy": "若訂單已處理則不提供退款。請提早聯絡客服。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 forhims.com/account 並登入。"
+          },
+          {
+            "instruction": "前往訂閱設定。"
+          },
+          {
+            "instruction": "點擊「取消訂閱」。",
+            "note": "請至少在處理日期前 48 小時取消，以避免下次出貨。"
+          },
+          {
+            "instruction": "確認取消。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "如果我錯過取消截止日期怎麼辦？",
+        "answer": "若您未在處理日期前 48 小時取消，將被收費並寄出貨品。若發生此情況，請聯絡客服。"
+      },
+      {
+        "question": "我可以暫停訂閱嗎？",
+        "answer": "可以。Hims 提供暫停選項，若您想暫時停止而非完全取消，可使用此功能。"
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Ro — 線上男性健康照護"
+      },
+      {
+        "description": "Manual — 男性健康訂閱服務"
+      }
+    ]
+  },
+  "icloud-plus": {
+    "description": "在 2 分鐘內取消 iCloud+（降級至免費 5GB）。",
+    "difficultyReason": "可輕鬆透過任何裝置上的 Apple ID 設定降級。",
+    "refundPolicy": "不提供退款。儲存空間可使用至計費週期結束。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 appleid.apple.com 並登入。"
+          },
+          {
+            "instruction": "點擊 iCloud → 變更儲存空間方案。"
+          },
+          {
+            "instruction": "選擇免費 5GB 並確認。",
+            "note": "超過 5GB 的資料將無法同步。請先下載您的照片。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "開啟設定 → 點擊您的姓名 → iCloud。"
+          },
+          {
+            "instruction": "點擊「管理」→「降級至免費」。"
+          },
+          {
+            "instruction": "確認變更。",
+            "note": "若您儲存的資料超過 5GB，請在降級前先下載照片和文件。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "開啟瀏覽器並前往 appleid.apple.com。"
+          },
+          {
+            "instruction": "點擊 iCloud → 變更儲存空間方案 → 免費 5GB。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "超過 5GB 的資料會怎樣？",
+        "answer": "超過 5GB 的資料將停止同步，但不會立即被刪除。請在降級前先下載您的照片和文件。"
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Google One — 雲端儲存，免費 15GB"
+      },
+      {
+        "description": "OneDrive — Microsoft 雲端儲存，免費 5GB"
+      }
+    ]
+  },
+  "uber-one": {
+    "description": "在應用程式中 3 分鐘內取消 Uber One。",
+    "difficultyReason": "透過 Uber 應用程式即可輕鬆取消。",
+    "refundPolicy": "不提供退款。可繼續使用至計費週期結束。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "開啟 Uber 應用程式。"
+          },
+          {
+            "instruction": "前往帳號 → Uber One。"
+          },
+          {
+            "instruction": "點擊「管理」→「取消會員資格」。"
+          },
+          {
+            "instruction": "確認取消。",
+            "note": "取消後將同時移除 Uber 和 Uber Eats 的會員優惠。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我也會失去 Uber Eats 的優惠嗎？",
+        "answer": "是的。Uber One 包含 Uber 乘車和 Uber Eats 的優惠。取消後，您將失去所有優惠。"
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "DoorDash DashPass — 外送訂閱服務"
+      },
+      {
+        "description": "Lyft Pink — 乘車訂閱服務"
+      }
+    ]
+  },
+  "onstar": {
+    "description": "致電 1-888-466-7827 取消 OnStar。",
+    "difficultyReason": "OnStar 需要透過電話取消 — 沒有線上或應用程式取消選項。",
+    "refundPolicy": "請聯絡 OnStar 詢問退款選項。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "致電 OnStar：1-888-466-7827。"
+          },
+          {
+            "instruction": "請客服人員取消您的訂閱。",
+            "note": "沒有線上或應用程式取消選項。取消後緊急服務將停止。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我可以在線上取消 OnStar 嗎？",
+        "answer": "不行。OnStar 需要致電 1-888-466-7827。沒有線上或應用程式取消選項。"
+      },
+      {
+        "question": "取消後緊急服務會怎樣？",
+        "answer": "取消 OnStar 訂閱後，自動碰撞通知和緊急求救等緊急服務將停止運作。"
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "OBD-II 診斷器材 — 車輛診斷"
+      },
+      {
+        "description": "智慧型手機 GPS 導航應用程式"
+      }
+    ]
+  },
+  "ipsy": {
+    "description": "在每月 1 日前取消 IPSY，以避免下次扣款。",
+    "difficultyReason": "必須在每月 1 日前取消，以避免下次付款。",
+    "refundPolicy": "若訂單已處理則不提供退款。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 ipsy.com/manage-membership 並登入。"
+          },
+          {
+            "instruction": "點擊「取消會員資格」。",
+            "note": "請在每月 1 日前取消，以避免下次扣款。"
+          },
+          {
+            "instruction": "確認取消。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我可以跳過幾個月而不取消嗎？",
+        "answer": "可以。IPSY 允許您跳過幾個月，若您想暫時停止而非完全取消會員資格，可使用此功能。"
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Birchbox — 每月美妝盒"
+      },
+      {
+        "description": "BoxyCharm — 高級美妝訂閱盒"
+      }
+    ]
+  },
+  "capcut": {
+    "description": "在 2 分鐘內取消 CapCut Pro。",
+    "difficultyReason": "可輕鬆透過網站或裝置設定取消。",
+    "refundPolicy": "不提供退款。可繼續使用至計費週期結束。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 capcut.com 並登入。"
+          },
+          {
+            "instruction": "前往個人資料 → 訂閱。"
+          },
+          {
+            "instruction": "點擊「取消訂閱」並確認。",
+            "note": "取消後您的專案仍會保留。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "開啟 iPhone 設定 → 姓名 → 訂閱項目。"
+          },
+          {
+            "instruction": "找到 CapCut 並點擊「取消訂閱」。"
+          },
+          {
+            "instruction": "確認取消。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "開啟 Google Play → 付款與訂閱 → 訂閱項目。"
+          },
+          {
+            "instruction": "找到 CapCut → 點擊「取消訂閱」並確認。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "取消後我的專案會消失嗎？",
+        "answer": "不會。您的專案仍會保留。您只會失去 Pro 功能的使用權。"
+      },
+      {
+        "question": "我的帳號被封禁了 — 如何取消？",
+        "answer": "若您的帳號被封禁，無法透過網站取消訂閱。請使用裝置設定（iOS 或 Android）取消。"
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "DaVinci Resolve — 專業免費影片編輯器"
+      },
+      {
+        "description": "InShot — 行動裝置影片編輯器"
+      }
+    ]
   }
 }

@@ -2090,5 +2090,501 @@
         "answer": "Kembalikan item yang tidak diinginkan dalam 3 hari setelah diterima. Setelah itu, Anda akan ditagih untuk item yang disimpan."
       }
     ]
+  },
+  "norton": {
+    "description": "Batalkan Norton 360 dan hentikan perpanjangan otomatis dalam 5 menit.",
+    "difficultyReason": "Anda harus masuk ke portal Norton dan menonaktifkan perpanjangan otomatis secara khusus — menghapus instalasi perangkat lunak tidak membatalkan langganan.",
+    "refundPolicy": "Garansi uang kembali 60 hari melalui obrolan dukungan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka my.norton.com dan masuk ke akun Anda."
+          },
+          {
+            "instruction": "Pergi ke Langganan Saya."
+          },
+          {
+            "instruction": "Klik Batalkan perpanjangan otomatis di sebelah Norton 360."
+          },
+          {
+            "instruction": "Konfirmasi pembatalan.",
+            "note": "Menghapus instalasi perangkat lunak Norton tidak membatalkan langganan — lakukan melalui portal."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Apakah menghapus instalasi Norton membatalkan perpanjangan otomatis?",
+        "answer": "Tidak. Anda harus menonaktifkan perpanjangan otomatis melalui my.norton.com. Menghapus instalasi perangkat lunak saja tidak membatalkan langganan."
+      },
+      {
+        "question": "Bisakah saya mendapatkan pengembalian dana?",
+        "answer": "Ya. Norton menawarkan garansi uang kembali 60 hari. Hubungi obrolan dukungan di norton.com untuk mengajukan pengembalian dana."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Malwarebytes — pilihan antivirus gratis dan berbayar"
+      },
+      {
+        "description": "Windows Defender — perlindungan bawaan gratis untuk Windows"
+      },
+      {
+        "description": "Bitdefender — perangkat lunak antivirus dengan rating tinggi"
+      }
+    ]
+  },
+  "tinder-gold": {
+    "description": "Batalkan Tinder Gold dalam 2 menit.",
+    "difficultyReason": "Pembatalan dilakukan melalui situs web atau pengaturan perangkat tergantung cara berlangganan.",
+    "refundPolicy": "Tidak ada pengembalian dana. Akses berlanjut hingga akhir periode penagihan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka account.gotinder.com dan masuk."
+          },
+          {
+            "instruction": "Klik Kelola Langganan."
+          },
+          {
+            "instruction": "Klik Batalkan Langganan dan konfirmasi."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Buka Pengaturan iPhone → ketuk nama Anda."
+          },
+          {
+            "instruction": "Ketuk Langganan → cari Tinder."
+          },
+          {
+            "instruction": "Ketuk Batalkan Langganan → Konfirmasi."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Buka Google Play → ketuk ikon profil."
+          },
+          {
+            "instruction": "Pergi ke Pembayaran dan langganan → Langganan."
+          },
+          {
+            "instruction": "Cari Tinder → ketuk Batalkan Langganan dan konfirmasi."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Apakah saya akan kehilangan kecocokan saat membatalkan Tinder Gold?",
+        "answer": "Tidak. Kecocokan Anda tetap terjaga saat beralih ke paket gratis. Anda hanya kehilangan fitur Gold."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Bumble — aplikasi kencan dengan versi gratis"
+      },
+      {
+        "description": "Hinge — aplikasi kencan untuk hubungan serius"
+      }
+    ]
+  },
+  "bumble": {
+    "description": "Batalkan Bumble Boost atau Premium dalam 3 menit.",
+    "difficultyReason": "Pembatalan mudah dilakukan melalui aplikasi atau pengaturan perangkat.",
+    "refundPolicy": "Tidak ada pengembalian dana. Akses berlanjut hingga akhir periode penagihan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka aplikasi Bumble atau kunjungi bumble.com."
+          },
+          {
+            "instruction": "Pergi ke Profil → Pengaturan → Kelola Langganan."
+          },
+          {
+            "instruction": "Klik Batalkan dan konfirmasi."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Buka Pengaturan iPhone → nama → Langganan."
+          },
+          {
+            "instruction": "Cari Bumble dan ketuk."
+          },
+          {
+            "instruction": "Ketuk Batalkan Langganan → Konfirmasi."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Buka Google Play → Pembayaran dan langganan → Langganan."
+          },
+          {
+            "instruction": "Cari Bumble → ketuk Batalkan Langganan dan konfirmasi."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Apakah saya akan kehilangan kecocokan setelah pembatalan?",
+        "answer": "Tidak. Kecocokan Anda tetap terjaga di paket gratis. Hanya fitur Boost atau Premium yang dinonaktifkan."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Tinder — aplikasi kencan populer dengan versi gratis"
+      },
+      {
+        "description": "Hinge — aplikasi kencan untuk hubungan serius"
+      }
+    ]
+  },
+  "kindle-unlimited": {
+    "description": "Batalkan Kindle Unlimited dalam 2 menit di Amazon.",
+    "difficultyReason": "Pembatalan mudah dilakukan melalui situs web Amazon.",
+    "refundPolicy": "Tidak ada pengembalian dana. Keanggotaan dapat dijeda 1 hingga 3 bulan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka amazon.com dan masuk."
+          },
+          {
+            "instruction": "Pergi ke Keanggotaan dan Langganan."
+          },
+          {
+            "instruction": "Klik Batalkan Kindle Unlimited."
+          },
+          {
+            "instruction": "Konfirmasi pembatalan.",
+            "note": "Buku yang dipinjam akan dihapus setelah periode penagihan berakhir."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Gunakan browser untuk membuka amazon.com — jangan batalkan melalui aplikasi."
+          },
+          {
+            "instruction": "Pergi ke Keanggotaan dan Langganan → Batalkan Kindle Unlimited."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Gunakan browser untuk membuka amazon.com — jangan batalkan melalui aplikasi."
+          },
+          {
+            "instruction": "Pergi ke Keanggotaan dan Langganan → Batalkan Kindle Unlimited."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Apa yang terjadi dengan buku yang dipinjam?",
+        "answer": "Buku Kindle Unlimited yang dipinjam akan dihapus setelah periode penagihan berakhir. Unduh buku yang ingin Anda simpan sebelum membatalkan."
+      },
+      {
+        "question": "Bisakah saya menjeda alih-alih membatalkan?",
+        "answer": "Ya. Kindle Unlimited dapat dijeda selama 1 hingga 3 bulan melalui halaman Keanggotaan dan Langganan di amazon.com."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Scribd — e-book, buku audio, dan lainnya"
+      },
+      {
+        "description": "Libby — e-book gratis melalui perpustakaan Anda"
+      }
+    ]
+  },
+  "hims": {
+    "description": "Batalkan langganan Hims sebelum tanggal pemrosesan untuk menghindari pengiriman berikutnya.",
+    "difficultyReason": "Anda harus membatalkan setidaknya 48 jam sebelum tanggal pemrosesan untuk menghindari biaya.",
+    "refundPolicy": "Tidak ada pengembalian dana jika pesanan sudah diproses. Hubungi dukungan lebih awal.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka forhims.com/account dan masuk."
+          },
+          {
+            "instruction": "Pergi ke pengaturan langganan Anda."
+          },
+          {
+            "instruction": "Klik Batalkan Langganan.",
+            "note": "Batalkan setidaknya 48 jam sebelum tanggal pemrosesan untuk menghindari pengiriman berikutnya."
+          },
+          {
+            "instruction": "Konfirmasi pembatalan."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Bagaimana jika saya melewatkan batas waktu pembatalan?",
+        "answer": "Jika Anda tidak membatalkan 48 jam sebelum tanggal pemrosesan, Anda akan ditagih dan pengiriman akan dikirim. Hubungi layanan pelanggan jika ini terjadi."
+      },
+      {
+        "question": "Bisakah saya menjeda langganan?",
+        "answer": "Ya. Hims menawarkan opsi jeda jika Anda ingin istirahat sementara daripada membatalkan sepenuhnya."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Ro — layanan kesehatan pria online"
+      },
+      {
+        "description": "Manual — langganan kesehatan pria"
+      }
+    ]
+  },
+  "icloud-plus": {
+    "description": "Batalkan iCloud+ (turunkan ke 5GB gratis) dalam 2 menit.",
+    "difficultyReason": "Penurunan paket mudah dilakukan melalui pengaturan Apple ID di perangkat mana pun.",
+    "refundPolicy": "Tidak ada pengembalian dana. Penyimpanan berlanjut hingga akhir periode penagihan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka appleid.apple.com dan masuk."
+          },
+          {
+            "instruction": "Klik iCloud → Ubah Paket Penyimpanan."
+          },
+          {
+            "instruction": "Pilih 5GB Gratis dan konfirmasi.",
+            "note": "Data di atas 5GB tidak akan tersinkronisasi. Unduh foto Anda terlebih dahulu."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Buka Pengaturan → ketuk nama Anda → iCloud."
+          },
+          {
+            "instruction": "Ketuk Kelola → Turunkan ke Gratis."
+          },
+          {
+            "instruction": "Konfirmasi perubahan.",
+            "note": "Unduh foto dan dokumen sebelum menurunkan paket jika Anda menyimpan lebih dari 5GB."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Buka browser dan kunjungi appleid.apple.com."
+          },
+          {
+            "instruction": "Klik iCloud → Ubah Paket Penyimpanan → 5GB Gratis."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Apa yang terjadi dengan data di atas 5GB?",
+        "answer": "Data di atas 5GB tidak akan lagi tersinkronisasi tetapi tidak akan langsung dihapus. Unduh foto dan dokumen Anda sebelum menurunkan paket."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Google One — penyimpanan cloud dengan 15GB gratis"
+      },
+      {
+        "description": "OneDrive — penyimpanan cloud Microsoft, 5GB gratis"
+      }
+    ]
+  },
+  "uber-one": {
+    "description": "Batalkan Uber One dalam 3 menit di aplikasi.",
+    "difficultyReason": "Pembatalan mudah dilakukan melalui aplikasi Uber.",
+    "refundPolicy": "Tidak ada pengembalian dana. Akses berlanjut hingga akhir periode penagihan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka aplikasi Uber."
+          },
+          {
+            "instruction": "Pergi ke Akun → Uber One."
+          },
+          {
+            "instruction": "Ketuk Kelola → Batalkan Keanggotaan."
+          },
+          {
+            "instruction": "Konfirmasi pembatalan.",
+            "note": "Pembatalan menghapus manfaat untuk Uber dan Uber Eats."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Apakah saya juga kehilangan manfaat Uber Eats?",
+        "answer": "Ya. Uber One mencakup manfaat untuk perjalanan Uber dan Uber Eats. Saat dibatalkan, Anda kehilangan semua manfaat."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "DoorDash DashPass — langganan pengiriman makanan"
+      },
+      {
+        "description": "Lyft Pink — langganan perjalanan"
+      }
+    ]
+  },
+  "onstar": {
+    "description": "Batalkan OnStar melalui telepon — hubungi 1-888-466-7827.",
+    "difficultyReason": "OnStar memerlukan pembatalan melalui telepon — tidak ada opsi pembatalan online atau melalui aplikasi.",
+    "refundPolicy": "Hubungi OnStar untuk opsi pengembalian dana.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Hubungi OnStar di 1-888-466-7827."
+          },
+          {
+            "instruction": "Minta agen untuk membatalkan langganan Anda.",
+            "note": "Tidak ada opsi pembatalan online atau melalui aplikasi. Layanan darurat berhenti setelah pembatalan."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Bisakah saya membatalkan OnStar secara online?",
+        "answer": "Tidak. OnStar mengharuskan Anda menelepon 1-888-466-7827. Tidak ada opsi pembatalan online atau melalui aplikasi."
+      },
+      {
+        "question": "Apa yang terjadi dengan layanan darurat setelah pembatalan?",
+        "answer": "Layanan darurat seperti notifikasi kecelakaan otomatis dan panggilan darurat akan berhenti setelah membatalkan langganan OnStar."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Dongle OBD-II untuk diagnostik kendaraan"
+      },
+      {
+        "description": "Aplikasi navigasi GPS smartphone"
+      }
+    ]
+  },
+  "ipsy": {
+    "description": "Batalkan IPSY sebelum tanggal 1 bulan untuk menghindari tagihan berikutnya.",
+    "difficultyReason": "Anda harus membatalkan sebelum tanggal 1 bulan untuk menghindari pembayaran berikutnya.",
+    "refundPolicy": "Tidak ada pengembalian dana jika pesanan sudah diproses.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka ipsy.com/manage-membership dan masuk."
+          },
+          {
+            "instruction": "Klik Batalkan Keanggotaan.",
+            "note": "Batalkan sebelum tanggal 1 bulan untuk menghindari tagihan berikutnya."
+          },
+          {
+            "instruction": "Konfirmasi pembatalan."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Bisakah saya melewati bulan alih-alih membatalkan?",
+        "answer": "Ya. IPSY memungkinkan Anda melewati bulan jika ingin istirahat sementara daripada membatalkan keanggotaan sepenuhnya."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Birchbox — kotak kecantikan bulanan"
+      },
+      {
+        "description": "BoxyCharm — langganan kotak kecantikan premium"
+      }
+    ]
+  },
+  "capcut": {
+    "description": "Batalkan CapCut Pro dalam 2 menit.",
+    "difficultyReason": "Pembatalan mudah dilakukan melalui situs web atau pengaturan perangkat.",
+    "refundPolicy": "Tidak ada pengembalian dana. Akses berlanjut hingga akhir periode penagihan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka capcut.com dan masuk."
+          },
+          {
+            "instruction": "Pergi ke Profil → Langganan."
+          },
+          {
+            "instruction": "Klik Batalkan Langganan dan konfirmasi.",
+            "note": "Proyek Anda tetap terjaga setelah pembatalan."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Buka Pengaturan iPhone → nama → Langganan."
+          },
+          {
+            "instruction": "Cari CapCut dan ketuk Batalkan Langganan."
+          },
+          {
+            "instruction": "Konfirmasi pembatalan."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Buka Google Play → Pembayaran dan langganan → Langganan."
+          },
+          {
+            "instruction": "Cari CapCut → ketuk Batalkan Langganan dan konfirmasi."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Apakah saya akan kehilangan proyek setelah pembatalan?",
+        "answer": "Tidak. Proyek Anda tetap terjaga. Anda hanya kehilangan akses ke fitur Pro."
+      },
+      {
+        "question": "Akun saya diblokir — bagaimana cara membatalkan?",
+        "answer": "Jika akun Anda diblokir, Anda tidak dapat membatalkan melalui situs web. Gunakan pengaturan perangkat (iOS atau Android)."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "DaVinci Resolve — editor video profesional gratis"
+      },
+      {
+        "description": "InShot — editor video mobile"
+      }
+    ]
   }
 }

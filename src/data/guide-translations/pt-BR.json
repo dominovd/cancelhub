@@ -2070,5 +2070,470 @@
         "answer": "Devolva os itens indesejados dentro de 3 dias após o recebimento para evitar cobranças. Inclua o formulário de devolução na embalagem."
       }
     ]
+  },
+  "norton": {
+    "description": "Cancele o Norton 360 e interrompa a renovação automática em menos de 5 minutos. Inclui passos para obter reembolso de 60 dias.",
+    "difficulty": "Médio",
+    "difficultyReason": "O cancelamento da renovação automática é feito online, mas o reembolso exige contato com o suporte via chat.",
+    "refundPolicy": "Reembolso disponível em até 60 dias via chat ao vivo com o número do pedido.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse my.norton.com e faça login."
+          },
+          {
+            "instruction": "Vá para Minhas Assinaturas."
+          },
+          {
+            "instruction": "Clique em Cancelar renovação automática."
+          },
+          {
+            "instruction": "Confirme o cancelamento."
+          },
+          {
+            "instruction": "Para reembolso: entre em contato com o suporte via chat dentro de 60 dias com o número do pedido."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Acesse as configurações de assinatura do dispositivo.",
+            "note": "Vá em Ajustes → Apple ID → Assinaturas → Norton → Cancelar Assinatura."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Acesse as configurações de assinatura do dispositivo.",
+            "note": "Abra a Google Play Store → Assinaturas → Norton → Cancelar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Desinstalar o aplicativo cancela a assinatura?",
+        "answer": "Não. Desinstalar o aplicativo Norton NÃO cancela a assinatura. Você deve cancelar a renovação automática em my.norton.com."
+      },
+      {
+        "question": "Como obtenho reembolso?",
+        "answer": "Entre em contato com o suporte Norton via chat ao vivo dentro de 60 dias da cobrança e informe o número do pedido."
+      }
+    ]
+  },
+  "tinder-gold": {
+    "description": "Cancele o Tinder Gold ou Tinder Plus em menos de 2 minutos via iOS, Android ou web.",
+    "difficulty": "Fácil",
+    "difficultyReason": "O cancelamento é direto pelas configurações de assinatura da plataforma utilizada.",
+    "refundPolicy": "Sem reembolsos. O acesso continua até o fim do período de cobrança.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse account.gotinder.com e faça login."
+          },
+          {
+            "instruction": "Clique em Gerenciar Conta de Pagamento."
+          },
+          {
+            "instruction": "Selecione Cancelar Assinatura e confirme."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abra Ajustes → Apple ID → Assinaturas."
+          },
+          {
+            "instruction": "Selecione Tinder e toque em Cancelar Assinatura."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abra a Google Play Store → Assinaturas."
+          },
+          {
+            "instruction": "Selecione Tinder Gold e toque em Cancelar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Perderei meus matches ao cancelar?",
+        "answer": "Não. Seus matches e mensagens são preservados no plano gratuito após o cancelamento."
+      }
+    ]
+  },
+  "bumble": {
+    "description": "Cancele o Bumble Boost ou Premium em menos de 3 minutos via iOS, Android ou web.",
+    "difficulty": "Fácil",
+    "difficultyReason": "O cancelamento é feito diretamente nas configurações do perfil ou do dispositivo.",
+    "refundPolicy": "Sem reembolsos. O acesso continua até o fim do período de cobrança.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Abra o Bumble e acesse seu Perfil."
+          },
+          {
+            "instruction": "Vá em Configurações → Gerenciar Assinatura."
+          },
+          {
+            "instruction": "Selecione Cancelar e confirme."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abra Ajustes → Apple ID → Assinaturas → Bumble → Cancelar Assinatura."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abra a Google Play Store → Assinaturas → Bumble → Cancelar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Perderei meus matches ao cancelar?",
+        "answer": "Não. Seus matches são preservados no plano gratuito após o cancelamento."
+      }
+    ]
+  },
+  "kindle-unlimited": {
+    "description": "Cancele o Kindle Unlimited em menos de 2 minutos na Amazon. Todos os livros emprestados são removidos após o fim do período.",
+    "difficulty": "Fácil",
+    "difficultyReason": "O cancelamento é rápido e direto pelo site da Amazon.",
+    "refundPolicy": "Sem reembolsos por períodos parciais. Os livros emprestados são removidos ao fim do período de cobrança.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse amazon.com e faça login."
+          },
+          {
+            "instruction": "Vá em Conta → Assinaturas e Memberships."
+          },
+          {
+            "instruction": "Selecione Cancelar Kindle Unlimited e confirme."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Use o navegador do dispositivo para acessar amazon.com.",
+            "note": "O cancelamento não é possível pelo aplicativo Kindle — use o site da Amazon."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Use o navegador do dispositivo para acessar amazon.com.",
+            "note": "O cancelamento não é possível pelo aplicativo Kindle — use o site da Amazon."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "O que acontece com os livros que peguei emprestado?",
+        "answer": "Os livros emprestados são removidos da biblioteca ao fim do período de cobrança."
+      },
+      {
+        "question": "Posso pausar em vez de cancelar?",
+        "answer": "Sim. Você pode pausar o Kindle Unlimited por 1 a 3 meses nas configurações de assinatura."
+      }
+    ]
+  },
+  "hims": {
+    "description": "Cancele a assinatura do Hims — entre em contato com o suporte. Cancele antes da data de processamento para evitar o próximo envio.",
+    "difficulty": "Médio",
+    "difficultyReason": "Não há cancelamento por autoatendimento — é necessário contatar o suporte e respeitar o prazo de 48 horas.",
+    "refundPolicy": "Sem reembolsos após o processamento do pedido. Cancele 48 horas antes da data de processamento.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse forhims.com/account e faça login."
+          },
+          {
+            "instruction": "Vá em Assinatura e clique em Cancelar.",
+            "note": "Se não encontrar a opção, use o chat ao vivo."
+          },
+          {
+            "instruction": "Cancele pelo menos 48 horas antes da data de processamento para evitar o próximo envio."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Use o site forhims.com/account em um navegador para cancelar.",
+            "note": "O cancelamento não está disponível pelo aplicativo móvel."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Use o site forhims.com/account em um navegador para cancelar.",
+            "note": "O cancelamento não está disponível pelo aplicativo móvel."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Perdi o prazo e fui cobrado — posso devolver?",
+        "answer": "Se o pedido já foi processado, geralmente não há reembolso. Entre em contato com o suporte imediatamente para tentar cancelar antes do envio."
+      },
+      {
+        "question": "Posso pausar os envios em vez de cancelar?",
+        "answer": "Sim. O Hims permite pausar os envios. Acesse sua conta ou fale com o suporte."
+      }
+    ]
+  },
+  "icloud-plus": {
+    "description": "Cancele o iCloud+ (faça downgrade para 5 GB gratuito) em menos de 2 minutos no iPhone, Mac ou web.",
+    "difficulty": "Fácil",
+    "difficultyReason": "O downgrade é feito diretamente nas configurações da Apple, sem necessidade de contatar o suporte.",
+    "refundPolicy": "Sem reembolsos. O plano atual permanece ativo até o fim do período de cobrança.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse appleid.apple.com e faça login."
+          },
+          {
+            "instruction": "Clique em Alterar Plano de Armazenamento."
+          },
+          {
+            "instruction": "Selecione Fazer Downgrade para 5 GB gratuito e confirme."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abra Ajustes → seu nome → iCloud → Gerenciar Armazenamento."
+          },
+          {
+            "instruction": "Selecione Fazer Downgrade para Gratuito e confirme."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Use o navegador para acessar appleid.apple.com.",
+            "note": "O gerenciamento do iCloud não está disponível pelo aplicativo no Android."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "O que acontece com meus dados se eu fizer downgrade?",
+        "answer": "Dados acima de 5 GB não serão sincronizados. Faça download das suas fotos e arquivos antes de fazer o downgrade."
+      }
+    ]
+  },
+  "uber-one": {
+    "description": "Cancele a membership Uber One em menos de 3 minutos pelo aplicativo Uber ou Uber Eats.",
+    "difficulty": "Fácil",
+    "difficultyReason": "O cancelamento é feito diretamente no aplicativo sem obstáculos.",
+    "refundPolicy": "Sem reembolso padrão. Os benefícios permanecem até o fim do período de cobrança.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Abra o aplicativo Uber ou Uber Eats."
+          },
+          {
+            "instruction": "Vá em Conta → Uber One → Gerenciar."
+          },
+          {
+            "instruction": "Selecione Cancelar Membership e confirme."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abra o aplicativo Uber ou Uber Eats → Conta → Uber One → Gerenciar → Cancelar Membership."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abra o aplicativo Uber ou Uber Eats → Conta → Uber One → Gerenciar → Cancelar Membership."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Cancelar o Uber One afeta meu Uber Eats também?",
+        "answer": "Sim. O cancelamento remove os benefícios tanto das corridas Uber quanto do Uber Eats."
+      }
+    ]
+  },
+  "onstar": {
+    "description": "Cancele o OnStar por telefone — não há cancelamento online. Ligue para 1-888-466-7827.",
+    "difficulty": "Difícil",
+    "difficultyReason": "O cancelamento só pode ser feito por telefone, sem opção online ou pelo aplicativo.",
+    "refundPolicy": "Consulte o representante OnStar sobre reembolsos proporcionais.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Não há cancelamento online disponível.",
+            "note": "O único método de cancelamento é por telefone."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Não há cancelamento pelo aplicativo disponível.",
+            "note": "Ligue para 1-888-466-7827 para cancelar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Não há cancelamento pelo aplicativo disponível.",
+            "note": "Ligue para 1-888-466-7827 para cancelar."
+          }
+        ]
+      },
+      "phone": {
+        "steps": [
+          {
+            "instruction": "Ligue para 1-888-466-7827."
+          },
+          {
+            "instruction": "Solicite o cancelamento da sua assinatura OnStar."
+          },
+          {
+            "instruction": "Confirme os detalhes com o representante."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "O que acontece com os serviços de emergência após o cancelamento?",
+        "answer": "Os serviços de emergência do OnStar são interrompidos após o cancelamento. Considere isso antes de cancelar."
+      }
+    ]
+  },
+  "ipsy": {
+    "description": "Cancele o IPSY Glam Bag antes do dia 1º do mês para evitar a próxima cobrança.",
+    "difficulty": "Médio",
+    "difficultyReason": "O prazo do dia 1º do mês é rigoroso — perder esse prazo resulta em cobrança pelo próximo mês.",
+    "refundPolicy": "Sem reembolsos após o processamento da cobrança no dia 1º.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse ipsy.com e faça login."
+          },
+          {
+            "instruction": "Vá em Gerenciar Membership."
+          },
+          {
+            "instruction": "Selecione Cancelar Membership.",
+            "note": "O cancelamento deve ser feito antes do dia 1º do mês."
+          },
+          {
+            "instruction": "Confirme o cancelamento."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Use o navegador do dispositivo para acessar ipsy.com e cancelar.",
+            "note": "O cancelamento não está disponível pelo aplicativo móvel."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Use o navegador do dispositivo para acessar ipsy.com e cancelar.",
+            "note": "O cancelamento não está disponível pelo aplicativo móvel."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Posso pular um mês em vez de cancelar?",
+        "answer": "Sim. O IPSY permite pular meses. Acesse sua conta e selecione a opção de pular antes do dia 1º."
+      }
+    ]
+  },
+  "capcut": {
+    "description": "Cancele o CapCut Pro em menos de 2 minutos via iOS, Android ou configurações da conta web.",
+    "difficulty": "Fácil",
+    "difficultyReason": "O cancelamento é direto pelas configurações da conta ou do dispositivo.",
+    "refundPolicy": "Sem reembolsos. Os projetos e vídeos são preservados após o cancelamento.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse capcut.com e faça login."
+          },
+          {
+            "instruction": "Vá em Perfil → Assinatura."
+          },
+          {
+            "instruction": "Selecione Cancelar e confirme."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abra Ajustes → Apple ID → Assinaturas → CapCut → Cancelar Assinatura."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abra a Google Play Store → Assinaturas → CapCut → Cancelar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Meus vídeos e projetos serão excluídos?",
+        "answer": "Não. Seus vídeos e projetos são preservados após o cancelamento do CapCut Pro."
+      },
+      {
+        "question": "E se o aplicativo estiver banido na minha região?",
+        "answer": "Se o aplicativo estiver indisponível, cancele a assinatura pelas configurações do seu dispositivo (iOS ou Android)."
+      }
+    ]
   }
 }

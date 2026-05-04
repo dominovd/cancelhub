@@ -2070,5 +2070,470 @@
         "answer": "Restituisci gli articoli indesiderati entro 3 giorni dalla ricezione per evitare addebiti. Includi il modulo di reso nella confezione."
       }
     ]
+  },
+  "norton": {
+    "description": "Annulla Norton 360 e interrompi il rinnovo automatico in meno di 5 minuti. Include i passaggi per ottenere il rimborso di 60 giorni.",
+    "difficulty": "Medio",
+    "difficultyReason": "L'annullamento del rinnovo automatico si effettua online, ma il rimborso richiede il contatto con il supporto via chat.",
+    "refundPolicy": "Rimborso disponibile entro 60 giorni tramite chat dal vivo con il numero dell'ordine.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su my.norton.com e accedi."
+          },
+          {
+            "instruction": "Vai su I miei abbonamenti."
+          },
+          {
+            "instruction": "Clicca su Annulla rinnovo automatico."
+          },
+          {
+            "instruction": "Conferma la disdetta."
+          },
+          {
+            "instruction": "Per il rimborso: contatta il supporto via chat entro 60 giorni con il numero dell'ordine."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Accedi alle impostazioni abbonamenti del dispositivo.",
+            "note": "Vai in Impostazioni → ID Apple → Abbonamenti → Norton → Annulla abbonamento."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Accedi alle impostazioni abbonamenti del dispositivo.",
+            "note": "Apri Google Play Store → Abbonamenti → Norton → Annulla."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Disinstallare l'app annulla l'abbonamento?",
+        "answer": "No. Disinstallare l'app Norton NON annulla l'abbonamento. Devi annullare il rinnovo automatico su my.norton.com."
+      },
+      {
+        "question": "Come ottengo il rimborso?",
+        "answer": "Contatta il supporto Norton via chat dal vivo entro 60 giorni dall'addebito e fornisci il numero dell'ordine."
+      }
+    ]
+  },
+  "tinder-gold": {
+    "description": "Annulla Tinder Gold o Tinder Plus in meno di 2 minuti tramite iOS, Android o web.",
+    "difficulty": "Facile",
+    "difficultyReason": "La disdetta è diretta tramite le impostazioni abbonamenti della piattaforma utilizzata.",
+    "refundPolicy": "Nessun rimborso. L'accesso continua fino alla fine del periodo di fatturazione.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su account.gotinder.com e accedi."
+          },
+          {
+            "instruction": "Clicca su Gestisci account di pagamento."
+          },
+          {
+            "instruction": "Seleziona Annulla abbonamento e conferma."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Apri Impostazioni → ID Apple → Abbonamenti."
+          },
+          {
+            "instruction": "Seleziona Tinder e tocca Annulla abbonamento."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Apri Google Play Store → Abbonamenti."
+          },
+          {
+            "instruction": "Seleziona Tinder Gold e tocca Annulla."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Perderò i miei match dopo la disdetta?",
+        "answer": "No. I tuoi match e messaggi vengono conservati nel piano gratuito dopo la disdetta."
+      }
+    ]
+  },
+  "bumble": {
+    "description": "Annulla Bumble Boost o Premium in meno di 3 minuti tramite iOS, Android o web.",
+    "difficulty": "Facile",
+    "difficultyReason": "La disdetta si effettua direttamente nelle impostazioni del profilo o del dispositivo.",
+    "refundPolicy": "Nessun rimborso. L'accesso continua fino alla fine del periodo di fatturazione.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Apri Bumble e accedi al tuo Profilo."
+          },
+          {
+            "instruction": "Vai in Impostazioni → Gestisci abbonamento."
+          },
+          {
+            "instruction": "Seleziona Annulla e conferma."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Apri Impostazioni → ID Apple → Abbonamenti → Bumble → Annulla abbonamento."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Apri Google Play Store → Abbonamenti → Bumble → Annulla."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Perderò i miei match dopo la disdetta?",
+        "answer": "No. I tuoi match vengono conservati nel piano gratuito dopo la disdetta."
+      }
+    ]
+  },
+  "kindle-unlimited": {
+    "description": "Annulla Kindle Unlimited in meno di 2 minuti su Amazon. Tutti i libri in prestito vengono rimossi dopo la fine del periodo.",
+    "difficulty": "Facile",
+    "difficultyReason": "La disdetta è rapida e diretta dal sito Amazon.",
+    "refundPolicy": "Nessun rimborso per periodi parziali. I libri in prestito vengono rimossi alla fine del periodo di fatturazione.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su amazon.com e accedi."
+          },
+          {
+            "instruction": "Vai in Account → Abbonamenti e Membership."
+          },
+          {
+            "instruction": "Seleziona Annulla Kindle Unlimited e conferma."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Usa il browser del dispositivo per accedere ad amazon.com.",
+            "note": "La disdetta non è possibile tramite l'app Kindle — usa il sito Amazon."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Usa il browser del dispositivo per accedere ad amazon.com.",
+            "note": "La disdetta non è possibile tramite l'app Kindle — usa il sito Amazon."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Cosa succede ai libri che ho preso in prestito?",
+        "answer": "I libri in prestito vengono rimossi dalla libreria alla fine del periodo di fatturazione."
+      },
+      {
+        "question": "Posso sospendere invece di annullare?",
+        "answer": "Sì. Puoi sospendere Kindle Unlimited per 1-3 mesi dalle impostazioni dell'abbonamento."
+      }
+    ]
+  },
+  "hims": {
+    "description": "Annulla l'abbonamento Hims — contatta il supporto. Annulla almeno 48 ore prima della data di elaborazione per evitare la spedizione successiva.",
+    "difficulty": "Medio",
+    "difficultyReason": "Non esiste cancellazione self-service — è necessario contattare il supporto rispettando il termine di 48 ore.",
+    "refundPolicy": "Nessun rimborso dopo l'elaborazione dell'ordine. Annulla 48 ore prima della data di elaborazione.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su forhims.com/account e accedi."
+          },
+          {
+            "instruction": "Vai in Abbonamento e clicca su Annulla.",
+            "note": "Se non trovi l'opzione, usa la chat dal vivo."
+          },
+          {
+            "instruction": "Annulla almeno 48 ore prima della data di elaborazione per evitare la spedizione successiva."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Usa il sito forhims.com/account in un browser per annullare.",
+            "note": "La disdetta non è disponibile tramite l'app mobile."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Usa il sito forhims.com/account in un browser per annullare.",
+            "note": "La disdetta non è disponibile tramite l'app mobile."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ho perso la scadenza e sono stato addebitato — posso restituire?",
+        "answer": "Se l'ordine è già stato elaborato, generalmente non è previsto rimborso. Contatta subito il supporto per tentare di bloccare la spedizione."
+      },
+      {
+        "question": "Posso sospendere le spedizioni invece di annullare?",
+        "answer": "Sì. Hims consente di sospendere le spedizioni. Accedi al tuo account o contatta il supporto."
+      }
+    ]
+  },
+  "icloud-plus": {
+    "description": "Annulla iCloud+ (passa al piano gratuito da 5 GB) in meno di 2 minuti su iPhone, Mac o web.",
+    "difficulty": "Facile",
+    "difficultyReason": "Il downgrade si effettua direttamente nelle impostazioni Apple, senza contattare il supporto.",
+    "refundPolicy": "Nessun rimborso. Il piano attuale rimane attivo fino alla fine del periodo di fatturazione.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su appleid.apple.com e accedi."
+          },
+          {
+            "instruction": "Clicca su Cambia piano di archiviazione."
+          },
+          {
+            "instruction": "Seleziona Passa al piano gratuito da 5 GB e conferma."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Apri Impostazioni → il tuo nome → iCloud → Gestisci spazio."
+          },
+          {
+            "instruction": "Seleziona Passa al piano gratuito e conferma."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Usa il browser per accedere ad appleid.apple.com.",
+            "note": "La gestione di iCloud non è disponibile tramite app su Android."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Cosa succede ai miei dati se effettuo il downgrade?",
+        "answer": "I dati oltre 5 GB non verranno sincronizzati. Scarica foto e file prima di effettuare il downgrade."
+      }
+    ]
+  },
+  "uber-one": {
+    "description": "Annulla la membership Uber One in meno di 3 minuti nell'app Uber o Uber Eats.",
+    "difficulty": "Facile",
+    "difficultyReason": "La disdetta si effettua direttamente nell'app senza ostacoli.",
+    "refundPolicy": "Nessun rimborso standard. I benefici rimangono attivi fino alla fine del periodo di fatturazione.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Apri l'app Uber o Uber Eats."
+          },
+          {
+            "instruction": "Vai in Account → Uber One → Gestisci."
+          },
+          {
+            "instruction": "Seleziona Annulla membership e conferma."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Apri l'app Uber o Uber Eats → Account → Uber One → Gestisci → Annulla membership."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Apri l'app Uber o Uber Eats → Account → Uber One → Gestisci → Annulla membership."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Annullare Uber One influisce anche su Uber Eats?",
+        "answer": "Sì. L'annullamento rimuove i vantaggi sia dalle corse Uber che da Uber Eats."
+      }
+    ]
+  },
+  "onstar": {
+    "description": "Annulla OnStar per telefono — non è disponibile la cancellazione online. Chiama il 1-888-466-7827.",
+    "difficulty": "Difficile",
+    "difficultyReason": "La cancellazione è possibile solo per telefono, senza opzioni online o tramite app.",
+    "refundPolicy": "Consulta il rappresentante OnStar per eventuali rimborsi proporzionali.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Non è disponibile la cancellazione online.",
+            "note": "L'unico metodo di cancellazione è per telefono."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Non è disponibile la cancellazione tramite app.",
+            "note": "Chiama il 1-888-466-7827 per annullare."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Non è disponibile la cancellazione tramite app.",
+            "note": "Chiama il 1-888-466-7827 per annullare."
+          }
+        ]
+      },
+      "phone": {
+        "steps": [
+          {
+            "instruction": "Chiama il 1-888-466-7827."
+          },
+          {
+            "instruction": "Richiedi la cancellazione del tuo abbonamento OnStar."
+          },
+          {
+            "instruction": "Conferma i dettagli con il rappresentante."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Cosa succede ai servizi di emergenza dopo la cancellazione?",
+        "answer": "I servizi di emergenza OnStar vengono interrotti dopo la cancellazione. Considera questo aspetto prima di procedere."
+      }
+    ]
+  },
+  "ipsy": {
+    "description": "Annulla IPSY Glam Bag prima del 1° del mese per evitare il prossimo addebito.",
+    "difficulty": "Medio",
+    "difficultyReason": "La scadenza del 1° del mese è rigida — superarla comporta l'addebito del mese successivo.",
+    "refundPolicy": "Nessun rimborso dopo l'elaborazione dell'addebito il 1° del mese.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su ipsy.com e accedi."
+          },
+          {
+            "instruction": "Vai in Gestisci membership."
+          },
+          {
+            "instruction": "Seleziona Annulla membership.",
+            "note": "La disdetta deve essere effettuata prima del 1° del mese."
+          },
+          {
+            "instruction": "Conferma la disdetta."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Usa il browser del dispositivo per accedere a ipsy.com e annullare.",
+            "note": "La disdetta non è disponibile tramite l'app mobile."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Usa il browser del dispositivo per accedere a ipsy.com e annullare.",
+            "note": "La disdetta non è disponibile tramite l'app mobile."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Posso saltare un mese invece di annullare?",
+        "answer": "Sì. IPSY consente di saltare i mesi. Accedi al tuo account e seleziona l'opzione salta prima del 1°."
+      }
+    ]
+  },
+  "capcut": {
+    "description": "Annulla CapCut Pro in meno di 2 minuti tramite iOS, Android o le impostazioni dell'account web.",
+    "difficulty": "Facile",
+    "difficultyReason": "La disdetta è diretta tramite le impostazioni dell'account o del dispositivo.",
+    "refundPolicy": "Nessun rimborso. Progetti e video vengono conservati dopo la disdetta.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su capcut.com e accedi."
+          },
+          {
+            "instruction": "Vai in Profilo → Abbonamento."
+          },
+          {
+            "instruction": "Seleziona Annulla e conferma."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Apri Impostazioni → ID Apple → Abbonamenti → CapCut → Annulla abbonamento."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Apri Google Play Store → Abbonamenti → CapCut → Annulla."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "I miei video e progetti verranno eliminati?",
+        "answer": "No. I tuoi video e progetti vengono conservati dopo la disdetta di CapCut Pro."
+      },
+      {
+        "question": "E se l'app fosse vietata nella mia regione?",
+        "answer": "Se l'app non è disponibile, annulla l'abbonamento tramite le impostazioni del dispositivo (iOS o Android)."
+      }
+    ]
   }
 }

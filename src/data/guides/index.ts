@@ -31,6 +31,16 @@ import { slingTv } from './sling-tv'
 import { whoop } from './whoop'
 import { factorMeals } from './factor-meals'
 import { stitchFix } from './stitch-fix'
+import { norton } from './norton'
+import { tinderGold } from './tinder-gold'
+import { bumble } from './bumble'
+import { kindleUnlimited } from './kindle-unlimited'
+import { hims } from './hims'
+import { icloudPlus } from './icloud-plus'
+import { uberOne } from './uber-one'
+import { onstar } from './onstar'
+import { ipsy } from './ipsy'
+import { capcut } from './capcut'
 
 export const allGuides: CancelGuide[] = [
   netflix,
@@ -65,6 +75,16 @@ export const allGuides: CancelGuide[] = [
   whoop,
   factorMeals,
   stitchFix,
+  norton,
+  tinderGold,
+  bumble,
+  kindleUnlimited,
+  hims,
+  icloudPlus,
+  uberOne,
+  onstar,
+  ipsy,
+  capcut,
 ]
 
 export const guidesBySlug: Record<string, CancelGuide> = Object.fromEntries(

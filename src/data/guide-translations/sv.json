@@ -2090,5 +2090,501 @@
         "answer": "Returnera oönskade artiklar inom 3 dagar efter mottagning. Därefter debiteras du för de behållna artiklarna."
       }
     ]
+  },
+  "norton": {
+    "description": "Avsluta Norton 360 och stoppa automatisk förnyelse på under 5 minuter.",
+    "difficultyReason": "Du måste logga in på Nortons portal och specifikt inaktivera automatisk förnyelse — att avinstallera programvaran avslutar inte prenumerationen.",
+    "refundPolicy": "60 dagars pengarna-tillbaka-garanti via supportchatt.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gå till my.norton.com och logga in."
+          },
+          {
+            "instruction": "Gå till Mina prenumerationer."
+          },
+          {
+            "instruction": "Klicka på Avbryt automatisk förnyelse bredvid Norton 360."
+          },
+          {
+            "instruction": "Bekräfta avbokningen.",
+            "note": "Att avinstallera Norton-programvaran avslutar inte prenumerationen — gör det via portalen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Avbryter avinstallationen av Norton den automatiska förnyelsen?",
+        "answer": "Nej. Du måste inaktivera automatisk förnyelse via my.norton.com. Att avinstallera programvaran ensamt avslutar inte prenumerationen."
+      },
+      {
+        "question": "Kan jag få pengarna tillbaka?",
+        "answer": "Ja. Norton erbjuder 60 dagars pengarna-tillbaka-garanti. Kontakta supportchatten på norton.com för att begära återbetalning."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Malwarebytes — gratis och betalt antivirusskydd"
+      },
+      {
+        "description": "Windows Defender — gratis inbyggt skydd för Windows"
+      },
+      {
+        "description": "Bitdefender — högt betygsatt antivirusprogram"
+      }
+    ]
+  },
+  "tinder-gold": {
+    "description": "Avsluta Tinder Gold på under 2 minuter.",
+    "difficultyReason": "Avbokning sker via webbplatsen eller enhetsinställningarna beroende på hur du prenumererar.",
+    "refundPolicy": "Inga återbetalningar. Åtkomsten fortsätter till slutet av faktureringsperioden.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gå till account.gotinder.com och logga in."
+          },
+          {
+            "instruction": "Klicka på Hantera prenumeration."
+          },
+          {
+            "instruction": "Klicka på Avsluta prenumeration och bekräfta."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Öppna iPhone-inställningar → tryck på ditt namn."
+          },
+          {
+            "instruction": "Tryck på Prenumerationer → hitta Tinder."
+          },
+          {
+            "instruction": "Tryck på Avsluta prenumeration → Bekräfta."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Öppna Google Play → tryck på profilikonen."
+          },
+          {
+            "instruction": "Gå till Betalningar och prenumerationer → Prenumerationer."
+          },
+          {
+            "instruction": "Hitta Tinder → tryck på Avsluta prenumeration och bekräfta."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Förlorar jag mina matchningar när jag avslutar Tinder Gold?",
+        "answer": "Nej. Dina matchningar bevaras när du nedgraderar till gratisplanen. Du förlorar bara Gold-funktionerna."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Bumble — dejtingapp med gratisversion"
+      },
+      {
+        "description": "Hinge — dejtingapp för seriösa relationer"
+      }
+    ]
+  },
+  "bumble": {
+    "description": "Avsluta Bumble Boost eller Premium på under 3 minuter.",
+    "difficultyReason": "Avbokning är enkel via appen eller enhetsinställningarna.",
+    "refundPolicy": "Inga återbetalningar. Åtkomsten fortsätter till slutet av faktureringsperioden.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Öppna Bumble-appen eller gå till bumble.com."
+          },
+          {
+            "instruction": "Gå till Profil → Inställningar → Hantera prenumeration."
+          },
+          {
+            "instruction": "Klicka på Avsluta och bekräfta."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Öppna iPhone-inställningar → namn → Prenumerationer."
+          },
+          {
+            "instruction": "Hitta Bumble och tryck på det."
+          },
+          {
+            "instruction": "Tryck på Avsluta prenumeration → Bekräfta."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Öppna Google Play → Betalningar och prenumerationer → Prenumerationer."
+          },
+          {
+            "instruction": "Hitta Bumble → tryck på Avsluta prenumeration och bekräfta."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Förlorar jag mina matchningar efter avbokning?",
+        "answer": "Nej. Dina matchningar bevaras på gratisplanen. Bara Boost- eller Premium-funktionerna inaktiveras."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Tinder — populär dejtingapp med gratisversion"
+      },
+      {
+        "description": "Hinge — dejtingapp för seriösa relationer"
+      }
+    ]
+  },
+  "kindle-unlimited": {
+    "description": "Avsluta Kindle Unlimited på under 2 minuter hos Amazon.",
+    "difficultyReason": "Avbokning är enkel via Amazons webbplats.",
+    "refundPolicy": "Inga återbetalningar. Du kan pausa medlemskapet i 1 till 3 månader.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gå till amazon.com och logga in."
+          },
+          {
+            "instruction": "Gå till Medlemskap och prenumerationer."
+          },
+          {
+            "instruction": "Klicka på Avsluta Kindle Unlimited."
+          },
+          {
+            "instruction": "Bekräfta avbokningen.",
+            "note": "Lånade böcker tas bort efter att faktureringsperioden slutar."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Använd en webbläsare för att gå till amazon.com — avsluta inte via appen."
+          },
+          {
+            "instruction": "Gå till Medlemskap och prenumerationer → Avsluta Kindle Unlimited."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Använd en webbläsare för att gå till amazon.com — avsluta inte via appen."
+          },
+          {
+            "instruction": "Gå till Medlemskap och prenumerationer → Avsluta Kindle Unlimited."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Vad händer med mina lånade böcker?",
+        "answer": "Kindle Unlimited-lånade böcker tas bort efter att faktureringsperioden slutar. Ladda ner böcker du vill behålla innan du avslutar."
+      },
+      {
+        "question": "Kan jag pausa istället för att avsluta?",
+        "answer": "Ja. Du kan pausa Kindle Unlimited i 1 till 3 månader via sidan Medlemskap och prenumerationer på amazon.com."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Scribd — e-böcker, ljudböcker och mer"
+      },
+      {
+        "description": "Libby — gratis e-böcker via ditt bibliotek"
+      }
+    ]
+  },
+  "hims": {
+    "description": "Avsluta Hims-prenumerationen innan behandlingsdatumet för att undvika nästa leverans.",
+    "difficultyReason": "Du måste avsluta minst 48 timmar innan behandlingsdatumet för att undvika avgifter.",
+    "refundPolicy": "Inga återbetalningar om beställningen redan behandlats. Kontakta supporten i god tid.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gå till forhims.com/account och logga in."
+          },
+          {
+            "instruction": "Gå till dina prenumerationsinställningar."
+          },
+          {
+            "instruction": "Klicka på Avsluta prenumeration.",
+            "note": "Avsluta minst 48 timmar innan behandlingsdatumet för att undvika nästa leverans."
+          },
+          {
+            "instruction": "Bekräfta avbokningen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Vad händer om jag missar avslutningsdeadlinen?",
+        "answer": "Om du inte avslutar 48 timmar innan behandlingsdatumet debiteras du och leveransen skickas. Kontakta kundtjänst om detta händer."
+      },
+      {
+        "question": "Kan jag pausa prenumerationen?",
+        "answer": "Ja. Hims erbjuder ett pausalternativ om du vill ta en tillfällig paus istället för att avsluta helt."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Ro — online manhalsa"
+      },
+      {
+        "description": "Manual — manhalsa-prenumeration"
+      }
+    ]
+  },
+  "icloud-plus": {
+    "description": "Avsluta iCloud+ (nedgradera till gratis 5GB) på under 2 minuter.",
+    "difficultyReason": "Nedgradering är enkel via Apple ID-inställningar pa vilken enhet som helst.",
+    "refundPolicy": "Inga aterbetalningar. Lagringen fortsatter till slutet av faktureringsperioden.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga till appleid.apple.com och logga in."
+          },
+          {
+            "instruction": "Klicka pa iCloud → Andra lagringsplan."
+          },
+          {
+            "instruction": "Valj Gratis 5GB och bekrafta.",
+            "note": "Data over 5GB synkroniseras inte. Ladda ner dina foton forst."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Oppna Installningar → tryck pa ditt namn → iCloud."
+          },
+          {
+            "instruction": "Tryck pa Hantera → Nedgradera till gratis."
+          },
+          {
+            "instruction": "Bekrafta andringen.",
+            "note": "Ladda ner foton och dokument innan nedgradering om du har mer an 5GB lagrat."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Oppna en webblasare och ga till appleid.apple.com."
+          },
+          {
+            "instruction": "Klicka pa iCloud → Andra lagringsplan → Gratis 5GB."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Vad hander med data over 5GB?",
+        "answer": "Data over 5GB slutar synkroniseras men raderas inte omedelbart. Ladda ner dina foton och dokument innan nedgradering."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Google One — molnlagring med 15GB gratis"
+      },
+      {
+        "description": "OneDrive — Microsoft molnlagring, 5GB gratis"
+      }
+    ]
+  },
+  "uber-one": {
+    "description": "Avsluta Uber One pa under 3 minuter i appen.",
+    "difficultyReason": "Avbokning ar enkel via Uber-appen.",
+    "refundPolicy": "Inga aterbetalningar. Atkomsten fortsatter till slutet av faktureringsperioden.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Oppna Uber-appen."
+          },
+          {
+            "instruction": "Ga till Konto → Uber One."
+          },
+          {
+            "instruction": "Tryck pa Hantera → Avsluta medlemskap."
+          },
+          {
+            "instruction": "Bekrafta avbokningen.",
+            "note": "Avbokning tar bort formaner for bade Uber och Uber Eats."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Forlorar jag aven mina Uber Eats-formaner?",
+        "answer": "Ja. Uber One inkluderar formaner for bade Uber-resor och Uber Eats. Vid avbokning forlorar du alla formaner."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "DoorDash DashPass — matleveransprenumeration"
+      },
+      {
+        "description": "Lyft Pink — reseprenumeration"
+      }
+    ]
+  },
+  "onstar": {
+    "description": "Avsluta OnStar via telefon — ring 1-888-466-7827.",
+    "difficultyReason": "OnStar kraver telefonavbokning — det finns inget alternativ for avbokning online eller via app.",
+    "refundPolicy": "Kontakta OnStar for aterbetalningsalternativ.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ring OnStar pa 1-888-466-7827."
+          },
+          {
+            "instruction": "Be agenten avsluta din prenumeration.",
+            "note": "Det finns inget online- eller appalternativ for avbokning. Akuttjanster stoppas efter avbokning."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kan jag avsluta OnStar online?",
+        "answer": "Nej. OnStar kraver att du ringer 1-888-466-7827. Det finns inget online- eller appalternativ for avbokning."
+      },
+      {
+        "question": "Vad hander med akuttjansterna efter avbokning?",
+        "answer": "Akuttjanster som automatisk kraschrapportering och nodnummeranrop stoppas efter att du avslutar din OnStar-prenumeration."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "OBD-II-dongle for fordonsdiagnostik"
+      },
+      {
+        "description": "GPS-navigationsappar for smartphone"
+      }
+    ]
+  },
+  "ipsy": {
+    "description": "Avsluta IPSY innan den 1:a i manaden for att undvika nasta debitering.",
+    "difficultyReason": "Du maste avsluta innan den 1:a i manaden for att undvika nasta betalning.",
+    "refundPolicy": "Inga aterbetalningar om bestellningen redan behandlats.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga till ipsy.com/manage-membership och logga in."
+          },
+          {
+            "instruction": "Klicka pa Avsluta medlemskap.",
+            "note": "Avsluta innan den 1:a i manaden for att undvika nasta debitering."
+          },
+          {
+            "instruction": "Bekrafta avbokningen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kan jag hoppa over manader istallet for att avsluta?",
+        "answer": "Ja. IPSY tillater dig att hoppa over manader om du vill ta en tillfallig paus istallet for att helt avsluta medlemskapet."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Birchbox — manatlig skonhetslada"
+      },
+      {
+        "description": "BoxyCharm — premium skenhetsbox-prenumeration"
+      }
+    ]
+  },
+  "capcut": {
+    "description": "Avsluta CapCut Pro pa under 2 minuter.",
+    "difficultyReason": "Avbokning ar enkel via webbplatsen eller enhetsinstellningarna.",
+    "refundPolicy": "Inga aterbetalningar. Atkomsten fortsatter till slutet av faktureringsperioden.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga till capcut.com och logga in."
+          },
+          {
+            "instruction": "Ga till Profil → Prenumeration."
+          },
+          {
+            "instruction": "Klicka pa Avsluta prenumeration och bekrafta.",
+            "note": "Dina projekt bevaras efter avbokning."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Oppna iPhone-installningar → namn → Prenumerationer."
+          },
+          {
+            "instruction": "Hitta CapCut och tryck pa Avsluta prenumeration."
+          },
+          {
+            "instruction": "Bekrafta avbokningen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Oppna Google Play → Betalningar och prenumerationer → Prenumerationer."
+          },
+          {
+            "instruction": "Hitta CapCut → tryck pa Avsluta prenumeration och bekrafta."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Forlorar jag mina projekt efter avbokning?",
+        "answer": "Nej. Dina projekt bevaras. Du forlorar bara tillgang till Pro-funktioner."
+      },
+      {
+        "question": "Mitt konto ar bannlyst — hur avslutar jag?",
+        "answer": "Om ditt konto ar bannlyst kan du inte avsluta via webbplatsen. Anvand enhetsinstellningarna (iOS eller Android)."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "DaVinci Resolve — professionell gratis videoredigerare"
+      },
+      {
+        "description": "InShot — mobil videoredigerare"
+      }
+    ]
   }
 }

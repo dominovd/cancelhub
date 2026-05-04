@@ -2090,5 +2090,501 @@
         "answer": "Istenmeyen urunleri teslim alındıktan sonra 3 gun icinde iade edin. Aksi halde, sakladiginiz urunler icin ucretlendirilirsiniz."
       }
     ]
+  },
+  "norton": {
+    "description": "Norton 360'i iptal edin ve otomatik yenilemeyi 5 dakikada durdurun.",
+    "difficultyReason": "Norton portalina giris yapmaniz ve otomatik yenilemeyi ozellikle devre disi birakmaniz gerekir - yazilimi kaldirmak aboneligi iptal etmez.",
+    "refundPolicy": "Destek sohbeti araciligiyla 60 gunluk para iade garantisi.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "my.norton.com adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "Aboneliklerim bolumune gidin."
+          },
+          {
+            "instruction": "Norton 360 yanindaki Otomatik yenilemeyi iptal et secenegine tiklayin."
+          },
+          {
+            "instruction": "Iptali onaylayin.",
+            "note": "Norton yazilimini kaldirmak aboneligi iptal etmez - bunu portal uzerinden yapmaniz gerekir."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Norton'u kaldirmak otomatik yenilemeyi iptal eder mi?",
+        "answer": "Hayir. Otomatik yenilemeyi my.norton.com uzerinden devre disi birakmaniz gerekir. Yazilimi kaldirmak tek basina aboneligi iptal etmez."
+      },
+      {
+        "question": "Para iadesi alabilir miyim?",
+        "answer": "Evet. Norton 60 gunluk para iade garantisi sunar. Iade talebinde bulunmak icin norton.com'daki destek sohbetiyle iletisime gecin."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Malwarebytes - ucretsiz ve ucretli antivirusler"
+      },
+      {
+        "description": "Windows Defender - Windows icin ucretsiz yerlesik koruma"
+      },
+      {
+        "description": "Bitdefender - yuksek puanli antivirus yazilimi"
+      }
+    ]
+  },
+  "tinder-gold": {
+    "description": "Tinder Gold'u 2 dakikadan kisa surede iptal edin.",
+    "difficultyReason": "Iptal, abone olma seklinize gore web sitesi veya cihaz ayarlari uzerinden yapilir.",
+    "refundPolicy": "Iade yoktur. Fatura donemi sonuna kadar erisim devam eder.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "account.gotinder.com adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "Aboneligi Yonet secenegine tiklayin."
+          },
+          {
+            "instruction": "Aboneligi Iptal Et secenegine tiklayin ve onaylayin."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone Ayarlar'i acin - adiniza dokunun."
+          },
+          {
+            "instruction": "Abonelikler'e dokunun - Tinder'i bulun."
+          },
+          {
+            "instruction": "Aboneligi Iptal Et'e dokunun - Onayla."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play'i acin - profil simgesine dokunun."
+          },
+          {
+            "instruction": "Odemeler ve abonelikler - Abonelikler bolumune gidin."
+          },
+          {
+            "instruction": "Tinder'i bulun - Aboneligi Iptal Et'e dokunun ve onaylayin."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Tinder Gold'u iptal edersem eslesmelerimi kaybeder miyim?",
+        "answer": "Hayir. Ucretsiz plana gecerken eslesmeleriniz korunur. Yalnizca Gold ozelliklerini kaybedersiniz."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Bumble - ucretsiz surumu olan bir flort uygulamasi"
+      },
+      {
+        "description": "Hinge - ciddi iliskiler icin flort uygulamasi"
+      }
+    ]
+  },
+  "bumble": {
+    "description": "Bumble Boost veya Premium'u 3 dakikadan kisa surede iptal edin.",
+    "difficultyReason": "Iptal, uygulama veya cihaz ayarlari uzerinden kolayca yapilabilir.",
+    "refundPolicy": "Iade yoktur. Fatura donemi sonuna kadar erisim devam eder.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Bumble uygulamasini acin veya bumble.com adresine gidin."
+          },
+          {
+            "instruction": "Profil - Ayarlar - Aboneligi Yonet bolumune gidin."
+          },
+          {
+            "instruction": "Iptal Et'e tiklayin ve onaylayin."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone Ayarlar'i acin - ad - Abonelikler."
+          },
+          {
+            "instruction": "Bumble'i bulun ve uzerine dokunun."
+          },
+          {
+            "instruction": "Aboneligi Iptal Et'e dokunun - Onayla."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play'i acin - Odemeler ve abonelikler - Abonelikler."
+          },
+          {
+            "instruction": "Bumble'i bulun - Aboneligi Iptal Et'e dokunun ve onaylayin."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Iptalden sonra eslesmelerimi kaybeder miyim?",
+        "answer": "Hayir. Eslesmeleriniz ucretsiz planda korunur. Yalnizca Boost veya Premium ozellikleri devre disi kalir."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Tinder - ucretsiz surumu olan populer flort uygulamasi"
+      },
+      {
+        "description": "Hinge - ciddi iliskiler icin flort uygulamasi"
+      }
+    ]
+  },
+  "kindle-unlimited": {
+    "description": "Amazon'da Kindle Unlimited'i 2 dakikadan kisa surede iptal edin.",
+    "difficultyReason": "Iptal, Amazon web sitesi uzerinden kolayca yapilabilir.",
+    "refundPolicy": "Iade yoktur. Uyelik 1 ila 3 ay arasinda duraklatilabilir.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "amazon.com adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "Uyelikler ve Abonelikler bolumune gidin."
+          },
+          {
+            "instruction": "Kindle Unlimited'i Iptal Et secenegine tiklayin."
+          },
+          {
+            "instruction": "Iptali onaylayin.",
+            "note": "Odunc alinan kitaplar fatura donemi sona erdikten sonra kaldirilir."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "amazon.com adresine gitmek icin tarayici kullanin - uygulama uzerinden iptal etmeyin."
+          },
+          {
+            "instruction": "Uyelikler ve Abonelikler - Kindle Unlimited'i Iptal Et bolumune gidin."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "amazon.com adresine gitmek icin tarayici kullanin - uygulama uzerinden iptal etmeyin."
+          },
+          {
+            "instruction": "Uyelikler ve Abonelikler - Kindle Unlimited'i Iptal Et bolumune gidin."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Odunc aldiğim kitaplara ne olur?",
+        "answer": "Odunc alinan Kindle Unlimited kitaplari fatura donemi sona erdikten sonra kaldirilir. Iptal etmeden once saklamak istediginiz kitaplari indirin."
+      },
+      {
+        "question": "Iptal etmek yerine duraklatabilir miyim?",
+        "answer": "Evet. Kindle Unlimited, amazon.com'daki Uyelikler ve Abonelikler sayfasi uzerinden 1 ila 3 ay arasinda duraklatilabilir."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Scribd - e-kitaplar, sesli kitaplar ve daha fazlasi"
+      },
+      {
+        "description": "Libby - kutuphaneniz araciligiyla ucretsiz e-kitaplar"
+      }
+    ]
+  },
+  "hims": {
+    "description": "Bir sonraki kargodan kacınmak icin isleme tarihinden once Hims aboneliginizi iptal edin.",
+    "difficultyReason": "Ucretlerden kacınmak icin isleme tarihinden en az 48 saat once iptal etmeniz gerekir.",
+    "refundPolicy": "Siparis zaten islenmisse iade yapilmaz. Destekle erken iletisime gecin.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "forhims.com/account adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "Abonelik ayarlariniza gidin."
+          },
+          {
+            "instruction": "Aboneligi Iptal Et secenegine tiklayin.",
+            "note": "Bir sonraki kargodan kacınmak icin isleme tarihinden en az 48 saat once iptal edin."
+          },
+          {
+            "instruction": "Iptali onaylayin."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Iptal son tarihini kacirirsam ne olur?",
+        "answer": "Isleme tarihinden 48 saat once iptal etmezseniz ucretlendirilirsiniz ve kargo gonderilir. Bu olursa musteri hizmetleriyle iletisime gecin."
+      },
+      {
+        "question": "Aboneligi duraklatabilir miyim?",
+        "answer": "Evet. Hims, tamamen iptal etmek yerine gecici bir mola vermek istiyorsaniz duraklatma secenegi sunar."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Ro - online erkek sagligi hizmetleri"
+      },
+      {
+        "description": "Manual - erkek sagligi aboneligi"
+      }
+    ]
+  },
+  "icloud-plus": {
+    "description": "iCloud+'i iptal edin (ucretsiz 5GB'a dusurun) 2 dakikadan kisa surede.",
+    "difficultyReason": "Herhangi bir cihazda Apple ID ayarlari uzerinden plan dusurme kolaydir.",
+    "refundPolicy": "Iade yoktur. Depolama fatura donemi sonuna kadar devam eder.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "appleid.apple.com adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "iCloud - Depolama Planini Degistir secenegine tiklayin."
+          },
+          {
+            "instruction": "Ucretsiz 5GB'i secin ve onaylayin.",
+            "note": "5GB'in ustundeki veriler senkronize olmaz. Once fotograflarinizi indirin."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ayarlar'i acin - adiniza dokunun - iCloud."
+          },
+          {
+            "instruction": "Yonet - Ucretsiz'e Dus secenegine dokunun."
+          },
+          {
+            "instruction": "Degisikligi onaylayin.",
+            "note": "5GB'den fazla depolanmissa plan dusurme oncesinde fotograf ve belgelerinizi indirin."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Bir tarayici acin ve appleid.apple.com adresine gidin."
+          },
+          {
+            "instruction": "iCloud - Depolama Planini Degistir - Ucretsiz 5GB secenegine tiklayin."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "5GB'in ustundeki verilere ne olur?",
+        "answer": "5GB'in ustundeki veriler artik senkronize olmaz ancak hemen silinmez. Plan dusurme oncesinde fotograf ve belgelerinizi indirin."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Google One - 15GB ucretsiz bulut depolama"
+      },
+      {
+        "description": "OneDrive - Microsoft bulut depolama, 5GB ucretsiz"
+      }
+    ]
+  },
+  "uber-one": {
+    "description": "Uber One'i uygulamada 3 dakikadan kisa surede iptal edin.",
+    "difficultyReason": "Iptal, Uber uygulamasi uzerinden kolaydir.",
+    "refundPolicy": "Iade yoktur. Fatura donemi sonuna kadar erisim devam eder.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Uber uygulamasini acin."
+          },
+          {
+            "instruction": "Hesap - Uber One bolumune gidin."
+          },
+          {
+            "instruction": "Yonet - Uyeligi Iptal Et secenegine dokunun."
+          },
+          {
+            "instruction": "Iptali onaylayin.",
+            "note": "Iptal, hem Uber hem de Uber Eats avantajlarini kaldirir."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Uber Eats avantajlarimi da kaybeder miyim?",
+        "answer": "Evet. Uber One, Uber yolculuklari ve Uber Eats icin avantajlari kapsar. Iptal edildiginde tum avantajlari kaybedersiniz."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "DoorDash DashPass - yemek teslimat aboneligi"
+      },
+      {
+        "description": "Lyft Pink - yolculuk aboneligi"
+      }
+    ]
+  },
+  "onstar": {
+    "description": "OnStar'i telefon araciligiyla iptal edin - 1-888-466-7827'yi arayin.",
+    "difficultyReason": "OnStar, telefon araciligiyla iptal gerektirir - online veya uygulama iptal secenegi yoktur.",
+    "refundPolicy": "Iade secenekleri icin OnStar ile iletisime gecin.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "OnStar'i 1-888-466-7827 numarasından arayin."
+          },
+          {
+            "instruction": "Temsilciden aboneliginizi iptal etmesini isteyin.",
+            "note": "Online veya uygulama iptal secenegi mevcut degildir. Iptalden sonra acil servisler durur."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "OnStar'i online iptal edebilir miyim?",
+        "answer": "Hayir. OnStar, 1-888-466-7827 numarasini aramanizi gerektirir. Online veya uygulama iptal secenegi yoktur."
+      },
+      {
+        "question": "Iptalden sonra acil servislere ne olur?",
+        "answer": "Otomatik kaza bildirimi ve acil cagri gibi acil servisler, OnStar aboneliginizi iptal ettikten sonra durur."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Arac tanilama icin OBD-II dongle"
+      },
+      {
+        "description": "Akilli telefon GPS navigasyon uygulamalari"
+      }
+    ]
+  },
+  "ipsy": {
+    "description": "Bir sonraki ucretin alinmaması icin ayin 1'inden once IPSY'yi iptal edin.",
+    "difficultyReason": "Bir sonraki odemeyi onlemek icin ayin 1'inden once iptal etmeniz gerekir.",
+    "refundPolicy": "Siparis zaten islenmisse iade yapilmaz.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "ipsy.com/manage-membership adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "Uyeligi Iptal Et secenegine tiklayin.",
+            "note": "Bir sonraki ucretin alinmaması icin ayin 1'inden once iptal edin."
+          },
+          {
+            "instruction": "Iptali onaylayin."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Iptal etmek yerine aylari atlayabilir miyim?",
+        "answer": "Evet. IPSY, uyeligi tamamen iptal etmek yerine gecici mola vermek istiyorsaniz ay atlama secenegi sunar."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Birchbox - aylik guzellik kutusu"
+      },
+      {
+        "description": "BoxyCharm - premium guzellik kutusu aboneligi"
+      }
+    ]
+  },
+  "capcut": {
+    "description": "CapCut Pro'yu 2 dakikadan kisa surede iptal edin.",
+    "difficultyReason": "Iptal, web sitesi veya cihaz ayarlari uzerinden kolaydir.",
+    "refundPolicy": "Iade yoktur. Fatura donemi sonuna kadar erisim devam eder.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "capcut.com adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "Profil - Abonelik bolumune gidin."
+          },
+          {
+            "instruction": "Aboneligi Iptal Et secenegine tiklayin ve onaylayin.",
+            "note": "Iptalden sonra projeleriniz korunur."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone Ayarlar'i acin - ad - Abonelikler."
+          },
+          {
+            "instruction": "CapCut'u bulun ve Aboneligi Iptal Et secenegine dokunun."
+          },
+          {
+            "instruction": "Iptali onaylayin."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play'i acin - Odemeler ve abonelikler - Abonelikler."
+          },
+          {
+            "instruction": "CapCut'u bulun - Aboneligi Iptal Et secenegine dokunun ve onaylayin."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Iptalden sonra projelerimi kaybeder miyim?",
+        "answer": "Hayir. Projeleriniz korunur. Yalnizca Pro ozelliklerine erisimi kaybedersiniz."
+      },
+      {
+        "question": "Hesabim yasaklandi - nasil iptal ederim?",
+        "answer": "Hesabiniz yasaklandiysa web sitesi uzerinden iptal edemezsiniz. Cihaz ayarlarini (iOS veya Android) kullanin."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "DaVinci Resolve - profesyonel ucretsiz video duzenleyici"
+      },
+      {
+        "description": "InShot - mobil video duzenleyici"
+      }
+    ]
   }
 }

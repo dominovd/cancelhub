@@ -2070,5 +2070,470 @@
         "answer": "不要なアイテムを受け取ってから3日以内に返送して、請求を避けてください。返送パッケージに返送フォームを同封してください。"
       }
     ]
+  },
+  "norton": {
+    "description": "Norton 360をキャンセルして自動更新を5分以内に停止できます。60日間の返金手順も含まれています。",
+    "difficulty": "普通",
+    "difficultyReason": "自動更新のキャンセルはオンラインで行えますが、返金にはチャットサポートへの連絡が必要です。",
+    "refundPolicy": "注文番号を伝えてチャットサポートに連絡することで60日以内に返金を受けられます。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "my.norton.comにアクセスしてサインインします。"
+          },
+          {
+            "instruction": "「マイサブスクリプション」に移動します。"
+          },
+          {
+            "instruction": "「自動更新をキャンセル」をクリックします。"
+          },
+          {
+            "instruction": "キャンセルを確認します。"
+          },
+          {
+            "instruction": "返金を希望する場合：注文番号を用意して60日以内にチャットサポートに連絡してください。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "デバイスのサブスクリプション設定にアクセスします。",
+            "note": "設定 → Apple ID → サブスクリプション → Norton → サブスクリプションをキャンセルの順に進みます。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "デバイスのサブスクリプション設定にアクセスします。",
+            "note": "Google Playストア → サブスクリプション → Norton → キャンセルの順に進みます。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "アプリをアンインストールするとサブスクリプションはキャンセルされますか？",
+        "answer": "いいえ。Nortonアプリをアンインストールしてもサブスクリプションはキャンセルされません。my.norton.comで自動更新をキャンセルする必要があります。"
+      },
+      {
+        "question": "返金を受けるにはどうすればよいですか？",
+        "answer": "請求から60日以内にNortonのチャットサポートに連絡し、注文番号を伝えてください。"
+      }
+    ]
+  },
+  "tinder-gold": {
+    "description": "Tinder GoldまたはTinder PlusをiOS、Android、またはウェブ経由で2分以内にキャンセルできます。",
+    "difficulty": "簡単",
+    "difficultyReason": "利用しているプラットフォームのサブスクリプション設定から直接キャンセルできます。",
+    "refundPolicy": "返金はありません。請求期間終了までアクセスは継続されます。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "account.gotinder.comにアクセスしてサインインします。"
+          },
+          {
+            "instruction": "「支払いアカウントの管理」をクリックします。"
+          },
+          {
+            "instruction": "「サブスクリプションをキャンセル」を選択して確認します。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "設定 → Apple ID → サブスクリプションを開きます。"
+          },
+          {
+            "instruction": "Tinderを選択して「サブスクリプションをキャンセル」をタップします。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Playストア → サブスクリプションを開きます。"
+          },
+          {
+            "instruction": "「Tinder Gold」を選択して「キャンセル」をタップします。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "キャンセル後にマッチングは失われますか？",
+        "answer": "いいえ。マッチングとメッセージはキャンセル後も無料プランで保持されます。"
+      }
+    ]
+  },
+  "bumble": {
+    "description": "Bumble BoostまたはPremiumをiOS、Android、またはウェブ経由で3分以内にキャンセルできます。",
+    "difficulty": "簡単",
+    "difficultyReason": "プロフィール設定またはデバイス設定から直接キャンセルできます。",
+    "refundPolicy": "返金はありません。請求期間終了までアクセスは継続されます。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Bumbleを開いてプロフィールにアクセスします。"
+          },
+          {
+            "instruction": "設定 → サブスクリプションの管理に移動します。"
+          },
+          {
+            "instruction": "「キャンセル」を選択して確認します。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "設定 → Apple ID → サブスクリプション → Bumble → サブスクリプションをキャンセルの順に進みます。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Playストア → サブスクリプション → Bumble → キャンセルの順に進みます。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "キャンセル後にマッチングは失われますか？",
+        "answer": "いいえ。マッチングはキャンセル後も無料プランで保持されます。"
+      }
+    ]
+  },
+  "kindle-unlimited": {
+    "description": "Kindle UnlimitedをAmazonで2分以内にキャンセルできます。借りたすべての本は期間終了後に削除されます。",
+    "difficulty": "簡単",
+    "difficultyReason": "AmazonウェブサイトからすばやくキャンセルFできます。",
+    "refundPolicy": "日割り返金はありません。借りた本は請求期間終了時に削除されます。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "amazon.comにアクセスしてサインインします。"
+          },
+          {
+            "instruction": "アカウント → メンバーシップとサブスクリプションに移動します。"
+          },
+          {
+            "instruction": "「Kindle Unlimitedをキャンセル」を選択して確認します。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "デバイスのブラウザでamazon.comにアクセスします。",
+            "note": "Kindleアプリからのキャンセルはできません。Amazonウェブサイトをご利用ください。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "デバイスのブラウザでamazon.comにアクセスします。",
+            "note": "Kindleアプリからのキャンセルはできません。Amazonウェブサイトをご利用ください。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "借りた本はどうなりますか？",
+        "answer": "借りた本は請求期間終了時にライブラリから削除されます。"
+      },
+      {
+        "question": "キャンセルの代わりに一時停止できますか？",
+        "answer": "はい。Kindle Unlimitedはサブスクリプション設定から1〜3か月間一時停止できます。"
+      }
+    ]
+  },
+  "hims": {
+    "description": "Himsのサブスクリプションをキャンセルするにはサポートに連絡してください。次回発送を避けるには処理日の前にキャンセルしてください。",
+    "difficulty": "普通",
+    "difficultyReason": "セルフサービスでのキャンセルはなく、サポートへの連絡と48時間前の締め切りの遵守が必要です。",
+    "refundPolicy": "注文処理後の返金はありません。処理日の48時間前までにキャンセルしてください。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "forhims.com/accountにアクセスしてサインインします。"
+          },
+          {
+            "instruction": "「サブスクリプション」に移動して「キャンセル」をクリックします。",
+            "note": "オプションが見つからない場合はライブチャットを使用してください。"
+          },
+          {
+            "instruction": "次回発送を避けるため、処理日の少なくとも48時間前にキャンセルしてください。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "ブラウザでforhims.com/accountにアクセスしてキャンセルします。",
+            "note": "モバイルアプリからのキャンセルはできません。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "ブラウザでforhims.com/accountにアクセスしてキャンセルします。",
+            "note": "モバイルアプリからのキャンセルはできません。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "締め切りを過ぎて請求されました — 返品できますか？",
+        "answer": "注文がすでに処理された場合、通常返金はありません。発送前にキャンセルできるよう、すぐにサポートに連絡してください。"
+      },
+      {
+        "question": "キャンセルの代わりに発送を一時停止できますか？",
+        "answer": "はい。Himsでは発送の一時停止が可能です。アカウントにアクセスするかサポートに連絡してください。"
+      }
+    ]
+  },
+  "icloud-plus": {
+    "description": "iCloud+をキャンセル（無料5GBにダウングレード）してiPhone、Mac、またはウェブで2分以内に完了できます。",
+    "difficulty": "簡単",
+    "difficultyReason": "サポートに連絡することなく、Apple設定から直接ダウングレードできます。",
+    "refundPolicy": "返金はありません。現在のプランは請求期間終了まで有効です。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "appleid.apple.comにアクセスしてサインインします。"
+          },
+          {
+            "instruction": "「ストレージプランを変更」をクリックします。"
+          },
+          {
+            "instruction": "「無料の5GBにダウングレード」を選択して確認します。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "設定 → 自分の名前 → iCloud → ストレージを管理を開きます。"
+          },
+          {
+            "instruction": "「無料プランにダウングレード」を選択して確認します。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "ブラウザでappleid.apple.comにアクセスします。",
+            "note": "iCloudの管理はAndroidのアプリでは利用できません。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "ダウングレードするとデータはどうなりますか？",
+        "answer": "5GBを超えるデータは同期されなくなります。ダウングレード前に写真とファイルをダウンロードしてください。"
+      }
+    ]
+  },
+  "uber-one": {
+    "description": "UberまたはUber Eatsアプリで3分以内にUber Oneメンバーシップをキャンセルできます。",
+    "difficulty": "簡単",
+    "difficultyReason": "アプリから直接障害なくキャンセルできます。",
+    "refundPolicy": "標準的な返金はありません。特典は請求期間終了まで有効です。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "UberまたはUber Eatsアプリを開きます。"
+          },
+          {
+            "instruction": "アカウント → Uber One → 管理に移動します。"
+          },
+          {
+            "instruction": "「メンバーシップをキャンセル」を選択して確認します。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "UberまたはUber Eatsアプリ → アカウント → Uber One → 管理 → メンバーシップをキャンセルの順に進みます。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "UberまたはUber Eatsアプリ → アカウント → Uber One → 管理 → メンバーシップをキャンセルの順に進みます。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Uber Oneをキャンセルするとuber Eatsにも影響しますか？",
+        "answer": "はい。キャンセルするとUberの乗車とUber Eatsの両方から特典が削除されます。"
+      }
+    ]
+  },
+  "onstar": {
+    "description": "OnStarは電話でのみキャンセル可能です — オンラインキャンセルはありません。1-888-466-7827に電話してください。",
+    "difficulty": "難しい",
+    "difficultyReason": "キャンセルは電話のみで可能で、オンラインまたはアプリからのオプションはありません。",
+    "refundPolicy": "比例払い戻しについてはOnStarの担当者にご確認ください。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "オンラインでのキャンセルはできません。",
+            "note": "キャンセルの唯一の方法は電話です。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "アプリからのキャンセルはできません。",
+            "note": "キャンセルするには1-888-466-7827に電話してください。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "アプリからのキャンセルはできません。",
+            "note": "キャンセルするには1-888-466-7827に電話してください。"
+          }
+        ]
+      },
+      "phone": {
+        "steps": [
+          {
+            "instruction": "1-888-466-7827に電話します。"
+          },
+          {
+            "instruction": "OnStarサブスクリプションのキャンセルを依頼します。"
+          },
+          {
+            "instruction": "担当者と詳細を確認します。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "キャンセル後に緊急サービスはどうなりますか？",
+        "answer": "OnStarの緊急サービスはキャンセル後に停止されます。キャンセル前にこの点を考慮してください。"
+      }
+    ]
+  },
+  "ipsy": {
+    "description": "次回の請求を避けるために、月の1日前にIPSY Glam Bagをキャンセルしてください。",
+    "difficulty": "普通",
+    "difficultyReason": "毎月1日の締め切りは厳格で、この締め切りを過ぎると翌月分が請求されます。",
+    "refundPolicy": "毎月1日に請求が処理された後は返金はありません。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "ipsy.comにアクセスしてサインインします。"
+          },
+          {
+            "instruction": "「メンバーシップの管理」に移動します。"
+          },
+          {
+            "instruction": "「メンバーシップをキャンセル」を選択します。",
+            "note": "月の1日前までにキャンセルする必要があります。"
+          },
+          {
+            "instruction": "キャンセルを確認します。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "デバイスのブラウザでipsy.comにアクセスしてキャンセルします。",
+            "note": "モバイルアプリからのキャンセルはできません。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "デバイスのブラウザでipsy.comにアクセスしてキャンセルします。",
+            "note": "モバイルアプリからのキャンセルはできません。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "キャンセルの代わりに1か月スキップできますか？",
+        "answer": "はい。IPSYでは月をスキップできます。1日前までにアカウントにアクセスしてスキップオプションを選択してください。"
+      }
+    ]
+  },
+  "capcut": {
+    "description": "CapCut ProをiOS、Android、またはウェブアカウント設定から2分以内にキャンセルできます。",
+    "difficulty": "簡単",
+    "difficultyReason": "アカウントまたはデバイスの設定から直接キャンセルできます。",
+    "refundPolicy": "返金はありません。キャンセル後もプロジェクトと動画は保持されます。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "capcut.comにアクセスしてサインインします。"
+          },
+          {
+            "instruction": "プロフィール → サブスクリプションに移動します。"
+          },
+          {
+            "instruction": "「キャンセル」を選択して確認します。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "設定 → Apple ID → サブスクリプション → CapCut → サブスクリプションをキャンセルの順に進みます。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Playストア → サブスクリプション → CapCut → キャンセルの順に進みます。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "動画やプロジェクトは削除されますか？",
+        "answer": "いいえ。CapCut Proをキャンセルした後も動画とプロジェクトは保持されます。"
+      },
+      {
+        "question": "アプリが地域で利用禁止になっている場合はどうすればよいですか？",
+        "answer": "アプリが利用できない場合は、デバイスの設定（iOSまたはAndroid）からサブスクリプションをキャンセルしてください。"
+      }
+    ]
   }
 }

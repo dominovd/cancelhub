@@ -2229,5 +2229,501 @@
         "description": "Amazon Personal Shopper — stijlservice via Prime"
       }
     ]
+  },
+  "norton": {
+    "description": "Annuleer Norton 360 en stop automatische verlenging in minder dan 5 minuten.",
+    "difficultyReason": "Je moet inloggen op de Norton-portal en specifiek automatische verlenging uitschakelen — het verwijderen van de software annuleert het abonnement niet.",
+    "refundPolicy": "60 dagen geld-terug-garantie via de ondersteuningschat.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar my.norton.com en meld je aan."
+          },
+          {
+            "instruction": "Ga naar Mijn abonnementen."
+          },
+          {
+            "instruction": "Klik op Automatische verlenging annuleren naast je Norton 360-abonnement."
+          },
+          {
+            "instruction": "Bevestig de annulering.",
+            "note": "Het verwijderen van de Norton-software annuleert het abonnement niet — doe dit via de portal."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Annuleert het verwijderen van Norton de automatische verlenging?",
+        "answer": "Nee. Je moet automatische verlenging uitschakelen via my.norton.com. Het verwijderen van de software alleen annuleert het abonnement niet."
+      },
+      {
+        "question": "Kan ik een terugbetaling krijgen?",
+        "answer": "Ja, Norton biedt een 60-dagen geld-terug-garantie. Neem contact op met de ondersteuningschat op norton.com om een terugbetaling aan te vragen."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Malwarebytes — gratis en betaalde antivirusopties"
+      },
+      {
+        "description": "Windows Defender — gratis ingebouwde beveiliging voor Windows"
+      },
+      {
+        "description": "Bitdefender — goed beoordeelde antivirussoftware"
+      }
+    ]
+  },
+  "tinder-gold": {
+    "description": "Annuleer Tinder Gold in minder dan 2 minuten.",
+    "difficultyReason": "Annulering verloopt via de website of apparaatinstellingen, afhankelijk van hoe je je hebt geabonneerd.",
+    "refundPolicy": "Geen terugbetalingen. Toegang loopt door tot het einde van de factureringsperiode.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar account.gotinder.com en meld je aan."
+          },
+          {
+            "instruction": "Klik op Abonnement beheren."
+          },
+          {
+            "instruction": "Klik op Abonnement annuleren en bevestig."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Open iPhone-instellingen → tik op je naam."
+          },
+          {
+            "instruction": "Tik op Abonnementen → zoek Tinder."
+          },
+          {
+            "instruction": "Tik op Abonnement opzeggen → Bevestigen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Open de Google Play Store → tik op je profielicoontje."
+          },
+          {
+            "instruction": "Ga naar Betalingen & abonnementen → Abonnementen."
+          },
+          {
+            "instruction": "Zoek Tinder → tik op Abonnement opzeggen en bevestig."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Verlies ik mijn matches als ik Tinder Gold annuleer?",
+        "answer": "Nee. Je matches blijven behouden wanneer je downgradet naar het gratis abonnement. Je verliest alleen de Gold-functies."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Bumble — dating-app met gratis basisabonnement"
+      },
+      {
+        "description": "Hinge — relatiegerichte dating-app"
+      }
+    ]
+  },
+  "bumble": {
+    "description": "Annuleer Bumble Boost of Premium in minder dan 3 minuten.",
+    "difficultyReason": "Annulering is eenvoudig via de app of apparaatinstellingen.",
+    "refundPolicy": "Geen terugbetalingen. Toegang loopt door tot het einde van de factureringsperiode.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Open de Bumble-app of ga naar bumble.com."
+          },
+          {
+            "instruction": "Ga naar Profiel → Instellingen → Abonnement beheren."
+          },
+          {
+            "instruction": "Klik op Annuleren en bevestig."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Open iPhone-instellingen → tik op je naam → Abonnementen."
+          },
+          {
+            "instruction": "Zoek Bumble en tik erop."
+          },
+          {
+            "instruction": "Tik op Abonnement opzeggen → Bevestigen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Open de Google Play Store → Betalingen & abonnementen → Abonnementen."
+          },
+          {
+            "instruction": "Zoek Bumble → tik op Abonnement opzeggen en bevestig."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Verlies ik mijn matches na annulering?",
+        "answer": "Nee. Je matches blijven behouden op het gratis abonnement. Alleen de Boost- of Premium-functies worden uitgeschakeld."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Tinder — populaire dating-app met gratis versie"
+      },
+      {
+        "description": "Hinge — relatiegerichte dating-app"
+      }
+    ]
+  },
+  "kindle-unlimited": {
+    "description": "Annuleer Kindle Unlimited in minder dan 2 minuten bij Amazon.",
+    "difficultyReason": "Annulering is eenvoudig via de Amazon-website.",
+    "refundPolicy": "Geen terugbetalingen. Je kunt het lidmaatschap 1 tot 3 maanden pauzeren.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar amazon.com en meld je aan."
+          },
+          {
+            "instruction": "Ga naar Lidmaatschappen & abonnementen."
+          },
+          {
+            "instruction": "Klik op Kindle Unlimited annuleren."
+          },
+          {
+            "instruction": "Bevestig de annulering.",
+            "note": "Geleende boeken worden verwijderd na het einde van de factureringsperiode."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Gebruik een browser om naar amazon.com te gaan — annuleer niet via de app."
+          },
+          {
+            "instruction": "Ga naar Lidmaatschappen & abonnementen → Kindle Unlimited annuleren."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Gebruik een browser om naar amazon.com te gaan — annuleer niet via de app."
+          },
+          {
+            "instruction": "Ga naar Lidmaatschappen & abonnementen → Kindle Unlimited annuleren."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Wat gebeurt er met mijn geleende boeken?",
+        "answer": "Geleende Kindle Unlimited-boeken worden verwijderd nadat je factureringsperiode eindigt. Download boeken die je wilt bewaren voordat je annuleert."
+      },
+      {
+        "question": "Kan ik pauzeren in plaats van annuleren?",
+        "answer": "Ja. Je kunt Kindle Unlimited 1 tot 3 maanden pauzeren via de pagina Lidmaatschappen & abonnementen op amazon.com."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Scribd — e-boeken, luisterboeken en meer"
+      },
+      {
+        "description": "Libby — gratis e-boeken via je bibliotheek"
+      }
+    ]
+  },
+  "hims": {
+    "description": "Annuleer je Hims-abonnement voor de verwerkingsdatum om de volgende zending te vermijden.",
+    "difficultyReason": "Je moet annuleren minstens 48 uur voor de verwerkingsdatum om kosten te vermijden.",
+    "refundPolicy": "Geen terugbetalingen als de bestelling al verwerkt is. Neem vroeg contact op met de klantenservice.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar forhims.com/account en meld je aan."
+          },
+          {
+            "instruction": "Ga naar je abonnementsinstellingen."
+          },
+          {
+            "instruction": "Klik op Abonnement annuleren.",
+            "note": "Annuleer minstens 48 uur voor je verwerkingsdatum om de volgende zending te vermijden."
+          },
+          {
+            "instruction": "Bevestig de annulering."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Wat als ik de annuleringsdeadline mis?",
+        "answer": "Als je niet minstens 48 uur voor de verwerkingsdatum annuleert, word je afgeschreven en wordt de zending verstuurd. Neem contact op met de klantenservice als dit gebeurt."
+      },
+      {
+        "question": "Kan ik mijn abonnement pauzeren?",
+        "answer": "Ja. Hims biedt een pauzeoptie als je het abonnement tijdelijk wilt stopzetten in plaats van permanent te annuleren."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Ro — online mannengezondheidszorg"
+      },
+      {
+        "description": "Manual — mannengezondheidszorg abonnement"
+      }
+    ]
+  },
+  "icloud-plus": {
+    "description": "Annuleer iCloud+ (downgrade naar gratis 5GB) in minder dan 2 minuten.",
+    "difficultyReason": "Downgraden is eenvoudig via Apple ID-instellingen op elk apparaat.",
+    "refundPolicy": "Geen terugbetalingen. De opslag loopt door tot het einde van de factureringsperiode.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar appleid.apple.com en meld je aan."
+          },
+          {
+            "instruction": "Klik op iCloud → Opslagplan wijzigen."
+          },
+          {
+            "instruction": "Selecteer Gratis 5GB en bevestig.",
+            "note": "Gegevens boven 5GB worden niet gesynchroniseerd. Download eerst je foto's."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Open Instellingen → tik op je naam → iCloud."
+          },
+          {
+            "instruction": "Tik op Beheer → Downgrade naar gratis."
+          },
+          {
+            "instruction": "Bevestig de wijziging.",
+            "note": "Download je foto's en bestanden voordat je downgradet als je meer dan 5GB hebt opgeslagen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ga via een browser naar appleid.apple.com."
+          },
+          {
+            "instruction": "Klik op iCloud → Opslagplan wijzigen → Gratis 5GB."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Wat gebeurt er met mijn gegevens boven 5GB?",
+        "answer": "Gegevens boven 5GB worden niet langer gesynchroniseerd maar worden niet onmiddellijk verwijderd. Download je foto's en documenten voordat je downgradet."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Google One — cloudopslag met 15GB gratis"
+      },
+      {
+        "description": "OneDrive — Microsoft cloudopslag, gratis 5GB"
+      }
+    ]
+  },
+  "uber-one": {
+    "description": "Annuleer Uber One in minder dan 3 minuten in de app.",
+    "difficultyReason": "Annulering is eenvoudig via de Uber-app.",
+    "refundPolicy": "Geen terugbetalingen. Toegang loopt door tot het einde van de factureringsperiode.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Open de Uber-app."
+          },
+          {
+            "instruction": "Ga naar Account → Uber One."
+          },
+          {
+            "instruction": "Tik op Beheren → Lidmaatschap annuleren."
+          },
+          {
+            "instruction": "Bevestig de annulering.",
+            "note": "Annuleren verwijdert voordelen voor zowel Uber als Uber Eats."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Verlies ik ook mijn Uber Eats-voordelen?",
+        "answer": "Ja. Uber One omvat voordelen voor zowel Uber ritten als Uber Eats. Bij annulering verlies je alle voordelen."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "DoorDash DashPass — maaltijdbezorging abonnement"
+      },
+      {
+        "description": "Lyft Pink — ritjes abonnement"
+      }
+    ]
+  },
+  "onstar": {
+    "description": "Annuleer OnStar via de telefoon — bel 1-888-466-7827.",
+    "difficultyReason": "OnStar vereist telefonische annulering — er is geen online of in-app annuleringsoptie.",
+    "refundPolicy": "Neem contact op met OnStar voor terugbetalingsopties.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Bel OnStar op 1-888-466-7827."
+          },
+          {
+            "instruction": "Verzoek om je abonnement te annuleren bij de medewerker.",
+            "note": "Er is geen online of in-app annuleringsoptie beschikbaar. Nooddiensten worden gestopt na annulering."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kan ik OnStar online annuleren?",
+        "answer": "Nee. OnStar vereist dat je belt naar 1-888-466-7827. Er is geen online of in-app annuleringsoptie."
+      },
+      {
+        "question": "Wat gebeurt er met nooddiensten na annulering?",
+        "answer": "Nooddiensten zoals automatische crashmelding en noodoproepen worden gestopt na annulering van je OnStar-abonnement."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Automatische OBD-II dongle voor voertuigdiagnostiek"
+      },
+      {
+        "description": "Smartphone GPS-navigatie-apps"
+      }
+    ]
+  },
+  "ipsy": {
+    "description": "Annuleer IPSY voor de 1e van de maand om de volgende afschrijving te vermijden.",
+    "difficultyReason": "Je moet voor de 1e van de maand annuleren om de volgende afschrijving te vermijden.",
+    "refundPolicy": "Geen terugbetalingen als de bestelling al verwerkt is.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar ipsy.com/manage-membership en meld je aan."
+          },
+          {
+            "instruction": "Klik op Lidmaatschap annuleren.",
+            "note": "Annuleer voor de 1e van de maand om de volgende afschrijving te vermijden."
+          },
+          {
+            "instruction": "Bevestig de annulering."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kan ik maanden overslaan in plaats van annuleren?",
+        "answer": "Ja. IPSY biedt de mogelijkheid om maanden over te slaan als je het lidmaatschap tijdelijk wilt pauzeren in plaats van volledig te annuleren."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Birchbox — maandelijkse beautybox"
+      },
+      {
+        "description": "BoxyCharm — premium beautybox abonnement"
+      }
+    ]
+  },
+  "capcut": {
+    "description": "Annuleer CapCut Pro in minder dan 2 minuten.",
+    "difficultyReason": "Annulering is eenvoudig via de website of apparaatinstellingen.",
+    "refundPolicy": "Geen terugbetalingen. Toegang loopt door tot het einde van de factureringsperiode.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar capcut.com en meld je aan."
+          },
+          {
+            "instruction": "Ga naar Profiel → Abonnement."
+          },
+          {
+            "instruction": "Klik op Abonnement annuleren en bevestig.",
+            "note": "Je projecten blijven behouden na annulering."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Open iPhone-instellingen → tik op je naam → Abonnementen."
+          },
+          {
+            "instruction": "Zoek CapCut en tik op Abonnement opzeggen."
+          },
+          {
+            "instruction": "Bevestig de annulering."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Open de Google Play Store → Betalingen & abonnementen → Abonnementen."
+          },
+          {
+            "instruction": "Zoek CapCut → tik op Abonnement opzeggen en bevestig."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Verlies ik mijn projecten na annulering?",
+        "answer": "Nee. Je projecten blijven bewaard. Je verliest alleen toegang tot Pro-functies."
+      },
+      {
+        "question": "Mijn account is verbannen — hoe annuleer ik?",
+        "answer": "Als je account verbannen is, kun je het abonnement niet via de website annuleren. Annuleer via de apparaatinstellingen (iOS of Android)."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "DaVinci Resolve — professionele gratis video-editor"
+      },
+      {
+        "description": "InShot — mobiele video-editor"
+      }
+    ]
   }
 }
