@@ -1,78 +1,78 @@
 {
   "nav": {
-    "allGuides": "All Guides",
-    "about": "About"
+    "allGuides": "すべてのガイド",
+    "about": "について"
   },
   "home": {
-    "badge": "Free cancellation guides",
-    "title": "Cancel any subscription in seconds",
-    "subtitle": "Exact steps for every platform. No fluff, no ads, no dark patterns. Find your service and start cancelling.",
-    "searchPlaceholder": "Search any service — Netflix, Adobe, Spotify...",
-    "statsGuides": "Guides",
-    "statsFree": "Free",
-    "statsPlatforms": "Platforms each",
-    "darkPatternBadge": "Dark Pattern Ranking",
-    "darkPatternDesc": "Adobe, Amazon Prime, and Noom are the hardest to cancel — by design.",
-    "darkPatternLink": "See all rankings →",
-    "browseTitle": "Browse by category",
-    "waitlistTitle": "More guides every week",
-    "waitlistDesc": "We're adding guides for 100+ more services. Leave your email and we'll notify you when we publish guides for the services you care about.",
-    "waitlistPlaceholder": "you@email.com",
-    "waitlistButton": "Notify me"
+    "badge": "無料の解約ガイド",
+    "title": "あらゆるサブスクを数秒で解約",
+    "subtitle": "すべてのプラットフォームに対応した正確な手順。無駄なし、広告なし、ダークパターンなし。サービスを見つけて解約を始めましょう。",
+    "searchPlaceholder": "サービスを検索 — Netflix、Adobe、Spotify...",
+    "statsGuides": "ガイド数",
+    "statsFree": "無料",
+    "statsPlatforms": "対応プラットフォーム",
+    "darkPatternBadge": "ダークパターンランキング",
+    "darkPatternDesc": "Adobe、Amazon Prime、Noomは意図的に解約が最も困難なサービスです。",
+    "darkPatternLink": "すべてのランキングを見る →",
+    "browseTitle": "カテゴリから探す",
+    "waitlistTitle": "毎週新しいガイドを追加",
+    "waitlistDesc": "100以上のサービスのガイドを追加中です。メールアドレスを登録して、気になるサービスのガイドが公開されたときに通知を受け取りましょう。",
+    "waitlistPlaceholder": "your@email.com",
+    "waitlistButton": "通知を受け取る"
   },
   "guides": {
-    "title": "All cancellation guides",
-    "subtitle": "services covered · Sorted by cancellation difficulty (hardest first)",
-    "colService": "Service",
-    "colDifficulty": "Difficulty",
-    "colDarkPatterns": "Dark patterns"
+    "title": "すべての解約ガイド",
+    "subtitle": "サービス対応済み · 解約難易度順（難しい順）",
+    "colService": "サービス",
+    "colDifficulty": "難易度",
+    "colDarkPatterns": "ダークパターン"
   },
   "guide": {
-    "category": "Category",
-    "difficulty": "Difficulty",
-    "darkPatternTitle": "Cancellation friction",
-    "refundTitle": "Refund policy",
-    "stepsTitle": "Step-by-step instructions",
-    "issuesTitle": "Common issues",
-    "alternativesTitle": "Looking for alternatives to {service}?",
-    "backLink": "← All guides",
-    "reportLink": "Steps changed?",
-    "reportLinkSuffix": "Let us know",
-    "verifiedOn": "Verified {date}",
-    "goToCancellationPage": "Go to cancellation page",
-    "allDoneTitle": "All steps done — you're cancelled!",
-    "allDoneDesc": "Check your email for a confirmation from the service.",
-    "progressOf": "{done} of {total} done",
-    "stepLabel": "Step {n}"
+    "category": "カテゴリ",
+    "difficulty": "難易度",
+    "darkPatternTitle": "解約の障壁",
+    "refundTitle": "返金ポリシー",
+    "stepsTitle": "ステップバイステップの手順",
+    "issuesTitle": "よくある問題",
+    "alternativesTitle": "{service}の代替サービスをお探しですか？",
+    "backLink": "← すべてのガイド",
+    "reportLink": "手順が変わりましたか？",
+    "reportLinkSuffix": "お知らせください",
+    "verifiedOn": "{date}に確認済み",
+    "goToCancellationPage": "解約ページへ",
+    "allDoneTitle": "すべての手順完了 — 解約が完了しました！",
+    "allDoneDesc": "サービスからの確認メールをご確認ください。",
+    "progressOf": "{total}件中{done}件完了",
+    "stepLabel": "ステップ {n}"
   },
   "difficulty": {
-    "easy": "Easy to cancel",
-    "medium": "Medium to cancel",
-    "hard": "Hard to cancel"
+    "easy": "解約が簡単",
+    "medium": "解約が普通",
+    "hard": "解約が困難"
   },
   "darkPattern": {
-    "0": "Straightforward",
-    "1": "Straightforward",
-    "2": "Straightforward",
-    "3": "Minor friction",
-    "4": "Minor friction",
-    "5": "Multiple screens",
-    "6": "Multiple screens",
-    "7": "Aggressive retention",
-    "8": "Aggressive retention",
-    "9": "Dark patterns",
-    "10": "Dark patterns"
+    "0": "シンプル",
+    "1": "シンプル",
+    "2": "シンプル",
+    "3": "軽微な障壁",
+    "4": "軽微な障壁",
+    "5": "複数の画面",
+    "6": "複数の画面",
+    "7": "強引な引き止め",
+    "8": "強引な引き止め",
+    "9": "ダークパターン",
+    "10": "ダークパターン"
   },
   "platform": {
-    "web": "Website",
+    "web": "ウェブサイト",
     "ios": "iPhone / iPad",
     "android": "Android"
   },
   "search": {
-    "notFound": "No guide found for \"{query}\" — more coming soon.",
-    "resultLabel": "How to cancel {service}"
+    "notFound": "\"{query}\"のガイドは見つかりませんでした — 近日公開予定。",
+    "resultLabel": "{service}の解約方法"
   },
   "footer": {
-    "tagline": "Free cancellation guides for every subscription. Steps verified by real humans."
+    "tagline": "あらゆるサブスクの無料解約ガイド。手順は実際の人間が確認済み。"
   }
 }

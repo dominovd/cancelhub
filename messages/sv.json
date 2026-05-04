@@ -1,78 +1,78 @@
 {
   "nav": {
-    "allGuides": "All Guides",
-    "about": "About"
+    "allGuides": "Alla guider",
+    "about": "Om oss"
   },
   "home": {
-    "badge": "Free cancellation guides",
-    "title": "Cancel any subscription in seconds",
-    "subtitle": "Exact steps for every platform. No fluff, no ads, no dark patterns. Find your service and start cancelling.",
-    "searchPlaceholder": "Search any service — Netflix, Adobe, Spotify...",
-    "statsGuides": "Guides",
-    "statsFree": "Free",
-    "statsPlatforms": "Platforms each",
-    "darkPatternBadge": "Dark Pattern Ranking",
-    "darkPatternDesc": "Adobe, Amazon Prime, and Noom are the hardest to cancel — by design.",
-    "darkPatternLink": "See all rankings →",
-    "browseTitle": "Browse by category",
-    "waitlistTitle": "More guides every week",
-    "waitlistDesc": "We're adding guides for 100+ more services. Leave your email and we'll notify you when we publish guides for the services you care about.",
-    "waitlistPlaceholder": "you@email.com",
-    "waitlistButton": "Notify me"
+    "badge": "Gratis avslutningsguider",
+    "title": "Avsluta vilken prenumeration som helst på sekunder",
+    "subtitle": "Exakta steg för varje plattform. Inget fluff, inga annonser, inga mörka mönster. Hitta din tjänst och börja avsluta.",
+    "searchPlaceholder": "Sök efter en tjänst — Netflix, Adobe, Spotify...",
+    "statsGuides": "Guider",
+    "statsFree": "Gratis",
+    "statsPlatforms": "Plattformar per tjänst",
+    "darkPatternBadge": "Mörka mönster-ranking",
+    "darkPatternDesc": "Adobe, Amazon Prime och Noom är svårast att avsluta — med avsikt.",
+    "darkPatternLink": "Se alla rankningar →",
+    "browseTitle": "Bläddra efter kategori",
+    "waitlistTitle": "Fler guider varje vecka",
+    "waitlistDesc": "Vi lägger till guider för fler än 100 tjänster. Lämna din e-post så meddelar vi dig när vi publicerar guider för de tjänster du bryr dig om.",
+    "waitlistPlaceholder": "du@email.com",
+    "waitlistButton": "Meddela mig"
   },
   "guides": {
-    "title": "All cancellation guides",
-    "subtitle": "services covered · Sorted by cancellation difficulty (hardest first)",
-    "colService": "Service",
-    "colDifficulty": "Difficulty",
-    "colDarkPatterns": "Dark patterns"
+    "title": "Alla avslutningsguider",
+    "subtitle": "tjänster tillgängliga · Sorterade efter avslutningssvårighet (svårast först)",
+    "colService": "Tjänst",
+    "colDifficulty": "Svårighet",
+    "colDarkPatterns": "Mörka mönster"
   },
   "guide": {
-    "category": "Category",
-    "difficulty": "Difficulty",
-    "darkPatternTitle": "Cancellation friction",
-    "refundTitle": "Refund policy",
-    "stepsTitle": "Step-by-step instructions",
-    "issuesTitle": "Common issues",
-    "alternativesTitle": "Looking for alternatives to {service}?",
-    "backLink": "← All guides",
-    "reportLink": "Steps changed?",
-    "reportLinkSuffix": "Let us know",
-    "verifiedOn": "Verified {date}",
-    "goToCancellationPage": "Go to cancellation page",
-    "allDoneTitle": "All steps done — you're cancelled!",
-    "allDoneDesc": "Check your email for a confirmation from the service.",
-    "progressOf": "{done} of {total} done",
-    "stepLabel": "Step {n}"
+    "category": "Kategori",
+    "difficulty": "Svårighet",
+    "darkPatternTitle": "Avslutningshinder",
+    "refundTitle": "Återbetalningspolicy",
+    "stepsTitle": "Steg-för-steg-instruktioner",
+    "issuesTitle": "Vanliga problem",
+    "alternativesTitle": "Letar du efter alternativ till {service}?",
+    "backLink": "← Alla guider",
+    "reportLink": "Stegen har ändrats?",
+    "reportLinkSuffix": "Berätta för oss",
+    "verifiedOn": "Verifierad {date}",
+    "goToCancellationPage": "Gå till avslutningssidan",
+    "allDoneTitle": "Alla steg klara — du är avslutad!",
+    "allDoneDesc": "Kontrollera din e-post för en bekräftelse från tjänsten.",
+    "progressOf": "{done} av {total} klara",
+    "stepLabel": "Steg {n}"
   },
   "difficulty": {
-    "easy": "Easy to cancel",
-    "medium": "Medium to cancel",
-    "hard": "Hard to cancel"
+    "easy": "Lätt att avsluta",
+    "medium": "Medel att avsluta",
+    "hard": "Svårt att avsluta"
   },
   "darkPattern": {
-    "0": "Straightforward",
-    "1": "Straightforward",
-    "2": "Straightforward",
-    "3": "Minor friction",
-    "4": "Minor friction",
-    "5": "Multiple screens",
-    "6": "Multiple screens",
-    "7": "Aggressive retention",
-    "8": "Aggressive retention",
-    "9": "Dark patterns",
-    "10": "Dark patterns"
+    "0": "Okomplicerat",
+    "1": "Okomplicerat",
+    "2": "Okomplicerat",
+    "3": "Litet motstånd",
+    "4": "Litet motstånd",
+    "5": "Flera skärmar",
+    "6": "Flera skärmar",
+    "7": "Aggressiv kvarhållning",
+    "8": "Aggressiv kvarhållning",
+    "9": "Mörka mönster",
+    "10": "Mörka mönster"
   },
   "platform": {
-    "web": "Website",
+    "web": "Webbplats",
     "ios": "iPhone / iPad",
     "android": "Android"
   },
   "search": {
-    "notFound": "No guide found for \"{query}\" — more coming soon.",
-    "resultLabel": "How to cancel {service}"
+    "notFound": "Ingen guide hittad för \"{query}\" — kommer snart.",
+    "resultLabel": "Hur man avslutar {service}"
   },
   "footer": {
-    "tagline": "Free cancellation guides for every subscription. Steps verified by real humans."
+    "tagline": "Gratis avslutningsguider för varje prenumeration. Steg verifierade av riktiga människor."
   }
 }

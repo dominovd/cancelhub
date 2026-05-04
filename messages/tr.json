@@ -1,78 +1,78 @@
 {
   "nav": {
-    "allGuides": "All Guides",
-    "about": "About"
+    "allGuides": "Tüm rehberler",
+    "about": "Hakkında"
   },
   "home": {
-    "badge": "Free cancellation guides",
-    "title": "Cancel any subscription in seconds",
-    "subtitle": "Exact steps for every platform. No fluff, no ads, no dark patterns. Find your service and start cancelling.",
-    "searchPlaceholder": "Search any service — Netflix, Adobe, Spotify...",
-    "statsGuides": "Guides",
-    "statsFree": "Free",
-    "statsPlatforms": "Platforms each",
-    "darkPatternBadge": "Dark Pattern Ranking",
-    "darkPatternDesc": "Adobe, Amazon Prime, and Noom are the hardest to cancel — by design.",
-    "darkPatternLink": "See all rankings →",
-    "browseTitle": "Browse by category",
-    "waitlistTitle": "More guides every week",
-    "waitlistDesc": "We're adding guides for 100+ more services. Leave your email and we'll notify you when we publish guides for the services you care about.",
-    "waitlistPlaceholder": "you@email.com",
-    "waitlistButton": "Notify me"
+    "badge": "Ücretsiz iptal rehberleri",
+    "title": "Herhangi bir aboneliği saniyeler içinde iptal et",
+    "subtitle": "Her platform için kesin adımlar. Saçma sapan yok, reklam yok, karanlık desenler yok. Hizmetini bul ve iptal etmeye başla.",
+    "searchPlaceholder": "Herhangi bir hizmet ara — Netflix, Adobe, Spotify...",
+    "statsGuides": "Rehber",
+    "statsFree": "Ücretsiz",
+    "statsPlatforms": "Platform/hizmet",
+    "darkPatternBadge": "Karanlık desen sıralaması",
+    "darkPatternDesc": "Adobe, Amazon Prime ve Noom kasıtlı olarak iptal edilmesi en zor hizmetlerdir.",
+    "darkPatternLink": "Tüm sıralamaları gör →",
+    "browseTitle": "Kategoriye göre gözat",
+    "waitlistTitle": "Her hafta yeni rehberler",
+    "waitlistDesc": "100'den fazla hizmet için rehberler ekliyoruz. E-postanı bırak, ilgilendiğin hizmetler için rehber yayınladığımızda seni bilgilendirelim.",
+    "waitlistPlaceholder": "sen@email.com",
+    "waitlistButton": "Beni bilgilendir"
   },
   "guides": {
-    "title": "All cancellation guides",
-    "subtitle": "services covered · Sorted by cancellation difficulty (hardest first)",
-    "colService": "Service",
-    "colDifficulty": "Difficulty",
-    "colDarkPatterns": "Dark patterns"
+    "title": "Tüm iptal rehberleri",
+    "subtitle": "hizmet mevcut · İptal zorluğuna göre sıralandı (en zor önce)",
+    "colService": "Hizmet",
+    "colDifficulty": "Zorluk",
+    "colDarkPatterns": "Karanlık desenler"
   },
   "guide": {
-    "category": "Category",
-    "difficulty": "Difficulty",
-    "darkPatternTitle": "Cancellation friction",
-    "refundTitle": "Refund policy",
-    "stepsTitle": "Step-by-step instructions",
-    "issuesTitle": "Common issues",
-    "alternativesTitle": "Looking for alternatives to {service}?",
-    "backLink": "← All guides",
-    "reportLink": "Steps changed?",
-    "reportLinkSuffix": "Let us know",
-    "verifiedOn": "Verified {date}",
-    "goToCancellationPage": "Go to cancellation page",
-    "allDoneTitle": "All steps done — you're cancelled!",
-    "allDoneDesc": "Check your email for a confirmation from the service.",
-    "progressOf": "{done} of {total} done",
-    "stepLabel": "Step {n}"
+    "category": "Kategori",
+    "difficulty": "Zorluk",
+    "darkPatternTitle": "İptal engelleri",
+    "refundTitle": "İade politikası",
+    "stepsTitle": "Adım adım talimatlar",
+    "issuesTitle": "Sık karşılaşılan sorunlar",
+    "alternativesTitle": "{service} için alternatif mi arıyorsun?",
+    "backLink": "← Tüm rehberler",
+    "reportLink": "Adımlar değişti mi?",
+    "reportLinkSuffix": "Bize bildirin",
+    "verifiedOn": "{date} tarihinde doğrulandı",
+    "goToCancellationPage": "İptal sayfasına git",
+    "allDoneTitle": "Tüm adımlar tamamlandı — abonelik iptal edildi!",
+    "allDoneDesc": "Hizmetten onay için e-postanı kontrol et.",
+    "progressOf": "{total} adımdan {done} tamamlandı",
+    "stepLabel": "Adım {n}"
   },
   "difficulty": {
-    "easy": "Easy to cancel",
-    "medium": "Medium to cancel",
-    "hard": "Hard to cancel"
+    "easy": "İptal etmesi kolay",
+    "medium": "İptal etmesi orta",
+    "hard": "İptal etmesi zor"
   },
   "darkPattern": {
-    "0": "Straightforward",
-    "1": "Straightforward",
-    "2": "Straightforward",
-    "3": "Minor friction",
-    "4": "Minor friction",
-    "5": "Multiple screens",
-    "6": "Multiple screens",
-    "7": "Aggressive retention",
-    "8": "Aggressive retention",
-    "9": "Dark patterns",
-    "10": "Dark patterns"
+    "0": "Basit",
+    "1": "Basit",
+    "2": "Basit",
+    "3": "Küçük engeller",
+    "4": "Küçük engeller",
+    "5": "Birden fazla ekran",
+    "6": "Birden fazla ekran",
+    "7": "Agresif tutma",
+    "8": "Agresif tutma",
+    "9": "Karanlık desenler",
+    "10": "Karanlık desenler"
   },
   "platform": {
-    "web": "Website",
+    "web": "Web sitesi",
     "ios": "iPhone / iPad",
     "android": "Android"
   },
   "search": {
-    "notFound": "No guide found for \"{query}\" — more coming soon.",
-    "resultLabel": "How to cancel {service}"
+    "notFound": "\"{query}\" için rehber bulunamadı — yakında geliyor.",
+    "resultLabel": "{service} nasıl iptal edilir"
   },
   "footer": {
-    "tagline": "Free cancellation guides for every subscription. Steps verified by real humans."
+    "tagline": "Her abonelik için ücretsiz iptal rehberleri. Adımlar gerçek insanlar tarafından doğrulandı."
   }
 }

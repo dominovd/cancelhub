@@ -1,65 +1,65 @@
 {
   "nav": {
-    "allGuides": "All Guides",
-    "about": "About"
+    "allGuides": "Alle gidsen",
+    "about": "Over ons"
   },
   "home": {
-    "badge": "Free cancellation guides",
-    "title": "Cancel any subscription in seconds",
-    "subtitle": "Exact steps for every platform. No fluff, no ads, no dark patterns. Find your service and start cancelling.",
-    "searchPlaceholder": "Search any service — Netflix, Adobe, Spotify...",
-    "statsGuides": "Guides",
-    "statsFree": "Free",
-    "statsPlatforms": "Platforms each",
-    "darkPatternBadge": "Dark Pattern Ranking",
-    "darkPatternDesc": "Adobe, Amazon Prime, and Noom are the hardest to cancel — by design.",
-    "darkPatternLink": "See all rankings →",
-    "browseTitle": "Browse by category",
-    "waitlistTitle": "More guides every week",
-    "waitlistDesc": "We're adding guides for 100+ more services. Leave your email and we'll notify you when we publish guides for the services you care about.",
-    "waitlistPlaceholder": "you@email.com",
-    "waitlistButton": "Notify me"
+    "badge": "Gratis opzeggingsgidsen",
+    "title": "Elk abonnement in seconden opzeggen",
+    "subtitle": "Exacte stappen voor elk platform. Geen onzin, geen advertenties, geen dark patterns. Vind je dienst en begin met opzeggen.",
+    "searchPlaceholder": "Zoek een dienst — Netflix, Adobe, Spotify...",
+    "statsGuides": "Gidsen",
+    "statsFree": "Gratis",
+    "statsPlatforms": "Platforms per dienst",
+    "darkPatternBadge": "Dark pattern ranking",
+    "darkPatternDesc": "Adobe, Amazon Prime en Noom zijn de moeilijkste om op te zeggen — met opzet.",
+    "darkPatternLink": "Bekijk alle rankings →",
+    "browseTitle": "Blader per categorie",
+    "waitlistTitle": "Elke week meer gidsen",
+    "waitlistDesc": "We voegen gidsen toe voor meer dan 100 diensten. Laat je email achter en we laten je weten wanneer we gidsen publiceren voor de diensten die jij gebruikt.",
+    "waitlistPlaceholder": "jij@email.com",
+    "waitlistButton": "Meld me aan"
   },
   "guides": {
-    "title": "All cancellation guides",
-    "subtitle": "services covered · Sorted by cancellation difficulty (hardest first)",
-    "colService": "Service",
-    "colDifficulty": "Difficulty",
+    "title": "Alle opzeggingsgidsen",
+    "subtitle": "diensten beschikbaar · Gesorteerd op opzeggingsmoeilijkheid (moeilijkste eerst)",
+    "colService": "Dienst",
+    "colDifficulty": "Moeilijkheid",
     "colDarkPatterns": "Dark patterns"
   },
   "guide": {
-    "category": "Category",
-    "difficulty": "Difficulty",
-    "darkPatternTitle": "Cancellation friction",
-    "refundTitle": "Refund policy",
-    "stepsTitle": "Step-by-step instructions",
-    "issuesTitle": "Common issues",
-    "alternativesTitle": "Looking for alternatives to {service}?",
-    "backLink": "← All guides",
-    "reportLink": "Steps changed?",
-    "reportLinkSuffix": "Let us know",
-    "verifiedOn": "Verified {date}",
-    "goToCancellationPage": "Go to cancellation page",
-    "allDoneTitle": "All steps done — you're cancelled!",
-    "allDoneDesc": "Check your email for a confirmation from the service.",
-    "progressOf": "{done} of {total} done",
-    "stepLabel": "Step {n}"
+    "category": "Categorie",
+    "difficulty": "Moeilijkheid",
+    "darkPatternTitle": "Opzeggingsweerstand",
+    "refundTitle": "Terugbetalingsbeleid",
+    "stepsTitle": "Stap-voor-stap instructies",
+    "issuesTitle": "Veelvoorkomende problemen",
+    "alternativesTitle": "Op zoek naar alternatieven voor {service}?",
+    "backLink": "← Alle gidsen",
+    "reportLink": "Stappen gewijzigd?",
+    "reportLinkSuffix": "Laat het ons weten",
+    "verifiedOn": "Geverifieerd op {date}",
+    "goToCancellationPage": "Ga naar opzeggingspagina",
+    "allDoneTitle": "Alle stappen voltooid — je bent opgezegd!",
+    "allDoneDesc": "Controleer je email voor een bevestiging van de dienst.",
+    "progressOf": "{done} van {total} voltooid",
+    "stepLabel": "Stap {n}"
   },
   "difficulty": {
-    "easy": "Easy to cancel",
-    "medium": "Medium to cancel",
-    "hard": "Hard to cancel"
+    "easy": "Makkelijk op te zeggen",
+    "medium": "Gemiddeld op te zeggen",
+    "hard": "Moeilijk op te zeggen"
   },
   "darkPattern": {
-    "0": "Straightforward",
-    "1": "Straightforward",
-    "2": "Straightforward",
-    "3": "Minor friction",
-    "4": "Minor friction",
-    "5": "Multiple screens",
-    "6": "Multiple screens",
-    "7": "Aggressive retention",
-    "8": "Aggressive retention",
+    "0": "Eenvoudig",
+    "1": "Eenvoudig",
+    "2": "Eenvoudig",
+    "3": "Geringe weerstand",
+    "4": "Geringe weerstand",
+    "5": "Meerdere schermen",
+    "6": "Meerdere schermen",
+    "7": "Agressieve retentie",
+    "8": "Agressieve retentie",
     "9": "Dark patterns",
     "10": "Dark patterns"
   },
@@ -69,10 +69,10 @@
     "android": "Android"
   },
   "search": {
-    "notFound": "No guide found for \"{query}\" — more coming soon.",
-    "resultLabel": "How to cancel {service}"
+    "notFound": "Geen gids gevonden voor \"{query}\" — binnenkort beschikbaar.",
+    "resultLabel": "Hoe {service} op te zeggen"
   },
   "footer": {
-    "tagline": "Free cancellation guides for every subscription. Steps verified by real humans."
+    "tagline": "Gratis opzeggingsgidsen voor elk abonnement. Stappen geverifieerd door echte mensen."
   }
 }

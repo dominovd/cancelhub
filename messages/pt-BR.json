@@ -1,78 +1,78 @@
 {
   "nav": {
-    "allGuides": "All Guides",
-    "about": "About"
+    "allGuides": "Todos os guias",
+    "about": "Sobre"
   },
   "home": {
-    "badge": "Free cancellation guides",
-    "title": "Cancel any subscription in seconds",
-    "subtitle": "Exact steps for every platform. No fluff, no ads, no dark patterns. Find your service and start cancelling.",
-    "searchPlaceholder": "Search any service — Netflix, Adobe, Spotify...",
-    "statsGuides": "Guides",
-    "statsFree": "Free",
-    "statsPlatforms": "Platforms each",
-    "darkPatternBadge": "Dark Pattern Ranking",
-    "darkPatternDesc": "Adobe, Amazon Prime, and Noom are the hardest to cancel — by design.",
-    "darkPatternLink": "See all rankings →",
-    "browseTitle": "Browse by category",
-    "waitlistTitle": "More guides every week",
-    "waitlistDesc": "We're adding guides for 100+ more services. Leave your email and we'll notify you when we publish guides for the services you care about.",
-    "waitlistPlaceholder": "you@email.com",
-    "waitlistButton": "Notify me"
+    "badge": "Guias de cancelamento gratuitos",
+    "title": "Cancele qualquer assinatura em segundos",
+    "subtitle": "Passos exatos para cada plataforma. Sem enrolação, sem anúncios, sem padrões obscuros. Encontre seu serviço e comece a cancelar.",
+    "searchPlaceholder": "Pesquise qualquer serviço — Netflix, Adobe, Spotify...",
+    "statsGuides": "Guias",
+    "statsFree": "Gratuito",
+    "statsPlatforms": "Plataformas por serviço",
+    "darkPatternBadge": "Ranking de padrões obscuros",
+    "darkPatternDesc": "Adobe, Amazon Prime e Noom são os mais difíceis de cancelar — por design.",
+    "darkPatternLink": "Ver todos os rankings →",
+    "browseTitle": "Explorar por categoria",
+    "waitlistTitle": "Mais guias toda semana",
+    "waitlistDesc": "Estamos adicionando guias para mais de 100 serviços. Deixe seu email e avisaremos quando publicarmos guias para os serviços que você usa.",
+    "waitlistPlaceholder": "voce@email.com",
+    "waitlistButton": "Me notifique"
   },
   "guides": {
-    "title": "All cancellation guides",
-    "subtitle": "services covered · Sorted by cancellation difficulty (hardest first)",
-    "colService": "Service",
-    "colDifficulty": "Difficulty",
-    "colDarkPatterns": "Dark patterns"
+    "title": "Todos os guias de cancelamento",
+    "subtitle": "serviços disponíveis · Ordenados por dificuldade de cancelamento (mais difícil primeiro)",
+    "colService": "Serviço",
+    "colDifficulty": "Dificuldade",
+    "colDarkPatterns": "Padrões obscuros"
   },
   "guide": {
-    "category": "Category",
-    "difficulty": "Difficulty",
-    "darkPatternTitle": "Cancellation friction",
-    "refundTitle": "Refund policy",
-    "stepsTitle": "Step-by-step instructions",
-    "issuesTitle": "Common issues",
-    "alternativesTitle": "Looking for alternatives to {service}?",
-    "backLink": "← All guides",
-    "reportLink": "Steps changed?",
-    "reportLinkSuffix": "Let us know",
-    "verifiedOn": "Verified {date}",
-    "goToCancellationPage": "Go to cancellation page",
-    "allDoneTitle": "All steps done — you're cancelled!",
-    "allDoneDesc": "Check your email for a confirmation from the service.",
-    "progressOf": "{done} of {total} done",
-    "stepLabel": "Step {n}"
+    "category": "Categoria",
+    "difficulty": "Dificuldade",
+    "darkPatternTitle": "Fricção no cancelamento",
+    "refundTitle": "Política de reembolso",
+    "stepsTitle": "Instruções passo a passo",
+    "issuesTitle": "Problemas comuns",
+    "alternativesTitle": "Procurando alternativas ao {service}?",
+    "backLink": "← Todos os guias",
+    "reportLink": "Os passos mudaram?",
+    "reportLinkSuffix": "Nos avise",
+    "verifiedOn": "Verificado em {date}",
+    "goToCancellationPage": "Ir para a página de cancelamento",
+    "allDoneTitle": "Todos os passos concluídos — assinatura cancelada!",
+    "allDoneDesc": "Verifique seu email para uma confirmação do serviço.",
+    "progressOf": "{done} de {total} concluídos",
+    "stepLabel": "Passo {n}"
   },
   "difficulty": {
-    "easy": "Easy to cancel",
-    "medium": "Medium to cancel",
-    "hard": "Hard to cancel"
+    "easy": "Fácil de cancelar",
+    "medium": "Cancelamento médio",
+    "hard": "Difícil de cancelar"
   },
   "darkPattern": {
-    "0": "Straightforward",
-    "1": "Straightforward",
-    "2": "Straightforward",
-    "3": "Minor friction",
-    "4": "Minor friction",
-    "5": "Multiple screens",
-    "6": "Multiple screens",
-    "7": "Aggressive retention",
-    "8": "Aggressive retention",
-    "9": "Dark patterns",
-    "10": "Dark patterns"
+    "0": "Simples",
+    "1": "Simples",
+    "2": "Simples",
+    "3": "Leve fricção",
+    "4": "Leve fricção",
+    "5": "Múltiplas telas",
+    "6": "Múltiplas telas",
+    "7": "Retenção agressiva",
+    "8": "Retenção agressiva",
+    "9": "Padrões obscuros",
+    "10": "Padrões obscuros"
   },
   "platform": {
-    "web": "Website",
+    "web": "Site",
     "ios": "iPhone / iPad",
     "android": "Android"
   },
   "search": {
-    "notFound": "No guide found for \"{query}\" — more coming soon.",
-    "resultLabel": "How to cancel {service}"
+    "notFound": "Nenhum guia encontrado para \"{query}\" — em breve.",
+    "resultLabel": "Como cancelar {service}"
   },
   "footer": {
-    "tagline": "Free cancellation guides for every subscription. Steps verified by real humans."
+    "tagline": "Guias de cancelamento gratuitos para cada assinatura. Passos verificados por pessoas reais."
   }
 }

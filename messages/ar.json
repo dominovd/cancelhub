@@ -1,78 +1,78 @@
 {
   "nav": {
-    "allGuides": "All Guides",
-    "about": "About"
+    "allGuides": "جميع الأدلة",
+    "about": "حول"
   },
   "home": {
-    "badge": "Free cancellation guides",
-    "title": "Cancel any subscription in seconds",
-    "subtitle": "Exact steps for every platform. No fluff, no ads, no dark patterns. Find your service and start cancelling.",
-    "searchPlaceholder": "Search any service — Netflix, Adobe, Spotify...",
-    "statsGuides": "Guides",
-    "statsFree": "Free",
-    "statsPlatforms": "Platforms each",
-    "darkPatternBadge": "Dark Pattern Ranking",
-    "darkPatternDesc": "Adobe, Amazon Prime, and Noom are the hardest to cancel — by design.",
-    "darkPatternLink": "See all rankings →",
-    "browseTitle": "Browse by category",
-    "waitlistTitle": "More guides every week",
-    "waitlistDesc": "We're adding guides for 100+ more services. Leave your email and we'll notify you when we publish guides for the services you care about.",
+    "badge": "أدلة إلغاء الاشتراك المجانية",
+    "title": "ألغِ أي اشتراك في ثوانٍ",
+    "subtitle": "خطوات دقيقة لكل منصة. بلا حشو، بلا إعلانات، بلا أنماط مضللة. ابحث عن خدمتك وابدأ الإلغاء.",
+    "searchPlaceholder": "ابحث عن أي خدمة — Netflix، Adobe، Spotify...",
+    "statsGuides": "دليل",
+    "statsFree": "مجاني",
+    "statsPlatforms": "منصات لكل خدمة",
+    "darkPatternBadge": "تصنيف الأنماط المضللة",
+    "darkPatternDesc": "Adobe وAmazon Prime وNoom هي الأصعب إلغاءً — وذلك بالتصميم.",
+    "darkPatternLink": "عرض جميع التصنيفات →",
+    "browseTitle": "تصفح حسب الفئة",
+    "waitlistTitle": "أدلة جديدة كل أسبوع",
+    "waitlistDesc": "نضيف أدلة لأكثر من 100 خدمة. اترك بريدك الإلكتروني وسنخبرك عند نشر أدلة للخدمات التي تهتم بها.",
     "waitlistPlaceholder": "you@email.com",
-    "waitlistButton": "Notify me"
+    "waitlistButton": "أخبرني"
   },
   "guides": {
-    "title": "All cancellation guides",
-    "subtitle": "services covered · Sorted by cancellation difficulty (hardest first)",
-    "colService": "Service",
-    "colDifficulty": "Difficulty",
-    "colDarkPatterns": "Dark patterns"
+    "title": "جميع أدلة إلغاء الاشتراك",
+    "subtitle": "خدمة متاحة · مرتبة حسب صعوبة الإلغاء (الأصعب أولاً)",
+    "colService": "الخدمة",
+    "colDifficulty": "الصعوبة",
+    "colDarkPatterns": "الأنماط المضللة"
   },
   "guide": {
-    "category": "Category",
-    "difficulty": "Difficulty",
-    "darkPatternTitle": "Cancellation friction",
-    "refundTitle": "Refund policy",
-    "stepsTitle": "Step-by-step instructions",
-    "issuesTitle": "Common issues",
-    "alternativesTitle": "Looking for alternatives to {service}?",
-    "backLink": "← All guides",
-    "reportLink": "Steps changed?",
-    "reportLinkSuffix": "Let us know",
-    "verifiedOn": "Verified {date}",
-    "goToCancellationPage": "Go to cancellation page",
-    "allDoneTitle": "All steps done — you're cancelled!",
-    "allDoneDesc": "Check your email for a confirmation from the service.",
-    "progressOf": "{done} of {total} done",
-    "stepLabel": "Step {n}"
+    "category": "الفئة",
+    "difficulty": "الصعوبة",
+    "darkPatternTitle": "عوائق الإلغاء",
+    "refundTitle": "سياسة الاسترداد",
+    "stepsTitle": "تعليمات خطوة بخطوة",
+    "issuesTitle": "المشاكل الشائعة",
+    "alternativesTitle": "تبحث عن بدائل لـ {service}؟",
+    "backLink": "← جميع الأدلة",
+    "reportLink": "هل تغيّرت الخطوات؟",
+    "reportLinkSuffix": "أخبرنا",
+    "verifiedOn": "تم التحقق في {date}",
+    "goToCancellationPage": "الذهاب إلى صفحة الإلغاء",
+    "allDoneTitle": "اكتملت جميع الخطوات — تم إلغاء الاشتراك!",
+    "allDoneDesc": "تحقق من بريدك الإلكتروني للحصول على تأكيد من الخدمة.",
+    "progressOf": "{done} من {total} مكتملة",
+    "stepLabel": "الخطوة {n}"
   },
   "difficulty": {
-    "easy": "Easy to cancel",
-    "medium": "Medium to cancel",
-    "hard": "Hard to cancel"
+    "easy": "سهل الإلغاء",
+    "medium": "متوسط الإلغاء",
+    "hard": "صعب الإلغاء"
   },
   "darkPattern": {
-    "0": "Straightforward",
-    "1": "Straightforward",
-    "2": "Straightforward",
-    "3": "Minor friction",
-    "4": "Minor friction",
-    "5": "Multiple screens",
-    "6": "Multiple screens",
-    "7": "Aggressive retention",
-    "8": "Aggressive retention",
-    "9": "Dark patterns",
-    "10": "Dark patterns"
+    "0": "بسيط",
+    "1": "بسيط",
+    "2": "بسيط",
+    "3": "عوائق بسيطة",
+    "4": "عوائق بسيطة",
+    "5": "شاشات متعددة",
+    "6": "شاشات متعددة",
+    "7": "احتجاز عدواني",
+    "8": "احتجاز عدواني",
+    "9": "أنماط مضللة",
+    "10": "أنماط مضللة"
   },
   "platform": {
-    "web": "Website",
+    "web": "الموقع الإلكتروني",
     "ios": "iPhone / iPad",
     "android": "Android"
   },
   "search": {
-    "notFound": "No guide found for \"{query}\" — more coming soon.",
-    "resultLabel": "How to cancel {service}"
+    "notFound": "لم يُعثر على دليل لـ \"{query}\" — قريباً.",
+    "resultLabel": "كيفية إلغاء {service}"
   },
   "footer": {
-    "tagline": "Free cancellation guides for every subscription. Steps verified by real humans."
+    "tagline": "أدلة إلغاء مجانية لكل اشتراك. خطوات تم التحقق منها بواسطة أشخاص حقيقيين."
   }
 }

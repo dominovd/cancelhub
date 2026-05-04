@@ -1,78 +1,78 @@
 {
   "nav": {
-    "allGuides": "All Guides",
-    "about": "About"
+    "allGuides": "सभी गाइड",
+    "about": "हमारे बारे में"
   },
   "home": {
-    "badge": "Free cancellation guides",
-    "title": "Cancel any subscription in seconds",
-    "subtitle": "Exact steps for every platform. No fluff, no ads, no dark patterns. Find your service and start cancelling.",
-    "searchPlaceholder": "Search any service — Netflix, Adobe, Spotify...",
-    "statsGuides": "Guides",
-    "statsFree": "Free",
-    "statsPlatforms": "Platforms each",
-    "darkPatternBadge": "Dark Pattern Ranking",
-    "darkPatternDesc": "Adobe, Amazon Prime, and Noom are the hardest to cancel — by design.",
-    "darkPatternLink": "See all rankings →",
-    "browseTitle": "Browse by category",
-    "waitlistTitle": "More guides every week",
-    "waitlistDesc": "We're adding guides for 100+ more services. Leave your email and we'll notify you when we publish guides for the services you care about.",
+    "badge": "मुफ़्त सब्सक्रिप्शन रद्द करने के गाइड",
+    "title": "कोई भी सब्सक्रिप्शन सेकंडों में रद्द करें",
+    "subtitle": "हर प्लेटफॉर्म के लिए सटीक कदम। कोई बेकार जानकारी नहीं, कोई विज्ञापन नहीं, कोई डार्क पैटर्न नहीं। अपनी सेवा खोजें और रद्द करना शुरू करें।",
+    "searchPlaceholder": "कोई भी सेवा खोजें — Netflix, Adobe, Spotify...",
+    "statsGuides": "गाइड",
+    "statsFree": "मुफ़्त",
+    "statsPlatforms": "प्लेटफॉर्म प्रति सेवा",
+    "darkPatternBadge": "डार्क पैटर्न रैंकिंग",
+    "darkPatternDesc": "Adobe, Amazon Prime और Noom जानबूझकर रद्द करने में सबसे कठिन बनाए गए हैं।",
+    "darkPatternLink": "सभी रैंकिंग देखें →",
+    "browseTitle": "श्रेणी के अनुसार ब्राउज़ करें",
+    "waitlistTitle": "हर हफ्ते नए गाइड",
+    "waitlistDesc": "हम 100 से अधिक सेवाओं के लिए गाइड जोड़ रहे हैं। अपना ईमेल छोड़ें और हम आपको उन सेवाओं के गाइड प्रकाशित होने पर सूचित करेंगे।",
     "waitlistPlaceholder": "you@email.com",
-    "waitlistButton": "Notify me"
+    "waitlistButton": "मुझे सूचित करें"
   },
   "guides": {
-    "title": "All cancellation guides",
-    "subtitle": "services covered · Sorted by cancellation difficulty (hardest first)",
-    "colService": "Service",
-    "colDifficulty": "Difficulty",
-    "colDarkPatterns": "Dark patterns"
+    "title": "सभी सब्सक्रिप्शन रद्द करने के गाइड",
+    "subtitle": "सेवाएं उपलब्ध · रद्द करने की कठिनाई के अनुसार क्रमबद्ध (सबसे कठिन पहले)",
+    "colService": "सेवा",
+    "colDifficulty": "कठिनाई",
+    "colDarkPatterns": "डार्क पैटर्न"
   },
   "guide": {
-    "category": "Category",
-    "difficulty": "Difficulty",
-    "darkPatternTitle": "Cancellation friction",
-    "refundTitle": "Refund policy",
-    "stepsTitle": "Step-by-step instructions",
-    "issuesTitle": "Common issues",
-    "alternativesTitle": "Looking for alternatives to {service}?",
-    "backLink": "← All guides",
-    "reportLink": "Steps changed?",
-    "reportLinkSuffix": "Let us know",
-    "verifiedOn": "Verified {date}",
-    "goToCancellationPage": "Go to cancellation page",
-    "allDoneTitle": "All steps done — you're cancelled!",
-    "allDoneDesc": "Check your email for a confirmation from the service.",
-    "progressOf": "{done} of {total} done",
-    "stepLabel": "Step {n}"
+    "category": "श्रेणी",
+    "difficulty": "कठिनाई",
+    "darkPatternTitle": "रद्द करने में बाधाएं",
+    "refundTitle": "वापसी नीति",
+    "stepsTitle": "चरण-दर-चरण निर्देश",
+    "issuesTitle": "सामान्य समस्याएं",
+    "alternativesTitle": "{service} के विकल्प खोज रहे हैं?",
+    "backLink": "← सभी गाइड",
+    "reportLink": "कदम बदल गए?",
+    "reportLinkSuffix": "हमें बताएं",
+    "verifiedOn": "{date} को सत्यापित",
+    "goToCancellationPage": "रद्द करने के पेज पर जाएं",
+    "allDoneTitle": "सभी चरण पूरे — सब्सक्रिप्शन रद्द हो गई!",
+    "allDoneDesc": "सेवा से पुष्टि के लिए अपना ईमेल जांचें।",
+    "progressOf": "{total} में से {done} पूरे",
+    "stepLabel": "चरण {n}"
   },
   "difficulty": {
-    "easy": "Easy to cancel",
-    "medium": "Medium to cancel",
-    "hard": "Hard to cancel"
+    "easy": "रद्द करना आसान",
+    "medium": "रद्द करना मध्यम",
+    "hard": "रद्द करना कठिन"
   },
   "darkPattern": {
-    "0": "Straightforward",
-    "1": "Straightforward",
-    "2": "Straightforward",
-    "3": "Minor friction",
-    "4": "Minor friction",
-    "5": "Multiple screens",
-    "6": "Multiple screens",
-    "7": "Aggressive retention",
-    "8": "Aggressive retention",
-    "9": "Dark patterns",
-    "10": "Dark patterns"
+    "0": "सरल",
+    "1": "सरल",
+    "2": "सरल",
+    "3": "हल्की बाधा",
+    "4": "हल्की बाधा",
+    "5": "कई स्क्रीन",
+    "6": "कई स्क्रीन",
+    "7": "आक्रामक रोकथाम",
+    "8": "आक्रामक रोकथाम",
+    "9": "डार्क पैटर्न",
+    "10": "डार्क पैटर्न"
   },
   "platform": {
-    "web": "Website",
+    "web": "वेबसाइट",
     "ios": "iPhone / iPad",
     "android": "Android"
   },
   "search": {
-    "notFound": "No guide found for \"{query}\" — more coming soon.",
-    "resultLabel": "How to cancel {service}"
+    "notFound": "\"{query}\" के लिए कोई गाइड नहीं मिला — जल्द आएगा।",
+    "resultLabel": "{service} कैसे रद्द करें"
   },
   "footer": {
-    "tagline": "Free cancellation guides for every subscription. Steps verified by real humans."
+    "tagline": "हर सब्सक्रिप्शन के लिए मुफ़्त रद्द करने के गाइड। वास्तविक लोगों द्वारा सत्यापित कदम।"
   }
 }

@@ -1,78 +1,78 @@
 {
   "nav": {
-    "allGuides": "All Guides",
-    "about": "About"
+    "allGuides": "所有指南",
+    "about": "關於我們"
   },
   "home": {
-    "badge": "Free cancellation guides",
-    "title": "Cancel any subscription in seconds",
-    "subtitle": "Exact steps for every platform. No fluff, no ads, no dark patterns. Find your service and start cancelling.",
-    "searchPlaceholder": "Search any service — Netflix, Adobe, Spotify...",
-    "statsGuides": "Guides",
-    "statsFree": "Free",
-    "statsPlatforms": "Platforms each",
-    "darkPatternBadge": "Dark Pattern Ranking",
-    "darkPatternDesc": "Adobe, Amazon Prime, and Noom are the hardest to cancel — by design.",
-    "darkPatternLink": "See all rankings →",
-    "browseTitle": "Browse by category",
-    "waitlistTitle": "More guides every week",
-    "waitlistDesc": "We're adding guides for 100+ more services. Leave your email and we'll notify you when we publish guides for the services you care about.",
+    "badge": "免費取消訂閱指南",
+    "title": "幾秒鐘內取消任何訂閱",
+    "subtitle": "每個平台的精確步驟。沒有廢話、沒有廣告、沒有暗黑模式。找到您的服務並開始取消。",
+    "searchPlaceholder": "搜尋任何服務 — Netflix、Adobe、Spotify...",
+    "statsGuides": "個指南",
+    "statsFree": "免費",
+    "statsPlatforms": "個平台",
+    "darkPatternBadge": "暗黑模式排名",
+    "darkPatternDesc": "Adobe、Amazon Prime 和 Noom 是最難取消的服務 — 這是故意的設計。",
+    "darkPatternLink": "查看所有排名 →",
+    "browseTitle": "按類別瀏覽",
+    "waitlistTitle": "每週更多指南",
+    "waitlistDesc": "我們正在為 100 多項服務添加指南。留下您的電子郵件，當我們發布您關心的服務指南時，我們會通知您。",
     "waitlistPlaceholder": "you@email.com",
-    "waitlistButton": "Notify me"
+    "waitlistButton": "通知我"
   },
   "guides": {
-    "title": "All cancellation guides",
-    "subtitle": "services covered · Sorted by cancellation difficulty (hardest first)",
-    "colService": "Service",
-    "colDifficulty": "Difficulty",
-    "colDarkPatterns": "Dark patterns"
+    "title": "所有取消訂閱指南",
+    "subtitle": "項服務 · 按取消難度排序（最難在前）",
+    "colService": "服務",
+    "colDifficulty": "難度",
+    "colDarkPatterns": "暗黑模式"
   },
   "guide": {
-    "category": "Category",
-    "difficulty": "Difficulty",
-    "darkPatternTitle": "Cancellation friction",
-    "refundTitle": "Refund policy",
-    "stepsTitle": "Step-by-step instructions",
-    "issuesTitle": "Common issues",
-    "alternativesTitle": "Looking for alternatives to {service}?",
-    "backLink": "← All guides",
-    "reportLink": "Steps changed?",
-    "reportLinkSuffix": "Let us know",
-    "verifiedOn": "Verified {date}",
-    "goToCancellationPage": "Go to cancellation page",
-    "allDoneTitle": "All steps done — you're cancelled!",
-    "allDoneDesc": "Check your email for a confirmation from the service.",
-    "progressOf": "{done} of {total} done",
-    "stepLabel": "Step {n}"
+    "category": "類別",
+    "difficulty": "難度",
+    "darkPatternTitle": "取消阻力",
+    "refundTitle": "退款政策",
+    "stepsTitle": "逐步說明",
+    "issuesTitle": "常見問題",
+    "alternativesTitle": "尋找 {service} 的替代品？",
+    "backLink": "← 所有指南",
+    "reportLink": "步驟有變化？",
+    "reportLinkSuffix": "告訴我們",
+    "verifiedOn": "於 {date} 驗證",
+    "goToCancellationPage": "前往取消頁面",
+    "allDoneTitle": "所有步驟完成 — 訂閱已取消！",
+    "allDoneDesc": "請查看您的電子郵件以獲取服務的確認信。",
+    "progressOf": "{total} 個步驟中已完成 {done} 個",
+    "stepLabel": "第 {n} 步"
   },
   "difficulty": {
-    "easy": "Easy to cancel",
-    "medium": "Medium to cancel",
-    "hard": "Hard to cancel"
+    "easy": "容易取消",
+    "medium": "中等難度",
+    "hard": "難以取消"
   },
   "darkPattern": {
-    "0": "Straightforward",
-    "1": "Straightforward",
-    "2": "Straightforward",
-    "3": "Minor friction",
-    "4": "Minor friction",
-    "5": "Multiple screens",
-    "6": "Multiple screens",
-    "7": "Aggressive retention",
-    "8": "Aggressive retention",
-    "9": "Dark patterns",
-    "10": "Dark patterns"
+    "0": "簡單直接",
+    "1": "簡單直接",
+    "2": "簡單直接",
+    "3": "輕微阻力",
+    "4": "輕微阻力",
+    "5": "多個頁面",
+    "6": "多個頁面",
+    "7": "強制留客",
+    "8": "強制留客",
+    "9": "暗黑模式",
+    "10": "暗黑模式"
   },
   "platform": {
-    "web": "Website",
+    "web": "網站",
     "ios": "iPhone / iPad",
     "android": "Android"
   },
   "search": {
-    "notFound": "No guide found for \"{query}\" — more coming soon.",
-    "resultLabel": "How to cancel {service}"
+    "notFound": "找不到 \"{query}\" 的指南 — 即將推出。",
+    "resultLabel": "如何取消 {service}"
   },
   "footer": {
-    "tagline": "Free cancellation guides for every subscription. Steps verified by real humans."
+    "tagline": "每項訂閱的免費取消指南。步驟由真實用戶驗證。"
   }
 }

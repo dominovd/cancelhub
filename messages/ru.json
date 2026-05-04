@@ -1,78 +1,78 @@
 {
   "nav": {
-    "allGuides": "All Guides",
-    "about": "About"
+    "allGuides": "Все гайды",
+    "about": "О нас"
   },
   "home": {
-    "badge": "Free cancellation guides",
-    "title": "Cancel any subscription in seconds",
-    "subtitle": "Exact steps for every platform. No fluff, no ads, no dark patterns. Find your service and start cancelling.",
-    "searchPlaceholder": "Search any service — Netflix, Adobe, Spotify...",
-    "statsGuides": "Guides",
-    "statsFree": "Free",
-    "statsPlatforms": "Platforms each",
-    "darkPatternBadge": "Dark Pattern Ranking",
-    "darkPatternDesc": "Adobe, Amazon Prime, and Noom are the hardest to cancel — by design.",
-    "darkPatternLink": "See all rankings →",
-    "browseTitle": "Browse by category",
-    "waitlistTitle": "More guides every week",
-    "waitlistDesc": "We're adding guides for 100+ more services. Leave your email and we'll notify you when we publish guides for the services you care about.",
+    "badge": "Бесплатные гайды по отмене подписок",
+    "title": "Отмени любую подписку за секунды",
+    "subtitle": "Точные шаги для каждой платформы. Без воды, без рекламы, без тёмных паттернов. Найди свой сервис и начни отменять.",
+    "searchPlaceholder": "Поиск сервиса — Netflix, Adobe, Spotify...",
+    "statsGuides": "Гайдов",
+    "statsFree": "Бесплатно",
+    "statsPlatforms": "Платформ на сервис",
+    "darkPatternBadge": "Рейтинг тёмных паттернов",
+    "darkPatternDesc": "Adobe, Amazon Prime и Noom — самые сложные для отмены сервисы, и это сделано специально.",
+    "darkPatternLink": "Смотреть все рейтинги →",
+    "browseTitle": "Просмотр по категориям",
+    "waitlistTitle": "Новые гайды каждую неделю",
+    "waitlistDesc": "Мы добавляем гайды для более чем 100 сервисов. Оставьте email, и мы уведомим вас, когда опубликуем гайды для нужных вам сервисов.",
     "waitlistPlaceholder": "you@email.com",
-    "waitlistButton": "Notify me"
+    "waitlistButton": "Уведомить меня"
   },
   "guides": {
-    "title": "All cancellation guides",
-    "subtitle": "services covered · Sorted by cancellation difficulty (hardest first)",
-    "colService": "Service",
-    "colDifficulty": "Difficulty",
-    "colDarkPatterns": "Dark patterns"
+    "title": "Все гайды по отмене подписок",
+    "subtitle": "сервисов · Сортировка по сложности отмены (сначала сложные)",
+    "colService": "Сервис",
+    "colDifficulty": "Сложность",
+    "colDarkPatterns": "Тёмные паттерны"
   },
   "guide": {
-    "category": "Category",
-    "difficulty": "Difficulty",
-    "darkPatternTitle": "Cancellation friction",
-    "refundTitle": "Refund policy",
-    "stepsTitle": "Step-by-step instructions",
-    "issuesTitle": "Common issues",
-    "alternativesTitle": "Looking for alternatives to {service}?",
-    "backLink": "← All guides",
-    "reportLink": "Steps changed?",
-    "reportLinkSuffix": "Let us know",
-    "verifiedOn": "Verified {date}",
-    "goToCancellationPage": "Go to cancellation page",
-    "allDoneTitle": "All steps done — you're cancelled!",
-    "allDoneDesc": "Check your email for a confirmation from the service.",
-    "progressOf": "{done} of {total} done",
-    "stepLabel": "Step {n}"
+    "category": "Категория",
+    "difficulty": "Сложность",
+    "darkPatternTitle": "Барьеры при отмене",
+    "refundTitle": "Политика возврата",
+    "stepsTitle": "Пошаговая инструкция",
+    "issuesTitle": "Частые проблемы",
+    "alternativesTitle": "Ищете альтернативы {service}?",
+    "backLink": "← Все гайды",
+    "reportLink": "Шаги изменились?",
+    "reportLinkSuffix": "Сообщите нам",
+    "verifiedOn": "Проверено {date}",
+    "goToCancellationPage": "Перейти на страницу отмены",
+    "allDoneTitle": "Все шаги выполнены — подписка отменена!",
+    "allDoneDesc": "Проверьте почту — там должно быть подтверждение от сервиса.",
+    "progressOf": "{done} из {total} выполнено",
+    "stepLabel": "Шаг {n}"
   },
   "difficulty": {
-    "easy": "Easy to cancel",
-    "medium": "Medium to cancel",
-    "hard": "Hard to cancel"
+    "easy": "Легко отменить",
+    "medium": "Средняя сложность",
+    "hard": "Сложно отменить"
   },
   "darkPattern": {
-    "0": "Straightforward",
-    "1": "Straightforward",
-    "2": "Straightforward",
-    "3": "Minor friction",
-    "4": "Minor friction",
-    "5": "Multiple screens",
-    "6": "Multiple screens",
-    "7": "Aggressive retention",
-    "8": "Aggressive retention",
-    "9": "Dark patterns",
-    "10": "Dark patterns"
+    "0": "Просто",
+    "1": "Просто",
+    "2": "Просто",
+    "3": "Небольшие барьеры",
+    "4": "Небольшие барьеры",
+    "5": "Несколько экранов",
+    "6": "Несколько экранов",
+    "7": "Агрессивное удержание",
+    "8": "Агрессивное удержание",
+    "9": "Тёмные паттерны",
+    "10": "Тёмные паттерны"
   },
   "platform": {
-    "web": "Website",
+    "web": "Сайт",
     "ios": "iPhone / iPad",
     "android": "Android"
   },
   "search": {
-    "notFound": "No guide found for \"{query}\" — more coming soon.",
-    "resultLabel": "How to cancel {service}"
+    "notFound": "Гайд для \"{query}\" не найден — скоро появится.",
+    "resultLabel": "Как отменить {service}"
   },
   "footer": {
-    "tagline": "Free cancellation guides for every subscription. Steps verified by real humans."
+    "tagline": "Бесплатные гайды по отмене любых подписок. Шаги проверены реальными людьми."
   }
 }

@@ -1,78 +1,78 @@
 {
   "nav": {
-    "allGuides": "All Guides",
-    "about": "About"
+    "allGuides": "모든 가이드",
+    "about": "소개"
   },
   "home": {
-    "badge": "Free cancellation guides",
-    "title": "Cancel any subscription in seconds",
-    "subtitle": "Exact steps for every platform. No fluff, no ads, no dark patterns. Find your service and start cancelling.",
-    "searchPlaceholder": "Search any service — Netflix, Adobe, Spotify...",
-    "statsGuides": "Guides",
-    "statsFree": "Free",
-    "statsPlatforms": "Platforms each",
-    "darkPatternBadge": "Dark Pattern Ranking",
-    "darkPatternDesc": "Adobe, Amazon Prime, and Noom are the hardest to cancel — by design.",
-    "darkPatternLink": "See all rankings →",
-    "browseTitle": "Browse by category",
-    "waitlistTitle": "More guides every week",
-    "waitlistDesc": "We're adding guides for 100+ more services. Leave your email and we'll notify you when we publish guides for the services you care about.",
-    "waitlistPlaceholder": "you@email.com",
-    "waitlistButton": "Notify me"
+    "badge": "무료 구독 취소 가이드",
+    "title": "몇 초 만에 어떤 구독이든 취소",
+    "subtitle": "모든 플랫폼에 대한 정확한 단계. 불필요한 내용 없음, 광고 없음, 다크 패턴 없음. 서비스를 찾아 취소를 시작하세요.",
+    "searchPlaceholder": "서비스 검색 — Netflix, Adobe, Spotify...",
+    "statsGuides": "가이드",
+    "statsFree": "무료",
+    "statsPlatforms": "플랫폼 수",
+    "darkPatternBadge": "다크 패턴 순위",
+    "darkPatternDesc": "Adobe, Amazon Prime, Noom은 의도적으로 취소가 가장 어렵게 설계되었습니다.",
+    "darkPatternLink": "모든 순위 보기 →",
+    "browseTitle": "카테고리별 탐색",
+    "waitlistTitle": "매주 새로운 가이드 추가",
+    "waitlistDesc": "100개 이상의 서비스에 대한 가이드를 추가하고 있습니다. 이메일을 남기시면 관심 있는 서비스의 가이드가 게시될 때 알려드립니다.",
+    "waitlistPlaceholder": "your@email.com",
+    "waitlistButton": "알림 받기"
   },
   "guides": {
-    "title": "All cancellation guides",
-    "subtitle": "services covered · Sorted by cancellation difficulty (hardest first)",
-    "colService": "Service",
-    "colDifficulty": "Difficulty",
-    "colDarkPatterns": "Dark patterns"
+    "title": "모든 구독 취소 가이드",
+    "subtitle": "서비스 수록 · 취소 난이도 순 정렬 (어려운 순)",
+    "colService": "서비스",
+    "colDifficulty": "난이도",
+    "colDarkPatterns": "다크 패턴"
   },
   "guide": {
-    "category": "Category",
-    "difficulty": "Difficulty",
-    "darkPatternTitle": "Cancellation friction",
-    "refundTitle": "Refund policy",
-    "stepsTitle": "Step-by-step instructions",
-    "issuesTitle": "Common issues",
-    "alternativesTitle": "Looking for alternatives to {service}?",
-    "backLink": "← All guides",
-    "reportLink": "Steps changed?",
-    "reportLinkSuffix": "Let us know",
-    "verifiedOn": "Verified {date}",
-    "goToCancellationPage": "Go to cancellation page",
-    "allDoneTitle": "All steps done — you're cancelled!",
-    "allDoneDesc": "Check your email for a confirmation from the service.",
-    "progressOf": "{done} of {total} done",
-    "stepLabel": "Step {n}"
+    "category": "카테고리",
+    "difficulty": "난이도",
+    "darkPatternTitle": "취소 장벽",
+    "refundTitle": "환불 정책",
+    "stepsTitle": "단계별 안내",
+    "issuesTitle": "자주 발생하는 문제",
+    "alternativesTitle": "{service}의 대안을 찾고 계신가요?",
+    "backLink": "← 모든 가이드",
+    "reportLink": "단계가 변경되었나요?",
+    "reportLinkSuffix": "알려주세요",
+    "verifiedOn": "{date}에 확인됨",
+    "goToCancellationPage": "취소 페이지로 이동",
+    "allDoneTitle": "모든 단계 완료 — 취소되었습니다!",
+    "allDoneDesc": "서비스에서 확인 이메일을 확인하세요.",
+    "progressOf": "{total}개 중 {done}개 완료",
+    "stepLabel": "{n}단계"
   },
   "difficulty": {
-    "easy": "Easy to cancel",
-    "medium": "Medium to cancel",
-    "hard": "Hard to cancel"
+    "easy": "취소 쉬움",
+    "medium": "취소 보통",
+    "hard": "취소 어려움"
   },
   "darkPattern": {
-    "0": "Straightforward",
-    "1": "Straightforward",
-    "2": "Straightforward",
-    "3": "Minor friction",
-    "4": "Minor friction",
-    "5": "Multiple screens",
-    "6": "Multiple screens",
-    "7": "Aggressive retention",
-    "8": "Aggressive retention",
-    "9": "Dark patterns",
-    "10": "Dark patterns"
+    "0": "간단함",
+    "1": "간단함",
+    "2": "간단함",
+    "3": "약간의 장벽",
+    "4": "약간의 장벽",
+    "5": "여러 화면",
+    "6": "여러 화면",
+    "7": "강압적 유지 시도",
+    "8": "강압적 유지 시도",
+    "9": "다크 패턴",
+    "10": "다크 패턴"
   },
   "platform": {
-    "web": "Website",
+    "web": "웹사이트",
     "ios": "iPhone / iPad",
     "android": "Android"
   },
   "search": {
-    "notFound": "No guide found for \"{query}\" — more coming soon.",
-    "resultLabel": "How to cancel {service}"
+    "notFound": "\"{query}\"에 대한 가이드를 찾을 수 없습니다 — 곧 추가 예정.",
+    "resultLabel": "{service} 취소 방법"
   },
   "footer": {
-    "tagline": "Free cancellation guides for every subscription. Steps verified by real humans."
+    "tagline": "모든 구독을 위한 무료 취소 가이드. 실제 사람들이 확인한 단계."
   }
 }
