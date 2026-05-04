@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { allGuides } from '@/data/guides'
+import { canonicalUrl, hreflangAlternates } from '@/config/seo'
 import { DifficultyBadge } from '@/components/DifficultyBadge'
 import { DarkPatternScore } from '@/components/DarkPatternScore'
 
@@ -11,7 +12,13 @@ export async function generateMetadata({
   params: { locale: string }
 }): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: 'guides' })
-  return { title: t('title') }
+  return {
+    title: t('title'),
+    alternates: {
+      canonical: canonicalUrl('/cancel', locale),
+      languages: hreflangAlternates('/cancel'),
+    },
+  }
 }
 
 export default async function CancelIndexPage({

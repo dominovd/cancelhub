@@ -24,6 +24,9 @@ export const metadata: Metadata = {
     template: '%s | CancelHub',
   },
   description: 'Step-by-step cancellation guides for Netflix, Spotify, Adobe, and 100+ more services.',
+  verification: {
+    google: '5spKtcOz0kp7Yifnn-B9cM2R8yUdsoFwHxaJoHl5ADM',
+  },
 }
 
 export default async function LocaleLayout({

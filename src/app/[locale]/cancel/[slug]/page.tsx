@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { allGuides, guidesBySlug } from '@/data/guides'
+import { canonicalUrl, hreflangAlternates } from '@/config/seo'
 import { locales } from '@/config/i18n'
 import { DifficultyBadge } from '@/components/DifficultyBadge'
 import { DarkPatternScore } from '@/components/DarkPatternScore'
@@ -21,9 +22,19 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const guide = guidesBySlug[params.slug]
   if (!guide) return {}
+  const path = `/cancel/${params.slug}`
   return {
     title: `How to Cancel ${guide.service}`,
     description: guide.description,
+    alternates: {
+      canonical: canonicalUrl(path, params.locale),
+      languages: hreflangAlternates(path),
+    },
+    openGraph: {
+      title: `How to Cancel ${guide.service} — CancelHub`,
+      description: guide.description,
+      url: canonicalUrl(path, params.locale),
+    },
   }
 }
 

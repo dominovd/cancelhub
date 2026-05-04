@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { allGuides, guidesByCategory } from '@/data/guides'
+import { canonicalUrl, hreflangAlternates } from '@/config/seo'
 import { SearchBar } from '@/components/SearchBar'
 import { DifficultyBadge } from '@/components/DifficultyBadge'
 import { WaitlistForm } from '@/components/WaitlistForm'
@@ -15,6 +16,10 @@ export async function generateMetadata({
   return {
     title: 'CancelHub — How to Cancel Any Subscription',
     description: t('subtitle'),
+    alternates: {
+      canonical: canonicalUrl('/', locale),
+      languages: hreflangAlternates('/'),
+    },
   }
 }
 
