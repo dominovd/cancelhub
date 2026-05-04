@@ -1,7 +1,9 @@
 {
   "nav": {
     "allGuides": "جميع الأدلة",
-    "about": "حول"
+    "about": "حول",
+    "home": "الرئيسية",
+    "guides": "الأدلة"
   },
   "home": {
     "badge": "أدلة إلغاء الاشتراك المجانية",
@@ -43,7 +45,8 @@
     "allDoneTitle": "اكتملت جميع الخطوات — تم إلغاء الاشتراك!",
     "allDoneDesc": "تحقق من بريدك الإلكتروني للحصول على تأكيد من الخدمة.",
     "progressOf": "{done} من {total} مكتملة",
-    "stepLabel": "الخطوة {n}"
+    "stepLabel": "الخطوة {n}",
+    "howToCancel": "كيفية إلغاء {service}"
   },
   "difficulty": {
     "easy": "سهل الإلغاء",

@@ -1,7 +1,9 @@
 {
   "nav": {
     "allGuides": "Tous les guides",
-    "about": "À propos"
+    "about": "À propos",
+    "home": "Accueil",
+    "guides": "Guides"
   },
   "home": {
     "badge": "Guides d'annulation gratuits",
@@ -43,7 +45,8 @@
     "allDoneTitle": "Toutes les étapes terminées — annulation effectuée !",
     "allDoneDesc": "Vérifiez votre email pour une confirmation du service.",
     "progressOf": "{done} sur {total} effectués",
-    "stepLabel": "Étape {n}"
+    "stepLabel": "Étape {n}",
+    "howToCancel": "Comment annuler {service}"
   },
   "difficulty": {
     "easy": "Facile à annuler",

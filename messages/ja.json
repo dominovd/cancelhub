@@ -1,7 +1,9 @@
 {
   "nav": {
     "allGuides": "すべてのガイド",
-    "about": "について"
+    "about": "について",
+    "home": "ホーム",
+    "guides": "ガイド"
   },
   "home": {
     "badge": "無料の解約ガイド",
@@ -43,7 +45,8 @@
     "allDoneTitle": "すべての手順完了 — 解約が完了しました！",
     "allDoneDesc": "サービスからの確認メールをご確認ください。",
     "progressOf": "{total}件中{done}件完了",
-    "stepLabel": "ステップ {n}"
+    "stepLabel": "ステップ {n}",
+    "howToCancel": "{service}の解約方法"
   },
   "difficulty": {
     "easy": "解約が簡単",

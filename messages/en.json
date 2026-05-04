@@ -1,7 +1,9 @@
 {
   "nav": {
     "allGuides": "All Guides",
-    "about": "About"
+    "about": "About",
+    "home": "Home",
+    "guides": "Guides"
   },
   "home": {
     "badge": "Free cancellation guides",
@@ -43,7 +45,8 @@
     "allDoneTitle": "All steps done — you're cancelled!",
     "allDoneDesc": "Check your email for a confirmation from the service.",
     "progressOf": "{done} of {total} done",
-    "stepLabel": "Step {n}"
+    "stepLabel": "Step {n}",
+    "howToCancel": "How to Cancel {service}"
   },
   "difficulty": {
     "easy": "Easy to cancel",

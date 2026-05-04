@@ -1,7 +1,9 @@
 {
   "nav": {
     "allGuides": "Alle gidsen",
-    "about": "Over ons"
+    "about": "Over ons",
+    "home": "Home",
+    "guides": "Gidsen"
   },
   "home": {
     "badge": "Gratis opzeggingsgidsen",
@@ -43,7 +45,8 @@
     "allDoneTitle": "Alle stappen voltooid — je bent opgezegd!",
     "allDoneDesc": "Controleer je email voor een bevestiging van de dienst.",
     "progressOf": "{done} van {total} voltooid",
-    "stepLabel": "Stap {n}"
+    "stepLabel": "Stap {n}",
+    "howToCancel": "Hoe {service} opzeggen"
   },
   "difficulty": {
     "easy": "Makkelijk op te zeggen",

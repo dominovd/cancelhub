@@ -1,7 +1,9 @@
 {
   "nav": {
     "allGuides": "Alla guider",
-    "about": "Om oss"
+    "about": "Om oss",
+    "home": "Hem",
+    "guides": "Guider"
   },
   "home": {
     "badge": "Gratis avslutningsguider",
@@ -43,7 +45,8 @@
     "allDoneTitle": "Alla steg klara — du är avslutad!",
     "allDoneDesc": "Kontrollera din e-post för en bekräftelse från tjänsten.",
     "progressOf": "{done} av {total} klara",
-    "stepLabel": "Steg {n}"
+    "stepLabel": "Steg {n}",
+    "howToCancel": "Hur man avslutar {service}"
   },
   "difficulty": {
     "easy": "Lätt att avsluta",

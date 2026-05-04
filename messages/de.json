@@ -1,7 +1,9 @@
 {
   "nav": {
     "allGuides": "Alle Anleitungen",
-    "about": "Über uns"
+    "about": "Über uns",
+    "home": "Startseite",
+    "guides": "Anleitungen"
   },
   "home": {
     "badge": "Kostenlose Kündigungsanleitungen",
@@ -43,7 +45,8 @@
     "allDoneTitle": "Alle Schritte erledigt — Kündigung abgeschlossen!",
     "allDoneDesc": "Überprüfe deine E-Mail auf eine Bestätigung des Dienstes.",
     "progressOf": "{done} von {total} erledigt",
-    "stepLabel": "Schritt {n}"
+    "stepLabel": "Schritt {n}",
+    "howToCancel": "{service} kündigen"
   },
   "difficulty": {
     "easy": "Einfach zu kündigen",

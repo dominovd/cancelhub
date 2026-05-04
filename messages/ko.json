@@ -1,7 +1,9 @@
 {
   "nav": {
     "allGuides": "모든 가이드",
-    "about": "소개"
+    "about": "소개",
+    "home": "홈",
+    "guides": "가이드"
   },
   "home": {
     "badge": "무료 구독 취소 가이드",
@@ -43,7 +45,8 @@
     "allDoneTitle": "모든 단계 완료 — 취소되었습니다!",
     "allDoneDesc": "서비스에서 확인 이메일을 확인하세요.",
     "progressOf": "{total}개 중 {done}개 완료",
-    "stepLabel": "{n}단계"
+    "stepLabel": "{n}단계",
+    "howToCancel": "{service} 취소 방법"
   },
   "difficulty": {
     "easy": "취소 쉬움",

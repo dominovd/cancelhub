@@ -1,7 +1,9 @@
 {
   "nav": {
     "allGuides": "Todos os guias",
-    "about": "Sobre"
+    "about": "Sobre",
+    "home": "Início",
+    "guides": "Guias"
   },
   "home": {
     "badge": "Guias de cancelamento gratuitos",
@@ -43,7 +45,8 @@
     "allDoneTitle": "Todos os passos concluídos — assinatura cancelada!",
     "allDoneDesc": "Verifique seu email para uma confirmação do serviço.",
     "progressOf": "{done} de {total} concluídos",
-    "stepLabel": "Passo {n}"
+    "stepLabel": "Passo {n}",
+    "howToCancel": "Como cancelar {service}"
   },
   "difficulty": {
     "easy": "Fácil de cancelar",

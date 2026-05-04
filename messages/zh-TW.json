@@ -1,7 +1,9 @@
 {
   "nav": {
     "allGuides": "所有指南",
-    "about": "關於我們"
+    "about": "關於我們",
+    "home": "首頁",
+    "guides": "指南"
   },
   "home": {
     "badge": "免費取消訂閱指南",
@@ -43,7 +45,8 @@
     "allDoneTitle": "所有步驟完成 — 訂閱已取消！",
     "allDoneDesc": "請查看您的電子郵件以獲取服務的確認信。",
     "progressOf": "{total} 個步驟中已完成 {done} 個",
-    "stepLabel": "第 {n} 步"
+    "stepLabel": "第 {n} 步",
+    "howToCancel": "如何取消 {service}"
   },
   "difficulty": {
     "easy": "容易取消",

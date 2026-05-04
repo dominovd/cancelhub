@@ -1,12 +1,9 @@
 'use client'
 
+import { useTranslations } from 'next-intl'
+
 export function DarkPatternScore({ score }: { score: number }) {
-  const label =
-    score <= 2 ? 'Straightforward' :
-    score <= 4 ? 'Minor friction' :
-    score <= 6 ? 'Multiple screens' :
-    score <= 8 ? 'Aggressive retention' :
-    'Dark patterns'
+  const t = useTranslations('darkPattern')
 
   const color =
     score <= 2 ? 'text-green-600' :
@@ -31,7 +28,7 @@ export function DarkPatternScore({ score }: { score: number }) {
           />
         ))}
       </div>
-      <span className={`text-xs font-medium ${color}`}>{label}</span>
+      <span className={`text-xs font-medium ${color}`}>{t(score.toString())}</span>
     </div>
   )
 }

@@ -1,7 +1,9 @@
 {
   "nav": {
     "allGuides": "Tüm rehberler",
-    "about": "Hakkında"
+    "about": "Hakkında",
+    "home": "Ana sayfa",
+    "guides": "Rehberler"
   },
   "home": {
     "badge": "Ücretsiz iptal rehberleri",
@@ -43,7 +45,8 @@
     "allDoneTitle": "Tüm adımlar tamamlandı — abonelik iptal edildi!",
     "allDoneDesc": "Hizmetten onay için e-postanı kontrol et.",
     "progressOf": "{total} adımdan {done} tamamlandı",
-    "stepLabel": "Adım {n}"
+    "stepLabel": "Adım {n}",
+    "howToCancel": "{service} nasıl iptal edilir"
   },
   "difficulty": {
     "easy": "İptal etmesi kolay",

@@ -1,7 +1,9 @@
 {
   "nav": {
     "allGuides": "सभी गाइड",
-    "about": "हमारे बारे में"
+    "about": "हमारे बारे में",
+    "home": "होम",
+    "guides": "गाइड"
   },
   "home": {
     "badge": "मुफ़्त सब्सक्रिप्शन रद्द करने के गाइड",
@@ -43,7 +45,8 @@
     "allDoneTitle": "सभी चरण पूरे — सब्सक्रिप्शन रद्द हो गई!",
     "allDoneDesc": "सेवा से पुष्टि के लिए अपना ईमेल जांचें।",
     "progressOf": "{total} में से {done} पूरे",
-    "stepLabel": "चरण {n}"
+    "stepLabel": "चरण {n}",
+    "howToCancel": "{service} कैसे रद्द करें"
   },
   "difficulty": {
     "easy": "रद्द करना आसान",

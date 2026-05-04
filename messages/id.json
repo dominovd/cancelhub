@@ -1,7 +1,9 @@
 {
   "nav": {
     "allGuides": "Semua panduan",
-    "about": "Tentang"
+    "about": "Tentang",
+    "home": "Beranda",
+    "guides": "Panduan"
   },
   "home": {
     "badge": "Panduan pembatalan gratis",
@@ -43,7 +45,8 @@
     "allDoneTitle": "Semua langkah selesai — langganan dibatalkan!",
     "allDoneDesc": "Cek email Anda untuk konfirmasi dari layanan.",
     "progressOf": "{done} dari {total} selesai",
-    "stepLabel": "Langkah {n}"
+    "stepLabel": "Langkah {n}",
+    "howToCancel": "Cara membatalkan {service}"
   },
   "difficulty": {
     "easy": "Mudah dibatalkan",

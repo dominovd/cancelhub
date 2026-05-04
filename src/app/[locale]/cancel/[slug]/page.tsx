@@ -22,16 +22,18 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const guide = guidesBySlug[params.slug]
   if (!guide) return {}
+  const t = await getTranslations({ locale: params.locale, namespace: 'guide' })
   const path = `/cancel/${params.slug}`
+  const title = t('howToCancel', { service: guide.service })
   return {
-    title: `How to Cancel ${guide.service}`,
+    title,
     description: guide.description,
     alternates: {
       canonical: canonicalUrl(path, params.locale),
       languages: hreflangAlternates(path),
     },
     openGraph: {
-      title: `How to Cancel ${guide.service} — CancelHub`,
+      title: `${title} — CancelHub`,
       description: guide.description,
       url: canonicalUrl(path, params.locale),
     },
@@ -48,12 +50,13 @@ export default async function GuidePage({
   if (!guide) notFound()
 
   const t = await getTranslations({ locale: params.locale, namespace: 'guide' })
+  const tNav = await getTranslations({ locale: params.locale, namespace: 'nav' })
 
   const primaryPlatform = guide.platforms.find((p) => p.platform === 'web') ?? guide.platforms[0]
   const howToSchema = {
     '@context': 'https://schema.org',
     '@type': 'HowTo',
-    name: `How to Cancel ${guide.service}`,
+    name: t('howToCancel', { service: guide.service }),
     description: guide.description,
     step: primaryPlatform.steps.map((s) => ({
       '@type': 'HowToStep',
@@ -72,9 +75,9 @@ export default async function GuidePage({
       <div className="max-w-3xl mx-auto px-4 py-10">
         {/* Breadcrumb */}
         <nav className="flex items-center gap-2 text-sm text-gray-400 mb-6">
-          <Link href={`/${params.locale}`} className="hover:text-gray-600 transition-colors">Home</Link>
+          <Link href={`/${params.locale}`} className="hover:text-gray-600 transition-colors">{tNav('home')}</Link>
           <span>/</span>
-          <Link href={`/${params.locale}/cancel`} className="hover:text-gray-600 transition-colors">Guides</Link>
+          <Link href={`/${params.locale}/cancel`} className="hover:text-gray-600 transition-colors">{tNav('guides')}</Link>
           <span>/</span>
           <span className="text-gray-700">{guide.service}</span>
         </nav>
@@ -88,7 +91,7 @@ export default async function GuidePage({
                 {guide.category}
               </p>
               <h1 className="text-2xl font-extrabold text-gray-900 leading-tight">
-                How to Cancel {guide.service}
+                {t('howToCancel', { service: guide.service })}
               </h1>
               <p className="text-gray-500 text-sm mt-1">{guide.description}</p>
             </div>

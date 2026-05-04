@@ -1,7 +1,9 @@
 {
   "nav": {
     "allGuides": "Tutte le guide",
-    "about": "Chi siamo"
+    "about": "Chi siamo",
+    "home": "Home",
+    "guides": "Guide"
   },
   "home": {
     "badge": "Guide di cancellazione gratuite",
@@ -43,7 +45,8 @@
     "allDoneTitle": "Tutti i passaggi completati — abbonamento disdetto!",
     "allDoneDesc": "Controlla la tua email per una conferma dal servizio.",
     "progressOf": "{done} di {total} completati",
-    "stepLabel": "Passo {n}"
+    "stepLabel": "Passo {n}",
+    "howToCancel": "Come disdire {service}"
   },
   "difficulty": {
     "easy": "Facile da disdire",
