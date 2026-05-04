@@ -1,4 +1,4 @@
-import { locales, defaultLocale, type Locale } from './i18n'
+import { locales, defaultLocale } from './i18n'
 
 export const siteUrl = 'https://cancelhub.app'
 
