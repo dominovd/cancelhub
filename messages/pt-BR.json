@@ -76,6 +76,44 @@
     "resultLabel": "Como cancelar {service}"
   },
   "footer": {
-    "tagline": "Guias de cancelamento gratuitos para cada assinatura. Passos verificados por pessoas reais."
+    "tagline": "Guias de cancelamento gratuitos para cada assinatura. Passos verificados por pessoas reais.",
+    "about": "Sobre",
+    "contact": "Contato"
+  },
+  "about": {
+    "metaTitle": "Sobre o CancelHub — Guias gratuitos de cancelamento de assinaturas",
+    "metaDesc": "O CancelHub oferece guias gratuitos passo a passo para cancelar qualquer assinatura. Sem anúncios, sem enrolação.",
+    "backLink": "Início",
+    "title": "Sobre o CancelHub",
+    "intro": "O CancelHub é um recurso gratuito que ajuda você a cancelar assinaturas sem dor de cabeça — sem dark patterns, sem upsells, apenas passos claros.",
+    "missionTitle": "Nossa missão",
+    "missionBody": "Os serviços de assinatura tornam o cancelamento intencionalmente difícil. Documentamos cada truque que usam e fornecemos os passos exatos para sair — em todas as plataformas.",
+    "howTitle": "Como trabalhamos",
+    "howBody": "Cada guia é pesquisado e verificado seguindo o processo real de cancelamento. Verificamos cada guia regularmente e o atualizamos quando os serviços mudam seu processo.",
+    "freeTitle": "Sempre gratuito",
+    "freeBody": "O CancelHub e sempre sera gratuito. Nao aceitamos dinheiro de empresas de assinatura, nao veiculamos anuncios e nao temos acordos de indicacao. Nosso unico objetivo e ajudar voce a cancelar.",
+    "contactTitle": "Entre em contato",
+    "contactBody": "Encontrou um guia desatualizado ou quer sugerir um novo servico? ",
+    "contactLink": "Fale conosco",
+    "contactBodySuffix": " — lemos cada mensagem.",
+    "stat1": "Guias publicados",
+    "stat2": "Idiomas",
+    "stat3": "Anuncios ou rastreamento"
+  },
+  "contact": {
+    "metaTitle": "Contato CancelHub",
+    "metaDesc": "Entre em contato com o CancelHub — reporte passos desatualizados, sugira um novo guia ou so diga oi.",
+    "backLink": "Inicio",
+    "title": "Fale conosco",
+    "subtitle": "Somos uma equipe pequena. Lemos cada mensagem e geralmente respondemos em 24 horas.",
+    "emailTitle": "Consultas gerais",
+    "emailDesc": "Perguntas, feedback ou qualquer outra coisa — mande uma mensagem.",
+    "reportTitle": "Reportar passos incorretos",
+    "reportDesc": "Se um processo de cancelamento mudou e nosso guia esta desatualizado, avise-nos e corrigiremos rapidamente.",
+    "suggestTitle": "Sugerir um novo guia",
+    "suggestDesc": "Falta um servico? Diga-nos para qual assinatura voce gostaria de um guia.",
+    "responseNote": "Geralmente respondemos em 1 dia util.",
+    "aboutLink": "Sobre",
+    "guidesLink": "Todos os guias"
   }
 }

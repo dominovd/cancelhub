@@ -76,6 +76,44 @@
     "resultLabel": "Cómo cancelar {service}"
   },
   "footer": {
-    "tagline": "Guías de cancelación gratuitas para cada suscripción. Pasos verificados por personas reales."
+    "tagline": "Guías de cancelación gratuitas para cada suscripción. Pasos verificados por personas reales.",
+    "about": "Acerca de",
+    "contact": "Contacto"
+  },
+  "about": {
+    "metaTitle": "Acerca de CancelHub — Guías gratuitas para cancelar suscripciones",
+    "metaDesc": "CancelHub ofrece guías gratuitas paso a paso para cancelar cualquier suscripción. Sin anuncios, sin relleno.",
+    "backLink": "Inicio",
+    "title": "Acerca de CancelHub",
+    "intro": "CancelHub es un recurso gratuito que te ayuda a cancelar suscripciones sin complicaciones — sin patrones oscuros, sin ventas adicionales, solo pasos claros.",
+    "missionTitle": "Nuestra misión",
+    "missionBody": "Los servicios de suscripción hacen que la cancelación sea intencionalmente difícil. Documentamos cada truco que usan y te damos los pasos exactos para salir — en cada plataforma.",
+    "howTitle": "Cómo trabajamos",
+    "howBody": "Cada guía es investigada y verificada siguiendo el proceso real de cancelación. Revisamos cada guía regularmente y la actualizamos cuando los servicios cambian su proceso.",
+    "freeTitle": "Siempre gratuito",
+    "freeBody": "CancelHub es y siempre será gratuito. No aceptamos dinero de empresas de suscripción, no publicamos anuncios y no tenemos acuerdos de referidos. Nuestro único objetivo es ayudarte a cancelar.",
+    "contactTitle": "Ponte en contacto",
+    "contactBody": "¿Encontraste una guía desactualizada o quieres sugerir un nuevo servicio? ",
+    "contactLink": "Contáctanos",
+    "contactBodySuffix": " — leemos cada mensaje.",
+    "stat1": "Guías publicadas",
+    "stat2": "Idiomas",
+    "stat3": "Anuncios o rastreo"
+  },
+  "contact": {
+    "metaTitle": "Contacto CancelHub",
+    "metaDesc": "Ponte en contacto con CancelHub — reporta pasos desactualizados, sugiere una nueva guía o simplemente saluda.",
+    "backLink": "Inicio",
+    "title": "Contáctanos",
+    "subtitle": "Somos un equipo pequeño. Leemos cada mensaje y generalmente respondemos en 24 horas.",
+    "emailTitle": "Consultas generales",
+    "emailDesc": "Preguntas, comentarios o cualquier otra cosa — escríbenos.",
+    "reportTitle": "Reportar pasos incorrectos",
+    "reportDesc": "Si un proceso de cancelación ha cambiado y nuestra guía está desactualizada, avísanos y lo corregiremos rápido.",
+    "suggestTitle": "Sugerir una nueva guía",
+    "suggestDesc": "¿Falta un servicio? Dinos para qué suscripción te gustaría una guía.",
+    "responseNote": "Normalmente respondemos en 1 día hábil.",
+    "aboutLink": "Acerca de",
+    "guidesLink": "Todas las guías"
   }
 }

@@ -76,6 +76,44 @@
     "resultLabel": "So kündigt man {service}"
   },
   "footer": {
-    "tagline": "Kostenlose Kündigungsanleitungen für jedes Abo. Schritte von echten Menschen verifiziert."
+    "tagline": "Kostenlose Kündigungsanleitungen für jedes Abo. Schritte von echten Menschen verifiziert.",
+    "about": "Über uns",
+    "contact": "Kontakt"
+  },
+  "about": {
+    "metaTitle": "Über CancelHub — Kostenlose Abo-Kündigungsanleitungen",
+    "metaDesc": "CancelHub bietet kostenlose Schritt-für-Schritt-Anleitungen zur Kündigung jedes Abonnements. Keine Werbung, kein Schnickschnack.",
+    "backLink": "Startseite",
+    "title": "Über CancelHub",
+    "intro": "CancelHub ist eine kostenlose Ressource, die dir hilft, Abonnements ohne Kopfschmerzen zu kündigen — keine Dark Patterns, keine Upsells, nur klare Schritte.",
+    "missionTitle": "Unsere Mission",
+    "missionBody": "Abodienste machen die Kündigung absichtlich schwierig. Wir dokumentieren jeden Trick, den sie anwenden, und geben dir die genauen Schritte zum Ausstieg — auf jeder Plattform.",
+    "howTitle": "Wie wir arbeiten",
+    "howBody": "Jede Anleitung wird durch den tatsächlichen Kündigungsprozess recherchiert und verifiziert. Wir prüfen jede Anleitung regelmäßig und aktualisieren sie, wenn Dienste ihr Verfahren ändern.",
+    "freeTitle": "Immer kostenlos",
+    "freeBody": "CancelHub ist und bleibt immer kostenlos. Wir nehmen kein Geld von Abounternehmen, schalten keine Werbung und haben keine Empfehlungsvereinbarungen. Unser einziges Ziel ist es, dir bei der Kündigung zu helfen.",
+    "contactTitle": "Kontakt aufnehmen",
+    "contactBody": "Eine veraltete Anleitung gefunden oder möchtest einen neuen Dienst vorschlagen? ",
+    "contactLink": "Kontaktiere uns",
+    "contactBodySuffix": " — wir lesen jede Nachricht.",
+    "stat1": "Veröffentlichte Anleitungen",
+    "stat2": "Sprachen",
+    "stat3": "Werbung oder Tracking"
+  },
+  "contact": {
+    "metaTitle": "Kontakt CancelHub",
+    "metaDesc": "Nimm Kontakt mit CancelHub auf — melde veraltete Schritte, schlage eine neue Anleitung vor oder sag einfach Hallo.",
+    "backLink": "Startseite",
+    "title": "Kontaktiere uns",
+    "subtitle": "Wir sind ein kleines Team. Wir lesen jede Nachricht und antworten meistens innerhalb von 24 Stunden.",
+    "emailTitle": "Allgemeine Anfragen",
+    "emailDesc": "Fragen, Feedback oder alles andere — schreib uns einfach.",
+    "reportTitle": "Fehlerhafte Schritte melden",
+    "reportDesc": "Wenn sich ein Kündigungsprozess geändert hat und unsere Anleitung veraltet ist, lass es uns wissen und wir korrigieren es schnell.",
+    "suggestTitle": "Eine neue Anleitung vorschlagen",
+    "suggestDesc": "Fehlt ein Dienst? Sag uns, für welches Abonnement du eine Anleitung möchtest.",
+    "responseNote": "Wir antworten in der Regel innerhalb von 1 Werktag.",
+    "aboutLink": "Über uns",
+    "guidesLink": "Alle Anleitungen"
   }
 }

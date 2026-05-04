@@ -76,6 +76,44 @@
     "resultLabel": "Hoe {service} op te zeggen"
   },
   "footer": {
-    "tagline": "Gratis opzeggingsgidsen voor elk abonnement. Stappen geverifieerd door echte mensen."
+    "tagline": "Gratis opzeggingsgidsen voor elk abonnement. Stappen geverifieerd door echte mensen.",
+    "about": "Over ons",
+    "contact": "Contact"
+  },
+  "about": {
+    "metaTitle": "Over CancelHub — Gratis gidsen voor het opzeggen van abonnementen",
+    "metaDesc": "CancelHub biedt gratis stapsgewijze gidsen om elk abonnement op te zeggen. Geen advertenties, geen onzin.",
+    "backLink": "Home",
+    "title": "Over CancelHub",
+    "intro": "CancelHub is een gratis hulpmiddel dat je helpt abonnementen op te zeggen zonder gedoe — geen dark patterns, geen upsells, gewoon duidelijke stappen.",
+    "missionTitle": "Onze missie",
+    "missionBody": "Abonnementsdiensten maken opzegging bewust moeilijk. Wij documenteren elke truc die ze gebruiken en geven je de exacte stappen om eruit te komen — op elk platform.",
+    "howTitle": "Hoe wij werken",
+    "howBody": "Elke gids wordt onderzocht en geverifieerd door het daadwerkelijke opzeggingsproces te doorlopen. We controleren elke gids regelmatig en werken hem bij wanneer diensten hun proces wijzigen.",
+    "freeTitle": "Altijd gratis",
+    "freeBody": "CancelHub is en zal altijd gratis zijn. We nemen geen geld aan van abonnementsbedrijven, plaatsen geen advertenties en hebben geen verwijzingsdeals. Ons enige doel is je te helpen opzeggen.",
+    "contactTitle": "Neem contact op",
+    "contactBody": "Een verouderde gids gevonden of wil je een nieuwe dienst voorstellen? ",
+    "contactLink": "Neem contact met ons op",
+    "contactBodySuffix": " — we lezen elk bericht.",
+    "stat1": "Gepubliceerde gidsen",
+    "stat2": "Talen",
+    "stat3": "Advertenties of tracking"
+  },
+  "contact": {
+    "metaTitle": "Contact CancelHub",
+    "metaDesc": "Neem contact op met CancelHub — rapporteer verouderde stappen, stel een nieuwe gids voor of zeg gewoon hallo.",
+    "backLink": "Home",
+    "title": "Neem contact met ons op",
+    "subtitle": "We zijn een klein team. We lezen elk bericht en reageren meestal binnen 24 uur.",
+    "emailTitle": "Algemene vragen",
+    "emailDesc": "Vragen, feedback of iets anders — stuur ons een bericht.",
+    "reportTitle": "Onjuiste stappen melden",
+    "reportDesc": "Als een opzeggingsproces is veranderd en onze gids verouderd is, laat het ons weten en we lossen het snel op.",
+    "suggestTitle": "Een nieuwe gids voorstellen",
+    "suggestDesc": "Een dienst die er niet bij staat? Vertel ons voor welk abonnement je een gids wilt.",
+    "responseNote": "We reageren doorgaans binnen 1 werkdag.",
+    "aboutLink": "Over ons",
+    "guidesLink": "Alle gidsen"
   }
 }

@@ -76,6 +76,44 @@
     "resultLabel": "Comment annuler {service}"
   },
   "footer": {
-    "tagline": "Guides d'annulation gratuits pour chaque abonnement. Étapes vérifiées par de vraies personnes."
+    "tagline": "Guides d'annulation gratuits pour chaque abonnement. Étapes vérifiées par de vraies personnes.",
+    "about": "À propos",
+    "contact": "Contact"
+  },
+  "about": {
+    "metaTitle": "À propos de CancelHub — Guides gratuits d'annulation d'abonnements",
+    "metaDesc": "CancelHub fournit des guides gratuits étape par étape pour annuler n'importe quel abonnement. Sans publicités, sans superflu.",
+    "backLink": "Accueil",
+    "title": "À propos de CancelHub",
+    "intro": "CancelHub est une ressource gratuite qui vous aide à annuler vos abonnements sans tracas — pas de dark patterns, pas de ventes additionnelles, juste des étapes claires.",
+    "missionTitle": "Notre mission",
+    "missionBody": "Les services d'abonnement rendent la résiliation intentionnellement difficile. Nous documentons chaque astuce qu'ils utilisent et vous donnons les étapes exactes pour en sortir — sur chaque plateforme.",
+    "howTitle": "Comment nous travaillons",
+    "howBody": "Chaque guide est recherché et vérifié en suivant le processus de résiliation réel. Nous vérifions chaque guide régulièrement et le mettons à jour quand les services modifient leur procédure.",
+    "freeTitle": "Toujours gratuit",
+    "freeBody": "CancelHub est et sera toujours gratuit. Nous ne prenons pas d'argent des entreprises d'abonnement, ne diffusons pas de publicités et n'avons pas d'accords de parrainage. Notre seul objectif est de vous aider à résilier.",
+    "contactTitle": "Nous contacter",
+    "contactBody": "Vous avez trouvé un guide obsolète ou souhaitez suggérer un nouveau service ? ",
+    "contactLink": "Contactez-nous",
+    "contactBodySuffix": " — nous lisons chaque message.",
+    "stat1": "Guides publiés",
+    "stat2": "Langues",
+    "stat3": "Publicités ou suivi"
+  },
+  "contact": {
+    "metaTitle": "Contact CancelHub",
+    "metaDesc": "Contactez CancelHub — signalez des étapes obsolètes, suggérez un nouveau guide ou dites simplement bonjour.",
+    "backLink": "Accueil",
+    "title": "Nous contacter",
+    "subtitle": "Nous sommes une petite équipe. Nous lisons chaque message et répondons généralement dans les 24 heures.",
+    "emailTitle": "Demandes générales",
+    "emailDesc": "Questions, commentaires ou autre chose — envoyez-nous un message.",
+    "reportTitle": "Signaler des étapes incorrectes",
+    "reportDesc": "Si un processus d'annulation a changé et que notre guide est obsolète, faites-le nous savoir et nous le corrigerons rapidement.",
+    "suggestTitle": "Suggérer un nouveau guide",
+    "suggestDesc": "Un service manquant ? Dites-nous pour quel abonnement vous souhaiteriez un guide.",
+    "responseNote": "Nous répondons généralement dans 1 jour ouvrable.",
+    "aboutLink": "À propos",
+    "guidesLink": "Tous les guides"
   }
 }

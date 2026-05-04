@@ -76,6 +76,44 @@
     "resultLabel": "Come disdire {service}"
   },
   "footer": {
-    "tagline": "Guide di cancellazione gratuite per ogni abbonamento. Passaggi verificati da persone reali."
+    "tagline": "Guide di cancellazione gratuite per ogni abbonamento. Passaggi verificati da persone reali.",
+    "about": "Chi siamo",
+    "contact": "Contatti"
+  },
+  "about": {
+    "metaTitle": "Chi siamo — CancelHub — Guide gratuite per cancellare abbonamenti",
+    "metaDesc": "CancelHub offre guide gratuite passo dopo passo per cancellare qualsiasi abbonamento. Niente pubblicità, niente fronzoli.",
+    "backLink": "Home",
+    "title": "Chi siamo — CancelHub",
+    "intro": "CancelHub è una risorsa gratuita che ti aiuta a cancellare abbonamenti senza stress — niente dark pattern, niente upsell, solo passaggi chiari.",
+    "missionTitle": "La nostra missione",
+    "missionBody": "I servizi in abbonamento rendono la cancellazione intenzionalmente difficile. Documentiamo ogni trucco che usano e ti forniamo i passaggi esatti per uscirne — su ogni piattaforma.",
+    "howTitle": "Come lavoriamo",
+    "howBody": "Ogni guida viene ricercata e verificata seguendo il processo reale di cancellazione. Controlliamo ogni guida regolarmente e la aggiorniamo quando i servizi cambiano la loro procedura.",
+    "freeTitle": "Sempre gratuito",
+    "freeBody": "CancelHub è e sarà sempre gratuito. Non accettiamo denaro da aziende di abbonamento, non pubblichiamo annunci e non abbiamo accordi di referral. Il nostro unico obiettivo è aiutarti a cancellare.",
+    "contactTitle": "Contattaci",
+    "contactBody": "Hai trovato una guida non aggiornata o vuoi suggerire un nuovo servizio? ",
+    "contactLink": "Contattaci",
+    "contactBodySuffix": " — leggiamo ogni messaggio.",
+    "stat1": "Guide pubblicate",
+    "stat2": "Lingue",
+    "stat3": "Pubblicità o tracciamento"
+  },
+  "contact": {
+    "metaTitle": "Contatti CancelHub",
+    "metaDesc": "Contatta CancelHub — segnala passaggi non aggiornati, suggerisci una nuova guida o salutaci.",
+    "backLink": "Home",
+    "title": "Contattaci",
+    "subtitle": "Siamo un piccolo team. Leggiamo ogni messaggio e di solito rispondiamo entro 24 ore.",
+    "emailTitle": "Richieste generali",
+    "emailDesc": "Domande, feedback o altro — scrivici.",
+    "reportTitle": "Segnala passaggi errati",
+    "reportDesc": "Se un processo di cancellazione è cambiato e la nostra guida non è aggiornata, faccelo sapere e lo correggeremo rapidamente.",
+    "suggestTitle": "Suggerisci una nuova guida",
+    "suggestDesc": "Manca un servizio? Dicci per quale abbonamento vorresti una guida.",
+    "responseNote": "Di solito rispondiamo entro 1 giorno lavorativo.",
+    "aboutLink": "Chi siamo",
+    "guidesLink": "Tutte le guide"
   }
 }

@@ -76,6 +76,44 @@
     "resultLabel": "如何取消 {service}"
   },
   "footer": {
-    "tagline": "每項訂閱的免費取消指南。步驟由真實用戶驗證。"
+    "tagline": "每項訂閱的免費取消指南。步驟由真實用戶驗證。",
+    "about": "關於我們",
+    "contact": "聯絡我們"
+  },
+  "about": {
+    "metaTitle": "關於 CancelHub — 免費訂閱取消指南",
+    "metaDesc": "CancelHub 提供免費的逐步指南，協助您取消任何訂閱。無廣告、無廢話。",
+    "backLink": "首頁",
+    "title": "關於 CancelHub",
+    "intro": "CancelHub 是一個免費資源，幫助您輕鬆取消訂閱 — 無暗黑模式、無追加銷售，只有清晰的步驟。",
+    "missionTitle": "我們的使命",
+    "missionBody": "訂閱服務故意讓取消變得困難。我們記錄他們使用的每個技巧，並為您提供在每個平台上退出的確切步驟。",
+    "howTitle": "我們的工作方式",
+    "howBody": "每份指南都經過實際取消流程的研究和驗證。我們定期檢查每份指南，並在服務更改流程時進行更新。",
+    "freeTitle": "永遠免費",
+    "freeBody": "CancelHub 現在是且將永遠是免費的。我們不接受訂閱公司的資金、不投放廣告，也沒有推薦合作協議。我們唯一的目標是幫助您取消訂閱。",
+    "contactTitle": "聯絡我們",
+    "contactBody": "發現過時的指南，或想建議新服務？ ",
+    "contactLink": "聯絡我們",
+    "contactBodySuffix": " — 我們閱讀每一則訊息。",
+    "stat1": "已發布指南",
+    "stat2": "語言",
+    "stat3": "廣告或追蹤"
+  },
+  "contact": {
+    "metaTitle": "聯絡 CancelHub",
+    "metaDesc": "聯絡 CancelHub — 回報過時的步驟、建議新指南，或只是打個招呼。",
+    "backLink": "首頁",
+    "title": "聯絡我們",
+    "subtitle": "我們是一個小團隊。我們閱讀每一則訊息，通常在 24 小時內回覆。",
+    "emailTitle": "一般詢問",
+    "emailDesc": "問題、意見或其他任何事 — 寄信給我們。",
+    "reportTitle": "回報不正確的步驟",
+    "reportDesc": "如果取消流程已更改而我們的指南過時，請告知我們，我們將迅速修正。",
+    "suggestTitle": "建議新指南",
+    "suggestDesc": "缺少某個服務？告訴我們您希望哪個訂閱有指南。",
+    "responseNote": "我們通常在 1 個工作天內回覆。",
+    "aboutLink": "關於我們",
+    "guidesLink": "所有指南"
   }
 }

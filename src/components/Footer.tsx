@@ -9,7 +9,7 @@ interface FooterProps {
 export async function Footer({ locale = defaultLocale }: FooterProps) {
   const t = await getTranslations({ locale, namespace: 'footer' })
   const tNav = await getTranslations({ locale, namespace: 'nav' })
-  const guidesHref = locale === defaultLocale ? '/cancel' : `/${locale}/cancel`
+  const prefix = locale === defaultLocale ? '' : `/${locale}`
 
   return (
     <footer className="border-t border-gray-100 mt-20 py-10 text-sm text-gray-500">
@@ -18,9 +18,17 @@ export async function Footer({ locale = defaultLocale }: FooterProps) {
           <span>✂️</span> CancelHub
         </div>
         <p className="text-center">{t('tagline')}</p>
-        <div className="flex gap-4">
-          <Link href={guidesHref} className="hover:text-gray-900 transition-colors">
+        <div className="flex items-center gap-3 flex-wrap justify-center">
+          <Link href={`${prefix}/cancel`} className="hover:text-gray-900 transition-colors">
             {tNav('allGuides')}
+          </Link>
+          <span className="text-gray-300">·</span>
+          <Link href={`${prefix}/about`} className="hover:text-gray-900 transition-colors">
+            {t('about')}
+          </Link>
+          <span className="text-gray-300">·</span>
+          <Link href={`${prefix}/contact`} className="hover:text-gray-900 transition-colors">
+            {t('contact')}
           </Link>
           <span className="text-gray-300">·</span>
           <span>© {new Date().getFullYear()}</span>

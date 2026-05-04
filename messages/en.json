@@ -76,6 +76,44 @@
     "resultLabel": "How to cancel {service}"
   },
   "footer": {
-    "tagline": "Free cancellation guides for every subscription. Steps verified by real humans."
+    "tagline": "Free cancellation guides for every subscription. Steps verified by real humans.",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "about": {
+    "metaTitle": "About CancelHub — Free Subscription Cancellation Guides",
+    "metaDesc": "CancelHub provides free, step-by-step guides to cancel any subscription. No ads, no fluff.",
+    "backLink": "Home",
+    "title": "About CancelHub",
+    "intro": "CancelHub is a free resource that helps you cancel subscriptions without the headaches — no dark patterns, no upsells, just clear steps.",
+    "missionTitle": "Our mission",
+    "missionBody": "Subscription services make cancellation intentionally difficult. We document every trick they use and give you the exact steps to get out — on every platform.",
+    "howTitle": "How we work",
+    "howBody": "Every guide is researched and verified by going through the actual cancellation flow. We check each guide regularly and update it when services change their process.",
+    "freeTitle": "Always free",
+    "freeBody": "CancelHub is and will always be free. We don't take money from subscription companies, don't run ads, and don't have referral deals. Our only goal is to help you cancel.",
+    "contactTitle": "Get in touch",
+    "contactBody": "Found a guide that's out of date, or want to suggest a new service? ",
+    "contactLink": "Contact us",
+    "contactBodySuffix": " — we read every message.",
+    "stat1": "Guides published",
+    "stat2": "Languages",
+    "stat3": "Ads or tracking"
+  },
+  "contact": {
+    "metaTitle": "Contact CancelHub",
+    "metaDesc": "Get in touch with CancelHub — report outdated steps, suggest a new guide, or just say hello.",
+    "backLink": "Home",
+    "title": "Contact us",
+    "subtitle": "We're a small team. We read every message and usually reply within 24 hours.",
+    "emailTitle": "General enquiries",
+    "emailDesc": "Questions, feedback, or anything else — drop us a line.",
+    "reportTitle": "Report incorrect steps",
+    "reportDesc": "If a cancellation flow has changed and our guide is out of date, let us know and we'll fix it fast.",
+    "suggestTitle": "Suggest a new guide",
+    "suggestDesc": "Missing a service? Tell us which subscription you'd like a guide for.",
+    "responseNote": "We typically respond within 1 business day.",
+    "aboutLink": "About",
+    "guidesLink": "All guides"
   }
 }

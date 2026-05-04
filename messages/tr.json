@@ -76,6 +76,44 @@
     "resultLabel": "{service} nasıl iptal edilir"
   },
   "footer": {
-    "tagline": "Her abonelik için ücretsiz iptal rehberleri. Adımlar gerçek insanlar tarafından doğrulandı."
+    "tagline": "Her abonelik için ücretsiz iptal rehberleri. Adımlar gerçek insanlar tarafından doğrulandı.",
+    "about": "Hakkinda",
+    "contact": "Iletisim"
+  },
+  "about": {
+    "metaTitle": "CancelHub Hakkinda - Ucretsiz Abonelik Iptal Kilavuzlari",
+    "metaDesc": "CancelHub, herhangi bir aboneligi iptal etmek icin ucretsiz, adim adim kilavuzlar saglar. Reklam yok, gereksiz icerik yok.",
+    "backLink": "Ana Sayfa",
+    "title": "CancelHub Hakkinda",
+    "intro": "CancelHub, abonelikleri bas agrisiz iptal etmenize yardimci olan ucretsiz bir kaynaktir - kara desenler yok, ek satislar yok, sadece net adimlar.",
+    "missionTitle": "Misyonumuz",
+    "missionBody": "Abonelik hizmetleri iptali kasitli olarak zorlastirir. Kullandiklari her hileci belgeliyor ve her platformda cikis icin tam adimlari size veriyoruz.",
+    "howTitle": "Nasil calisiyoruz",
+    "howBody": "Her kilavuz, gercek iptal akisinin uzerinden gecilerek arastirilir ve dogrulanir. Her kilavuzu duzenli olarak kontrol ediyor ve hizmetler sureclerini degistirdiginde guncelliyoruz.",
+    "freeTitle": "Her zaman ucretsiz",
+    "freeBody": "CancelHub her zaman ucretsiz olacaktir. Abonelik sirketlerinden para almiyoruz, reklam yayinlamiyoruz ve referans anlasmalari yapmiyoruz. Tek amacimiz iptal etmenize yardimci olmaktir.",
+    "contactTitle": "Iletisime gecin",
+    "contactBody": "Guncel olmayan bir kilavuz mu buldunuz ya da yeni bir hizmet onermek ister misiniz? ",
+    "contactLink": "Bize ulasin",
+    "contactBodySuffix": " - her mesaji okuyoruz.",
+    "stat1": "Yayinlanan kilavuzlar",
+    "stat2": "Diller",
+    "stat3": "Reklam veya izleme"
+  },
+  "contact": {
+    "metaTitle": "CancelHub Iletisim",
+    "metaDesc": "CancelHub ile iletisime gecin - guncel olmayan adimlari bildirin, yeni bir kilavuz onerin veya sadece merhaba deyin.",
+    "backLink": "Ana Sayfa",
+    "title": "Bize ulasin",
+    "subtitle": "Kucuk bir ekibiz. Her mesaji okuyoruz ve genellikle 24 saat icinde yanit veriyoruz.",
+    "emailTitle": "Genel sorular",
+    "emailDesc": "Sorular, geri bildirim veya baska bir sey - bize yazin.",
+    "reportTitle": "Yanlis adimlari bildirin",
+    "reportDesc": "Bir iptal akisi degistiyse ve kilavuzumuz guncel degilse, bize bildirin ve hizlica duzeltelim.",
+    "suggestTitle": "Yeni bir kilavuz onerin",
+    "suggestDesc": "Bir hizmet eksik mi? Hangi abonelik icin kilavuz istedigini bize soyleyin.",
+    "responseNote": "Genellikle 1 is gunu icinde yanit veririz.",
+    "aboutLink": "Hakkinda",
+    "guidesLink": "Tum kilavuzlar"
   }
 }

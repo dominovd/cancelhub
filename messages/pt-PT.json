@@ -76,6 +76,44 @@
     "resultLabel": "Como cancelar {service}"
   },
   "footer": {
-    "tagline": "Guias de cancelamento gratuitos para cada subscrição. Passos verificados por pessoas reais."
+    "tagline": "Guias de cancelamento gratuitos para cada subscrição. Passos verificados por pessoas reais.",
+    "about": "Sobre",
+    "contact": "Contacto"
+  },
+  "about": {
+    "metaTitle": "Sobre o CancelHub — Guias gratuitos de cancelamento de subscrições",
+    "metaDesc": "O CancelHub fornece guias gratuitos passo a passo para cancelar qualquer subscrição. Sem anúncios, sem complicações.",
+    "backLink": "Início",
+    "title": "Sobre o CancelHub",
+    "intro": "O CancelHub é um recurso gratuito que o ajuda a cancelar subscrições sem dores de cabeça — sem padrões obscuros, sem vendas adicionais, apenas passos claros.",
+    "missionTitle": "A nossa missão",
+    "missionBody": "Os serviços de subscrição tornam o cancelamento intencionalmente difícil. Documentamos cada truque que utilizam e fornecemos-lhe os passos exatos para sair — em todas as plataformas.",
+    "howTitle": "Como trabalhamos",
+    "howBody": "Cada guia é investigado e verificado através do processo real de cancelamento. Verificamos cada guia regularmente e atualizamo-lo quando os serviços alteram o seu processo.",
+    "freeTitle": "Sempre gratuito",
+    "freeBody": "O CancelHub é e será sempre gratuito. Não aceitamos dinheiro de empresas de subscrição, não publicamos anúncios e não temos acordos de referência. O nosso único objetivo é ajudá-lo a cancelar.",
+    "contactTitle": "Entre em contacto",
+    "contactBody": "Encontrou um guia desatualizado ou quer sugerir um novo serviço? ",
+    "contactLink": "Contacte-nos",
+    "contactBodySuffix": " — lemos todas as mensagens.",
+    "stat1": "Guias publicados",
+    "stat2": "Idiomas",
+    "stat3": "Anúncios ou rastreio"
+  },
+  "contact": {
+    "metaTitle": "Contacto CancelHub",
+    "metaDesc": "Entre em contacto com o CancelHub — reporte passos desatualizados, sugira um novo guia ou diga olá.",
+    "backLink": "Início",
+    "title": "Contacte-nos",
+    "subtitle": "Somos uma equipa pequena. Lemos todas as mensagens e respondemos geralmente dentro de 24 horas.",
+    "emailTitle": "Consultas gerais",
+    "emailDesc": "Perguntas, feedback ou qualquer outra coisa — envie-nos uma mensagem.",
+    "reportTitle": "Reportar passos incorretos",
+    "reportDesc": "Se um processo de cancelamento mudou e o nosso guia está desatualizado, informe-nos e corrigiremos rapidamente.",
+    "suggestTitle": "Sugerir um novo guia",
+    "suggestDesc": "Falta um serviço? Diga-nos para que subscrição gostaria de um guia.",
+    "responseNote": "Respondemos normalmente dentro de 1 dia útil.",
+    "aboutLink": "Sobre",
+    "guidesLink": "Todos os guias"
   }
 }

@@ -76,6 +76,44 @@
     "resultLabel": "Hur man avslutar {service}"
   },
   "footer": {
-    "tagline": "Gratis avslutningsguider för varje prenumeration. Steg verifierade av riktiga människor."
+    "tagline": "Gratis avslutningsguider för varje prenumeration. Steg verifierade av riktiga människor.",
+    "about": "Om oss",
+    "contact": "Kontakt"
+  },
+  "about": {
+    "metaTitle": "Om CancelHub — Gratis guider för att avsluta prenumerationer",
+    "metaDesc": "CancelHub erbjuder gratis steg-för-steg-guider för att avsluta vilken prenumeration som helst. Inga annonser, inget fluff.",
+    "backLink": "Hem",
+    "title": "Om CancelHub",
+    "intro": "CancelHub är en gratis resurs som hjälper dig att avsluta prenumerationer utan krångel — inga mörka mönster, inga merförsäljningar, bara tydliga steg.",
+    "missionTitle": "Vår mission",
+    "missionBody": "Prenumerationstjänster gör uppsägning avsiktligt svårt. Vi dokumenterar varje trick de använder och ger dig de exakta stegen för att ta dig ur — på varje plattform.",
+    "howTitle": "Hur vi arbetar",
+    "howBody": "Varje guide undersöks och verifieras genom att gå igenom det faktiska uppsägningsflödet. Vi kontrollerar varje guide regelbundet och uppdaterar den när tjänster ändrar sin process.",
+    "freeTitle": "Alltid gratis",
+    "freeBody": "CancelHub är och kommer alltid att vara gratis. Vi tar inte emot pengar från prenumerationsföretag, visar inga annonser och har inga hänvisningsavtal. Vårt enda mål är att hjälpa dig att säga upp.",
+    "contactTitle": "Kontakta oss",
+    "contactBody": "Hittade en föråldrad guide eller vill föreslå en ny tjänst? ",
+    "contactLink": "Kontakta oss",
+    "contactBodySuffix": " — vi läser varje meddelande.",
+    "stat1": "Publicerade guider",
+    "stat2": "Språk",
+    "stat3": "Annonser eller spårning"
+  },
+  "contact": {
+    "metaTitle": "Kontakt CancelHub",
+    "metaDesc": "Kontakta CancelHub — rapportera föråldrade steg, föreslå en ny guide eller säg bara hej.",
+    "backLink": "Hem",
+    "title": "Kontakta oss",
+    "subtitle": "Vi är ett litet team. Vi läser varje meddelande och svarar vanligtvis inom 24 timmar.",
+    "emailTitle": "Allmänna förfrågningar",
+    "emailDesc": "Frågor, feedback eller annat — hör av dig.",
+    "reportTitle": "Rapportera felaktiga steg",
+    "reportDesc": "Om ett uppsägningsflöde har förändrats och vår guide är föråldrad, låt oss veta så fixar vi det snabbt.",
+    "suggestTitle": "Föreslå en ny guide",
+    "suggestDesc": "Saknar en tjänst? Berätta vilken prenumeration du vill ha en guide för.",
+    "responseNote": "Vi svarar vanligtvis inom 1 arbetsdag.",
+    "aboutLink": "Om oss",
+    "guidesLink": "Alla guider"
   }
 }

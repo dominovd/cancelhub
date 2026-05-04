@@ -76,6 +76,44 @@
     "resultLabel": "Cara membatalkan {service}"
   },
   "footer": {
-    "tagline": "Panduan pembatalan gratis untuk setiap langganan. Langkah diverifikasi oleh manusia nyata."
+    "tagline": "Panduan pembatalan gratis untuk setiap langganan. Langkah diverifikasi oleh manusia nyata.",
+    "about": "Tentang",
+    "contact": "Hubungi"
+  },
+  "about": {
+    "metaTitle": "Tentang CancelHub — Panduan Gratis Pembatalan Langganan",
+    "metaDesc": "CancelHub menyediakan panduan gratis langkah demi langkah untuk membatalkan langganan apa pun. Tanpa iklan, tanpa basa-basi.",
+    "backLink": "Beranda",
+    "title": "Tentang CancelHub",
+    "intro": "CancelHub adalah sumber daya gratis yang membantu Anda membatalkan langganan tanpa kerumitan — tanpa pola gelap, tanpa upsell, hanya langkah-langkah yang jelas.",
+    "missionTitle": "Misi kami",
+    "missionBody": "Layanan berlangganan sengaja membuat pembatalan menjadi sulit. Kami mendokumentasikan setiap trik yang mereka gunakan dan memberi Anda langkah-langkah tepat untuk keluar — di setiap platform.",
+    "howTitle": "Cara kami bekerja",
+    "howBody": "Setiap panduan diteliti dan diverifikasi dengan melewati alur pembatalan yang sebenarnya. Kami memeriksa setiap panduan secara rutin dan memperbaruinya ketika layanan mengubah prosesnya.",
+    "freeTitle": "Selalu gratis",
+    "freeBody": "CancelHub adalah dan akan selalu gratis. Kami tidak menerima uang dari perusahaan berlangganan, tidak menampilkan iklan, dan tidak memiliki kesepakatan referral. Satu-satunya tujuan kami adalah membantu Anda membatalkan.",
+    "contactTitle": "Hubungi kami",
+    "contactBody": "Menemukan panduan yang sudah ketinggalan zaman, atau ingin menyarankan layanan baru? ",
+    "contactLink": "Hubungi kami",
+    "contactBodySuffix": " — kami membaca setiap pesan.",
+    "stat1": "Panduan diterbitkan",
+    "stat2": "Bahasa",
+    "stat3": "Iklan atau pelacakan"
+  },
+  "contact": {
+    "metaTitle": "Hubungi CancelHub",
+    "metaDesc": "Hubungi CancelHub — laporkan langkah yang sudah usang, sarankan panduan baru, atau sekadar menyapa.",
+    "backLink": "Beranda",
+    "title": "Hubungi kami",
+    "subtitle": "Kami adalah tim kecil. Kami membaca setiap pesan dan biasanya membalas dalam 24 jam.",
+    "emailTitle": "Pertanyaan umum",
+    "emailDesc": "Pertanyaan, masukan, atau apa pun — kirim pesan kepada kami.",
+    "reportTitle": "Laporkan langkah yang salah",
+    "reportDesc": "Jika alur pembatalan telah berubah dan panduan kami sudah usang, beri tahu kami dan kami akan memperbaikinya dengan cepat.",
+    "suggestTitle": "Sarankan panduan baru",
+    "suggestDesc": "Ada layanan yang belum ada? Beritahu kami langganan mana yang ingin Anda panduan.",
+    "responseNote": "Kami biasanya merespons dalam 1 hari kerja.",
+    "aboutLink": "Tentang",
+    "guidesLink": "Semua panduan"
   }
 }
