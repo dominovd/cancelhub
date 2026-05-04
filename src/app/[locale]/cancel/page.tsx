@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
-import { getTranslations } from 'next-intl/server'
+import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { allGuides } from '@/data/guides'
 import { DifficultyBadge } from '@/components/DifficultyBadge'
 import { DarkPatternScore } from '@/components/DarkPatternScore'
@@ -19,6 +19,7 @@ export default async function CancelIndexPage({
 }: {
   params: { locale: string }
 }) {
+  setRequestLocale(locale)
   const t = await getTranslations({ locale, namespace: 'guides' })
   const sorted = [...allGuides].sort((a, b) => b.darkPatternScore - a.darkPatternScore)
 

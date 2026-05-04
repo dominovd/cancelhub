@@ -1,7 +1,7 @@
 import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
-import { getTranslations } from 'next-intl/server'
+import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { allGuides, guidesBySlug } from '@/data/guides'
 import { locales } from '@/config/i18n'
 import { DifficultyBadge } from '@/components/DifficultyBadge'
@@ -32,6 +32,7 @@ export default async function GuidePage({
 }: {
   params: { locale: string; slug: string }
 }) {
+  setRequestLocale(params.locale)
   const guide = guidesBySlug[params.slug]
   if (!guide) notFound()
 

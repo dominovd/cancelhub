@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import localFont from 'next/font/local'
 import { notFound } from 'next/navigation'
 import { NextIntlClientProvider } from 'next-intl'
-import { getMessages } from 'next-intl/server'
+import { getMessages, setRequestLocale } from 'next-intl/server'
 import { locales, isRtl, type Locale } from '@/config/i18n'
 import '../globals.css'
 import { Header } from '@/components/Header'
@@ -35,6 +35,7 @@ export default async function LocaleLayout({
 }) {
   if (!locales.includes(locale as Locale)) notFound()
 
+  setRequestLocale(locale)
   const messages = await getMessages()
   const dir = isRtl(locale as Locale) ? 'rtl' : 'ltr'
 

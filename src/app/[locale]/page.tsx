@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
-import { getTranslations } from 'next-intl/server'
+import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { allGuides, guidesByCategory } from '@/data/guides'
 import { SearchBar } from '@/components/SearchBar'
 import { DifficultyBadge } from '@/components/DifficultyBadge'
@@ -23,6 +23,7 @@ export default async function HomePage({
 }: {
   params: { locale: string }
 }) {
+  setRequestLocale(locale)
   const t = await getTranslations({ locale, namespace: 'home' })
   const categories = Object.entries(guidesByCategory).sort(([a], [b]) => a.localeCompare(b))
 
