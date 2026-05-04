@@ -847,24 +847,24 @@
       "web": {
         "steps": [
           {"instruction": "Gehe zu doordash.com und melde dich an."},
-          {"instruction": "Klicke auf dein Profilsymbol → „DashPass erhalten" oder gehe zu doordash.com/account."},
-          {"instruction": "Scrolle zu „DashPass" → klicke auf „DashPass verwalten"."},
-          {"instruction": "Klicke auf „DashPass kündigen"."},
-          {"instruction": "Folge den Bestätigungsaufforderungen → klicke auf „DashPass kündigen", um zu bestätigen.", "note": "Du behältst die DashPass-Vorteile bis zum Ende deines Abrechnungszeitraums."}
+          {"instruction": "Klicke auf dein Profilsymbol → „DashPass erhalten“ oder gehe zu doordash.com/account."},
+          {"instruction": "Scrolle zu „DashPass“ → klicke auf „DashPass verwalten“."},
+          {"instruction": "Klicke auf „DashPass kündigen“."},
+          {"instruction": "Folge den Bestätigungsaufforderungen → klicke auf „DashPass kündigen“, um zu bestätigen.", "note": "Du behältst die DashPass-Vorteile bis zum Ende deines Abrechnungszeitraums."}
         ]
       },
       "ios": {
         "steps": [
           {"instruction": "Öffne die DoorDash-App → tippe auf dein Profilsymbol (unten rechts)."},
-          {"instruction": "Tippe auf „DashPass erhalten" oder „DashPass verwalten"."},
-          {"instruction": "Tippe auf „DashPass kündigen" → bestätigen."}
+          {"instruction": "Tippe auf „DashPass erhalten“ oder „DashPass verwalten“."},
+          {"instruction": "Tippe auf „DashPass kündigen“ → bestätigen."}
         ]
       },
       "android": {
         "steps": [
           {"instruction": "Öffne die DoorDash-App → tippe auf dein Profilsymbol."},
-          {"instruction": "Tippe auf „DashPass verwalten"."},
-          {"instruction": "Tippe auf „DashPass kündigen" → folge den Bestätigungsaufforderungen."}
+          {"instruction": "Tippe auf „DashPass verwalten“."},
+          {"instruction": "Tippe auf „DashPass kündigen“ → folge den Bestätigungsaufforderungen."}
         ]
       }
     },
@@ -885,24 +885,24 @@
       "web": {
         "steps": [
           {"instruction": "Gehe zu peacocktv.com und melde dich an."},
-          {"instruction": "Klicke auf dein Profilsymbol → „Konto"."},
-          {"instruction": "Klicke unter „Plan" auf „Plan ändern oder kündigen"."},
-          {"instruction": "Klicke auf „Plan kündigen"."},
-          {"instruction": "Wähle einen Grund → klicke auf „Weiter".", "note": "Dein Peacock-Premium-Zugang läuft bis zum Abrechnungsdatum."},
+          {"instruction": "Klicke auf dein Profilsymbol → „Konto“."},
+          {"instruction": "Klicke unter „Plan“ auf „Plan ändern oder kündigen“."},
+          {"instruction": "Klicke auf „Plan kündigen“."},
+          {"instruction": "Wähle einen Grund → klicke auf „Weiter“.", "note": "Dein Peacock-Premium-Zugang läuft bis zum Abrechnungsdatum."},
           {"instruction": "Bestätige die Kündigung."}
         ]
       },
       "ios": {
         "steps": [
           {"instruction": "Öffne Einstellungen → tippe auf deinen Namen → Abonnements."},
-          {"instruction": "Suche „Peacock" → tippe darauf."},
-          {"instruction": "Tippe auf „Abonnement kündigen" → bestätigen."}
+          {"instruction": "Suche „Peacock“ → tippe darauf."},
+          {"instruction": "Tippe auf „Abonnement kündigen“ → bestätigen."}
         ]
       },
       "android": {
         "steps": [
-          {"instruction": "Öffne den Google Play Store → Profil → „Zahlungen & Abonnements" → Abonnements."},
-          {"instruction": "Suche „Peacock" → tippe auf „Abonnement kündigen" → bestätigen."}
+          {"instruction": "Öffne den Google Play Store → Profil → „Zahlungen & Abonnements“ → Abonnements."},
+          {"instruction": "Suche „Peacock“ → tippe auf „Abonnement kündigen“ → bestätigen."}
         ]
       }
     },
@@ -923,10 +923,10 @@
       "web": {
         "steps": [
           {"instruction": "Gehe zu audible.com und melde dich an."},
-          {"instruction": "Zeige auf deinen Namen → klicke auf „Kontodetails"."},
-          {"instruction": "Klicke in der linken Seitenleiste oder unter „Mitgliedschaftsdetails" auf „Mitgliedschaft kündigen"."},
-          {"instruction": "Audible zeigt eine Option zum „Mitgliedschaft pausieren" – klicke auf „Weiter zur Kündigung", wenn du kündigen möchtest.", "note": "Verwende deine Credits vor der Kündigung – sie verfallen, wenn deine Mitgliedschaft endet."},
-          {"instruction": "Wähle einen Grund → klicke auf „Mitgliedschaft kündigen"."},
+          {"instruction": "Zeige auf deinen Namen → klicke auf „Kontodetails“."},
+          {"instruction": "Klicke in der linken Seitenleiste oder unter „Mitgliedschaftsdetails“ auf „Mitgliedschaft kündigen“."},
+          {"instruction": "Audible zeigt eine Option zum „Mitgliedschaft pausieren“ – klicke auf „Weiter zur Kündigung“, wenn du kündigen möchtest.", "note": "Verwende deine Credits vor der Kündigung – sie verfallen, wenn deine Mitgliedschaft endet."},
+          {"instruction": "Wähle einen Grund → klicke auf „Mitgliedschaft kündigen“."},
           {"instruction": "Du erhältst eine Bestätigungs-E-Mail."}
         ]
       },
@@ -960,7 +960,7 @@
       "web": {
         "steps": [
           {"instruction": "Melde dich bei fabletics.com an und verwende alle angesammelten Credits vor der Kündigung."},
-          {"instruction": "Klicke auf „Mitglieds-Credits", um deinen Kontostand zu prüfen.", "note": "Credits verfallen nach der Kündigung – nutze sie zuerst."},
+          {"instruction": "Klicke auf „Mitglieds-Credits“, um deinen Kontostand zu prüfen.", "note": "Credits verfallen nach der Kündigung – nutze sie zuerst."},
           {"instruction": "Öffne den Live-Chat auf fabletics.com oder ruf an unter 1-844-322-5384."},
           {"instruction": "Teile dem Agenten mit, dass du deine VIP-Mitgliedschaft kündigen möchtest."},
           {"instruction": "Lehne alle Halte-Angebote ab (Rabatte, Pausen, Credit-Angebote)."},
@@ -982,7 +982,7 @@
     },
     "commonIssues": [
       {"question": "Mir wurden 59,95 $ berechnet – kann ich eine Rückerstattung bekommen?", "answer": "Wenn du belastet wurdest, aber nicht wolltest, kontaktiere sofort den Fabletics-Support. Sie können möglicherweise eine Gutschrift ausstellen, aber Barerstattungen sind selten. Die Belastung erfolgt, wenn du den Monat nicht bis zum 5. überspringst."},
-      {"question": "Was ist die „Monat überspringen"-Option?", "answer": "Jeden Monat musst du dich einloggen und vor dem 5. auf „Diesen Monat überspringen" klicken, um eine Belastung zu vermeiden. Dies ist ein bewusstes Dark Pattern – richte eine wiederkehrende Kalendererinnerung ein."},
+      {"question": "Was ist die „Monat überspringen“-Option?", "answer": "Jeden Monat musst du dich einloggen und vor dem 5. auf „Diesen Monat überspringen“ klicken, um eine Belastung zu vermeiden. Dies ist ein bewusstes Dark Pattern – richte eine wiederkehrende Kalendererinnerung ein."},
       {"question": "Kann ich online kündigen, ohne anzurufen?", "answer": "Fabletics hat eine Live-Chat-Option hinzugefügt. Der Chat ist auf fabletics.com verfügbar und ist in der Regel schneller als ein Anruf."}
     ]
   },
@@ -1068,7 +1068,7 @@
       "web": {
         "steps": [
           {"instruction": "Gehe zu xfinity.com/support und melde dich an.", "note": "Prüfe zuerst dein Vertragsende – gehe zu Mein Konto → Servicevereinbarung, um zu sehen, ob du eine VKG schuldest."},
-          {"instruction": "Verwende den Xfinity-Assistenten-Chat und tippe „Dienst kündigen" – das funktioniert manchmal ohne Wartezeit."},
+          {"instruction": "Verwende den Xfinity-Assistenten-Chat und tippe „Dienst kündigen“ – das funktioniert manchmal ohne Wartezeit."},
           {"instruction": "Alternativ ruf an unter 1-800-934-6489. Erwarte 15–45 Minuten Wartezeit."},
           {"instruction": "Teile dem Mitarbeiter mit, dass du kündigen möchtest, nicht herabstufen. Lehne alle Halte-Angebote ab."},
           {"instruction": "Bitte um eine Kündigungsbestätigungsnummer und E-Mail."},
@@ -1078,12 +1078,12 @@
       "ios": {
         "steps": [
           {"instruction": "Öffne die Xfinity-App → tippe auf das Kontosymbol."},
-          {"instruction": "Tippe auf „Meinen Plan verwalten" – begrenzte Kündigungsoptionen in der App. Vollständige Kündigung erfordert einen Anruf oder Store-Besuch."}
+          {"instruction": "Tippe auf „Meinen Plan verwalten“ – begrenzte Kündigungsoptionen in der App. Vollständige Kündigung erfordert einen Anruf oder Store-Besuch."}
         ]
       },
       "android": {
         "steps": [
-          {"instruction": "Öffne die Xfinity-App → Kontosymbol → „Meinen Plan verwalten"."},
+          {"instruction": "Öffne die Xfinity-App → Kontosymbol → „Meinen Plan verwalten“."},
           {"instruction": "Für die vollständige Kündigung ruf an oder besuche einen Store."}
         ]
       }
@@ -1107,8 +1107,8 @@
         "steps": [
           {"instruction": "Gehe zu fubo.tv und melde dich an."},
           {"instruction": "Klicke auf dein Profilsymbol (oben rechts) → Mein Konto."},
-          {"instruction": "Klicke auf „Abonnement verwalten"."},
-          {"instruction": "Klicke auf „Abonnement kündigen".", "note": "FuboTV zeigt möglicherweise eine Pause-Option – klicke nur auf Kündigen, wenn du vollständig kündigen möchtest."},
+          {"instruction": "Klicke auf „Abonnement verwalten“."},
+          {"instruction": "Klicke auf „Abonnement kündigen“.", "note": "FuboTV zeigt möglicherweise eine Pause-Option – klicke nur auf Kündigen, wenn du vollständig kündigen möchtest."},
           {"instruction": "Wähle einen Grund → bestätige die Kündigung."},
           {"instruction": "Du erhältst eine Bestätigungs-E-Mail."}
         ]
@@ -1117,13 +1117,13 @@
         "steps": [
           {"instruction": "Öffne Einstellungen → tippe auf deinen Namen → Abonnements."},
           {"instruction": "Suche FuboTV → tippe darauf."},
-          {"instruction": "Tippe auf „Abonnement kündigen" → bestätigen."}
+          {"instruction": "Tippe auf „Abonnement kündigen“ → bestätigen."}
         ]
       },
       "android": {
         "steps": [
-          {"instruction": "Öffne den Google Play Store → Profil → „Zahlungen & Abonnements" → Abonnements."},
-          {"instruction": "Suche FuboTV → tippe auf „Abonnement kündigen" → bestätigen."}
+          {"instruction": "Öffne den Google Play Store → Profil → „Zahlungen & Abonnements“ → Abonnements."},
+          {"instruction": "Suche FuboTV → tippe auf „Abonnement kündigen“ → bestätigen."}
         ]
       }
     },
@@ -1146,8 +1146,8 @@
         "steps": [
           {"instruction": "Gehe zu uber.com und melde dich an."},
           {"instruction": "Klicke auf dein Profilsymbol → Uber One oder gehe direkt zu uber.com/uberpro/uber-one."},
-          {"instruction": "Klicke auf „Mitgliedschaft verwalten"."},
-          {"instruction": "Klicke auf „Mitgliedschaft kündigen".", "note": "Deine Uber-One-Vorteile laufen bis zum Ende des Abrechnungszeitraums."},
+          {"instruction": "Klicke auf „Mitgliedschaft verwalten“."},
+          {"instruction": "Klicke auf „Mitgliedschaft kündigen“.", "note": "Deine Uber-One-Vorteile laufen bis zum Ende des Abrechnungszeitraums."},
           {"instruction": "Bestätige die Kündigung."}
         ]
       },
@@ -1155,7 +1155,7 @@
         "steps": [
           {"instruction": "Öffne die Uber- oder Uber-Eats-App → tippe auf dein Profilsymbol."},
           {"instruction": "Tippe auf Uber One → Mitgliedschaft verwalten."},
-          {"instruction": "Tippe auf „Mitgliedschaft kündigen" → bestätigen."}
+          {"instruction": "Tippe auf „Mitgliedschaft kündigen“ → bestätigen."}
         ]
       },
       "android": {
@@ -1184,8 +1184,8 @@
         "steps": [
           {"instruction": "Gehe zu instacart.com und melde dich an."},
           {"instruction": "Klicke auf dein Profilsymbol → Instacart+."},
-          {"instruction": "Klicke auf „Mitgliedschaft verwalten"."},
-          {"instruction": "Klicke auf „Mitgliedschaft kündigen".", "note": "Wenn du einen Jahresplan mit verbleibenden Monaten hast, bietet Instacart möglicherweise eine anteilige Rückerstattung an."},
+          {"instruction": "Klicke auf „Mitgliedschaft verwalten“."},
+          {"instruction": "Klicke auf „Mitgliedschaft kündigen“.", "note": "Wenn du einen Jahresplan mit verbleibenden Monaten hast, bietet Instacart möglicherweise eine anteilige Rückerstattung an."},
           {"instruction": "Bestätige die Kündigung."}
         ]
       },
@@ -1193,13 +1193,13 @@
         "steps": [
           {"instruction": "Öffne die Instacart-App → tippe auf dein Profilsymbol."},
           {"instruction": "Tippe auf Instacart+ → Mitgliedschaft verwalten."},
-          {"instruction": "Tippe auf „Mitgliedschaft kündigen" → bestätigen."}
+          {"instruction": "Tippe auf „Mitgliedschaft kündigen“ → bestätigen."}
         ]
       },
       "android": {
         "steps": [
           {"instruction": "Öffne die Instacart-App → Profilsymbol → Instacart+."},
-          {"instruction": "Tippe auf „Mitgliedschaft verwalten" → Mitgliedschaft kündigen → bestätigen."}
+          {"instruction": "Tippe auf „Mitgliedschaft verwalten“ → Mitgliedschaft kündigen → bestätigen."}
         ]
       }
     },
