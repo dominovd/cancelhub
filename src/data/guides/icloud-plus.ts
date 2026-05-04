@@ -39,7 +39,7 @@ export const icloudPlus: CancelGuide = {
       ],
     },
     {
-      platform: 'other',
+      platform: 'android',
       label: 'Android',
       steps: [
         { step: 1, instruction: 'iCloud+ cannot be managed from Android. Visit appleid.apple.com or use an Apple device.' },
