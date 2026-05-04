@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "allGuides": "All Guides",
+    "about": "About"
+  },
+  "home": {
+    "badge": "Free cancellation guides",
+    "title": "Cancel any subscription in seconds",
+    "subtitle": "Exact steps for every platform. No fluff, no ads, no dark patterns. Find your service and start cancelling.",
+    "searchPlaceholder": "Search any service — Netflix, Adobe, Spotify...",
+    "statsGuides": "Guides",
+    "statsFree": "Free",
+    "statsPlatforms": "Platforms each",
+    "darkPatternBadge": "Dark Pattern Ranking",
+    "darkPatternDesc": "Adobe, Amazon Prime, and Noom are the hardest to cancel — by design.",
+    "darkPatternLink": "See all rankings →",
+    "browseTitle": "Browse by category",
+    "waitlistTitle": "More guides every week",
+    "waitlistDesc": "We're adding guides for 100+ more services. Leave your email and we'll notify you when we publish guides for the services you care about.",
+    "waitlistPlaceholder": "you@email.com",
+    "waitlistButton": "Notify me"
+  },
+  "guides": {
+    "title": "All cancellation guides",
+    "subtitle": "services covered · Sorted by cancellation difficulty (hardest first)",
+    "colService": "Service",
+    "colDifficulty": "Difficulty",
+    "colDarkPatterns": "Dark patterns"
+  },
+  "guide": {
+    "category": "Category",
+    "difficulty": "Difficulty",
+    "darkPatternTitle": "Cancellation friction",
+    "refundTitle": "Refund policy",
+    "stepsTitle": "Step-by-step instructions",
+    "issuesTitle": "Common issues",
+    "alternativesTitle": "Looking for alternatives to {service}?",
+    "backLink": "← All guides",
+    "reportLink": "Steps changed?",
+    "reportLinkSuffix": "Let us know",
+    "verifiedOn": "Verified {date}",
+    "goToCancellationPage": "Go to cancellation page",
+    "allDoneTitle": "All steps done — you're cancelled!",
+    "allDoneDesc": "Check your email for a confirmation from the service.",
+    "progressOf": "{done} of {total} done",
+    "stepLabel": "Step {n}"
+  },
+  "difficulty": {
+    "easy": "Easy to cancel",
+    "medium": "Medium to cancel",
+    "hard": "Hard to cancel"
+  },
+  "darkPattern": {
+    "0": "Straightforward",
+    "1": "Straightforward",
+    "2": "Straightforward",
+    "3": "Minor friction",
+    "4": "Minor friction",
+    "5": "Multiple screens",
+    "6": "Multiple screens",
+    "7": "Aggressive retention",
+    "8": "Aggressive retention",
+    "9": "Dark patterns",
+    "10": "Dark patterns"
+  },
+  "platform": {
+    "web": "Website",
+    "ios": "iPhone / iPad",
+    "android": "Android"
+  },
+  "search": {
+    "notFound": "No guide found for \"{query}\" — more coming soon.",
+    "resultLabel": "How to cancel {service}"
+  },
+  "footer": {
+    "tagline": "Free cancellation guides for every subscription. Steps verified by real humans."
+  }
+}
