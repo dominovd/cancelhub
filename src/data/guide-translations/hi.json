@@ -6,29 +6,61 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "netflix.com पर जाएं और साइन इन करें।" },
-          { "instruction": "अपना प्रोफाइल आइकन क्लिक करें → अकाउंट।" },
-          { "instruction": "\"Membership\" के तहत, \"Cancel Membership\" क्लिक करें।" },
-          { "instruction": "\"Finish Cancellation\" क्लिक करें।" },
-          { "instruction": "आपको एक कन्फर्मेशन ईमेल मिलेगा। इसे अपने रिकॉर्ड के लिए सेव करें।", "note": "एक्सेस आपकी वर्तमान बिलिंग पीरियड के अंत तक जारी रहती है।" }
+          {
+            "instruction": "netflix.com पर जाएं और साइन इन करें।"
+          },
+          {
+            "instruction": "अपना प्रोफाइल आइकन क्लिक करें → अकाउंट।"
+          },
+          {
+            "instruction": "\"Membership\" के तहत, \"Cancel Membership\" क्लिक करें।"
+          },
+          {
+            "instruction": "\"Finish Cancellation\" क्लिक करें।"
+          },
+          {
+            "instruction": "आपको एक कन्फर्मेशन ईमेल मिलेगा। इसे अपने रिकॉर्ड के लिए सेव करें।",
+            "note": "एक्सेस आपकी वर्तमान बिलिंग पीरियड के अंत तक जारी रहती है।"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "iPhone सेटिंग्स खोलें → ऊपर अपना नाम टैप करें।" },
-          { "instruction": "\"Subscriptions\" टैप करें।" },
-          { "instruction": "\"Netflix\" ढूंढें और टैप करें।" },
-          { "instruction": "\"Cancel Subscription\" टैप करें → Confirm करें।" },
-          { "instruction": "बिलिंग पीरियड समाप्त होने तक आपकी एक्सेस रहती है।", "note": "Apple आंशिक रिफंड नहीं देता।" }
+          {
+            "instruction": "iPhone सेटिंग्स खोलें → ऊपर अपना नाम टैप करें।"
+          },
+          {
+            "instruction": "\"Subscriptions\" टैप करें।"
+          },
+          {
+            "instruction": "\"Netflix\" ढूंढें और टैप करें।"
+          },
+          {
+            "instruction": "\"Cancel Subscription\" टैप करें → Confirm करें।"
+          },
+          {
+            "instruction": "बिलिंग पीरियड समाप्त होने तक आपकी एक्सेस रहती है।",
+            "note": "Apple आंशिक रिफंड नहीं देता।"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Google Play Store खोलें।" },
-          { "instruction": "अपना प्रोफाइल आइकन टैप करें → \"Payments & subscriptions\" → \"Subscriptions\"।" },
-          { "instruction": "\"Netflix\" ढूंढें और उसे टैप करें।" },
-          { "instruction": "\"Cancel subscription\" टैप करें और निर्देशों का पालन करें।" },
-          { "instruction": "बिलिंग पीरियड के अंत तक एक्सेस जारी रहती है।" }
+          {
+            "instruction": "Google Play Store खोलें।"
+          },
+          {
+            "instruction": "अपना प्रोफाइल आइकन टैप करें → \"Payments & subscriptions\" → \"Subscriptions\"।"
+          },
+          {
+            "instruction": "\"Netflix\" ढूंढें और उसे टैप करें।"
+          },
+          {
+            "instruction": "\"Cancel subscription\" टैप करें और निर्देशों का पालन करें।"
+          },
+          {
+            "instruction": "बिलिंग पीरियड के अंत तक एक्सेस जारी रहती है।"
+          }
         ]
       }
     },
@@ -47,9 +79,15 @@
       }
     ],
     "alternatives": [
-      { "description": "विज्ञापन-मुक्त, ₹499/माह" },
-      { "description": "Disney, Marvel, Star Wars — ₹299/माह" },
-      { "description": "HBO कंटेंट — ₹699/माह" }
+      {
+        "description": "विज्ञापन-मुक्त, ₹499/माह"
+      },
+      {
+        "description": "Disney, Marvel, Star Wars — ₹299/माह"
+      },
+      {
+        "description": "HBO कंटेंट — ₹699/माह"
+      }
     ]
   },
   "spotify": {
@@ -59,26 +97,51 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "spotify.com/account पर जाएं और लॉग इन करें।" },
-          { "instruction": "\"Change plan\" क्लिक करें या \"Your plan\" तक स्क्रॉल करें।" },
-          { "instruction": "नीचे स्क्रॉल करें और \"Cancel Premium\" क्लिक करें।" },
-          { "instruction": "कन्फर्मेशन स्टेप्स का पालन करें (Spotify डिस्काउंट ऑफर कर सकता है — अगर रुचि न हो तो छोड़ दें)।" },
-          { "instruction": "\"Cancel anyway\" क्लिक करें। आपको एक कन्फर्मेशन ईमेल मिलेगा।", "note": "बिलिंग पीरियड समाप्त होने तक आपके पास Premium रहता है।" }
+          {
+            "instruction": "spotify.com/account पर जाएं और लॉग इन करें।"
+          },
+          {
+            "instruction": "\"Change plan\" क्लिक करें या \"Your plan\" तक स्क्रॉल करें।"
+          },
+          {
+            "instruction": "नीचे स्क्रॉल करें और \"Cancel Premium\" क्लिक करें।"
+          },
+          {
+            "instruction": "कन्फर्मेशन स्टेप्स का पालन करें (Spotify डिस्काउंट ऑफर कर सकता है — अगर रुचि न हो तो छोड़ दें)।"
+          },
+          {
+            "instruction": "\"Cancel anyway\" क्लिक करें। आपको एक कन्फर्मेशन ईमेल मिलेगा।",
+            "note": "बिलिंग पीरियड समाप्त होने तक आपके पास Premium रहता है।"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "iPhone सेटिंग्स खोलें → अपना Apple ID नाम टैप करें।" },
-          { "instruction": "\"Subscriptions\" टैप करें → Spotify ढूंढें।" },
-          { "instruction": "\"Cancel Subscription\" टैप करें → Confirm करें।" }
+          {
+            "instruction": "iPhone सेटिंग्स खोलें → अपना Apple ID नाम टैप करें।"
+          },
+          {
+            "instruction": "\"Subscriptions\" टैप करें → Spotify ढूंढें।"
+          },
+          {
+            "instruction": "\"Cancel Subscription\" टैप करें → Confirm करें।"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Google Play Store खोलें → अपना प्रोफाइल आइकन टैप करें।" },
-          { "instruction": "\"Payments & subscriptions\" → \"Subscriptions\" पर जाएं।" },
-          { "instruction": "Spotify ढूंढें → \"Cancel subscription\" टैप करें।" },
-          { "instruction": "कन्फर्मेशन निर्देशों का पालन करें।" }
+          {
+            "instruction": "Google Play Store खोलें → अपना प्रोफाइल आइकन टैप करें।"
+          },
+          {
+            "instruction": "\"Payments & subscriptions\" → \"Subscriptions\" पर जाएं।"
+          },
+          {
+            "instruction": "Spotify ढूंढें → \"Cancel subscription\" टैप करें।"
+          },
+          {
+            "instruction": "कन्फर्मेशन निर्देशों का पालन करें।"
+          }
         ]
       }
     },
@@ -93,8 +156,12 @@
       }
     ],
     "alternatives": [
-      { "description": "₹899/माह, Apple इकोसिस्टम में बेहतरीन" },
-      { "description": "₹899/माह, YouTube Premium के साथ शामिल" }
+      {
+        "description": "₹899/माह, Apple इकोसिस्टम में बेहतरीन"
+      },
+      {
+        "description": "₹899/माह, YouTube Premium के साथ शामिल"
+      }
     ]
   },
   "adobe": {
@@ -104,24 +171,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "account.adobe.com पर जाएं और साइन इन करें।" },
-          { "instruction": "बाईं साइडबार में \"Plans & Products\" क्लिक करें।" },
-          { "instruction": "अपना Creative Cloud प्लान ढूंढें और \"Manage plan\" क्लिक करें।" },
-          { "instruction": "\"Cancel your plan\" क्लिक करें।", "note": "Adobe इस बिंदु पर अर्ली टर्मिनेशन फीस दिखाएगा।" },
-          { "instruction": "एक कारण चुनें → Adobe कई ऑफर देगा (डिस्काउंट, पॉज़)। हर बार \"Continue to cancel\" क्लिक करें।" },
-          { "instruction": "रद्द करने की पुष्टि करें। कन्फर्मेशन नंबर सेव करें।" }
+          {
+            "instruction": "account.adobe.com पर जाएं और साइन इन करें।"
+          },
+          {
+            "instruction": "बाईं साइडबार में \"Plans & Products\" क्लिक करें।"
+          },
+          {
+            "instruction": "अपना Creative Cloud प्लान ढूंढें और \"Manage plan\" क्लिक करें।"
+          },
+          {
+            "instruction": "\"Cancel your plan\" क्लिक करें।",
+            "note": "Adobe इस बिंदु पर अर्ली टर्मिनेशन फीस दिखाएगा।"
+          },
+          {
+            "instruction": "एक कारण चुनें → Adobe कई ऑफर देगा (डिस्काउंट, पॉज़)। हर बार \"Continue to cancel\" क्लिक करें।"
+          },
+          {
+            "instruction": "रद्द करने की पुष्टि करें। कन्फर्मेशन नंबर सेव करें।"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "अगर App Store से सब्सक्राइब किया: सेटिंग्स खोलें → Apple ID → Subscriptions → Adobe → Cancel।" },
-          { "instruction": "अगर सीधे Adobe से सब्सक्राइब किया: ऊपर दिए वेबसाइट स्टेप्स उपयोग करें — ऐप सीधे रद्द करने का समर्थन नहीं करता।" }
+          {
+            "instruction": "अगर App Store से सब्सक्राइब किया: सेटिंग्स खोलें → Apple ID → Subscriptions → Adobe → Cancel।"
+          },
+          {
+            "instruction": "अगर सीधे Adobe से सब्सक्राइब किया: ऊपर दिए वेबसाइट स्टेप्स उपयोग करें — ऐप सीधे रद्द करने का समर्थन नहीं करता।"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "अगर Google Play से सब्सक्राइब किया: Play Store खोलें → Subscriptions → Adobe → Cancel।" },
-          { "instruction": "अगर सीधे Adobe से सब्सक्राइब किया: ऊपर दिए वेबसाइट स्टेप्स उपयोग करें।" }
+          {
+            "instruction": "अगर Google Play से सब्सक्राइब किया: Play Store खोलें → Subscriptions → Adobe → Cancel।"
+          },
+          {
+            "instruction": "अगर सीधे Adobe से सब्सक्राइब किया: ऊपर दिए वेबसाइट स्टेप्स उपयोग करें।"
+          }
         ]
       }
     },
@@ -140,9 +228,15 @@
       }
     ],
     "alternatives": [
-      { "description": "एकमुश्त खरीद, कोई सब्सक्रिप्शन नहीं। Photoshop/Illustrator का विकल्प।" },
-      { "description": "₹1,085/माह — गैर-डिज़ाइनरों के लिए बढ़िया" },
-      { "description": "मुफ्त टियर उपलब्ध, UI/UX डिज़ाइन के लिए सर्वोत्तम" }
+      {
+        "description": "एकमुश्त खरीद, कोई सब्सक्रिप्शन नहीं। Photoshop/Illustrator का विकल्प।"
+      },
+      {
+        "description": "₹1,085/माह — गैर-डिज़ाइनरों के लिए बढ़िया"
+      },
+      {
+        "description": "मुफ्त टियर उपलब्ध, UI/UX डिज़ाइन के लिए सर्वोत्तम"
+      }
     ]
   },
   "chatgpt": {
@@ -152,26 +246,51 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "chatgpt.com पर जाएं और साइन इन करें।" },
-          { "instruction": "नीचे-बाईं ओर अपना नाम या प्रोफाइल आइकन क्लिक करें।" },
-          { "instruction": "\"Settings\" → \"Subscription\" पर जाएं।" },
-          { "instruction": "\"Manage my subscription\" क्लिक करें।" },
-          { "instruction": "\"Cancel plan\" क्लिक करें → Confirm करें।" },
-          { "instruction": "आपको एक कन्फर्मेशन ईमेल मिलेगा। Plus एक्सेस पीरियड के अंत तक जारी रहती है।", "note": "ChatGPT स्वचालित रूप से मुफ्त प्लान पर वापस आ जाता है।" }
+          {
+            "instruction": "chatgpt.com पर जाएं और साइन इन करें।"
+          },
+          {
+            "instruction": "नीचे-बाईं ओर अपना नाम या प्रोफाइल आइकन क्लिक करें।"
+          },
+          {
+            "instruction": "\"Settings\" → \"Subscription\" पर जाएं।"
+          },
+          {
+            "instruction": "\"Manage my subscription\" क्लिक करें।"
+          },
+          {
+            "instruction": "\"Cancel plan\" क्लिक करें → Confirm करें।"
+          },
+          {
+            "instruction": "आपको एक कन्फर्मेशन ईमेल मिलेगा। Plus एक्सेस पीरियड के अंत तक जारी रहती है।",
+            "note": "ChatGPT स्वचालित रूप से मुफ्त प्लान पर वापस आ जाता है।"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "सेटिंग्स खोलें → अपना Apple ID नाम टैप करें → Subscriptions।" },
-          { "instruction": "\"ChatGPT\" ढूंढें → उसे टैप करें।" },
-          { "instruction": "\"Cancel Subscription\" टैप करें → Confirm करें।" }
+          {
+            "instruction": "सेटिंग्स खोलें → अपना Apple ID नाम टैप करें → Subscriptions।"
+          },
+          {
+            "instruction": "\"ChatGPT\" ढूंढें → उसे टैप करें।"
+          },
+          {
+            "instruction": "\"Cancel Subscription\" टैप करें → Confirm करें।"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Google Play Store खोलें → प्रोफाइल आइकन → \"Payments & subscriptions\" → \"Subscriptions\"।" },
-          { "instruction": "\"ChatGPT\" ढूंढें → \"Cancel subscription\" टैप करें।" },
-          { "instruction": "कन्फर्मेशन निर्देशों का पालन करें।" }
+          {
+            "instruction": "Google Play Store खोलें → प्रोफाइल आइकन → \"Payments & subscriptions\" → \"Subscriptions\"।"
+          },
+          {
+            "instruction": "\"ChatGPT\" ढूंढें → \"Cancel subscription\" टैप करें।"
+          },
+          {
+            "instruction": "कन्फर्मेशन निर्देशों का पालन करें।"
+          }
         ]
       }
     },
@@ -186,9 +305,15 @@
       }
     ],
     "alternatives": [
-      { "description": "Anthropic का AI — मुफ्त टियर + ₹1,650/माह Pro" },
-      { "description": "Google का AI — ₹1,650/माह, Google One AI Premium में शामिल" },
-      { "description": "₹1,650/माह — AI सर्च इंजन" }
+      {
+        "description": "Anthropic का AI — मुफ्त टियर + ₹1,650/माह Pro"
+      },
+      {
+        "description": "Google का AI — ₹1,650/माह, Google One AI Premium में शामिल"
+      },
+      {
+        "description": "₹1,650/माह — AI सर्च इंजन"
+      }
     ]
   },
   "amazon-prime": {
@@ -198,28 +323,57 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "amazon.in पर जाएं → \"Account & Lists\" पर होवर करें → \"Account\" क्लिक करें।" },
-          { "instruction": "\"Prime\" क्लिक करें या अकाउंट सेटिंग्स में \"Manage Prime Membership\" खोजें।" },
-          { "instruction": "\"Update, cancel, and more\" → \"End membership\" क्लिक करें।" },
-          { "instruction": "\"End Membership\" चुनें (Amazon द्वारा दिखाए गए \"Remind me later\" या अन्य विकल्प नहीं)।", "note": "अगर आप पात्र हैं तो Amazon रिफंड राशि दिखाएगा।" },
-          { "instruction": "\"Cancel membership\" क्लिक करके पुष्टि करें।" },
-          { "instruction": "कन्फर्मेशन के लिए अपना ईमेल जांचें।" }
+          {
+            "instruction": "amazon.in पर जाएं → \"Account & Lists\" पर होवर करें → \"Account\" क्लिक करें।"
+          },
+          {
+            "instruction": "\"Prime\" क्लिक करें या अकाउंट सेटिंग्स में \"Manage Prime Membership\" खोजें।"
+          },
+          {
+            "instruction": "\"Update, cancel, and more\" → \"End membership\" क्लिक करें।"
+          },
+          {
+            "instruction": "\"End Membership\" चुनें (Amazon द्वारा दिखाए गए \"Remind me later\" या अन्य विकल्प नहीं)।",
+            "note": "अगर आप पात्र हैं तो Amazon रिफंड राशि दिखाएगा।"
+          },
+          {
+            "instruction": "\"Cancel membership\" क्लिक करके पुष्टि करें।"
+          },
+          {
+            "instruction": "कन्फर्मेशन के लिए अपना ईमेल जांचें।"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Amazon Shopping ऐप खोलें → तीन लाइनें (मेनू) टैप करें।" },
-          { "instruction": "\"Account\" तक स्क्रॉल करें → \"Manage Prime Membership\" टैप करें।" },
-          { "instruction": "\"Update, cancel, and more\" → \"End membership\" टैप करें।" },
-          { "instruction": "वेब वर्शन जैसे ही प्रॉम्प्ट का पालन करें।" },
-          { "instruction": "नोट: अगर आपने Apple से सब्सक्राइब किया है, तो iOS सेटिंग्स → Subscriptions से रद्द करें।" }
+          {
+            "instruction": "Amazon Shopping ऐप खोलें → तीन लाइनें (मेनू) टैप करें।"
+          },
+          {
+            "instruction": "\"Account\" तक स्क्रॉल करें → \"Manage Prime Membership\" टैप करें।"
+          },
+          {
+            "instruction": "\"Update, cancel, and more\" → \"End membership\" टैप करें।"
+          },
+          {
+            "instruction": "वेब वर्शन जैसे ही प्रॉम्प्ट का पालन करें।"
+          },
+          {
+            "instruction": "नोट: अगर आपने Apple से सब्सक्राइब किया है, तो iOS सेटिंग्स → Subscriptions से रद्द करें।"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Amazon Shopping ऐप खोलें → मेनू → \"Account\"।" },
-          { "instruction": "\"Manage Prime Membership\" → \"End membership\" टैप करें।" },
-          { "instruction": "अगर Google Play से सब्सक्राइब किया है, तो Play Store → Subscriptions से रद्द करें।" }
+          {
+            "instruction": "Amazon Shopping ऐप खोलें → मेनू → \"Account\"।"
+          },
+          {
+            "instruction": "\"Manage Prime Membership\" → \"End membership\" टैप करें।"
+          },
+          {
+            "instruction": "अगर Google Play से सब्सक्राइब किया है, तो Play Store → Subscriptions से रद्द करें।"
+          }
         ]
       }
     },
@@ -245,26 +399,51 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "disneyplus.com पर जाएं और साइन इन करें।" },
-          { "instruction": "अपना प्रोफाइल आइकन क्लिक करें → \"Account\"।" },
-          { "instruction": "\"Subscription\" के तहत, \"Cancel subscription\" क्लिक करें।" },
-          { "instruction": "एक कारण चुनें → \"Continue\" क्लिक करें।" },
-          { "instruction": "\"Cancel subscription\" क्लिक करके पुष्टि करें।" },
-          { "instruction": "आपको एक कन्फर्मेशन ईमेल मिलेगा।", "note": "आपकी बिलिंग तारीख तक एक्सेस जारी रहती है।" }
+          {
+            "instruction": "disneyplus.com पर जाएं और साइन इन करें।"
+          },
+          {
+            "instruction": "अपना प्रोफाइल आइकन क्लिक करें → \"Account\"।"
+          },
+          {
+            "instruction": "\"Subscription\" के तहत, \"Cancel subscription\" क्लिक करें।"
+          },
+          {
+            "instruction": "एक कारण चुनें → \"Continue\" क्लिक करें।"
+          },
+          {
+            "instruction": "\"Cancel subscription\" क्लिक करके पुष्टि करें।"
+          },
+          {
+            "instruction": "आपको एक कन्फर्मेशन ईमेल मिलेगा।",
+            "note": "आपकी बिलिंग तारीख तक एक्सेस जारी रहती है।"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "सेटिंग्स खोलें → अपना नाम टैप करें → Subscriptions।" },
-          { "instruction": "\"Disney+\" ढूंढें → उसे टैप करें।" },
-          { "instruction": "\"Cancel Subscription\" टैप करें → पुष्टि करें।" }
+          {
+            "instruction": "सेटिंग्स खोलें → अपना नाम टैप करें → Subscriptions।"
+          },
+          {
+            "instruction": "\"Disney+\" ढूंढें → उसे टैप करें।"
+          },
+          {
+            "instruction": "\"Cancel Subscription\" टैप करें → पुष्टि करें।"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Google Play Store खोलें → प्रोफाइल → \"Payments & subscriptions\" → \"Subscriptions\"।" },
-          { "instruction": "Disney+ ढूंढें → \"Cancel subscription\" टैप करें।" },
-          { "instruction": "कन्फर्मेशन प्रक्रिया पूरी करें।" }
+          {
+            "instruction": "Google Play Store खोलें → प्रोफाइल → \"Payments & subscriptions\" → \"Subscriptions\"।"
+          },
+          {
+            "instruction": "Disney+ ढूंढें → \"Cancel subscription\" टैप करें।"
+          },
+          {
+            "instruction": "कन्फर्मेशन प्रक्रिया पूरी करें।"
+          }
         ]
       }
     },
@@ -286,25 +465,48 @@
     "platforms": {
       "ios": {
         "steps": [
-          { "instruction": "सेटिंग्स खोलें → ऊपर अपना नाम टैप करें।" },
-          { "instruction": "\"Subscriptions\" टैप करें।" },
-          { "instruction": "\"Apple Music\" टैप करें।" },
-          { "instruction": "\"Cancel Subscription\" टैप करें → Confirm करें।", "note": "अगर आप मुफ्त ट्रायल में हैं, तो आपको ट्रायल समाप्ति तारीख दिखेगी।" }
+          {
+            "instruction": "सेटिंग्स खोलें → ऊपर अपना नाम टैप करें।"
+          },
+          {
+            "instruction": "\"Subscriptions\" टैप करें।"
+          },
+          {
+            "instruction": "\"Apple Music\" टैप करें।"
+          },
+          {
+            "instruction": "\"Cancel Subscription\" टैप करें → Confirm करें।",
+            "note": "अगर आप मुफ्त ट्रायल में हैं, तो आपको ट्रायल समाप्ति तारीख दिखेगी।"
+          }
         ]
       },
       "web": {
         "steps": [
-          { "instruction": "Mac पर Music ऐप खोलें → अपना नाम क्लिक करें → Account Settings। या music.apple.com पर जाएं और साइन इन करें।" },
-          { "instruction": "\"Subscriptions\" ढूंढें → \"Manage\" क्लिक करें।" },
-          { "instruction": "Apple Music ढूंढें → \"Edit\" → \"Cancel Subscription\" क्लिक करें।" },
-          { "instruction": "रद्दीकरण की पुष्टि करें।" }
+          {
+            "instruction": "Mac पर Music ऐप खोलें → अपना नाम क्लिक करें → Account Settings। या music.apple.com पर जाएं और साइन इन करें।"
+          },
+          {
+            "instruction": "\"Subscriptions\" ढूंढें → \"Manage\" क्लिक करें।"
+          },
+          {
+            "instruction": "Apple Music ढूंढें → \"Edit\" → \"Cancel Subscription\" क्लिक करें।"
+          },
+          {
+            "instruction": "रद्दीकरण की पुष्टि करें।"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Android पर Apple Music ऐप खोलें।" },
-          { "instruction": "अपना प्रोफाइल टैप करें → Account Settings → Subscriptions।" },
-          { "instruction": "\"Cancel Subscription\" टैप करें → Confirm करें।" }
+          {
+            "instruction": "Android पर Apple Music ऐप खोलें।"
+          },
+          {
+            "instruction": "अपना प्रोफाइल टैप करें → Account Settings → Subscriptions।"
+          },
+          {
+            "instruction": "\"Cancel Subscription\" टैप करें → Confirm करें।"
+          }
         ]
       }
     },
@@ -326,24 +528,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "account.microsoft.com पर जाएं और साइन इन करें।" },
-          { "instruction": "ऊपरी नेविगेशन में \"Services & subscriptions\" क्लिक करें।" },
-          { "instruction": "Microsoft 365 ढूंढें → \"Manage\" क्लिक करें।" },
-          { "instruction": "सब्सक्रिप्शन विवरण के तहत \"Cancel\" क्लिक करें।" },
-          { "instruction": "निर्देशों का पालन करें। Microsoft डिस्काउंट ऑफर कर सकता है — रद्द करना चाहते हैं तो छोड़ दें।", "note": "अगर OneDrive में 5GB से ज़्यादा डेटा है, तो पहले अपनी फाइलें डाउनलोड करें।" },
-          { "instruction": "रद्दीकरण की पुष्टि करें। आपको एक कन्फर्मेशन ईमेल मिलेगा।" }
+          {
+            "instruction": "account.microsoft.com पर जाएं और साइन इन करें।"
+          },
+          {
+            "instruction": "ऊपरी नेविगेशन में \"Services & subscriptions\" क्लिक करें।"
+          },
+          {
+            "instruction": "Microsoft 365 ढूंढें → \"Manage\" क्लिक करें।"
+          },
+          {
+            "instruction": "सब्सक्रिप्शन विवरण के तहत \"Cancel\" क्लिक करें।"
+          },
+          {
+            "instruction": "निर्देशों का पालन करें। Microsoft डिस्काउंट ऑफर कर सकता है — रद्द करना चाहते हैं तो छोड़ दें।",
+            "note": "अगर OneDrive में 5GB से ज़्यादा डेटा है, तो पहले अपनी फाइलें डाउनलोड करें।"
+          },
+          {
+            "instruction": "रद्दीकरण की पुष्टि करें। आपको एक कन्फर्मेशन ईमेल मिलेगा।"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "अगर App Store से सब्सक्राइब किया: सेटिंग्स → Apple ID → Subscriptions → Microsoft 365 → Cancel।" },
-          { "instruction": "अगर सीधे Microsoft से सब्सक्राइब किया: ऊपर दिए वेबसाइट स्टेप्स उपयोग करें।" }
+          {
+            "instruction": "अगर App Store से सब्सक्राइब किया: सेटिंग्स → Apple ID → Subscriptions → Microsoft 365 → Cancel।"
+          },
+          {
+            "instruction": "अगर सीधे Microsoft से सब्सक्राइब किया: ऊपर दिए वेबसाइट स्टेप्स उपयोग करें।"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "अगर Google Play से सब्सक्राइब किया: Play Store → Subscriptions → Microsoft 365 → Cancel।" },
-          { "instruction": "अगर सीधे सब्सक्राइब किया: ऊपर दिए वेबसाइट स्टेप्स उपयोग करें।" }
+          {
+            "instruction": "अगर Google Play से सब्सक्राइब किया: Play Store → Subscriptions → Microsoft 365 → Cancel।"
+          },
+          {
+            "instruction": "अगर सीधे सब्सक्राइब किया: ऊपर दिए वेबसाइट स्टेप्स उपयोग करें।"
+          }
         ]
       }
     },
@@ -362,8 +585,12 @@
       }
     ],
     "alternatives": [
-      { "description": "Docs, Sheets, Slides — Google अकाउंट के साथ मुफ्त" },
-      { "description": "मुफ्त, ओपन-सोर्स Office विकल्प" }
+      {
+        "description": "Docs, Sheets, Slides — Google अकाउंट के साथ मुफ्त"
+      },
+      {
+        "description": "मुफ्त, ओपन-सोर्स Office विकल्प"
+      }
     ]
   },
   "claude": {
@@ -373,23 +600,42 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "claude.ai पर जाएं और साइन इन करें।" },
-          { "instruction": "अपना प्रोफाइल आइकन क्लिक करें → \"Settings\"।" },
-          { "instruction": "साइडबार में \"Billing\" पर जाएं।" },
-          { "instruction": "\"Cancel plan\" या \"Cancel subscription\" क्लिक करें।" },
-          { "instruction": "रद्दीकरण की पुष्टि करें।", "note": "Pro एक्सेस आपकी बिलिंग पीरियड के अंत तक जारी रहती है।" }
+          {
+            "instruction": "claude.ai पर जाएं और साइन इन करें।"
+          },
+          {
+            "instruction": "अपना प्रोफाइल आइकन क्लिक करें → \"Settings\"।"
+          },
+          {
+            "instruction": "साइडबार में \"Billing\" पर जाएं।"
+          },
+          {
+            "instruction": "\"Cancel plan\" या \"Cancel subscription\" क्लिक करें।"
+          },
+          {
+            "instruction": "रद्दीकरण की पुष्टि करें।",
+            "note": "Pro एक्सेस आपकी बिलिंग पीरियड के अंत तक जारी रहती है।"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "अगर App Store से सब्सक्राइब किया: सेटिंग्स → Apple ID → Subscriptions → Claude → Cancel।" },
-          { "instruction": "अगर सीधे Anthropic से सब्सक्राइब किया: ऊपर दिए वेबसाइट स्टेप्स उपयोग करें।" }
+          {
+            "instruction": "अगर App Store से सब्सक्राइब किया: सेटिंग्स → Apple ID → Subscriptions → Claude → Cancel।"
+          },
+          {
+            "instruction": "अगर सीधे Anthropic से सब्सक्राइब किया: ऊपर दिए वेबसाइट स्टेप्स उपयोग करें।"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Google Play Store खोलें → प्रोफाइल → Subscriptions।" },
-          { "instruction": "Claude ढूंढें → \"Cancel subscription\" टैप करें → पुष्टि करें।" }
+          {
+            "instruction": "Google Play Store खोलें → प्रोफाइल → Subscriptions।"
+          },
+          {
+            "instruction": "Claude ढूंढें → \"Cancel subscription\" टैप करें → पुष्टि करें।"
+          }
         ]
       }
     },
@@ -404,8 +650,12 @@
       }
     ],
     "alternatives": [
-      { "description": "₹1,650/माह — OpenAI का GPT-4o और अधिक" },
-      { "description": "₹1,650/माह — Google का सबसे सक्षम AI" }
+      {
+        "description": "₹1,650/माह — OpenAI का GPT-4o और अधिक"
+      },
+      {
+        "description": "₹1,650/माह — Google का सबसे सक्षम AI"
+      }
     ]
   },
   "youtube-premium": {
@@ -414,25 +664,48 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "youtube.com/paid_memberships पर जाएं और साइन इन करें।" },
-          { "instruction": "\"YouTube Premium\" ढूंढें → \"Manage membership\" क्लिक करें।" },
-          { "instruction": "\"Deactivate\" क्लिक करें।" },
-          { "instruction": "कन्फर्मेशन स्टेप्स का पालन करें → \"Continue to cancel\" क्लिक करें।" },
-          { "instruction": "पुष्टि करें। आपकी बिलिंग पीरियड के अंत तक Premium रहेगा।", "note": "YouTube Music Premium शामिल है और वह भी रद्द हो जाएगा।" }
+          {
+            "instruction": "youtube.com/paid_memberships पर जाएं और साइन इन करें।"
+          },
+          {
+            "instruction": "\"YouTube Premium\" ढूंढें → \"Manage membership\" क्लिक करें।"
+          },
+          {
+            "instruction": "\"Deactivate\" क्लिक करें।"
+          },
+          {
+            "instruction": "कन्फर्मेशन स्टेप्स का पालन करें → \"Continue to cancel\" क्लिक करें।"
+          },
+          {
+            "instruction": "पुष्टि करें। आपकी बिलिंग पीरियड के अंत तक Premium रहेगा।",
+            "note": "YouTube Music Premium शामिल है और वह भी रद्द हो जाएगा।"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "सेटिंग्स खोलें → अपना नाम टैप करें → Subscriptions।" },
-          { "instruction": "\"YouTube Premium\" ढूंढें → उसे टैप करें।" },
-          { "instruction": "\"Cancel Subscription\" टैप करें → Confirm करें।" }
+          {
+            "instruction": "सेटिंग्स खोलें → अपना नाम टैप करें → Subscriptions।"
+          },
+          {
+            "instruction": "\"YouTube Premium\" ढूंढें → उसे टैप करें।"
+          },
+          {
+            "instruction": "\"Cancel Subscription\" टैप करें → Confirm करें।"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Google Play Store खोलें → प्रोफाइल → \"Payments & subscriptions\" → Subscriptions।" },
-          { "instruction": "\"YouTube Premium\" ढूंढें → \"Cancel subscription\" टैप करें।" },
-          { "instruction": "कन्फर्मेशन प्रक्रिया का पालन करें।" }
+          {
+            "instruction": "Google Play Store खोलें → प्रोफाइल → \"Payments & subscriptions\" → Subscriptions।"
+          },
+          {
+            "instruction": "\"YouTube Premium\" ढूंढें → \"Cancel subscription\" टैप करें।"
+          },
+          {
+            "instruction": "कन्फर्मेशन प्रक्रिया का पालन करें।"
+          }
         ]
       }
     },
@@ -454,25 +727,47 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "hulu.com पर जाएं और साइन इन करें।" },
-          { "instruction": "अपना प्रोफाइल आइकन क्लिक करें → \"Account\"।" },
-          { "instruction": "\"Your Subscription\" के तहत, \"Cancel\" क्लिक करें।" },
-          { "instruction": "एक कारण चुनें → Hulu ऑफर देगा। \"Continue to Cancel\" क्लिक करें।" },
-          { "instruction": "\"Cancel Subscription\" क्लिक करके पुष्टि करें।" },
-          { "instruction": "आपको एक कन्फर्मेशन ईमेल मिलेगा।" }
+          {
+            "instruction": "hulu.com पर जाएं और साइन इन करें।"
+          },
+          {
+            "instruction": "अपना प्रोफाइल आइकन क्लिक करें → \"Account\"।"
+          },
+          {
+            "instruction": "\"Your Subscription\" के तहत, \"Cancel\" क्लिक करें।"
+          },
+          {
+            "instruction": "एक कारण चुनें → Hulu ऑफर देगा। \"Continue to Cancel\" क्लिक करें।"
+          },
+          {
+            "instruction": "\"Cancel Subscription\" क्लिक करके पुष्टि करें।"
+          },
+          {
+            "instruction": "आपको एक कन्फर्मेशन ईमेल मिलेगा।"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "सेटिंग्स खोलें → अपना नाम टैप करें → Subscriptions।" },
-          { "instruction": "\"Hulu\" ढूंढें → उसे टैप करें।" },
-          { "instruction": "\"Cancel Subscription\" टैप करें → Confirm करें।" }
+          {
+            "instruction": "सेटिंग्स खोलें → अपना नाम टैप करें → Subscriptions।"
+          },
+          {
+            "instruction": "\"Hulu\" ढूंढें → उसे टैप करें।"
+          },
+          {
+            "instruction": "\"Cancel Subscription\" टैप करें → Confirm करें।"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Google Play Store खोलें → प्रोफाइल → Subscriptions → Hulu ढूंढें।" },
-          { "instruction": "\"Cancel subscription\" टैप करें → निर्देशों का पालन करें।" }
+          {
+            "instruction": "Google Play Store खोलें → प्रोफाइल → Subscriptions → Hulu ढूंढें।"
+          },
+          {
+            "instruction": "\"Cancel subscription\" टैप करें → निर्देशों का पालन करें।"
+          }
         ]
       }
     },
@@ -494,23 +789,42 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "my.nordaccount.com पर जाएं और साइन इन करें।" },
-          { "instruction": "बाईं साइडबार में \"Billing\" या \"Subscription\" क्लिक करें।" },
-          { "instruction": "अपना प्लान ढूंढें → \"Cancel auto-renewal\" या \"Cancel subscription\" क्लिक करें।" },
-          { "instruction": "रद्दीकरण की पुष्टि करें।" },
-          { "instruction": "रिफंड के लिए: nordvpn.com/support पर लाइव चैट शुरू करें और अनुरोध करें। रिफंड 5–10 कार्यदिवसों में प्रोसेस होता है।", "note": "NordVPN अकाउंट डैशबोर्ड के माध्यम से रिफंड नहीं देता — आपको सपोर्ट से संपर्क करना होगा।" }
+          {
+            "instruction": "my.nordaccount.com पर जाएं और साइन इन करें।"
+          },
+          {
+            "instruction": "बाईं साइडबार में \"Billing\" या \"Subscription\" क्लिक करें।"
+          },
+          {
+            "instruction": "अपना प्लान ढूंढें → \"Cancel auto-renewal\" या \"Cancel subscription\" क्लिक करें।"
+          },
+          {
+            "instruction": "रद्दीकरण की पुष्टि करें।"
+          },
+          {
+            "instruction": "रिफंड के लिए: nordvpn.com/support पर लाइव चैट शुरू करें और अनुरोध करें। रिफंड 5–10 कार्यदिवसों में प्रोसेस होता है।",
+            "note": "NordVPN अकाउंट डैशबोर्ड के माध्यम से रिफंड नहीं देता — आपको सपोर्ट से संपर्क करना होगा।"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "अगर App Store से सब्सक्राइब किया: सेटिंग्स → Apple ID → Subscriptions → NordVPN → Cancel।" },
-          { "instruction": "नोट: App Store सब्सक्रिप्शन NordVPN की 30-दिन रिफंड के लिए पात्र नहीं हैं। इसके बजाय Apple से संपर्क करें।" }
+          {
+            "instruction": "अगर App Store से सब्सक्राइब किया: सेटिंग्स → Apple ID → Subscriptions → NordVPN → Cancel।"
+          },
+          {
+            "instruction": "नोट: App Store सब्सक्रिप्शन NordVPN की 30-दिन रिफंड के लिए पात्र नहीं हैं। इसके बजाय Apple से संपर्क करें।"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "अगर Google Play से सब्सक्राइब किया: Play Store → Subscriptions → NordVPN → Cancel।" },
-          { "instruction": "Play खरीदारी पर रिफंड के लिए, 48 घंटों के भीतर Google Play सपोर्ट से संपर्क करें।" }
+          {
+            "instruction": "अगर Google Play से सब्सक्राइब किया: Play Store → Subscriptions → NordVPN → Cancel।"
+          },
+          {
+            "instruction": "Play खरीदारी पर रिफंड के लिए, 48 घंटों के भीतर Google Play सपोर्ट से संपर्क करें।"
+          }
         ]
       }
     },
@@ -532,25 +846,48 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "doordash.com पर जाएं और साइन इन करें।" },
-          { "instruction": "अपना प्रोफाइल आइकन क्लिक करें → Get DashPass या doordash.com/account पर जाएं।" },
-          { "instruction": "DashPass तक स्क्रॉल करें → Manage DashPass क्लिक करें।" },
-          { "instruction": "Cancel DashPass क्लिक करें।" },
-          { "instruction": "कन्फर्मेशन प्रॉम्प्ट का पालन करें → पुष्टि करने के लिए Cancel DashPass क्लिक करें।", "note": "आप अपने बिलिंग पीरियड के अंत तक DashPass लाभ रखते हैं।" }
+          {
+            "instruction": "doordash.com पर जाएं और साइन इन करें।"
+          },
+          {
+            "instruction": "अपना प्रोफाइल आइकन क्लिक करें → Get DashPass या doordash.com/account पर जाएं।"
+          },
+          {
+            "instruction": "DashPass तक स्क्रॉल करें → Manage DashPass क्लिक करें।"
+          },
+          {
+            "instruction": "Cancel DashPass क्लिक करें।"
+          },
+          {
+            "instruction": "कन्फर्मेशन प्रॉम्प्ट का पालन करें → पुष्टि करने के लिए Cancel DashPass क्लिक करें।",
+            "note": "आप अपने बिलिंग पीरियड के अंत तक DashPass लाभ रखते हैं।"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "DoorDash ऐप खोलें → अपना प्रोफाइल आइकन टैप करें (नीचे दाईं ओर)।" },
-          { "instruction": "Get DashPass या Manage DashPass टैप करें।" },
-          { "instruction": "Cancel DashPass टैप करें → पुष्टि करें।" }
+          {
+            "instruction": "DoorDash ऐप खोलें → अपना प्रोफाइल आइकन टैप करें (नीचे दाईं ओर)।"
+          },
+          {
+            "instruction": "Get DashPass या Manage DashPass टैप करें।"
+          },
+          {
+            "instruction": "Cancel DashPass टैप करें → पुष्टि करें।"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "DoorDash ऐप खोलें → अपना प्रोफाइल आइकन टैप करें।" },
-          { "instruction": "Manage DashPass टैप करें।" },
-          { "instruction": "Cancel DashPass टैप करें → कन्फर्मेशन प्रॉम्प्ट का पालन करें।" }
+          {
+            "instruction": "DoorDash ऐप खोलें → अपना प्रोफाइल आइकन टैप करें।"
+          },
+          {
+            "instruction": "Manage DashPass टैप करें।"
+          },
+          {
+            "instruction": "Cancel DashPass टैप करें → कन्फर्मेशन प्रॉम्प्ट का पालन करें।"
+          }
         ]
       }
     },
@@ -565,8 +902,12 @@
       }
     ],
     "alternatives": [
-      { "description": "$9.99/माह — Uber Eats + Uber राइड्स पर मुफ्त डिलीवरी" },
-      { "description": "$9.99/माह — Grubhub ऑर्डर पर मुफ्त डिलीवरी" }
+      {
+        "description": "$9.99/माह — Uber Eats + Uber राइड्स पर मुफ्त डिलीवरी"
+      },
+      {
+        "description": "$9.99/माह — Grubhub ऑर्डर पर मुफ्त डिलीवरी"
+      }
     ]
   },
   "peacock": {
@@ -576,25 +917,48 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "peacocktv.com पर जाएं और साइन इन करें।" },
-          { "instruction": "अपना प्रोफाइल आइकन क्लिक करें → Account।" },
-          { "instruction": "Plan के तहत, Change or cancel plan क्लिक करें।" },
-          { "instruction": "Cancel plan क्लिक करें।" },
-          { "instruction": "एक कारण चुनें → Continue क्लिक करें।", "note": "आपकी Peacock Premium एक्सेस बिलिंग तारीख तक जारी रहती है।" },
-          { "instruction": "रद्दीकरण की पुष्टि करें।" }
+          {
+            "instruction": "peacocktv.com पर जाएं और साइन इन करें।"
+          },
+          {
+            "instruction": "अपना प्रोफाइल आइकन क्लिक करें → Account।"
+          },
+          {
+            "instruction": "Plan के तहत, Change or cancel plan क्लिक करें।"
+          },
+          {
+            "instruction": "Cancel plan क्लिक करें।"
+          },
+          {
+            "instruction": "एक कारण चुनें → Continue क्लिक करें।",
+            "note": "आपकी Peacock Premium एक्सेस बिलिंग तारीख तक जारी रहती है।"
+          },
+          {
+            "instruction": "रद्दीकरण की पुष्टि करें।"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "सेटिंग्स खोलें → अपना नाम टैप करें → Subscriptions।" },
-          { "instruction": "Peacock ढूंढें → उसे टैप करें।" },
-          { "instruction": "Cancel Subscription टैप करें → पुष्टि करें।" }
+          {
+            "instruction": "सेटिंग्स खोलें → अपना नाम टैप करें → Subscriptions।"
+          },
+          {
+            "instruction": "Peacock ढूंढें → उसे टैप करें।"
+          },
+          {
+            "instruction": "Cancel Subscription टैप करें → पुष्टि करें।"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Google Play Store खोलें → प्रोफाइल → Payments & subscriptions → Subscriptions।" },
-          { "instruction": "Peacock ढूंढें → Cancel subscription टैप करें → पुष्टि करें।" }
+          {
+            "instruction": "Google Play Store खोलें → प्रोफाइल → Payments & subscriptions → Subscriptions।"
+          },
+          {
+            "instruction": "Peacock ढूंढें → Cancel subscription टैप करें → पुष्टि करें।"
+          }
         ]
       }
     },
@@ -609,8 +973,12 @@
       }
     ],
     "alternatives": [
-      { "description": "$7.99/माह — CBS, MTV, Nickelodeon" },
-      { "description": "$9.99/माह — HBO कंटेंट" }
+      {
+        "description": "$7.99/माह — CBS, MTV, Nickelodeon"
+      },
+      {
+        "description": "$9.99/माह — HBO कंटेंट"
+      }
     ]
   },
   "audible": {
@@ -620,24 +988,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "audible.com पर जाएं और साइन इन करें।" },
-          { "instruction": "अपने नाम पर होवर करें → Account Details क्लिक करें।" },
-          { "instruction": "बाईं साइडबार में या Membership Details के तहत Cancel membership क्लिक करें।" },
-          { "instruction": "Audible पॉज़ मेम्बरशिप का विकल्प दिखाएगा — अगर आप रद्द करना चाहते हैं तो Continue to Cancel क्लिक करें।", "note": "रद्द करने से पहले अपने credits उपयोग करें — membership समाप्त होने पर वे expire हो जाते हैं।" },
-          { "instruction": "एक कारण चुनें → Cancel membership क्लिक करें।" },
-          { "instruction": "आपको एक कन्फर्मेशन ईमेल मिलेगा।" }
+          {
+            "instruction": "audible.com पर जाएं और साइन इन करें।"
+          },
+          {
+            "instruction": "अपने नाम पर होवर करें → Account Details क्लिक करें।"
+          },
+          {
+            "instruction": "बाईं साइडबार में या Membership Details के तहत Cancel membership क्लिक करें।"
+          },
+          {
+            "instruction": "Audible पॉज़ मेम्बरशिप का विकल्प दिखाएगा — अगर आप रद्द करना चाहते हैं तो Continue to Cancel क्लिक करें।",
+            "note": "रद्द करने से पहले अपने credits उपयोग करें — membership समाप्त होने पर वे expire हो जाते हैं।"
+          },
+          {
+            "instruction": "एक कारण चुनें → Cancel membership क्लिक करें।"
+          },
+          {
+            "instruction": "आपको एक कन्फर्मेशन ईमेल मिलेगा।"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "अगर App Store से सब्सक्राइब किया: सेटिंग्स → Apple ID → Subscriptions → Audible → Cancel।" },
-          { "instruction": "अगर सीधे सब्सक्राइब किया: ऊपर दिए वेबसाइट स्टेप्स उपयोग करें।" }
+          {
+            "instruction": "अगर App Store से सब्सक्राइब किया: सेटिंग्स → Apple ID → Subscriptions → Audible → Cancel।"
+          },
+          {
+            "instruction": "अगर सीधे सब्सक्राइब किया: ऊपर दिए वेबसाइट स्टेप्स उपयोग करें।"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "अगर Google Play से सब्सक्राइब किया: Play Store → Subscriptions → Audible → Cancel।" },
-          { "instruction": "अगर सीधे सब्सक्राइब किया: ऊपर दिए वेबसाइट स्टेप्स उपयोग करें।" }
+          {
+            "instruction": "अगर Google Play से सब्सक्राइब किया: Play Store → Subscriptions → Audible → Cancel।"
+          },
+          {
+            "instruction": "अगर सीधे सब्सक्राइब किया: ऊपर दिए वेबसाइट स्टेप्स उपयोग करें।"
+          }
         ]
       }
     },
@@ -656,8 +1045,12 @@
       }
     ],
     "alternatives": [
-      { "description": "$11.99/माह — ई-बुक्स + कुछ ऑडियोबुक" },
-      { "description": "$11.99/माह — ऑडियोबुक, ई-बुक्स, दस्तावेज़" }
+      {
+        "description": "$11.99/माह — ई-बुक्स + कुछ ऑडियोबुक"
+      },
+      {
+        "description": "$11.99/माह — ऑडियोबुक, ई-बुक्स, दस्तावेज़"
+      }
     ]
   },
   "fabletics": {
@@ -666,24 +1059,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "fabletics.com पर लॉग इन करें और रद्द करने से पहले किसी भी जमा credits का उपयोग करें।" },
-          { "instruction": "Member Credits क्लिक करें अपना बैलेंस जांचने के लिए।", "note": "रद्दीकरण के बाद Credits expire हो जाते हैं — पहले उनका उपयोग करें।" },
-          { "instruction": "fabletics.com पर लाइव चैट खोलें या 1-844-322-5384 पर कॉल करें।" },
-          { "instruction": "एजेंट को बताएं कि आप अपना VIP membership रद्द करना चाहते हैं।" },
-          { "instruction": "सभी रिटेंशन ऑफर (डिस्काउंट, पॉज़, credit ऑफर) अस्वीकार करें।" },
-          { "instruction": "रद्दीकरण की पुष्टि करें और कन्फर्मेशन नंबर या ईमेल मांगें।" }
+          {
+            "instruction": "fabletics.com पर लॉग इन करें और रद्द करने से पहले किसी भी जमा credits का उपयोग करें।"
+          },
+          {
+            "instruction": "Member Credits क्लिक करें अपना बैलेंस जांचने के लिए।",
+            "note": "रद्दीकरण के बाद Credits expire हो जाते हैं — पहले उनका उपयोग करें।"
+          },
+          {
+            "instruction": "fabletics.com पर लाइव चैट खोलें या 1-844-322-5384 पर कॉल करें।"
+          },
+          {
+            "instruction": "एजेंट को बताएं कि आप अपना VIP membership रद्द करना चाहते हैं।"
+          },
+          {
+            "instruction": "सभी रिटेंशन ऑफर (डिस्काउंट, पॉज़, credit ऑफर) अस्वीकार करें।"
+          },
+          {
+            "instruction": "रद्दीकरण की पुष्टि करें और कन्फर्मेशन नंबर या ईमेल मांगें।"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Fabletics iOS ऐप या App Store के माध्यम से रद्दीकरण का समर्थन नहीं करता।" },
-          { "instruction": "फ़ोन (1-844-322-5384) या fabletics.com पर लाइव चैट उपयोग करें।" }
+          {
+            "instruction": "Fabletics iOS ऐप या App Store के माध्यम से रद्दीकरण का समर्थन नहीं करता।"
+          },
+          {
+            "instruction": "फ़ोन (1-844-322-5384) या fabletics.com पर लाइव चैट उपयोग करें।"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Fabletics Android ऐप या Play Store के माध्यम से रद्दीकरण का समर्थन नहीं करता।" },
-          { "instruction": "फ़ोन या लाइव चैट उपयोग करें — ऊपर दिए वेब स्टेप्स देखें।" }
+          {
+            "instruction": "Fabletics Android ऐप या Play Store के माध्यम से रद्दीकरण का समर्थन नहीं करता।"
+          },
+          {
+            "instruction": "फ़ोन या लाइव चैट उपयोग करें — ऊपर दिए वेब स्टेप्स देखें।"
+          }
         ]
       }
     },
@@ -709,23 +1123,42 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "experian.com पर लॉग इन करें या अपनी अकाउंट सेटिंग्स पर जाएं।" },
-          { "instruction": "अगर कोई Cancel बटन उपलब्ध नहीं है, तो experian.com/consumer/help.html के माध्यम से लाइव चैट खोलें।", "note": "Experian अक्सर Cancel विकल्प छुपाता है — लाइव चैट आमतौर पर सबसे तेज़ रास्ता है।" },
-          { "instruction": "एजेंट को बताएं कि आप अपना सब्सक्रिप्शन रद्द करना चाहते हैं।" },
-          { "instruction": "किसी भी रिटेंशन ऑफर को अस्वीकार करें।" },
-          { "instruction": "अपनी रद्दीकरण तारीख के साथ एक कन्फर्मेशन ईमेल मांगें।" }
+          {
+            "instruction": "experian.com पर लॉग इन करें या अपनी अकाउंट सेटिंग्स पर जाएं।"
+          },
+          {
+            "instruction": "अगर कोई Cancel बटन उपलब्ध नहीं है, तो experian.com/consumer/help.html के माध्यम से लाइव चैट खोलें।",
+            "note": "Experian अक्सर Cancel विकल्प छुपाता है — लाइव चैट आमतौर पर सबसे तेज़ रास्ता है।"
+          },
+          {
+            "instruction": "एजेंट को बताएं कि आप अपना सब्सक्रिप्शन रद्द करना चाहते हैं।"
+          },
+          {
+            "instruction": "किसी भी रिटेंशन ऑफर को अस्वीकार करें।"
+          },
+          {
+            "instruction": "अपनी रद्दीकरण तारीख के साथ एक कन्फर्मेशन ईमेल मांगें।"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "अगर App Store से सब्सक्राइब किया: सेटिंग्स → Apple ID → Subscriptions → Experian → Cancel।" },
-          { "instruction": "अगर सीधे सब्सक्राइब किया: फ़ोन या लाइव चैट उपयोग करें।" }
+          {
+            "instruction": "अगर App Store से सब्सक्राइब किया: सेटिंग्स → Apple ID → Subscriptions → Experian → Cancel।"
+          },
+          {
+            "instruction": "अगर सीधे सब्सक्राइब किया: फ़ोन या लाइव चैट उपयोग करें।"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "अगर Google Play से सब्सक्राइब किया: Play Store → Subscriptions → Experian → Cancel।" },
-          { "instruction": "अगर सीधे सब्सक्राइब किया: लाइव चैट या कॉल सपोर्ट उपयोग करें।" }
+          {
+            "instruction": "अगर Google Play से सब्सक्राइब किया: Play Store → Subscriptions → Experian → Cancel।"
+          },
+          {
+            "instruction": "अगर सीधे सब्सक्राइब किया: लाइव चैट या कॉल सपोर्ट उपयोग करें।"
+          }
         ]
       }
     },
@@ -744,8 +1177,12 @@
       }
     ],
     "alternatives": [
-      { "description": "मुफ्त क्रेडिट मॉनिटरिंग — कोई सब्सक्रिप्शन नहीं चाहिए" },
-      { "description": "$8.99/माह — पहचान चोरी से सुरक्षा" }
+      {
+        "description": "मुफ्त क्रेडिट मॉनिटरिंग — कोई सब्सक्रिप्शन नहीं चाहिए"
+      },
+      {
+        "description": "$8.99/माह — पहचान चोरी से सुरक्षा"
+      }
     ]
   },
   "crunch-fitness": {
@@ -755,23 +1192,42 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "crunch.com पर लॉग इन करें और जांचें कि क्या आपका स्थान ऑनलाइन रद्दीकरण प्रदान करता है (दुर्लभ)।" },
-          { "instruction": "अगर ऑनलाइन उपलब्ध नहीं है, तो फोटो ID के साथ अपने होम क्लब में व्यक्तिगत रूप से जाएं।" },
-          { "instruction": "मेम्बरशिप सलाहकार से बात करने के लिए कहें और रद्दीकरण का अनुरोध करें।", "note": "अपना member ID या साइन अप के लिए उपयोग किया गया ईमेल लाएं।" },
-          { "instruction": "वैकल्पिक रूप से, अपने होम क्लब को अपने पूरे नाम, member ID, पते और हस्ताक्षर के साथ प्रमाणित पत्र भेजें।" },
-          { "instruction": "प्रमाण के रूप में प्रमाणित मेल रसीद रखें। प्राप्ति के 30 दिन बाद रद्दीकरण प्रभावी होता है।" }
+          {
+            "instruction": "crunch.com पर लॉग इन करें और जांचें कि क्या आपका स्थान ऑनलाइन रद्दीकरण प्रदान करता है (दुर्लभ)।"
+          },
+          {
+            "instruction": "अगर ऑनलाइन उपलब्ध नहीं है, तो फोटो ID के साथ अपने होम क्लब में व्यक्तिगत रूप से जाएं।"
+          },
+          {
+            "instruction": "मेम्बरशिप सलाहकार से बात करने के लिए कहें और रद्दीकरण का अनुरोध करें।",
+            "note": "अपना member ID या साइन अप के लिए उपयोग किया गया ईमेल लाएं।"
+          },
+          {
+            "instruction": "वैकल्पिक रूप से, अपने होम क्लब को अपने पूरे नाम, member ID, पते और हस्ताक्षर के साथ प्रमाणित पत्र भेजें।"
+          },
+          {
+            "instruction": "प्रमाण के रूप में प्रमाणित मेल रसीद रखें। प्राप्ति के 30 दिन बाद रद्दीकरण प्रभावी होता है।"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Crunch iOS ऐप के माध्यम से रद्दीकरण का समर्थन नहीं करता।" },
-          { "instruction": "व्यक्तिगत रूप से या प्रमाणित मेल द्वारा रद्द करें।" }
+          {
+            "instruction": "Crunch iOS ऐप के माध्यम से रद्दीकरण का समर्थन नहीं करता।"
+          },
+          {
+            "instruction": "व्यक्तिगत रूप से या प्रमाणित मेल द्वारा रद्द करें।"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Crunch Android ऐप के माध्यम से रद्दीकरण का समर्थन नहीं करता।" },
-          { "instruction": "व्यक्तिगत रूप से या प्रमाणित मेल द्वारा रद्द करें।" }
+          {
+            "instruction": "Crunch Android ऐप के माध्यम से रद्दीकरण का समर्थन नहीं करता।"
+          },
+          {
+            "instruction": "व्यक्तिगत रूप से या प्रमाणित मेल द्वारा रद्द करें।"
+          }
         ]
       }
     },
@@ -790,8 +1246,12 @@
       }
     ],
     "alternatives": [
-      { "description": "$10–$25/माह — आसान ऑनलाइन रद्दीकरण" },
-      { "description": "$30–$50/माह — 24/7 एक्सेस" }
+      {
+        "description": "$10–$25/माह — आसान ऑनलाइन रद्दीकरण"
+      },
+      {
+        "description": "$30–$50/माह — 24/7 एक्सेस"
+      }
     ]
   },
   "xfinity": {
@@ -801,24 +1261,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "xfinity.com/support पर जाएं और साइन इन करें।", "note": "पहले My Account → Service Agreement में अपनी कॉन्ट्रैक्ट समाप्ति तारीख जांचें।" },
-          { "instruction": "Xfinity Assistant चैट उपयोग करें और Cancel service टाइप करें।" },
-          { "instruction": "वैकल्पिक रूप से, 1-800-934-6489 पर कॉल करें। 15–45 मिनट की प्रतीक्षा समय की उम्मीद करें।" },
-          { "instruction": "प्रतिनिधि को बताएं कि आप रद्द करना चाहते हैं। सभी रिटेंशन ऑफर अस्वीकार करें।" },
-          { "instruction": "रद्दीकरण कन्फर्मेशन नंबर और ईमेल मांगें।" },
-          { "instruction": "उपकरण शुल्क से बचने के लिए किसी भी किराए के उपकरण को 10 दिनों के भीतर वापस करें।" }
+          {
+            "instruction": "xfinity.com/support पर जाएं और साइन इन करें।",
+            "note": "पहले My Account → Service Agreement में अपनी कॉन्ट्रैक्ट समाप्ति तारीख जांचें।"
+          },
+          {
+            "instruction": "Xfinity Assistant चैट उपयोग करें और Cancel service टाइप करें।"
+          },
+          {
+            "instruction": "वैकल्पिक रूप से, 1-800-934-6489 पर कॉल करें। 15–45 मिनट की प्रतीक्षा समय की उम्मीद करें।"
+          },
+          {
+            "instruction": "प्रतिनिधि को बताएं कि आप रद्द करना चाहते हैं। सभी रिटेंशन ऑफर अस्वीकार करें।"
+          },
+          {
+            "instruction": "रद्दीकरण कन्फर्मेशन नंबर और ईमेल मांगें।"
+          },
+          {
+            "instruction": "उपकरण शुल्क से बचने के लिए किसी भी किराए के उपकरण को 10 दिनों के भीतर वापस करें।"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Xfinity ऐप खोलें → अकाउंट आइकन।" },
-          { "instruction": "Manage my plan टैप करें — पूर्ण रद्दीकरण के लिए कॉल या स्टोर विज़िट की आवश्यकता है।" }
+          {
+            "instruction": "Xfinity ऐप खोलें → अकाउंट आइकन।"
+          },
+          {
+            "instruction": "Manage my plan टैप करें — पूर्ण रद्दीकरण के लिए कॉल या स्टोर विज़िट की आवश्यकता है।"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Xfinity ऐप खोलें → Manage my plan।" },
-          { "instruction": "पूर्ण रद्दीकरण के लिए, कॉल करें या स्टोर जाएं।" }
+          {
+            "instruction": "Xfinity ऐप खोलें → Manage my plan।"
+          },
+          {
+            "instruction": "पूर्ण रद्दीकरण के लिए, कॉल करें या स्टोर जाएं।"
+          }
         ]
       }
     },
@@ -837,8 +1318,12 @@
       }
     ],
     "alternatives": [
-      { "description": "फाइबर इंटरनेट — प्रतिस्पर्धी मूल्य" },
-      { "description": "कोई कॉन्ट्रैक्ट नहीं, कोई डेटा कैप नहीं" }
+      {
+        "description": "फाइबर इंटरनेट — प्रतिस्पर्धी मूल्य"
+      },
+      {
+        "description": "कोई कॉन्ट्रैक्ट नहीं, कोई डेटा कैप नहीं"
+      }
     ]
   },
   "fubotv": {
@@ -848,25 +1333,48 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "fubo.tv पर जाएं और साइन इन करें।" },
-          { "instruction": "अपना प्रोफाइल आइकन क्लिक करें → My Account।" },
-          { "instruction": "Manage Subscription क्लिक करें।" },
-          { "instruction": "Cancel Subscription क्लिक करें।", "note": "FuboTV पॉज़ का विकल्प दिखा सकता है — केवल Cancel क्लिक करें अगर आप पूरी तरह रद्द करना चाहते हैं।" },
-          { "instruction": "एक कारण चुनें → रद्दीकरण की पुष्टि करें।" },
-          { "instruction": "आपको एक कन्फर्मेशन ईमेल मिलेगा।" }
+          {
+            "instruction": "fubo.tv पर जाएं और साइन इन करें।"
+          },
+          {
+            "instruction": "अपना प्रोफाइल आइकन क्लिक करें → My Account।"
+          },
+          {
+            "instruction": "Manage Subscription क्लिक करें।"
+          },
+          {
+            "instruction": "Cancel Subscription क्लिक करें।",
+            "note": "FuboTV पॉज़ का विकल्प दिखा सकता है — केवल Cancel क्लिक करें अगर आप पूरी तरह रद्द करना चाहते हैं।"
+          },
+          {
+            "instruction": "एक कारण चुनें → रद्दीकरण की पुष्टि करें।"
+          },
+          {
+            "instruction": "आपको एक कन्फर्मेशन ईमेल मिलेगा।"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "सेटिंग्स खोलें → अपना नाम टैप करें → Subscriptions।" },
-          { "instruction": "FuboTV ढूंढें → उसे टैप करें।" },
-          { "instruction": "Cancel Subscription टैप करें → पुष्टि करें।" }
+          {
+            "instruction": "सेटिंग्स खोलें → अपना नाम टैप करें → Subscriptions।"
+          },
+          {
+            "instruction": "FuboTV ढूंढें → उसे टैप करें।"
+          },
+          {
+            "instruction": "Cancel Subscription टैप करें → पुष्टि करें।"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Google Play Store खोलें → प्रोफाइल → Payments & subscriptions → Subscriptions।" },
-          { "instruction": "FuboTV ढूंढें → Cancel subscription टैप करें → पुष्टि करें।" }
+          {
+            "instruction": "Google Play Store खोलें → प्रोफाइल → Payments & subscriptions → Subscriptions।"
+          },
+          {
+            "instruction": "FuboTV ढूंढें → Cancel subscription टैप करें → पुष्टि करें।"
+          }
         ]
       }
     },
@@ -881,9 +1389,15 @@
       }
     ],
     "alternatives": [
-      { "description": "$72.99/माह — 100+ चैनल, अनलिमिटेड DVR" },
-      { "description": "$40/माह से — लचीले चैनल पैकेज" },
-      { "description": "$64.99/माह से — लाइव स्पोर्ट्स फोकस" }
+      {
+        "description": "$72.99/माह — 100+ चैनल, अनलिमिटेड DVR"
+      },
+      {
+        "description": "$40/माह से — लचीले चैनल पैकेज"
+      },
+      {
+        "description": "$64.99/माह से — लाइव स्पोर्ट्स फोकस"
+      }
     ]
   },
   "uber-eats": {
@@ -893,25 +1407,48 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "uber.com पर जाएं और साइन इन करें।" },
-          { "instruction": "अपना प्रोफाइल आइकन क्लिक करें → Uber One।" },
-          { "instruction": "Manage membership क्लिक करें।" },
-          { "instruction": "Cancel membership क्लिक करें।", "note": "आपके Uber One लाभ बिलिंग पीरियड समाप्त होने तक जारी रहते हैं।" },
-          { "instruction": "रद्दीकरण की पुष्टि करें।" }
+          {
+            "instruction": "uber.com पर जाएं और साइन इन करें।"
+          },
+          {
+            "instruction": "अपना प्रोफाइल आइकन क्लिक करें → Uber One।"
+          },
+          {
+            "instruction": "Manage membership क्लिक करें।"
+          },
+          {
+            "instruction": "Cancel membership क्लिक करें।",
+            "note": "आपके Uber One लाभ बिलिंग पीरियड समाप्त होने तक जारी रहते हैं।"
+          },
+          {
+            "instruction": "रद्दीकरण की पुष्टि करें।"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Uber या Uber Eats ऐप खोलें → अपना प्रोफाइल आइकन टैप करें।" },
-          { "instruction": "Uber One → Manage membership टैप करें।" },
-          { "instruction": "Cancel membership टैप करें → पुष्टि करें।" }
+          {
+            "instruction": "Uber या Uber Eats ऐप खोलें → अपना प्रोफाइल आइकन टैप करें।"
+          },
+          {
+            "instruction": "Uber One → Manage membership टैप करें।"
+          },
+          {
+            "instruction": "Cancel membership टैप करें → पुष्टि करें।"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "ऐप खोलें → प्रोफाइल आइकन।" },
-          { "instruction": "Uber One → Manage membership → Cancel membership टैप करें।" },
-          { "instruction": "रद्दीकरण की पुष्टि करें।" }
+          {
+            "instruction": "ऐप खोलें → प्रोफाइल आइकन।"
+          },
+          {
+            "instruction": "Uber One → Manage membership → Cancel membership टैप करें।"
+          },
+          {
+            "instruction": "रद्दीकरण की पुष्टि करें।"
+          }
         ]
       }
     },
@@ -926,8 +1463,12 @@
       }
     ],
     "alternatives": [
-      { "description": "$9.99/माह — DoorDash पर मुफ्त डिलीवरी" },
-      { "description": "$9.99/माह — Grubhub पर मुफ्त डिलीवरी" }
+      {
+        "description": "$9.99/माह — DoorDash पर मुफ्त डिलीवरी"
+      },
+      {
+        "description": "$9.99/माह — Grubhub पर मुफ्त डिलीवरी"
+      }
     ]
   },
   "instacart": {
@@ -937,24 +1478,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "instacart.com पर जाएं और साइन इन करें।" },
-          { "instruction": "अपना प्रोफाइल आइकन क्लिक करें → Instacart+।" },
-          { "instruction": "Manage your membership क्लिक करें।" },
-          { "instruction": "Cancel membership क्लिक करें।", "note": "अगर आपके पास वार्षिक प्लान है, तो Instacart आनुपातिक रिफंड ऑफर कर सकता है।" },
-          { "instruction": "रद्दीकरण की पुष्टि करें।" }
+          {
+            "instruction": "instacart.com पर जाएं और साइन इन करें।"
+          },
+          {
+            "instruction": "अपना प्रोफाइल आइकन क्लिक करें → Instacart+।"
+          },
+          {
+            "instruction": "Manage your membership क्लिक करें।"
+          },
+          {
+            "instruction": "Cancel membership क्लिक करें।",
+            "note": "अगर आपके पास वार्षिक प्लान है, तो Instacart आनुपातिक रिफंड ऑफर कर सकता है।"
+          },
+          {
+            "instruction": "रद्दीकरण की पुष्टि करें।"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Instacart ऐप खोलें → अपना प्रोफाइल आइकन टैप करें।" },
-          { "instruction": "Instacart+ → Manage membership टैप करें।" },
-          { "instruction": "Cancel membership टैप करें → पुष्टि करें।" }
+          {
+            "instruction": "Instacart ऐप खोलें → अपना प्रोफाइल आइकन टैप करें।"
+          },
+          {
+            "instruction": "Instacart+ → Manage membership टैप करें।"
+          },
+          {
+            "instruction": "Cancel membership टैप करें → पुष्टि करें।"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "ऐप खोलें → प्रोफाइल आइकन → Instacart+।" },
-          { "instruction": "Manage membership → Cancel membership → पुष्टि करें टैप करें।" }
+          {
+            "instruction": "ऐप खोलें → प्रोफाइल आइकन → Instacart+।"
+          },
+          {
+            "instruction": "Manage membership → Cancel membership → पुष्टि करें टैप करें।"
+          }
         ]
       }
     },
@@ -969,8 +1531,564 @@
       }
     ],
     "alternatives": [
-      { "description": "Prime के साथ मुफ्त डिलीवरी — किराना डिलीवरी" },
-      { "description": "$99/वर्ष — Target + अन्य खुदरा विक्रेता" }
+      {
+        "description": "Prime के साथ मुफ्त डिलीवरी — किराना डिलीवरी"
+      },
+      {
+        "description": "$99/वर्ष — Target + अन्य खुदरा विक्रेता"
+      }
+    ]
+  },
+  "espn-plus": {
+    "description": "ESPN+ को 5 मिनट से कम में वेब, iOS या Android पर रद्द करें। Disney Bundle रद्दीकरण के चरण भी शामिल हैं।",
+    "difficulty": "आसान",
+    "difficultyReason": "रद्दीकरण प्रक्रिया सरल है, लेकिन Disney Bundle सभी सेवाएं एक साथ रद्द कर देता है।",
+    "refundPolicy": "कोई वापसी नहीं। बिलिंग अवधि के अंत तक पहुंच जारी रहती है।",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "DisneyPlus.com या ESPN.com पर साइन इन करें।"
+          },
+          {
+            "instruction": "अपने प्रोफाइल आइकन पर क्लिक करें → खाता।"
+          },
+          {
+            "instruction": "सदस्यता पर क्लिक करें।"
+          },
+          {
+            "instruction": "सदस्यता रद्द करें पर क्लिक करें।",
+            "note": "यदि आपके पास Disney Bundle है, तो ESPN+, Disney+ और Hulu एक साथ रद्द हो जाएंगे।"
+          },
+          {
+            "instruction": "रद्दीकरण की पुष्टि करें।"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Settings खोलें → अपने Apple ID नाम पर टैप करें।"
+          },
+          {
+            "instruction": "Subscriptions → ESPN+ पर टैप करें।"
+          },
+          {
+            "instruction": "Cancel Subscription → पुष्टि करें पर टैप करें।"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store खोलें → अपने प्रोफाइल आइकन पर टैप करें।"
+          },
+          {
+            "instruction": "Payments & subscriptions → Subscriptions → ESPN+ पर टैप करें।"
+          },
+          {
+            "instruction": "Cancel subscription → पुष्टि करें पर टैप करें।"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "क्या ESPN+ रद्द करने से पूरा Disney Bundle रद्द हो जाता है?",
+        "answer": "हां। यदि आप Disney Bundle के सदस्य हैं, तो खाते से रद्द करने पर ESPN+, Disney+ और Hulu एक साथ रद्द हो जाते हैं।"
+      },
+      {
+        "question": "मुझे रद्दीकरण विकल्प नहीं मिल रहा।",
+        "answer": "यदि आपने ESPN+ TV प्रदाता के माध्यम से सदस्यता ली है, तो आपको ESPN वेबसाइट की बजाय सीधे अपने प्रदाता के पास रद्द करना होगा।"
+      }
+    ]
+  },
+  "youtube-tv": {
+    "description": "YouTube TV को वेब या मोबाइल पर 3 मिनट से कम में रद्द करें।",
+    "difficulty": "आसान",
+    "difficultyReason": "वेब पर रद्दीकरण सरल है और केवल कुछ क्लिक में होता है।",
+    "refundPolicy": "कोई वापसी नहीं। बिलिंग अवधि के अंत तक पहुंच जारी रहती है। रद्द करने की बजाय रोक सकते हैं।",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "tv.youtube.com पर जाएं और साइन इन करें।"
+          },
+          {
+            "instruction": "अपने प्रोफाइल आइकन → Settings पर क्लिक करें।"
+          },
+          {
+            "instruction": "Membership → Cancel membership पर क्लिक करें।"
+          },
+          {
+            "instruction": "रद्दीकरण की पुष्टि के लिए निर्देशों का पालन करें।"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Settings → Apple ID नाम → Subscriptions खोलें।"
+          },
+          {
+            "instruction": "YouTube TV → Cancel Subscription → पुष्टि करें पर टैप करें।"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store → Payments & subscriptions → Subscriptions खोलें।"
+          },
+          {
+            "instruction": "YouTube TV → Cancel subscription → पुष्टि करें पर टैप करें।"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "रद्द करने पर मेरी DVR रिकॉर्डिंग का क्या होगा?",
+        "answer": "रद्दीकरण के बाद सभी DVR रिकॉर्डिंग हटा दी जाएंगी। रद्द करने से पहले उन्हें डाउनलोड या सहेज लें।"
+      },
+      {
+        "question": "क्या मैं YouTube TV को रद्द करने की बजाय रोक सकता हूं?",
+        "answer": "हां। आप अपनी सदस्यता 6 महीने तक रोक सकते हैं। Settings → Membership → Pause membership पर जाएं।"
+      }
+    ]
+  },
+  "paramount-plus": {
+    "description": "Paramount+ को 5 मिनट से कम में वेब, iOS या Android पर रद्द करें।",
+    "difficulty": "आसान",
+    "difficultyReason": "रद्दीकरण सरल है, लेकिन Apple या Amazon के माध्यम से सदस्यता लेने वालों को वहीं रद्द करना होगा।",
+    "refundPolicy": "कोई वापसी नहीं। बिलिंग अवधि के अंत तक पहुंच जारी रहती है।",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "paramountplus.com पर जाएं और साइन इन करें।"
+          },
+          {
+            "instruction": "अपने प्रोफाइल आइकन → Settings पर क्लिक करें।"
+          },
+          {
+            "instruction": "Subscription → Cancel Subscription पर क्लिक करें।",
+            "note": "यदि आपके पास SHOWTIME ऐड-ऑन है, तो वह भी रद्द हो जाएगा।"
+          },
+          {
+            "instruction": "रद्दीकरण की पुष्टि करें।"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Settings → Apple ID नाम → Subscriptions खोलें।"
+          },
+          {
+            "instruction": "Paramount+ → Cancel Subscription → पुष्टि करें पर टैप करें।"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store → Payments & subscriptions → Subscriptions खोलें।"
+          },
+          {
+            "instruction": "Paramount+ → Cancel subscription → पुष्टि करें पर टैप करें।"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "क्या SHOWTIME, Paramount+ के साथ रद्द हो जाएगा?",
+        "answer": "हां। यदि आपके पास Paramount+ with SHOWTIME प्लान है, तो दोनों सेवाएं एक साथ रद्द हो जाएंगी।"
+      },
+      {
+        "question": "मैंने Paramount+ Apple या Amazon के माध्यम से सदस्यता ली है।",
+        "answer": "आपको सीधे Apple (Settings → Subscriptions) या Amazon (Prime Video → Channels) के माध्यम से रद्द करना होगा, न कि Paramount+ वेबसाइट से।"
+      }
+    ]
+  },
+  "apple-tv-plus": {
+    "description": "iPhone, Mac या वेब के माध्यम से 2 मिनट से कम में Apple TV+ रद्द करें।",
+    "difficulty": "आसान",
+    "difficultyReason": "Apple डिवाइस या वेबसाइट के माध्यम से रद्दीकरण सरल और तेज है।",
+    "refundPolicy": "कोई वापसी नहीं। बिलिंग अवधि के अंत तक पहुंच जारी रहती है।",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "appleid.apple.com पर जाएं और साइन इन करें।"
+          },
+          {
+            "instruction": "Subscriptions पर क्लिक करें।"
+          },
+          {
+            "instruction": "Apple TV+ → Cancel Subscription पर क्लिक करें।"
+          },
+          {
+            "instruction": "रद्दीकरण की पुष्टि करें।"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Settings खोलें → ऊपर अपने नाम पर टैप करें।"
+          },
+          {
+            "instruction": "Subscriptions → Apple TV+ पर टैप करें।"
+          },
+          {
+            "instruction": "Cancel Subscription → पुष्टि करें पर टैप करें।"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Apple TV+ में सदस्यता प्रबंधन के लिए कोई Android ऐप नहीं है।"
+          },
+          {
+            "instruction": "अपने मोबाइल ब्राउज़र में appleid.apple.com पर जाएं और वेब चरणों का पालन करें।"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "क्या मुफ्त डिवाइस ट्रायल के बाद स्वचालित रूप से बिल किया जाएगा?",
+        "answer": "हां। यदि आपको डिवाइस बोनस के रूप में Apple TV+ मिला है और ट्रायल रद्द नहीं किया, तो नियमित मूल्य स्वचालित रूप से लिया जाएगा। ट्रायल समाप्त होने से पहले रद्द करें।"
+      },
+      {
+        "question": "क्या Apple TV+ रद्द करने से अन्य Apple सदस्यताएं प्रभावित होती हैं?",
+        "answer": "नहीं। Apple TV+ Apple Music, iCloud और अन्य Apple सेवाओं से अलग है। एक सेवा रद्द करने से दूसरी प्रभावित नहीं होती।"
+      }
+    ]
+  },
+  "dazn": {
+    "description": "DAZN को वेब या मोबाइल के माध्यम से 5 मिनट से कम में रद्द करें।",
+    "difficulty": "मध्यम",
+    "difficultyReason": "रद्दीकरण प्रक्रिया क्षेत्र और अनुबंध की शर्तों के अनुसार भिन्न होती है।",
+    "refundPolicy": "आंशिक महीनों के लिए कोई वापसी नहीं। बिलिंग अवधि के अंत तक पहुंच जारी रहती है।",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "dazn.com पर जाएं और साइन इन करें।"
+          },
+          {
+            "instruction": "अपने प्रोफाइल आइकन → My Account पर क्लिक करें।"
+          },
+          {
+            "instruction": "Subscription → Cancel Subscription पर क्लिक करें।",
+            "note": "सटीक इंटरफेस क्षेत्र के अनुसार भिन्न हो सकता है।"
+          },
+          {
+            "instruction": "निर्देशों का पालन करें और रद्दीकरण की पुष्टि करें।"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Settings → Apple ID नाम → Subscriptions खोलें।"
+          },
+          {
+            "instruction": "DAZN → Cancel Subscription → पुष्टि करें पर टैप करें।"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store → Payments & subscriptions → Subscriptions खोलें।"
+          },
+          {
+            "instruction": "DAZN → Cancel subscription → पुष्टि करें पर टैप करें।"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "मेरे यहां इंटरफेस अलग क्यों दिखता है?",
+        "answer": "DAZN कई देशों में उपलब्ध है और इंटरफेस व रद्दीकरण विकल्प क्षेत्र के अनुसार भिन्न हो सकते हैं।"
+      },
+      {
+        "question": "क्या मुझे शेष महीने के लिए वापसी मिलेगी?",
+        "answer": "नहीं। DAZN आंशिक महीनों की वापसी नहीं करता। आपकी पहुंच वर्तमान बिलिंग अवधि के अंत तक जारी रहेगी।"
+      }
+    ]
+  },
+  "philo": {
+    "description": "Philo को वेब, iOS या Android पर 3 मिनट से कम में रद्द करें।",
+    "difficulty": "आसान",
+    "difficultyReason": "Philo रद्दीकरण को सरल बनाता है — कोई शुल्क नहीं, कोई रुकावट नहीं।",
+    "refundPolicy": "कोई रद्दीकरण शुल्क नहीं। आंशिक महीनों के लिए कोई वापसी नहीं।",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "philo.com पर जाएं और साइन इन करें।"
+          },
+          {
+            "instruction": "Settings → Payments पर क्लिक करें।"
+          },
+          {
+            "instruction": "Cancel Plan पर क्लिक करें।"
+          },
+          {
+            "instruction": "रद्दीकरण की पुष्टि करें।"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Settings → Apple ID नाम → Subscriptions खोलें।"
+          },
+          {
+            "instruction": "Philo → Cancel Subscription → पुष्टि करें पर टैप करें।"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store → Payments & subscriptions → Subscriptions खोलें।"
+          },
+          {
+            "instruction": "Philo → Cancel subscription → पुष्टि करें पर टैप करें।"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "क्या कोई रद्दीकरण शुल्क है?",
+        "answer": "नहीं। Philo कोई रद्दीकरण शुल्क नहीं लेता। आप कभी भी रद्द कर सकते हैं।"
+      },
+      {
+        "question": "क्या मैं Philo को रद्द करने की बजाय रोक सकता हूं?",
+        "answer": "नहीं। Philo में कोई पॉज़ सुविधा नहीं है। आपको रद्द करना होगा और बाद में फिर से साइन अप करना होगा।"
+      }
+    ]
+  },
+  "sling-tv": {
+    "description": "Sling TV को वेब या मोबाइल पर 5 मिनट से कम में रद्द करें।",
+    "difficulty": "आसान",
+    "difficultyReason": "रद्दीकरण सरल है, लेकिन Sling TV आपको रोकने के लिए छूट की पेशकश कर सकता है।",
+    "refundPolicy": "कोई वापसी नहीं। बिलिंग अवधि के अंत तक पहुंच जारी रहती है। DVR रिकॉर्डिंग हटा दी जाएंगी।",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "sling.com/account/cancel-service पर जाएं और साइन इन करें।"
+          },
+          {
+            "instruction": "Cancel Service पर क्लिक करें।",
+            "note": "Sling TV रद्दीकरण पूरा होने से पहले छूट या पॉज़ विकल्प की पेशकश कर सकता है।"
+          },
+          {
+            "instruction": "सभी प्रस्तावों को अस्वीकार करें और रद्दीकरण की पुष्टि करें।"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Settings → Apple ID नाम → Subscriptions खोलें।"
+          },
+          {
+            "instruction": "Sling TV → Cancel Subscription → पुष्टि करें पर टैप करें।"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store → Payments & subscriptions → Subscriptions खोलें।"
+          },
+          {
+            "instruction": "Sling TV → Cancel subscription → पुष्टि करें पर टैप करें।"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Sling TV ने मुझे छूट की पेशकश की — क्या मैं इसे स्वीकार करूं?",
+        "answer": "यह आप पर निर्भर है। Sling TV अक्सर सदस्यों को बनाए रखने के लिए 1-2 महीने के लिए 50% छूट देता है। यदि आप केवल रुकना चाहते हैं, तो यह एक अच्छा विकल्प हो सकता है।"
+      },
+      {
+        "question": "रद्दीकरण के बाद मेरी DVR रिकॉर्डिंग का क्या होगा?",
+        "answer": "रद्दीकरण के बाद सभी DVR रिकॉर्डिंग हटा दी जाएंगी। रद्द करने से पहले महत्वपूर्ण सामग्री सहेज लें।"
+      }
+    ]
+  },
+  "whoop": {
+    "description": "WHOOP सदस्यता रद्द करें — सहायता से संपर्क करना आवश्यक हो सकता है।",
+    "difficulty": "कठिन",
+    "difficultyReason": "WHOOP में एक न्यूनतम अवधि है और रद्दीकरण प्रक्रिया में अक्सर सहायता से संपर्क की आवश्यकता होती है।",
+    "refundPolicy": "कोई वापसी नहीं। न्यूनतम अवधि लागू है। सदस्यता के बिना डिवाइस काम करना बंद कर देता है।",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "app.whoop.com पर जाएं और साइन इन करें।"
+          },
+          {
+            "instruction": "अपने प्रोफाइल आइकन → Membership पर क्लिक करें।",
+            "note": "यदि आप अभी भी न्यूनतम अवधि के भीतर हैं, तो रद्दीकरण ब्लॉक हो सकता है।"
+          },
+          {
+            "instruction": "Cancel पर क्लिक करें या support.whoop.com पर WHOOP सहायता से संपर्क करें।"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "यदि App Store के माध्यम से सदस्यता ली है: Settings → Apple ID नाम → Subscriptions → WHOOP → Cancel।"
+          },
+          {
+            "instruction": "अन्यथा WHOOP सहायता से संपर्क करें।"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "यदि Google Play के माध्यम से सदस्यता ली है: Play Store → Payments & subscriptions → WHOOP → Cancel।"
+          },
+          {
+            "instruction": "अन्यथा WHOOP सहायता से संपर्क करें।"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "न्यूनतम अवधि के कारण मेरा रद्दीकरण ब्लॉक है।",
+        "answer": "WHOOP में आमतौर पर 12 महीने की न्यूनतम अवधि होती है। यदि आप अभी भी इस अवधि में हैं, तो आपको अंत तक प्रतीक्षा करनी होगी या सहायता से संपर्क करना होगा।"
+      },
+      {
+        "question": "क्या रद्दीकरण के बाद मेरा WHOOP डिवाइस काम करेगा?",
+        "answer": "नहीं। WHOOP डिवाइस को सक्रिय सदस्यता की आवश्यकता है। सदस्यता के बिना यह काम करना बंद कर देता है।"
+      }
+    ]
+  },
+  "factor-meals": {
+    "description": "अगले सप्ताह के शुल्क से बचने के लिए बुधवार 11:59 PM CT से पहले Factor Meals रद्द करें।",
+    "difficulty": "मध्यम",
+    "difficultyReason": "साप्ताहिक रद्दीकरण की अंतिम तिथि (बुधवार 11:59 PM CT) सख्त है और आसानी से छूट जाती है।",
+    "refundPolicy": "समय सीमा चूकने पर कोई वापसी नहीं। पहले से प्रोसेस किए गए ऑर्डर रद्द नहीं किए जा सकते।",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "factor75.com पर जाएं और साइन इन करें।"
+          },
+          {
+            "instruction": "Account Settings → Plan Settings पर क्लिक करें।"
+          },
+          {
+            "instruction": "Cancel Plan पर क्लिक करें।",
+            "note": "अगली डिलीवरी के शुल्क से बचने के लिए बुधवार 11:59 PM CT से पहले रद्द करें।"
+          },
+          {
+            "instruction": "रद्दीकरण की पुष्टि करें।"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Factor Meals में इन-ऐप रद्दीकरण विकल्प नहीं है।"
+          },
+          {
+            "instruction": "मोबाइल ब्राउज़र में factor75.com खोलें और वेब चरणों का पालन करें।"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Factor Meals में इन-ऐप रद्दीकरण विकल्प नहीं है।"
+          },
+          {
+            "instruction": "मोबाइल ब्राउज़र में factor75.com खोलें और वेब चरणों का पालन करें।"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "मैंने बुधवार की समय सीमा चूक दी — क्या मुझसे शुल्क लिया जाएगा?",
+        "answer": "हां। यदि आपने समय सीमा (बुधवार 11:59 PM CT) चूक दी है, तो अगला सप्ताह पहले से प्रोसेस हो चुका है और शुल्क लिया जाएगा। यदि आपको लगता है कि कोई त्रुटि है तो सहायता से संपर्क करें।"
+      },
+      {
+        "question": "क्या मैं रद्द करने की बजाय डिलीवरी रोक सकता हूं?",
+        "answer": "हां। आप पूरी तरह रद्द करने की बजाय अलग-अलग सप्ताह छोड़ सकते हैं या अपनी योजना रोक सकते हैं। यह एक अच्छा विकल्प है यदि आप केवल विराम चाहते हैं।"
+      }
+    ]
+  },
+  "stitch-fix": {
+    "description": "अपनी Stitch Fix सदस्यता को 2 मिनट में ऑनलाइन रद्द या रोकें।",
+    "difficulty": "आसान",
+    "difficultyReason": "रद्दीकरण सरल है, लेकिन Fixes रद्द करना खाता बंद करने के समान नहीं है।",
+    "refundPolicy": "भेजे गए Fixes के लिए कोई वापसी नहीं। अवांछित वस्तुएं 3 दिनों के भीतर वापस करें।",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "stitchfix.com पर जाएं और साइन इन करें।"
+          },
+          {
+            "instruction": "Account Settings → Fix Schedule पर क्लिक करें।"
+          },
+          {
+            "instruction": "Cancel Fixes पर क्लिक करें।"
+          },
+          {
+            "instruction": "रद्दीकरण की पुष्टि करें।"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Stitch Fix ऐप के माध्यम से सदस्यता प्रबंधित नहीं करता।"
+          },
+          {
+            "instruction": "अपने ब्राउज़र में stitchfix.com पर जाएं और वेब चरणों का पालन करें।"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Stitch Fix ऐप के माध्यम से सदस्यता प्रबंधित नहीं करता।"
+          },
+          {
+            "instruction": "अपने ब्राउज़र में stitchfix.com पर जाएं और वेब चरणों का पालन करें।"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "क्या Fixes रद्द करना मेरा खाता बंद करने के समान है?",
+        "answer": "नहीं। Fixes रद्द करने का मतलब है कि आपको और नई डिलीवरी नहीं मिलेगी। आपका खाता सक्रिय रहेगा। खाता पूरी तरह बंद करने के लिए सहायता से संपर्क करें।"
+      },
+      {
+        "question": "मुझे एक Fix मिला जिसे मैं नहीं रखना चाहता।",
+        "answer": "प्राप्ति के 3 दिनों के भीतर अवांछित वस्तुएं वापस करें। उसके बाद रखी गई वस्तुओं का शुल्क लिया जाएगा।"
+      }
     ]
   }
 }

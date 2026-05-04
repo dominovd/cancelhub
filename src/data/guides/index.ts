@@ -21,6 +21,16 @@ import { xfinity } from './xfinity'
 import { fuboTV } from './fubotv'
 import { uberEats } from './uber-eats'
 import { instacart } from './instacart'
+import { espnPlus } from './espn-plus'
+import { youtubeTv } from './youtube-tv'
+import { paramountPlus } from './paramount-plus'
+import { appleTvPlus } from './apple-tv-plus'
+import { dazn } from './dazn'
+import { philo } from './philo'
+import { slingTv } from './sling-tv'
+import { whoop } from './whoop'
+import { factorMeals } from './factor-meals'
+import { stitchFix } from './stitch-fix'
 
 export const allGuides: CancelGuide[] = [
   netflix,
@@ -45,6 +55,16 @@ export const allGuides: CancelGuide[] = [
   fuboTV,
   uberEats,
   instacart,
+  espnPlus,
+  youtubeTv,
+  paramountPlus,
+  appleTvPlus,
+  dazn,
+  philo,
+  slingTv,
+  whoop,
+  factorMeals,
+  stitchFix,
 ]
 
 export const guidesBySlug: Record<string, CancelGuide> = Object.fromEntries(

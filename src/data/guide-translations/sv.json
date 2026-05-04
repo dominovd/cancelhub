@@ -6,29 +6,61 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Gå till netflix.com och logga in." },
-          { "instruction": "Klicka på din profilikon → Konto." },
-          { "instruction": "Under \"Medlemskap\", klicka på \"Avsluta medlemskap\"." },
-          { "instruction": "Klicka på \"Slutför avslutning\" för att bekräfta." },
-          { "instruction": "Du får ett bekräftelsemail. Spara det som bevis.", "note": "Åtkomsten fortsätter till slutet av din aktuella faktureringsperiod." }
+          {
+            "instruction": "Gå till netflix.com och logga in."
+          },
+          {
+            "instruction": "Klicka på din profilikon → Konto."
+          },
+          {
+            "instruction": "Under \"Medlemskap\", klicka på \"Avsluta medlemskap\"."
+          },
+          {
+            "instruction": "Klicka på \"Slutför avslutning\" för att bekräfta."
+          },
+          {
+            "instruction": "Du får ett bekräftelsemail. Spara det som bevis.",
+            "note": "Åtkomsten fortsätter till slutet av din aktuella faktureringsperiod."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Öppna iPhone-inställningar → tryck på ditt namn längst upp." },
-          { "instruction": "Tryck på \"Prenumerationer\"." },
-          { "instruction": "Hitta och tryck på \"Netflix\"." },
-          { "instruction": "Tryck på \"Avsluta prenumeration\" → Bekräfta." },
-          { "instruction": "Du behåller åtkomsten till slutet av faktureringsperioden.", "note": "Apple utfärdar inte delvisa återbetalningar." }
+          {
+            "instruction": "Öppna iPhone-inställningar → tryck på ditt namn längst upp."
+          },
+          {
+            "instruction": "Tryck på \"Prenumerationer\"."
+          },
+          {
+            "instruction": "Hitta och tryck på \"Netflix\"."
+          },
+          {
+            "instruction": "Tryck på \"Avsluta prenumeration\" → Bekräfta."
+          },
+          {
+            "instruction": "Du behåller åtkomsten till slutet av faktureringsperioden.",
+            "note": "Apple utfärdar inte delvisa återbetalningar."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Öppna Google Play Butik." },
-          { "instruction": "Tryck på din profilikon → \"Betalningar och prenumerationer\" → \"Prenumerationer\"." },
-          { "instruction": "Hitta \"Netflix\" och tryck på det." },
-          { "instruction": "Tryck på \"Avsluta prenumeration\" och följ anvisningarna." },
-          { "instruction": "Åtkomsten fortsätter till slutet av faktureringsperioden." }
+          {
+            "instruction": "Öppna Google Play Butik."
+          },
+          {
+            "instruction": "Tryck på din profilikon → \"Betalningar och prenumerationer\" → \"Prenumerationer\"."
+          },
+          {
+            "instruction": "Hitta \"Netflix\" och tryck på det."
+          },
+          {
+            "instruction": "Tryck på \"Avsluta prenumeration\" och följ anvisningarna."
+          },
+          {
+            "instruction": "Åtkomsten fortsätter till slutet av faktureringsperioden."
+          }
         ]
       }
     },
@@ -47,9 +79,15 @@
       }
     ],
     "alternatives": [
-      { "description": "Reklamfri, 99 kr/mån" },
-      { "description": "Disney, Marvel, Star Wars — 79 kr/mån" },
-      { "description": "HBO-innehåll — 99 kr/mån" }
+      {
+        "description": "Reklamfri, 99 kr/mån"
+      },
+      {
+        "description": "Disney, Marvel, Star Wars — 79 kr/mån"
+      },
+      {
+        "description": "HBO-innehåll — 99 kr/mån"
+      }
     ]
   },
   "spotify": {
@@ -59,26 +97,51 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Gå till spotify.com/account och logga in." },
-          { "instruction": "Klicka på \"Byt plan\" eller scrolla till \"Din plan\"." },
-          { "instruction": "Scrolla ned och klicka på \"Avsluta Premium\"." },
-          { "instruction": "Följ bekräftelsestegen (Spotify kan erbjuda rabatt — hoppa över om du inte är intresserad)." },
-          { "instruction": "Klicka på \"Avsluta ändå\" för att bekräfta. Du får ett bekräftelsemail.", "note": "Du behåller Premium till slutet av faktureringsperioden." }
+          {
+            "instruction": "Gå till spotify.com/account och logga in."
+          },
+          {
+            "instruction": "Klicka på \"Byt plan\" eller scrolla till \"Din plan\"."
+          },
+          {
+            "instruction": "Scrolla ned och klicka på \"Avsluta Premium\"."
+          },
+          {
+            "instruction": "Följ bekräftelsestegen (Spotify kan erbjuda rabatt — hoppa över om du inte är intresserad)."
+          },
+          {
+            "instruction": "Klicka på \"Avsluta ändå\" för att bekräfta. Du får ett bekräftelsemail.",
+            "note": "Du behåller Premium till slutet av faktureringsperioden."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Öppna iPhone-inställningar → tryck på ditt Apple-ID-namn." },
-          { "instruction": "Tryck på \"Prenumerationer\" → hitta Spotify." },
-          { "instruction": "Tryck på \"Avsluta prenumeration\" → Bekräfta." }
+          {
+            "instruction": "Öppna iPhone-inställningar → tryck på ditt Apple-ID-namn."
+          },
+          {
+            "instruction": "Tryck på \"Prenumerationer\" → hitta Spotify."
+          },
+          {
+            "instruction": "Tryck på \"Avsluta prenumeration\" → Bekräfta."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Öppna Google Play Butik → tryck på din profilikon." },
-          { "instruction": "Gå till \"Betalningar och prenumerationer\" → \"Prenumerationer\"." },
-          { "instruction": "Hitta Spotify → tryck på \"Avsluta prenumeration\"." },
-          { "instruction": "Följ bekräftelseanvisningarna." }
+          {
+            "instruction": "Öppna Google Play Butik → tryck på din profilikon."
+          },
+          {
+            "instruction": "Gå till \"Betalningar och prenumerationer\" → \"Prenumerationer\"."
+          },
+          {
+            "instruction": "Hitta Spotify → tryck på \"Avsluta prenumeration\"."
+          },
+          {
+            "instruction": "Följ bekräftelseanvisningarna."
+          }
         ]
       }
     },
@@ -93,8 +156,12 @@
       }
     ],
     "alternatives": [
-      { "description": "109 kr/mån, bra om du är i Apples ekosystem" },
-      { "description": "109 kr/mån, ingår i YouTube Premium" }
+      {
+        "description": "109 kr/mån, bra om du är i Apples ekosystem"
+      },
+      {
+        "description": "109 kr/mån, ingår i YouTube Premium"
+      }
     ]
   },
   "adobe": {
@@ -104,24 +171,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Gå till account.adobe.com och logga in." },
-          { "instruction": "Klicka på \"Planer och produkter\" i den vänstra sidopanelen." },
-          { "instruction": "Hitta din Creative Cloud-plan och klicka på \"Hantera plan\"." },
-          { "instruction": "Klicka på \"Avsluta din plan\".", "note": "Adobe visar avgiften för förtida avslutning vid det här steget." },
-          { "instruction": "Välj ett skäl → Adobe kommer att ge flera erbjudanden (rabatter, pauser). Klicka på \"Fortsätt till avslutning\" varje gång." },
-          { "instruction": "Bekräfta avslutningen. Spara bekräftelsenumret." }
+          {
+            "instruction": "Gå till account.adobe.com och logga in."
+          },
+          {
+            "instruction": "Klicka på \"Planer och produkter\" i den vänstra sidopanelen."
+          },
+          {
+            "instruction": "Hitta din Creative Cloud-plan och klicka på \"Hantera plan\"."
+          },
+          {
+            "instruction": "Klicka på \"Avsluta din plan\".",
+            "note": "Adobe visar avgiften för förtida avslutning vid det här steget."
+          },
+          {
+            "instruction": "Välj ett skäl → Adobe kommer att ge flera erbjudanden (rabatter, pauser). Klicka på \"Fortsätt till avslutning\" varje gång."
+          },
+          {
+            "instruction": "Bekräfta avslutningen. Spara bekräftelsenumret."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Om du prenumererade via App Store: öppna Inställningar → Apple-ID → Prenumerationer → Adobe → Avsluta." },
-          { "instruction": "Om du prenumererade direkt hos Adobe: använd webstegen ovan — appen stöder inte direkt avslutning." }
+          {
+            "instruction": "Om du prenumererade via App Store: öppna Inställningar → Apple-ID → Prenumerationer → Adobe → Avsluta."
+          },
+          {
+            "instruction": "Om du prenumererade direkt hos Adobe: använd webstegen ovan — appen stöder inte direkt avslutning."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Om du prenumererade via Google Play: öppna Play Butik → Prenumerationer → Adobe → Avsluta." },
-          { "instruction": "Om du prenumererade direkt hos Adobe: använd webstegen ovan." }
+          {
+            "instruction": "Om du prenumererade via Google Play: öppna Play Butik → Prenumerationer → Adobe → Avsluta."
+          },
+          {
+            "instruction": "Om du prenumererade direkt hos Adobe: använd webstegen ovan."
+          }
         ]
       }
     },
@@ -140,9 +228,15 @@
       }
     ],
     "alternatives": [
-      { "description": "Engångsköp, ingen prenumeration. Alternativ till Photoshop/Illustrator." },
-      { "description": "129 kr/mån — bra för icke-designers" },
-      { "description": "Gratisplan tillgänglig, bäst för UI/UX-design" }
+      {
+        "description": "Engångsköp, ingen prenumeration. Alternativ till Photoshop/Illustrator."
+      },
+      {
+        "description": "129 kr/mån — bra för icke-designers"
+      },
+      {
+        "description": "Gratisplan tillgänglig, bäst för UI/UX-design"
+      }
     ]
   },
   "chatgpt": {
@@ -152,26 +246,51 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Gå till chatgpt.com och logga in." },
-          { "instruction": "Klicka på ditt namn eller profilikon nere till vänster." },
-          { "instruction": "Gå till \"Inställningar\" → \"Prenumeration\"." },
-          { "instruction": "Klicka på \"Hantera min prenumeration\"." },
-          { "instruction": "Klicka på \"Avsluta plan\" → Bekräfta." },
-          { "instruction": "Du får ett bekräftelsemail. Plus-åtkomsten fortsätter till slutet av perioden.", "note": "ChatGPT återgår automatiskt till gratisplanen." }
+          {
+            "instruction": "Gå till chatgpt.com och logga in."
+          },
+          {
+            "instruction": "Klicka på ditt namn eller profilikon nere till vänster."
+          },
+          {
+            "instruction": "Gå till \"Inställningar\" → \"Prenumeration\"."
+          },
+          {
+            "instruction": "Klicka på \"Hantera min prenumeration\"."
+          },
+          {
+            "instruction": "Klicka på \"Avsluta plan\" → Bekräfta."
+          },
+          {
+            "instruction": "Du får ett bekräftelsemail. Plus-åtkomsten fortsätter till slutet av perioden.",
+            "note": "ChatGPT återgår automatiskt till gratisplanen."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Öppna Inställningar → tryck på ditt Apple-ID-namn → Prenumerationer." },
-          { "instruction": "Hitta \"ChatGPT\" → tryck på det." },
-          { "instruction": "Tryck på \"Avsluta prenumeration\" → Bekräfta." }
+          {
+            "instruction": "Öppna Inställningar → tryck på ditt Apple-ID-namn → Prenumerationer."
+          },
+          {
+            "instruction": "Hitta \"ChatGPT\" → tryck på det."
+          },
+          {
+            "instruction": "Tryck på \"Avsluta prenumeration\" → Bekräfta."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Öppna Google Play Butik → profilikon → \"Betalningar och prenumerationer\" → \"Prenumerationer\"." },
-          { "instruction": "Hitta \"ChatGPT\" → tryck på \"Avsluta prenumeration\"." },
-          { "instruction": "Följ bekräftelseanvisningarna." }
+          {
+            "instruction": "Öppna Google Play Butik → profilikon → \"Betalningar och prenumerationer\" → \"Prenumerationer\"."
+          },
+          {
+            "instruction": "Hitta \"ChatGPT\" → tryck på \"Avsluta prenumeration\"."
+          },
+          {
+            "instruction": "Följ bekräftelseanvisningarna."
+          }
         ]
       }
     },
@@ -186,9 +305,15 @@
       }
     ],
     "alternatives": [
-      { "description": "Anthropics AI — gratisplan + 200 kr/mån Pro" },
-      { "description": "Googles AI — 199 kr/mån, ingår i Google One AI Premium" },
-      { "description": "200 kr/mån — AI-sökmotor" }
+      {
+        "description": "Anthropics AI — gratisplan + 200 kr/mån Pro"
+      },
+      {
+        "description": "Googles AI — 199 kr/mån, ingår i Google One AI Premium"
+      },
+      {
+        "description": "200 kr/mån — AI-sökmotor"
+      }
     ]
   },
   "amazon-prime": {
@@ -198,28 +323,57 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Gå till amazon.se → håll muspekaren över \"Konto och listor\" → klicka på \"Konto\"." },
-          { "instruction": "Klicka på \"Prime\" eller sök efter \"Hantera Prime-medlemskap\" i kontoinställningarna." },
-          { "instruction": "Klicka på \"Uppdatera, avsluta och mer\" → \"Avsluta medlemskap\"." },
-          { "instruction": "Välj \"Avsluta medlemskap\" (inte \"Påminn mig senare\" eller andra alternativ Amazon visar).", "note": "Amazon visar återbetalningsbeloppet om du är berättigad." },
-          { "instruction": "Klicka på \"Avsluta medlemskap\" för att bekräfta." },
-          { "instruction": "Kontrollera din e-post för bekräftelse." }
+          {
+            "instruction": "Gå till amazon.se → håll muspekaren över \"Konto och listor\" → klicka på \"Konto\"."
+          },
+          {
+            "instruction": "Klicka på \"Prime\" eller sök efter \"Hantera Prime-medlemskap\" i kontoinställningarna."
+          },
+          {
+            "instruction": "Klicka på \"Uppdatera, avsluta och mer\" → \"Avsluta medlemskap\"."
+          },
+          {
+            "instruction": "Välj \"Avsluta medlemskap\" (inte \"Påminn mig senare\" eller andra alternativ Amazon visar).",
+            "note": "Amazon visar återbetalningsbeloppet om du är berättigad."
+          },
+          {
+            "instruction": "Klicka på \"Avsluta medlemskap\" för att bekräfta."
+          },
+          {
+            "instruction": "Kontrollera din e-post för bekräftelse."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Öppna Amazon Shopping-appen → tryck på de tre strecken (meny)." },
-          { "instruction": "Scrolla till \"Konto\" → tryck på \"Hantera Prime-medlemskap\"." },
-          { "instruction": "Tryck på \"Uppdatera, avsluta och mer\" → \"Avsluta medlemskap\"." },
-          { "instruction": "Följ samma anvisningar som webbversionen." },
-          { "instruction": "Obs: Om du prenumererade via Apple, avsluta via iOS-inställningar → Prenumerationer istället." }
+          {
+            "instruction": "Öppna Amazon Shopping-appen → tryck på de tre strecken (meny)."
+          },
+          {
+            "instruction": "Scrolla till \"Konto\" → tryck på \"Hantera Prime-medlemskap\"."
+          },
+          {
+            "instruction": "Tryck på \"Uppdatera, avsluta och mer\" → \"Avsluta medlemskap\"."
+          },
+          {
+            "instruction": "Följ samma anvisningar som webbversionen."
+          },
+          {
+            "instruction": "Obs: Om du prenumererade via Apple, avsluta via iOS-inställningar → Prenumerationer istället."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Öppna Amazon Shopping-appen → meny → \"Konto\"." },
-          { "instruction": "Tryck på \"Hantera Prime-medlemskap\" → \"Avsluta medlemskap\"." },
-          { "instruction": "Om du prenumererade via Google Play, avsluta via Play Butik → Prenumerationer istället." }
+          {
+            "instruction": "Öppna Amazon Shopping-appen → meny → \"Konto\"."
+          },
+          {
+            "instruction": "Tryck på \"Hantera Prime-medlemskap\" → \"Avsluta medlemskap\"."
+          },
+          {
+            "instruction": "Om du prenumererade via Google Play, avsluta via Play Butik → Prenumerationer istället."
+          }
         ]
       }
     },
@@ -245,26 +399,51 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Gå till disneyplus.com och logga in." },
-          { "instruction": "Klicka på din profilikon → \"Konto\"." },
-          { "instruction": "Under \"Prenumeration\", klicka på \"Avsluta prenumeration\"." },
-          { "instruction": "Välj ett skäl → klicka på \"Fortsätt\"." },
-          { "instruction": "Klicka på \"Avsluta prenumeration\" för att bekräfta." },
-          { "instruction": "Du får ett bekräftelsemail.", "note": "Åtkomsten fortsätter till ditt faktureringsdatum." }
+          {
+            "instruction": "Gå till disneyplus.com och logga in."
+          },
+          {
+            "instruction": "Klicka på din profilikon → \"Konto\"."
+          },
+          {
+            "instruction": "Under \"Prenumeration\", klicka på \"Avsluta prenumeration\"."
+          },
+          {
+            "instruction": "Välj ett skäl → klicka på \"Fortsätt\"."
+          },
+          {
+            "instruction": "Klicka på \"Avsluta prenumeration\" för att bekräfta."
+          },
+          {
+            "instruction": "Du får ett bekräftelsemail.",
+            "note": "Åtkomsten fortsätter till ditt faktureringsdatum."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Öppna Inställningar → tryck på ditt namn → Prenumerationer." },
-          { "instruction": "Hitta \"Disney+\" → tryck på det." },
-          { "instruction": "Tryck på \"Avsluta prenumeration\" → bekräfta." }
+          {
+            "instruction": "Öppna Inställningar → tryck på ditt namn → Prenumerationer."
+          },
+          {
+            "instruction": "Hitta \"Disney+\" → tryck på det."
+          },
+          {
+            "instruction": "Tryck på \"Avsluta prenumeration\" → bekräfta."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Öppna Google Play Butik → profil → \"Betalningar och prenumerationer\" → \"Prenumerationer\"." },
-          { "instruction": "Hitta Disney+ → tryck på \"Avsluta prenumeration\"." },
-          { "instruction": "Slutför bekräftelseflödet." }
+          {
+            "instruction": "Öppna Google Play Butik → profil → \"Betalningar och prenumerationer\" → \"Prenumerationer\"."
+          },
+          {
+            "instruction": "Hitta Disney+ → tryck på \"Avsluta prenumeration\"."
+          },
+          {
+            "instruction": "Slutför bekräftelseflödet."
+          }
         ]
       }
     },
@@ -286,25 +465,48 @@
     "platforms": {
       "ios": {
         "steps": [
-          { "instruction": "Öppna Inställningar → tryck på ditt namn längst upp." },
-          { "instruction": "Tryck på \"Prenumerationer\"." },
-          { "instruction": "Tryck på \"Apple Music\"." },
-          { "instruction": "Tryck på \"Avsluta prenumeration\" → Bekräfta.", "note": "Om du är i en gratis provperiod ser du provperiodens slutdatum." }
+          {
+            "instruction": "Öppna Inställningar → tryck på ditt namn längst upp."
+          },
+          {
+            "instruction": "Tryck på \"Prenumerationer\"."
+          },
+          {
+            "instruction": "Tryck på \"Apple Music\"."
+          },
+          {
+            "instruction": "Tryck på \"Avsluta prenumeration\" → Bekräfta.",
+            "note": "Om du är i en gratis provperiod ser du provperiodens slutdatum."
+          }
         ]
       },
       "web": {
         "steps": [
-          { "instruction": "Öppna Music-appen på Mac → klicka på ditt namn → Kontoinställningar. Eller besök music.apple.com och logga in." },
-          { "instruction": "Hitta \"Prenumerationer\" → klicka på \"Hantera\"." },
-          { "instruction": "Hitta Apple Music → klicka på \"Redigera\" → \"Avsluta prenumeration\"." },
-          { "instruction": "Bekräfta avslutningen." }
+          {
+            "instruction": "Öppna Music-appen på Mac → klicka på ditt namn → Kontoinställningar. Eller besök music.apple.com och logga in."
+          },
+          {
+            "instruction": "Hitta \"Prenumerationer\" → klicka på \"Hantera\"."
+          },
+          {
+            "instruction": "Hitta Apple Music → klicka på \"Redigera\" → \"Avsluta prenumeration\"."
+          },
+          {
+            "instruction": "Bekräfta avslutningen."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Öppna Apple Music-appen på Android." },
-          { "instruction": "Tryck på din profil → Kontoinställningar → Prenumerationer." },
-          { "instruction": "Tryck på \"Avsluta prenumeration\" → Bekräfta." }
+          {
+            "instruction": "Öppna Apple Music-appen på Android."
+          },
+          {
+            "instruction": "Tryck på din profil → Kontoinställningar → Prenumerationer."
+          },
+          {
+            "instruction": "Tryck på \"Avsluta prenumeration\" → Bekräfta."
+          }
         ]
       }
     },
@@ -326,24 +528,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Gå till account.microsoft.com och logga in." },
-          { "instruction": "Klicka på \"Tjänster och prenumerationer\" i den övre navigationen." },
-          { "instruction": "Hitta Microsoft 365 → klicka på \"Hantera\"." },
-          { "instruction": "Klicka på \"Avsluta\" under prenumerationsdetaljerna." },
-          { "instruction": "Följ anvisningarna. Microsoft kan erbjuda rabatt — hoppa över om du vill avsluta.", "note": "Om du har mer än 5 GB i OneDrive, ladda ned dina filer först." },
-          { "instruction": "Bekräfta avslutningen. Du får ett bekräftelsemail." }
+          {
+            "instruction": "Gå till account.microsoft.com och logga in."
+          },
+          {
+            "instruction": "Klicka på \"Tjänster och prenumerationer\" i den övre navigationen."
+          },
+          {
+            "instruction": "Hitta Microsoft 365 → klicka på \"Hantera\"."
+          },
+          {
+            "instruction": "Klicka på \"Avsluta\" under prenumerationsdetaljerna."
+          },
+          {
+            "instruction": "Följ anvisningarna. Microsoft kan erbjuda rabatt — hoppa över om du vill avsluta.",
+            "note": "Om du har mer än 5 GB i OneDrive, ladda ned dina filer först."
+          },
+          {
+            "instruction": "Bekräfta avslutningen. Du får ett bekräftelsemail."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Om du prenumererade via App Store: Inställningar → Apple-ID → Prenumerationer → Microsoft 365 → Avsluta." },
-          { "instruction": "Om du prenumererade direkt via Microsoft: använd webstegen ovan." }
+          {
+            "instruction": "Om du prenumererade via App Store: Inställningar → Apple-ID → Prenumerationer → Microsoft 365 → Avsluta."
+          },
+          {
+            "instruction": "Om du prenumererade direkt via Microsoft: använd webstegen ovan."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Om du prenumererade via Google Play: Play Butik → Prenumerationer → Microsoft 365 → Avsluta." },
-          { "instruction": "Om du prenumererade direkt: använd webstegen ovan." }
+          {
+            "instruction": "Om du prenumererade via Google Play: Play Butik → Prenumerationer → Microsoft 365 → Avsluta."
+          },
+          {
+            "instruction": "Om du prenumererade direkt: använd webstegen ovan."
+          }
         ]
       }
     },
@@ -362,8 +585,12 @@
       }
     ],
     "alternatives": [
-      { "description": "Docs, Kalkylark, Presentationer — gratis med Google-konto" },
-      { "description": "Gratis, öppen källkod-alternativ till Office" }
+      {
+        "description": "Docs, Kalkylark, Presentationer — gratis med Google-konto"
+      },
+      {
+        "description": "Gratis, öppen källkod-alternativ till Office"
+      }
     ]
   },
   "claude": {
@@ -373,23 +600,42 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Gå till claude.ai och logga in." },
-          { "instruction": "Klicka på din profilikon → \"Inställningar\"." },
-          { "instruction": "Gå till \"Fakturering\" i sidopanelen." },
-          { "instruction": "Klicka på \"Avsluta plan\" eller \"Avsluta prenumeration\"." },
-          { "instruction": "Bekräfta avslutningen.", "note": "Pro-åtkomsten fortsätter till slutet av din faktureringsperiod." }
+          {
+            "instruction": "Gå till claude.ai och logga in."
+          },
+          {
+            "instruction": "Klicka på din profilikon → \"Inställningar\"."
+          },
+          {
+            "instruction": "Gå till \"Fakturering\" i sidopanelen."
+          },
+          {
+            "instruction": "Klicka på \"Avsluta plan\" eller \"Avsluta prenumeration\"."
+          },
+          {
+            "instruction": "Bekräfta avslutningen.",
+            "note": "Pro-åtkomsten fortsätter till slutet av din faktureringsperiod."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Om du prenumererade via App Store: Inställningar → Apple-ID → Prenumerationer → Claude → Avsluta." },
-          { "instruction": "Om du prenumererade direkt via Anthropic: använd webstegen ovan." }
+          {
+            "instruction": "Om du prenumererade via App Store: Inställningar → Apple-ID → Prenumerationer → Claude → Avsluta."
+          },
+          {
+            "instruction": "Om du prenumererade direkt via Anthropic: använd webstegen ovan."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Öppna Google Play Butik → profil → Prenumerationer." },
-          { "instruction": "Hitta Claude → tryck på \"Avsluta prenumeration\" → bekräfta." }
+          {
+            "instruction": "Öppna Google Play Butik → profil → Prenumerationer."
+          },
+          {
+            "instruction": "Hitta Claude → tryck på \"Avsluta prenumeration\" → bekräfta."
+          }
         ]
       }
     },
@@ -404,8 +650,12 @@
       }
     ],
     "alternatives": [
-      { "description": "200 kr/mån — OpenAIs GPT-4o och mer" },
-      { "description": "199 kr/mån — Googles mest kapabla AI" }
+      {
+        "description": "200 kr/mån — OpenAIs GPT-4o och mer"
+      },
+      {
+        "description": "199 kr/mån — Googles mest kapabla AI"
+      }
     ]
   },
   "youtube-premium": {
@@ -414,25 +664,48 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Gå till youtube.com/paid_memberships och logga in." },
-          { "instruction": "Hitta \"YouTube Premium\" → klicka på \"Hantera medlemskap\"." },
-          { "instruction": "Klicka på \"Inaktivera\"." },
-          { "instruction": "Följ bekräftelsestegen → klicka på \"Fortsätt till avslutning\"." },
-          { "instruction": "Bekräfta. Du behåller Premium till slutet av faktureringsperioden.", "note": "YouTube Music Premium ingår och avslutas också." }
+          {
+            "instruction": "Gå till youtube.com/paid_memberships och logga in."
+          },
+          {
+            "instruction": "Hitta \"YouTube Premium\" → klicka på \"Hantera medlemskap\"."
+          },
+          {
+            "instruction": "Klicka på \"Inaktivera\"."
+          },
+          {
+            "instruction": "Följ bekräftelsestegen → klicka på \"Fortsätt till avslutning\"."
+          },
+          {
+            "instruction": "Bekräfta. Du behåller Premium till slutet av faktureringsperioden.",
+            "note": "YouTube Music Premium ingår och avslutas också."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Öppna Inställningar → tryck på ditt namn → Prenumerationer." },
-          { "instruction": "Hitta \"YouTube Premium\" → tryck på det." },
-          { "instruction": "Tryck på \"Avsluta prenumeration\" → Bekräfta." }
+          {
+            "instruction": "Öppna Inställningar → tryck på ditt namn → Prenumerationer."
+          },
+          {
+            "instruction": "Hitta \"YouTube Premium\" → tryck på det."
+          },
+          {
+            "instruction": "Tryck på \"Avsluta prenumeration\" → Bekräfta."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Öppna Google Play Butik → profil → \"Betalningar och prenumerationer\" → Prenumerationer." },
-          { "instruction": "Hitta \"YouTube Premium\" → tryck på \"Avsluta prenumeration\"." },
-          { "instruction": "Följ bekräftelseflödet." }
+          {
+            "instruction": "Öppna Google Play Butik → profil → \"Betalningar och prenumerationer\" → Prenumerationer."
+          },
+          {
+            "instruction": "Hitta \"YouTube Premium\" → tryck på \"Avsluta prenumeration\"."
+          },
+          {
+            "instruction": "Följ bekräftelseflödet."
+          }
         ]
       }
     },
@@ -454,25 +727,47 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Gå till hulu.com och logga in." },
-          { "instruction": "Klicka på din profilikon → \"Konto\"." },
-          { "instruction": "Under \"Din prenumeration\", klicka på \"Avsluta\"." },
-          { "instruction": "Välj ett skäl → Hulu ger erbjudanden. Klicka på \"Fortsätt till avslutning\"." },
-          { "instruction": "Klicka på \"Avsluta prenumeration\" för att bekräfta." },
-          { "instruction": "Du får ett bekräftelsemail." }
+          {
+            "instruction": "Gå till hulu.com och logga in."
+          },
+          {
+            "instruction": "Klicka på din profilikon → \"Konto\"."
+          },
+          {
+            "instruction": "Under \"Din prenumeration\", klicka på \"Avsluta\"."
+          },
+          {
+            "instruction": "Välj ett skäl → Hulu ger erbjudanden. Klicka på \"Fortsätt till avslutning\"."
+          },
+          {
+            "instruction": "Klicka på \"Avsluta prenumeration\" för att bekräfta."
+          },
+          {
+            "instruction": "Du får ett bekräftelsemail."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Öppna Inställningar → tryck på ditt namn → Prenumerationer." },
-          { "instruction": "Hitta \"Hulu\" → tryck på det." },
-          { "instruction": "Tryck på \"Avsluta prenumeration\" → Bekräfta." }
+          {
+            "instruction": "Öppna Inställningar → tryck på ditt namn → Prenumerationer."
+          },
+          {
+            "instruction": "Hitta \"Hulu\" → tryck på det."
+          },
+          {
+            "instruction": "Tryck på \"Avsluta prenumeration\" → Bekräfta."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Öppna Google Play Butik → profil → Prenumerationer → hitta Hulu." },
-          { "instruction": "Tryck på \"Avsluta prenumeration\" → följ anvisningarna." }
+          {
+            "instruction": "Öppna Google Play Butik → profil → Prenumerationer → hitta Hulu."
+          },
+          {
+            "instruction": "Tryck på \"Avsluta prenumeration\" → följ anvisningarna."
+          }
         ]
       }
     },
@@ -494,23 +789,42 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Gå till my.nordaccount.com och logga in." },
-          { "instruction": "Klicka på \"Fakturering\" eller \"Prenumeration\" i den vänstra sidopanelen." },
-          { "instruction": "Hitta din plan → klicka på \"Avsluta automatisk förnyelse\" eller \"Avsluta prenumeration\"." },
-          { "instruction": "Bekräfta avslutningen." },
-          { "instruction": "För återbetalning: starta en livechatt på nordvpn.com/support och begär den. Återbetalningar behandlas inom 5–10 arbetsdagar.", "note": "NordVPN erbjuder inte återbetalningar via kontopanelen — du måste kontakta supporten." }
+          {
+            "instruction": "Gå till my.nordaccount.com och logga in."
+          },
+          {
+            "instruction": "Klicka på \"Fakturering\" eller \"Prenumeration\" i den vänstra sidopanelen."
+          },
+          {
+            "instruction": "Hitta din plan → klicka på \"Avsluta automatisk förnyelse\" eller \"Avsluta prenumeration\"."
+          },
+          {
+            "instruction": "Bekräfta avslutningen."
+          },
+          {
+            "instruction": "För återbetalning: starta en livechatt på nordvpn.com/support och begär den. Återbetalningar behandlas inom 5–10 arbetsdagar.",
+            "note": "NordVPN erbjuder inte återbetalningar via kontopanelen — du måste kontakta supporten."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Om du prenumererade via App Store: Inställningar → Apple-ID → Prenumerationer → NordVPN → Avsluta." },
-          { "instruction": "Obs: App Store-prenumerationer är inte berättigade till NordVPNs 30-dagarsåterbetalning. Kontakta Apple istället." }
+          {
+            "instruction": "Om du prenumererade via App Store: Inställningar → Apple-ID → Prenumerationer → NordVPN → Avsluta."
+          },
+          {
+            "instruction": "Obs: App Store-prenumerationer är inte berättigade till NordVPNs 30-dagarsåterbetalning. Kontakta Apple istället."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Om du prenumererade via Google Play: Play Butik → Prenumerationer → NordVPN → Avsluta." },
-          { "instruction": "För återbetalningar på Play-köp, kontakta Google Play-support inom 48 timmar." }
+          {
+            "instruction": "Om du prenumererade via Google Play: Play Butik → Prenumerationer → NordVPN → Avsluta."
+          },
+          {
+            "instruction": "För återbetalningar på Play-köp, kontakta Google Play-support inom 48 timmar."
+          }
         ]
       }
     },
@@ -532,25 +846,48 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Gå till doordash.com och logga in." },
-          { "instruction": "Klicka på din profilikon → Skaffa DashPass eller gå till doordash.com/account." },
-          { "instruction": "Scrolla till DashPass → klicka på Hantera DashPass." },
-          { "instruction": "Klicka på Avsluta DashPass." },
-          { "instruction": "Följ bekräftelseanvisningarna → klicka på Avsluta DashPass för att bekräfta.", "note": "Du behåller DashPass-förmånerna till slutet av din faktureringsperiod." }
+          {
+            "instruction": "Gå till doordash.com och logga in."
+          },
+          {
+            "instruction": "Klicka på din profilikon → Skaffa DashPass eller gå till doordash.com/account."
+          },
+          {
+            "instruction": "Scrolla till DashPass → klicka på Hantera DashPass."
+          },
+          {
+            "instruction": "Klicka på Avsluta DashPass."
+          },
+          {
+            "instruction": "Följ bekräftelseanvisningarna → klicka på Avsluta DashPass för att bekräfta.",
+            "note": "Du behåller DashPass-förmånerna till slutet av din faktureringsperiod."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Öppna DoorDash-appen → tryck på din profilikon (nere till höger)." },
-          { "instruction": "Tryck på Skaffa DashPass eller Hantera DashPass." },
-          { "instruction": "Tryck på Avsluta DashPass → bekräfta." }
+          {
+            "instruction": "Öppna DoorDash-appen → tryck på din profilikon (nere till höger)."
+          },
+          {
+            "instruction": "Tryck på Skaffa DashPass eller Hantera DashPass."
+          },
+          {
+            "instruction": "Tryck på Avsluta DashPass → bekräfta."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Öppna DoorDash-appen → tryck på din profilikon." },
-          { "instruction": "Tryck på Hantera DashPass." },
-          { "instruction": "Tryck på Avsluta DashPass → följ bekräftelseanvisningarna." }
+          {
+            "instruction": "Öppna DoorDash-appen → tryck på din profilikon."
+          },
+          {
+            "instruction": "Tryck på Hantera DashPass."
+          },
+          {
+            "instruction": "Tryck på Avsluta DashPass → följ bekräftelseanvisningarna."
+          }
         ]
       }
     },
@@ -565,8 +902,12 @@
       }
     ],
     "alternatives": [
-      { "description": "$9,99/mån — fri leverans på Uber Eats + Uber-resor" },
-      { "description": "$9,99/mån — fri leverans på Grubhub-beställningar" }
+      {
+        "description": "$9,99/mån — fri leverans på Uber Eats + Uber-resor"
+      },
+      {
+        "description": "$9,99/mån — fri leverans på Grubhub-beställningar"
+      }
     ]
   },
   "peacock": {
@@ -576,25 +917,48 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Gå till peacocktv.com och logga in." },
-          { "instruction": "Klicka på din profilikon → Konto." },
-          { "instruction": "Under Plan, klicka på Ändra eller avsluta plan." },
-          { "instruction": "Klicka på Avsluta plan." },
-          { "instruction": "Välj ett skäl → klicka på Fortsätt.", "note": "Din Peacock Premium-åtkomst fortsätter till faktureringsdatumet." },
-          { "instruction": "Bekräfta avslutningen." }
+          {
+            "instruction": "Gå till peacocktv.com och logga in."
+          },
+          {
+            "instruction": "Klicka på din profilikon → Konto."
+          },
+          {
+            "instruction": "Under Plan, klicka på Ändra eller avsluta plan."
+          },
+          {
+            "instruction": "Klicka på Avsluta plan."
+          },
+          {
+            "instruction": "Välj ett skäl → klicka på Fortsätt.",
+            "note": "Din Peacock Premium-åtkomst fortsätter till faktureringsdatumet."
+          },
+          {
+            "instruction": "Bekräfta avslutningen."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Öppna Inställningar → tryck på ditt namn → Prenumerationer." },
-          { "instruction": "Hitta Peacock → tryck på det." },
-          { "instruction": "Tryck på Avsluta prenumeration → bekräfta." }
+          {
+            "instruction": "Öppna Inställningar → tryck på ditt namn → Prenumerationer."
+          },
+          {
+            "instruction": "Hitta Peacock → tryck på det."
+          },
+          {
+            "instruction": "Tryck på Avsluta prenumeration → bekräfta."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Öppna Google Play Butik → profil → Betalningar och prenumerationer → Prenumerationer." },
-          { "instruction": "Hitta Peacock → tryck på Avsluta prenumeration → bekräfta." }
+          {
+            "instruction": "Öppna Google Play Butik → profil → Betalningar och prenumerationer → Prenumerationer."
+          },
+          {
+            "instruction": "Hitta Peacock → tryck på Avsluta prenumeration → bekräfta."
+          }
         ]
       }
     },
@@ -609,8 +973,12 @@
       }
     ],
     "alternatives": [
-      { "description": "$7,99/mån — CBS, MTV, Nickelodeon" },
-      { "description": "$9,99/mån — HBO-innehåll" }
+      {
+        "description": "$7,99/mån — CBS, MTV, Nickelodeon"
+      },
+      {
+        "description": "$9,99/mån — HBO-innehåll"
+      }
     ]
   },
   "audible": {
@@ -620,24 +988,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Gå till audible.com och logga in." },
-          { "instruction": "Håll muspekaren över ditt namn → klicka på Kontodetaljer." },
-          { "instruction": "Klicka på Avsluta medlemskap i den vänstra sidopanelen eller under Medlemskapsdetaljer." },
-          { "instruction": "Audible visar ett alternativ för att pausa medlemskapet — klicka på Fortsätt till avslutning om du vill avsluta.", "note": "Använd dina credits innan du avslutar — de upphör när ditt medlemskap avslutas." },
-          { "instruction": "Välj ett skäl → klicka på Avsluta medlemskap." },
-          { "instruction": "Du får ett bekräftelsemail." }
+          {
+            "instruction": "Gå till audible.com och logga in."
+          },
+          {
+            "instruction": "Håll muspekaren över ditt namn → klicka på Kontodetaljer."
+          },
+          {
+            "instruction": "Klicka på Avsluta medlemskap i den vänstra sidopanelen eller under Medlemskapsdetaljer."
+          },
+          {
+            "instruction": "Audible visar ett alternativ för att pausa medlemskapet — klicka på Fortsätt till avslutning om du vill avsluta.",
+            "note": "Använd dina credits innan du avslutar — de upphör när ditt medlemskap avslutas."
+          },
+          {
+            "instruction": "Välj ett skäl → klicka på Avsluta medlemskap."
+          },
+          {
+            "instruction": "Du får ett bekräftelsemail."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Om du prenumererade via App Store: Inställningar → Apple-ID → Prenumerationer → Audible → Avsluta." },
-          { "instruction": "Om du prenumererade direkt: använd webstegen ovan." }
+          {
+            "instruction": "Om du prenumererade via App Store: Inställningar → Apple-ID → Prenumerationer → Audible → Avsluta."
+          },
+          {
+            "instruction": "Om du prenumererade direkt: använd webstegen ovan."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Om du prenumererade via Google Play: Play Butik → Prenumerationer → Audible → Avsluta." },
-          { "instruction": "Om du prenumererade direkt: använd webstegen ovan." }
+          {
+            "instruction": "Om du prenumererade via Google Play: Play Butik → Prenumerationer → Audible → Avsluta."
+          },
+          {
+            "instruction": "Om du prenumererade direkt: använd webstegen ovan."
+          }
         ]
       }
     },
@@ -656,8 +1045,12 @@
       }
     ],
     "alternatives": [
-      { "description": "$11,99/mån — e-böcker + vissa ljudböcker" },
-      { "description": "$11,99/mån — ljudböcker, e-böcker, dokument" }
+      {
+        "description": "$11,99/mån — e-böcker + vissa ljudböcker"
+      },
+      {
+        "description": "$11,99/mån — ljudböcker, e-böcker, dokument"
+      }
     ]
   },
   "fabletics": {
@@ -666,24 +1059,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Logga in på fabletics.com och använd eventuella ackumulerade credits innan du avslutar." },
-          { "instruction": "Klicka på Medlemscredits för att kontrollera ditt saldo.", "note": "Credits upphör efter avslutning — använd dem först." },
-          { "instruction": "Öppna livechatt på fabletics.com eller ring 1-844-322-5384." },
-          { "instruction": "Berätta för agenten att du vill avsluta ditt VIP-medlemskap." },
-          { "instruction": "Avböj alla retentionserbjudanden (rabatter, pauser, crediterbud)." },
-          { "instruction": "Bekräfta avslutningen och begär ett bekräftelsenummer eller e-post." }
+          {
+            "instruction": "Logga in på fabletics.com och använd eventuella ackumulerade credits innan du avslutar."
+          },
+          {
+            "instruction": "Klicka på Medlemscredits för att kontrollera ditt saldo.",
+            "note": "Credits upphör efter avslutning — använd dem först."
+          },
+          {
+            "instruction": "Öppna livechatt på fabletics.com eller ring 1-844-322-5384."
+          },
+          {
+            "instruction": "Berätta för agenten att du vill avsluta ditt VIP-medlemskap."
+          },
+          {
+            "instruction": "Avböj alla retentionserbjudanden (rabatter, pauser, crediterbud)."
+          },
+          {
+            "instruction": "Bekräfta avslutningen och begär ett bekräftelsenummer eller e-post."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Fabletics stöder inte avslutning via iOS-appen eller App Store." },
-          { "instruction": "Använd telefon (1-844-322-5384) eller livechatt på fabletics.com." }
+          {
+            "instruction": "Fabletics stöder inte avslutning via iOS-appen eller App Store."
+          },
+          {
+            "instruction": "Använd telefon (1-844-322-5384) eller livechatt på fabletics.com."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Fabletics stöder inte avslutning via Android-appen eller Play Store." },
-          { "instruction": "Använd telefon eller livechatt — se webstegen ovan." }
+          {
+            "instruction": "Fabletics stöder inte avslutning via Android-appen eller Play Store."
+          },
+          {
+            "instruction": "Använd telefon eller livechatt — se webstegen ovan."
+          }
         ]
       }
     },
@@ -709,23 +1123,42 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Logga in på experian.com eller gå till dina kontoinställningar." },
-          { "instruction": "Om ingen avslutningsknapp finns tillgänglig, öppna livechatt via experian.com/consumer/help.html.", "note": "Experian döljer ofta avslutningsalternativet — livechatt är vanligtvis den snabbaste vägen." },
-          { "instruction": "Berätta för agenten att du vill avsluta din prenumeration." },
-          { "instruction": "Avböj eventuella retentionserbjudanden." },
-          { "instruction": "Begär ett bekräftelsemail med ditt avslutningsdatum." }
+          {
+            "instruction": "Logga in på experian.com eller gå till dina kontoinställningar."
+          },
+          {
+            "instruction": "Om ingen avslutningsknapp finns tillgänglig, öppna livechatt via experian.com/consumer/help.html.",
+            "note": "Experian döljer ofta avslutningsalternativet — livechatt är vanligtvis den snabbaste vägen."
+          },
+          {
+            "instruction": "Berätta för agenten att du vill avsluta din prenumeration."
+          },
+          {
+            "instruction": "Avböj eventuella retentionserbjudanden."
+          },
+          {
+            "instruction": "Begär ett bekräftelsemail med ditt avslutningsdatum."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Om du prenumererade via App Store: Inställningar → Apple-ID → Prenumerationer → Experian → Avsluta." },
-          { "instruction": "Om du prenumererade direkt: använd telefon eller livechatt." }
+          {
+            "instruction": "Om du prenumererade via App Store: Inställningar → Apple-ID → Prenumerationer → Experian → Avsluta."
+          },
+          {
+            "instruction": "Om du prenumererade direkt: använd telefon eller livechatt."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Om du prenumererade via Google Play: Play Butik → Prenumerationer → Experian → Avsluta." },
-          { "instruction": "Om du prenumererade direkt: använd livechatt eller ring supporten." }
+          {
+            "instruction": "Om du prenumererade via Google Play: Play Butik → Prenumerationer → Experian → Avsluta."
+          },
+          {
+            "instruction": "Om du prenumererade direkt: använd livechatt eller ring supporten."
+          }
         ]
       }
     },
@@ -744,8 +1177,12 @@
       }
     ],
     "alternatives": [
-      { "description": "Gratis kreditövervakning — ingen prenumeration behövs" },
-      { "description": "$8,99/mån — skydd mot identitetsstöld" }
+      {
+        "description": "Gratis kreditövervakning — ingen prenumeration behövs"
+      },
+      {
+        "description": "$8,99/mån — skydd mot identitetsstöld"
+      }
     ]
   },
   "crunch-fitness": {
@@ -755,23 +1192,42 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Logga in på crunch.com och kontrollera om din plats erbjuder avslutning online (sällsynt)." },
-          { "instruction": "Om det inte är tillgängligt online, gå till din hemklubb personligen med fotolegitimation." },
-          { "instruction": "Be att få prata med en medlemskapsrådgivare och begär avslutning.", "note": "Ta med ditt member-ID eller e-postadressen som användes vid registrering." },
-          { "instruction": "Alternativt, skicka ett rekommenderat brev till din hemklubb med ditt fullständiga namn, member-ID, adress och underskrift." },
-          { "instruction": "Spara kvittot på det rekommenderade brevet som bevis. Avslutningen träder i kraft 30 dagar efter mottagandet." }
+          {
+            "instruction": "Logga in på crunch.com och kontrollera om din plats erbjuder avslutning online (sällsynt)."
+          },
+          {
+            "instruction": "Om det inte är tillgängligt online, gå till din hemklubb personligen med fotolegitimation."
+          },
+          {
+            "instruction": "Be att få prata med en medlemskapsrådgivare och begär avslutning.",
+            "note": "Ta med ditt member-ID eller e-postadressen som användes vid registrering."
+          },
+          {
+            "instruction": "Alternativt, skicka ett rekommenderat brev till din hemklubb med ditt fullständiga namn, member-ID, adress och underskrift."
+          },
+          {
+            "instruction": "Spara kvittot på det rekommenderade brevet som bevis. Avslutningen träder i kraft 30 dagar efter mottagandet."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Crunch stöder inte avslutning via iOS-appen." },
-          { "instruction": "Avsluta personligen eller via rekommenderat brev." }
+          {
+            "instruction": "Crunch stöder inte avslutning via iOS-appen."
+          },
+          {
+            "instruction": "Avsluta personligen eller via rekommenderat brev."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Crunch stöder inte avslutning via Android-appen." },
-          { "instruction": "Avsluta personligen eller via rekommenderat brev." }
+          {
+            "instruction": "Crunch stöder inte avslutning via Android-appen."
+          },
+          {
+            "instruction": "Avsluta personligen eller via rekommenderat brev."
+          }
         ]
       }
     },
@@ -790,8 +1246,12 @@
       }
     ],
     "alternatives": [
-      { "description": "$10–$25/mån — enkel avslutning online" },
-      { "description": "$30–$50/mån — tillgång dygnet runt" }
+      {
+        "description": "$10–$25/mån — enkel avslutning online"
+      },
+      {
+        "description": "$30–$50/mån — tillgång dygnet runt"
+      }
     ]
   },
   "xfinity": {
@@ -801,24 +1261,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Gå till xfinity.com/support och logga in.", "note": "Kontrollera ditt kontraktets slutdatum först i Mitt konto → Serviceavtal." },
-          { "instruction": "Använd Xfinity Assistant-chatten och skriv Avsluta tjänst." },
-          { "instruction": "Alternativt, ring 1-800-934-6489. Förvänta dig 15–45 minuters väntetid." },
-          { "instruction": "Berätta för representanten att du vill avsluta. Avböj alla retentionserbjudanden." },
-          { "instruction": "Begär ett bekräftelsenummer och e-post för avslutningen." },
-          { "instruction": "Returnera eventuell hyrd utrustning inom 10 dagar för att undvika utrustningsavgifter." }
+          {
+            "instruction": "Gå till xfinity.com/support och logga in.",
+            "note": "Kontrollera ditt kontraktets slutdatum först i Mitt konto → Serviceavtal."
+          },
+          {
+            "instruction": "Använd Xfinity Assistant-chatten och skriv Avsluta tjänst."
+          },
+          {
+            "instruction": "Alternativt, ring 1-800-934-6489. Förvänta dig 15–45 minuters väntetid."
+          },
+          {
+            "instruction": "Berätta för representanten att du vill avsluta. Avböj alla retentionserbjudanden."
+          },
+          {
+            "instruction": "Begär ett bekräftelsenummer och e-post för avslutningen."
+          },
+          {
+            "instruction": "Returnera eventuell hyrd utrustning inom 10 dagar för att undvika utrustningsavgifter."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Öppna Xfinity-appen → kontoikon." },
-          { "instruction": "Tryck på Hantera min plan — fullständig avslutning kräver ett samtal eller butiksbesök." }
+          {
+            "instruction": "Öppna Xfinity-appen → kontoikon."
+          },
+          {
+            "instruction": "Tryck på Hantera min plan — fullständig avslutning kräver ett samtal eller butiksbesök."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Öppna Xfinity-appen → Hantera min plan." },
-          { "instruction": "För fullständig avslutning, ring eller besök en butik." }
+          {
+            "instruction": "Öppna Xfinity-appen → Hantera min plan."
+          },
+          {
+            "instruction": "För fullständig avslutning, ring eller besök en butik."
+          }
         ]
       }
     },
@@ -837,8 +1318,12 @@
       }
     ],
     "alternatives": [
-      { "description": "Fiberinternet — konkurrenskraftiga priser" },
-      { "description": "Inga kontrakt, inga databegränsningar" }
+      {
+        "description": "Fiberinternet — konkurrenskraftiga priser"
+      },
+      {
+        "description": "Inga kontrakt, inga databegränsningar"
+      }
     ]
   },
   "fubotv": {
@@ -848,25 +1333,48 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Gå till fubo.tv och logga in." },
-          { "instruction": "Klicka på din profilikon → Mitt konto." },
-          { "instruction": "Klicka på Hantera prenumeration." },
-          { "instruction": "Klicka på Avsluta prenumeration.", "note": "FuboTV kan visa ett pausningsalternativ — klicka bara på Avsluta om du vill avsluta helt." },
-          { "instruction": "Välj ett skäl → bekräfta avslutningen." },
-          { "instruction": "Du får ett bekräftelsemail." }
+          {
+            "instruction": "Gå till fubo.tv och logga in."
+          },
+          {
+            "instruction": "Klicka på din profilikon → Mitt konto."
+          },
+          {
+            "instruction": "Klicka på Hantera prenumeration."
+          },
+          {
+            "instruction": "Klicka på Avsluta prenumeration.",
+            "note": "FuboTV kan visa ett pausningsalternativ — klicka bara på Avsluta om du vill avsluta helt."
+          },
+          {
+            "instruction": "Välj ett skäl → bekräfta avslutningen."
+          },
+          {
+            "instruction": "Du får ett bekräftelsemail."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Öppna Inställningar → tryck på ditt namn → Prenumerationer." },
-          { "instruction": "Hitta FuboTV → tryck på det." },
-          { "instruction": "Tryck på Avsluta prenumeration → bekräfta." }
+          {
+            "instruction": "Öppna Inställningar → tryck på ditt namn → Prenumerationer."
+          },
+          {
+            "instruction": "Hitta FuboTV → tryck på det."
+          },
+          {
+            "instruction": "Tryck på Avsluta prenumeration → bekräfta."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Öppna Google Play Butik → profil → Betalningar och prenumerationer → Prenumerationer." },
-          { "instruction": "Hitta FuboTV → tryck på Avsluta prenumeration → bekräfta." }
+          {
+            "instruction": "Öppna Google Play Butik → profil → Betalningar och prenumerationer → Prenumerationer."
+          },
+          {
+            "instruction": "Hitta FuboTV → tryck på Avsluta prenumeration → bekräfta."
+          }
         ]
       }
     },
@@ -881,9 +1389,15 @@
       }
     ],
     "alternatives": [
-      { "description": "$72,99/mån — 100+ kanaler, obegränsad DVR" },
-      { "description": "Från $40/mån — flexibla kanalpaket" },
-      { "description": "Från $64,99/mån — fokus på livesport" }
+      {
+        "description": "$72,99/mån — 100+ kanaler, obegränsad DVR"
+      },
+      {
+        "description": "Från $40/mån — flexibla kanalpaket"
+      },
+      {
+        "description": "Från $64,99/mån — fokus på livesport"
+      }
     ]
   },
   "uber-eats": {
@@ -893,25 +1407,48 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Gå till uber.com och logga in." },
-          { "instruction": "Klicka på din profilikon → Uber One." },
-          { "instruction": "Klicka på Hantera medlemskap." },
-          { "instruction": "Klicka på Avsluta medlemskap.", "note": "Dina Uber One-förmåner fortsätter till faktureringsperiodens slut." },
-          { "instruction": "Bekräfta avslutningen." }
+          {
+            "instruction": "Gå till uber.com och logga in."
+          },
+          {
+            "instruction": "Klicka på din profilikon → Uber One."
+          },
+          {
+            "instruction": "Klicka på Hantera medlemskap."
+          },
+          {
+            "instruction": "Klicka på Avsluta medlemskap.",
+            "note": "Dina Uber One-förmåner fortsätter till faktureringsperiodens slut."
+          },
+          {
+            "instruction": "Bekräfta avslutningen."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Öppna Uber- eller Uber Eats-appen → tryck på din profilikon." },
-          { "instruction": "Tryck på Uber One → Hantera medlemskap." },
-          { "instruction": "Tryck på Avsluta medlemskap → bekräfta." }
+          {
+            "instruction": "Öppna Uber- eller Uber Eats-appen → tryck på din profilikon."
+          },
+          {
+            "instruction": "Tryck på Uber One → Hantera medlemskap."
+          },
+          {
+            "instruction": "Tryck på Avsluta medlemskap → bekräfta."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Öppna appen → profilikon." },
-          { "instruction": "Tryck på Uber One → Hantera medlemskap → Avsluta medlemskap." },
-          { "instruction": "Bekräfta avslutningen." }
+          {
+            "instruction": "Öppna appen → profilikon."
+          },
+          {
+            "instruction": "Tryck på Uber One → Hantera medlemskap → Avsluta medlemskap."
+          },
+          {
+            "instruction": "Bekräfta avslutningen."
+          }
         ]
       }
     },
@@ -926,8 +1463,12 @@
       }
     ],
     "alternatives": [
-      { "description": "$9,99/mån — fri leverans på DoorDash" },
-      { "description": "$9,99/mån — fri leverans på Grubhub" }
+      {
+        "description": "$9,99/mån — fri leverans på DoorDash"
+      },
+      {
+        "description": "$9,99/mån — fri leverans på Grubhub"
+      }
     ]
   },
   "instacart": {
@@ -937,24 +1478,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Gå till instacart.com och logga in." },
-          { "instruction": "Klicka på din profilikon → Instacart+." },
-          { "instruction": "Klicka på Hantera ditt medlemskap." },
-          { "instruction": "Klicka på Avsluta medlemskap.", "note": "Om du har en årsplan kan Instacart erbjuda proportionerlig återbetalning." },
-          { "instruction": "Bekräfta avslutningen." }
+          {
+            "instruction": "Gå till instacart.com och logga in."
+          },
+          {
+            "instruction": "Klicka på din profilikon → Instacart+."
+          },
+          {
+            "instruction": "Klicka på Hantera ditt medlemskap."
+          },
+          {
+            "instruction": "Klicka på Avsluta medlemskap.",
+            "note": "Om du har en årsplan kan Instacart erbjuda proportionerlig återbetalning."
+          },
+          {
+            "instruction": "Bekräfta avslutningen."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Öppna Instacart-appen → tryck på din profilikon." },
-          { "instruction": "Tryck på Instacart+ → Hantera medlemskap." },
-          { "instruction": "Tryck på Avsluta medlemskap → bekräfta." }
+          {
+            "instruction": "Öppna Instacart-appen → tryck på din profilikon."
+          },
+          {
+            "instruction": "Tryck på Instacart+ → Hantera medlemskap."
+          },
+          {
+            "instruction": "Tryck på Avsluta medlemskap → bekräfta."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Öppna appen → profilikon → Instacart+." },
-          { "instruction": "Tryck på Hantera medlemskap → Avsluta medlemskap → bekräfta." }
+          {
+            "instruction": "Öppna appen → profilikon → Instacart+."
+          },
+          {
+            "instruction": "Tryck på Hantera medlemskap → Avsluta medlemskap → bekräfta."
+          }
         ]
       }
     },
@@ -969,8 +1531,564 @@
       }
     ],
     "alternatives": [
-      { "description": "Fri leverans med Prime — matleverans" },
-      { "description": "$99/år — Target + andra återförsäljare" }
+      {
+        "description": "Fri leverans med Prime — matleverans"
+      },
+      {
+        "description": "$99/år — Target + andra återförsäljare"
+      }
+    ]
+  },
+  "espn-plus": {
+    "description": "Avsluta ESPN+ på under 5 minuter via webb, iOS eller Android. Inkluderar steg för avslutning av Disney Bundle.",
+    "difficulty": "Enkelt",
+    "difficultyReason": "Avslutningsprocessen är enkel, men Disney Bundle avslutar alla tjänster samtidigt.",
+    "refundPolicy": "Inga återbetalningar. Åtkomsten fortsätter till slutet av faktureringsperioden.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Logga in på DisneyPlus.com eller ESPN.com."
+          },
+          {
+            "instruction": "Klicka på din profilikon → Konto."
+          },
+          {
+            "instruction": "Klicka på Prenumeration."
+          },
+          {
+            "instruction": "Klicka på Avsluta prenumeration.",
+            "note": "Om du har Disney Bundle avslutas ESPN+, Disney+ och Hulu samtidigt."
+          },
+          {
+            "instruction": "Bekräfta avslutningen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Öppna Inställningar → tryck på ditt Apple-ID-namn."
+          },
+          {
+            "instruction": "Tryck på Prenumerationer → ESPN+."
+          },
+          {
+            "instruction": "Tryck på Avsluta prenumeration → bekräfta."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Öppna Google Play Butik → tryck på din profilikon."
+          },
+          {
+            "instruction": "Tryck på Betalningar och prenumerationer → Prenumerationer → ESPN+."
+          },
+          {
+            "instruction": "Tryck på Avsluta prenumeration → bekräfta."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Avslutar jag hela Disney Bundle om jag avslutar ESPN+?",
+        "answer": "Ja. Om du prenumererar på Disney Bundle avslutas ESPN+, Disney+ och Hulu samtidigt."
+      },
+      {
+        "question": "Jag kan inte hitta avslutningsalternativet.",
+        "answer": "Om du prenumererar via en TV-leverantör måste du avsluta direkt hos leverantören, inte via ESPN-webbplatsen."
+      }
+    ]
+  },
+  "youtube-tv": {
+    "description": "Avsluta YouTube TV på under 3 minuter via webb eller mobil.",
+    "difficulty": "Enkelt",
+    "difficultyReason": "Avslutning via webben är enkel och kräver bara några klick.",
+    "refundPolicy": "Inga återbetalningar. Åtkomsten fortsätter till slutet av faktureringsperioden. Du kan pausa istället för att avsluta.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gå till tv.youtube.com och logga in."
+          },
+          {
+            "instruction": "Klicka på din profilikon → Inställningar."
+          },
+          {
+            "instruction": "Klicka på Medlemskap → Avsluta medlemskap."
+          },
+          {
+            "instruction": "Följ anvisningarna för att bekräfta avslutningen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Öppna Inställningar → tryck på ditt Apple-ID-namn → Prenumerationer."
+          },
+          {
+            "instruction": "Tryck på YouTube TV → Avsluta prenumeration → bekräfta."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Öppna Google Play Butik → Betalningar och prenumerationer → Prenumerationer."
+          },
+          {
+            "instruction": "Tryck på YouTube TV → Avsluta prenumeration → bekräfta."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Vad händer med mina DVR-inspelningar när jag avslutar?",
+        "answer": "Alla DVR-inspelningar raderas efter avslutning. Ladda ned eller spara dem innan du avslutar."
+      },
+      {
+        "question": "Kan jag pausa YouTube TV istället för att avsluta?",
+        "answer": "Ja. Du kan pausa ditt medlemskap i upp till 6 månader. Gå till Inställningar → Medlemskap → Pausa medlemskap."
+      }
+    ]
+  },
+  "paramount-plus": {
+    "description": "Avsluta Paramount+ på under 5 minuter via webb, iOS eller Android.",
+    "difficulty": "Enkelt",
+    "difficultyReason": "Avslutningen är enkel, men användare som prenumererar via Apple eller Amazon måste avsluta där.",
+    "refundPolicy": "Inga återbetalningar. Åtkomsten fortsätter till slutet av faktureringsperioden.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gå till paramountplus.com och logga in."
+          },
+          {
+            "instruction": "Klicka på din profilikon → Inställningar."
+          },
+          {
+            "instruction": "Klicka på Prenumeration → Avsluta prenumeration.",
+            "note": "Om du har SHOWTIME-tillägget avslutas det också."
+          },
+          {
+            "instruction": "Bekräfta avslutningen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Öppna Inställningar → tryck på ditt Apple-ID-namn → Prenumerationer."
+          },
+          {
+            "instruction": "Tryck på Paramount+ → Avsluta prenumeration → bekräfta."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Öppna Google Play Butik → Betalningar och prenumerationer → Prenumerationer."
+          },
+          {
+            "instruction": "Tryck på Paramount+ → Avsluta prenumeration → bekräfta."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Avslutas SHOWTIME tillsammans med Paramount+?",
+        "answer": "Ja. Om du har Paramount+ med SHOWTIME-planen avslutas båda tjänsterna samtidigt."
+      },
+      {
+        "question": "Jag prenumererar på Paramount+ via Apple eller Amazon.",
+        "answer": "Du måste avsluta direkt via Apple (Inställningar → Prenumerationer) eller Amazon (Prime Video → Kanaler), inte via Paramount+-webbplatsen."
+      }
+    ]
+  },
+  "apple-tv-plus": {
+    "description": "Avsluta Apple TV+ på under 2 minuter via iPhone, Mac eller webben.",
+    "difficulty": "Enkelt",
+    "difficultyReason": "Avslutningen är enkel via Apple-enheter eller webbplatsen.",
+    "refundPolicy": "Inga återbetalningar. Åtkomsten fortsätter till slutet av faktureringsperioden.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gå till appleid.apple.com och logga in."
+          },
+          {
+            "instruction": "Klicka på Prenumerationer."
+          },
+          {
+            "instruction": "Klicka på Apple TV+ → Avsluta prenumeration."
+          },
+          {
+            "instruction": "Bekräfta avslutningen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Öppna Inställningar → tryck på ditt namn längst upp."
+          },
+          {
+            "instruction": "Tryck på Prenumerationer → Apple TV+."
+          },
+          {
+            "instruction": "Tryck på Avsluta prenumeration → bekräfta."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Apple TV+ har ingen Android-app för prenumerationshantering."
+          },
+          {
+            "instruction": "Besök appleid.apple.com i din mobila webbläsare och följ webbstegen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Faktureras jag automatiskt efter den kostnadsfria enhetstestperioden?",
+        "answer": "Ja. Om du fick Apple TV+ som enhetsbonus och inte avslutar testperioden debiteras du automatiskt det ordinarie priset. Avsluta innan testperioden löper ut."
+      },
+      {
+        "question": "Påverkar avslutning av Apple TV+ andra Apple-prenumerationer?",
+        "answer": "Nej. Apple TV+ är separat från Apple Music, iCloud och andra Apple-tjänster. Avslutning av en tjänst påverkar inte de andra."
+      }
+    ]
+  },
+  "dazn": {
+    "description": "Avsluta DAZN på under 5 minuter via webb eller mobil.",
+    "difficulty": "Medel",
+    "difficultyReason": "Avslutningsprocessen varierar beroende på region och avtalsvillkor.",
+    "refundPolicy": "Inga återbetalningar för påbörjade månader. Åtkomsten fortsätter till slutet av faktureringsperioden.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gå till dazn.com och logga in."
+          },
+          {
+            "instruction": "Klicka på din profilikon → Mitt konto."
+          },
+          {
+            "instruction": "Klicka på Prenumeration → Avsluta prenumeration.",
+            "note": "Det exakta gränssnittet kan variera beroende på region."
+          },
+          {
+            "instruction": "Följ anvisningarna och bekräfta avslutningen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Öppna Inställningar → tryck på ditt Apple-ID-namn → Prenumerationer."
+          },
+          {
+            "instruction": "Tryck på DAZN → Avsluta prenumeration → bekräfta."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Öppna Google Play Butik → Betalningar och prenumerationer → Prenumerationer."
+          },
+          {
+            "instruction": "Tryck på DAZN → Avsluta prenumeration → bekräfta."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Varför ser gränssnittet annorlunda ut hos mig?",
+        "answer": "DAZN finns i många länder och gränssnittet samt avslutningsalternativen kan variera beroende på region."
+      },
+      {
+        "question": "Får jag återbetalning för resterande del av månaden?",
+        "answer": "Nej. DAZN återbetalar inte för delar av månader. Din åtkomst fortsätter till slutet av den aktuella faktureringsperioden."
+      }
+    ]
+  },
+  "philo": {
+    "description": "Avsluta Philo på under 3 minuter via webb, iOS eller Android.",
+    "difficulty": "Enkelt",
+    "difficultyReason": "Philo gör avslutning enkel utan avslutningsavgift eller retentionsfriktioner.",
+    "refundPolicy": "Ingen avslutningsavgift. Inga återbetalningar för påbörjade månader.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gå till philo.com och logga in."
+          },
+          {
+            "instruction": "Klicka på Inställningar → Betalningar."
+          },
+          {
+            "instruction": "Klicka på Avsluta plan."
+          },
+          {
+            "instruction": "Bekräfta avslutningen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Öppna Inställningar → tryck på ditt Apple-ID-namn → Prenumerationer."
+          },
+          {
+            "instruction": "Tryck på Philo → Avsluta prenumeration → bekräfta."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Öppna Google Play Butik → Betalningar och prenumerationer → Prenumerationer."
+          },
+          {
+            "instruction": "Tryck på Philo → Avsluta prenumeration → bekräfta."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Finns det en avslutningsavgift?",
+        "answer": "Nej. Philo tar ingen avslutningsavgift. Du kan avsluta när som helst."
+      },
+      {
+        "question": "Kan jag pausa Philo istället för att avsluta?",
+        "answer": "Nej. Philo erbjuder ingen pausfunktion. Du måste avsluta och registrera dig igen senare."
+      }
+    ]
+  },
+  "sling-tv": {
+    "description": "Avsluta Sling TV på under 5 minuter via webb eller mobil.",
+    "difficulty": "Enkelt",
+    "difficultyReason": "Avslutningen är enkel, men Sling TV kan erbjuda rabatt för att behålla dig.",
+    "refundPolicy": "Inga återbetalningar. Åtkomsten fortsätter till slutet av faktureringsperioden. DVR-inspelningar raderas.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gå till sling.com/account/cancel-service och logga in."
+          },
+          {
+            "instruction": "Klicka på Avsluta tjänst.",
+            "note": "Sling TV kan erbjuda rabatt eller pausmöjlighet innan avslutningen slutförs."
+          },
+          {
+            "instruction": "Tacka nej till alla erbjudanden och bekräfta avslutningen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Öppna Inställningar → tryck på ditt Apple-ID-namn → Prenumerationer."
+          },
+          {
+            "instruction": "Tryck på Sling TV → Avsluta prenumeration → bekräfta."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Öppna Google Play Butik → Betalningar och prenumerationer → Prenumerationer."
+          },
+          {
+            "instruction": "Tryck på Sling TV → Avsluta prenumeration → bekräfta."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Sling TV erbjöd mig rabatt – ska jag ta den?",
+        "answer": "Det är upp till dig. Sling TV erbjuder ofta 50% rabatt i en eller två månader för att behålla prenumeranter. Om du bara vill pausa kan det vara ett bra alternativ."
+      },
+      {
+        "question": "Vad händer med mina DVR-inspelningar efter avslutning?",
+        "answer": "Alla DVR-inspelningar raderas efter avslutning. Spara viktigt innehåll innan du avslutar."
+      }
+    ]
+  },
+  "whoop": {
+    "description": "Avsluta ditt WHOOP-medlemskap — kräver eventuellt kontakt med support.",
+    "difficulty": "Svårt",
+    "difficultyReason": "WHOOP har en bindningstid och avslutningsprocessen kräver ofta kontakt med support.",
+    "refundPolicy": "Inga återbetalningar. Bindningstid gäller. Enheten slutar fungera utan aktivt medlemskap.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gå till app.whoop.com och logga in."
+          },
+          {
+            "instruction": "Klicka på din profilikon → Medlemskap.",
+            "note": "Om du fortfarande är inom bindningstiden kan avslutning vara blockerad."
+          },
+          {
+            "instruction": "Klicka på Avsluta eller kontakta WHOOP-support på support.whoop.com."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Om du prenumererar via App Store: Inställningar → Apple-ID-namn → Prenumerationer → WHOOP → Avsluta."
+          },
+          {
+            "instruction": "Kontakta annars WHOOP-support."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Om du prenumererar via Google Play: Play Butik → Betalningar och prenumerationer → WHOOP → Avsluta."
+          },
+          {
+            "instruction": "Kontakta annars WHOOP-support."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Min avslutning blockeras av bindningstiden.",
+        "answer": "WHOOP har vanligtvis en bindningstid på 12 månader. Om du fortfarande är inom denna period måste du vänta till slutet eller kontakta support."
+      },
+      {
+        "question": "Fungerar min WHOOP-enhet efter avslutning?",
+        "answer": "Nej. WHOOP-enheten kräver ett aktivt medlemskap. Utan medlemskap förlorar den sin funktionalitet."
+      }
+    ]
+  },
+  "factor-meals": {
+    "description": "Avsluta Factor Meals innan onsdag 23:59 CT för att undvika debitering nästa vecka.",
+    "difficulty": "Medel",
+    "difficultyReason": "Den veckovisa avslutningsfristen (onsdag 23:59 CT) är strikt och lätt att missa.",
+    "refundPolicy": "Inga återbetalningar om fristen missas. Beställningar som redan behandlats kan inte avbokas.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gå till factor75.com och logga in."
+          },
+          {
+            "instruction": "Klicka på Kontoinställningar → Planinställningar."
+          },
+          {
+            "instruction": "Klicka på Avsluta plan.",
+            "note": "Du måste avsluta innan onsdag 23:59 CT för att undvika debitering för nästa leverans."
+          },
+          {
+            "instruction": "Bekräfta avslutningen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Factor Meals har inget avslutningsalternativ i appen."
+          },
+          {
+            "instruction": "Använd mobilwebbläsaren för att besöka factor75.com och följ webbstegen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Factor Meals har inget avslutningsalternativ i appen."
+          },
+          {
+            "instruction": "Använd mobilwebbläsaren för att besöka factor75.com och följ webbstegen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Jag missade onsdagsfristen – debiteras jag ändå?",
+        "answer": "Ja. Om du missade fristen (onsdag 23:59 CT) har nästa vecka redan behandlats och du debiteras. Kontakta support om du tror att ett fel uppstått."
+      },
+      {
+        "question": "Kan jag pausa leveranser istället för att avsluta?",
+        "answer": "Ja. Du kan hoppa över enskilda veckor eller pausa din plan istället för att avsluta helt. Det är ett bra alternativ om du bara behöver en paus."
+      }
+    ]
+  },
+  "stitch-fix": {
+    "description": "Avsluta eller pausa din Stitch Fix-prenumeration på 2 minuter online.",
+    "difficulty": "Enkelt",
+    "difficultyReason": "Avslutningen är enkel, men att avsluta Fixes stänger inte kontot.",
+    "refundPolicy": "Inga återbetalningar för skickade Fixes. Returnera oönskade artiklar inom 3 dagar.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gå till stitchfix.com och logga in."
+          },
+          {
+            "instruction": "Klicka på Kontoinställningar → Fix-schema."
+          },
+          {
+            "instruction": "Klicka på Avsluta Fixes."
+          },
+          {
+            "instruction": "Bekräfta avslutningen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Stitch Fix hanterar inte prenumerationer via appen."
+          },
+          {
+            "instruction": "Besök stitchfix.com i din webbläsare och följ webbstegen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Stitch Fix hanterar inte prenumerationer via appen."
+          },
+          {
+            "instruction": "Besök stitchfix.com i din webbläsare och följ webbstegen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Är avslutning av Fixes detsamma som att stänga mitt konto?",
+        "answer": "Nej. Att avsluta Fixes innebär att du inte får fler leveranser. Ditt konto förblir aktivt. För att stänga kontot helt, kontakta support."
+      },
+      {
+        "question": "Jag fick en Fix som jag inte vill behålla.",
+        "answer": "Returnera oönskade artiklar inom 3 dagar efter mottagning. Därefter debiteras du för de behållna artiklarna."
+      }
     ]
   }
 }

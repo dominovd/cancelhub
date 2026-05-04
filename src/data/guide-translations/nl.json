@@ -6,29 +6,61 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Ga naar netflix.com en meld je aan." },
-          { "instruction": "Klik op je profielicoontje → Account." },
-          { "instruction": "Klik onder \"Lidmaatschap\" op \"Lidmaatschap opzeggen\"." },
-          { "instruction": "Klik op \"Beëindig opzegging\" om te bevestigen." },
-          { "instruction": "Je ontvangt een bevestigingsmail. Bewaar deze voor je administratie.", "note": "Toegang loopt door tot het einde van je huidige factureringsperiode." }
+          {
+            "instruction": "Ga naar netflix.com en meld je aan."
+          },
+          {
+            "instruction": "Klik op je profielicoontje → Account."
+          },
+          {
+            "instruction": "Klik onder \"Lidmaatschap\" op \"Lidmaatschap opzeggen\"."
+          },
+          {
+            "instruction": "Klik op \"Beëindig opzegging\" om te bevestigen."
+          },
+          {
+            "instruction": "Je ontvangt een bevestigingsmail. Bewaar deze voor je administratie.",
+            "note": "Toegang loopt door tot het einde van je huidige factureringsperiode."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Open iPhone-instellingen → tik op je naam bovenaan." },
-          { "instruction": "Tik op \"Abonnementen\"." },
-          { "instruction": "Zoek en tik op \"Netflix\"." },
-          { "instruction": "Tik op \"Abonnement opzeggen\" → Bevestigen.", "note": "Apple verleent geen gedeeltelijke terugbetalingen." },
-          { "instruction": "Je behoudt toegang tot het einde van je factureringsperiode." }
+          {
+            "instruction": "Open iPhone-instellingen → tik op je naam bovenaan."
+          },
+          {
+            "instruction": "Tik op \"Abonnementen\"."
+          },
+          {
+            "instruction": "Zoek en tik op \"Netflix\"."
+          },
+          {
+            "instruction": "Tik op \"Abonnement opzeggen\" → Bevestigen.",
+            "note": "Apple verleent geen gedeeltelijke terugbetalingen."
+          },
+          {
+            "instruction": "Je behoudt toegang tot het einde van je factureringsperiode."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Open de Google Play Store." },
-          { "instruction": "Tik op je profielicoontje → \"Betalingen & abonnementen\" → \"Abonnementen\"." },
-          { "instruction": "Zoek \"Netflix\" en tik erop." },
-          { "instruction": "Tik op \"Abonnement opzeggen\" en volg de instructies." },
-          { "instruction": "Toegang loopt door tot het einde van de factureringsperiode." }
+          {
+            "instruction": "Open de Google Play Store."
+          },
+          {
+            "instruction": "Tik op je profielicoontje → \"Betalingen & abonnementen\" → \"Abonnementen\"."
+          },
+          {
+            "instruction": "Zoek \"Netflix\" en tik erop."
+          },
+          {
+            "instruction": "Tik op \"Abonnement opzeggen\" en volg de instructies."
+          },
+          {
+            "instruction": "Toegang loopt door tot het einde van de factureringsperiode."
+          }
         ]
       }
     },
@@ -47,9 +79,15 @@
       }
     ],
     "alternatives": [
-      { "description": "Advertentievrij, €9,99/mnd" },
-      { "description": "Disney, Marvel, Star Wars — €7,99/mnd" },
-      { "description": "HBO-inhoud — €9,99/mnd" }
+      {
+        "description": "Advertentievrij, €9,99/mnd"
+      },
+      {
+        "description": "Disney, Marvel, Star Wars — €7,99/mnd"
+      },
+      {
+        "description": "HBO-inhoud — €9,99/mnd"
+      }
     ]
   },
   "spotify": {
@@ -59,26 +97,51 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Ga naar spotify.com/account en log in." },
-          { "instruction": "Klik op \"Abonnement wijzigen\" of scroll naar \"Jouw abonnement\"." },
-          { "instruction": "Scroll naar beneden en klik op \"Premium opzeggen\"." },
-          { "instruction": "Volg de bevestigingsstappen (Spotify kan een korting aanbieden — sla over als je niet geïnteresseerd bent)." },
-          { "instruction": "Klik op \"Toch opzeggen\" om te bevestigen. Je ontvangt een bevestigingsmail.", "note": "Je behoudt Premium tot het einde van de factureringsperiode." }
+          {
+            "instruction": "Ga naar spotify.com/account en log in."
+          },
+          {
+            "instruction": "Klik op \"Abonnement wijzigen\" of scroll naar \"Jouw abonnement\"."
+          },
+          {
+            "instruction": "Scroll naar beneden en klik op \"Premium opzeggen\"."
+          },
+          {
+            "instruction": "Volg de bevestigingsstappen (Spotify kan een korting aanbieden — sla over als je niet geïnteresseerd bent)."
+          },
+          {
+            "instruction": "Klik op \"Toch opzeggen\" om te bevestigen. Je ontvangt een bevestigingsmail.",
+            "note": "Je behoudt Premium tot het einde van de factureringsperiode."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Open iPhone-instellingen → tik op je Apple ID-naam." },
-          { "instruction": "Tik op \"Abonnementen\" → zoek Spotify." },
-          { "instruction": "Tik op \"Abonnement opzeggen\" → Bevestigen." }
+          {
+            "instruction": "Open iPhone-instellingen → tik op je Apple ID-naam."
+          },
+          {
+            "instruction": "Tik op \"Abonnementen\" → zoek Spotify."
+          },
+          {
+            "instruction": "Tik op \"Abonnement opzeggen\" → Bevestigen."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Open Google Play Store → tik op je profielicoontje." },
-          { "instruction": "Ga naar \"Betalingen & abonnementen\" → \"Abonnementen\"." },
-          { "instruction": "Zoek Spotify → tik op \"Abonnement opzeggen\"." },
-          { "instruction": "Volg de bevestigingsprompts." }
+          {
+            "instruction": "Open Google Play Store → tik op je profielicoontje."
+          },
+          {
+            "instruction": "Ga naar \"Betalingen & abonnementen\" → \"Abonnementen\"."
+          },
+          {
+            "instruction": "Zoek Spotify → tik op \"Abonnement opzeggen\"."
+          },
+          {
+            "instruction": "Volg de bevestigingsprompts."
+          }
         ]
       }
     },
@@ -93,8 +156,12 @@
       }
     ],
     "alternatives": [
-      { "description": "€10,99/mnd, ideaal als je in het Apple-ecosysteem zit" },
-      { "description": "€10,99/mnd, inbegrepen bij YouTube Premium" }
+      {
+        "description": "€10,99/mnd, ideaal als je in het Apple-ecosysteem zit"
+      },
+      {
+        "description": "€10,99/mnd, inbegrepen bij YouTube Premium"
+      }
     ]
   },
   "adobe": {
@@ -104,24 +171,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Ga naar account.adobe.com en meld je aan." },
-          { "instruction": "Klik op \"Plannen & producten\" in de linker zijbalk." },
-          { "instruction": "Zoek je Creative Cloud-plan en klik op \"Plan beheren\"." },
-          { "instruction": "Klik op \"Je plan opzeggen\".", "note": "Adobe toont je op dit punt de vroegtijdige beëindigingsvergoeding." },
-          { "instruction": "Kies een reden → Adobe doet meerdere aanbiedingen (kortingen, pauzes). Klik elke keer op \"Doorgaan met opzeggen\"." },
-          { "instruction": "Bevestig de opzegging. Sla het bevestigingsnummer op." }
+          {
+            "instruction": "Ga naar account.adobe.com en meld je aan."
+          },
+          {
+            "instruction": "Klik op \"Plannen & producten\" in de linker zijbalk."
+          },
+          {
+            "instruction": "Zoek je Creative Cloud-plan en klik op \"Plan beheren\"."
+          },
+          {
+            "instruction": "Klik op \"Je plan opzeggen\".",
+            "note": "Adobe toont je op dit punt de vroegtijdige beëindigingsvergoeding."
+          },
+          {
+            "instruction": "Kies een reden → Adobe doet meerdere aanbiedingen (kortingen, pauzes). Klik elke keer op \"Doorgaan met opzeggen\"."
+          },
+          {
+            "instruction": "Bevestig de opzegging. Sla het bevestigingsnummer op."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Als je je hebt geabonneerd via de App Store: open Instellingen → Apple ID → Abonnementen → Adobe → Opzeggen." },
-          { "instruction": "Als je rechtstreeks bij Adobe bent geabonneerd: gebruik de bovenstaande websitestappen — de app ondersteunt geen directe opzegging." }
+          {
+            "instruction": "Als je je hebt geabonneerd via de App Store: open Instellingen → Apple ID → Abonnementen → Adobe → Opzeggen."
+          },
+          {
+            "instruction": "Als je rechtstreeks bij Adobe bent geabonneerd: gebruik de bovenstaande websitestappen — de app ondersteunt geen directe opzegging."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Als je je hebt geabonneerd via Google Play: open Play Store → Abonnementen → Adobe → Opzeggen." },
-          { "instruction": "Als je rechtstreeks bij Adobe bent geabonneerd: gebruik de bovenstaande websitestappen." }
+          {
+            "instruction": "Als je je hebt geabonneerd via Google Play: open Play Store → Abonnementen → Adobe → Opzeggen."
+          },
+          {
+            "instruction": "Als je rechtstreeks bij Adobe bent geabonneerd: gebruik de bovenstaande websitestappen."
+          }
         ]
       }
     },
@@ -140,9 +228,15 @@
       }
     ],
     "alternatives": [
-      { "description": "Eenmalige aankoop, geen abonnement. Alternatief voor Photoshop/Illustrator." },
-      { "description": "€12,99/mnd — ideaal voor niet-ontwerpers" },
-      { "description": "Gratis versie beschikbaar, beste keuze voor UI/UX-ontwerp" }
+      {
+        "description": "Eenmalige aankoop, geen abonnement. Alternatief voor Photoshop/Illustrator."
+      },
+      {
+        "description": "€12,99/mnd — ideaal voor niet-ontwerpers"
+      },
+      {
+        "description": "Gratis versie beschikbaar, beste keuze voor UI/UX-ontwerp"
+      }
     ]
   },
   "chatgpt": {
@@ -152,26 +246,51 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Ga naar chatgpt.com en meld je aan." },
-          { "instruction": "Klik op je naam of profielicoontje linksonder." },
-          { "instruction": "Ga naar \"Instellingen\" → \"Abonnement\"." },
-          { "instruction": "Klik op \"Mijn abonnement beheren\"." },
-          { "instruction": "Klik op \"Plan opzeggen\" → Bevestigen." },
-          { "instruction": "Je ontvangt een bevestigingsmail. Plus-toegang loopt door tot het einde van de periode.", "note": "ChatGPT schakelt automatisch terug naar het gratis plan." }
+          {
+            "instruction": "Ga naar chatgpt.com en meld je aan."
+          },
+          {
+            "instruction": "Klik op je naam of profielicoontje linksonder."
+          },
+          {
+            "instruction": "Ga naar \"Instellingen\" → \"Abonnement\"."
+          },
+          {
+            "instruction": "Klik op \"Mijn abonnement beheren\"."
+          },
+          {
+            "instruction": "Klik op \"Plan opzeggen\" → Bevestigen."
+          },
+          {
+            "instruction": "Je ontvangt een bevestigingsmail. Plus-toegang loopt door tot het einde van de periode.",
+            "note": "ChatGPT schakelt automatisch terug naar het gratis plan."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Open Instellingen → tik op je Apple ID-naam → Abonnementen." },
-          { "instruction": "Zoek \"ChatGPT\" → tik erop." },
-          { "instruction": "Tik op \"Abonnement opzeggen\" → Bevestigen." }
+          {
+            "instruction": "Open Instellingen → tik op je Apple ID-naam → Abonnementen."
+          },
+          {
+            "instruction": "Zoek \"ChatGPT\" → tik erop."
+          },
+          {
+            "instruction": "Tik op \"Abonnement opzeggen\" → Bevestigen."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Open Google Play Store → profielicoontje → \"Betalingen & abonnementen\" → \"Abonnementen\"." },
-          { "instruction": "Zoek \"ChatGPT\" → tik op \"Abonnement opzeggen\"." },
-          { "instruction": "Volg de bevestigingsprompts." }
+          {
+            "instruction": "Open Google Play Store → profielicoontje → \"Betalingen & abonnementen\" → \"Abonnementen\"."
+          },
+          {
+            "instruction": "Zoek \"ChatGPT\" → tik op \"Abonnement opzeggen\"."
+          },
+          {
+            "instruction": "Volg de bevestigingsprompts."
+          }
         ]
       }
     },
@@ -186,9 +305,15 @@
       }
     ],
     "alternatives": [
-      { "description": "Anthropic's AI — gratis versie + €20/mnd Pro" },
-      { "description": "Google's AI — €19,99/mnd, inbegrepen bij Google One AI Premium" },
-      { "description": "€20/mnd — AI-zoekmachine" }
+      {
+        "description": "Anthropic's AI — gratis versie + €20/mnd Pro"
+      },
+      {
+        "description": "Google's AI — €19,99/mnd, inbegrepen bij Google One AI Premium"
+      },
+      {
+        "description": "€20/mnd — AI-zoekmachine"
+      }
     ]
   },
   "amazon-prime": {
@@ -198,28 +323,57 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Ga naar amazon.com → zweef over \"Account & lijsten\" → klik op \"Account\"." },
-          { "instruction": "Klik op \"Prime\" of zoek naar \"Prime-lidmaatschap beheren\" in de accountinstellingen." },
-          { "instruction": "Klik op \"Bijwerken, annuleren en meer\" → \"Lidmaatschap beëindigen\"." },
-          { "instruction": "Kies \"Lidmaatschap beëindigen\" (niet \"Herinner me later\" of andere opties die Amazon toont).", "note": "Amazon toont een terugbetalingsbedrag als je in aanmerking komt." },
-          { "instruction": "Klik op \"Lidmaatschap annuleren\" om te bevestigen." },
-          { "instruction": "Controleer je e-mail op bevestiging." }
+          {
+            "instruction": "Ga naar amazon.com → zweef over \"Account & lijsten\" → klik op \"Account\"."
+          },
+          {
+            "instruction": "Klik op \"Prime\" of zoek naar \"Prime-lidmaatschap beheren\" in de accountinstellingen."
+          },
+          {
+            "instruction": "Klik op \"Bijwerken, annuleren en meer\" → \"Lidmaatschap beëindigen\"."
+          },
+          {
+            "instruction": "Kies \"Lidmaatschap beëindigen\" (niet \"Herinner me later\" of andere opties die Amazon toont).",
+            "note": "Amazon toont een terugbetalingsbedrag als je in aanmerking komt."
+          },
+          {
+            "instruction": "Klik op \"Lidmaatschap annuleren\" om te bevestigen."
+          },
+          {
+            "instruction": "Controleer je e-mail op bevestiging."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Open de Amazon Shopping-app → tik op de drie lijnen (menu)." },
-          { "instruction": "Scroll naar \"Account\" → tik op \"Prime-lidmaatschap beheren\"." },
-          { "instruction": "Tik op \"Bijwerken, annuleren en meer\" → \"Lidmaatschap beëindigen\"." },
-          { "instruction": "Volg dezelfde stappen als de webversie." },
-          { "instruction": "Let op: als je je hebt geabonneerd via Apple, annuleer dan via iOS Instellingen → Abonnementen." }
+          {
+            "instruction": "Open de Amazon Shopping-app → tik op de drie lijnen (menu)."
+          },
+          {
+            "instruction": "Scroll naar \"Account\" → tik op \"Prime-lidmaatschap beheren\"."
+          },
+          {
+            "instruction": "Tik op \"Bijwerken, annuleren en meer\" → \"Lidmaatschap beëindigen\"."
+          },
+          {
+            "instruction": "Volg dezelfde stappen als de webversie."
+          },
+          {
+            "instruction": "Let op: als je je hebt geabonneerd via Apple, annuleer dan via iOS Instellingen → Abonnementen."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Open de Amazon Shopping-app → menu → \"Account\"." },
-          { "instruction": "Tik op \"Prime-lidmaatschap beheren\" → \"Lidmaatschap beëindigen\"." },
-          { "instruction": "Als je bent geabonneerd via Google Play, annuleer dan via Play Store → Abonnementen." }
+          {
+            "instruction": "Open de Amazon Shopping-app → menu → \"Account\"."
+          },
+          {
+            "instruction": "Tik op \"Prime-lidmaatschap beheren\" → \"Lidmaatschap beëindigen\"."
+          },
+          {
+            "instruction": "Als je bent geabonneerd via Google Play, annuleer dan via Play Store → Abonnementen."
+          }
         ]
       }
     },
@@ -245,26 +399,51 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Ga naar disneyplus.com en meld je aan." },
-          { "instruction": "Klik op je profielicoontje → \"Account\"." },
-          { "instruction": "Klik onder \"Abonnement\" op \"Abonnement opzeggen\"." },
-          { "instruction": "Selecteer een reden → klik op \"Doorgaan\"." },
-          { "instruction": "Klik op \"Abonnement opzeggen\" om te bevestigen." },
-          { "instruction": "Je ontvangt een bevestigingsmail.", "note": "Toegang loopt door tot je factuurdatum." }
+          {
+            "instruction": "Ga naar disneyplus.com en meld je aan."
+          },
+          {
+            "instruction": "Klik op je profielicoontje → \"Account\"."
+          },
+          {
+            "instruction": "Klik onder \"Abonnement\" op \"Abonnement opzeggen\"."
+          },
+          {
+            "instruction": "Selecteer een reden → klik op \"Doorgaan\"."
+          },
+          {
+            "instruction": "Klik op \"Abonnement opzeggen\" om te bevestigen."
+          },
+          {
+            "instruction": "Je ontvangt een bevestigingsmail.",
+            "note": "Toegang loopt door tot je factuurdatum."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Open Instellingen → tik op je naam → Abonnementen." },
-          { "instruction": "Zoek \"Disney+\" → tik erop." },
-          { "instruction": "Tik op \"Abonnement opzeggen\" → bevestigen." }
+          {
+            "instruction": "Open Instellingen → tik op je naam → Abonnementen."
+          },
+          {
+            "instruction": "Zoek \"Disney+\" → tik erop."
+          },
+          {
+            "instruction": "Tik op \"Abonnement opzeggen\" → bevestigen."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Open Google Play Store → profiel → \"Betalingen & abonnementen\" → \"Abonnementen\"." },
-          { "instruction": "Zoek Disney+ → tik op \"Abonnement opzeggen\"." },
-          { "instruction": "Voltooi de bevestigingsstroom." }
+          {
+            "instruction": "Open Google Play Store → profiel → \"Betalingen & abonnementen\" → \"Abonnementen\"."
+          },
+          {
+            "instruction": "Zoek Disney+ → tik op \"Abonnement opzeggen\"."
+          },
+          {
+            "instruction": "Voltooi de bevestigingsstroom."
+          }
         ]
       }
     },
@@ -286,25 +465,48 @@
     "platforms": {
       "ios": {
         "steps": [
-          { "instruction": "Open Instellingen → tik op je naam bovenaan." },
-          { "instruction": "Tik op \"Abonnementen\"." },
-          { "instruction": "Tik op \"Apple Music\"." },
-          { "instruction": "Tik op \"Abonnement opzeggen\" → Bevestigen.", "note": "Als je een gratis proefperiode hebt, zie je de einddatum van de proefperiode." }
+          {
+            "instruction": "Open Instellingen → tik op je naam bovenaan."
+          },
+          {
+            "instruction": "Tik op \"Abonnementen\"."
+          },
+          {
+            "instruction": "Tik op \"Apple Music\"."
+          },
+          {
+            "instruction": "Tik op \"Abonnement opzeggen\" → Bevestigen.",
+            "note": "Als je een gratis proefperiode hebt, zie je de einddatum van de proefperiode."
+          }
         ]
       },
       "web": {
         "steps": [
-          { "instruction": "Open de Muziek-app op Mac → klik op je naam → Accountinstellingen. Of bezoek music.apple.com en meld je aan." },
-          { "instruction": "Zoek \"Abonnementen\" → klik op \"Beheren\"." },
-          { "instruction": "Zoek Apple Music → klik op \"Bewerken\" → \"Abonnement opzeggen\"." },
-          { "instruction": "Bevestig de opzegging." }
+          {
+            "instruction": "Open de Muziek-app op Mac → klik op je naam → Accountinstellingen. Of bezoek music.apple.com en meld je aan."
+          },
+          {
+            "instruction": "Zoek \"Abonnementen\" → klik op \"Beheren\"."
+          },
+          {
+            "instruction": "Zoek Apple Music → klik op \"Bewerken\" → \"Abonnement opzeggen\"."
+          },
+          {
+            "instruction": "Bevestig de opzegging."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Open de Apple Music-app op Android." },
-          { "instruction": "Tik op je profiel → Accountinstellingen → Abonnementen." },
-          { "instruction": "Tik op \"Abonnement opzeggen\" → Bevestigen." }
+          {
+            "instruction": "Open de Apple Music-app op Android."
+          },
+          {
+            "instruction": "Tik op je profiel → Accountinstellingen → Abonnementen."
+          },
+          {
+            "instruction": "Tik op \"Abonnement opzeggen\" → Bevestigen."
+          }
         ]
       }
     },
@@ -326,24 +528,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Ga naar account.microsoft.com en meld je aan." },
-          { "instruction": "Klik op \"Services & abonnementen\" in de bovenste navigatie." },
-          { "instruction": "Zoek Microsoft 365 → klik op \"Beheren\"." },
-          { "instruction": "Klik op \"Opzeggen\" onder de abonnementsdetails." },
-          { "instruction": "Volg de prompts. Microsoft kan een korting aanbieden — sla over als je wilt opzeggen.", "note": "Als je meer dan 5 GB in OneDrive hebt, download dan eerst je bestanden." },
-          { "instruction": "Bevestig de opzegging. Je ontvangt een bevestigingsmail." }
+          {
+            "instruction": "Ga naar account.microsoft.com en meld je aan."
+          },
+          {
+            "instruction": "Klik op \"Services & abonnementen\" in de bovenste navigatie."
+          },
+          {
+            "instruction": "Zoek Microsoft 365 → klik op \"Beheren\"."
+          },
+          {
+            "instruction": "Klik op \"Opzeggen\" onder de abonnementsdetails."
+          },
+          {
+            "instruction": "Volg de prompts. Microsoft kan een korting aanbieden — sla over als je wilt opzeggen.",
+            "note": "Als je meer dan 5 GB in OneDrive hebt, download dan eerst je bestanden."
+          },
+          {
+            "instruction": "Bevestig de opzegging. Je ontvangt een bevestigingsmail."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Als je bent geabonneerd via de App Store: Instellingen → Apple ID → Abonnementen → Microsoft 365 → Opzeggen." },
-          { "instruction": "Als je bent geabonneerd via Microsoft direct: gebruik de bovenstaande websitestappen." }
+          {
+            "instruction": "Als je bent geabonneerd via de App Store: Instellingen → Apple ID → Abonnementen → Microsoft 365 → Opzeggen."
+          },
+          {
+            "instruction": "Als je bent geabonneerd via Microsoft direct: gebruik de bovenstaande websitestappen."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Als je bent geabonneerd via Google Play: Play Store → Abonnementen → Microsoft 365 → Opzeggen." },
-          { "instruction": "Als je direct bent geabonneerd: gebruik de bovenstaande websitestappen." }
+          {
+            "instruction": "Als je bent geabonneerd via Google Play: Play Store → Abonnementen → Microsoft 365 → Opzeggen."
+          },
+          {
+            "instruction": "Als je direct bent geabonneerd: gebruik de bovenstaande websitestappen."
+          }
         ]
       }
     },
@@ -362,8 +585,12 @@
       }
     ],
     "alternatives": [
-      { "description": "Documenten, Spreadsheets, Presentaties — gratis met Google-account" },
-      { "description": "Gratis, open-source Office-alternatief" }
+      {
+        "description": "Documenten, Spreadsheets, Presentaties — gratis met Google-account"
+      },
+      {
+        "description": "Gratis, open-source Office-alternatief"
+      }
     ]
   },
   "claude": {
@@ -373,23 +600,42 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Ga naar claude.ai en meld je aan." },
-          { "instruction": "Klik op je profielicoontje → \"Instellingen\"." },
-          { "instruction": "Ga naar \"Facturering\" in de zijbalk." },
-          { "instruction": "Klik op \"Plan opzeggen\" of \"Abonnement opzeggen\"." },
-          { "instruction": "Bevestig de opzegging.", "note": "Pro-toegang loopt door tot het einde van je factureringsperiode." }
+          {
+            "instruction": "Ga naar claude.ai en meld je aan."
+          },
+          {
+            "instruction": "Klik op je profielicoontje → \"Instellingen\"."
+          },
+          {
+            "instruction": "Ga naar \"Facturering\" in de zijbalk."
+          },
+          {
+            "instruction": "Klik op \"Plan opzeggen\" of \"Abonnement opzeggen\"."
+          },
+          {
+            "instruction": "Bevestig de opzegging.",
+            "note": "Pro-toegang loopt door tot het einde van je factureringsperiode."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Als je bent geabonneerd via de App Store: Instellingen → Apple ID → Abonnementen → Claude → Opzeggen." },
-          { "instruction": "Als je bent geabonneerd via Anthropic direct: gebruik de bovenstaande websitestappen." }
+          {
+            "instruction": "Als je bent geabonneerd via de App Store: Instellingen → Apple ID → Abonnementen → Claude → Opzeggen."
+          },
+          {
+            "instruction": "Als je bent geabonneerd via Anthropic direct: gebruik de bovenstaande websitestappen."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Open Google Play Store → profiel → Abonnementen." },
-          { "instruction": "Zoek Claude → tik op \"Abonnement opzeggen\" → bevestigen." }
+          {
+            "instruction": "Open Google Play Store → profiel → Abonnementen."
+          },
+          {
+            "instruction": "Zoek Claude → tik op \"Abonnement opzeggen\" → bevestigen."
+          }
         ]
       }
     },
@@ -404,8 +650,12 @@
       }
     ],
     "alternatives": [
-      { "description": "€20/mnd — OpenAI's GPT-4o en meer" },
-      { "description": "€19,99/mnd — Google's meest capabele AI" }
+      {
+        "description": "€20/mnd — OpenAI's GPT-4o en meer"
+      },
+      {
+        "description": "€19,99/mnd — Google's meest capabele AI"
+      }
     ]
   },
   "youtube-premium": {
@@ -414,25 +664,48 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Ga naar youtube.com/paid_memberships en meld je aan." },
-          { "instruction": "Zoek \"YouTube Premium\" → klik op \"Lidmaatschap beheren\"." },
-          { "instruction": "Klik op \"Deactiveren\"." },
-          { "instruction": "Volg de bevestigingsstappen → klik op \"Doorgaan met opzeggen\"." },
-          { "instruction": "Bevestigen. Je behoudt Premium tot het einde van je factureringsperiode.", "note": "YouTube Music Premium is inbegrepen en wordt ook opgezegd." }
+          {
+            "instruction": "Ga naar youtube.com/paid_memberships en meld je aan."
+          },
+          {
+            "instruction": "Zoek \"YouTube Premium\" → klik op \"Lidmaatschap beheren\"."
+          },
+          {
+            "instruction": "Klik op \"Deactiveren\"."
+          },
+          {
+            "instruction": "Volg de bevestigingsstappen → klik op \"Doorgaan met opzeggen\"."
+          },
+          {
+            "instruction": "Bevestigen. Je behoudt Premium tot het einde van je factureringsperiode.",
+            "note": "YouTube Music Premium is inbegrepen en wordt ook opgezegd."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Open Instellingen → tik op je naam → Abonnementen." },
-          { "instruction": "Zoek \"YouTube Premium\" → tik erop." },
-          { "instruction": "Tik op \"Abonnement opzeggen\" → Bevestigen." }
+          {
+            "instruction": "Open Instellingen → tik op je naam → Abonnementen."
+          },
+          {
+            "instruction": "Zoek \"YouTube Premium\" → tik erop."
+          },
+          {
+            "instruction": "Tik op \"Abonnement opzeggen\" → Bevestigen."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Open Google Play Store → profiel → \"Betalingen & abonnementen\" → Abonnementen." },
-          { "instruction": "Zoek \"YouTube Premium\" → tik op \"Abonnement opzeggen\"." },
-          { "instruction": "Volg de bevestigingsstroom." }
+          {
+            "instruction": "Open Google Play Store → profiel → \"Betalingen & abonnementen\" → Abonnementen."
+          },
+          {
+            "instruction": "Zoek \"YouTube Premium\" → tik op \"Abonnement opzeggen\"."
+          },
+          {
+            "instruction": "Volg de bevestigingsstroom."
+          }
         ]
       }
     },
@@ -454,25 +727,47 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Ga naar hulu.com en meld je aan." },
-          { "instruction": "Klik op je profielicoontje → \"Account\"." },
-          { "instruction": "Klik onder \"Jouw abonnement\" op \"Opzeggen\"." },
-          { "instruction": "Selecteer een reden → Hulu doet aanbiedingen. Klik op \"Doorgaan met opzeggen\"." },
-          { "instruction": "Klik op \"Abonnement opzeggen\" om te bevestigen." },
-          { "instruction": "Je ontvangt een bevestigingsmail." }
+          {
+            "instruction": "Ga naar hulu.com en meld je aan."
+          },
+          {
+            "instruction": "Klik op je profielicoontje → \"Account\"."
+          },
+          {
+            "instruction": "Klik onder \"Jouw abonnement\" op \"Opzeggen\"."
+          },
+          {
+            "instruction": "Selecteer een reden → Hulu doet aanbiedingen. Klik op \"Doorgaan met opzeggen\"."
+          },
+          {
+            "instruction": "Klik op \"Abonnement opzeggen\" om te bevestigen."
+          },
+          {
+            "instruction": "Je ontvangt een bevestigingsmail."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Open Instellingen → tik op je naam → Abonnementen." },
-          { "instruction": "Zoek \"Hulu\" → tik erop." },
-          { "instruction": "Tik op \"Abonnement opzeggen\" → Bevestigen." }
+          {
+            "instruction": "Open Instellingen → tik op je naam → Abonnementen."
+          },
+          {
+            "instruction": "Zoek \"Hulu\" → tik erop."
+          },
+          {
+            "instruction": "Tik op \"Abonnement opzeggen\" → Bevestigen."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Open Google Play Store → profiel → Abonnementen → zoek Hulu." },
-          { "instruction": "Tik op \"Abonnement opzeggen\" → volg de prompts." }
+          {
+            "instruction": "Open Google Play Store → profiel → Abonnementen → zoek Hulu."
+          },
+          {
+            "instruction": "Tik op \"Abonnement opzeggen\" → volg de prompts."
+          }
         ]
       }
     },
@@ -494,23 +789,42 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Ga naar my.nordaccount.com en meld je aan." },
-          { "instruction": "Klik op \"Facturering\" of \"Abonnement\" in de linker zijbalk." },
-          { "instruction": "Zoek je plan → klik op \"Automatische verlenging annuleren\" of \"Abonnement opzeggen\"." },
-          { "instruction": "Bevestig de annulering." },
-          { "instruction": "Voor een terugbetaling: start een live chat op nordvpn.com/support en vraag ernaar. Terugbetalingen worden verwerkt in 5–10 werkdagen.", "note": "NordVPN biedt geen terugbetalingen via het accountdashboard — je moet contact opnemen met ondersteuning." }
+          {
+            "instruction": "Ga naar my.nordaccount.com en meld je aan."
+          },
+          {
+            "instruction": "Klik op \"Facturering\" of \"Abonnement\" in de linker zijbalk."
+          },
+          {
+            "instruction": "Zoek je plan → klik op \"Automatische verlenging annuleren\" of \"Abonnement opzeggen\"."
+          },
+          {
+            "instruction": "Bevestig de annulering."
+          },
+          {
+            "instruction": "Voor een terugbetaling: start een live chat op nordvpn.com/support en vraag ernaar. Terugbetalingen worden verwerkt in 5–10 werkdagen.",
+            "note": "NordVPN biedt geen terugbetalingen via het accountdashboard — je moet contact opnemen met ondersteuning."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Als je bent geabonneerd via de App Store: Instellingen → Apple ID → Abonnementen → NordVPN → Opzeggen." },
-          { "instruction": "Let op: App Store-abonnementen komen niet in aanmerking voor de NordVPN 30-dagen terugbetaling. Neem in plaats daarvan contact op met Apple." }
+          {
+            "instruction": "Als je bent geabonneerd via de App Store: Instellingen → Apple ID → Abonnementen → NordVPN → Opzeggen."
+          },
+          {
+            "instruction": "Let op: App Store-abonnementen komen niet in aanmerking voor de NordVPN 30-dagen terugbetaling. Neem in plaats daarvan contact op met Apple."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Als je bent geabonneerd via Google Play: Play Store → Abonnementen → NordVPN → Opzeggen." },
-          { "instruction": "Voor terugbetalingen op Play-aankopen, neem je binnen 48 uur contact op met Google Play-ondersteuning." }
+          {
+            "instruction": "Als je bent geabonneerd via Google Play: Play Store → Abonnementen → NordVPN → Opzeggen."
+          },
+          {
+            "instruction": "Voor terugbetalingen op Play-aankopen, neem je binnen 48 uur contact op met Google Play-ondersteuning."
+          }
         ]
       }
     },
@@ -532,25 +846,48 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Ga naar doordash.com en meld je aan." },
-          { "instruction": "Klik op je profielicoontje → Haal DashPass op of ga naar doordash.com/account." },
-          { "instruction": "Scroll naar DashPass → klik op DashPass beheren." },
-          { "instruction": "Klik op DashPass annuleren." },
-          { "instruction": "Volg de bevestigingsprompts → klik op DashPass annuleren om te bevestigen.", "note": "Je behoudt DashPass-voordelen tot het einde van je factureringsperiode." }
+          {
+            "instruction": "Ga naar doordash.com en meld je aan."
+          },
+          {
+            "instruction": "Klik op je profielicoontje → Haal DashPass op of ga naar doordash.com/account."
+          },
+          {
+            "instruction": "Scroll naar DashPass → klik op DashPass beheren."
+          },
+          {
+            "instruction": "Klik op DashPass annuleren."
+          },
+          {
+            "instruction": "Volg de bevestigingsprompts → klik op DashPass annuleren om te bevestigen.",
+            "note": "Je behoudt DashPass-voordelen tot het einde van je factureringsperiode."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Open de DoorDash-app → tik op je profielicoontje (rechtsonder)." },
-          { "instruction": "Tik op Haal DashPass op of DashPass beheren." },
-          { "instruction": "Tik op DashPass annuleren → bevestigen." }
+          {
+            "instruction": "Open de DoorDash-app → tik op je profielicoontje (rechtsonder)."
+          },
+          {
+            "instruction": "Tik op Haal DashPass op of DashPass beheren."
+          },
+          {
+            "instruction": "Tik op DashPass annuleren → bevestigen."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Open de DoorDash-app → tik op je profielicoontje." },
-          { "instruction": "Tik op DashPass beheren." },
-          { "instruction": "Tik op DashPass annuleren → volg de bevestigingsprompts." }
+          {
+            "instruction": "Open de DoorDash-app → tik op je profielicoontje."
+          },
+          {
+            "instruction": "Tik op DashPass beheren."
+          },
+          {
+            "instruction": "Tik op DashPass annuleren → volg de bevestigingsprompts."
+          }
         ]
       }
     },
@@ -565,8 +902,12 @@
       }
     ],
     "alternatives": [
-      { "description": "$9,99/mnd — gratis bezorging op Uber Eats + Uber-ritten" },
-      { "description": "$9,99/mnd — gratis bezorging op Grubhub-bestellingen" }
+      {
+        "description": "$9,99/mnd — gratis bezorging op Uber Eats + Uber-ritten"
+      },
+      {
+        "description": "$9,99/mnd — gratis bezorging op Grubhub-bestellingen"
+      }
     ]
   },
   "peacock": {
@@ -576,25 +917,48 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Ga naar peacocktv.com en meld je aan." },
-          { "instruction": "Klik op je profielicoontje → Account." },
-          { "instruction": "Klik onder Plan op Plan wijzigen of annuleren." },
-          { "instruction": "Klik op Plan annuleren." },
-          { "instruction": "Selecteer een reden → klik op Doorgaan.", "note": "Je Peacock Premium-toegang loopt door tot de factuurdatum." },
-          { "instruction": "Bevestig de annulering." }
+          {
+            "instruction": "Ga naar peacocktv.com en meld je aan."
+          },
+          {
+            "instruction": "Klik op je profielicoontje → Account."
+          },
+          {
+            "instruction": "Klik onder Plan op Plan wijzigen of annuleren."
+          },
+          {
+            "instruction": "Klik op Plan annuleren."
+          },
+          {
+            "instruction": "Selecteer een reden → klik op Doorgaan.",
+            "note": "Je Peacock Premium-toegang loopt door tot de factuurdatum."
+          },
+          {
+            "instruction": "Bevestig de annulering."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Open Instellingen → tik op je naam → Abonnementen." },
-          { "instruction": "Zoek Peacock → tik erop." },
-          { "instruction": "Tik op Abonnement opzeggen → bevestigen." }
+          {
+            "instruction": "Open Instellingen → tik op je naam → Abonnementen."
+          },
+          {
+            "instruction": "Zoek Peacock → tik erop."
+          },
+          {
+            "instruction": "Tik op Abonnement opzeggen → bevestigen."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Open Google Play Store → profiel → Betalingen & abonnementen → Abonnementen." },
-          { "instruction": "Zoek Peacock → tik op Abonnement opzeggen → bevestigen." }
+          {
+            "instruction": "Open Google Play Store → profiel → Betalingen & abonnementen → Abonnementen."
+          },
+          {
+            "instruction": "Zoek Peacock → tik op Abonnement opzeggen → bevestigen."
+          }
         ]
       }
     },
@@ -609,8 +973,12 @@
       }
     ],
     "alternatives": [
-      { "description": "$7,99/mnd — CBS, MTV, Nickelodeon" },
-      { "description": "$9,99/mnd — HBO-content" }
+      {
+        "description": "$7,99/mnd — CBS, MTV, Nickelodeon"
+      },
+      {
+        "description": "$9,99/mnd — HBO-content"
+      }
     ]
   },
   "audible": {
@@ -620,24 +988,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Ga naar audible.com en meld je aan." },
-          { "instruction": "Zweef over je naam → klik op Accountdetails." },
-          { "instruction": "Klik op Lidmaatschap opzeggen in de linker zijbalk of onder Lidmaatschapsdetails." },
-          { "instruction": "Audible toont een optie om het lidmaatschap te pauzeren — klik op Doorgaan met opzeggen als je wilt annuleren.", "note": "Gebruik je credits voor het opzeggen — ze vervallen als je lidmaatschap eindigt." },
-          { "instruction": "Selecteer een reden → klik op Lidmaatschap opzeggen." },
-          { "instruction": "Je ontvangt een bevestigingsmail." }
+          {
+            "instruction": "Ga naar audible.com en meld je aan."
+          },
+          {
+            "instruction": "Zweef over je naam → klik op Accountdetails."
+          },
+          {
+            "instruction": "Klik op Lidmaatschap opzeggen in de linker zijbalk of onder Lidmaatschapsdetails."
+          },
+          {
+            "instruction": "Audible toont een optie om het lidmaatschap te pauzeren — klik op Doorgaan met opzeggen als je wilt annuleren.",
+            "note": "Gebruik je credits voor het opzeggen — ze vervallen als je lidmaatschap eindigt."
+          },
+          {
+            "instruction": "Selecteer een reden → klik op Lidmaatschap opzeggen."
+          },
+          {
+            "instruction": "Je ontvangt een bevestigingsmail."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Als je bent geabonneerd via de App Store: Instellingen → Apple ID → Abonnementen → Audible → Opzeggen." },
-          { "instruction": "Als je rechtstreeks bent geabonneerd bij Amazon/Audible: gebruik de bovenstaande websitestappen." }
+          {
+            "instruction": "Als je bent geabonneerd via de App Store: Instellingen → Apple ID → Abonnementen → Audible → Opzeggen."
+          },
+          {
+            "instruction": "Als je rechtstreeks bent geabonneerd bij Amazon/Audible: gebruik de bovenstaande websitestappen."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Als je bent geabonneerd via Google Play: Play Store → Abonnementen → Audible → Opzeggen." },
-          { "instruction": "Als je rechtstreeks bent geabonneerd: gebruik de bovenstaande websitestappen." }
+          {
+            "instruction": "Als je bent geabonneerd via Google Play: Play Store → Abonnementen → Audible → Opzeggen."
+          },
+          {
+            "instruction": "Als je rechtstreeks bent geabonneerd: gebruik de bovenstaande websitestappen."
+          }
         ]
       }
     },
@@ -656,8 +1045,12 @@
       }
     ],
     "alternatives": [
-      { "description": "$11,99/mnd — e-books + sommige luisterboeken" },
-      { "description": "$11,99/mnd — luisterboeken, e-books, documenten" }
+      {
+        "description": "$11,99/mnd — e-books + sommige luisterboeken"
+      },
+      {
+        "description": "$11,99/mnd — luisterboeken, e-books, documenten"
+      }
     ]
   },
   "fabletics": {
@@ -666,24 +1059,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Log in op fabletics.com en gebruik eventuele opgebouwde credits voordat je opzegt." },
-          { "instruction": "Klik op Ledencredits om je saldo te controleren.", "note": "Credits vervallen na annulering — gebruik ze eerst." },
-          { "instruction": "Open de live chat op fabletics.com of bel 1-844-322-5384." },
-          { "instruction": "Vertel de medewerker dat je je VIP-lidmaatschap wilt annuleren." },
-          { "instruction": "Wijs alle retentieaanbiedingen af (kortingen, pauzes, creditaanbiedingen)." },
-          { "instruction": "Bevestig de annulering en vraag om een bevestigingsnummer of e-mail." }
+          {
+            "instruction": "Log in op fabletics.com en gebruik eventuele opgebouwde credits voordat je opzegt."
+          },
+          {
+            "instruction": "Klik op Ledencredits om je saldo te controleren.",
+            "note": "Credits vervallen na annulering — gebruik ze eerst."
+          },
+          {
+            "instruction": "Open de live chat op fabletics.com of bel 1-844-322-5384."
+          },
+          {
+            "instruction": "Vertel de medewerker dat je je VIP-lidmaatschap wilt annuleren."
+          },
+          {
+            "instruction": "Wijs alle retentieaanbiedingen af (kortingen, pauzes, creditaanbiedingen)."
+          },
+          {
+            "instruction": "Bevestig de annulering en vraag om een bevestigingsnummer of e-mail."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Fabletics ondersteunt geen annulering via de iOS-app of App Store." },
-          { "instruction": "Gebruik telefoon (1-844-322-5384) of live chat op fabletics.com." }
+          {
+            "instruction": "Fabletics ondersteunt geen annulering via de iOS-app of App Store."
+          },
+          {
+            "instruction": "Gebruik telefoon (1-844-322-5384) of live chat op fabletics.com."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Fabletics ondersteunt geen annulering via de Android-app of Play Store." },
-          { "instruction": "Gebruik telefoon of live chat — zie de webstappen hierboven." }
+          {
+            "instruction": "Fabletics ondersteunt geen annulering via de Android-app of Play Store."
+          },
+          {
+            "instruction": "Gebruik telefoon of live chat — zie de webstappen hierboven."
+          }
         ]
       }
     },
@@ -709,23 +1123,42 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Log in op experian.com of ga naar je accountinstellingen." },
-          { "instruction": "Als er geen annuleringsknop beschikbaar is, open dan live chat via experian.com/consumer/help.html.", "note": "Experian verbergt de annuleringsoptie vaak — live chat is doorgaans de snelste route." },
-          { "instruction": "Vertel de medewerker dat je je abonnement wilt annuleren." },
-          { "instruction": "Wijs retentieaanbiedingen af (pauze van kredietbewaking, kortingen)." },
-          { "instruction": "Vraag om een bevestigingsmail met je annuleringsdatum." }
+          {
+            "instruction": "Log in op experian.com of ga naar je accountinstellingen."
+          },
+          {
+            "instruction": "Als er geen annuleringsknop beschikbaar is, open dan live chat via experian.com/consumer/help.html.",
+            "note": "Experian verbergt de annuleringsoptie vaak — live chat is doorgaans de snelste route."
+          },
+          {
+            "instruction": "Vertel de medewerker dat je je abonnement wilt annuleren."
+          },
+          {
+            "instruction": "Wijs retentieaanbiedingen af (pauze van kredietbewaking, kortingen)."
+          },
+          {
+            "instruction": "Vraag om een bevestigingsmail met je annuleringsdatum."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Als je bent geabonneerd via de App Store: Instellingen → Apple ID → Abonnementen → Experian → Opzeggen." },
-          { "instruction": "Als je rechtstreeks bent geabonneerd bij Experian: gebruik telefoon (1-479-343-6239) of live chat." }
+          {
+            "instruction": "Als je bent geabonneerd via de App Store: Instellingen → Apple ID → Abonnementen → Experian → Opzeggen."
+          },
+          {
+            "instruction": "Als je rechtstreeks bent geabonneerd bij Experian: gebruik telefoon (1-479-343-6239) of live chat."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Als je bent geabonneerd via Google Play: Play Store → Abonnementen → Experian → Opzeggen." },
-          { "instruction": "Als je rechtstreeks bent geabonneerd: gebruik live chat of bel Experian-ondersteuning." }
+          {
+            "instruction": "Als je bent geabonneerd via Google Play: Play Store → Abonnementen → Experian → Opzeggen."
+          },
+          {
+            "instruction": "Als je rechtstreeks bent geabonneerd: gebruik live chat of bel Experian-ondersteuning."
+          }
         ]
       }
     },
@@ -744,8 +1177,12 @@
       }
     ],
     "alternatives": [
-      { "description": "Gratis kredietbewaking — geen abonnement nodig" },
-      { "description": "$8,99/mnd — bescherming tegen identiteitsdiefstal" }
+      {
+        "description": "Gratis kredietbewaking — geen abonnement nodig"
+      },
+      {
+        "description": "$8,99/mnd — bescherming tegen identiteitsdiefstal"
+      }
     ]
   },
   "crunch-fitness": {
@@ -755,23 +1192,42 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Log in op crunch.com en controleer of je locatie online annulering aanbiedt (zeldzaam — de meeste doen dit niet)." },
-          { "instruction": "Als online annulering niet beschikbaar is, ga dan persoonlijk naar je thuisclub met een foto-ID." },
-          { "instruction": "Vraag om een lidmaatschapsadviseur te spreken en verzoek annulering.", "note": "Neem je ledennummer of het e-mailadres mee dat je hebt gebruikt om je aan te melden." },
-          { "instruction": "U kunt ook een aangetekende brief sturen naar je thuisclub met: je volledige naam, ledennummer, adres en handtekening." },
-          { "instruction": "Bewaar het aangetekende postbewijs. Annulering treedt doorgaans 30 dagen na ontvangst in werking." }
+          {
+            "instruction": "Log in op crunch.com en controleer of je locatie online annulering aanbiedt (zeldzaam — de meeste doen dit niet)."
+          },
+          {
+            "instruction": "Als online annulering niet beschikbaar is, ga dan persoonlijk naar je thuisclub met een foto-ID."
+          },
+          {
+            "instruction": "Vraag om een lidmaatschapsadviseur te spreken en verzoek annulering.",
+            "note": "Neem je ledennummer of het e-mailadres mee dat je hebt gebruikt om je aan te melden."
+          },
+          {
+            "instruction": "U kunt ook een aangetekende brief sturen naar je thuisclub met: je volledige naam, ledennummer, adres en handtekening."
+          },
+          {
+            "instruction": "Bewaar het aangetekende postbewijs. Annulering treedt doorgaans 30 dagen na ontvangst in werking."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Crunch ondersteunt geen annulering via de iOS-app." },
-          { "instruction": "Annuleer persoonlijk bij je thuisclub of via aangetekende post." }
+          {
+            "instruction": "Crunch ondersteunt geen annulering via de iOS-app."
+          },
+          {
+            "instruction": "Annuleer persoonlijk bij je thuisclub of via aangetekende post."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Crunch ondersteunt geen annulering via de Android-app." },
-          { "instruction": "Annuleer persoonlijk of per aangetekende post — zie de webstappen." }
+          {
+            "instruction": "Crunch ondersteunt geen annulering via de Android-app."
+          },
+          {
+            "instruction": "Annuleer persoonlijk of per aangetekende post — zie de webstappen."
+          }
         ]
       }
     },
@@ -790,8 +1246,12 @@
       }
     ],
     "alternatives": [
-      { "description": "$10–$25/mnd — eenvoudige online annulering" },
-      { "description": "$30–$50/mnd — 24/7 toegang" }
+      {
+        "description": "$10–$25/mnd — eenvoudige online annulering"
+      },
+      {
+        "description": "$30–$50/mnd — 24/7 toegang"
+      }
     ]
   },
   "xfinity": {
@@ -801,24 +1261,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Ga naar xfinity.com/support en meld je aan.", "note": "Controleer eerst je contracteinddatum — ga naar Mijn Account → Serviceovereenkomst om te zien of je een ETF verschuldigd bent." },
-          { "instruction": "Gebruik de Xfinity Assistant-chat en typ Service annuleren — dit werkt soms zonder wachttijd." },
-          { "instruction": "Of bel 1-800-934-6489. Verwacht wachttijden van 15–45 minuten." },
-          { "instruction": "Vertel de medewerker dat je wilt annuleren, niet downgraden. Wijs alle retentieaanbiedingen af." },
-          { "instruction": "Vraag om een annuleringsbevestigingsnummer en e-mail." },
-          { "instruction": "Retourneer eventuele gehuurde apparatuur binnen 10 dagen om apparatuurkosten te vermijden." }
+          {
+            "instruction": "Ga naar xfinity.com/support en meld je aan.",
+            "note": "Controleer eerst je contracteinddatum — ga naar Mijn Account → Serviceovereenkomst om te zien of je een ETF verschuldigd bent."
+          },
+          {
+            "instruction": "Gebruik de Xfinity Assistant-chat en typ Service annuleren — dit werkt soms zonder wachttijd."
+          },
+          {
+            "instruction": "Of bel 1-800-934-6489. Verwacht wachttijden van 15–45 minuten."
+          },
+          {
+            "instruction": "Vertel de medewerker dat je wilt annuleren, niet downgraden. Wijs alle retentieaanbiedingen af."
+          },
+          {
+            "instruction": "Vraag om een annuleringsbevestigingsnummer en e-mail."
+          },
+          {
+            "instruction": "Retourneer eventuele gehuurde apparatuur binnen 10 dagen om apparatuurkosten te vermijden."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Open de Xfinity-app → tik op het accounticoontje." },
-          { "instruction": "Tik op Mijn plan beheren — volledige annulering vereist een telefoontje of winkelbezoek." }
+          {
+            "instruction": "Open de Xfinity-app → tik op het accounticoontje."
+          },
+          {
+            "instruction": "Tik op Mijn plan beheren — volledige annulering vereist een telefoontje of winkelbezoek."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Open de Xfinity-app → accounticoontje → Mijn plan beheren." },
-          { "instruction": "Voor volledige annulering, bel of bezoek een winkel." }
+          {
+            "instruction": "Open de Xfinity-app → accounticoontje → Mijn plan beheren."
+          },
+          {
+            "instruction": "Voor volledige annulering, bel of bezoek een winkel."
+          }
         ]
       }
     },
@@ -837,8 +1318,12 @@
       }
     ],
     "alternatives": [
-      { "description": "Glasvezelinternet — concurrerende prijzen" },
-      { "description": "Geen contracten, geen datalimieten" }
+      {
+        "description": "Glasvezelinternet — concurrerende prijzen"
+      },
+      {
+        "description": "Geen contracten, geen datalimieten"
+      }
     ]
   },
   "fubotv": {
@@ -848,25 +1333,48 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Ga naar fubo.tv en meld je aan." },
-          { "instruction": "Klik op je profielicoontje (rechtsboven) → Mijn Account." },
-          { "instruction": "Klik op Abonnement beheren." },
-          { "instruction": "Klik op Abonnement opzeggen.", "note": "FuboTV kan een pauzeoptie tonen — klik alleen op Opzeggen als je volledig wilt annuleren." },
-          { "instruction": "Selecteer een reden → bevestig annulering." },
-          { "instruction": "Je ontvangt een bevestigingsmail." }
+          {
+            "instruction": "Ga naar fubo.tv en meld je aan."
+          },
+          {
+            "instruction": "Klik op je profielicoontje (rechtsboven) → Mijn Account."
+          },
+          {
+            "instruction": "Klik op Abonnement beheren."
+          },
+          {
+            "instruction": "Klik op Abonnement opzeggen.",
+            "note": "FuboTV kan een pauzeoptie tonen — klik alleen op Opzeggen als je volledig wilt annuleren."
+          },
+          {
+            "instruction": "Selecteer een reden → bevestig annulering."
+          },
+          {
+            "instruction": "Je ontvangt een bevestigingsmail."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Open Instellingen → tik op je naam → Abonnementen." },
-          { "instruction": "Zoek FuboTV → tik erop." },
-          { "instruction": "Tik op Abonnement opzeggen → bevestigen." }
+          {
+            "instruction": "Open Instellingen → tik op je naam → Abonnementen."
+          },
+          {
+            "instruction": "Zoek FuboTV → tik erop."
+          },
+          {
+            "instruction": "Tik op Abonnement opzeggen → bevestigen."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Open Google Play Store → profiel → Betalingen & abonnementen → Abonnementen." },
-          { "instruction": "Zoek FuboTV → tik op Abonnement opzeggen → bevestigen." }
+          {
+            "instruction": "Open Google Play Store → profiel → Betalingen & abonnementen → Abonnementen."
+          },
+          {
+            "instruction": "Zoek FuboTV → tik op Abonnement opzeggen → bevestigen."
+          }
         ]
       }
     },
@@ -881,9 +1389,15 @@
       }
     ],
     "alternatives": [
-      { "description": "$72,99/mnd — 100+ zenders, onbeperkte DVR" },
-      { "description": "Vanaf $40/mnd — flexibele zenderpakketten" },
-      { "description": "Vanaf $64,99/mnd — focus op live sport" }
+      {
+        "description": "$72,99/mnd — 100+ zenders, onbeperkte DVR"
+      },
+      {
+        "description": "Vanaf $40/mnd — flexibele zenderpakketten"
+      },
+      {
+        "description": "Vanaf $64,99/mnd — focus op live sport"
+      }
     ]
   },
   "uber-eats": {
@@ -893,25 +1407,48 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Ga naar uber.com en meld je aan." },
-          { "instruction": "Klik op je profielicoontje → Uber One." },
-          { "instruction": "Klik op Lidmaatschap beheren." },
-          { "instruction": "Klik op Lidmaatschap opzeggen.", "note": "Je Uber One-voordelen lopen door tot het einde van de factureringsperiode." },
-          { "instruction": "Bevestig annulering." }
+          {
+            "instruction": "Ga naar uber.com en meld je aan."
+          },
+          {
+            "instruction": "Klik op je profielicoontje → Uber One."
+          },
+          {
+            "instruction": "Klik op Lidmaatschap beheren."
+          },
+          {
+            "instruction": "Klik op Lidmaatschap opzeggen.",
+            "note": "Je Uber One-voordelen lopen door tot het einde van de factureringsperiode."
+          },
+          {
+            "instruction": "Bevestig annulering."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Open de Uber- of Uber Eats-app → tik op je profielicoontje." },
-          { "instruction": "Tik op Uber One → Lidmaatschap beheren." },
-          { "instruction": "Tik op Lidmaatschap opzeggen → bevestigen." }
+          {
+            "instruction": "Open de Uber- of Uber Eats-app → tik op je profielicoontje."
+          },
+          {
+            "instruction": "Tik op Uber One → Lidmaatschap beheren."
+          },
+          {
+            "instruction": "Tik op Lidmaatschap opzeggen → bevestigen."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Open de Uber- of Uber Eats-app → profielicoontje." },
-          { "instruction": "Tik op Uber One → Lidmaatschap beheren → Lidmaatschap opzeggen." },
-          { "instruction": "Bevestig annulering." }
+          {
+            "instruction": "Open de Uber- of Uber Eats-app → profielicoontje."
+          },
+          {
+            "instruction": "Tik op Uber One → Lidmaatschap beheren → Lidmaatschap opzeggen."
+          },
+          {
+            "instruction": "Bevestig annulering."
+          }
         ]
       }
     },
@@ -926,8 +1463,12 @@
       }
     ],
     "alternatives": [
-      { "description": "$9,99/mnd — gratis bezorging op DoorDash" },
-      { "description": "$9,99/mnd — gratis bezorging op Grubhub" }
+      {
+        "description": "$9,99/mnd — gratis bezorging op DoorDash"
+      },
+      {
+        "description": "$9,99/mnd — gratis bezorging op Grubhub"
+      }
     ]
   },
   "instacart": {
@@ -937,24 +1478,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Ga naar instacart.com en meld je aan." },
-          { "instruction": "Klik op je profielicoontje → Instacart+." },
-          { "instruction": "Klik op Je lidmaatschap beheren." },
-          { "instruction": "Klik op Lidmaatschap opzeggen.", "note": "Als je een jaarplan hebt met resterende maanden, kan Instacart een proportionele terugbetaling aanbieden." },
-          { "instruction": "Bevestig annulering." }
+          {
+            "instruction": "Ga naar instacart.com en meld je aan."
+          },
+          {
+            "instruction": "Klik op je profielicoontje → Instacart+."
+          },
+          {
+            "instruction": "Klik op Je lidmaatschap beheren."
+          },
+          {
+            "instruction": "Klik op Lidmaatschap opzeggen.",
+            "note": "Als je een jaarplan hebt met resterende maanden, kan Instacart een proportionele terugbetaling aanbieden."
+          },
+          {
+            "instruction": "Bevestig annulering."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Open de Instacart-app → tik op je profielicoontje." },
-          { "instruction": "Tik op Instacart+ → Lidmaatschap beheren." },
-          { "instruction": "Tik op Lidmaatschap opzeggen → bevestigen." }
+          {
+            "instruction": "Open de Instacart-app → tik op je profielicoontje."
+          },
+          {
+            "instruction": "Tik op Instacart+ → Lidmaatschap beheren."
+          },
+          {
+            "instruction": "Tik op Lidmaatschap opzeggen → bevestigen."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Open de Instacart-app → profielicoontje → Instacart+." },
-          { "instruction": "Tik op Lidmaatschap beheren → Lidmaatschap opzeggen → bevestigen." }
+          {
+            "instruction": "Open de Instacart-app → profielicoontje → Instacart+."
+          },
+          {
+            "instruction": "Tik op Lidmaatschap beheren → Lidmaatschap opzeggen → bevestigen."
+          }
         ]
       }
     },
@@ -969,8 +1531,703 @@
       }
     ],
     "alternatives": [
-      { "description": "Gratis bezorging met Prime — boodschappenbezorging" },
-      { "description": "$99/jaar — Target + andere retailers" }
+      {
+        "description": "Gratis bezorging met Prime — boodschappenbezorging"
+      },
+      {
+        "description": "$99/jaar — Target + andere retailers"
+      }
+    ]
+  },
+  "espn-plus": {
+    "description": "Annuleer ESPN+ in minder dan 5 minuten via web, iOS of Android. Inclusief stappen voor het annuleren van de Disney-bundel.",
+    "difficultyReason": "ESPN+ annulering is eenvoudig, maar houd rekening met de Disney-bundel die tegelijkertijd wordt geannuleerd.",
+    "refundPolicy": "Geen terugbetalingen. Toegang loopt door tot het einde van de factureringsperiode.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar espnplus.com en meld je aan."
+          },
+          {
+            "instruction": "Klik op je profielicoontje → Account."
+          },
+          {
+            "instruction": "Klik op Abonnement."
+          },
+          {
+            "instruction": "Klik op Abonnement opzeggen."
+          },
+          {
+            "instruction": "Bevestig de annulering.",
+            "note": "Let op: als je de Disney-bundel hebt, worden Disney+ en Hulu ook geannuleerd."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Open Instellingen → tik op je Apple ID-naam."
+          },
+          {
+            "instruction": "Tik op Abonnementen → ESPN+."
+          },
+          {
+            "instruction": "Tik op Abonnement opzeggen en bevestig."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Open de Google Play Store → tik op je profielicoontje."
+          },
+          {
+            "instruction": "Ga naar Abonnementen → ESPN+."
+          },
+          {
+            "instruction": "Tik op Abonnement opzeggen en bevestig."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Wordt mijn Disney-bundel ook geannuleerd?",
+        "answer": "Ja. Als je de Disney-bundel (ESPN+, Disney+, Hulu) hebt, worden alle drie services tegelijk geannuleerd wanneer je ESPN+ opzegt."
+      },
+      {
+        "question": "Ik kan de annuleringsoptie niet vinden.",
+        "answer": "Als je je hebt geabonneerd via een tv-provider, moet je via die provider opzeggen en niet via de ESPN+-website."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Disney-bundel: Disney+ + Hulu + ESPN+"
+      },
+      {
+        "description": "YouTube TV — live tv met ESPN-kanalen"
+      },
+      {
+        "description": "DAZN — alternatief voor sportstreaming"
+      }
+    ]
+  },
+  "youtube-tv": {
+    "description": "Annuleer YouTube TV in minder dan 3 minuten via web of mobiel.",
+    "difficultyReason": "YouTube TV biedt een eenvoudig annuleringsproces, maar DVR-opnames worden verwijderd bij annulering.",
+    "refundPolicy": "Geen terugbetalingen. Toegang loopt door tot het einde van de factureringsperiode.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar tv.youtube.com en meld je aan."
+          },
+          {
+            "instruction": "Klik op je profielicoontje → Instellingen."
+          },
+          {
+            "instruction": "Klik op Lidmaatschap → Lidmaatschap opzeggen."
+          },
+          {
+            "instruction": "Volg de instructies om te bevestigen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Open Instellingen → Apple ID → Abonnementen."
+          },
+          {
+            "instruction": "Zoek YouTube TV en tik erop."
+          },
+          {
+            "instruction": "Tik op Abonnement opzeggen en bevestig."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Open de Google Play Store → Betalingen & abonnementen → Abonnementen."
+          },
+          {
+            "instruction": "Zoek YouTube TV en tik erop."
+          },
+          {
+            "instruction": "Tik op Abonnement opzeggen en bevestig."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Worden mijn DVR-opnames verwijderd bij annulering?",
+        "answer": "Ja. Alle opgeslagen DVR-opnames worden verwijderd wanneer je je YouTube TV-abonnement annuleert."
+      },
+      {
+        "question": "Kan ik mijn abonnement pauzeren in plaats van opzeggen?",
+        "answer": "Ja. YouTube TV biedt de mogelijkheid om je abonnement tot 6 maanden te pauzeren als alternatief voor volledig opzeggen."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Sling TV — vanaf $40/mnd, flexibele pakketten"
+      },
+      {
+        "description": "Hulu + Live TV — $76,99/mnd"
+      },
+      {
+        "description": "FuboTV — gericht op live sport"
+      }
+    ]
+  },
+  "paramount-plus": {
+    "description": "Annuleer Paramount+ in minder dan 5 minuten via web, iOS of Android.",
+    "difficultyReason": "Annulering is eenvoudig, maar als je SHOWTIME hebt toegevoegd, wordt dat ook geannuleerd.",
+    "refundPolicy": "Geen terugbetalingen. Toegang loopt door tot het einde van de factureringsperiode.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar paramountplus.com en meld je aan."
+          },
+          {
+            "instruction": "Klik op je profielicoontje → Instellingen."
+          },
+          {
+            "instruction": "Klik op Abonnement → Abonnement opzeggen."
+          },
+          {
+            "instruction": "Volg de instructies om te bevestigen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Open Instellingen → Apple ID → Abonnementen."
+          },
+          {
+            "instruction": "Zoek Paramount+ en tik erop."
+          },
+          {
+            "instruction": "Tik op Abonnement opzeggen en bevestig."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Open de Google Play Store → Betalingen & abonnementen → Abonnementen."
+          },
+          {
+            "instruction": "Zoek Paramount+ en tik erop."
+          },
+          {
+            "instruction": "Tik op Abonnement opzeggen en bevestig."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Wordt SHOWTIME ook geannuleerd?",
+        "answer": "Ja. Als je Paramount+ met SHOWTIME hebt, worden beide services tegelijk geannuleerd."
+      },
+      {
+        "question": "Ik heb me geabonneerd via Apple of Amazon.",
+        "answer": "Als je via Apple of Amazon hebt geabonneerd, moet je daar opzeggen — niet via de Paramount+-website."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Netflix — breed aanbod aan series en films"
+      },
+      {
+        "description": "Peacock — NBC-content"
+      },
+      {
+        "description": "Disney+ — Disney, Marvel, Star Wars"
+      }
+    ]
+  },
+  "apple-tv-plus": {
+    "description": "Annuleer Apple TV+ in minder dan 2 minuten via iPhone, Mac of het web.",
+    "difficultyReason": "Annulering is eenvoudig via Apple ID-instellingen zonder retentiepogingen.",
+    "refundPolicy": "Geen terugbetalingen. Toegang loopt door tot het einde van de factureringsperiode.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar appleid.apple.com en meld je aan."
+          },
+          {
+            "instruction": "Klik op Abonnementen."
+          },
+          {
+            "instruction": "Zoek Apple TV+ en klik erop."
+          },
+          {
+            "instruction": "Klik op Abonnement opzeggen en bevestig."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Open Instellingen → tik op je naam bovenaan."
+          },
+          {
+            "instruction": "Tik op Abonnementen → Apple TV+."
+          },
+          {
+            "instruction": "Tik op Abonnement opzeggen en bevestig."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Er is geen Android-app voor Apple TV+."
+          },
+          {
+            "instruction": "Ga naar appleid.apple.com in je browser en volg de webstappen hierboven."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ik heb een gratis proefperiode gekregen bij een Apple-apparaat — word ik nu afgeschreven?",
+        "answer": "Ja. Gratis proefperiodes bij Apple-apparaten worden automatisch omgezet naar een betaald abonnement als je niet op tijd opzegt."
+      },
+      {
+        "question": "Worden andere Apple-abonnementen ook geannuleerd?",
+        "answer": "Nee. Het opzeggen van Apple TV+ heeft geen invloed op andere Apple-abonnementen zoals Apple Music of iCloud."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Netflix — breed aanbod aan series en films"
+      },
+      {
+        "description": "Disney+ — Disney, Marvel, Star Wars"
+      },
+      {
+        "description": "Amazon Prime Video — inbegrepen bij Prime"
+      }
+    ]
+  },
+  "dazn": {
+    "description": "Annuleer DAZN in minder dan 5 minuten via web of mobiel.",
+    "difficultyReason": "De annuleringsinterface varieert per regio, maar is over het algemeen eenvoudig te voltooien.",
+    "refundPolicy": "Geen terugbetalingen voor gedeeltelijke maanden. Toegang loopt door tot het einde van de factureringsperiode.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar dazn.com en meld je aan."
+          },
+          {
+            "instruction": "Klik op je profielicoontje → Mijn Account."
+          },
+          {
+            "instruction": "Klik op Abonnement → Abonnement opzeggen."
+          },
+          {
+            "instruction": "Volg de instructies om te bevestigen.",
+            "note": "De exacte stappen kunnen per regio variëren."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Open Instellingen → Apple ID → Abonnementen."
+          },
+          {
+            "instruction": "Zoek DAZN en tik erop."
+          },
+          {
+            "instruction": "Tik op Abonnement opzeggen en bevestig."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Open de Google Play Store → Betalingen & abonnementen → Abonnementen."
+          },
+          {
+            "instruction": "Zoek DAZN en tik erop."
+          },
+          {
+            "instruction": "Tik op Abonnement opzeggen en bevestig."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "De annuleringsinterface ziet er anders uit dan beschreven.",
+        "answer": "DAZN past de interface aan per regio. Als de stappen niet overeenkomen, zoek dan naar Accountinstellingen of neem contact op met DAZN-ondersteuning."
+      },
+      {
+        "question": "Kan ik een terugbetaling krijgen voor de resterende periode?",
+        "answer": "Nee. DAZN geeft geen terugbetalingen voor gedeeltelijk gebruikte maanden."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "ESPN+ — sportstreaming"
+      },
+      {
+        "description": "YouTube TV — live sport en tv"
+      },
+      {
+        "description": "FuboTV — gericht op live sport"
+      }
+    ]
+  },
+  "philo": {
+    "description": "Annuleer Philo in minder dan 3 minuten via web, iOS of Android.",
+    "difficultyReason": "Philo biedt een eenvoudig annuleringsproces zonder annuleringskosten of retentiepogingen.",
+    "refundPolicy": "Geen annuleringskosten. Toegang loopt door tot het einde van de factureringsperiode.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar philo.com en meld je aan."
+          },
+          {
+            "instruction": "Klik op Instellingen → Betalingen."
+          },
+          {
+            "instruction": "Klik op Plan opzeggen."
+          },
+          {
+            "instruction": "Bevestig de annulering."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Open Instellingen → Apple ID → Abonnementen."
+          },
+          {
+            "instruction": "Zoek Philo en tik erop."
+          },
+          {
+            "instruction": "Tik op Abonnement opzeggen en bevestig."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Open de Google Play Store → Betalingen & abonnementen → Abonnementen."
+          },
+          {
+            "instruction": "Zoek Philo en tik erop."
+          },
+          {
+            "instruction": "Tik op Abonnement opzeggen en bevestig."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Zijn er annuleringskosten?",
+        "answer": "Nee. Philo rekent geen annuleringskosten. Je kunt op elk moment opzeggen."
+      },
+      {
+        "question": "Kan ik mijn abonnement pauzeren?",
+        "answer": "Nee. Philo biedt geen pauseerfunctie. Je moet volledig opzeggen als je de service tijdelijk niet wilt gebruiken."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Sling TV — meer zenders, vanaf $40/mnd"
+      },
+      {
+        "description": "YouTube TV — $72,99/mnd, inclusief DVR"
+      },
+      {
+        "description": "Hulu + Live TV — $76,99/mnd"
+      }
+    ]
+  },
+  "sling-tv": {
+    "description": "Annuleer Sling TV in minder dan 5 minuten via web of mobiel.",
+    "difficultyReason": "Sling TV kan een korting aanbieden om je te behouden, maar annulering is verder eenvoudig. DVR-opnames worden verwijderd.",
+    "refundPolicy": "Geen terugbetalingen. DVR-opnames worden verwijderd bij annulering.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar sling.com/account/cancel-service en meld je aan."
+          },
+          {
+            "instruction": "Klik op Service opzeggen.",
+            "note": "Sling kan een kortingsaanbieding tonen — sla over als je wilt opzeggen."
+          },
+          {
+            "instruction": "Bevestig de annulering."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Open Instellingen → Apple ID → Abonnementen."
+          },
+          {
+            "instruction": "Zoek Sling TV en tik erop."
+          },
+          {
+            "instruction": "Tik op Abonnement opzeggen en bevestig."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Open de Google Play Store → Betalingen & abonnementen → Abonnementen."
+          },
+          {
+            "instruction": "Zoek Sling TV en tik erop."
+          },
+          {
+            "instruction": "Tik op Abonnement opzeggen en bevestig."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Sling bood me een korting aan — moet ik die accepteren?",
+        "answer": "Alleen als je Sling wilt behouden. Als je echt wilt opzeggen, sla de aanbieding over en ga door met annuleren."
+      },
+      {
+        "question": "Worden mijn DVR-opnames verwijderd?",
+        "answer": "Ja. Alle opgeslagen DVR-opnames worden verwijderd wanneer je je Sling TV-abonnement annuleert."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "YouTube TV — $72,99/mnd, onbeperkte DVR"
+      },
+      {
+        "description": "Philo — goedkopere live tv zonder sport"
+      },
+      {
+        "description": "FuboTV — gericht op live sport"
+      }
+    ]
+  },
+  "whoop": {
+    "description": "Annuleer je WHOOP-lidmaatschap — mogelijk is contact met de klantenservice vereist.",
+    "difficultyReason": "WHOOP kan annulering blokkeren vanwege een verbintenisperiode en vereist soms contact met de ondersteuning.",
+    "refundPolicy": "Geen terugbetalingen. Het apparaat werkt niet meer zonder actief lidmaatschap.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar app.whoop.com en meld je aan."
+          },
+          {
+            "instruction": "Klik op je profielicoontje → Lidmaatschap."
+          },
+          {
+            "instruction": "Klik op Lidmaatschap opzeggen.",
+            "note": "Als annulering is geblokkeerd, neem dan contact op met WHOOP-ondersteuning."
+          },
+          {
+            "instruction": "Bevestig de annulering."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Open Instellingen → Apple ID → Abonnementen (alleen als je via Apple hebt geabonneerd)."
+          },
+          {
+            "instruction": "Zoek WHOOP en tik erop."
+          },
+          {
+            "instruction": "Tik op Abonnement opzeggen en bevestig."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Open de Google Play Store → Betalingen & abonnementen → Abonnementen (alleen als je via Google hebt geabonneerd)."
+          },
+          {
+            "instruction": "Zoek WHOOP en tik erop."
+          },
+          {
+            "instruction": "Tik op Abonnement opzeggen en bevestig."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Mijn annulering is geblokkeerd vanwege een verbintenisperiode.",
+        "answer": "WHOOP heeft minimale verbintenisperiodes. Neem contact op met WHOOP-ondersteuning om je opties te bespreken als je niet kunt opzeggen via de app."
+      },
+      {
+        "question": "Werkt mijn WHOOP-apparaat nog na annulering?",
+        "answer": "Nee. Het WHOOP-apparaat vereist een actief lidmaatschap om te functioneren. Na annulering stopt het apparaat met werken."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Garmin — fitnesstracker zonder abonnementskosten"
+      },
+      {
+        "description": "Apple Watch — fitnessmonitoring zonder verplicht abonnement"
+      },
+      {
+        "description": "Fitbit — fitnesstracker met optioneel Premium-abonnement"
+      }
+    ]
+  },
+  "factor-meals": {
+    "description": "Annuleer Factor Meals vóór woensdag 23:59 CT om de volgende weekkosten te vermijden.",
+    "difficultyReason": "De annuleringsdeadline op woensdag om 23:59 CT is strikt — als je die mist, word je afgeschreven voor de volgende week.",
+    "refundPolicy": "Geen terugbetalingen als de deadline is gemist. Je kunt pauzeren of overslaan als alternatief.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar factor75.com en meld je aan."
+          },
+          {
+            "instruction": "Ga naar Accountinstellingen → Planinstellingen."
+          },
+          {
+            "instruction": "Klik op Plan opzeggen.",
+            "note": "Annuleer vóór woensdag 23:59 CT om de volgende weekkosten te vermijden."
+          },
+          {
+            "instruction": "Bevestig de annulering."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Er is geen annuleringsoptie in de app."
+          },
+          {
+            "instruction": "Gebruik de mobiele browser om naar factor75.com te gaan en volg de webstappen hierboven."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Er is geen annuleringsoptie in de app."
+          },
+          {
+            "instruction": "Gebruik de mobiele browser om naar factor75.com te gaan en volg de webstappen hierboven."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ik heb de woensdagdeadline gemist — word ik afgeschreven?",
+        "answer": "Ja. Als je de deadline van woensdag 23:59 CT hebt gemist, word je afgeschreven voor de volgende week. Neem contact op met Factor-ondersteuning voor eventuele uitzonderingen."
+      },
+      {
+        "question": "Kan ik pauzeren in plaats van opzeggen?",
+        "answer": "Ja. Factor biedt de mogelijkheid om leveringen te pauzeren of over te slaan als alternatief voor volledig annuleren."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "HelloFresh — maaltijdboxen met ingrediënten"
+      },
+      {
+        "description": "Green Chef — biologische maaltijdboxen"
+      },
+      {
+        "description": "Trifecta — bereide maaltijden gericht op sportvoeding"
+      }
+    ]
+  },
+  "stitch-fix": {
+    "description": "Annuleer of pauzeer je Stitch Fix-abonnement in 2 minuten online.",
+    "difficultyReason": "Annulering van Fixes is eenvoudig, maar sluit je account niet. Stuur ongewenste items binnen 3 dagen terug.",
+    "refundPolicy": "Geen abonnementskosten — je betaalt alleen voor items die je behoudt. Retourneer ongewenste items binnen 3 dagen.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar stitchfix.com en meld je aan."
+          },
+          {
+            "instruction": "Ga naar Accountinstellingen → Fix-planning."
+          },
+          {
+            "instruction": "Klik op Fixes annuleren."
+          },
+          {
+            "instruction": "Bevestig de annulering.",
+            "note": "Dit annuleert toekomstige Fixes, maar sluit je account niet."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Er is geen annuleringsoptie in de Stitch Fix-app."
+          },
+          {
+            "instruction": "Gebruik de website (stitchfix.com) om je Fixes te annuleren."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Er is geen annuleringsoptie in de Stitch Fix-app."
+          },
+          {
+            "instruction": "Gebruik de website (stitchfix.com) om je Fixes te annuleren."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Sluit het annuleren van Fixes mijn account?",
+        "answer": "Nee. Het annuleren van Fixes stopt toekomstige leveringen, maar sluit je account niet. Je account blijft actief."
+      },
+      {
+        "question": "Hoe lang heb ik om ongewenste items terug te sturen?",
+        "answer": "Je hebt 3 dagen om items die je niet wilt houden terug te sturen. Na 3 dagen word je afgeschreven voor alle items in de Fix."
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Trunk Club — persoonlijke stijlservice"
+      },
+      {
+        "description": "Rent the Runway — kleding huren"
+      },
+      {
+        "description": "Amazon Personal Shopper — stijlservice via Prime"
+      }
     ]
   }
 }

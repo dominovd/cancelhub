@@ -6,29 +6,61 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Vai su netflix.com e accedi." },
-          { "instruction": "Clicca sull'icona del tuo profilo → Account." },
-          { "instruction": "Nella sezione \"Abbonamento\", clicca su \"Disdici abbonamento\"." },
-          { "instruction": "Clicca su \"Completa la disdetta\" per confermare." },
-          { "instruction": "Riceverai un'email di conferma. Conservala per i tuoi archivi.", "note": "L'accesso continua fino alla fine del periodo di fatturazione corrente." }
+          {
+            "instruction": "Vai su netflix.com e accedi."
+          },
+          {
+            "instruction": "Clicca sull'icona del tuo profilo → Account."
+          },
+          {
+            "instruction": "Nella sezione \"Abbonamento\", clicca su \"Disdici abbonamento\"."
+          },
+          {
+            "instruction": "Clicca su \"Completa la disdetta\" per confermare."
+          },
+          {
+            "instruction": "Riceverai un'email di conferma. Conservala per i tuoi archivi.",
+            "note": "L'accesso continua fino alla fine del periodo di fatturazione corrente."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Apri le Impostazioni dell'iPhone → tocca il tuo nome in cima." },
-          { "instruction": "Tocca \"Abbonamenti\"." },
-          { "instruction": "Trova e tocca \"Netflix\"." },
-          { "instruction": "Tocca \"Annulla abbonamento\" → Conferma." },
-          { "instruction": "Mantieni l'accesso fino alla fine del periodo di fatturazione.", "note": "Apple non emette rimborsi parziali." }
+          {
+            "instruction": "Apri le Impostazioni dell'iPhone → tocca il tuo nome in cima."
+          },
+          {
+            "instruction": "Tocca \"Abbonamenti\"."
+          },
+          {
+            "instruction": "Trova e tocca \"Netflix\"."
+          },
+          {
+            "instruction": "Tocca \"Annulla abbonamento\" → Conferma."
+          },
+          {
+            "instruction": "Mantieni l'accesso fino alla fine del periodo di fatturazione.",
+            "note": "Apple non emette rimborsi parziali."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Apri il Google Play Store." },
-          { "instruction": "Tocca l'icona del tuo profilo → \"Pagamenti e abbonamenti\" → \"Abbonamenti\"." },
-          { "instruction": "Trova \"Netflix\" e toccalo." },
-          { "instruction": "Tocca \"Annulla abbonamento\" e segui le istruzioni." },
-          { "instruction": "L'accesso continua fino alla fine del periodo di fatturazione." }
+          {
+            "instruction": "Apri il Google Play Store."
+          },
+          {
+            "instruction": "Tocca l'icona del tuo profilo → \"Pagamenti e abbonamenti\" → \"Abbonamenti\"."
+          },
+          {
+            "instruction": "Trova \"Netflix\" e toccalo."
+          },
+          {
+            "instruction": "Tocca \"Annulla abbonamento\" e segui le istruzioni."
+          },
+          {
+            "instruction": "L'accesso continua fino alla fine del periodo di fatturazione."
+          }
         ]
       }
     },
@@ -47,9 +79,15 @@
       }
     ],
     "alternatives": [
-      { "description": "Senza pubblicità, $9,99/mese" },
-      { "description": "Disney, Marvel, Star Wars — $7,99/mese" },
-      { "description": "Contenuti HBO — $9,99/mese" }
+      {
+        "description": "Senza pubblicità, $9,99/mese"
+      },
+      {
+        "description": "Disney, Marvel, Star Wars — $7,99/mese"
+      },
+      {
+        "description": "Contenuti HBO — $9,99/mese"
+      }
     ]
   },
   "spotify": {
@@ -59,26 +97,51 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Vai su spotify.com/account e accedi." },
-          { "instruction": "Clicca su \"Cambia piano\" o scorri fino a \"Il tuo piano\"." },
-          { "instruction": "Scorri verso il basso e clicca su \"Annulla Premium\"." },
-          { "instruction": "Segui i passaggi di conferma (Spotify potrebbe offrire uno sconto — salta se non sei interessato)." },
-          { "instruction": "Clicca su \"Annulla comunque\" per confermare. Riceverai un'email di conferma.", "note": "Mantieni il Premium fino alla fine del periodo di fatturazione." }
+          {
+            "instruction": "Vai su spotify.com/account e accedi."
+          },
+          {
+            "instruction": "Clicca su \"Cambia piano\" o scorri fino a \"Il tuo piano\"."
+          },
+          {
+            "instruction": "Scorri verso il basso e clicca su \"Annulla Premium\"."
+          },
+          {
+            "instruction": "Segui i passaggi di conferma (Spotify potrebbe offrire uno sconto — salta se non sei interessato)."
+          },
+          {
+            "instruction": "Clicca su \"Annulla comunque\" per confermare. Riceverai un'email di conferma.",
+            "note": "Mantieni il Premium fino alla fine del periodo di fatturazione."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Apri le Impostazioni dell'iPhone → tocca il tuo nome Apple ID." },
-          { "instruction": "Tocca \"Abbonamenti\" → trova Spotify." },
-          { "instruction": "Tocca \"Annulla abbonamento\" → Conferma." }
+          {
+            "instruction": "Apri le Impostazioni dell'iPhone → tocca il tuo nome Apple ID."
+          },
+          {
+            "instruction": "Tocca \"Abbonamenti\" → trova Spotify."
+          },
+          {
+            "instruction": "Tocca \"Annulla abbonamento\" → Conferma."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Apri il Google Play Store → tocca l'icona del tuo profilo." },
-          { "instruction": "Vai su \"Pagamenti e abbonamenti\" → \"Abbonamenti\"." },
-          { "instruction": "Trova Spotify → tocca \"Annulla abbonamento\"." },
-          { "instruction": "Segui le istruzioni di conferma." }
+          {
+            "instruction": "Apri il Google Play Store → tocca l'icona del tuo profilo."
+          },
+          {
+            "instruction": "Vai su \"Pagamenti e abbonamenti\" → \"Abbonamenti\"."
+          },
+          {
+            "instruction": "Trova Spotify → tocca \"Annulla abbonamento\"."
+          },
+          {
+            "instruction": "Segui le istruzioni di conferma."
+          }
         ]
       }
     },
@@ -93,8 +156,12 @@
       }
     ],
     "alternatives": [
-      { "description": "$10,99/mese, ottimo se sei nell'ecosistema Apple" },
-      { "description": "$10,99/mese, incluso con YouTube Premium" }
+      {
+        "description": "$10,99/mese, ottimo se sei nell'ecosistema Apple"
+      },
+      {
+        "description": "$10,99/mese, incluso con YouTube Premium"
+      }
     ]
   },
   "adobe": {
@@ -104,24 +171,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Vai su account.adobe.com e accedi." },
-          { "instruction": "Clicca su \"Piani e prodotti\" nella barra laterale sinistra." },
-          { "instruction": "Trova il tuo piano Creative Cloud e clicca su \"Gestisci piano\"." },
-          { "instruction": "Clicca su \"Annulla il tuo piano\".", "note": "Adobe mostrerà la penale per risoluzione anticipata in questo momento." },
-          { "instruction": "Scegli un motivo → Adobe ti farà più offerte (sconti, pause). Clicca su \"Continua con la disdetta\" ogni volta." },
-          { "instruction": "Conferma la disdetta. Salva il numero di conferma." }
+          {
+            "instruction": "Vai su account.adobe.com e accedi."
+          },
+          {
+            "instruction": "Clicca su \"Piani e prodotti\" nella barra laterale sinistra."
+          },
+          {
+            "instruction": "Trova il tuo piano Creative Cloud e clicca su \"Gestisci piano\"."
+          },
+          {
+            "instruction": "Clicca su \"Annulla il tuo piano\".",
+            "note": "Adobe mostrerà la penale per risoluzione anticipata in questo momento."
+          },
+          {
+            "instruction": "Scegli un motivo → Adobe ti farà più offerte (sconti, pause). Clicca su \"Continua con la disdetta\" ogni volta."
+          },
+          {
+            "instruction": "Conferma la disdetta. Salva il numero di conferma."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Se hai sottoscritto tramite App Store: apri Impostazioni → Apple ID → Abbonamenti → Adobe → Annulla." },
-          { "instruction": "Se hai sottoscritto direttamente con Adobe: usa i passaggi del sito web — l'app non supporta la disdetta diretta." }
+          {
+            "instruction": "Se hai sottoscritto tramite App Store: apri Impostazioni → Apple ID → Abbonamenti → Adobe → Annulla."
+          },
+          {
+            "instruction": "Se hai sottoscritto direttamente con Adobe: usa i passaggi del sito web — l'app non supporta la disdetta diretta."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Se hai sottoscritto tramite Google Play: apri il Play Store → Abbonamenti → Adobe → Annulla." },
-          { "instruction": "Se hai sottoscritto direttamente con Adobe: usa i passaggi del sito web." }
+          {
+            "instruction": "Se hai sottoscritto tramite Google Play: apri il Play Store → Abbonamenti → Adobe → Annulla."
+          },
+          {
+            "instruction": "Se hai sottoscritto direttamente con Adobe: usa i passaggi del sito web."
+          }
         ]
       }
     },
@@ -140,9 +228,15 @@
       }
     ],
     "alternatives": [
-      { "description": "Acquisto unico, nessun abbonamento. Alternativa a Photoshop/Illustrator." },
-      { "description": "$12,99/mese — ottimo per chi non è un designer" },
-      { "description": "Piano gratuito disponibile, ideale per design UI/UX" }
+      {
+        "description": "Acquisto unico, nessun abbonamento. Alternativa a Photoshop/Illustrator."
+      },
+      {
+        "description": "$12,99/mese — ottimo per chi non è un designer"
+      },
+      {
+        "description": "Piano gratuito disponibile, ideale per design UI/UX"
+      }
     ]
   },
   "chatgpt": {
@@ -152,26 +246,51 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Vai su chatgpt.com e accedi." },
-          { "instruction": "Clicca sul tuo nome o sull'icona del profilo in basso a sinistra." },
-          { "instruction": "Vai su \"Impostazioni\" → \"Abbonamento\"." },
-          { "instruction": "Clicca su \"Gestisci il mio abbonamento\"." },
-          { "instruction": "Clicca su \"Annulla piano\" → Conferma." },
-          { "instruction": "Riceverai un'email di conferma. L'accesso a Plus continua fino alla fine del periodo.", "note": "ChatGPT torna automaticamente al piano gratuito." }
+          {
+            "instruction": "Vai su chatgpt.com e accedi."
+          },
+          {
+            "instruction": "Clicca sul tuo nome o sull'icona del profilo in basso a sinistra."
+          },
+          {
+            "instruction": "Vai su \"Impostazioni\" → \"Abbonamento\"."
+          },
+          {
+            "instruction": "Clicca su \"Gestisci il mio abbonamento\"."
+          },
+          {
+            "instruction": "Clicca su \"Annulla piano\" → Conferma."
+          },
+          {
+            "instruction": "Riceverai un'email di conferma. L'accesso a Plus continua fino alla fine del periodo.",
+            "note": "ChatGPT torna automaticamente al piano gratuito."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Apri Impostazioni → tocca il nome del tuo Apple ID → Abbonamenti." },
-          { "instruction": "Trova \"ChatGPT\" → toccalo." },
-          { "instruction": "Tocca \"Annulla abbonamento\" → Conferma." }
+          {
+            "instruction": "Apri Impostazioni → tocca il nome del tuo Apple ID → Abbonamenti."
+          },
+          {
+            "instruction": "Trova \"ChatGPT\" → toccalo."
+          },
+          {
+            "instruction": "Tocca \"Annulla abbonamento\" → Conferma."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Apri il Google Play Store → icona del profilo → \"Pagamenti e abbonamenti\" → \"Abbonamenti\"." },
-          { "instruction": "Trova \"ChatGPT\" → tocca \"Annulla abbonamento\"." },
-          { "instruction": "Segui le istruzioni di conferma." }
+          {
+            "instruction": "Apri il Google Play Store → icona del profilo → \"Pagamenti e abbonamenti\" → \"Abbonamenti\"."
+          },
+          {
+            "instruction": "Trova \"ChatGPT\" → tocca \"Annulla abbonamento\"."
+          },
+          {
+            "instruction": "Segui le istruzioni di conferma."
+          }
         ]
       }
     },
@@ -186,9 +305,15 @@
       }
     ],
     "alternatives": [
-      { "description": "L'IA di Anthropic — piano gratuito + $20/mese Pro" },
-      { "description": "L'IA di Google — $19,99/mese, incluso in Google One AI Premium" },
-      { "description": "$20/mese — motore di ricerca con IA" }
+      {
+        "description": "L'IA di Anthropic — piano gratuito + $20/mese Pro"
+      },
+      {
+        "description": "L'IA di Google — $19,99/mese, incluso in Google One AI Premium"
+      },
+      {
+        "description": "$20/mese — motore di ricerca con IA"
+      }
     ]
   },
   "amazon-prime": {
@@ -198,28 +323,57 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Vai su amazon.it → passa il mouse su \"Account e liste\" → clicca su \"Account\"." },
-          { "instruction": "Clicca su \"Prime\" o cerca \"Gestisci l'abbonamento Prime\" nelle impostazioni dell'account." },
-          { "instruction": "Clicca su \"Aggiorna, disdici e altro\" → \"Termina l'abbonamento\"." },
-          { "instruction": "Scegli \"Termina l'abbonamento\" (non \"Ricordamelo dopo\" o altre opzioni mostrate da Amazon).", "note": "Amazon mostrerà l'importo del rimborso se sei idoneo." },
-          { "instruction": "Clicca su \"Disdici l'abbonamento\" per confermare." },
-          { "instruction": "Controlla la tua email per la conferma." }
+          {
+            "instruction": "Vai su amazon.it → passa il mouse su \"Account e liste\" → clicca su \"Account\"."
+          },
+          {
+            "instruction": "Clicca su \"Prime\" o cerca \"Gestisci l'abbonamento Prime\" nelle impostazioni dell'account."
+          },
+          {
+            "instruction": "Clicca su \"Aggiorna, disdici e altro\" → \"Termina l'abbonamento\"."
+          },
+          {
+            "instruction": "Scegli \"Termina l'abbonamento\" (non \"Ricordamelo dopo\" o altre opzioni mostrate da Amazon).",
+            "note": "Amazon mostrerà l'importo del rimborso se sei idoneo."
+          },
+          {
+            "instruction": "Clicca su \"Disdici l'abbonamento\" per confermare."
+          },
+          {
+            "instruction": "Controlla la tua email per la conferma."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Apri l'app Amazon Shopping → tocca le tre linee (menu)." },
-          { "instruction": "Scorri fino ad \"Account\" → tocca \"Gestisci l'abbonamento Prime\"." },
-          { "instruction": "Tocca \"Aggiorna, disdici e altro\" → \"Termina l'abbonamento\"." },
-          { "instruction": "Segui le stesse istruzioni della versione web." },
-          { "instruction": "Nota: se hai sottoscritto tramite Apple, disdici via Impostazioni iOS → Abbonamenti." }
+          {
+            "instruction": "Apri l'app Amazon Shopping → tocca le tre linee (menu)."
+          },
+          {
+            "instruction": "Scorri fino ad \"Account\" → tocca \"Gestisci l'abbonamento Prime\"."
+          },
+          {
+            "instruction": "Tocca \"Aggiorna, disdici e altro\" → \"Termina l'abbonamento\"."
+          },
+          {
+            "instruction": "Segui le stesse istruzioni della versione web."
+          },
+          {
+            "instruction": "Nota: se hai sottoscritto tramite Apple, disdici via Impostazioni iOS → Abbonamenti."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Apri l'app Amazon Shopping → menu → \"Account\"." },
-          { "instruction": "Tocca \"Gestisci l'abbonamento Prime\" → \"Termina l'abbonamento\"." },
-          { "instruction": "Se hai sottoscritto tramite Google Play, disdici via Play Store → Abbonamenti." }
+          {
+            "instruction": "Apri l'app Amazon Shopping → menu → \"Account\"."
+          },
+          {
+            "instruction": "Tocca \"Gestisci l'abbonamento Prime\" → \"Termina l'abbonamento\"."
+          },
+          {
+            "instruction": "Se hai sottoscritto tramite Google Play, disdici via Play Store → Abbonamenti."
+          }
         ]
       }
     },
@@ -245,26 +399,51 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Vai su disneyplus.com e accedi." },
-          { "instruction": "Clicca sull'icona del tuo profilo → \"Account\"." },
-          { "instruction": "Nella sezione \"Abbonamento\", clicca su \"Disdici abbonamento\"." },
-          { "instruction": "Seleziona un motivo → clicca su \"Continua\"." },
-          { "instruction": "Clicca su \"Disdici abbonamento\" per confermare." },
-          { "instruction": "Riceverai un'email di conferma.", "note": "L'accesso continua fino alla data di fatturazione." }
+          {
+            "instruction": "Vai su disneyplus.com e accedi."
+          },
+          {
+            "instruction": "Clicca sull'icona del tuo profilo → \"Account\"."
+          },
+          {
+            "instruction": "Nella sezione \"Abbonamento\", clicca su \"Disdici abbonamento\"."
+          },
+          {
+            "instruction": "Seleziona un motivo → clicca su \"Continua\"."
+          },
+          {
+            "instruction": "Clicca su \"Disdici abbonamento\" per confermare."
+          },
+          {
+            "instruction": "Riceverai un'email di conferma.",
+            "note": "L'accesso continua fino alla data di fatturazione."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Apri Impostazioni → tocca il tuo nome → Abbonamenti." },
-          { "instruction": "Trova \"Disney+\" → toccalo." },
-          { "instruction": "Tocca \"Annulla abbonamento\" → conferma." }
+          {
+            "instruction": "Apri Impostazioni → tocca il tuo nome → Abbonamenti."
+          },
+          {
+            "instruction": "Trova \"Disney+\" → toccalo."
+          },
+          {
+            "instruction": "Tocca \"Annulla abbonamento\" → conferma."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Apri il Google Play Store → profilo → \"Pagamenti e abbonamenti\" → \"Abbonamenti\"." },
-          { "instruction": "Trova Disney+ → tocca \"Annulla abbonamento\"." },
-          { "instruction": "Completa il processo di conferma." }
+          {
+            "instruction": "Apri il Google Play Store → profilo → \"Pagamenti e abbonamenti\" → \"Abbonamenti\"."
+          },
+          {
+            "instruction": "Trova Disney+ → tocca \"Annulla abbonamento\"."
+          },
+          {
+            "instruction": "Completa il processo di conferma."
+          }
         ]
       }
     },
@@ -286,25 +465,48 @@
     "platforms": {
       "ios": {
         "steps": [
-          { "instruction": "Apri Impostazioni → tocca il tuo nome in cima." },
-          { "instruction": "Tocca \"Abbonamenti\"." },
-          { "instruction": "Tocca \"Apple Music\"." },
-          { "instruction": "Tocca \"Annulla abbonamento\" → Conferma.", "note": "Se sei nel periodo di prova gratuita, vedrai la data di scadenza della prova." }
+          {
+            "instruction": "Apri Impostazioni → tocca il tuo nome in cima."
+          },
+          {
+            "instruction": "Tocca \"Abbonamenti\"."
+          },
+          {
+            "instruction": "Tocca \"Apple Music\"."
+          },
+          {
+            "instruction": "Tocca \"Annulla abbonamento\" → Conferma.",
+            "note": "Se sei nel periodo di prova gratuita, vedrai la data di scadenza della prova."
+          }
         ]
       },
       "web": {
         "steps": [
-          { "instruction": "Apri l'app Musica su Mac → clicca sul tuo nome → Impostazioni account. Oppure visita music.apple.com e accedi." },
-          { "instruction": "Trova \"Abbonamenti\" → clicca su \"Gestisci\"." },
-          { "instruction": "Trova Apple Music → clicca su \"Modifica\" → \"Annulla abbonamento\"." },
-          { "instruction": "Conferma la disdetta." }
+          {
+            "instruction": "Apri l'app Musica su Mac → clicca sul tuo nome → Impostazioni account. Oppure visita music.apple.com e accedi."
+          },
+          {
+            "instruction": "Trova \"Abbonamenti\" → clicca su \"Gestisci\"."
+          },
+          {
+            "instruction": "Trova Apple Music → clicca su \"Modifica\" → \"Annulla abbonamento\"."
+          },
+          {
+            "instruction": "Conferma la disdetta."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Apri l'app Apple Music su Android." },
-          { "instruction": "Tocca il tuo profilo → Impostazioni account → Abbonamenti." },
-          { "instruction": "Tocca \"Annulla abbonamento\" → Conferma." }
+          {
+            "instruction": "Apri l'app Apple Music su Android."
+          },
+          {
+            "instruction": "Tocca il tuo profilo → Impostazioni account → Abbonamenti."
+          },
+          {
+            "instruction": "Tocca \"Annulla abbonamento\" → Conferma."
+          }
         ]
       }
     },
@@ -326,24 +528,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Vai su account.microsoft.com e accedi." },
-          { "instruction": "Clicca su \"Servizi e abbonamenti\" nella navigazione in alto." },
-          { "instruction": "Trova Microsoft 365 → clicca su \"Gestisci\"." },
-          { "instruction": "Clicca su \"Annulla\" sotto i dettagli dell'abbonamento." },
-          { "instruction": "Segui le istruzioni. Microsoft potrebbe offrire uno sconto — salta se vuoi disdire.", "note": "Se hai più di 5 GB su OneDrive, scarica prima i tuoi file." },
-          { "instruction": "Conferma la disdetta. Riceverai un'email di conferma." }
+          {
+            "instruction": "Vai su account.microsoft.com e accedi."
+          },
+          {
+            "instruction": "Clicca su \"Servizi e abbonamenti\" nella navigazione in alto."
+          },
+          {
+            "instruction": "Trova Microsoft 365 → clicca su \"Gestisci\"."
+          },
+          {
+            "instruction": "Clicca su \"Annulla\" sotto i dettagli dell'abbonamento."
+          },
+          {
+            "instruction": "Segui le istruzioni. Microsoft potrebbe offrire uno sconto — salta se vuoi disdire.",
+            "note": "Se hai più di 5 GB su OneDrive, scarica prima i tuoi file."
+          },
+          {
+            "instruction": "Conferma la disdetta. Riceverai un'email di conferma."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Se hai sottoscritto tramite App Store: Impostazioni → Apple ID → Abbonamenti → Microsoft 365 → Annulla." },
-          { "instruction": "Se hai sottoscritto direttamente tramite Microsoft: usa i passaggi del sito web." }
+          {
+            "instruction": "Se hai sottoscritto tramite App Store: Impostazioni → Apple ID → Abbonamenti → Microsoft 365 → Annulla."
+          },
+          {
+            "instruction": "Se hai sottoscritto direttamente tramite Microsoft: usa i passaggi del sito web."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Se hai sottoscritto tramite Google Play: Play Store → Abbonamenti → Microsoft 365 → Annulla." },
-          { "instruction": "Se hai sottoscritto direttamente: usa i passaggi del sito web." }
+          {
+            "instruction": "Se hai sottoscritto tramite Google Play: Play Store → Abbonamenti → Microsoft 365 → Annulla."
+          },
+          {
+            "instruction": "Se hai sottoscritto direttamente: usa i passaggi del sito web."
+          }
         ]
       }
     },
@@ -362,8 +585,12 @@
       }
     ],
     "alternatives": [
-      { "description": "Documenti, Fogli, Presentazioni — gratuiti con account Google" },
-      { "description": "Gratuito, alternativa open-source a Office" }
+      {
+        "description": "Documenti, Fogli, Presentazioni — gratuiti con account Google"
+      },
+      {
+        "description": "Gratuito, alternativa open-source a Office"
+      }
     ]
   },
   "claude": {
@@ -373,23 +600,42 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Vai su claude.ai e accedi." },
-          { "instruction": "Clicca sull'icona del tuo profilo → \"Impostazioni\"." },
-          { "instruction": "Vai su \"Fatturazione\" nella barra laterale." },
-          { "instruction": "Clicca su \"Annulla piano\" o \"Disdici abbonamento\"." },
-          { "instruction": "Conferma la disdetta.", "note": "L'accesso Pro continua fino alla fine del periodo di fatturazione." }
+          {
+            "instruction": "Vai su claude.ai e accedi."
+          },
+          {
+            "instruction": "Clicca sull'icona del tuo profilo → \"Impostazioni\"."
+          },
+          {
+            "instruction": "Vai su \"Fatturazione\" nella barra laterale."
+          },
+          {
+            "instruction": "Clicca su \"Annulla piano\" o \"Disdici abbonamento\"."
+          },
+          {
+            "instruction": "Conferma la disdetta.",
+            "note": "L'accesso Pro continua fino alla fine del periodo di fatturazione."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Se hai sottoscritto tramite App Store: Impostazioni → Apple ID → Abbonamenti → Claude → Annulla." },
-          { "instruction": "Se hai sottoscritto direttamente con Anthropic: usa i passaggi del sito web." }
+          {
+            "instruction": "Se hai sottoscritto tramite App Store: Impostazioni → Apple ID → Abbonamenti → Claude → Annulla."
+          },
+          {
+            "instruction": "Se hai sottoscritto direttamente con Anthropic: usa i passaggi del sito web."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Apri il Google Play Store → profilo → Abbonamenti." },
-          { "instruction": "Trova Claude → tocca \"Annulla abbonamento\" → conferma." }
+          {
+            "instruction": "Apri il Google Play Store → profilo → Abbonamenti."
+          },
+          {
+            "instruction": "Trova Claude → tocca \"Annulla abbonamento\" → conferma."
+          }
         ]
       }
     },
@@ -404,8 +650,12 @@
       }
     ],
     "alternatives": [
-      { "description": "$20/mese — GPT-4o di OpenAI e altro" },
-      { "description": "$19,99/mese — L'IA più avanzata di Google" }
+      {
+        "description": "$20/mese — GPT-4o di OpenAI e altro"
+      },
+      {
+        "description": "$19,99/mese — L'IA più avanzata di Google"
+      }
     ]
   },
   "youtube-premium": {
@@ -414,25 +664,48 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Vai su youtube.com/paid_memberships e accedi." },
-          { "instruction": "Trova \"YouTube Premium\" → clicca su \"Gestisci abbonamento\"." },
-          { "instruction": "Clicca su \"Disattiva\"." },
-          { "instruction": "Segui i passaggi di conferma → clicca su \"Continua con la disdetta\"." },
-          { "instruction": "Conferma. Mantieni il Premium fino alla fine del periodo di fatturazione.", "note": "YouTube Music Premium è incluso e verrà anch'esso disdetto." }
+          {
+            "instruction": "Vai su youtube.com/paid_memberships e accedi."
+          },
+          {
+            "instruction": "Trova \"YouTube Premium\" → clicca su \"Gestisci abbonamento\"."
+          },
+          {
+            "instruction": "Clicca su \"Disattiva\"."
+          },
+          {
+            "instruction": "Segui i passaggi di conferma → clicca su \"Continua con la disdetta\"."
+          },
+          {
+            "instruction": "Conferma. Mantieni il Premium fino alla fine del periodo di fatturazione.",
+            "note": "YouTube Music Premium è incluso e verrà anch'esso disdetto."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Apri Impostazioni → tocca il tuo nome → Abbonamenti." },
-          { "instruction": "Trova \"YouTube Premium\" → toccalo." },
-          { "instruction": "Tocca \"Annulla abbonamento\" → Conferma." }
+          {
+            "instruction": "Apri Impostazioni → tocca il tuo nome → Abbonamenti."
+          },
+          {
+            "instruction": "Trova \"YouTube Premium\" → toccalo."
+          },
+          {
+            "instruction": "Tocca \"Annulla abbonamento\" → Conferma."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Apri il Google Play Store → profilo → \"Pagamenti e abbonamenti\" → Abbonamenti." },
-          { "instruction": "Trova \"YouTube Premium\" → tocca \"Annulla abbonamento\"." },
-          { "instruction": "Segui il processo di conferma." }
+          {
+            "instruction": "Apri il Google Play Store → profilo → \"Pagamenti e abbonamenti\" → Abbonamenti."
+          },
+          {
+            "instruction": "Trova \"YouTube Premium\" → tocca \"Annulla abbonamento\"."
+          },
+          {
+            "instruction": "Segui il processo di conferma."
+          }
         ]
       }
     },
@@ -454,25 +727,47 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Vai su hulu.com e accedi." },
-          { "instruction": "Clicca sull'icona del tuo profilo → \"Account\"." },
-          { "instruction": "Nella sezione \"Il tuo abbonamento\", clicca su \"Disdici\"." },
-          { "instruction": "Seleziona un motivo → Hulu farà delle offerte. Clicca su \"Continua con la disdetta\"." },
-          { "instruction": "Clicca su \"Disdici abbonamento\" per confermare." },
-          { "instruction": "Riceverai un'email di conferma." }
+          {
+            "instruction": "Vai su hulu.com e accedi."
+          },
+          {
+            "instruction": "Clicca sull'icona del tuo profilo → \"Account\"."
+          },
+          {
+            "instruction": "Nella sezione \"Il tuo abbonamento\", clicca su \"Disdici\"."
+          },
+          {
+            "instruction": "Seleziona un motivo → Hulu farà delle offerte. Clicca su \"Continua con la disdetta\"."
+          },
+          {
+            "instruction": "Clicca su \"Disdici abbonamento\" per confermare."
+          },
+          {
+            "instruction": "Riceverai un'email di conferma."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Apri Impostazioni → tocca il tuo nome → Abbonamenti." },
-          { "instruction": "Trova \"Hulu\" → toccalo." },
-          { "instruction": "Tocca \"Annulla abbonamento\" → Conferma." }
+          {
+            "instruction": "Apri Impostazioni → tocca il tuo nome → Abbonamenti."
+          },
+          {
+            "instruction": "Trova \"Hulu\" → toccalo."
+          },
+          {
+            "instruction": "Tocca \"Annulla abbonamento\" → Conferma."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Apri il Google Play Store → profilo → Abbonamenti → trova Hulu." },
-          { "instruction": "Tocca \"Annulla abbonamento\" → segui le istruzioni." }
+          {
+            "instruction": "Apri il Google Play Store → profilo → Abbonamenti → trova Hulu."
+          },
+          {
+            "instruction": "Tocca \"Annulla abbonamento\" → segui le istruzioni."
+          }
         ]
       }
     },
@@ -494,23 +789,42 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Vai su my.nordaccount.com e accedi." },
-          { "instruction": "Clicca su \"Fatturazione\" o \"Abbonamento\" nella barra laterale sinistra." },
-          { "instruction": "Trova il tuo piano → clicca su \"Annulla rinnovo automatico\" o \"Annulla abbonamento\"." },
-          { "instruction": "Conferma la disdetta." },
-          { "instruction": "Per il rimborso: avvia una live chat su nordvpn.com/support e richiedilo. I rimborsi vengono elaborati in 5–10 giorni lavorativi.", "note": "NordVPN non offre rimborsi tramite il pannello dell'account — devi contattare il supporto." }
+          {
+            "instruction": "Vai su my.nordaccount.com e accedi."
+          },
+          {
+            "instruction": "Clicca su \"Fatturazione\" o \"Abbonamento\" nella barra laterale sinistra."
+          },
+          {
+            "instruction": "Trova il tuo piano → clicca su \"Annulla rinnovo automatico\" o \"Annulla abbonamento\"."
+          },
+          {
+            "instruction": "Conferma la disdetta."
+          },
+          {
+            "instruction": "Per il rimborso: avvia una live chat su nordvpn.com/support e richiedilo. I rimborsi vengono elaborati in 5–10 giorni lavorativi.",
+            "note": "NordVPN non offre rimborsi tramite il pannello dell'account — devi contattare il supporto."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Se hai sottoscritto tramite App Store: Impostazioni → Apple ID → Abbonamenti → NordVPN → Annulla." },
-          { "instruction": "Nota: gli abbonamenti App Store non sono idonei alla garanzia di rimborso di 30 giorni di NordVPN. Contatta Apple." }
+          {
+            "instruction": "Se hai sottoscritto tramite App Store: Impostazioni → Apple ID → Abbonamenti → NordVPN → Annulla."
+          },
+          {
+            "instruction": "Nota: gli abbonamenti App Store non sono idonei alla garanzia di rimborso di 30 giorni di NordVPN. Contatta Apple."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Se hai sottoscritto tramite Google Play: Play Store → Abbonamenti → NordVPN → Annulla." },
-          { "instruction": "Per i rimborsi sugli acquisti Play, contatta il supporto di Google Play entro 48 ore." }
+          {
+            "instruction": "Se hai sottoscritto tramite Google Play: Play Store → Abbonamenti → NordVPN → Annulla."
+          },
+          {
+            "instruction": "Per i rimborsi sugli acquisti Play, contatta il supporto di Google Play entro 48 ore."
+          }
         ]
       }
     },
@@ -532,25 +846,48 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Vai su doordash.com e accedi." },
-          { "instruction": "Clicca sull'icona del tuo profilo → Ottieni DashPass oppure vai su doordash.com/account." },
-          { "instruction": "Scorri fino a DashPass → clicca su Gestisci DashPass." },
-          { "instruction": "Clicca su Annulla DashPass." },
-          { "instruction": "Segui le istruzioni di conferma → clicca su Annulla DashPass per confermare.", "note": "Mantieni i vantaggi DashPass fino alla fine del tuo periodo di fatturazione." }
+          {
+            "instruction": "Vai su doordash.com e accedi."
+          },
+          {
+            "instruction": "Clicca sull'icona del tuo profilo → Ottieni DashPass oppure vai su doordash.com/account."
+          },
+          {
+            "instruction": "Scorri fino a DashPass → clicca su Gestisci DashPass."
+          },
+          {
+            "instruction": "Clicca su Annulla DashPass."
+          },
+          {
+            "instruction": "Segui le istruzioni di conferma → clicca su Annulla DashPass per confermare.",
+            "note": "Mantieni i vantaggi DashPass fino alla fine del tuo periodo di fatturazione."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Apri l'app DoorDash → tocca l'icona del tuo profilo (in basso a destra)." },
-          { "instruction": "Tocca Ottieni DashPass o Gestisci DashPass." },
-          { "instruction": "Tocca Annulla DashPass → conferma." }
+          {
+            "instruction": "Apri l'app DoorDash → tocca l'icona del tuo profilo (in basso a destra)."
+          },
+          {
+            "instruction": "Tocca Ottieni DashPass o Gestisci DashPass."
+          },
+          {
+            "instruction": "Tocca Annulla DashPass → conferma."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Apri l'app DoorDash → tocca l'icona del tuo profilo." },
-          { "instruction": "Tocca Gestisci DashPass." },
-          { "instruction": "Tocca Annulla DashPass → segui le istruzioni di conferma." }
+          {
+            "instruction": "Apri l'app DoorDash → tocca l'icona del tuo profilo."
+          },
+          {
+            "instruction": "Tocca Gestisci DashPass."
+          },
+          {
+            "instruction": "Tocca Annulla DashPass → segui le istruzioni di conferma."
+          }
         ]
       }
     },
@@ -565,8 +902,12 @@
       }
     ],
     "alternatives": [
-      { "description": "$9,99/mese — consegna gratuita su Uber Eats + corse Uber" },
-      { "description": "$9,99/mese — consegna gratuita sugli ordini Grubhub" }
+      {
+        "description": "$9,99/mese — consegna gratuita su Uber Eats + corse Uber"
+      },
+      {
+        "description": "$9,99/mese — consegna gratuita sugli ordini Grubhub"
+      }
     ]
   },
   "peacock": {
@@ -576,25 +917,48 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Vai su peacocktv.com e accedi." },
-          { "instruction": "Clicca sull'icona del tuo profilo → Account." },
-          { "instruction": "In Piano, clicca su Cambia o annulla piano." },
-          { "instruction": "Clicca su Annulla piano." },
-          { "instruction": "Seleziona un motivo → clicca su Continua.", "note": "Il tuo accesso a Peacock Premium continua fino alla data di fatturazione." },
-          { "instruction": "Conferma la disdetta." }
+          {
+            "instruction": "Vai su peacocktv.com e accedi."
+          },
+          {
+            "instruction": "Clicca sull'icona del tuo profilo → Account."
+          },
+          {
+            "instruction": "In Piano, clicca su Cambia o annulla piano."
+          },
+          {
+            "instruction": "Clicca su Annulla piano."
+          },
+          {
+            "instruction": "Seleziona un motivo → clicca su Continua.",
+            "note": "Il tuo accesso a Peacock Premium continua fino alla data di fatturazione."
+          },
+          {
+            "instruction": "Conferma la disdetta."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Apri Impostazioni → tocca il tuo nome → Abbonamenti." },
-          { "instruction": "Trova Peacock → toccalo." },
-          { "instruction": "Tocca Annulla abbonamento → conferma." }
+          {
+            "instruction": "Apri Impostazioni → tocca il tuo nome → Abbonamenti."
+          },
+          {
+            "instruction": "Trova Peacock → toccalo."
+          },
+          {
+            "instruction": "Tocca Annulla abbonamento → conferma."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Apri il Google Play Store → profilo → Pagamenti e abbonamenti → Abbonamenti." },
-          { "instruction": "Trova Peacock → tocca Annulla abbonamento → conferma." }
+          {
+            "instruction": "Apri il Google Play Store → profilo → Pagamenti e abbonamenti → Abbonamenti."
+          },
+          {
+            "instruction": "Trova Peacock → tocca Annulla abbonamento → conferma."
+          }
         ]
       }
     },
@@ -609,8 +973,12 @@
       }
     ],
     "alternatives": [
-      { "description": "$7,99/mese — CBS, MTV, Nickelodeon" },
-      { "description": "$9,99/mese — contenuti HBO" }
+      {
+        "description": "$7,99/mese — CBS, MTV, Nickelodeon"
+      },
+      {
+        "description": "$9,99/mese — contenuti HBO"
+      }
     ]
   },
   "audible": {
@@ -620,24 +988,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Vai su audible.com e accedi." },
-          { "instruction": "Passa il mouse sul tuo nome → clicca su Dettagli account." },
-          { "instruction": "Clicca su Annulla abbonamento nella barra laterale sinistra o sotto Dettagli abbonamento." },
-          { "instruction": "Audible mostrerà un'opzione per mettere in pausa l'abbonamento — clicca su Continua ad annullare se vuoi procedere.", "note": "Usa i tuoi crediti prima di annullare — scadono quando termina il tuo abbonamento." },
-          { "instruction": "Seleziona un motivo → clicca su Annulla abbonamento." },
-          { "instruction": "Riceverai un'email di conferma." }
+          {
+            "instruction": "Vai su audible.com e accedi."
+          },
+          {
+            "instruction": "Passa il mouse sul tuo nome → clicca su Dettagli account."
+          },
+          {
+            "instruction": "Clicca su Annulla abbonamento nella barra laterale sinistra o sotto Dettagli abbonamento."
+          },
+          {
+            "instruction": "Audible mostrerà un'opzione per mettere in pausa l'abbonamento — clicca su Continua ad annullare se vuoi procedere.",
+            "note": "Usa i tuoi crediti prima di annullare — scadono quando termina il tuo abbonamento."
+          },
+          {
+            "instruction": "Seleziona un motivo → clicca su Annulla abbonamento."
+          },
+          {
+            "instruction": "Riceverai un'email di conferma."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Se hai sottoscritto tramite App Store: Impostazioni → Apple ID → Abbonamenti → Audible → Annulla." },
-          { "instruction": "Se hai sottoscritto direttamente con Amazon/Audible: usa i passaggi del sito web." }
+          {
+            "instruction": "Se hai sottoscritto tramite App Store: Impostazioni → Apple ID → Abbonamenti → Audible → Annulla."
+          },
+          {
+            "instruction": "Se hai sottoscritto direttamente con Amazon/Audible: usa i passaggi del sito web."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Se hai sottoscritto tramite Google Play: Play Store → Abbonamenti → Audible → Annulla." },
-          { "instruction": "Se hai sottoscritto direttamente: usa i passaggi del sito web." }
+          {
+            "instruction": "Se hai sottoscritto tramite Google Play: Play Store → Abbonamenti → Audible → Annulla."
+          },
+          {
+            "instruction": "Se hai sottoscritto direttamente: usa i passaggi del sito web."
+          }
         ]
       }
     },
@@ -656,8 +1045,12 @@
       }
     ],
     "alternatives": [
-      { "description": "$11,99/mese — ebook + alcuni audiolibri" },
-      { "description": "$11,99/mese — audiolibri, ebook, documenti" }
+      {
+        "description": "$11,99/mese — ebook + alcuni audiolibri"
+      },
+      {
+        "description": "$11,99/mese — audiolibri, ebook, documenti"
+      }
     ]
   },
   "fabletics": {
@@ -666,24 +1059,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Accedi a fabletics.com e utilizza i crediti accumulati prima di disdire." },
-          { "instruction": "Clicca su Crediti membro per verificare il tuo saldo.", "note": "I crediti scadono dopo la disdetta — usali prima." },
-          { "instruction": "Apri la live chat su fabletics.com o chiama 1-844-322-5384." },
-          { "instruction": "Di' all'agente che vuoi disdire il tuo abbonamento VIP." },
-          { "instruction": "Rifiuta tutte le offerte di fidelizzazione (sconti, pause, offerte di crediti)." },
-          { "instruction": "Conferma la disdetta e chiedi un numero o un'email di conferma." }
+          {
+            "instruction": "Accedi a fabletics.com e utilizza i crediti accumulati prima di disdire."
+          },
+          {
+            "instruction": "Clicca su Crediti membro per verificare il tuo saldo.",
+            "note": "I crediti scadono dopo la disdetta — usali prima."
+          },
+          {
+            "instruction": "Apri la live chat su fabletics.com o chiama 1-844-322-5384."
+          },
+          {
+            "instruction": "Di' all'agente che vuoi disdire il tuo abbonamento VIP."
+          },
+          {
+            "instruction": "Rifiuta tutte le offerte di fidelizzazione (sconti, pause, offerte di crediti)."
+          },
+          {
+            "instruction": "Conferma la disdetta e chiedi un numero o un'email di conferma."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Fabletics non supporta la disdetta tramite l'app iOS o App Store." },
-          { "instruction": "Usa il telefono (1-844-322-5384) o la live chat su fabletics.com." }
+          {
+            "instruction": "Fabletics non supporta la disdetta tramite l'app iOS o App Store."
+          },
+          {
+            "instruction": "Usa il telefono (1-844-322-5384) o la live chat su fabletics.com."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Fabletics non supporta la disdetta tramite l'app Android o Play Store." },
-          { "instruction": "Usa il telefono o la live chat — vedi i passaggi web sopra." }
+          {
+            "instruction": "Fabletics non supporta la disdetta tramite l'app Android o Play Store."
+          },
+          {
+            "instruction": "Usa il telefono o la live chat — vedi i passaggi web sopra."
+          }
         ]
       }
     },
@@ -709,23 +1123,42 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Accedi a experian.com o vai alle impostazioni del tuo account." },
-          { "instruction": "Se non è disponibile alcun pulsante di annullamento (comune), apri la live chat tramite experian.com/consumer/help.html.", "note": "Experian spesso nasconde l'opzione di annullamento — la live chat è di solito il percorso più veloce." },
-          { "instruction": "Di' all'agente che vuoi annullare il tuo abbonamento." },
-          { "instruction": "Rifiuta qualsiasi offerta di fidelizzazione (pausa del monitoraggio del credito, sconti)." },
-          { "instruction": "Richiedi un'email di conferma con la data di annullamento." }
+          {
+            "instruction": "Accedi a experian.com o vai alle impostazioni del tuo account."
+          },
+          {
+            "instruction": "Se non è disponibile alcun pulsante di annullamento (comune), apri la live chat tramite experian.com/consumer/help.html.",
+            "note": "Experian spesso nasconde l'opzione di annullamento — la live chat è di solito il percorso più veloce."
+          },
+          {
+            "instruction": "Di' all'agente che vuoi annullare il tuo abbonamento."
+          },
+          {
+            "instruction": "Rifiuta qualsiasi offerta di fidelizzazione (pausa del monitoraggio del credito, sconti)."
+          },
+          {
+            "instruction": "Richiedi un'email di conferma con la data di annullamento."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Se hai sottoscritto tramite App Store: Impostazioni → Apple ID → Abbonamenti → Experian → Annulla." },
-          { "instruction": "Se hai sottoscritto direttamente con Experian: usa il telefono (1-479-343-6239) o la live chat." }
+          {
+            "instruction": "Se hai sottoscritto tramite App Store: Impostazioni → Apple ID → Abbonamenti → Experian → Annulla."
+          },
+          {
+            "instruction": "Se hai sottoscritto direttamente con Experian: usa il telefono (1-479-343-6239) o la live chat."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Se hai sottoscritto tramite Google Play: Play Store → Abbonamenti → Experian → Annulla." },
-          { "instruction": "Se hai sottoscritto direttamente: usa la live chat o chiama il supporto Experian." }
+          {
+            "instruction": "Se hai sottoscritto tramite Google Play: Play Store → Abbonamenti → Experian → Annulla."
+          },
+          {
+            "instruction": "Se hai sottoscritto direttamente: usa la live chat o chiama il supporto Experian."
+          }
         ]
       }
     },
@@ -744,8 +1177,12 @@
       }
     ],
     "alternatives": [
-      { "description": "Monitoraggio del credito gratuito — nessun abbonamento richiesto" },
-      { "description": "$8,99/mese — protezione contro il furto d'identità" }
+      {
+        "description": "Monitoraggio del credito gratuito — nessun abbonamento richiesto"
+      },
+      {
+        "description": "$8,99/mese — protezione contro il furto d'identità"
+      }
     ]
   },
   "crunch-fitness": {
@@ -755,23 +1192,42 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Accedi a crunch.com e verifica se la tua sede offre la disdetta online (raro — la maggior parte non lo fa)." },
-          { "instruction": "Se la disdetta online non è disponibile, recati di persona nella tua sede con un documento d'identità con foto." },
-          { "instruction": "Chiedi di parlare con un consulente per le iscrizioni e richiedi la disdetta.", "note": "Porta il tuo ID membro o l'email usata per iscriverti." },
-          { "instruction": "In alternativa, invia una raccomandata alla tua sede con: nome completo, ID membro, indirizzo e firma." },
-          { "instruction": "Conserva la ricevuta della raccomandata come prova. La disdetta solitamente ha effetto 30 giorni dopo il ricevimento." }
+          {
+            "instruction": "Accedi a crunch.com e verifica se la tua sede offre la disdetta online (raro — la maggior parte non lo fa)."
+          },
+          {
+            "instruction": "Se la disdetta online non è disponibile, recati di persona nella tua sede con un documento d'identità con foto."
+          },
+          {
+            "instruction": "Chiedi di parlare con un consulente per le iscrizioni e richiedi la disdetta.",
+            "note": "Porta il tuo ID membro o l'email usata per iscriverti."
+          },
+          {
+            "instruction": "In alternativa, invia una raccomandata alla tua sede con: nome completo, ID membro, indirizzo e firma."
+          },
+          {
+            "instruction": "Conserva la ricevuta della raccomandata come prova. La disdetta solitamente ha effetto 30 giorni dopo il ricevimento."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Crunch non supporta la disdetta tramite l'app iOS." },
-          { "instruction": "Disdici di persona nella tua sede o tramite raccomandata — vedi i passaggi web." }
+          {
+            "instruction": "Crunch non supporta la disdetta tramite l'app iOS."
+          },
+          {
+            "instruction": "Disdici di persona nella tua sede o tramite raccomandata — vedi i passaggi web."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Crunch non supporta la disdetta tramite l'app Android." },
-          { "instruction": "Disdici di persona o tramite raccomandata — vedi i passaggi web." }
+          {
+            "instruction": "Crunch non supporta la disdetta tramite l'app Android."
+          },
+          {
+            "instruction": "Disdici di persona o tramite raccomandata — vedi i passaggi web."
+          }
         ]
       }
     },
@@ -790,8 +1246,12 @@
       }
     ],
     "alternatives": [
-      { "description": "$10–$25/mese — disdetta online facile" },
-      { "description": "$30–$50/mese — accesso 24/7" }
+      {
+        "description": "$10–$25/mese — disdetta online facile"
+      },
+      {
+        "description": "$30–$50/mese — accesso 24/7"
+      }
     ]
   },
   "xfinity": {
@@ -801,24 +1261,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Vai su xfinity.com/support e accedi.", "note": "Controlla prima la data di scadenza del contratto — vai su Il mio account → Contratto di servizio per verificare se devi una penale di risoluzione anticipata." },
-          { "instruction": "Usa la chat dell'Assistente Xfinity e digita Annulla servizio — a volte funziona senza attesa." },
-          { "instruction": "In alternativa, chiama 1-800-934-6489. Prevedi 15–45 minuti di attesa." },
-          { "instruction": "Di' all'operatore che vuoi annullare, non effettuare un downgrade. Rifiuta tutte le offerte di fidelizzazione." },
-          { "instruction": "Chiedi un numero di conferma dell'annullamento e un'email." },
-          { "instruction": "Restituisci qualsiasi attrezzatura in affitto (modem, router, decoder) a un negozio Xfinity o tramite kit di restituzione prepagato entro 10 giorni per evitare addebiti per l'attrezzatura." }
+          {
+            "instruction": "Vai su xfinity.com/support e accedi.",
+            "note": "Controlla prima la data di scadenza del contratto — vai su Il mio account → Contratto di servizio per verificare se devi una penale di risoluzione anticipata."
+          },
+          {
+            "instruction": "Usa la chat dell'Assistente Xfinity e digita Annulla servizio — a volte funziona senza attesa."
+          },
+          {
+            "instruction": "In alternativa, chiama 1-800-934-6489. Prevedi 15–45 minuti di attesa."
+          },
+          {
+            "instruction": "Di' all'operatore che vuoi annullare, non effettuare un downgrade. Rifiuta tutte le offerte di fidelizzazione."
+          },
+          {
+            "instruction": "Chiedi un numero di conferma dell'annullamento e un'email."
+          },
+          {
+            "instruction": "Restituisci qualsiasi attrezzatura in affitto (modem, router, decoder) a un negozio Xfinity o tramite kit di restituzione prepagato entro 10 giorni per evitare addebiti per l'attrezzatura."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Apri l'app Xfinity → tocca l'icona dell'account." },
-          { "instruction": "Tocca Gestisci il mio piano — opzioni di annullamento limitate nell'app. L'annullamento completo richiede una telefonata o una visita in negozio." }
+          {
+            "instruction": "Apri l'app Xfinity → tocca l'icona dell'account."
+          },
+          {
+            "instruction": "Tocca Gestisci il mio piano — opzioni di annullamento limitate nell'app. L'annullamento completo richiede una telefonata o una visita in negozio."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Apri l'app Xfinity → icona dell'account → Gestisci il mio piano." },
-          { "instruction": "Per l'annullamento completo, chiama o visita un negozio." }
+          {
+            "instruction": "Apri l'app Xfinity → icona dell'account → Gestisci il mio piano."
+          },
+          {
+            "instruction": "Per l'annullamento completo, chiama o visita un negozio."
+          }
         ]
       }
     },
@@ -837,8 +1318,12 @@
       }
     ],
     "alternatives": [
-      { "description": "Internet in fibra — prezzi competitivi" },
-      { "description": "Nessun contratto, nessun limite di dati" }
+      {
+        "description": "Internet in fibra — prezzi competitivi"
+      },
+      {
+        "description": "Nessun contratto, nessun limite di dati"
+      }
     ]
   },
   "fubotv": {
@@ -848,25 +1333,48 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Vai su fubo.tv e accedi." },
-          { "instruction": "Clicca sull'icona del tuo profilo (in alto a destra) → Il mio account." },
-          { "instruction": "Clicca su Gestisci abbonamento." },
-          { "instruction": "Clicca su Annulla abbonamento.", "note": "FuboTV potrebbe mostrarti un'opzione di pausa — clicca su Annulla solo se vuoi annullare completamente." },
-          { "instruction": "Seleziona un motivo → conferma la disdetta." },
-          { "instruction": "Riceverai un'email di conferma." }
+          {
+            "instruction": "Vai su fubo.tv e accedi."
+          },
+          {
+            "instruction": "Clicca sull'icona del tuo profilo (in alto a destra) → Il mio account."
+          },
+          {
+            "instruction": "Clicca su Gestisci abbonamento."
+          },
+          {
+            "instruction": "Clicca su Annulla abbonamento.",
+            "note": "FuboTV potrebbe mostrarti un'opzione di pausa — clicca su Annulla solo se vuoi annullare completamente."
+          },
+          {
+            "instruction": "Seleziona un motivo → conferma la disdetta."
+          },
+          {
+            "instruction": "Riceverai un'email di conferma."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Apri Impostazioni → tocca il tuo nome → Abbonamenti." },
-          { "instruction": "Trova FuboTV → toccalo." },
-          { "instruction": "Tocca Annulla abbonamento → conferma." }
+          {
+            "instruction": "Apri Impostazioni → tocca il tuo nome → Abbonamenti."
+          },
+          {
+            "instruction": "Trova FuboTV → toccalo."
+          },
+          {
+            "instruction": "Tocca Annulla abbonamento → conferma."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Apri il Google Play Store → profilo → Pagamenti e abbonamenti → Abbonamenti." },
-          { "instruction": "Trova FuboTV → tocca Annulla abbonamento → conferma." }
+          {
+            "instruction": "Apri il Google Play Store → profilo → Pagamenti e abbonamenti → Abbonamenti."
+          },
+          {
+            "instruction": "Trova FuboTV → tocca Annulla abbonamento → conferma."
+          }
         ]
       }
     },
@@ -881,9 +1389,15 @@
       }
     ],
     "alternatives": [
-      { "description": "$72,99/mese — 100+ canali, DVR illimitato" },
-      { "description": "Da $40/mese — pacchetti di canali flessibili" },
-      { "description": "Da $64,99/mese — focus sullo sport in diretta" }
+      {
+        "description": "$72,99/mese — 100+ canali, DVR illimitato"
+      },
+      {
+        "description": "Da $40/mese — pacchetti di canali flessibili"
+      },
+      {
+        "description": "Da $64,99/mese — focus sullo sport in diretta"
+      }
     ]
   },
   "uber-eats": {
@@ -893,25 +1407,48 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Vai su uber.com e accedi." },
-          { "instruction": "Clicca sull'icona del tuo profilo → Uber One." },
-          { "instruction": "Clicca su Gestisci abbonamento." },
-          { "instruction": "Clicca su Annulla abbonamento.", "note": "I tuoi vantaggi Uber One continuano fino alla fine del periodo di fatturazione." },
-          { "instruction": "Conferma la disdetta." }
+          {
+            "instruction": "Vai su uber.com e accedi."
+          },
+          {
+            "instruction": "Clicca sull'icona del tuo profilo → Uber One."
+          },
+          {
+            "instruction": "Clicca su Gestisci abbonamento."
+          },
+          {
+            "instruction": "Clicca su Annulla abbonamento.",
+            "note": "I tuoi vantaggi Uber One continuano fino alla fine del periodo di fatturazione."
+          },
+          {
+            "instruction": "Conferma la disdetta."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Apri l'app Uber o Uber Eats → tocca l'icona del tuo profilo." },
-          { "instruction": "Tocca Uber One → Gestisci abbonamento." },
-          { "instruction": "Tocca Annulla abbonamento → conferma." }
+          {
+            "instruction": "Apri l'app Uber o Uber Eats → tocca l'icona del tuo profilo."
+          },
+          {
+            "instruction": "Tocca Uber One → Gestisci abbonamento."
+          },
+          {
+            "instruction": "Tocca Annulla abbonamento → conferma."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Apri l'app Uber o Uber Eats → icona del profilo." },
-          { "instruction": "Tocca Uber One → Gestisci abbonamento → Annulla abbonamento." },
-          { "instruction": "Conferma la disdetta." }
+          {
+            "instruction": "Apri l'app Uber o Uber Eats → icona del profilo."
+          },
+          {
+            "instruction": "Tocca Uber One → Gestisci abbonamento → Annulla abbonamento."
+          },
+          {
+            "instruction": "Conferma la disdetta."
+          }
         ]
       }
     },
@@ -926,8 +1463,12 @@
       }
     ],
     "alternatives": [
-      { "description": "$9,99/mese — consegna gratuita su DoorDash" },
-      { "description": "$9,99/mese — consegna gratuita su Grubhub" }
+      {
+        "description": "$9,99/mese — consegna gratuita su DoorDash"
+      },
+      {
+        "description": "$9,99/mese — consegna gratuita su Grubhub"
+      }
     ]
   },
   "instacart": {
@@ -937,24 +1478,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Vai su instacart.com e accedi." },
-          { "instruction": "Clicca sull'icona del tuo profilo → Instacart+." },
-          { "instruction": "Clicca su Gestisci il tuo abbonamento." },
-          { "instruction": "Clicca su Annulla abbonamento.", "note": "Se hai un piano annuale con mesi rimanenti, Instacart potrebbe offrire un rimborso proporzionale." },
-          { "instruction": "Conferma la disdetta." }
+          {
+            "instruction": "Vai su instacart.com e accedi."
+          },
+          {
+            "instruction": "Clicca sull'icona del tuo profilo → Instacart+."
+          },
+          {
+            "instruction": "Clicca su Gestisci il tuo abbonamento."
+          },
+          {
+            "instruction": "Clicca su Annulla abbonamento.",
+            "note": "Se hai un piano annuale con mesi rimanenti, Instacart potrebbe offrire un rimborso proporzionale."
+          },
+          {
+            "instruction": "Conferma la disdetta."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Apri l'app Instacart → tocca l'icona del tuo profilo." },
-          { "instruction": "Tocca Instacart+ → Gestisci abbonamento." },
-          { "instruction": "Tocca Annulla abbonamento → conferma." }
+          {
+            "instruction": "Apri l'app Instacart → tocca l'icona del tuo profilo."
+          },
+          {
+            "instruction": "Tocca Instacart+ → Gestisci abbonamento."
+          },
+          {
+            "instruction": "Tocca Annulla abbonamento → conferma."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Apri l'app Instacart → icona del profilo → Instacart+." },
-          { "instruction": "Tocca Gestisci abbonamento → Annulla abbonamento → conferma." }
+          {
+            "instruction": "Apri l'app Instacart → icona del profilo → Instacart+."
+          },
+          {
+            "instruction": "Tocca Gestisci abbonamento → Annulla abbonamento → conferma."
+          }
         ]
       }
     },
@@ -969,8 +1531,544 @@
       }
     ],
     "alternatives": [
-      { "description": "Consegna gratuita con Prime — consegna di generi alimentari" },
-      { "description": "$99/anno — Target + altri rivenditori" }
+      {
+        "description": "Consegna gratuita con Prime — consegna di generi alimentari"
+      },
+      {
+        "description": "$99/anno — Target + altri rivenditori"
+      }
+    ]
+  },
+  "espn-plus": {
+    "description": "Disdici ESPN+ in meno di 5 minuti su web, iOS o Android. Include i passaggi per annullare il Disney Bundle.",
+    "difficulty": "Medio",
+    "difficultyReason": "Il processo è diretto, ma annullare ESPN+ annulla l'intero Disney Bundle — qualcosa che molti utenti non si aspettano.",
+    "refundPolicy": "Nessun rimborso per mesi parziali. L'accesso continua fino alla fine del periodo di fatturazione.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su disneyplus.com e accedi."
+          },
+          {
+            "instruction": "Clicca sull'icona del profilo e seleziona Account."
+          },
+          {
+            "instruction": "Scorri fino ad Abbonamento e clicca su Annulla abbonamento."
+          },
+          {
+            "instruction": "Segui i passaggi per confermare la disdetta.",
+            "note": "Questo annullerà l'intero Disney Bundle, inclusi Hulu e Disney+, se applicabile."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Apri Impostazioni iPhone → tocca il tuo nome."
+          },
+          {
+            "instruction": "Tocca Abbonamenti → ESPN+."
+          },
+          {
+            "instruction": "Tocca Annulla abbonamento e conferma."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Apri Google Play Store → icona del profilo."
+          },
+          {
+            "instruction": "Tocca Pagamenti e abbonamenti → Abbonamenti → ESPN+."
+          },
+          {
+            "instruction": "Tocca Annulla abbonamento e conferma."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Annullare ESPN+ cancella l'intero Disney Bundle?",
+        "answer": "Sì. Se ti sei abbonato al Disney Bundle (ESPN+, Hulu e Disney+) come pacchetto, annullare uno annulla tutti. Annulla tramite disneyplus.com per gestire l'intero bundle."
+      },
+      {
+        "question": "Non riesco a trovare ESPN+ nei miei abbonamenti.",
+        "answer": "Potresti esserti abbonato tramite un provider TV via cavo. In tal caso, contatta direttamente il tuo provider per annullare."
+      }
+    ]
+  },
+  "youtube-tv": {
+    "description": "Disdici YouTube TV in meno di 3 minuti su web o mobile.",
+    "difficulty": "Facile",
+    "difficultyReason": "La disdetta è semplice e può essere effettuata direttamente nelle impostazioni di YouTube TV senza eccessivo attrito di fidelizzazione.",
+    "refundPolicy": "Nessun rimborso. L'accesso continua fino alla fine del periodo di fatturazione corrente.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su tv.youtube.com e accedi."
+          },
+          {
+            "instruction": "Clicca sull'icona del profilo → Impostazioni."
+          },
+          {
+            "instruction": "Clicca su Abbonamento → Sospendi o annulla abbonamento."
+          },
+          {
+            "instruction": "Seleziona Annulla abbonamento e conferma."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Accedi alle impostazioni degli abbonamenti del dispositivo tramite Impostazioni → il tuo nome → Abbonamenti."
+          },
+          {
+            "instruction": "Trova YouTube TV e tocca Annulla abbonamento."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Accedi alle impostazioni degli abbonamenti tramite Google Play → Abbonamenti."
+          },
+          {
+            "instruction": "Trova YouTube TV e tocca Annulla abbonamento."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Le mie registrazioni DVR verranno eliminate all'annullamento?",
+        "answer": "Sì. Tutte le registrazioni DVR vengono eliminate definitivamente all'annullamento di YouTube TV. Considera di sospendere l'abbonamento invece di annullare per preservare le tue registrazioni."
+      },
+      {
+        "question": "Posso sospendere invece di annullare?",
+        "answer": "Sì. YouTube TV consente di sospendere l'abbonamento fino a 6 mesi. Durante la sospensione non viene addebitato nulla e le tue registrazioni vengono conservate."
+      }
+    ]
+  },
+  "paramount-plus": {
+    "description": "Disdici Paramount+ in meno di 5 minuti su web, iOS o Android.",
+    "difficulty": "Facile",
+    "difficultyReason": "La disdetta è semplice tramite il sito web o le impostazioni del dispositivo.",
+    "refundPolicy": "Nessun rimborso per mesi parziali. L'accesso continua fino alla fine del periodo di fatturazione.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su paramountplus.com e accedi."
+          },
+          {
+            "instruction": "Clicca sull'icona del profilo → Impostazioni account."
+          },
+          {
+            "instruction": "Seleziona Abbonamento → Annulla abbonamento."
+          },
+          {
+            "instruction": "Segui le istruzioni per confermare la disdetta."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Apri Impostazioni iPhone → tocca il tuo nome → Abbonamenti."
+          },
+          {
+            "instruction": "Trova Paramount+ e tocca Annulla abbonamento."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Apri Google Play Store → Pagamenti e abbonamenti → Abbonamenti."
+          },
+          {
+            "instruction": "Trova Paramount+ e tocca Annulla abbonamento."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Annullare Paramount+ cancella anche SHOWTIME?",
+        "answer": "Sì. Se ti sei abbonato al pacchetto Paramount+ con SHOWTIME, entrambi verranno annullati insieme."
+      },
+      {
+        "question": "Mi sono abbonato tramite Apple o Amazon — come annullo?",
+        "answer": "Se ti sei abbonato tramite Apple, annulla nelle impostazioni abbonamenti dell'iPhone. Se ti sei abbonato tramite Amazon, annulla tramite Prime Video Channels su amazon.com."
+      }
+    ]
+  },
+  "apple-tv-plus": {
+    "description": "Disdici Apple TV+ in meno di 2 minuti tramite iPhone, Mac o web.",
+    "difficulty": "Facile",
+    "difficultyReason": "La disdetta è semplice e diretta tramite le impostazioni degli abbonamenti Apple.",
+    "refundPolicy": "Nessun rimborso. L'accesso continua fino alla fine del periodo di fatturazione.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su appleid.apple.com e accedi."
+          },
+          {
+            "instruction": "Clicca su Abbonamenti."
+          },
+          {
+            "instruction": "Trova Apple TV+ e clicca su Annulla abbonamento."
+          },
+          {
+            "instruction": "Conferma la disdetta."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Apri Impostazioni → tocca il tuo nome."
+          },
+          {
+            "instruction": "Tocca Abbonamenti → Apple TV+."
+          },
+          {
+            "instruction": "Tocca Annulla abbonamento e conferma."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Non esiste un'app Apple TV+ per Android con opzione di annullamento.",
+            "note": "Accedi a appleid.apple.com da un browser per annullare l'abbonamento."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ho ricevuto Apple TV+ gratis con un dispositivo Apple — verrò addebitato?",
+        "answer": "Sì. Dopo il periodo di prova gratuita collegato al dispositivo, la fatturazione automatica inizia. Annulla prima della fine della prova per evitare addebiti."
+      },
+      {
+        "question": "Annullare Apple TV+ influisce sugli altri abbonamenti Apple?",
+        "answer": "No. Annullare Apple TV+ non influisce su iCloud, Apple Music, Apple Arcade o altri servizi Apple. Ogni abbonamento è gestito in modo indipendente."
+      }
+    ]
+  },
+  "dazn": {
+    "description": "Disdici DAZN in meno di 5 minuti tramite web o mobile.",
+    "difficulty": "Medio",
+    "difficultyReason": "Il processo varia per regione e potrebbe richiedere passaggi aggiuntivi in alcuni paesi.",
+    "refundPolicy": "Nessun rimborso per mesi parziali. La politica varia per regione.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su dazn.com e accedi."
+          },
+          {
+            "instruction": "Clicca sull'icona del profilo → Il mio account."
+          },
+          {
+            "instruction": "Seleziona Abbonamento → Annulla abbonamento."
+          },
+          {
+            "instruction": "Segui i passaggi per confermare.",
+            "note": "Il processo potrebbe variare a seconda della tua regione."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Apri Impostazioni iPhone → il tuo nome → Abbonamenti."
+          },
+          {
+            "instruction": "Trova DAZN e tocca Annulla abbonamento."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Apri Google Play Store → Pagamenti e abbonamenti → Abbonamenti."
+          },
+          {
+            "instruction": "Trova DAZN e tocca Annulla abbonamento."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Il processo di annullamento è diverso nel mio paese?",
+        "answer": "Sì. L'interfaccia e i passaggi di DAZN variano per regione. In caso di difficoltà, contatta il supporto DAZN per ricevere assistenza specifica per la tua posizione."
+      },
+      {
+        "question": "Ricevo un rimborso per i mesi non utilizzati?",
+        "answer": "In genere no. DAZN non offre rimborsi per periodi parziali. L'accesso continua fino alla fine del periodo di fatturazione corrente."
+      }
+    ]
+  },
+  "philo": {
+    "description": "Disdici Philo in meno di 3 minuti su web, iOS o Android.",
+    "difficulty": "Facile",
+    "difficultyReason": "La disdetta è semplice e senza attrito — Philo non addebita commissioni di cancellazione.",
+    "refundPolicy": "Nessuna commissione di cancellazione. Nessun rimborso per periodi parziali.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su philo.com e accedi."
+          },
+          {
+            "instruction": "Clicca su Impostazioni → Pagamenti."
+          },
+          {
+            "instruction": "Clicca su Annulla piano e conferma."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Apri Impostazioni iPhone → il tuo nome → Abbonamenti."
+          },
+          {
+            "instruction": "Trova Philo e tocca Annulla abbonamento."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Apri Google Play Store → Pagamenti e abbonamenti → Abbonamenti."
+          },
+          {
+            "instruction": "Trova Philo e tocca Annulla abbonamento."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ci sono commissioni di cancellazione?",
+        "answer": "No. Philo non addebita alcuna commissione di cancellazione. Puoi annullare in qualsiasi momento senza penali."
+      },
+      {
+        "question": "Posso sospendere il mio abbonamento Philo?",
+        "answer": "No. Philo non offre un'opzione di sospensione. Dovrai annullare e riattivare quando vuoi riprendere."
+      }
+    ]
+  },
+  "sling-tv": {
+    "description": "Disdici Sling TV in meno di 5 minuti su web o mobile.",
+    "difficulty": "Medio",
+    "difficultyReason": "Sling potrebbe tentare di trattenerti con offerte di sconto durante il processo di annullamento.",
+    "refundPolicy": "Nessun rimborso. L'accesso continua fino alla fine del periodo di fatturazione.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su sling.com/account/cancel-service e accedi."
+          },
+          {
+            "instruction": "Clicca su Annulla servizio."
+          },
+          {
+            "instruction": "Sling potrebbe offrire uno sconto per farti restare — rifiuta se vuoi annullare.",
+            "note": "Potresti ricevere un'offerta di sconto prima di poter annullare definitivamente."
+          },
+          {
+            "instruction": "Conferma la disdetta."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Accedi alle impostazioni abbonamenti del dispositivo tramite Impostazioni → il tuo nome → Abbonamenti."
+          },
+          {
+            "instruction": "Trova Sling TV e tocca Annulla abbonamento."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Accedi a Google Play → Pagamenti e abbonamenti → Abbonamenti."
+          },
+          {
+            "instruction": "Trova Sling TV e tocca Annulla abbonamento."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Sling TV mi sta offrendo uno sconto per non annullare — devo accettare?",
+        "answer": "Dipende. Sling offre spesso il 50% di sconto per 1-3 mesi per trattenere gli abbonati. Se vuoi continuare a usarlo, potrebbe essere una buona offerta. Altrimenti, rifiuta e procedi con la disdetta."
+      },
+      {
+        "question": "Le mie registrazioni DVR verranno eliminate?",
+        "answer": "Sì. Tutte le registrazioni nel DVR cloud verranno eliminate definitivamente all'annullamento. Scarica qualsiasi contenuto importante prima di annullare."
+      }
+    ]
+  },
+  "whoop": {
+    "description": "Disdici il membership WHOOP — potrebbe essere necessario contattare il supporto.",
+    "difficulty": "Difficile",
+    "difficultyReason": "WHOOP potrebbe richiedere di contattare il supporto per annullare, e i periodi di impegno potrebbero bloccare la disdetta immediata.",
+    "refundPolicy": "Nessun rimborso. Il dispositivo smette di funzionare senza un abbonamento attivo.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su app.whoop.com e accedi."
+          },
+          {
+            "instruction": "Clicca sull'icona del profilo → Membership."
+          },
+          {
+            "instruction": "Clicca su Annulla abbonamento.",
+            "note": "Se non è disponibile un'opzione di annullamento, potrebbe essere necessario contattare il supporto tramite chat o email."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Se ti sei abbonato tramite iOS, vai su Impostazioni → il tuo nome → Abbonamenti → WHOOP → Annulla abbonamento."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Se ti sei abbonato tramite Android, vai su Google Play → Abbonamenti → WHOOP → Annulla abbonamento."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Non riesco ad annullare a causa di un periodo di impegno.",
+        "answer": "WHOOP ha piani con un periodo minimo di impegno (di solito 12 mesi). Se sei ancora nel periodo di impegno, potresti non essere in grado di annullare senza penali. Controlla i termini del tuo piano."
+      },
+      {
+        "question": "Cosa succede al mio dispositivo WHOOP dopo la disdetta?",
+        "answer": "Il dispositivo WHOOP smette di funzionare senza un abbonamento attivo. Tutti i dati di salute e la cronologia delle attività diventano inaccessibili."
+      }
+    ]
+  },
+  "factor-meals": {
+    "description": "Disdici Factor Meals prima di mercoledì alle 23:59 CT per evitare l'addebito della settimana successiva.",
+    "difficulty": "Medio",
+    "difficultyReason": "La scadenza di mercoledì alle 23:59 CT è rigida — perdere questa scadenza comporta un addebito automatico per la settimana successiva.",
+    "refundPolicy": "Nessun rimborso se si supera la scadenza di mercoledì alle 23:59 CT.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su factor75.com e accedi."
+          },
+          {
+            "instruction": "Vai su Impostazioni account → Impostazioni piano."
+          },
+          {
+            "instruction": "Clicca su Annulla piano.",
+            "note": "L'annullamento deve essere effettuato prima di mercoledì alle 23:59 (fuso orario centrale) per evitare l'addebito della settimana successiva."
+          },
+          {
+            "instruction": "Segui le istruzioni per confermare la disdetta."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Non è disponibile un'opzione di annullamento nell'app mobile.",
+            "note": "Usa un browser mobile per accedere a factor75.com e annullare."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Non è disponibile un'opzione di annullamento nell'app mobile.",
+            "note": "Usa un browser mobile per accedere a factor75.com e annullare."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ho perso la scadenza di mercoledì — verrò addebitato?",
+        "answer": "Sì. Se hai perso la scadenza di mercoledì alle 23:59 CT, verrai addebitato per la settimana successiva e riceverai il tuo pasto. Contatta immediatamente il supporto — in rari casi, possono aiutare se la disdetta è avvenuta poco dopo la scadenza."
+      },
+      {
+        "question": "Posso sospendere invece di annullare?",
+        "answer": "Sì. Factor Meals consente di saltare settimane o sospendere la consegna. Accedi al tuo account e seleziona l'opzione di saltare o sospendere prima della scadenza di mercoledì."
+      }
+    ]
+  },
+  "stitch-fix": {
+    "description": "Annulla o metti in pausa il tuo abbonamento Stitch Fix in 2 minuti online.",
+    "difficulty": "Facile",
+    "difficultyReason": "La disdetta è semplice tramite il sito web, ma ricorda di restituire gli articoli indesiderati entro 3 giorni.",
+    "refundPolicy": "Restituisci gli articoli indesiderati entro 3 giorni per evitare addebiti. La commissione dello stilista viene detratta dagli acquisti.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su stitchfix.com e accedi."
+          },
+          {
+            "instruction": "Vai su Impostazioni account."
+          },
+          {
+            "instruction": "Seleziona Programma Fix → Annulla Fix."
+          },
+          {
+            "instruction": "Conferma l'annullamento delle consegne future."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Non è disponibile un'opzione di annullamento nell'app mobile.",
+            "note": "Accedi a stitchfix.com da un browser per annullare."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Non è disponibile un'opzione di annullamento nell'app mobile.",
+            "note": "Accedi a stitchfix.com da un browser per annullare."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Annullare Stitch Fix chiude il mio account?",
+        "answer": "No. Annullare i Fix interrompe solo le consegne future. Il tuo account rimane attivo. Per chiudere completamente l'account, contatta il supporto di Stitch Fix."
+      },
+      {
+        "question": "Ho un Fix aperto — cosa faccio?",
+        "answer": "Restituisci gli articoli indesiderati entro 3 giorni dalla ricezione per evitare addebiti. Includi il modulo di reso nella confezione."
+      }
     ]
   }
 }

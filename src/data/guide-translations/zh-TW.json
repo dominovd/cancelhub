@@ -6,29 +6,61 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "前往 netflix.com 並登入。" },
-          { "instruction": "點擊您的個人頭像 → 帳戶。" },
-          { "instruction": "在「會員資格」下，點擊「取消會員資格」。" },
-          { "instruction": "點擊「完成取消」以確認。" },
-          { "instruction": "您將收到確認電子郵件，請妥善保存。", "note": "可繼續使用至目前計費週期結束。" }
+          {
+            "instruction": "前往 netflix.com 並登入。"
+          },
+          {
+            "instruction": "點擊您的個人頭像 → 帳戶。"
+          },
+          {
+            "instruction": "在「會員資格」下，點擊「取消會員資格」。"
+          },
+          {
+            "instruction": "點擊「完成取消」以確認。"
+          },
+          {
+            "instruction": "您將收到確認電子郵件，請妥善保存。",
+            "note": "可繼續使用至目前計費週期結束。"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "開啟 iPhone 設定 → 點擊頂部的您的姓名。" },
-          { "instruction": "點擊「訂閱項目」。" },
-          { "instruction": "找到並點擊「Netflix」。" },
-          { "instruction": "點擊「取消訂閱」→ 確認。", "note": "Apple 不提供部分退款。" },
-          { "instruction": "您可繼續使用至計費週期結束。" }
+          {
+            "instruction": "開啟 iPhone 設定 → 點擊頂部的您的姓名。"
+          },
+          {
+            "instruction": "點擊「訂閱項目」。"
+          },
+          {
+            "instruction": "找到並點擊「Netflix」。"
+          },
+          {
+            "instruction": "點擊「取消訂閱」→ 確認。",
+            "note": "Apple 不提供部分退款。"
+          },
+          {
+            "instruction": "您可繼續使用至計費週期結束。"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "開啟 Google Play 商店。" },
-          { "instruction": "點擊個人頭像 → 「付款與訂閱」→「訂閱項目」。" },
-          { "instruction": "找到「Netflix」並點擊。" },
-          { "instruction": "點擊「取消訂閱」並依照提示操作。" },
-          { "instruction": "可繼續使用至計費週期結束。" }
+          {
+            "instruction": "開啟 Google Play 商店。"
+          },
+          {
+            "instruction": "點擊個人頭像 → 「付款與訂閱」→「訂閱項目」。"
+          },
+          {
+            "instruction": "找到「Netflix」並點擊。"
+          },
+          {
+            "instruction": "點擊「取消訂閱」並依照提示操作。"
+          },
+          {
+            "instruction": "可繼續使用至計費週期結束。"
+          }
         ]
       }
     },
@@ -47,9 +79,15 @@
       }
     ],
     "alternatives": [
-      { "description": "無廣告，每月 $9.99 美元" },
-      { "description": "Disney、Marvel、Star Wars — 每月 $7.99 美元" },
-      { "description": "HBO 內容 — 每月 $9.99 美元" }
+      {
+        "description": "無廣告，每月 $9.99 美元"
+      },
+      {
+        "description": "Disney、Marvel、Star Wars — 每月 $7.99 美元"
+      },
+      {
+        "description": "HBO 內容 — 每月 $9.99 美元"
+      }
     ]
   },
   "spotify": {
@@ -59,26 +97,51 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "前往 spotify.com/account 並登入。" },
-          { "instruction": "點擊「更改方案」或滾動至「您的方案」。" },
-          { "instruction": "向下滾動並點擊「取消 Premium」。" },
-          { "instruction": "依照確認步驟操作（Spotify 可能提供折扣 — 如不感興趣可略過）。" },
-          { "instruction": "點擊「仍要取消」以確認。您將收到確認電子郵件。", "note": "您可繼續享有 Premium 至計費週期結束。" }
+          {
+            "instruction": "前往 spotify.com/account 並登入。"
+          },
+          {
+            "instruction": "點擊「更改方案」或滾動至「您的方案」。"
+          },
+          {
+            "instruction": "向下滾動並點擊「取消 Premium」。"
+          },
+          {
+            "instruction": "依照確認步驟操作（Spotify 可能提供折扣 — 如不感興趣可略過）。"
+          },
+          {
+            "instruction": "點擊「仍要取消」以確認。您將收到確認電子郵件。",
+            "note": "您可繼續享有 Premium 至計費週期結束。"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "開啟 iPhone 設定 → 點擊您的 Apple ID 名稱。" },
-          { "instruction": "點擊「訂閱項目」→ 找到 Spotify。" },
-          { "instruction": "點擊「取消訂閱」→ 確認。" }
+          {
+            "instruction": "開啟 iPhone 設定 → 點擊您的 Apple ID 名稱。"
+          },
+          {
+            "instruction": "點擊「訂閱項目」→ 找到 Spotify。"
+          },
+          {
+            "instruction": "點擊「取消訂閱」→ 確認。"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "開啟 Google Play 商店 → 點擊個人頭像。" },
-          { "instruction": "前往「付款與訂閱」→「訂閱項目」。" },
-          { "instruction": "找到 Spotify → 點擊「取消訂閱」。" },
-          { "instruction": "依照確認提示操作。" }
+          {
+            "instruction": "開啟 Google Play 商店 → 點擊個人頭像。"
+          },
+          {
+            "instruction": "前往「付款與訂閱」→「訂閱項目」。"
+          },
+          {
+            "instruction": "找到 Spotify → 點擊「取消訂閱」。"
+          },
+          {
+            "instruction": "依照確認提示操作。"
+          }
         ]
       }
     },
@@ -93,8 +156,12 @@
       }
     ],
     "alternatives": [
-      { "description": "每月 $10.99 美元，特別適合 Apple 生態系統用戶" },
-      { "description": "每月 $10.99 美元，隨 YouTube Premium 一併提供" }
+      {
+        "description": "每月 $10.99 美元，特別適合 Apple 生態系統用戶"
+      },
+      {
+        "description": "每月 $10.99 美元，隨 YouTube Premium 一併提供"
+      }
     ]
   },
   "adobe": {
@@ -104,24 +171,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "前往 account.adobe.com 並登入。" },
-          { "instruction": "點擊左側側欄的「方案與產品」。" },
-          { "instruction": "找到您的 Creative Cloud 方案並點擊「管理方案」。" },
-          { "instruction": "點擊「取消您的方案」。", "note": "Adobe 將在此步驟顯示提前終止費金額。" },
-          { "instruction": "選擇原因 → Adobe 將提出多項方案（折扣、暫停）。每次都點擊「繼續取消」。" },
-          { "instruction": "確認取消。請保存確認編號。" }
+          {
+            "instruction": "前往 account.adobe.com 並登入。"
+          },
+          {
+            "instruction": "點擊左側側欄的「方案與產品」。"
+          },
+          {
+            "instruction": "找到您的 Creative Cloud 方案並點擊「管理方案」。"
+          },
+          {
+            "instruction": "點擊「取消您的方案」。",
+            "note": "Adobe 將在此步驟顯示提前終止費金額。"
+          },
+          {
+            "instruction": "選擇原因 → Adobe 將提出多項方案（折扣、暫停）。每次都點擊「繼續取消」。"
+          },
+          {
+            "instruction": "確認取消。請保存確認編號。"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "若透過 App Store 訂閱：開啟設定 → Apple ID → 訂閱項目 → Adobe → 取消。" },
-          { "instruction": "若直接向 Adobe 訂閱：請使用上方的網站步驟 — 應用程式不支援直接取消。" }
+          {
+            "instruction": "若透過 App Store 訂閱：開啟設定 → Apple ID → 訂閱項目 → Adobe → 取消。"
+          },
+          {
+            "instruction": "若直接向 Adobe 訂閱：請使用上方的網站步驟 — 應用程式不支援直接取消。"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "若透過 Google Play 訂閱：開啟 Play 商店 → 訂閱項目 → Adobe → 取消。" },
-          { "instruction": "若直接向 Adobe 訂閱：請使用上方的網站步驟。" }
+          {
+            "instruction": "若透過 Google Play 訂閱：開啟 Play 商店 → 訂閱項目 → Adobe → 取消。"
+          },
+          {
+            "instruction": "若直接向 Adobe 訂閱：請使用上方的網站步驟。"
+          }
         ]
       }
     },
@@ -140,9 +228,15 @@
       }
     ],
     "alternatives": [
-      { "description": "一次性購買，無需訂閱。Photoshop/Illustrator 的替代選擇。" },
-      { "description": "每月 $12.99 美元 — 非設計師的絕佳選擇" },
-      { "description": "提供免費版，最適合 UI/UX 設計" }
+      {
+        "description": "一次性購買，無需訂閱。Photoshop/Illustrator 的替代選擇。"
+      },
+      {
+        "description": "每月 $12.99 美元 — 非設計師的絕佳選擇"
+      },
+      {
+        "description": "提供免費版，最適合 UI/UX 設計"
+      }
     ]
   },
   "chatgpt": {
@@ -152,26 +246,51 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "前往 chatgpt.com 並登入。" },
-          { "instruction": "點擊左下角的您的名字或個人頭像。" },
-          { "instruction": "前往「設定」→「訂閱」。" },
-          { "instruction": "點擊「管理我的訂閱」。" },
-          { "instruction": "點擊「取消方案」→ 確認。" },
-          { "instruction": "您將收到確認電子郵件。Plus 存取權可繼續至週期結束。", "note": "ChatGPT 將自動恢復為免費方案。" }
+          {
+            "instruction": "前往 chatgpt.com 並登入。"
+          },
+          {
+            "instruction": "點擊左下角的您的名字或個人頭像。"
+          },
+          {
+            "instruction": "前往「設定」→「訂閱」。"
+          },
+          {
+            "instruction": "點擊「管理我的訂閱」。"
+          },
+          {
+            "instruction": "點擊「取消方案」→ 確認。"
+          },
+          {
+            "instruction": "您將收到確認電子郵件。Plus 存取權可繼續至週期結束。",
+            "note": "ChatGPT 將自動恢復為免費方案。"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "開啟設定 → 點擊您的 Apple ID 名稱 → 訂閱項目。" },
-          { "instruction": "找到「ChatGPT」→ 點擊它。" },
-          { "instruction": "點擊「取消訂閱」→ 確認。" }
+          {
+            "instruction": "開啟設定 → 點擊您的 Apple ID 名稱 → 訂閱項目。"
+          },
+          {
+            "instruction": "找到「ChatGPT」→ 點擊它。"
+          },
+          {
+            "instruction": "點擊「取消訂閱」→ 確認。"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "開啟 Google Play 商店 → 個人頭像 → 「付款與訂閱」→「訂閱項目」。" },
-          { "instruction": "找到「ChatGPT」→ 點擊「取消訂閱」。" },
-          { "instruction": "依照確認提示操作。" }
+          {
+            "instruction": "開啟 Google Play 商店 → 個人頭像 → 「付款與訂閱」→「訂閱項目」。"
+          },
+          {
+            "instruction": "找到「ChatGPT」→ 點擊「取消訂閱」。"
+          },
+          {
+            "instruction": "依照確認提示操作。"
+          }
         ]
       }
     },
@@ -186,9 +305,15 @@
       }
     ],
     "alternatives": [
-      { "description": "Anthropic 的 AI — 免費版 + 每月 $20 美元 Pro" },
-      { "description": "Google 的 AI — 每月 $19.99 美元，包含於 Google One AI Premium" },
-      { "description": "每月 $20 美元 — AI 搜尋引擎" }
+      {
+        "description": "Anthropic 的 AI — 免費版 + 每月 $20 美元 Pro"
+      },
+      {
+        "description": "Google 的 AI — 每月 $19.99 美元，包含於 Google One AI Premium"
+      },
+      {
+        "description": "每月 $20 美元 — AI 搜尋引擎"
+      }
     ]
   },
   "amazon-prime": {
@@ -198,28 +323,57 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "前往 amazon.com → 將滑鼠懸停在「帳號與清單」→ 點擊「帳號」。" },
-          { "instruction": "點擊「Prime」或在帳號設定中搜尋「管理 Prime 會員資格」。" },
-          { "instruction": "點擊「更新、取消及更多」→「終止會員資格」。" },
-          { "instruction": "選擇「終止會員資格」（而非 Amazon 顯示的「稍後提醒我」或其他選項）。", "note": "若您符合資格，Amazon 將顯示退款金額。" },
-          { "instruction": "點擊「取消會員資格」以確認。" },
-          { "instruction": "查收確認電子郵件。" }
+          {
+            "instruction": "前往 amazon.com → 將滑鼠懸停在「帳號與清單」→ 點擊「帳號」。"
+          },
+          {
+            "instruction": "點擊「Prime」或在帳號設定中搜尋「管理 Prime 會員資格」。"
+          },
+          {
+            "instruction": "點擊「更新、取消及更多」→「終止會員資格」。"
+          },
+          {
+            "instruction": "選擇「終止會員資格」（而非 Amazon 顯示的「稍後提醒我」或其他選項）。",
+            "note": "若您符合資格，Amazon 將顯示退款金額。"
+          },
+          {
+            "instruction": "點擊「取消會員資格」以確認。"
+          },
+          {
+            "instruction": "查收確認電子郵件。"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "開啟 Amazon 購物應用程式 → 點擊三條橫線（選單）。" },
-          { "instruction": "滾動至「帳號」→ 點擊「管理 Prime 會員資格」。" },
-          { "instruction": "點擊「更新、取消及更多」→「終止會員資格」。" },
-          { "instruction": "依照與網頁版相同的提示操作。" },
-          { "instruction": "注意：若您透過 Apple 訂閱，請改為透過 iOS 設定 → 訂閱項目取消。" }
+          {
+            "instruction": "開啟 Amazon 購物應用程式 → 點擊三條橫線（選單）。"
+          },
+          {
+            "instruction": "滾動至「帳號」→ 點擊「管理 Prime 會員資格」。"
+          },
+          {
+            "instruction": "點擊「更新、取消及更多」→「終止會員資格」。"
+          },
+          {
+            "instruction": "依照與網頁版相同的提示操作。"
+          },
+          {
+            "instruction": "注意：若您透過 Apple 訂閱，請改為透過 iOS 設定 → 訂閱項目取消。"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "開啟 Amazon 購物應用程式 → 選單 →「帳號」。" },
-          { "instruction": "點擊「管理 Prime 會員資格」→「終止會員資格」。" },
-          { "instruction": "若透過 Google Play 訂閱，請改為透過 Play 商店 → 訂閱項目取消。" }
+          {
+            "instruction": "開啟 Amazon 購物應用程式 → 選單 →「帳號」。"
+          },
+          {
+            "instruction": "點擊「管理 Prime 會員資格」→「終止會員資格」。"
+          },
+          {
+            "instruction": "若透過 Google Play 訂閱，請改為透過 Play 商店 → 訂閱項目取消。"
+          }
         ]
       }
     },
@@ -245,26 +399,51 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "前往 disneyplus.com 並登入。" },
-          { "instruction": "點擊個人頭像 →「帳號」。" },
-          { "instruction": "在「訂閱」下，點擊「取消訂閱」。" },
-          { "instruction": "選擇原因 → 點擊「繼續」。" },
-          { "instruction": "點擊「取消訂閱」以確認。" },
-          { "instruction": "您將收到確認電子郵件。", "note": "可繼續使用至您的計費日期。" }
+          {
+            "instruction": "前往 disneyplus.com 並登入。"
+          },
+          {
+            "instruction": "點擊個人頭像 →「帳號」。"
+          },
+          {
+            "instruction": "在「訂閱」下，點擊「取消訂閱」。"
+          },
+          {
+            "instruction": "選擇原因 → 點擊「繼續」。"
+          },
+          {
+            "instruction": "點擊「取消訂閱」以確認。"
+          },
+          {
+            "instruction": "您將收到確認電子郵件。",
+            "note": "可繼續使用至您的計費日期。"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "開啟設定 → 點擊您的名字 → 訂閱項目。" },
-          { "instruction": "找到「Disney+」→ 點擊它。" },
-          { "instruction": "點擊「取消訂閱」→ 確認。" }
+          {
+            "instruction": "開啟設定 → 點擊您的名字 → 訂閱項目。"
+          },
+          {
+            "instruction": "找到「Disney+」→ 點擊它。"
+          },
+          {
+            "instruction": "點擊「取消訂閱」→ 確認。"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "開啟 Google Play 商店 → 個人資料 →「付款與訂閱」→「訂閱項目」。" },
-          { "instruction": "找到 Disney+ → 點擊「取消訂閱」。" },
-          { "instruction": "完成確認流程。" }
+          {
+            "instruction": "開啟 Google Play 商店 → 個人資料 →「付款與訂閱」→「訂閱項目」。"
+          },
+          {
+            "instruction": "找到 Disney+ → 點擊「取消訂閱」。"
+          },
+          {
+            "instruction": "完成確認流程。"
+          }
         ]
       }
     },
@@ -286,25 +465,48 @@
     "platforms": {
       "ios": {
         "steps": [
-          { "instruction": "開啟設定 → 點擊頂部的您的名字。" },
-          { "instruction": "點擊「訂閱項目」。" },
-          { "instruction": "點擊「Apple Music」。" },
-          { "instruction": "點擊「取消訂閱」→ 確認。", "note": "若您正在免費試用期，將會看到試用結束日期。" }
+          {
+            "instruction": "開啟設定 → 點擊頂部的您的名字。"
+          },
+          {
+            "instruction": "點擊「訂閱項目」。"
+          },
+          {
+            "instruction": "點擊「Apple Music」。"
+          },
+          {
+            "instruction": "點擊「取消訂閱」→ 確認。",
+            "note": "若您正在免費試用期，將會看到試用結束日期。"
+          }
         ]
       },
       "web": {
         "steps": [
-          { "instruction": "在 Mac 上開啟「音樂」應用程式 → 點擊您的名字 → 帳號設定。或前往 music.apple.com 並登入。" },
-          { "instruction": "找到「訂閱項目」→ 點擊「管理」。" },
-          { "instruction": "找到 Apple Music → 點擊「編輯」→「取消訂閱」。" },
-          { "instruction": "確認取消。" }
+          {
+            "instruction": "在 Mac 上開啟「音樂」應用程式 → 點擊您的名字 → 帳號設定。或前往 music.apple.com 並登入。"
+          },
+          {
+            "instruction": "找到「訂閱項目」→ 點擊「管理」。"
+          },
+          {
+            "instruction": "找到 Apple Music → 點擊「編輯」→「取消訂閱」。"
+          },
+          {
+            "instruction": "確認取消。"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "在 Android 上開啟 Apple Music 應用程式。" },
-          { "instruction": "點擊個人資料 → 帳號設定 → 訂閱項目。" },
-          { "instruction": "點擊「取消訂閱」→ 確認。" }
+          {
+            "instruction": "在 Android 上開啟 Apple Music 應用程式。"
+          },
+          {
+            "instruction": "點擊個人資料 → 帳號設定 → 訂閱項目。"
+          },
+          {
+            "instruction": "點擊「取消訂閱」→ 確認。"
+          }
         ]
       }
     },
@@ -326,24 +528,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "前往 account.microsoft.com 並登入。" },
-          { "instruction": "點擊頂部導覽中的「服務與訂閱」。" },
-          { "instruction": "找到 Microsoft 365 → 點擊「管理」。" },
-          { "instruction": "點擊訂閱詳細資料下的「取消」。" },
-          { "instruction": "依照提示操作。Microsoft 可能提供折扣 — 若要取消請略過。", "note": "若您在 OneDrive 中有超過 5GB 的資料，請先下載您的檔案。" },
-          { "instruction": "確認取消。您將收到確認電子郵件。" }
+          {
+            "instruction": "前往 account.microsoft.com 並登入。"
+          },
+          {
+            "instruction": "點擊頂部導覽中的「服務與訂閱」。"
+          },
+          {
+            "instruction": "找到 Microsoft 365 → 點擊「管理」。"
+          },
+          {
+            "instruction": "點擊訂閱詳細資料下的「取消」。"
+          },
+          {
+            "instruction": "依照提示操作。Microsoft 可能提供折扣 — 若要取消請略過。",
+            "note": "若您在 OneDrive 中有超過 5GB 的資料，請先下載您的檔案。"
+          },
+          {
+            "instruction": "確認取消。您將收到確認電子郵件。"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "若透過 App Store 訂閱：設定 → Apple ID → 訂閱項目 → Microsoft 365 → 取消。" },
-          { "instruction": "若直接透過 Microsoft 訂閱：請使用上方的網站步驟。" }
+          {
+            "instruction": "若透過 App Store 訂閱：設定 → Apple ID → 訂閱項目 → Microsoft 365 → 取消。"
+          },
+          {
+            "instruction": "若直接透過 Microsoft 訂閱：請使用上方的網站步驟。"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "若透過 Google Play 訂閱：Play 商店 → 訂閱項目 → Microsoft 365 → 取消。" },
-          { "instruction": "若直接訂閱：請使用上方的網站步驟。" }
+          {
+            "instruction": "若透過 Google Play 訂閱：Play 商店 → 訂閱項目 → Microsoft 365 → 取消。"
+          },
+          {
+            "instruction": "若直接訂閱：請使用上方的網站步驟。"
+          }
         ]
       }
     },
@@ -362,8 +585,12 @@
       }
     ],
     "alternatives": [
-      { "description": "文件、試算表、簡報 — 使用 Google 帳號免費使用" },
-      { "description": "免費的開源 Office 替代方案" }
+      {
+        "description": "文件、試算表、簡報 — 使用 Google 帳號免費使用"
+      },
+      {
+        "description": "免費的開源 Office 替代方案"
+      }
     ]
   },
   "claude": {
@@ -373,23 +600,42 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "前往 claude.ai 並登入。" },
-          { "instruction": "點擊個人頭像 →「設定」。" },
-          { "instruction": "前往側欄中的「帳單」。" },
-          { "instruction": "點擊「取消方案」或「取消訂閱」。" },
-          { "instruction": "確認取消。", "note": "Pro 存取可繼續至您的計費週期結束。" }
+          {
+            "instruction": "前往 claude.ai 並登入。"
+          },
+          {
+            "instruction": "點擊個人頭像 →「設定」。"
+          },
+          {
+            "instruction": "前往側欄中的「帳單」。"
+          },
+          {
+            "instruction": "點擊「取消方案」或「取消訂閱」。"
+          },
+          {
+            "instruction": "確認取消。",
+            "note": "Pro 存取可繼續至您的計費週期結束。"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "若透過 App Store 訂閱：設定 → Apple ID → 訂閱項目 → Claude → 取消。" },
-          { "instruction": "若直接透過 Anthropic 訂閱：請使用上方的網站步驟。" }
+          {
+            "instruction": "若透過 App Store 訂閱：設定 → Apple ID → 訂閱項目 → Claude → 取消。"
+          },
+          {
+            "instruction": "若直接透過 Anthropic 訂閱：請使用上方的網站步驟。"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "開啟 Google Play 商店 → 個人資料 → 訂閱項目。" },
-          { "instruction": "找到 Claude → 點擊「取消訂閱」→ 確認。" }
+          {
+            "instruction": "開啟 Google Play 商店 → 個人資料 → 訂閱項目。"
+          },
+          {
+            "instruction": "找到 Claude → 點擊「取消訂閱」→ 確認。"
+          }
         ]
       }
     },
@@ -404,8 +650,12 @@
       }
     ],
     "alternatives": [
-      { "description": "每月 $20 美元 — OpenAI 的 GPT-4o 及更多功能" },
-      { "description": "每月 $19.99 美元 — Google 最強大的 AI" }
+      {
+        "description": "每月 $20 美元 — OpenAI 的 GPT-4o 及更多功能"
+      },
+      {
+        "description": "每月 $19.99 美元 — Google 最強大的 AI"
+      }
     ]
   },
   "youtube-premium": {
@@ -414,25 +664,48 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "前往 youtube.com/paid_memberships 並登入。" },
-          { "instruction": "找到「YouTube Premium」→ 點擊「管理會員資格」。" },
-          { "instruction": "點擊「停用」。" },
-          { "instruction": "依照確認步驟 → 點擊「繼續取消」。" },
-          { "instruction": "確認。您可繼續享有 Premium 至計費週期結束。", "note": "YouTube Music Premium 已包含在內，也將一併取消。" }
+          {
+            "instruction": "前往 youtube.com/paid_memberships 並登入。"
+          },
+          {
+            "instruction": "找到「YouTube Premium」→ 點擊「管理會員資格」。"
+          },
+          {
+            "instruction": "點擊「停用」。"
+          },
+          {
+            "instruction": "依照確認步驟 → 點擊「繼續取消」。"
+          },
+          {
+            "instruction": "確認。您可繼續享有 Premium 至計費週期結束。",
+            "note": "YouTube Music Premium 已包含在內，也將一併取消。"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "開啟設定 → 點擊您的名字 → 訂閱項目。" },
-          { "instruction": "找到「YouTube Premium」→ 點擊它。" },
-          { "instruction": "點擊「取消訂閱」→ 確認。" }
+          {
+            "instruction": "開啟設定 → 點擊您的名字 → 訂閱項目。"
+          },
+          {
+            "instruction": "找到「YouTube Premium」→ 點擊它。"
+          },
+          {
+            "instruction": "點擊「取消訂閱」→ 確認。"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "開啟 Google Play 商店 → 個人資料 →「付款與訂閱」→ 訂閱項目。" },
-          { "instruction": "找到「YouTube Premium」→ 點擊「取消訂閱」。" },
-          { "instruction": "依照確認流程操作。" }
+          {
+            "instruction": "開啟 Google Play 商店 → 個人資料 →「付款與訂閱」→ 訂閱項目。"
+          },
+          {
+            "instruction": "找到「YouTube Premium」→ 點擊「取消訂閱」。"
+          },
+          {
+            "instruction": "依照確認流程操作。"
+          }
         ]
       }
     },
@@ -454,25 +727,47 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "前往 hulu.com 並登入。" },
-          { "instruction": "點擊個人頭像 →「帳號」。" },
-          { "instruction": "在「您的訂閱」下，點擊「取消」。" },
-          { "instruction": "選擇原因 → Hulu 將提出優惠。點擊「繼續取消」。" },
-          { "instruction": "點擊「取消訂閱」以確認。" },
-          { "instruction": "您將收到確認電子郵件。" }
+          {
+            "instruction": "前往 hulu.com 並登入。"
+          },
+          {
+            "instruction": "點擊個人頭像 →「帳號」。"
+          },
+          {
+            "instruction": "在「您的訂閱」下，點擊「取消」。"
+          },
+          {
+            "instruction": "選擇原因 → Hulu 將提出優惠。點擊「繼續取消」。"
+          },
+          {
+            "instruction": "點擊「取消訂閱」以確認。"
+          },
+          {
+            "instruction": "您將收到確認電子郵件。"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "開啟設定 → 點擊您的名字 → 訂閱項目。" },
-          { "instruction": "找到「Hulu」→ 點擊它。" },
-          { "instruction": "點擊「取消訂閱」→ 確認。" }
+          {
+            "instruction": "開啟設定 → 點擊您的名字 → 訂閱項目。"
+          },
+          {
+            "instruction": "找到「Hulu」→ 點擊它。"
+          },
+          {
+            "instruction": "點擊「取消訂閱」→ 確認。"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "開啟 Google Play 商店 → 個人資料 → 訂閱項目 → 找到 Hulu。" },
-          { "instruction": "點擊「取消訂閱」→ 依照提示操作。" }
+          {
+            "instruction": "開啟 Google Play 商店 → 個人資料 → 訂閱項目 → 找到 Hulu。"
+          },
+          {
+            "instruction": "點擊「取消訂閱」→ 依照提示操作。"
+          }
         ]
       }
     },
@@ -494,23 +789,42 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "前往 my.nordaccount.com 並登入。" },
-          { "instruction": "點擊左側側欄的「帳單」或「訂閱」。" },
-          { "instruction": "找到您的方案 → 點擊「取消自動續約」或「取消訂閱」。" },
-          { "instruction": "確認取消。" },
-          { "instruction": "申請退款：在 nordvpn.com/support 開啟即時聊天並提出申請。退款處理時間為 5–10 個工作天。", "note": "NordVPN 不透過帳號儀表板提供退款 — 您必須聯繫客服。" }
+          {
+            "instruction": "前往 my.nordaccount.com 並登入。"
+          },
+          {
+            "instruction": "點擊左側側欄的「帳單」或「訂閱」。"
+          },
+          {
+            "instruction": "找到您的方案 → 點擊「取消自動續約」或「取消訂閱」。"
+          },
+          {
+            "instruction": "確認取消。"
+          },
+          {
+            "instruction": "申請退款：在 nordvpn.com/support 開啟即時聊天並提出申請。退款處理時間為 5–10 個工作天。",
+            "note": "NordVPN 不透過帳號儀表板提供退款 — 您必須聯繫客服。"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "若透過 App Store 訂閱：設定 → Apple ID → 訂閱項目 → NordVPN → 取消。" },
-          { "instruction": "注意：App Store 訂閱不適用 NordVPN 的 30 天退款保證。請改為聯繫 Apple。" }
+          {
+            "instruction": "若透過 App Store 訂閱：設定 → Apple ID → 訂閱項目 → NordVPN → 取消。"
+          },
+          {
+            "instruction": "注意：App Store 訂閱不適用 NordVPN 的 30 天退款保證。請改為聯繫 Apple。"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "若透過 Google Play 訂閱：Play 商店 → 訂閱項目 → NordVPN → 取消。" },
-          { "instruction": "如需 Play 購買的退款，請在 48 小時內聯繫 Google Play 客服。" }
+          {
+            "instruction": "若透過 Google Play 訂閱：Play 商店 → 訂閱項目 → NordVPN → 取消。"
+          },
+          {
+            "instruction": "如需 Play 購買的退款，請在 48 小時內聯繫 Google Play 客服。"
+          }
         ]
       }
     },
@@ -532,25 +846,48 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "前往 doordash.com 並登入。" },
-          { "instruction": "點擊個人頭像 → 取得 DashPass 或前往 doordash.com/account。" },
-          { "instruction": "滾動至 DashPass → 點擊「管理 DashPass」。" },
-          { "instruction": "點擊「取消 DashPass」。" },
-          { "instruction": "依照確認提示操作 → 點擊「取消 DashPass」以確認。", "note": "您可保留 DashPass 福利至計費週期結束。" }
+          {
+            "instruction": "前往 doordash.com 並登入。"
+          },
+          {
+            "instruction": "點擊個人頭像 → 取得 DashPass 或前往 doordash.com/account。"
+          },
+          {
+            "instruction": "滾動至 DashPass → 點擊「管理 DashPass」。"
+          },
+          {
+            "instruction": "點擊「取消 DashPass」。"
+          },
+          {
+            "instruction": "依照確認提示操作 → 點擊「取消 DashPass」以確認。",
+            "note": "您可保留 DashPass 福利至計費週期結束。"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "開啟 DoorDash 應用程式 → 點擊個人頭像（右下角）。" },
-          { "instruction": "點擊「取得 DashPass」或「管理 DashPass」。" },
-          { "instruction": "點擊「取消 DashPass」→ 確認。" }
+          {
+            "instruction": "開啟 DoorDash 應用程式 → 點擊個人頭像（右下角）。"
+          },
+          {
+            "instruction": "點擊「取得 DashPass」或「管理 DashPass」。"
+          },
+          {
+            "instruction": "點擊「取消 DashPass」→ 確認。"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "開啟 DoorDash 應用程式 → 點擊個人頭像。" },
-          { "instruction": "點擊「管理 DashPass」。" },
-          { "instruction": "點擊「取消 DashPass」→ 依照確認提示操作。" }
+          {
+            "instruction": "開啟 DoorDash 應用程式 → 點擊個人頭像。"
+          },
+          {
+            "instruction": "點擊「管理 DashPass」。"
+          },
+          {
+            "instruction": "點擊「取消 DashPass」→ 依照確認提示操作。"
+          }
         ]
       }
     },
@@ -565,8 +902,12 @@
       }
     ],
     "alternatives": [
-      { "description": "每月 $9.99 美元 — Uber Eats 免費外送 + Uber 乘車" },
-      { "description": "每月 $9.99 美元 — Grubhub 訂單免費外送" }
+      {
+        "description": "每月 $9.99 美元 — Uber Eats 免費外送 + Uber 乘車"
+      },
+      {
+        "description": "每月 $9.99 美元 — Grubhub 訂單免費外送"
+      }
     ]
   },
   "peacock": {
@@ -576,25 +917,48 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "前往 peacocktv.com 並登入。" },
-          { "instruction": "點擊個人頭像 →「帳號」。" },
-          { "instruction": "在「方案」下，點擊「變更或取消方案」。" },
-          { "instruction": "點擊「取消方案」。" },
-          { "instruction": "選擇原因 → 點擊「繼續」。", "note": "您的 Peacock Premium 存取權可繼續至計費日期。" },
-          { "instruction": "確認取消。" }
+          {
+            "instruction": "前往 peacocktv.com 並登入。"
+          },
+          {
+            "instruction": "點擊個人頭像 →「帳號」。"
+          },
+          {
+            "instruction": "在「方案」下，點擊「變更或取消方案」。"
+          },
+          {
+            "instruction": "點擊「取消方案」。"
+          },
+          {
+            "instruction": "選擇原因 → 點擊「繼續」。",
+            "note": "您的 Peacock Premium 存取權可繼續至計費日期。"
+          },
+          {
+            "instruction": "確認取消。"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "開啟設定 → 點擊您的名字 → 訂閱項目。" },
-          { "instruction": "找到 Peacock → 點擊它。" },
-          { "instruction": "點擊「取消訂閱」→ 確認。" }
+          {
+            "instruction": "開啟設定 → 點擊您的名字 → 訂閱項目。"
+          },
+          {
+            "instruction": "找到 Peacock → 點擊它。"
+          },
+          {
+            "instruction": "點擊「取消訂閱」→ 確認。"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "開啟 Google Play 商店 → 個人資料 → 付款與訂閱 → 訂閱項目。" },
-          { "instruction": "找到 Peacock → 點擊「取消訂閱」→ 確認。" }
+          {
+            "instruction": "開啟 Google Play 商店 → 個人資料 → 付款與訂閱 → 訂閱項目。"
+          },
+          {
+            "instruction": "找到 Peacock → 點擊「取消訂閱」→ 確認。"
+          }
         ]
       }
     },
@@ -609,8 +973,12 @@
       }
     ],
     "alternatives": [
-      { "description": "每月 $7.99 美元 — CBS、MTV、Nickelodeon" },
-      { "description": "每月 $9.99 美元 — HBO 內容" }
+      {
+        "description": "每月 $7.99 美元 — CBS、MTV、Nickelodeon"
+      },
+      {
+        "description": "每月 $9.99 美元 — HBO 內容"
+      }
     ]
   },
   "audible": {
@@ -620,24 +988,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "前往 audible.com 並登入。" },
-          { "instruction": "將滑鼠懸停在您的名字上 → 點擊「帳號詳細資料」。" },
-          { "instruction": "點擊左側側欄或「會員資格詳細資料」下的「取消會員資格」。" },
-          { "instruction": "Audible 將顯示暫停會員資格選項 — 若要取消，請點擊「繼續取消」。", "note": "取消前請先使用您的點數 — 會員資格結束時點數將消失。" },
-          { "instruction": "選擇原因 → 點擊「取消會員資格」。" },
-          { "instruction": "您將收到確認電子郵件。" }
+          {
+            "instruction": "前往 audible.com 並登入。"
+          },
+          {
+            "instruction": "將滑鼠懸停在您的名字上 → 點擊「帳號詳細資料」。"
+          },
+          {
+            "instruction": "點擊左側側欄或「會員資格詳細資料」下的「取消會員資格」。"
+          },
+          {
+            "instruction": "Audible 將顯示暫停會員資格選項 — 若要取消，請點擊「繼續取消」。",
+            "note": "取消前請先使用您的點數 — 會員資格結束時點數將消失。"
+          },
+          {
+            "instruction": "選擇原因 → 點擊「取消會員資格」。"
+          },
+          {
+            "instruction": "您將收到確認電子郵件。"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "若透過 App Store 訂閱：設定 → Apple ID → 訂閱項目 → Audible → 取消。" },
-          { "instruction": "若直接向 Amazon/Audible 訂閱：請使用上方的網站步驟。" }
+          {
+            "instruction": "若透過 App Store 訂閱：設定 → Apple ID → 訂閱項目 → Audible → 取消。"
+          },
+          {
+            "instruction": "若直接向 Amazon/Audible 訂閱：請使用上方的網站步驟。"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "若透過 Google Play 訂閱：Play 商店 → 訂閱項目 → Audible → 取消。" },
-          { "instruction": "若直接訂閱：請使用上方的網站步驟。" }
+          {
+            "instruction": "若透過 Google Play 訂閱：Play 商店 → 訂閱項目 → Audible → 取消。"
+          },
+          {
+            "instruction": "若直接訂閱：請使用上方的網站步驟。"
+          }
         ]
       }
     },
@@ -656,8 +1045,12 @@
       }
     ],
     "alternatives": [
-      { "description": "每月 $11.99 美元 — 電子書 + 部分有聲書" },
-      { "description": "每月 $11.99 美元 — 有聲書、電子書、文件" }
+      {
+        "description": "每月 $11.99 美元 — 電子書 + 部分有聲書"
+      },
+      {
+        "description": "每月 $11.99 美元 — 有聲書、電子書、文件"
+      }
     ]
   },
   "fabletics": {
@@ -666,24 +1059,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "登入 fabletics.com，取消前先使用任何累積的點數。" },
-          { "instruction": "點擊「會員點數」查看您的餘額。", "note": "取消後點數將消失 — 請先使用它們。" },
-          { "instruction": "在 fabletics.com 開啟即時聊天或致電 1-844-322-5384。" },
-          { "instruction": "告知客服人員您要取消 VIP 會員資格。" },
-          { "instruction": "拒絕所有挽留優惠（折扣、暫停、點數優惠）。" },
-          { "instruction": "確認取消並索取確認編號或電子郵件。" }
+          {
+            "instruction": "登入 fabletics.com，取消前先使用任何累積的點數。"
+          },
+          {
+            "instruction": "點擊「會員點數」查看您的餘額。",
+            "note": "取消後點數將消失 — 請先使用它們。"
+          },
+          {
+            "instruction": "在 fabletics.com 開啟即時聊天或致電 1-844-322-5384。"
+          },
+          {
+            "instruction": "告知客服人員您要取消 VIP 會員資格。"
+          },
+          {
+            "instruction": "拒絕所有挽留優惠（折扣、暫停、點數優惠）。"
+          },
+          {
+            "instruction": "確認取消並索取確認編號或電子郵件。"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Fabletics 不支援透過 iOS 應用程式或 App Store 取消。" },
-          { "instruction": "請使用電話（1-844-322-5384）或在 fabletics.com 使用即時聊天。" }
+          {
+            "instruction": "Fabletics 不支援透過 iOS 應用程式或 App Store 取消。"
+          },
+          {
+            "instruction": "請使用電話（1-844-322-5384）或在 fabletics.com 使用即時聊天。"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Fabletics 不支援透過 Android 應用程式或 Play 商店取消。" },
-          { "instruction": "請使用電話或即時聊天 — 請參閱上方的網頁步驟。" }
+          {
+            "instruction": "Fabletics 不支援透過 Android 應用程式或 Play 商店取消。"
+          },
+          {
+            "instruction": "請使用電話或即時聊天 — 請參閱上方的網頁步驟。"
+          }
         ]
       }
     },
@@ -709,23 +1123,42 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "登入 experian.com 或前往您的帳號設定。" },
-          { "instruction": "若沒有取消按鈕，請透過 experian.com/consumer/help.html 開啟即時聊天。", "note": "Experian 經常隱藏取消選項 — 即時聊天通常是最快的途徑。" },
-          { "instruction": "告知客服人員您要取消訂閱。" },
-          { "instruction": "拒絕任何挽留優惠（信用監控暫停、折扣）。" },
-          { "instruction": "索取包含取消日期的確認電子郵件。" }
+          {
+            "instruction": "登入 experian.com 或前往您的帳號設定。"
+          },
+          {
+            "instruction": "若沒有取消按鈕，請透過 experian.com/consumer/help.html 開啟即時聊天。",
+            "note": "Experian 經常隱藏取消選項 — 即時聊天通常是最快的途徑。"
+          },
+          {
+            "instruction": "告知客服人員您要取消訂閱。"
+          },
+          {
+            "instruction": "拒絕任何挽留優惠（信用監控暫停、折扣）。"
+          },
+          {
+            "instruction": "索取包含取消日期的確認電子郵件。"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "若透過 App Store 訂閱：設定 → Apple ID → 訂閱項目 → Experian → 取消。" },
-          { "instruction": "若直接向 Experian 訂閱：請使用電話（1-479-343-6239）或即時聊天。" }
+          {
+            "instruction": "若透過 App Store 訂閱：設定 → Apple ID → 訂閱項目 → Experian → 取消。"
+          },
+          {
+            "instruction": "若直接向 Experian 訂閱：請使用電話（1-479-343-6239）或即時聊天。"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "若透過 Google Play 訂閱：Play 商店 → 訂閱項目 → Experian → 取消。" },
-          { "instruction": "若直接訂閱：請使用即時聊天或致電 Experian 客服。" }
+          {
+            "instruction": "若透過 Google Play 訂閱：Play 商店 → 訂閱項目 → Experian → 取消。"
+          },
+          {
+            "instruction": "若直接訂閱：請使用即時聊天或致電 Experian 客服。"
+          }
         ]
       }
     },
@@ -744,8 +1177,12 @@
       }
     ],
     "alternatives": [
-      { "description": "免費信用監控 — 無需訂閱" },
-      { "description": "每月 $8.99 美元 — 身份盜竊保護" }
+      {
+        "description": "免費信用監控 — 無需訂閱"
+      },
+      {
+        "description": "每月 $8.99 美元 — 身份盜竊保護"
+      }
     ]
   },
   "crunch-fitness": {
@@ -755,23 +1192,42 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "登入 crunch.com，確認您的健身房是否提供線上取消功能（罕見 — 大多數不提供）。" },
-          { "instruction": "若無法線上取消，請攜帶附照片的身份證件親自前往您的主要健身房。" },
-          { "instruction": "要求與會員顧問交談並申請取消。", "note": "請攜帶會員編號或註冊時使用的電子郵件。" },
-          { "instruction": "或者，以掛號信件寄送至您的主要健身房，內含：全名、會員編號、地址和簽名。" },
-          { "instruction": "保留掛號信收據作為證明。取消通常在收到後 30 天生效。" }
+          {
+            "instruction": "登入 crunch.com，確認您的健身房是否提供線上取消功能（罕見 — 大多數不提供）。"
+          },
+          {
+            "instruction": "若無法線上取消，請攜帶附照片的身份證件親自前往您的主要健身房。"
+          },
+          {
+            "instruction": "要求與會員顧問交談並申請取消。",
+            "note": "請攜帶會員編號或註冊時使用的電子郵件。"
+          },
+          {
+            "instruction": "或者，以掛號信件寄送至您的主要健身房，內含：全名、會員編號、地址和簽名。"
+          },
+          {
+            "instruction": "保留掛號信收據作為證明。取消通常在收到後 30 天生效。"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Crunch 不支援透過 iOS 應用程式取消。" },
-          { "instruction": "請親自前往主要健身房或以掛號信件取消。" }
+          {
+            "instruction": "Crunch 不支援透過 iOS 應用程式取消。"
+          },
+          {
+            "instruction": "請親自前往主要健身房或以掛號信件取消。"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Crunch 不支援透過 Android 應用程式取消。" },
-          { "instruction": "請親自前往或以掛號信件取消 — 請參閱網頁步驟。" }
+          {
+            "instruction": "Crunch 不支援透過 Android 應用程式取消。"
+          },
+          {
+            "instruction": "請親自前往或以掛號信件取消 — 請參閱網頁步驟。"
+          }
         ]
       }
     },
@@ -790,8 +1246,12 @@
       }
     ],
     "alternatives": [
-      { "description": "每月 $10–$25 美元 — 簡單的線上取消" },
-      { "description": "每月 $30–$50 美元 — 24/7 全天候使用" }
+      {
+        "description": "每月 $10–$25 美元 — 簡單的線上取消"
+      },
+      {
+        "description": "每月 $30–$50 美元 — 24/7 全天候使用"
+      }
     ]
   },
   "xfinity": {
@@ -801,24 +1261,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "前往 xfinity.com/support 並登入。", "note": "請先確認您的合約到期日 — 前往「我的帳號」→「服務協議」查看是否需支付提前終止費。" },
-          { "instruction": "使用 Xfinity 助理聊天並輸入「取消服務」— 有時無需等待即可完成。" },
-          { "instruction": "或致電 1-800-934-6489。預計等待時間 15 至 45 分鐘。" },
-          { "instruction": "告知客服人員您要取消，而非降級方案。拒絕所有挽留優惠。" },
-          { "instruction": "索取取消確認編號和電子郵件。" },
-          { "instruction": "在 10 天內歸還任何租借設備，以避免設備費用。" }
+          {
+            "instruction": "前往 xfinity.com/support 並登入。",
+            "note": "請先確認您的合約到期日 — 前往「我的帳號」→「服務協議」查看是否需支付提前終止費。"
+          },
+          {
+            "instruction": "使用 Xfinity 助理聊天並輸入「取消服務」— 有時無需等待即可完成。"
+          },
+          {
+            "instruction": "或致電 1-800-934-6489。預計等待時間 15 至 45 分鐘。"
+          },
+          {
+            "instruction": "告知客服人員您要取消，而非降級方案。拒絕所有挽留優惠。"
+          },
+          {
+            "instruction": "索取取消確認編號和電子郵件。"
+          },
+          {
+            "instruction": "在 10 天內歸還任何租借設備，以避免設備費用。"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "開啟 Xfinity 應用程式 → 點擊帳號圖示。" },
-          { "instruction": "點擊「管理我的方案」— 完整取消需要致電或前往門市。" }
+          {
+            "instruction": "開啟 Xfinity 應用程式 → 點擊帳號圖示。"
+          },
+          {
+            "instruction": "點擊「管理我的方案」— 完整取消需要致電或前往門市。"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "開啟 Xfinity 應用程式 → 帳號圖示 →「管理我的方案」。" },
-          { "instruction": "如需完整取消，請致電或前往門市。" }
+          {
+            "instruction": "開啟 Xfinity 應用程式 → 帳號圖示 →「管理我的方案」。"
+          },
+          {
+            "instruction": "如需完整取消，請致電或前往門市。"
+          }
         ]
       }
     },
@@ -837,8 +1318,12 @@
       }
     ],
     "alternatives": [
-      { "description": "光纖網路 — 具競爭力的定價" },
-      { "description": "無合約，無流量限制" }
+      {
+        "description": "光纖網路 — 具競爭力的定價"
+      },
+      {
+        "description": "無合約，無流量限制"
+      }
     ]
   },
   "fubotv": {
@@ -848,25 +1333,48 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "前往 fubo.tv 並登入。" },
-          { "instruction": "點擊個人頭像（右上角）→「我的帳號」。" },
-          { "instruction": "點擊「管理訂閱」。" },
-          { "instruction": "點擊「取消訂閱」。", "note": "FuboTV 可能顯示暫停選項 — 只有在要完全取消時才點擊「取消」。" },
-          { "instruction": "選擇原因 → 確認取消。" },
-          { "instruction": "您將收到確認電子郵件。" }
+          {
+            "instruction": "前往 fubo.tv 並登入。"
+          },
+          {
+            "instruction": "點擊個人頭像（右上角）→「我的帳號」。"
+          },
+          {
+            "instruction": "點擊「管理訂閱」。"
+          },
+          {
+            "instruction": "點擊「取消訂閱」。",
+            "note": "FuboTV 可能顯示暫停選項 — 只有在要完全取消時才點擊「取消」。"
+          },
+          {
+            "instruction": "選擇原因 → 確認取消。"
+          },
+          {
+            "instruction": "您將收到確認電子郵件。"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "開啟設定 → 點擊您的名字 → 訂閱項目。" },
-          { "instruction": "找到 FuboTV → 點擊它。" },
-          { "instruction": "點擊「取消訂閱」→ 確認。" }
+          {
+            "instruction": "開啟設定 → 點擊您的名字 → 訂閱項目。"
+          },
+          {
+            "instruction": "找到 FuboTV → 點擊它。"
+          },
+          {
+            "instruction": "點擊「取消訂閱」→ 確認。"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "開啟 Google Play 商店 → 個人資料 → 付款與訂閱 → 訂閱項目。" },
-          { "instruction": "找到 FuboTV → 點擊「取消訂閱」→ 確認。" }
+          {
+            "instruction": "開啟 Google Play 商店 → 個人資料 → 付款與訂閱 → 訂閱項目。"
+          },
+          {
+            "instruction": "找到 FuboTV → 點擊「取消訂閱」→ 確認。"
+          }
         ]
       }
     },
@@ -881,9 +1389,15 @@
       }
     ],
     "alternatives": [
-      { "description": "每月 $72.99 美元 — 100 多個頻道，無限 DVR" },
-      { "description": "每月從 $40 美元起 — 彈性頻道套餐" },
-      { "description": "每月從 $64.99 美元起 — 專注於即時體育" }
+      {
+        "description": "每月 $72.99 美元 — 100 多個頻道，無限 DVR"
+      },
+      {
+        "description": "每月從 $40 美元起 — 彈性頻道套餐"
+      },
+      {
+        "description": "每月從 $64.99 美元起 — 專注於即時體育"
+      }
     ]
   },
   "uber-eats": {
@@ -893,25 +1407,48 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "前往 uber.com 並登入。" },
-          { "instruction": "點擊個人頭像 → Uber One。" },
-          { "instruction": "點擊「管理會員資格」。" },
-          { "instruction": "點擊「取消會員資格」。", "note": "您的 Uber One 福利持續至計費週期結束。" },
-          { "instruction": "確認取消。" }
+          {
+            "instruction": "前往 uber.com 並登入。"
+          },
+          {
+            "instruction": "點擊個人頭像 → Uber One。"
+          },
+          {
+            "instruction": "點擊「管理會員資格」。"
+          },
+          {
+            "instruction": "點擊「取消會員資格」。",
+            "note": "您的 Uber One 福利持續至計費週期結束。"
+          },
+          {
+            "instruction": "確認取消。"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "開啟 Uber 或 Uber Eats 應用程式 → 點擊個人頭像。" },
-          { "instruction": "點擊 Uber One →「管理會員資格」。" },
-          { "instruction": "點擊「取消會員資格」→ 確認。" }
+          {
+            "instruction": "開啟 Uber 或 Uber Eats 應用程式 → 點擊個人頭像。"
+          },
+          {
+            "instruction": "點擊 Uber One →「管理會員資格」。"
+          },
+          {
+            "instruction": "點擊「取消會員資格」→ 確認。"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "開啟 Uber 或 Uber Eats 應用程式 → 個人頭像。" },
-          { "instruction": "點擊 Uber One →「管理會員資格」→「取消會員資格」。" },
-          { "instruction": "確認取消。" }
+          {
+            "instruction": "開啟 Uber 或 Uber Eats 應用程式 → 個人頭像。"
+          },
+          {
+            "instruction": "點擊 Uber One →「管理會員資格」→「取消會員資格」。"
+          },
+          {
+            "instruction": "確認取消。"
+          }
         ]
       }
     },
@@ -926,8 +1463,12 @@
       }
     ],
     "alternatives": [
-      { "description": "每月 $9.99 美元 — DoorDash 免費外送" },
-      { "description": "每月 $9.99 美元 — Grubhub 免費外送" }
+      {
+        "description": "每月 $9.99 美元 — DoorDash 免費外送"
+      },
+      {
+        "description": "每月 $9.99 美元 — Grubhub 免費外送"
+      }
     ]
   },
   "instacart": {
@@ -937,24 +1478,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "前往 instacart.com 並登入。" },
-          { "instruction": "點擊個人頭像 → Instacart+。" },
-          { "instruction": "點擊「管理您的會員資格」。" },
-          { "instruction": "點擊「取消會員資格」。", "note": "若您有剩餘月份的年度方案，Instacart 可能提供按比例計算的退款。" },
-          { "instruction": "確認取消。" }
+          {
+            "instruction": "前往 instacart.com 並登入。"
+          },
+          {
+            "instruction": "點擊個人頭像 → Instacart+。"
+          },
+          {
+            "instruction": "點擊「管理您的會員資格」。"
+          },
+          {
+            "instruction": "點擊「取消會員資格」。",
+            "note": "若您有剩餘月份的年度方案，Instacart 可能提供按比例計算的退款。"
+          },
+          {
+            "instruction": "確認取消。"
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "開啟 Instacart 應用程式 → 點擊個人頭像。" },
-          { "instruction": "點擊 Instacart+ →「管理會員資格」。" },
-          { "instruction": "點擊「取消會員資格」→ 確認。" }
+          {
+            "instruction": "開啟 Instacart 應用程式 → 點擊個人頭像。"
+          },
+          {
+            "instruction": "點擊 Instacart+ →「管理會員資格」。"
+          },
+          {
+            "instruction": "點擊「取消會員資格」→ 確認。"
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "開啟 Instacart 應用程式 → 個人頭像 → Instacart+。" },
-          { "instruction": "點擊「管理會員資格」→「取消會員資格」→ 確認。" }
+          {
+            "instruction": "開啟 Instacart 應用程式 → 個人頭像 → Instacart+。"
+          },
+          {
+            "instruction": "點擊「管理會員資格」→「取消會員資格」→ 確認。"
+          }
         ]
       }
     },
@@ -969,8 +1531,703 @@
       }
     ],
     "alternatives": [
-      { "description": "Prime 免費外送 — 生鮮雜貨配送" },
-      { "description": "每年 $99 美元 — Target 及其他零售商" }
+      {
+        "description": "Prime 免費外送 — 生鮮雜貨配送"
+      },
+      {
+        "description": "每年 $99 美元 — Target 及其他零售商"
+      }
+    ]
+  },
+  "espn-plus": {
+    "description": "在 5 分鐘內透過網頁、iOS 或 Android 取消 ESPN+。包含取消 Disney Bundle 的步驟。",
+    "difficultyReason": "ESPN+ 取消流程簡單，但請注意 Disney Bundle 會同時一併取消。",
+    "refundPolicy": "不提供退款。可繼續使用至目前計費週期結束。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 espnplus.com 並登入。"
+          },
+          {
+            "instruction": "點擊個人頭像 → 帳戶。"
+          },
+          {
+            "instruction": "點擊「訂閱」。"
+          },
+          {
+            "instruction": "點擊「取消訂閱」。"
+          },
+          {
+            "instruction": "確認取消。",
+            "note": "注意：若您使用 Disney Bundle，Disney+ 和 Hulu 也將一併取消。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "開啟「設定」→ 點擊您的 Apple ID 姓名。"
+          },
+          {
+            "instruction": "點擊「訂閱項目」→ ESPN+。"
+          },
+          {
+            "instruction": "點擊「取消訂閱」並確認。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "開啟 Google Play 商店 → 點擊個人頭像。"
+          },
+          {
+            "instruction": "前往「訂閱項目」→ ESPN+。"
+          },
+          {
+            "instruction": "點擊「取消訂閱」並確認。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我的 Disney Bundle 也會被取消嗎？",
+        "answer": "是的。若您擁有 Disney Bundle（ESPN+、Disney+、Hulu），取消 ESPN+ 時三項服務將同時取消。"
+      },
+      {
+        "question": "找不到取消選項。",
+        "answer": "若您透過電視服務供應商訂閱，需透過該供應商取消，而非透過 ESPN+ 網站。"
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Disney Bundle：Disney+ + Hulu + ESPN+"
+      },
+      {
+        "description": "YouTube TV — 含 ESPN 頻道的直播電視"
+      },
+      {
+        "description": "DAZN — 運動串流替代方案"
+      }
+    ]
+  },
+  "youtube-tv": {
+    "description": "在 3 分鐘內透過網頁或行動裝置取消 YouTube TV。",
+    "difficultyReason": "YouTube TV 提供簡單的取消流程，但取消後 DVR 錄影將被刪除。",
+    "refundPolicy": "不提供退款。可繼續使用至目前計費週期結束。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 tv.youtube.com 並登入。"
+          },
+          {
+            "instruction": "點擊個人頭像 → 設定。"
+          },
+          {
+            "instruction": "點擊「會員資格」→「取消會員資格」。"
+          },
+          {
+            "instruction": "依照指示確認取消。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "開啟「設定」→ Apple ID → 訂閱項目。"
+          },
+          {
+            "instruction": "找到 YouTube TV 並點擊。"
+          },
+          {
+            "instruction": "點擊「取消訂閱」並確認。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "開啟 Google Play 商店 → 付款與訂閱 → 訂閱項目。"
+          },
+          {
+            "instruction": "找到 YouTube TV 並點擊。"
+          },
+          {
+            "instruction": "點擊「取消訂閱」並確認。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "取消後 DVR 錄影會被刪除嗎？",
+        "answer": "是的。取消 YouTube TV 訂閱後，所有已儲存的 DVR 錄影都將被刪除。"
+      },
+      {
+        "question": "可以暫停訂閱而不是取消嗎？",
+        "answer": "可以。YouTube TV 允許暫停訂閱最多 6 個月，作為完全取消的替代方案。"
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Sling TV — 每月 $40 起，彈性頻道套餐"
+      },
+      {
+        "description": "Hulu + Live TV — 每月 $76.99"
+      },
+      {
+        "description": "FuboTV — 專注於直播體育"
+      }
+    ]
+  },
+  "paramount-plus": {
+    "description": "在 5 分鐘內透過網頁、iOS 或 Android 取消 Paramount+。",
+    "difficultyReason": "取消流程簡單，但若已加購 SHOWTIME，也將一併取消。",
+    "refundPolicy": "不提供退款。可繼續使用至目前計費週期結束。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 paramountplus.com 並登入。"
+          },
+          {
+            "instruction": "點擊個人頭像 → 設定。"
+          },
+          {
+            "instruction": "點擊「訂閱」→「取消訂閱」。"
+          },
+          {
+            "instruction": "依照指示確認取消。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "開啟「設定」→ Apple ID → 訂閱項目。"
+          },
+          {
+            "instruction": "找到 Paramount+ 並點擊。"
+          },
+          {
+            "instruction": "點擊「取消訂閱」並確認。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "開啟 Google Play 商店 → 付款與訂閱 → 訂閱項目。"
+          },
+          {
+            "instruction": "找到 Paramount+ 並點擊。"
+          },
+          {
+            "instruction": "點擊「取消訂閱」並確認。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "SHOWTIME 也會被取消嗎？",
+        "answer": "是的。若您擁有 Paramount+ 含 SHOWTIME 方案，兩項服務將同時取消。"
+      },
+      {
+        "question": "我透過 Apple 或 Amazon 訂閱。",
+        "answer": "若您透過 Apple 或 Amazon 訂閱，需在該平台取消，而非透過 Paramount+ 網站。"
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Netflix — 豐富的影集與電影"
+      },
+      {
+        "description": "Peacock — NBC 內容"
+      },
+      {
+        "description": "Disney+ — Disney、Marvel、星際大戰"
+      }
+    ]
+  },
+  "apple-tv-plus": {
+    "description": "在 2 分鐘內透過 iPhone、Mac 或網頁取消 Apple TV+。",
+    "difficultyReason": "透過 Apple ID 設定取消非常簡單，沒有任何挽留動作。",
+    "refundPolicy": "不提供退款。可繼續使用至目前計費週期結束。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 appleid.apple.com 並登入。"
+          },
+          {
+            "instruction": "點擊「訂閱項目」。"
+          },
+          {
+            "instruction": "找到 Apple TV+ 並點擊。"
+          },
+          {
+            "instruction": "點擊「取消訂閱」並確認。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "開啟「設定」→ 點擊頂部的您的姓名。"
+          },
+          {
+            "instruction": "點擊「訂閱項目」→ Apple TV+。"
+          },
+          {
+            "instruction": "點擊「取消訂閱」並確認。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Android 上沒有 Apple TV+ 應用程式。"
+          },
+          {
+            "instruction": "在瀏覽器前往 appleid.apple.com，依照上方的網頁步驟操作。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我隨 Apple 裝置獲得免費試用期——現在會被收費嗎？",
+        "answer": "是的。Apple 裝置附贈的免費試用期若未及時取消，將自動轉為付費訂閱。"
+      },
+      {
+        "question": "其他 Apple 訂閱也會被取消嗎？",
+        "answer": "不會。取消 Apple TV+ 不影響其他 Apple 訂閱，如 Apple Music 或 iCloud。"
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Netflix — 豐富的影集與電影"
+      },
+      {
+        "description": "Disney+ — Disney、Marvel、星際大戰"
+      },
+      {
+        "description": "Amazon Prime Video — 含在 Prime 會員中"
+      }
+    ]
+  },
+  "dazn": {
+    "description": "在 5 分鐘內透過網頁或行動裝置取消 DAZN。",
+    "difficultyReason": "取消介面因地區而異，但整體流程簡單。",
+    "refundPolicy": "不提供部分月份退款。可繼續使用至目前計費週期結束。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 dazn.com 並登入。"
+          },
+          {
+            "instruction": "點擊個人頭像 → 我的帳戶。"
+          },
+          {
+            "instruction": "點擊「訂閱」→「取消訂閱」。"
+          },
+          {
+            "instruction": "依照指示確認取消。",
+            "note": "確切步驟可能因地區而異。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "開啟「設定」→ Apple ID → 訂閱項目。"
+          },
+          {
+            "instruction": "找到 DAZN 並點擊。"
+          },
+          {
+            "instruction": "點擊「取消訂閱」並確認。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "開啟 Google Play 商店 → 付款與訂閱 → 訂閱項目。"
+          },
+          {
+            "instruction": "找到 DAZN 並點擊。"
+          },
+          {
+            "instruction": "點擊「取消訂閱」並確認。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "取消介面與說明不同。",
+        "answer": "DAZN 針對不同地區調整介面。若步驟不符，請尋找帳戶設定或聯繫 DAZN 客服。"
+      },
+      {
+        "question": "可以退還剩餘期間的費用嗎？",
+        "answer": "不可以。DAZN 不退還部分使用月份的費用。"
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "ESPN+ — 運動串流"
+      },
+      {
+        "description": "YouTube TV — 含體育的直播電視"
+      },
+      {
+        "description": "FuboTV — 專注於體育直播"
+      }
+    ]
+  },
+  "philo": {
+    "description": "在 3 分鐘內透過網頁、iOS 或 Android 取消 Philo。",
+    "difficultyReason": "Philo 提供簡單的取消流程，無取消費用，也沒有任何挽留動作。",
+    "refundPolicy": "無取消費用。可繼續使用至目前計費週期結束。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 philo.com 並登入。"
+          },
+          {
+            "instruction": "點擊「設定」→「付款」。"
+          },
+          {
+            "instruction": "點擊「取消方案」。"
+          },
+          {
+            "instruction": "確認取消。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "開啟「設定」→ Apple ID → 訂閱項目。"
+          },
+          {
+            "instruction": "找到 Philo 並點擊。"
+          },
+          {
+            "instruction": "點擊「取消訂閱」並確認。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "開啟 Google Play 商店 → 付款與訂閱 → 訂閱項目。"
+          },
+          {
+            "instruction": "找到 Philo 並點擊。"
+          },
+          {
+            "instruction": "點擊「取消訂閱」並確認。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "有取消費用嗎？",
+        "answer": "沒有。Philo 不收取任何取消費用，您可以隨時取消。"
+      },
+      {
+        "question": "可以暫停訂閱嗎？",
+        "answer": "不可以。Philo 沒有暫停功能。若您暫時不想使用服務，必須完全取消。"
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Sling TV — 更多頻道，每月 $40 起"
+      },
+      {
+        "description": "YouTube TV — 每月 $72.99，含 DVR"
+      },
+      {
+        "description": "Hulu + Live TV — 每月 $76.99"
+      }
+    ]
+  },
+  "sling-tv": {
+    "description": "在 5 分鐘內透過網頁或行動裝置取消 Sling TV。",
+    "difficultyReason": "Sling TV 可能提供折扣留客，但取消流程整體簡單。DVR 錄影取消後將被刪除。",
+    "refundPolicy": "不提供退款。取消後 DVR 錄影將被刪除。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 sling.com/account/cancel-service 並登入。"
+          },
+          {
+            "instruction": "點擊「取消服務」。",
+            "note": "Sling 可能顯示折扣優惠——若要取消請略過。"
+          },
+          {
+            "instruction": "確認取消。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "開啟「設定」→ Apple ID → 訂閱項目。"
+          },
+          {
+            "instruction": "找到 Sling TV 並點擊。"
+          },
+          {
+            "instruction": "點擊「取消訂閱」並確認。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "開啟 Google Play 商店 → 付款與訂閱 → 訂閱項目。"
+          },
+          {
+            "instruction": "找到 Sling TV 並點擊。"
+          },
+          {
+            "instruction": "點擊「取消訂閱」並確認。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Sling 提供折扣——應該接受嗎？",
+        "answer": "若您想繼續使用 Sling 才接受。若您確定要取消，請略過優惠繼續取消流程。"
+      },
+      {
+        "question": "我的 DVR 錄影會被刪除嗎？",
+        "answer": "是的。取消 Sling TV 訂閱後，所有已儲存的 DVR 錄影都將被刪除。"
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "YouTube TV — 每月 $72.99，無限 DVR"
+      },
+      {
+        "description": "Philo — 較便宜，無體育頻道"
+      },
+      {
+        "description": "FuboTV — 專注於體育直播"
+      }
+    ]
+  },
+  "whoop": {
+    "description": "取消 WHOOP 會員資格——可能需要聯繫客服。",
+    "difficultyReason": "WHOOP 可能因承諾期而封鎖取消，有時需要聯繫客服協助。",
+    "refundPolicy": "不提供退款。沒有有效會員資格裝置將停止運作。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 app.whoop.com 並登入。"
+          },
+          {
+            "instruction": "點擊個人頭像 → 會員資格。"
+          },
+          {
+            "instruction": "點擊「取消會員資格」。",
+            "note": "若因承諾期無法取消，請聯繫 WHOOP 客服。"
+          },
+          {
+            "instruction": "確認取消。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "開啟「設定」→ Apple ID → 訂閱項目（僅限透過 Apple 訂閱者）。"
+          },
+          {
+            "instruction": "找到 WHOOP 並點擊。"
+          },
+          {
+            "instruction": "點擊「取消訂閱」並確認。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "開啟 Google Play 商店 → 付款與訂閱 → 訂閱項目（僅限透過 Google 訂閱者）。"
+          },
+          {
+            "instruction": "找到 WHOOP 並點擊。"
+          },
+          {
+            "instruction": "點擊「取消訂閱」並確認。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "因承諾期無法取消。",
+        "answer": "WHOOP 有最低承諾期。若無法透過應用程式取消，請聯繫 WHOOP 客服討論您的選項。"
+      },
+      {
+        "question": "取消後 WHOOP 裝置還能使用嗎？",
+        "answer": "不能。WHOOP 裝置需要有效會員資格才能運作。取消後裝置將停止運作。"
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Garmin — 無需訂閱費的健身追蹤器"
+      },
+      {
+        "description": "Apple Watch — 無強制訂閱的健身監測"
+      },
+      {
+        "description": "Fitbit — 含可選 Premium 訂閱的健身追蹤器"
+      }
+    ]
+  },
+  "factor-meals": {
+    "description": "在週三 11:59 PM CT 前取消 Factor Meals，以避免下週費用。",
+    "difficultyReason": "週三 11:59 PM CT 的截止時間嚴格——錯過將被收取下週費用。",
+    "refundPolicy": "錯過截止時間不提供退款。可選擇暫停或跳過作為替代方案。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 factor75.com 並登入。"
+          },
+          {
+            "instruction": "前往「帳戶設定」→「方案設定」。"
+          },
+          {
+            "instruction": "點擊「取消方案」。",
+            "note": "請在週三 11:59 PM CT 前取消，以避免下週費用。"
+          },
+          {
+            "instruction": "確認取消。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "應用程式內沒有取消選項。"
+          },
+          {
+            "instruction": "使用行動瀏覽器前往 factor75.com，依照上方的網頁步驟操作。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "應用程式內沒有取消選項。"
+          },
+          {
+            "instruction": "使用行動瀏覽器前往 factor75.com，依照上方的網頁步驟操作。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我錯過了週三截止時間——會被收費嗎？",
+        "answer": "是的。若您錯過週三 11:59 PM CT 的截止時間，將被收取下週費用。請聯繫 Factor 客服詢問是否有例外。"
+      },
+      {
+        "question": "可以暫停而不是取消嗎？",
+        "answer": "可以。Factor 提供暫停或跳過配送的選項，作為完全取消的替代方案。"
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "HelloFresh — 含食材的料理包"
+      },
+      {
+        "description": "Green Chef — 有機料理包"
+      },
+      {
+        "description": "Trifecta — 專為運動營養設計的即食餐"
+      }
+    ]
+  },
+  "stitch-fix": {
+    "description": "在 2 分鐘內線上取消或暫停您的 Stitch Fix 訂閱。",
+    "difficultyReason": "取消 Fixes 簡單，但不會關閉帳戶。請在 3 天內退回不想保留的商品。",
+    "refundPolicy": "無訂閱費——僅需為保留的商品付費。請在 3 天內退回不想保留的商品。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 stitchfix.com 並登入。"
+          },
+          {
+            "instruction": "前往「帳戶設定」→「Fix 排程」。"
+          },
+          {
+            "instruction": "點擊「取消 Fixes」。"
+          },
+          {
+            "instruction": "確認取消。",
+            "note": "這將取消未來的 Fixes，但不會關閉您的帳戶。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Stitch Fix 應用程式內沒有取消選項。"
+          },
+          {
+            "instruction": "請使用網站（stitchfix.com）取消 Fixes。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Stitch Fix 應用程式內沒有取消選項。"
+          },
+          {
+            "instruction": "請使用網站（stitchfix.com）取消 Fixes。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "取消 Fixes 會關閉我的帳戶嗎？",
+        "answer": "不會。取消 Fixes 只會停止未來的配送，不會關閉您的帳戶。帳戶仍保持有效。"
+      },
+      {
+        "question": "我有多少時間退回不想保留的商品？",
+        "answer": "您有 3 天時間退回不想保留的商品。超過 3 天後，Fix 中的所有商品都將被收費。"
+      }
+    ],
+    "alternatives": [
+      {
+        "description": "Trunk Club — 個人造型服務"
+      },
+      {
+        "description": "Rent the Runway — 服飾租借"
+      },
+      {
+        "description": "Amazon Personal Shopper — Prime 會員專屬造型服務"
+      }
     ]
   }
 }

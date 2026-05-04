@@ -6,29 +6,61 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "netflix.com adresine gidin ve oturum açın." },
-          { "instruction": "Profil simgenize → Hesap'a tıklayın." },
-          { "instruction": "\"Üyelik\" bölümünde \"Üyeliği İptal Et\"e tıklayın." },
-          { "instruction": "Onaylamak için \"İptali Tamamla\"ya tıklayın." },
-          { "instruction": "Bir onay e-postası alacaksınız. Kayıtlarınız için saklayın.", "note": "Erişim, mevcut fatura döneminizin sonuna kadar devam eder." }
+          {
+            "instruction": "netflix.com adresine gidin ve oturum açın."
+          },
+          {
+            "instruction": "Profil simgenize → Hesap'a tıklayın."
+          },
+          {
+            "instruction": "\"Üyelik\" bölümünde \"Üyeliği İptal Et\"e tıklayın."
+          },
+          {
+            "instruction": "Onaylamak için \"İptali Tamamla\"ya tıklayın."
+          },
+          {
+            "instruction": "Bir onay e-postası alacaksınız. Kayıtlarınız için saklayın.",
+            "note": "Erişim, mevcut fatura döneminizin sonuna kadar devam eder."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "iPhone Ayarlar'ı açın → üstteki adınıza dokunun." },
-          { "instruction": "\"Abonelikler\"e dokunun." },
-          { "instruction": "\"Netflix\"i bulun ve üzerine dokunun." },
-          { "instruction": "\"Aboneliği İptal Et\"e → Onayla'ya dokunun." },
-          { "instruction": "Fatura döneминиз sonuna kadar erişiminiz devam eder.", "note": "Apple kısmi iade yapmaz." }
+          {
+            "instruction": "iPhone Ayarlar'ı açın → üstteki adınıza dokunun."
+          },
+          {
+            "instruction": "\"Abonelikler\"e dokunun."
+          },
+          {
+            "instruction": "\"Netflix\"i bulun ve üzerine dokunun."
+          },
+          {
+            "instruction": "\"Aboneliği İptal Et\"e → Onayla'ya dokunun."
+          },
+          {
+            "instruction": "Fatura döneминиз sonuna kadar erişiminiz devam eder.",
+            "note": "Apple kısmi iade yapmaz."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Google Play Store'u açın." },
-          { "instruction": "Profil simgenize → \"Ödemeler ve abonelikler\" → \"Abonelikler\"e dokunun." },
-          { "instruction": "\"Netflix\"i bulun ve üzerine dokunun." },
-          { "instruction": "\"Aboneliği iptal et\"e dokunun ve yönergeleri izleyin." },
-          { "instruction": "Fatura dönemi sonuna kadar erişim devam eder." }
+          {
+            "instruction": "Google Play Store'u açın."
+          },
+          {
+            "instruction": "Profil simgenize → \"Ödemeler ve abonelikler\" → \"Abonelikler\"e dokunun."
+          },
+          {
+            "instruction": "\"Netflix\"i bulun ve üzerine dokunun."
+          },
+          {
+            "instruction": "\"Aboneliği iptal et\"e dokunun ve yönergeleri izleyin."
+          },
+          {
+            "instruction": "Fatura dönemi sonuna kadar erişim devam eder."
+          }
         ]
       }
     },
@@ -47,9 +79,15 @@
       }
     ],
     "alternatives": [
-      { "description": "Reklamlı, 109,99 TL/ay" },
-      { "description": "Disney, Marvel, Star Wars — 74,99 TL/ay" },
-      { "description": "HBO içerikleri — 149,99 TL/ay" }
+      {
+        "description": "Reklamlı, 109,99 TL/ay"
+      },
+      {
+        "description": "Disney, Marvel, Star Wars — 74,99 TL/ay"
+      },
+      {
+        "description": "HBO içerikleri — 149,99 TL/ay"
+      }
     ]
   },
   "spotify": {
@@ -59,26 +97,51 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "spotify.com/account adresine gidin ve oturum açın." },
-          { "instruction": "\"Planı değiştir\"e tıklayın veya \"Planınız\" bölümüne gidin." },
-          { "instruction": "Aşağı kaydırın ve \"Premium'u İptal Et\"e tıklayın." },
-          { "instruction": "Onay adımlarını izleyin (Spotify indirim sunabilir — ilgilenmiyorsanız atlayın)." },
-          { "instruction": "Onaylamak için \"Yine de iptal et\"e tıklayın. Bir onay e-postası alacaksınız.", "note": "Fatura dönemi sonuna kadar Premium'unuz devam eder." }
+          {
+            "instruction": "spotify.com/account adresine gidin ve oturum açın."
+          },
+          {
+            "instruction": "\"Planı değiştir\"e tıklayın veya \"Planınız\" bölümüne gidin."
+          },
+          {
+            "instruction": "Aşağı kaydırın ve \"Premium'u İptal Et\"e tıklayın."
+          },
+          {
+            "instruction": "Onay adımlarını izleyin (Spotify indirim sunabilir — ilgilenmiyorsanız atlayın)."
+          },
+          {
+            "instruction": "Onaylamak için \"Yine de iptal et\"e tıklayın. Bir onay e-postası alacaksınız.",
+            "note": "Fatura dönemi sonuna kadar Premium'unuz devam eder."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "iPhone Ayarlar'ı açın → Apple ID adınıza dokunun." },
-          { "instruction": "\"Abonelikler\"e → Spotify'ı bulun." },
-          { "instruction": "\"Aboneliği İptal Et\"e → Onayla'ya dokunun." }
+          {
+            "instruction": "iPhone Ayarlar'ı açın → Apple ID adınıza dokunun."
+          },
+          {
+            "instruction": "\"Abonelikler\"e → Spotify'ı bulun."
+          },
+          {
+            "instruction": "\"Aboneliği İptal Et\"e → Onayla'ya dokunun."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Google Play Store'u açın → profil simgenize dokunun." },
-          { "instruction": "\"Ödemeler ve abonelikler\" → \"Abonelikler\"e gidin." },
-          { "instruction": "Spotify'ı bulun → \"Aboneliği iptal et\"e dokunun." },
-          { "instruction": "Onay yönergelerini izleyin." }
+          {
+            "instruction": "Google Play Store'u açın → profil simgenize dokunun."
+          },
+          {
+            "instruction": "\"Ödemeler ve abonelikler\" → \"Abonelikler\"e gidin."
+          },
+          {
+            "instruction": "Spotify'ı bulun → \"Aboneliği iptal et\"e dokunun."
+          },
+          {
+            "instruction": "Onay yönergelerini izleyin."
+          }
         ]
       }
     },
@@ -93,8 +156,12 @@
       }
     ],
     "alternatives": [
-      { "description": "109,99 TL/ay, Apple ekosistemindeyseniz harika" },
-      { "description": "109,99 TL/ay, YouTube Premium'a dahil" }
+      {
+        "description": "109,99 TL/ay, Apple ekosistemindeyseniz harika"
+      },
+      {
+        "description": "109,99 TL/ay, YouTube Premium'a dahil"
+      }
     ]
   },
   "adobe": {
@@ -104,24 +171,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "account.adobe.com adresine gidin ve oturum açın." },
-          { "instruction": "Sol kenar çubuğunda \"Plans & Products\"a tıklayın." },
-          { "instruction": "Creative Cloud planınızı bulun ve \"Planı yönet\"e tıklayın." },
-          { "instruction": "\"Planınızı iptal edin\"e tıklayın.", "note": "Adobe bu noktada erken fesih ücretini gösterecektir." },
-          { "instruction": "Bir neden seçin → Adobe birden fazla teklif yapacak (indirimler, duraklatma). Her seferinde \"İptale devam et\"e tıklayın." },
-          { "instruction": "İptali onaylayın. Onay numarasını kaydedin." }
+          {
+            "instruction": "account.adobe.com adresine gidin ve oturum açın."
+          },
+          {
+            "instruction": "Sol kenar çubuğunda \"Plans & Products\"a tıklayın."
+          },
+          {
+            "instruction": "Creative Cloud planınızı bulun ve \"Planı yönet\"e tıklayın."
+          },
+          {
+            "instruction": "\"Planınızı iptal edin\"e tıklayın.",
+            "note": "Adobe bu noktada erken fesih ücretini gösterecektir."
+          },
+          {
+            "instruction": "Bir neden seçin → Adobe birden fazla teklif yapacak (indirimler, duraklatma). Her seferinde \"İptale devam et\"e tıklayın."
+          },
+          {
+            "instruction": "İptali onaylayın. Onay numarasını kaydedin."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "App Store üzerinden abone olduysanız: Ayarlar → Apple ID → Abonelikler → Adobe → İptal'e gidin." },
-          { "instruction": "Doğrudan Adobe'den abone olduysanız: Uygulama doğrudan iptali desteklemediğinden yukarıdaki web adımlarını kullanın." }
+          {
+            "instruction": "App Store üzerinden abone olduysanız: Ayarlar → Apple ID → Abonelikler → Adobe → İptal'e gidin."
+          },
+          {
+            "instruction": "Doğrudan Adobe'den abone olduysanız: Uygulama doğrudan iptali desteklemediğinden yukarıdaki web adımlarını kullanın."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Google Play üzerinden abone olduysanız: Play Store → Abonelikler → Adobe → İptal'e gidin." },
-          { "instruction": "Doğrudan Adobe'den abone olduysanız: yukarıdaki web adımlarını kullanın." }
+          {
+            "instruction": "Google Play üzerinden abone olduysanız: Play Store → Abonelikler → Adobe → İptal'e gidin."
+          },
+          {
+            "instruction": "Doğrudan Adobe'den abone olduysanız: yukarıdaki web adımlarını kullanın."
+          }
         ]
       }
     },
@@ -140,9 +228,15 @@
       }
     ],
     "alternatives": [
-      { "description": "Tek seferlik satın alma, abonelik yok. Photoshop/Illustrator alternatifi." },
-      { "description": "399 TL/ay — tasarımcı olmayanlar için harika" },
-      { "description": "Ücretsiz katman mevcut, UI/UX tasarımı için en iyisi" }
+      {
+        "description": "Tek seferlik satın alma, abonelik yok. Photoshop/Illustrator alternatifi."
+      },
+      {
+        "description": "399 TL/ay — tasarımcı olmayanlar için harika"
+      },
+      {
+        "description": "Ücretsiz katman mevcut, UI/UX tasarımı için en iyisi"
+      }
     ]
   },
   "chatgpt": {
@@ -152,26 +246,51 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "chatgpt.com adresine gidin ve oturum açın." },
-          { "instruction": "Sol alttaki adınıza veya profil simgenize tıklayın." },
-          { "instruction": "\"Ayarlar\" → \"Abonelik\"e gidin." },
-          { "instruction": "\"Aboneliğimi yönet\"e tıklayın." },
-          { "instruction": "\"Planı iptal et\"e → Onayla'ya tıklayın." },
-          { "instruction": "Bir onay e-postası alacaksınız. Plus erişimi dönem sonuna kadar devam eder.", "note": "ChatGPT otomatik olarak ücretsiz plana geri döner." }
+          {
+            "instruction": "chatgpt.com adresine gidin ve oturum açın."
+          },
+          {
+            "instruction": "Sol alttaki adınıza veya profil simgenize tıklayın."
+          },
+          {
+            "instruction": "\"Ayarlar\" → \"Abonelik\"e gidin."
+          },
+          {
+            "instruction": "\"Aboneliğimi yönet\"e tıklayın."
+          },
+          {
+            "instruction": "\"Planı iptal et\"e → Onayla'ya tıklayın."
+          },
+          {
+            "instruction": "Bir onay e-postası alacaksınız. Plus erişimi dönem sonuna kadar devam eder.",
+            "note": "ChatGPT otomatik olarak ücretsiz plana geri döner."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Ayarlar'ı açın → Apple ID adınıza → Abonelikler'e dokunun." },
-          { "instruction": "\"ChatGPT\"yi bulun → üzerine dokunun." },
-          { "instruction": "\"Aboneliği İptal Et\"e → Onayla'ya dokunun." }
+          {
+            "instruction": "Ayarlar'ı açın → Apple ID adınıza → Abonelikler'e dokunun."
+          },
+          {
+            "instruction": "\"ChatGPT\"yi bulun → üzerine dokunun."
+          },
+          {
+            "instruction": "\"Aboneliği İptal Et\"e → Onayla'ya dokunun."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Google Play Store'u açın → profil simgesi → \"Ödemeler ve abonelikler\" → \"Abonelikler\"." },
-          { "instruction": "\"ChatGPT\"yi bulun → \"Aboneliği iptal et\"e dokunun." },
-          { "instruction": "Onay yönergelerini izleyin." }
+          {
+            "instruction": "Google Play Store'u açın → profil simgesi → \"Ödemeler ve abonelikler\" → \"Abonelikler\"."
+          },
+          {
+            "instruction": "\"ChatGPT\"yi bulun → \"Aboneliği iptal et\"e dokunun."
+          },
+          {
+            "instruction": "Onay yönergelerini izleyin."
+          }
         ]
       }
     },
@@ -186,9 +305,15 @@
       }
     ],
     "alternatives": [
-      { "description": "Anthropic'in yapay zekası — ücretsiz katman + 649 TL/ay Pro" },
-      { "description": "Google'ın yapay zekası — 649 TL/ay, Google One AI Premium'a dahil" },
-      { "description": "649 TL/ay — yapay zeka arama motoru" }
+      {
+        "description": "Anthropic'in yapay zekası — ücretsiz katman + 649 TL/ay Pro"
+      },
+      {
+        "description": "Google'ın yapay zekası — 649 TL/ay, Google One AI Premium'a dahil"
+      },
+      {
+        "description": "649 TL/ay — yapay zeka arama motoru"
+      }
     ]
   },
   "amazon-prime": {
@@ -198,28 +323,57 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "amazon.com.tr'ye gidin → \"Hesap ve Listeler\" üzerine gelin → \"Hesap\"a tıklayın." },
-          { "instruction": "\"Prime\"a tıklayın veya hesap ayarlarında \"Prime Üyeliğini Yönet\"i arayın." },
-          { "instruction": "\"Güncelle, iptal et ve daha fazlası\" → \"Üyeliği sonlandır\"a tıklayın." },
-          { "instruction": "\"Üyeliği Sonlandır\"ı seçin (Amazon'un gösterdiği \"Daha sonra hatırlat\" veya diğer seçenekleri değil).", "note": "Hak kazanıyorsanız Amazon iade tutarını gösterecektir." },
-          { "instruction": "Onaylamak için \"Üyeliği iptal et\"e tıklayın." },
-          { "instruction": "Onay için e-postanızı kontrol edin." }
+          {
+            "instruction": "amazon.com.tr'ye gidin → \"Hesap ve Listeler\" üzerine gelin → \"Hesap\"a tıklayın."
+          },
+          {
+            "instruction": "\"Prime\"a tıklayın veya hesap ayarlarında \"Prime Üyeliğini Yönet\"i arayın."
+          },
+          {
+            "instruction": "\"Güncelle, iptal et ve daha fazlası\" → \"Üyeliği sonlandır\"a tıklayın."
+          },
+          {
+            "instruction": "\"Üyeliği Sonlandır\"ı seçin (Amazon'un gösterdiği \"Daha sonra hatırlat\" veya diğer seçenekleri değil).",
+            "note": "Hak kazanıyorsanız Amazon iade tutarını gösterecektir."
+          },
+          {
+            "instruction": "Onaylamak için \"Üyeliği iptal et\"e tıklayın."
+          },
+          {
+            "instruction": "Onay için e-postanızı kontrol edin."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Amazon Alışveriş uygulamasını açın → üç çizgiye (menü) dokunun." },
-          { "instruction": "\"Hesap\"a gidin → \"Prime Üyeliğini Yönet\"e dokunun." },
-          { "instruction": "\"Güncelle, iptal et ve daha fazlası\" → \"Üyeliği sonlandır\"a dokunun." },
-          { "instruction": "Web sürümüyle aynı yönergeleri izleyin." },
-          { "instruction": "Not: Apple üzerinden abone olduysanız, iOS Ayarlar → Abonelikler üzerinden iptal edin." }
+          {
+            "instruction": "Amazon Alışveriş uygulamasını açın → üç çizgiye (menü) dokunun."
+          },
+          {
+            "instruction": "\"Hesap\"a gidin → \"Prime Üyeliğini Yönet\"e dokunun."
+          },
+          {
+            "instruction": "\"Güncelle, iptal et ve daha fazlası\" → \"Üyeliği sonlandır\"a dokunun."
+          },
+          {
+            "instruction": "Web sürümüyle aynı yönergeleri izleyin."
+          },
+          {
+            "instruction": "Not: Apple üzerinden abone olduysanız, iOS Ayarlar → Abonelikler üzerinden iptal edin."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Amazon Alışveriş uygulamasını açın → menü → \"Hesap\"." },
-          { "instruction": "\"Prime Üyeliğini Yönet\" → \"Üyeliği sonlandır\"a dokunun." },
-          { "instruction": "Google Play üzerinden abone olduysanız, Play Store → Abonelikler üzerinden iptal edin." }
+          {
+            "instruction": "Amazon Alışveriş uygulamasını açın → menü → \"Hesap\"."
+          },
+          {
+            "instruction": "\"Prime Üyeliğini Yönet\" → \"Üyeliği sonlandır\"a dokunun."
+          },
+          {
+            "instruction": "Google Play üzerinden abone olduysanız, Play Store → Abonelikler üzerinden iptal edin."
+          }
         ]
       }
     },
@@ -245,26 +399,51 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "disneyplus.com adresine gidin ve oturum açın." },
-          { "instruction": "Profil simgenize → \"Hesap\"a tıklayın." },
-          { "instruction": "\"Abonelik\" bölümünde \"Aboneliği iptal et\"e tıklayın." },
-          { "instruction": "Bir neden seçin → \"Devam\"a tıklayın." },
-          { "instruction": "Onaylamak için \"Aboneliği iptal et\"e tıklayın." },
-          { "instruction": "Bir onay e-postası alacaksınız.", "note": "Fatura tarihinize kadar erişim devam eder." }
+          {
+            "instruction": "disneyplus.com adresine gidin ve oturum açın."
+          },
+          {
+            "instruction": "Profil simgenize → \"Hesap\"a tıklayın."
+          },
+          {
+            "instruction": "\"Abonelik\" bölümünde \"Aboneliği iptal et\"e tıklayın."
+          },
+          {
+            "instruction": "Bir neden seçin → \"Devam\"a tıklayın."
+          },
+          {
+            "instruction": "Onaylamak için \"Aboneliği iptal et\"e tıklayın."
+          },
+          {
+            "instruction": "Bir onay e-postası alacaksınız.",
+            "note": "Fatura tarihinize kadar erişim devam eder."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Ayarlar'ı açın → adınıza → Abonelikler'e dokunun." },
-          { "instruction": "\"Disney+\"ı bulun → üzerine dokunun." },
-          { "instruction": "\"Aboneliği İptal Et\"e → onayla'ya dokunun." }
+          {
+            "instruction": "Ayarlar'ı açın → adınıza → Abonelikler'e dokunun."
+          },
+          {
+            "instruction": "\"Disney+\"ı bulun → üzerine dokunun."
+          },
+          {
+            "instruction": "\"Aboneliği İptal Et\"e → onayla'ya dokunun."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Google Play Store'u açın → profil → \"Ödemeler ve abonelikler\" → \"Abonelikler\"." },
-          { "instruction": "Disney+'ı bulun → \"Aboneliği iptal et\"e dokunun." },
-          { "instruction": "Onay akışını tamamlayın." }
+          {
+            "instruction": "Google Play Store'u açın → profil → \"Ödemeler ve abonelikler\" → \"Abonelikler\"."
+          },
+          {
+            "instruction": "Disney+'ı bulun → \"Aboneliği iptal et\"e dokunun."
+          },
+          {
+            "instruction": "Onay akışını tamamlayın."
+          }
         ]
       }
     },
@@ -286,25 +465,48 @@
     "platforms": {
       "ios": {
         "steps": [
-          { "instruction": "Ayarlar'ı açın → üstteki adınıza dokunun." },
-          { "instruction": "\"Abonelikler\"e dokunun." },
-          { "instruction": "\"Apple Music\"e dokunun." },
-          { "instruction": "\"Aboneliği İptal Et\"e → Onayla'ya dokunun.", "note": "Ücretsiz deneme sürümündeyseniz deneme bitiş tarihini göreceksiniz." }
+          {
+            "instruction": "Ayarlar'ı açın → üstteki adınıza dokunun."
+          },
+          {
+            "instruction": "\"Abonelikler\"e dokunun."
+          },
+          {
+            "instruction": "\"Apple Music\"e dokunun."
+          },
+          {
+            "instruction": "\"Aboneliği İptal Et\"e → Onayla'ya dokunun.",
+            "note": "Ücretsiz deneme sürümündeyseniz deneme bitiş tarihini göreceksiniz."
+          }
         ]
       },
       "web": {
         "steps": [
-          { "instruction": "Mac'te Müzik uygulamasını açın → adınıza → Hesap Ayarları'na tıklayın. Ya da music.apple.com'u ziyaret edin ve oturum açın." },
-          { "instruction": "\"Abonelikler\"i bulun → \"Yönet\"e tıklayın." },
-          { "instruction": "Apple Music'i bulun → \"Düzenle\" → \"Aboneliği İptal Et\"e tıklayın." },
-          { "instruction": "İptali onaylayın." }
+          {
+            "instruction": "Mac'te Müzik uygulamasını açın → adınıza → Hesap Ayarları'na tıklayın. Ya da music.apple.com'u ziyaret edin ve oturum açın."
+          },
+          {
+            "instruction": "\"Abonelikler\"i bulun → \"Yönet\"e tıklayın."
+          },
+          {
+            "instruction": "Apple Music'i bulun → \"Düzenle\" → \"Aboneliği İptal Et\"e tıklayın."
+          },
+          {
+            "instruction": "İptali onaylayın."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Android'de Apple Music uygulamasını açın." },
-          { "instruction": "Profilinize → Hesap Ayarları → Abonelikler'e dokunun." },
-          { "instruction": "\"Aboneliği İptal Et\"e → Onayla'ya dokunun." }
+          {
+            "instruction": "Android'de Apple Music uygulamasını açın."
+          },
+          {
+            "instruction": "Profilinize → Hesap Ayarları → Abonelikler'e dokunun."
+          },
+          {
+            "instruction": "\"Aboneliği İptal Et\"e → Onayla'ya dokunun."
+          }
         ]
       }
     },
@@ -326,24 +528,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "account.microsoft.com adresine gidin ve oturum açın." },
-          { "instruction": "Üst gezintide \"Hizmetler ve abonelikler\"e tıklayın." },
-          { "instruction": "Microsoft 365'i bulun → \"Yönet\"e tıklayın." },
-          { "instruction": "Abonelik ayrıntılarının altındaki \"İptal\"e tıklayın." },
-          { "instruction": "Yönergeleri izleyin. Microsoft indirim sunabilir — iptal etmek istiyorsanız atlayın.", "note": "OneDrive'da 5 GB'dan fazla veriniz varsa önce dosyalarınızı indirin." },
-          { "instruction": "İptali onaylayın. Bir onay e-postası alacaksınız." }
+          {
+            "instruction": "account.microsoft.com adresine gidin ve oturum açın."
+          },
+          {
+            "instruction": "Üst gezintide \"Hizmetler ve abonelikler\"e tıklayın."
+          },
+          {
+            "instruction": "Microsoft 365'i bulun → \"Yönet\"e tıklayın."
+          },
+          {
+            "instruction": "Abonelik ayrıntılarının altındaki \"İptal\"e tıklayın."
+          },
+          {
+            "instruction": "Yönergeleri izleyin. Microsoft indirim sunabilir — iptal etmek istiyorsanız atlayın.",
+            "note": "OneDrive'da 5 GB'dan fazla veriniz varsa önce dosyalarınızı indirin."
+          },
+          {
+            "instruction": "İptali onaylayın. Bir onay e-postası alacaksınız."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "App Store üzerinden abone olduysanız: Ayarlar → Apple ID → Abonelikler → Microsoft 365 → İptal." },
-          { "instruction": "Doğrudan Microsoft üzerinden abone olduysanız: yukarıdaki web adımlarını kullanın." }
+          {
+            "instruction": "App Store üzerinden abone olduysanız: Ayarlar → Apple ID → Abonelikler → Microsoft 365 → İptal."
+          },
+          {
+            "instruction": "Doğrudan Microsoft üzerinden abone olduysanız: yukarıdaki web adımlarını kullanın."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Google Play üzerinden abone olduysanız: Play Store → Abonelikler → Microsoft 365 → İptal." },
-          { "instruction": "Doğrudan abone olduysanız: yukarıdaki web adımlarını kullanın." }
+          {
+            "instruction": "Google Play üzerinden abone olduysanız: Play Store → Abonelikler → Microsoft 365 → İptal."
+          },
+          {
+            "instruction": "Doğrudan abone olduysanız: yukarıdaki web adımlarını kullanın."
+          }
         ]
       }
     },
@@ -362,8 +585,12 @@
       }
     ],
     "alternatives": [
-      { "description": "Dokümanlar, E-Tablolar, Slaytlar — Google hesabıyla ücretsiz" },
-      { "description": "Ücretsiz, açık kaynaklı Office alternatifi" }
+      {
+        "description": "Dokümanlar, E-Tablolar, Slaytlar — Google hesabıyla ücretsiz"
+      },
+      {
+        "description": "Ücretsiz, açık kaynaklı Office alternatifi"
+      }
     ]
   },
   "claude": {
@@ -373,23 +600,42 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "claude.ai adresine gidin ve oturum açın." },
-          { "instruction": "Profil simgenize → \"Ayarlar\"a tıklayın." },
-          { "instruction": "Kenar çubuğundan \"Faturalandırma\"ya gidin." },
-          { "instruction": "\"Planı iptal et\" veya \"Aboneliği iptal et\"e tıklayın." },
-          { "instruction": "İptali onaylayın.", "note": "Pro erişimi, fatura döneminizin sonuna kadar devam eder." }
+          {
+            "instruction": "claude.ai adresine gidin ve oturum açın."
+          },
+          {
+            "instruction": "Profil simgenize → \"Ayarlar\"a tıklayın."
+          },
+          {
+            "instruction": "Kenar çubuğundan \"Faturalandırma\"ya gidin."
+          },
+          {
+            "instruction": "\"Planı iptal et\" veya \"Aboneliği iptal et\"e tıklayın."
+          },
+          {
+            "instruction": "İptali onaylayın.",
+            "note": "Pro erişimi, fatura döneminizin sonuna kadar devam eder."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "App Store üzerinden abone olduysanız: Ayarlar → Apple ID → Abonelikler → Claude → İptal." },
-          { "instruction": "Doğrudan Anthropic üzerinden abone olduysanız: yukarıdaki web adımlarını kullanın." }
+          {
+            "instruction": "App Store üzerinden abone olduysanız: Ayarlar → Apple ID → Abonelikler → Claude → İptal."
+          },
+          {
+            "instruction": "Doğrudan Anthropic üzerinden abone olduysanız: yukarıdaki web adımlarını kullanın."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Google Play Store'u açın → profil → Abonelikler." },
-          { "instruction": "Claude'u bulun → \"Aboneliği iptal et\"e → onayla'ya dokunun." }
+          {
+            "instruction": "Google Play Store'u açın → profil → Abonelikler."
+          },
+          {
+            "instruction": "Claude'u bulun → \"Aboneliği iptal et\"e → onayla'ya dokunun."
+          }
         ]
       }
     },
@@ -404,8 +650,12 @@
       }
     ],
     "alternatives": [
-      { "description": "649 TL/ay — OpenAI'ın GPT-4o'su ve daha fazlası" },
-      { "description": "649 TL/ay — Google'ın en yetenekli yapay zekası" }
+      {
+        "description": "649 TL/ay — OpenAI'ın GPT-4o'su ve daha fazlası"
+      },
+      {
+        "description": "649 TL/ay — Google'ın en yetenekli yapay zekası"
+      }
     ]
   },
   "youtube-premium": {
@@ -414,25 +664,48 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "youtube.com/paid_memberships adresine gidin ve oturum açın." },
-          { "instruction": "\"YouTube Premium\"u bulun → \"Üyeliği yönet\"e tıklayın." },
-          { "instruction": "\"Devre dışı bırak\"a tıklayın." },
-          { "instruction": "Onay adımlarını izleyin → \"İptale devam et\"e tıklayın." },
-          { "instruction": "Onaylayın. Fatura dönemi sonuna kadar Premium'unuz devam eder.", "note": "YouTube Music Premium dahildir ve o da iptal edilecektir." }
+          {
+            "instruction": "youtube.com/paid_memberships adresine gidin ve oturum açın."
+          },
+          {
+            "instruction": "\"YouTube Premium\"u bulun → \"Üyeliği yönet\"e tıklayın."
+          },
+          {
+            "instruction": "\"Devre dışı bırak\"a tıklayın."
+          },
+          {
+            "instruction": "Onay adımlarını izleyin → \"İptale devam et\"e tıklayın."
+          },
+          {
+            "instruction": "Onaylayın. Fatura dönemi sonuna kadar Premium'unuz devam eder.",
+            "note": "YouTube Music Premium dahildir ve o da iptal edilecektir."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Ayarlar'ı açın → adınıza → Abonelikler'e dokunun." },
-          { "instruction": "\"YouTube Premium\"u bulun → üzerine dokunun." },
-          { "instruction": "\"Aboneliği İptal Et\"e → Onayla'ya dokunun." }
+          {
+            "instruction": "Ayarlar'ı açın → adınıza → Abonelikler'e dokunun."
+          },
+          {
+            "instruction": "\"YouTube Premium\"u bulun → üzerine dokunun."
+          },
+          {
+            "instruction": "\"Aboneliği İptal Et\"e → Onayla'ya dokunun."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Google Play Store'u açın → profil → \"Ödemeler ve abonelikler\" → Abonelikler." },
-          { "instruction": "\"YouTube Premium\"u bulun → \"Aboneliği iptal et\"e dokunun." },
-          { "instruction": "Onay akışını izleyin." }
+          {
+            "instruction": "Google Play Store'u açın → profil → \"Ödemeler ve abonelikler\" → Abonelikler."
+          },
+          {
+            "instruction": "\"YouTube Premium\"u bulun → \"Aboneliği iptal et\"e dokunun."
+          },
+          {
+            "instruction": "Onay akışını izleyin."
+          }
         ]
       }
     },
@@ -454,25 +727,47 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "hulu.com adresine gidin ve oturum açın." },
-          { "instruction": "Profil simgenize → \"Hesap\"a tıklayın." },
-          { "instruction": "\"Aboneliğiniz\" bölümünde \"İptal\"e tıklayın." },
-          { "instruction": "Bir neden seçin → Hulu teklifler sunacak. \"İptale Devam Et\"e tıklayın." },
-          { "instruction": "Onaylamak için \"Aboneliği İptal Et\"e tıklayın." },
-          { "instruction": "Bir onay e-postası alacaksınız." }
+          {
+            "instruction": "hulu.com adresine gidin ve oturum açın."
+          },
+          {
+            "instruction": "Profil simgenize → \"Hesap\"a tıklayın."
+          },
+          {
+            "instruction": "\"Aboneliğiniz\" bölümünde \"İptal\"e tıklayın."
+          },
+          {
+            "instruction": "Bir neden seçin → Hulu teklifler sunacak. \"İptale Devam Et\"e tıklayın."
+          },
+          {
+            "instruction": "Onaylamak için \"Aboneliği İptal Et\"e tıklayın."
+          },
+          {
+            "instruction": "Bir onay e-postası alacaksınız."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Ayarlar'ı açın → adınıza → Abonelikler'e dokunun." },
-          { "instruction": "\"Hulu\"yu bulun → üzerine dokunun." },
-          { "instruction": "\"Aboneliği İptal Et\"e → Onayla'ya dokunun." }
+          {
+            "instruction": "Ayarlar'ı açın → adınıza → Abonelikler'e dokunun."
+          },
+          {
+            "instruction": "\"Hulu\"yu bulun → üzerine dokunun."
+          },
+          {
+            "instruction": "\"Aboneliği İptal Et\"e → Onayla'ya dokunun."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Google Play Store'u açın → profil → Abonelikler → Hulu'yu bulun." },
-          { "instruction": "\"Aboneliği iptal et\"e dokunun → yönergeleri izleyin." }
+          {
+            "instruction": "Google Play Store'u açın → profil → Abonelikler → Hulu'yu bulun."
+          },
+          {
+            "instruction": "\"Aboneliği iptal et\"e dokunun → yönergeleri izleyin."
+          }
         ]
       }
     },
@@ -494,23 +789,42 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "my.nordaccount.com adresine gidin ve oturum açın." },
-          { "instruction": "Sol kenar çubuğunda \"Faturalandırma\" veya \"Abonelik\"e tıklayın." },
-          { "instruction": "Planınızı bulun → \"Otomatik yenilemeyi iptal et\" veya \"Aboneliği iptal et\"e tıklayın." },
-          { "instruction": "İptali onaylayın." },
-          { "instruction": "İade için: nordvpn.com/support'ta canlı sohbet başlatın ve talebinizi iletin. İadeler 5–10 iş günü içinde işleme alınır.", "note": "NordVPN, hesap panosu üzerinden iade sunmaz — destek ekibiyle iletişime geçmeniz gerekir." }
+          {
+            "instruction": "my.nordaccount.com adresine gidin ve oturum açın."
+          },
+          {
+            "instruction": "Sol kenar çubuğunda \"Faturalandırma\" veya \"Abonelik\"e tıklayın."
+          },
+          {
+            "instruction": "Planınızı bulun → \"Otomatik yenilemeyi iptal et\" veya \"Aboneliği iptal et\"e tıklayın."
+          },
+          {
+            "instruction": "İptali onaylayın."
+          },
+          {
+            "instruction": "İade için: nordvpn.com/support'ta canlı sohbet başlatın ve talebinizi iletin. İadeler 5–10 iş günü içinde işleme alınır.",
+            "note": "NordVPN, hesap panosu üzerinden iade sunmaz — destek ekibiyle iletişime geçmeniz gerekir."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "App Store üzerinden abone olduysanız: Ayarlar → Apple ID → Abonelikler → NordVPN → İptal." },
-          { "instruction": "Not: App Store abonelikleri NordVPN'in 30 günlük iade garantisi kapsamında değildir. Bunun yerine Apple ile iletişime geçin." }
+          {
+            "instruction": "App Store üzerinden abone olduysanız: Ayarlar → Apple ID → Abonelikler → NordVPN → İptal."
+          },
+          {
+            "instruction": "Not: App Store abonelikleri NordVPN'in 30 günlük iade garantisi kapsamında değildir. Bunun yerine Apple ile iletişime geçin."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Google Play üzerinden abone olduysanız: Play Store → Abonelikler → NordVPN → İptal." },
-          { "instruction": "Play satın alımları için iade almak üzere 48 saat içinde Google Play desteğiyle iletişime geçin." }
+          {
+            "instruction": "Google Play üzerinden abone olduysanız: Play Store → Abonelikler → NordVPN → İptal."
+          },
+          {
+            "instruction": "Play satın alımları için iade almak üzere 48 saat içinde Google Play desteğiyle iletişime geçin."
+          }
         ]
       }
     },
@@ -532,25 +846,48 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "doordash.com adresine gidin ve oturum açın." },
-          { "instruction": "Profil simgenize → DashPass Al'a tıklayın veya doordash.com/account'a gidin." },
-          { "instruction": "DashPass'e gidin → DashPass'i Yönet'e tıklayın." },
-          { "instruction": "DashPass'i İptal Et'e tıklayın." },
-          { "instruction": "Onay istemlerini izleyin → onaylamak için DashPass'i İptal Et'e tıklayın.", "note": "Fatura döneminin sonuna kadar DashPass avantajlarınızdan yararlanmaya devam edersiniz." }
+          {
+            "instruction": "doordash.com adresine gidin ve oturum açın."
+          },
+          {
+            "instruction": "Profil simgenize → DashPass Al'a tıklayın veya doordash.com/account'a gidin."
+          },
+          {
+            "instruction": "DashPass'e gidin → DashPass'i Yönet'e tıklayın."
+          },
+          {
+            "instruction": "DashPass'i İptal Et'e tıklayın."
+          },
+          {
+            "instruction": "Onay istemlerini izleyin → onaylamak için DashPass'i İptal Et'e tıklayın.",
+            "note": "Fatura döneminin sonuna kadar DashPass avantajlarınızdan yararlanmaya devam edersiniz."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "DoorDash uygulamasını açın → profil simgenize dokunun (sağ alt)." },
-          { "instruction": "DashPass Al veya DashPass'i Yönet'e dokunun." },
-          { "instruction": "DashPass'i İptal Et'e dokunun → onaylayın." }
+          {
+            "instruction": "DoorDash uygulamasını açın → profil simgenize dokunun (sağ alt)."
+          },
+          {
+            "instruction": "DashPass Al veya DashPass'i Yönet'e dokunun."
+          },
+          {
+            "instruction": "DashPass'i İptal Et'e dokunun → onaylayın."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "DoorDash uygulamasını açın → profil simgenize dokunun." },
-          { "instruction": "DashPass'i Yönet'e dokunun." },
-          { "instruction": "DashPass'i İptal Et'e dokunun → onay istemlerini izleyin." }
+          {
+            "instruction": "DoorDash uygulamasını açın → profil simgenize dokunun."
+          },
+          {
+            "instruction": "DashPass'i Yönet'e dokunun."
+          },
+          {
+            "instruction": "DashPass'i İptal Et'e dokunun → onay istemlerini izleyin."
+          }
         ]
       }
     },
@@ -565,8 +902,12 @@
       }
     ],
     "alternatives": [
-      { "description": "Ayda $9,99 — Uber Eats + Uber seyahatlerinde ücretsiz teslimat" },
-      { "description": "Ayda $9,99 — Grubhub siparişlerinde ücretsiz teslimat" }
+      {
+        "description": "Ayda $9,99 — Uber Eats + Uber seyahatlerinde ücretsiz teslimat"
+      },
+      {
+        "description": "Ayda $9,99 — Grubhub siparişlerinde ücretsiz teslimat"
+      }
     ]
   },
   "peacock": {
@@ -576,25 +917,48 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "peacocktv.com adresine gidin ve oturum açın." },
-          { "instruction": "Profil simgenize → Hesap'a tıklayın." },
-          { "instruction": "Plan bölümünde Planı değiştir veya iptal et'e tıklayın." },
-          { "instruction": "Planı iptal et'e tıklayın." },
-          { "instruction": "Bir neden seçin → Devam'a tıklayın.", "note": "Peacock Premium erişiminiz fatura tarihine kadar devam eder." },
-          { "instruction": "İptali onaylayın." }
+          {
+            "instruction": "peacocktv.com adresine gidin ve oturum açın."
+          },
+          {
+            "instruction": "Profil simgenize → Hesap'a tıklayın."
+          },
+          {
+            "instruction": "Plan bölümünde Planı değiştir veya iptal et'e tıklayın."
+          },
+          {
+            "instruction": "Planı iptal et'e tıklayın."
+          },
+          {
+            "instruction": "Bir neden seçin → Devam'a tıklayın.",
+            "note": "Peacock Premium erişiminiz fatura tarihine kadar devam eder."
+          },
+          {
+            "instruction": "İptali onaylayın."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Ayarlar'ı açın → adınıza → Abonelikler'e dokunun." },
-          { "instruction": "Peacock'ı bulun → üzerine dokunun." },
-          { "instruction": "Aboneliği İptal Et'e → onayla'ya dokunun." }
+          {
+            "instruction": "Ayarlar'ı açın → adınıza → Abonelikler'e dokunun."
+          },
+          {
+            "instruction": "Peacock'ı bulun → üzerine dokunun."
+          },
+          {
+            "instruction": "Aboneliği İptal Et'e → onayla'ya dokunun."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Google Play Store'u açın → profil → Ödemeler ve abonelikler → Abonelikler." },
-          { "instruction": "Peacock'ı bulun → Aboneliği iptal et'e dokunun → onaylayın." }
+          {
+            "instruction": "Google Play Store'u açın → profil → Ödemeler ve abonelikler → Abonelikler."
+          },
+          {
+            "instruction": "Peacock'ı bulun → Aboneliği iptal et'e dokunun → onaylayın."
+          }
         ]
       }
     },
@@ -609,8 +973,12 @@
       }
     ],
     "alternatives": [
-      { "description": "Ayda $7,99 — CBS, MTV, Nickelodeon" },
-      { "description": "Ayda $9,99 — HBO içerikleri" }
+      {
+        "description": "Ayda $7,99 — CBS, MTV, Nickelodeon"
+      },
+      {
+        "description": "Ayda $9,99 — HBO içerikleri"
+      }
     ]
   },
   "audible": {
@@ -620,24 +988,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "audible.com adresine gidin ve oturum açın." },
-          { "instruction": "Adınızın üzerine gelin → Hesap Ayrıntıları'na tıklayın." },
-          { "instruction": "Sol kenar çubuğunda veya Üyelik Ayrıntıları bölümünde Üyeliği İptal Et'e tıklayın." },
-          { "instruction": "Audible, üyeliği duraklatma seçeneği gösterecektir — iptal etmek istiyorsanız İptal İçin Devam Et'e tıklayın.", "note": "İptal etmeden önce kredilerinizi kullanın — üyeliğiniz sona erdiğinde krediler de sona erer." },
-          { "instruction": "Bir neden seçin → Üyeliği iptal et'e tıklayın." },
-          { "instruction": "Bir onay e-postası alacaksınız." }
+          {
+            "instruction": "audible.com adresine gidin ve oturum açın."
+          },
+          {
+            "instruction": "Adınızın üzerine gelin → Hesap Ayrıntıları'na tıklayın."
+          },
+          {
+            "instruction": "Sol kenar çubuğunda veya Üyelik Ayrıntıları bölümünde Üyeliği İptal Et'e tıklayın."
+          },
+          {
+            "instruction": "Audible, üyeliği duraklatma seçeneği gösterecektir — iptal etmek istiyorsanız İptal İçin Devam Et'e tıklayın.",
+            "note": "İptal etmeden önce kredilerinizi kullanın — üyeliğiniz sona erdiğinde krediler de sona erer."
+          },
+          {
+            "instruction": "Bir neden seçin → Üyeliği iptal et'e tıklayın."
+          },
+          {
+            "instruction": "Bir onay e-postası alacaksınız."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "App Store üzerinden abone olduysanız: Ayarlar → Apple ID → Abonelikler → Audible → İptal." },
-          { "instruction": "Doğrudan abone olduysanız: yukarıdaki web adımlarını kullanın." }
+          {
+            "instruction": "App Store üzerinden abone olduysanız: Ayarlar → Apple ID → Abonelikler → Audible → İptal."
+          },
+          {
+            "instruction": "Doğrudan abone olduysanız: yukarıdaki web adımlarını kullanın."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Google Play üzerinden abone olduysanız: Play Store → Abonelikler → Audible → İptal." },
-          { "instruction": "Doğrudan abone olduysanız: yukarıdaki web adımlarını kullanın." }
+          {
+            "instruction": "Google Play üzerinden abone olduysanız: Play Store → Abonelikler → Audible → İptal."
+          },
+          {
+            "instruction": "Doğrudan abone olduysanız: yukarıdaki web adımlarını kullanın."
+          }
         ]
       }
     },
@@ -656,8 +1045,12 @@
       }
     ],
     "alternatives": [
-      { "description": "Ayda $11,99 — e-kitaplar + bazı sesli kitaplar" },
-      { "description": "Ayda $11,99 — sesli kitaplar, e-kitaplar, belgeler" }
+      {
+        "description": "Ayda $11,99 — e-kitaplar + bazı sesli kitaplar"
+      },
+      {
+        "description": "Ayda $11,99 — sesli kitaplar, e-kitaplar, belgeler"
+      }
     ]
   },
   "fabletics": {
@@ -666,24 +1059,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "fabletics.com'da oturum açın ve iptal etmeden önce birikmiş kredilerinizi kullanın." },
-          { "instruction": "Bakiyenizi kontrol etmek için Üye Kredileri'ne tıklayın.", "note": "Krediler iptal sonrasında sona erer — önce kullanın." },
-          { "instruction": "fabletics.com'da canlı sohbet açın veya 1-844-322-5384'ü arayın." },
-          { "instruction": "Temsilciye VIP üyeliğinizi iptal etmek istediğinizi söyleyin." },
-          { "instruction": "Tüm retensiyon tekliflerini (indirimler, duraklatma, kredi teklifleri) reddedin." },
-          { "instruction": "İptali onaylayın ve bir onay numarası veya e-posta isteyin." }
+          {
+            "instruction": "fabletics.com'da oturum açın ve iptal etmeden önce birikmiş kredilerinizi kullanın."
+          },
+          {
+            "instruction": "Bakiyenizi kontrol etmek için Üye Kredileri'ne tıklayın.",
+            "note": "Krediler iptal sonrasında sona erer — önce kullanın."
+          },
+          {
+            "instruction": "fabletics.com'da canlı sohbet açın veya 1-844-322-5384'ü arayın."
+          },
+          {
+            "instruction": "Temsilciye VIP üyeliğinizi iptal etmek istediğinizi söyleyin."
+          },
+          {
+            "instruction": "Tüm retensiyon tekliflerini (indirimler, duraklatma, kredi teklifleri) reddedin."
+          },
+          {
+            "instruction": "İptali onaylayın ve bir onay numarası veya e-posta isteyin."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Fabletics, iOS uygulaması veya App Store aracılığıyla iptal işlemini desteklememektedir." },
-          { "instruction": "Telefon (1-844-322-5384) veya fabletics.com'da canlı sohbet kullanın." }
+          {
+            "instruction": "Fabletics, iOS uygulaması veya App Store aracılığıyla iptal işlemini desteklememektedir."
+          },
+          {
+            "instruction": "Telefon (1-844-322-5384) veya fabletics.com'da canlı sohbet kullanın."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Fabletics, Android uygulaması veya Play Store aracılığıyla iptal işlemini desteklememektedir." },
-          { "instruction": "Telefon veya canlı sohbet kullanın — yukarıdaki web adımlarına bakın." }
+          {
+            "instruction": "Fabletics, Android uygulaması veya Play Store aracılığıyla iptal işlemini desteklememektedir."
+          },
+          {
+            "instruction": "Telefon veya canlı sohbet kullanın — yukarıdaki web adımlarına bakın."
+          }
         ]
       }
     },
@@ -709,23 +1123,42 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "experian.com'da oturum açın veya hesap ayarlarınıza gidin." },
-          { "instruction": "İptal düğmesi yoksa experian.com/consumer/help.html üzerinden canlı sohbet açın.", "note": "Experian genellikle iptal seçeneğini gizler — canlı sohbet genellikle en hızlı yoldur." },
-          { "instruction": "Temsilciye aboneliğinizi iptal etmek istediğinizi söyleyin." },
-          { "instruction": "Retensiyon tekliflerini reddedin." },
-          { "instruction": "İptal tarihinizi içeren bir onay e-postası isteyin." }
+          {
+            "instruction": "experian.com'da oturum açın veya hesap ayarlarınıza gidin."
+          },
+          {
+            "instruction": "İptal düğmesi yoksa experian.com/consumer/help.html üzerinden canlı sohbet açın.",
+            "note": "Experian genellikle iptal seçeneğini gizler — canlı sohbet genellikle en hızlı yoldur."
+          },
+          {
+            "instruction": "Temsilciye aboneliğinizi iptal etmek istediğinizi söyleyin."
+          },
+          {
+            "instruction": "Retensiyon tekliflerini reddedin."
+          },
+          {
+            "instruction": "İptal tarihinizi içeren bir onay e-postası isteyin."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "App Store üzerinden abone olduysanız: Ayarlar → Apple ID → Abonelikler → Experian → İptal." },
-          { "instruction": "Doğrudan abone olduysanız: telefon veya canlı sohbet kullanın." }
+          {
+            "instruction": "App Store üzerinden abone olduysanız: Ayarlar → Apple ID → Abonelikler → Experian → İptal."
+          },
+          {
+            "instruction": "Doğrudan abone olduysanız: telefon veya canlı sohbet kullanın."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Google Play üzerinden abone olduysanız: Play Store → Abonelikler → Experian → İptal." },
-          { "instruction": "Doğrudan abone olduysanız: canlı sohbet kullanın veya desteği arayın." }
+          {
+            "instruction": "Google Play üzerinden abone olduysanız: Play Store → Abonelikler → Experian → İptal."
+          },
+          {
+            "instruction": "Doğrudan abone olduysanız: canlı sohbet kullanın veya desteği arayın."
+          }
         ]
       }
     },
@@ -744,8 +1177,12 @@
       }
     ],
     "alternatives": [
-      { "description": "Ücretsiz kredi izleme — abonelik gerekmez" },
-      { "description": "Ayda $8,99 — kimlik hırsızlığı koruması" }
+      {
+        "description": "Ücretsiz kredi izleme — abonelik gerekmez"
+      },
+      {
+        "description": "Ayda $8,99 — kimlik hırsızlığı koruması"
+      }
     ]
   },
   "crunch-fitness": {
@@ -755,23 +1192,42 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "crunch.com'da oturum açın ve konumunuzun çevrimiçi iptal sunup sunmadığını kontrol edin (nadir)." },
-          { "instruction": "Çevrimiçi mevcut değilse, fotoğraflı kimlikle ana kulübünüze şahsen gidin." },
-          { "instruction": "Üyelik danışmanıyla görüşmek isteyin ve iptal talebinde bulunun.", "note": "Üye kimliğinizi veya kayıt sırasında kullanılan e-postayı yanınızda getirin." },
-          { "instruction": "Alternatif olarak, ana kulübünüze tam adınız, üye kimliğiniz, adresiniz ve imzanızla taahhütlü mektup gönderin." },
-          { "instruction": "Taahhütlü posta makbuzunu kanıt olarak saklayın. İptal, teslim alınmasından 30 gün sonra geçerli olur." }
+          {
+            "instruction": "crunch.com'da oturum açın ve konumunuzun çevrimiçi iptal sunup sunmadığını kontrol edin (nadir)."
+          },
+          {
+            "instruction": "Çevrimiçi mevcut değilse, fotoğraflı kimlikle ana kulübünüze şahsen gidin."
+          },
+          {
+            "instruction": "Üyelik danışmanıyla görüşmek isteyin ve iptal talebinde bulunun.",
+            "note": "Üye kimliğinizi veya kayıt sırasında kullanılan e-postayı yanınızda getirin."
+          },
+          {
+            "instruction": "Alternatif olarak, ana kulübünüze tam adınız, üye kimliğiniz, adresiniz ve imzanızla taahhütlü mektup gönderin."
+          },
+          {
+            "instruction": "Taahhütlü posta makbuzunu kanıt olarak saklayın. İptal, teslim alınmasından 30 gün sonra geçerli olur."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Crunch, iOS uygulaması aracılığıyla iptali desteklememektedir." },
-          { "instruction": "Şahsen veya taahhütlü posta yoluyla iptal edin." }
+          {
+            "instruction": "Crunch, iOS uygulaması aracılığıyla iptali desteklememektedir."
+          },
+          {
+            "instruction": "Şahsen veya taahhütlü posta yoluyla iptal edin."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Crunch, Android uygulaması aracılığıyla iptali desteklememektedir." },
-          { "instruction": "Şahsen veya taahhütlü posta yoluyla iptal edin." }
+          {
+            "instruction": "Crunch, Android uygulaması aracılığıyla iptali desteklememektedir."
+          },
+          {
+            "instruction": "Şahsen veya taahhütlü posta yoluyla iptal edin."
+          }
         ]
       }
     },
@@ -790,8 +1246,12 @@
       }
     ],
     "alternatives": [
-      { "description": "$10–$25/ay — kolay çevrimiçi iptal" },
-      { "description": "$30–$50/ay — 7/24 erişim" }
+      {
+        "description": "$10–$25/ay — kolay çevrimiçi iptal"
+      },
+      {
+        "description": "$30–$50/ay — 7/24 erişim"
+      }
     ]
   },
   "xfinity": {
@@ -801,24 +1261,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "xfinity.com/support adresine gidin ve oturum açın.", "note": "Önce Hesabım → Hizmet Sözleşmesi bölümünden sözleşme bitiş tarihinizi kontrol edin." },
-          { "instruction": "Xfinity Assistant sohbetini kullanın ve Hizmeti iptal et yazın." },
-          { "instruction": "Alternatif olarak 1-800-934-6489'u arayın. 15–45 dakikalık bekleme süresi bekleyin." },
-          { "instruction": "Temsilciye iptal etmek istediğinizi söyleyin. Tüm retensiyon tekliflerini reddedin." },
-          { "instruction": "İptal onay numarası ve e-posta isteyin." },
-          { "instruction": "Ekipman ücretlerinden kaçınmak için kiralık ekipmanı 10 gün içinde iade edin." }
+          {
+            "instruction": "xfinity.com/support adresine gidin ve oturum açın.",
+            "note": "Önce Hesabım → Hizmet Sözleşmesi bölümünden sözleşme bitiş tarihinizi kontrol edin."
+          },
+          {
+            "instruction": "Xfinity Assistant sohbetini kullanın ve Hizmeti iptal et yazın."
+          },
+          {
+            "instruction": "Alternatif olarak 1-800-934-6489'u arayın. 15–45 dakikalık bekleme süresi bekleyin."
+          },
+          {
+            "instruction": "Temsilciye iptal etmek istediğinizi söyleyin. Tüm retensiyon tekliflerini reddedin."
+          },
+          {
+            "instruction": "İptal onay numarası ve e-posta isteyin."
+          },
+          {
+            "instruction": "Ekipman ücretlerinden kaçınmak için kiralık ekipmanı 10 gün içinde iade edin."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Xfinity uygulamasını açın → hesap simgesi." },
-          { "instruction": "Planımı yönet'e dokunun — tam iptal için telefon araması veya mağaza ziyareti gerekir." }
+          {
+            "instruction": "Xfinity uygulamasını açın → hesap simgesi."
+          },
+          {
+            "instruction": "Planımı yönet'e dokunun — tam iptal için telefon araması veya mağaza ziyareti gerekir."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Xfinity uygulamasını açın → Planımı yönet." },
-          { "instruction": "Tam iptal için arayın veya mağazayı ziyaret edin." }
+          {
+            "instruction": "Xfinity uygulamasını açın → Planımı yönet."
+          },
+          {
+            "instruction": "Tam iptal için arayın veya mağazayı ziyaret edin."
+          }
         ]
       }
     },
@@ -837,8 +1318,12 @@
       }
     ],
     "alternatives": [
-      { "description": "Fiber internet — rekabetçi fiyatlandırma" },
-      { "description": "Sözleşme yok, veri kotası yok" }
+      {
+        "description": "Fiber internet — rekabetçi fiyatlandırma"
+      },
+      {
+        "description": "Sözleşme yok, veri kotası yok"
+      }
     ]
   },
   "fubotv": {
@@ -848,25 +1333,48 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "fubo.tv adresine gidin ve oturum açın." },
-          { "instruction": "Profil simgenize → Hesabım'a tıklayın." },
-          { "instruction": "Aboneliği Yönet'e tıklayın." },
-          { "instruction": "Aboneliği İptal Et'e tıklayın.", "note": "FuboTV bir duraklatma seçeneği gösterebilir — yalnızca tamamen iptal etmek istiyorsanız İptal'e tıklayın." },
-          { "instruction": "Bir neden seçin → iptali onaylayın." },
-          { "instruction": "Bir onay e-postası alacaksınız." }
+          {
+            "instruction": "fubo.tv adresine gidin ve oturum açın."
+          },
+          {
+            "instruction": "Profil simgenize → Hesabım'a tıklayın."
+          },
+          {
+            "instruction": "Aboneliği Yönet'e tıklayın."
+          },
+          {
+            "instruction": "Aboneliği İptal Et'e tıklayın.",
+            "note": "FuboTV bir duraklatma seçeneği gösterebilir — yalnızca tamamen iptal etmek istiyorsanız İptal'e tıklayın."
+          },
+          {
+            "instruction": "Bir neden seçin → iptali onaylayın."
+          },
+          {
+            "instruction": "Bir onay e-postası alacaksınız."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Ayarlar'ı açın → adınıza → Abonelikler'e dokunun." },
-          { "instruction": "FuboTV'yi bulun → üzerine dokunun." },
-          { "instruction": "Aboneliği İptal Et'e → Onayla'ya dokunun." }
+          {
+            "instruction": "Ayarlar'ı açın → adınıza → Abonelikler'e dokunun."
+          },
+          {
+            "instruction": "FuboTV'yi bulun → üzerine dokunun."
+          },
+          {
+            "instruction": "Aboneliği İptal Et'e → Onayla'ya dokunun."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Google Play Store'u açın → profil → Ödemeler ve abonelikler → Abonelikler." },
-          { "instruction": "FuboTV'yi bulun → Aboneliği iptal et'e dokunun → onaylayın." }
+          {
+            "instruction": "Google Play Store'u açın → profil → Ödemeler ve abonelikler → Abonelikler."
+          },
+          {
+            "instruction": "FuboTV'yi bulun → Aboneliği iptal et'e dokunun → onaylayın."
+          }
         ]
       }
     },
@@ -881,9 +1389,15 @@
       }
     ],
     "alternatives": [
-      { "description": "Ayda $72,99 — 100'den fazla kanal, sınırsız DVR" },
-      { "description": "$40/ay'dan — esnek kanal paketleri" },
-      { "description": "$64,99/ay'dan — canlı spor odağı" }
+      {
+        "description": "Ayda $72,99 — 100'den fazla kanal, sınırsız DVR"
+      },
+      {
+        "description": "$40/ay'dan — esnek kanal paketleri"
+      },
+      {
+        "description": "$64,99/ay'dan — canlı spor odağı"
+      }
     ]
   },
   "uber-eats": {
@@ -893,25 +1407,48 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "uber.com adresine gidin ve oturum açın." },
-          { "instruction": "Profil simgenize → Uber One'a tıklayın." },
-          { "instruction": "Üyeliği yönet'e tıklayın." },
-          { "instruction": "Üyeliği iptal et'e tıklayın.", "note": "Uber One avantajlarınız fatura dönemi sona erene kadar devam eder." },
-          { "instruction": "İptali onaylayın." }
+          {
+            "instruction": "uber.com adresine gidin ve oturum açın."
+          },
+          {
+            "instruction": "Profil simgenize → Uber One'a tıklayın."
+          },
+          {
+            "instruction": "Üyeliği yönet'e tıklayın."
+          },
+          {
+            "instruction": "Üyeliği iptal et'e tıklayın.",
+            "note": "Uber One avantajlarınız fatura dönemi sona erene kadar devam eder."
+          },
+          {
+            "instruction": "İptali onaylayın."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Uber veya Uber Eats uygulamasını açın → profil simgenize dokunun." },
-          { "instruction": "Uber One → Üyeliği yönet'e dokunun." },
-          { "instruction": "Üyeliği iptal et'e → onayla'ya dokunun." }
+          {
+            "instruction": "Uber veya Uber Eats uygulamasını açın → profil simgenize dokunun."
+          },
+          {
+            "instruction": "Uber One → Üyeliği yönet'e dokunun."
+          },
+          {
+            "instruction": "Üyeliği iptal et'e → onayla'ya dokunun."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Uygulamayı açın → profil simgesi." },
-          { "instruction": "Uber One → Üyeliği yönet → Üyeliği iptal et'e dokunun." },
-          { "instruction": "İptali onaylayın." }
+          {
+            "instruction": "Uygulamayı açın → profil simgesi."
+          },
+          {
+            "instruction": "Uber One → Üyeliği yönet → Üyeliği iptal et'e dokunun."
+          },
+          {
+            "instruction": "İptali onaylayın."
+          }
         ]
       }
     },
@@ -926,8 +1463,12 @@
       }
     ],
     "alternatives": [
-      { "description": "Ayda $9,99 — DoorDash'te ücretsiz teslimat" },
-      { "description": "Ayda $9,99 — Grubhub'da ücretsiz teslimat" }
+      {
+        "description": "Ayda $9,99 — DoorDash'te ücretsiz teslimat"
+      },
+      {
+        "description": "Ayda $9,99 — Grubhub'da ücretsiz teslimat"
+      }
     ]
   },
   "instacart": {
@@ -937,24 +1478,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "instacart.com adresine gidin ve oturum açın." },
-          { "instruction": "Profil simgenize → Instacart+'a tıklayın." },
-          { "instruction": "Üyeliğinizi yönetin'e tıklayın." },
-          { "instruction": "Üyeliği iptal et'e tıklayın.", "note": "Yıllık planınız varsa Instacart orantılı iade teklif edebilir." },
-          { "instruction": "İptali onaylayın." }
+          {
+            "instruction": "instacart.com adresine gidin ve oturum açın."
+          },
+          {
+            "instruction": "Profil simgenize → Instacart+'a tıklayın."
+          },
+          {
+            "instruction": "Üyeliğinizi yönetin'e tıklayın."
+          },
+          {
+            "instruction": "Üyeliği iptal et'e tıklayın.",
+            "note": "Yıllık planınız varsa Instacart orantılı iade teklif edebilir."
+          },
+          {
+            "instruction": "İptali onaylayın."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Instacart uygulamasını açın → profil simgenize dokunun." },
-          { "instruction": "Instacart+ → Üyeliği yönet'e dokunun." },
-          { "instruction": "Üyeliği iptal et'e → onayla'ya dokunun." }
+          {
+            "instruction": "Instacart uygulamasını açın → profil simgenize dokunun."
+          },
+          {
+            "instruction": "Instacart+ → Üyeliği yönet'e dokunun."
+          },
+          {
+            "instruction": "Üyeliği iptal et'e → onayla'ya dokunun."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Uygulamayı açın → profil simgesi → Instacart+." },
-          { "instruction": "Üyeliği yönet → Üyeliği iptal et → onayla'ya dokunun." }
+          {
+            "instruction": "Uygulamayı açın → profil simgesi → Instacart+."
+          },
+          {
+            "instruction": "Üyeliği yönet → Üyeliği iptal et → onayla'ya dokunun."
+          }
         ]
       }
     },
@@ -969,8 +1531,564 @@
       }
     ],
     "alternatives": [
-      { "description": "Prime ile ücretsiz teslimat — market teslimatı" },
-      { "description": "Yılda $99 — Target + diğer perakendeciler" }
+      {
+        "description": "Prime ile ücretsiz teslimat — market teslimatı"
+      },
+      {
+        "description": "Yılda $99 — Target + diğer perakendeciler"
+      }
+    ]
+  },
+  "espn-plus": {
+    "description": "ESPN+'i web, iOS veya Android'de 5 dakika icinde iptal edin. Disney Bundle iptal adimlari dahildir.",
+    "difficulty": "Kolay",
+    "difficultyReason": "Iptal sureci kolaydır, ancak Disney Bundle tum hizmetleri ayni anda iptal eder.",
+    "refundPolicy": "Iade yok. Erisim faturalandirma doneminin sonuna kadar devam eder.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "DisneyPlus.com veya ESPN.com'da oturum acin."
+          },
+          {
+            "instruction": "Profil simgenize tıklayın → Hesap."
+          },
+          {
+            "instruction": "Abonelik'e tıklayın."
+          },
+          {
+            "instruction": "Aboneligi iptal et'e tıklayın.",
+            "note": "Disney Bundle'iniz varsa ESPN+, Disney+ ve Hulu ayni anda iptal edilir."
+          },
+          {
+            "instruction": "Iptali onaylayın."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ayarlar'ı acın → Apple ID adiniza dokunun."
+          },
+          {
+            "instruction": "Abonelikler → ESPN+'a dokunun."
+          },
+          {
+            "instruction": "Aboneligi Iptal Et → onayla'ya dokunun."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store'u acın → profil simgenize dokunun."
+          },
+          {
+            "instruction": "Odemeler ve abonelikler → Abonelikler → ESPN+'a dokunun."
+          },
+          {
+            "instruction": "Aboneligi iptal et → onayla'ya dokunun."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "ESPN+'i iptal etmek tum Disney Bundle'i iptal eder mi?",
+        "answer": "Evet. Disney Bundle'a abone olduysanız, hesap uzerinden iptal etmek ESPN+, Disney+ ve Hulu'yu ayni anda iptal eder."
+      },
+      {
+        "question": "Iptal secenegini bulamıyorum.",
+        "answer": "ESPN+'a bir TV saglayicisi araciligiyla abone olduysanız, ESPN web sitesi yerine dogrudan saglayicinizdan iptal etmeniz gerekir."
+      }
+    ]
+  },
+  "youtube-tv": {
+    "description": "YouTube TV'yi web veya mobilde 3 dakika icinde iptal edin.",
+    "difficulty": "Kolay",
+    "difficultyReason": "Web'de iptal kolay olup yalnizca birkaç tıklama gerektirir.",
+    "refundPolicy": "Iade yok. Erisim faturalandirma doneminin sonuna kadar devam eder. Iptal yerine duraklatabilirsiniz.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "tv.youtube.com'a gidin ve oturum acin."
+          },
+          {
+            "instruction": "Profil simgenize tıklayın → Ayarlar."
+          },
+          {
+            "instruction": "Uyelik → Uyeligi iptal et'e tıklayın."
+          },
+          {
+            "instruction": "Iptali onaylamak icin talimatları takip edin."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ayarlar → Apple ID adiniz → Abonelikler'i acın."
+          },
+          {
+            "instruction": "YouTube TV → Aboneligi Iptal Et → onayla'ya dokunun."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store → Odemeler ve abonelikler → Abonelikler'i acın."
+          },
+          {
+            "instruction": "YouTube TV → Aboneligi iptal et → onayla'ya dokunun."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Iptal edersem DVR kayitlarim ne olur?",
+        "answer": "Iptal sonrasinda tum DVR kayitlari silinir. Iptal etmeden once indirin veya kaydedin."
+      },
+      {
+        "question": "YouTube TV'yi iptal etmek yerine duraklatabilir miyim?",
+        "answer": "Evet. Uyeliginizi 6 aya kadar duraklatabilirsiniz. Ayarlar → Uyelik → Uyeligi duraklat'a gidin."
+      }
+    ]
+  },
+  "paramount-plus": {
+    "description": "Paramount+'i web, iOS veya Android'de 5 dakika icinde iptal edin.",
+    "difficulty": "Kolay",
+    "difficultyReason": "Iptal kolaydır, ancak Apple veya Amazon uzerinden abone olanlar oradan iptal etmelidir.",
+    "refundPolicy": "Iade yok. Erisim faturalandirma doneminin sonuna kadar devam eder.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "paramountplus.com'a gidin ve oturum acin."
+          },
+          {
+            "instruction": "Profil simgenize tıklayın → Ayarlar."
+          },
+          {
+            "instruction": "Abonelik → Aboneligi Iptal Et'e tıklayın.",
+            "note": "SHOWTIME eklentiniz varsa o da iptal edilir."
+          },
+          {
+            "instruction": "Iptali onaylayın."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ayarlar → Apple ID adiniz → Abonelikler'i acın."
+          },
+          {
+            "instruction": "Paramount+ → Aboneligi Iptal Et → onayla'ya dokunun."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store → Odemeler ve abonelikler → Abonelikler'i acın."
+          },
+          {
+            "instruction": "Paramount+ → Aboneligi iptal et → onayla'ya dokunun."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "SHOWTIME, Paramount+ ile birlikte iptal edilir mi?",
+        "answer": "Evet. Paramount+ with SHOWTIME planınız varsa her iki hizmet de ayni anda iptal edilir."
+      },
+      {
+        "question": "Paramount+'a Apple veya Amazon uzerinden abone oldum.",
+        "answer": "Paramount+ web sitesi uzerinden degil, dogrudan Apple (Ayarlar → Abonelikler) veya Amazon (Prime Video → Kanallar) uzerinden iptal etmeniz gerekir."
+      }
+    ]
+  },
+  "apple-tv-plus": {
+    "description": "Apple TV+'i iPhone, Mac veya web uzerinden 2 dakika icinde iptal edin.",
+    "difficulty": "Kolay",
+    "difficultyReason": "Apple cihazları veya web sitesi uzerinden iptal kolay ve hizlidir.",
+    "refundPolicy": "Iade yok. Erisim faturalandirma doneminin sonuna kadar devam eder.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "appleid.apple.com'a gidin ve oturum acin."
+          },
+          {
+            "instruction": "Abonelikler'e tıklayın."
+          },
+          {
+            "instruction": "Apple TV+ → Aboneligi Iptal Et'e tıklayın."
+          },
+          {
+            "instruction": "Iptali onaylayın."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ayarlar'ı acın → en uste adiniza dokunun."
+          },
+          {
+            "instruction": "Abonelikler → Apple TV+'a dokunun."
+          },
+          {
+            "instruction": "Aboneligi Iptal Et → onayla'ya dokunun."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Apple TV+'in abonelik yonetimi icin Android uygulaması yoktur."
+          },
+          {
+            "instruction": "Mobil tarayicinizda appleid.apple.com'u ziyaret edin ve web adimlarini takip edin."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ucretsiz cihaz deneme suresi sonrasinda otomatik olarak faturalandirılır miyım?",
+        "answer": "Evet. Apple TV+'i cihaz bonusu olarak aldıysanız ve deneme suresini iptal etmediyseniz, duzenli ucret otomatik olarak alinır. Deneme suresi dolmadan iptal edin."
+      },
+      {
+        "question": "Apple TV+'i iptal etmek diger Apple aboneliklerini etkiler mi?",
+        "answer": "Hayır. Apple TV+, Apple Music, iCloud ve diger Apple hizmetlerinden bagimsizdır. Bir hizmeti iptal etmek digerlerini etkilemez."
+      }
+    ]
+  },
+  "dazn": {
+    "description": "DAZN'i web veya mobil uzerinden 5 dakika icinde iptal edin.",
+    "difficulty": "Orta",
+    "difficultyReason": "Iptal sureci bolgeye ve sozlesme kosullarına gore degisir.",
+    "refundPolicy": "Kısmi aylar icin iade yok. Erisim faturalandirma doneminin sonuna kadar devam eder.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "dazn.com'a gidin ve oturum acin."
+          },
+          {
+            "instruction": "Profil simgenize tıklayın → Hesabim."
+          },
+          {
+            "instruction": "Abonelik → Aboneligi Iptal Et'e tıklayın.",
+            "note": "Arayuz bolgeye gore farklılık gosterebilir."
+          },
+          {
+            "instruction": "Talimatları takip edin ve iptali onaylayın."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ayarlar → Apple ID adiniz → Abonelikler'i acın."
+          },
+          {
+            "instruction": "DAZN → Aboneligi Iptal Et → onayla'ya dokunun."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store → Odemeler ve abonelikler → Abonelikler'i acın."
+          },
+          {
+            "instruction": "DAZN → Aboneligi iptal et → onayla'ya dokunun."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Arayuz neden bende farklı gorunuyor?",
+        "answer": "DAZN pek cok ulkede mevcuttur ve arayuz ile iptal secenekleri bolgeye gore farklılık gosterebilir."
+      },
+      {
+        "question": "Ayın geri kalanı icin iade alabilir miyim?",
+        "answer": "Hayır. DAZN kısmi ay iadesi yapmaz. Erisimiz mevcut faturalandirma doneminin sonuna kadar devam eder."
+      }
+    ]
+  },
+  "philo": {
+    "description": "Philo'yu web, iOS veya Android'de 3 dakika icinde iptal edin.",
+    "difficulty": "Kolay",
+    "difficultyReason": "Philo, ucret veya tutundurma engeli olmaksizin iptali kolay kilar.",
+    "refundPolicy": "Iptal ucreti yok. Kısmi aylar icin iade yok.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "philo.com'a gidin ve oturum acin."
+          },
+          {
+            "instruction": "Ayarlar → Odemeler'e tıklayın."
+          },
+          {
+            "instruction": "Planı Iptal Et'e tıklayın."
+          },
+          {
+            "instruction": "Iptali onaylayın."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ayarlar → Apple ID adiniz → Abonelikler'i acın."
+          },
+          {
+            "instruction": "Philo → Aboneligi Iptal Et → onayla'ya dokunun."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store → Odemeler ve abonelikler → Abonelikler'i acın."
+          },
+          {
+            "instruction": "Philo → Aboneligi iptal et → onayla'ya dokunun."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Iptal ucreti var mi?",
+        "answer": "Hayır. Philo iptal ucreti almaz. Istediginiz zaman iptal edebilirsiniz."
+      },
+      {
+        "question": "Philo'yu iptal etmek yerine duraklatabilir miyim?",
+        "answer": "Hayır. Philo'nun duraklatma ozelligi yoktur. Iptal edip daha sonra yeniden kayit olmanız gerekir."
+      }
+    ]
+  },
+  "sling-tv": {
+    "description": "Sling TV'yi web veya mobilde 5 dakika icinde iptal edin.",
+    "difficulty": "Kolay",
+    "difficultyReason": "Iptal kolaydır, ancak Sling TV sizi tutmak icin indirim teklif edebilir.",
+    "refundPolicy": "Iade yok. Erisim faturalandirma doneminin sonuna kadar devam eder. DVR kayitlari silinir.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "sling.com/account/cancel-service adresine gidin ve oturum acin."
+          },
+          {
+            "instruction": "Hizmeti Iptal Et'e tıklayın.",
+            "note": "Sling TV, iptal tamamlanmadan once indirim veya duraklatma secenegi sunabilir."
+          },
+          {
+            "instruction": "Tum teklifleri reddedin ve iptali onaylayın."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ayarlar → Apple ID adiniz → Abonelikler'i acın."
+          },
+          {
+            "instruction": "Sling TV → Aboneligi Iptal Et → onayla'ya dokunun."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store → Odemeler ve abonelikler → Abonelikler'i acın."
+          },
+          {
+            "instruction": "Sling TV → Aboneligi iptal et → onayla'ya dokunun."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Sling TV bana indirim teklif etti — kabul etmeli miyim?",
+        "answer": "Bu size baglidir. Sling TV aboneleri tutmak icin genellikle 1-2 ay icin yuzde elli indirim sunar. Sadece ara vermek istiyorsanız iyi bir secenek olabilir."
+      },
+      {
+        "question": "Iptal sonrasinda DVR kayitlarim ne olur?",
+        "answer": "Iptal sonrasinda tum DVR kayitlari silinir. Onemli icerikleri iptal etmeden once kaydedin."
+      }
+    ]
+  },
+  "whoop": {
+    "description": "WHOOP uyeliginizi iptal edin — destek ile iletisime gecmeniz gerekebilir.",
+    "difficulty": "Zor",
+    "difficultyReason": "WHOOP'un minimum taahhut suresi vardır ve iptal sureci cogunlukla destek ile iletisim gerektirir.",
+    "refundPolicy": "Iade yok. Minimum taahhut suresi gecerlidir. Uyelik olmadan cihaz calismayı durdurur.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "app.whoop.com'a gidin ve oturum acin."
+          },
+          {
+            "instruction": "Profil simgenize tıklayın → Uyelik.",
+            "note": "Minimum taahhut suresi icerisindeyseniz iptal engellenebilir."
+          },
+          {
+            "instruction": "Iptal Et'e tıklayın veya support.whoop.com adresinden WHOOP destegi ile iletisime gecin."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "App Store uzerinden abone olduysanız: Ayarlar → Apple ID adiniz → Abonelikler → WHOOP → Iptal Et."
+          },
+          {
+            "instruction": "Aksi halde WHOOP destegi ile iletisime gecin."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play uzerinden abone olduysanız: Play Store → Odemeler ve abonelikler → WHOOP → Iptal Et."
+          },
+          {
+            "instruction": "Aksi halde WHOOP destegi ile iletisime gecin."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Iptalim taahhut suresi nedeniyle engelleniyor.",
+        "answer": "WHOOP'un genellikle 12 aylık minimum taahhut suresi vardır. Hala bu sure icerisindeyseniz, sonuna kadar beklemeniz veya destek ile iletisime gecmeniz gerekir."
+      },
+      {
+        "question": "WHOOP cihazım iptal sonrasinda calısır mı?",
+        "answer": "Hayır. WHOOP cihazi aktif uyelik gerektirir. Uyelik olmadan cihaz islevselligini yitirir."
+      }
+    ]
+  },
+  "factor-meals": {
+    "description": "Bir sonraki haftanın ucretinden kacınmak icin Factor Meals'i Carsamba 23:59 CT'den once iptal edin.",
+    "difficulty": "Orta",
+    "difficultyReason": "Haftalık iptal son tarihi (Carsamba 23:59 CT) katıdır ve kolayca gozden kacabilir.",
+    "refundPolicy": "Son tarih kacırılırsa iade yok. Zaten isleme alinan siparisler iptal edilemez.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "factor75.com'a gidin ve oturum acin."
+          },
+          {
+            "instruction": "Hesap Ayarları → Plan Ayarları'na tıklayın."
+          },
+          {
+            "instruction": "Planı Iptal Et'e tıklayın.",
+            "note": "Bir sonraki teslimat icin ucretlendirilmemek adına Carsamba 23:59 CT'den once iptal etmeniz gerekir."
+          },
+          {
+            "instruction": "Iptali onaylayın."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Factor Meals'in uygulama ici iptal secenegi yoktur."
+          },
+          {
+            "instruction": "Mobil tarayicinizda factor75.com'u ziyaret edin ve web adimlarini takip edin."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Factor Meals'in uygulama ici iptal secenegi yoktur."
+          },
+          {
+            "instruction": "Mobil tarayicinizda factor75.com'u ziyaret edin ve web adimlarini takip edin."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Carsamba son tarihini kacirdim — yine de ucretlendiriliyor muyum?",
+        "answer": "Evet. Son tarihi (Carsamba 23:59 CT) kacirdıysanız, bir sonraki hafta zaten isleme alınmıstır ve ucretlendirilirsiniz. Bir hata oldugunu dusunuyorsanız destek ile iletisime gecin."
+      },
+      {
+        "question": "Iptal etmek yerine teslimatları duraklatabilir miyim?",
+        "answer": "Evet. Tamamen iptal etmek yerine belirli haftaları atlayabilir veya planınızı duraklatabilirsiniz. Sadece ara vermek istiyorsanız iyi bir secenek olabilir."
+      }
+    ]
+  },
+  "stitch-fix": {
+    "description": "Stitch Fix aboneliginizi 2 dakika icinde cevrimici olarak iptal edin veya duraklatin.",
+    "difficulty": "Kolay",
+    "difficultyReason": "Iptal kolaydır, ancak Fix'leri iptal etmek hesabı kapatmakla ayni degildir.",
+    "refundPolicy": "Gondirilen Fix'ler icin iade yok. Istenmeyen urunleri 3 gun icinde iade edin.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "stitchfix.com'a gidin ve oturum acin."
+          },
+          {
+            "instruction": "Hesap Ayarları → Fix Programı'na tıklayın."
+          },
+          {
+            "instruction": "Fix'leri Iptal Et'e tıklayın."
+          },
+          {
+            "instruction": "Iptali onaylayın."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Stitch Fix abonelikleri uygulama uzerinden yonetmez."
+          },
+          {
+            "instruction": "Tarayicinizda stitchfix.com'u ziyaret edin ve web adimlarini takip edin."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Stitch Fix abonelikleri uygulama uzerinden yonetmez."
+          },
+          {
+            "instruction": "Tarayicinizda stitchfix.com'u ziyaret edin ve web adimlarini takip edin."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Fix'leri iptal etmek hesabımı kapatmakla ayni mı?",
+        "answer": "Hayır. Fix'leri iptal etmek, artık yeni teslimat almayacaginız anlamına gelir. Hesabınız aktif kalir. Hesabınızı tamamen kapatmak icin destek ile iletisime gecin."
+      },
+      {
+        "question": "Tutmak istemedigim bir Fix aldım.",
+        "answer": "Istenmeyen urunleri teslim alındıktan sonra 3 gun icinde iade edin. Aksi halde, sakladiginiz urunler icin ucretlendirilirsiniz."
+      }
     ]
   }
 }

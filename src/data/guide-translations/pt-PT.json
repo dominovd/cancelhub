@@ -6,29 +6,61 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Vai a netflix.com e inicia sessão." },
-          { "instruction": "Clica no ícone do teu perfil → Conta." },
-          { "instruction": "Em «Subscrição», clica em «Cancelar subscrição»." },
-          { "instruction": "Clica em «Concluir cancelamento» para confirmar." },
-          { "instruction": "Receberás um e-mail de confirmação. Guarda-o para os teus registos.", "note": "O acesso mantém-se até ao fim do teu período de faturação atual." }
+          {
+            "instruction": "Vai a netflix.com e inicia sessão."
+          },
+          {
+            "instruction": "Clica no ícone do teu perfil → Conta."
+          },
+          {
+            "instruction": "Em «Subscrição», clica em «Cancelar subscrição»."
+          },
+          {
+            "instruction": "Clica em «Concluir cancelamento» para confirmar."
+          },
+          {
+            "instruction": "Receberás um e-mail de confirmação. Guarda-o para os teus registos.",
+            "note": "O acesso mantém-se até ao fim do teu período de faturação atual."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Abre as Definições do iPhone → toca no teu nome no topo." },
-          { "instruction": "Toca em «Subscrições»." },
-          { "instruction": "Encontra e toca em «Netflix»." },
-          { "instruction": "Toca em «Cancelar subscrição» → Confirmar." },
-          { "instruction": "Mantens o acesso até ao fim do teu período de faturação.", "note": "A Apple não emite reembolsos parciais." }
+          {
+            "instruction": "Abre as Definições do iPhone → toca no teu nome no topo."
+          },
+          {
+            "instruction": "Toca em «Subscrições»."
+          },
+          {
+            "instruction": "Encontra e toca em «Netflix»."
+          },
+          {
+            "instruction": "Toca em «Cancelar subscrição» → Confirmar."
+          },
+          {
+            "instruction": "Mantens o acesso até ao fim do teu período de faturação.",
+            "note": "A Apple não emite reembolsos parciais."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Abre a Google Play Store." },
-          { "instruction": "Toca no ícone do teu perfil → «Pagamentos e subscrições» → «Subscrições»." },
-          { "instruction": "Encontra «Netflix» e toca nele." },
-          { "instruction": "Toca em «Cancelar subscrição» e segue as instruções." },
-          { "instruction": "O acesso mantém-se até ao fim do período de faturação." }
+          {
+            "instruction": "Abre a Google Play Store."
+          },
+          {
+            "instruction": "Toca no ícone do teu perfil → «Pagamentos e subscrições» → «Subscrições»."
+          },
+          {
+            "instruction": "Encontra «Netflix» e toca nele."
+          },
+          {
+            "instruction": "Toca em «Cancelar subscrição» e segue as instruções."
+          },
+          {
+            "instruction": "O acesso mantém-se até ao fim do período de faturação."
+          }
         ]
       }
     },
@@ -47,9 +79,15 @@
       }
     ],
     "alternatives": [
-      { "description": "Sem anúncios, 9,99 $/mês" },
-      { "description": "Disney, Marvel, Star Wars — 7,99 $/mês" },
-      { "description": "Conteúdo HBO — 9,99 $/mês" }
+      {
+        "description": "Sem anúncios, 9,99 $/mês"
+      },
+      {
+        "description": "Disney, Marvel, Star Wars — 7,99 $/mês"
+      },
+      {
+        "description": "Conteúdo HBO — 9,99 $/mês"
+      }
     ]
   },
   "spotify": {
@@ -59,26 +97,51 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Vai a spotify.com/account e inicia sessão." },
-          { "instruction": "Clica em «Mudar plano» ou desliza até «O teu plano»." },
-          { "instruction": "Desliza para baixo e clica em «Cancelar Premium»." },
-          { "instruction": "Segue os passos de confirmação (o Spotify pode oferecer um desconto — ignora se não tiveres interesse)." },
-          { "instruction": "Clica em «Cancelar mesmo assim» para confirmar. Receberás um e-mail de confirmação.", "note": "Mantens o Premium até ao fim do período de faturação." }
+          {
+            "instruction": "Vai a spotify.com/account e inicia sessão."
+          },
+          {
+            "instruction": "Clica em «Mudar plano» ou desliza até «O teu plano»."
+          },
+          {
+            "instruction": "Desliza para baixo e clica em «Cancelar Premium»."
+          },
+          {
+            "instruction": "Segue os passos de confirmação (o Spotify pode oferecer um desconto — ignora se não tiveres interesse)."
+          },
+          {
+            "instruction": "Clica em «Cancelar mesmo assim» para confirmar. Receberás um e-mail de confirmação.",
+            "note": "Mantens o Premium até ao fim do período de faturação."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Abre as Definições do iPhone → toca no nome do teu ID Apple." },
-          { "instruction": "Toca em «Subscrições» → encontra o Spotify." },
-          { "instruction": "Toca em «Cancelar subscrição» → Confirmar." }
+          {
+            "instruction": "Abre as Definições do iPhone → toca no nome do teu ID Apple."
+          },
+          {
+            "instruction": "Toca em «Subscrições» → encontra o Spotify."
+          },
+          {
+            "instruction": "Toca em «Cancelar subscrição» → Confirmar."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Abre a Google Play Store → toca no ícone do teu perfil." },
-          { "instruction": "Vai a «Pagamentos e subscrições» → «Subscrições»." },
-          { "instruction": "Encontra o Spotify → toca em «Cancelar subscrição»." },
-          { "instruction": "Segue as instruções de confirmação." }
+          {
+            "instruction": "Abre a Google Play Store → toca no ícone do teu perfil."
+          },
+          {
+            "instruction": "Vai a «Pagamentos e subscrições» → «Subscrições»."
+          },
+          {
+            "instruction": "Encontra o Spotify → toca em «Cancelar subscrição»."
+          },
+          {
+            "instruction": "Segue as instruções de confirmação."
+          }
         ]
       }
     },
@@ -93,8 +156,12 @@
       }
     ],
     "alternatives": [
-      { "description": "10,99 $/mês, ótimo se estiveres no ecossistema Apple" },
-      { "description": "10,99 $/mês, incluído com o YouTube Premium" }
+      {
+        "description": "10,99 $/mês, ótimo se estiveres no ecossistema Apple"
+      },
+      {
+        "description": "10,99 $/mês, incluído com o YouTube Premium"
+      }
     ]
   },
   "adobe": {
@@ -104,24 +171,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Vai a account.adobe.com e inicia sessão." },
-          { "instruction": "Clica em «Planos e produtos» na barra lateral esquerda." },
-          { "instruction": "Encontra o teu plano Creative Cloud e clica em «Gerir plano»." },
-          { "instruction": "Clica em «Cancelar o teu plano».", "note": "A Adobe mostrará a taxa de rescisão antecipada neste momento." },
-          { "instruction": "Escolhe um motivo → A Adobe fará várias ofertas (descontos, pausas). Clica em «Continuar a cancelar» em cada uma." },
-          { "instruction": "Confirma o cancelamento. Guarda o número de confirmação." }
+          {
+            "instruction": "Vai a account.adobe.com e inicia sessão."
+          },
+          {
+            "instruction": "Clica em «Planos e produtos» na barra lateral esquerda."
+          },
+          {
+            "instruction": "Encontra o teu plano Creative Cloud e clica em «Gerir plano»."
+          },
+          {
+            "instruction": "Clica em «Cancelar o teu plano».",
+            "note": "A Adobe mostrará a taxa de rescisão antecipada neste momento."
+          },
+          {
+            "instruction": "Escolhe um motivo → A Adobe fará várias ofertas (descontos, pausas). Clica em «Continuar a cancelar» em cada uma."
+          },
+          {
+            "instruction": "Confirma o cancelamento. Guarda o número de confirmação."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Se subscreveste através da App Store: Definições → ID Apple → Subscrições → Adobe → Cancelar." },
-          { "instruction": "Se subscreveste diretamente na Adobe: usa os passos do site acima — a aplicação não suporta cancelamento direto." }
+          {
+            "instruction": "Se subscreveste através da App Store: Definições → ID Apple → Subscrições → Adobe → Cancelar."
+          },
+          {
+            "instruction": "Se subscreveste diretamente na Adobe: usa os passos do site acima — a aplicação não suporta cancelamento direto."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Se subscreveste através da Google Play: abre a Play Store → Subscrições → Adobe → Cancelar." },
-          { "instruction": "Se subscreveste diretamente na Adobe: usa os passos do site acima." }
+          {
+            "instruction": "Se subscreveste através da Google Play: abre a Play Store → Subscrições → Adobe → Cancelar."
+          },
+          {
+            "instruction": "Se subscreveste diretamente na Adobe: usa os passos do site acima."
+          }
         ]
       }
     },
@@ -140,9 +228,15 @@
       }
     ],
     "alternatives": [
-      { "description": "Compra única, sem subscrição. Alternativa ao Photoshop/Illustrator." },
-      { "description": "12,99 $/mês — ótimo para não designers" },
-      { "description": "Plano gratuito disponível, o melhor para design UI/UX" }
+      {
+        "description": "Compra única, sem subscrição. Alternativa ao Photoshop/Illustrator."
+      },
+      {
+        "description": "12,99 $/mês — ótimo para não designers"
+      },
+      {
+        "description": "Plano gratuito disponível, o melhor para design UI/UX"
+      }
     ]
   },
   "chatgpt": {
@@ -152,26 +246,51 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Vai a chatgpt.com e inicia sessão." },
-          { "instruction": "Clica no teu nome ou ícone de perfil no canto inferior esquerdo." },
-          { "instruction": "Vai a «Definições» → «Subscrição»." },
-          { "instruction": "Clica em «Gerir a minha subscrição»." },
-          { "instruction": "Clica em «Cancelar plano» → Confirmar." },
-          { "instruction": "Receberás um e-mail de confirmação. O acesso Plus mantém-se até ao fim do período.", "note": "O ChatGPT regressa automaticamente ao plano gratuito." }
+          {
+            "instruction": "Vai a chatgpt.com e inicia sessão."
+          },
+          {
+            "instruction": "Clica no teu nome ou ícone de perfil no canto inferior esquerdo."
+          },
+          {
+            "instruction": "Vai a «Definições» → «Subscrição»."
+          },
+          {
+            "instruction": "Clica em «Gerir a minha subscrição»."
+          },
+          {
+            "instruction": "Clica em «Cancelar plano» → Confirmar."
+          },
+          {
+            "instruction": "Receberás um e-mail de confirmação. O acesso Plus mantém-se até ao fim do período.",
+            "note": "O ChatGPT regressa automaticamente ao plano gratuito."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Abre Definições → toca no nome do teu ID Apple → Subscrições." },
-          { "instruction": "Encontra «ChatGPT» → toca nele." },
-          { "instruction": "Toca em «Cancelar subscrição» → Confirmar." }
+          {
+            "instruction": "Abre Definições → toca no nome do teu ID Apple → Subscrições."
+          },
+          {
+            "instruction": "Encontra «ChatGPT» → toca nele."
+          },
+          {
+            "instruction": "Toca em «Cancelar subscrição» → Confirmar."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Abre a Google Play Store → ícone de perfil → «Pagamentos e subscrições» → «Subscrições»." },
-          { "instruction": "Encontra «ChatGPT» → toca em «Cancelar subscrição»." },
-          { "instruction": "Segue as instruções de confirmação." }
+          {
+            "instruction": "Abre a Google Play Store → ícone de perfil → «Pagamentos e subscrições» → «Subscrições»."
+          },
+          {
+            "instruction": "Encontra «ChatGPT» → toca em «Cancelar subscrição»."
+          },
+          {
+            "instruction": "Segue as instruções de confirmação."
+          }
         ]
       }
     },
@@ -186,9 +305,15 @@
       }
     ],
     "alternatives": [
-      { "description": "A IA da Anthropic — plano gratuito + 20 $/mês Pro" },
-      { "description": "A IA da Google — 19,99 $/mês, incluído no Google One AI Premium" },
-      { "description": "20 $/mês — motor de pesquisa com IA" }
+      {
+        "description": "A IA da Anthropic — plano gratuito + 20 $/mês Pro"
+      },
+      {
+        "description": "A IA da Google — 19,99 $/mês, incluído no Google One AI Premium"
+      },
+      {
+        "description": "20 $/mês — motor de pesquisa com IA"
+      }
     ]
   },
   "amazon-prime": {
@@ -198,28 +323,57 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Vai a amazon.es → passa o rato sobre «Conta e listas» → clica em «A minha conta»." },
-          { "instruction": "Clica em «Prime» ou procura «Gerir subscrição Prime» nas definições da conta." },
-          { "instruction": "Clica em «Atualizar, cancelar e mais» → «Terminar subscrição»." },
-          { "instruction": "Escolhe «Terminar subscrição» (não «Lembrar mais tarde» nem as outras opções que a Amazon apresenta).", "note": "A Amazon mostrará o valor do reembolso se fores elegível." },
-          { "instruction": "Clica em «Cancelar subscrição» para confirmar." },
-          { "instruction": "Verifica o teu e-mail para a confirmação." }
+          {
+            "instruction": "Vai a amazon.es → passa o rato sobre «Conta e listas» → clica em «A minha conta»."
+          },
+          {
+            "instruction": "Clica em «Prime» ou procura «Gerir subscrição Prime» nas definições da conta."
+          },
+          {
+            "instruction": "Clica em «Atualizar, cancelar e mais» → «Terminar subscrição»."
+          },
+          {
+            "instruction": "Escolhe «Terminar subscrição» (não «Lembrar mais tarde» nem as outras opções que a Amazon apresenta).",
+            "note": "A Amazon mostrará o valor do reembolso se fores elegível."
+          },
+          {
+            "instruction": "Clica em «Cancelar subscrição» para confirmar."
+          },
+          {
+            "instruction": "Verifica o teu e-mail para a confirmação."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Abre a aplicação Amazon Shopping → toca nas três linhas (menu)." },
-          { "instruction": "Desliza até «Conta» → toca em «Gerir subscrição Prime»." },
-          { "instruction": "Toca em «Atualizar, cancelar e mais» → «Terminar subscrição»." },
-          { "instruction": "Segue os mesmos passos que na versão web." },
-          { "instruction": "Nota: se subscreveste através da Apple, cancela em Definições iOS → Subscrições." }
+          {
+            "instruction": "Abre a aplicação Amazon Shopping → toca nas três linhas (menu)."
+          },
+          {
+            "instruction": "Desliza até «Conta» → toca em «Gerir subscrição Prime»."
+          },
+          {
+            "instruction": "Toca em «Atualizar, cancelar e mais» → «Terminar subscrição»."
+          },
+          {
+            "instruction": "Segue os mesmos passos que na versão web."
+          },
+          {
+            "instruction": "Nota: se subscreveste através da Apple, cancela em Definições iOS → Subscrições."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Abre a aplicação Amazon Shopping → menu → «Conta»." },
-          { "instruction": "Toca em «Gerir subscrição Prime» → «Terminar subscrição»." },
-          { "instruction": "Se subscreveste através da Google Play, cancela em Play Store → Subscrições." }
+          {
+            "instruction": "Abre a aplicação Amazon Shopping → menu → «Conta»."
+          },
+          {
+            "instruction": "Toca em «Gerir subscrição Prime» → «Terminar subscrição»."
+          },
+          {
+            "instruction": "Se subscreveste através da Google Play, cancela em Play Store → Subscrições."
+          }
         ]
       }
     },
@@ -245,26 +399,51 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Vai a disneyplus.com e inicia sessão." },
-          { "instruction": "Clica no ícone do teu perfil → «Conta»." },
-          { "instruction": "Em «Subscrição», clica em «Cancelar subscrição»." },
-          { "instruction": "Seleciona um motivo → Clica em «Continuar»." },
-          { "instruction": "Clica em «Cancelar subscrição» para confirmar." },
-          { "instruction": "Receberás um e-mail de confirmação.", "note": "O acesso mantém-se até à tua data de faturação." }
+          {
+            "instruction": "Vai a disneyplus.com e inicia sessão."
+          },
+          {
+            "instruction": "Clica no ícone do teu perfil → «Conta»."
+          },
+          {
+            "instruction": "Em «Subscrição», clica em «Cancelar subscrição»."
+          },
+          {
+            "instruction": "Seleciona um motivo → Clica em «Continuar»."
+          },
+          {
+            "instruction": "Clica em «Cancelar subscrição» para confirmar."
+          },
+          {
+            "instruction": "Receberás um e-mail de confirmação.",
+            "note": "O acesso mantém-se até à tua data de faturação."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Abre Definições → toca no teu nome → Subscrições." },
-          { "instruction": "Encontra «Disney+» → toca nele." },
-          { "instruction": "Toca em «Cancelar subscrição» → confirmar." }
+          {
+            "instruction": "Abre Definições → toca no teu nome → Subscrições."
+          },
+          {
+            "instruction": "Encontra «Disney+» → toca nele."
+          },
+          {
+            "instruction": "Toca em «Cancelar subscrição» → confirmar."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Abre a Google Play Store → perfil → «Pagamentos e subscrições» → «Subscrições»." },
-          { "instruction": "Encontra o Disney+ → toca em «Cancelar subscrição»." },
-          { "instruction": "Conclui o processo de confirmação." }
+          {
+            "instruction": "Abre a Google Play Store → perfil → «Pagamentos e subscrições» → «Subscrições»."
+          },
+          {
+            "instruction": "Encontra o Disney+ → toca em «Cancelar subscrição»."
+          },
+          {
+            "instruction": "Conclui o processo de confirmação."
+          }
         ]
       }
     },
@@ -286,25 +465,48 @@
     "platforms": {
       "ios": {
         "steps": [
-          { "instruction": "Abre Definições → toca no teu nome no topo." },
-          { "instruction": "Toca em «Subscrições»." },
-          { "instruction": "Toca em «Apple Music»." },
-          { "instruction": "Toca em «Cancelar subscrição» → Confirmar.", "note": "Se estiveres num período de avaliação gratuita, verás a data de fim da avaliação." }
+          {
+            "instruction": "Abre Definições → toca no teu nome no topo."
+          },
+          {
+            "instruction": "Toca em «Subscrições»."
+          },
+          {
+            "instruction": "Toca em «Apple Music»."
+          },
+          {
+            "instruction": "Toca em «Cancelar subscrição» → Confirmar.",
+            "note": "Se estiveres num período de avaliação gratuita, verás a data de fim da avaliação."
+          }
         ]
       },
       "web": {
         "steps": [
-          { "instruction": "Abre a aplicação Música no Mac → clica no teu nome → Definições da conta. Ou vai a music.apple.com e inicia sessão." },
-          { "instruction": "Encontra «Subscrições» → clica em «Gerir»." },
-          { "instruction": "Encontra o Apple Music → clica em «Editar» → «Cancelar subscrição»." },
-          { "instruction": "Confirma o cancelamento." }
+          {
+            "instruction": "Abre a aplicação Música no Mac → clica no teu nome → Definições da conta. Ou vai a music.apple.com e inicia sessão."
+          },
+          {
+            "instruction": "Encontra «Subscrições» → clica em «Gerir»."
+          },
+          {
+            "instruction": "Encontra o Apple Music → clica em «Editar» → «Cancelar subscrição»."
+          },
+          {
+            "instruction": "Confirma o cancelamento."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Abre a aplicação Apple Music no Android." },
-          { "instruction": "Toca no teu perfil → Definições da conta → Subscrições." },
-          { "instruction": "Toca em «Cancelar subscrição» → Confirmar." }
+          {
+            "instruction": "Abre a aplicação Apple Music no Android."
+          },
+          {
+            "instruction": "Toca no teu perfil → Definições da conta → Subscrições."
+          },
+          {
+            "instruction": "Toca em «Cancelar subscrição» → Confirmar."
+          }
         ]
       }
     },
@@ -326,24 +528,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Vai a account.microsoft.com e inicia sessão." },
-          { "instruction": "Clica em «Serviços e subscrições» na navegação superior." },
-          { "instruction": "Encontra o Microsoft 365 → clica em «Gerir»." },
-          { "instruction": "Clica em «Cancelar» nos detalhes da subscrição." },
-          { "instruction": "Segue as instruções. A Microsoft pode oferecer um desconto — ignora se quiseres cancelar.", "note": "Se tiveres mais de 5 GB no OneDrive, descarrega os teus ficheiros primeiro." },
-          { "instruction": "Confirma o cancelamento. Receberás um e-mail de confirmação." }
+          {
+            "instruction": "Vai a account.microsoft.com e inicia sessão."
+          },
+          {
+            "instruction": "Clica em «Serviços e subscrições» na navegação superior."
+          },
+          {
+            "instruction": "Encontra o Microsoft 365 → clica em «Gerir»."
+          },
+          {
+            "instruction": "Clica em «Cancelar» nos detalhes da subscrição."
+          },
+          {
+            "instruction": "Segue as instruções. A Microsoft pode oferecer um desconto — ignora se quiseres cancelar.",
+            "note": "Se tiveres mais de 5 GB no OneDrive, descarrega os teus ficheiros primeiro."
+          },
+          {
+            "instruction": "Confirma o cancelamento. Receberás um e-mail de confirmação."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Se subscreveste através da App Store: Definições → ID Apple → Subscrições → Microsoft 365 → Cancelar." },
-          { "instruction": "Se subscreveste diretamente na Microsoft: usa os passos do site acima." }
+          {
+            "instruction": "Se subscreveste através da App Store: Definições → ID Apple → Subscrições → Microsoft 365 → Cancelar."
+          },
+          {
+            "instruction": "Se subscreveste diretamente na Microsoft: usa os passos do site acima."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Se subscreveste através da Google Play: Play Store → Subscrições → Microsoft 365 → Cancelar." },
-          { "instruction": "Se subscreveste diretamente: usa os passos do site acima." }
+          {
+            "instruction": "Se subscreveste através da Google Play: Play Store → Subscrições → Microsoft 365 → Cancelar."
+          },
+          {
+            "instruction": "Se subscreveste diretamente: usa os passos do site acima."
+          }
         ]
       }
     },
@@ -362,8 +585,12 @@
       }
     ],
     "alternatives": [
-      { "description": "Docs, Sheets, Slides — gratuito com conta Google" },
-      { "description": "Alternativa Office gratuita e open source" }
+      {
+        "description": "Docs, Sheets, Slides — gratuito com conta Google"
+      },
+      {
+        "description": "Alternativa Office gratuita e open source"
+      }
     ]
   },
   "claude": {
@@ -373,23 +600,42 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Vai a claude.ai e inicia sessão." },
-          { "instruction": "Clica no ícone do teu perfil → «Definições»." },
-          { "instruction": "Vai a «Faturação» na barra lateral." },
-          { "instruction": "Clica em «Cancelar plano» ou «Cancelar subscrição»." },
-          { "instruction": "Confirma o cancelamento.", "note": "O acesso Pro mantém-se até ao fim do teu período de faturação." }
+          {
+            "instruction": "Vai a claude.ai e inicia sessão."
+          },
+          {
+            "instruction": "Clica no ícone do teu perfil → «Definições»."
+          },
+          {
+            "instruction": "Vai a «Faturação» na barra lateral."
+          },
+          {
+            "instruction": "Clica em «Cancelar plano» ou «Cancelar subscrição»."
+          },
+          {
+            "instruction": "Confirma o cancelamento.",
+            "note": "O acesso Pro mantém-se até ao fim do teu período de faturação."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Se subscreveste através da App Store: Definições → ID Apple → Subscrições → Claude → Cancelar." },
-          { "instruction": "Se subscreveste diretamente na Anthropic: usa os passos do site acima." }
+          {
+            "instruction": "Se subscreveste através da App Store: Definições → ID Apple → Subscrições → Claude → Cancelar."
+          },
+          {
+            "instruction": "Se subscreveste diretamente na Anthropic: usa os passos do site acima."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Abre a Google Play Store → perfil → Subscrições." },
-          { "instruction": "Encontra o Claude → toca em «Cancelar subscrição» → confirmar." }
+          {
+            "instruction": "Abre a Google Play Store → perfil → Subscrições."
+          },
+          {
+            "instruction": "Encontra o Claude → toca em «Cancelar subscrição» → confirmar."
+          }
         ]
       }
     },
@@ -404,8 +650,12 @@
       }
     ],
     "alternatives": [
-      { "description": "20 $/mês — GPT-4o da OpenAI e mais" },
-      { "description": "19,99 $/mês — A IA mais capaz da Google" }
+      {
+        "description": "20 $/mês — GPT-4o da OpenAI e mais"
+      },
+      {
+        "description": "19,99 $/mês — A IA mais capaz da Google"
+      }
     ]
   },
   "youtube-premium": {
@@ -414,25 +664,48 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Vai a youtube.com/paid_memberships e inicia sessão." },
-          { "instruction": "Encontra «YouTube Premium» → clica em «Gerir subscrição»." },
-          { "instruction": "Clica em «Desativar»." },
-          { "instruction": "Segue os passos de confirmação → clica em «Continuar para cancelar»." },
-          { "instruction": "Confirmar. Mantens o Premium até ao fim do teu período de faturação.", "note": "O YouTube Music Premium está incluído e também será cancelado." }
+          {
+            "instruction": "Vai a youtube.com/paid_memberships e inicia sessão."
+          },
+          {
+            "instruction": "Encontra «YouTube Premium» → clica em «Gerir subscrição»."
+          },
+          {
+            "instruction": "Clica em «Desativar»."
+          },
+          {
+            "instruction": "Segue os passos de confirmação → clica em «Continuar para cancelar»."
+          },
+          {
+            "instruction": "Confirmar. Mantens o Premium até ao fim do teu período de faturação.",
+            "note": "O YouTube Music Premium está incluído e também será cancelado."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Abre Definições → toca no teu nome → Subscrições." },
-          { "instruction": "Encontra «YouTube Premium» → toca nele." },
-          { "instruction": "Toca em «Cancelar subscrição» → Confirmar." }
+          {
+            "instruction": "Abre Definições → toca no teu nome → Subscrições."
+          },
+          {
+            "instruction": "Encontra «YouTube Premium» → toca nele."
+          },
+          {
+            "instruction": "Toca em «Cancelar subscrição» → Confirmar."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Abre a Google Play Store → perfil → «Pagamentos e subscrições» → Subscrições." },
-          { "instruction": "Encontra «YouTube Premium» → toca em «Cancelar subscrição»." },
-          { "instruction": "Segue o processo de confirmação." }
+          {
+            "instruction": "Abre a Google Play Store → perfil → «Pagamentos e subscrições» → Subscrições."
+          },
+          {
+            "instruction": "Encontra «YouTube Premium» → toca em «Cancelar subscrição»."
+          },
+          {
+            "instruction": "Segue o processo de confirmação."
+          }
         ]
       }
     },
@@ -454,25 +727,47 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Vai a hulu.com e inicia sessão." },
-          { "instruction": "Clica no ícone do teu perfil → «Conta»." },
-          { "instruction": "Em «A tua subscrição», clica em «Cancelar»." },
-          { "instruction": "Seleciona um motivo → O Hulu fará ofertas. Clica em «Continuar para cancelar»." },
-          { "instruction": "Clica em «Cancelar subscrição» para confirmar." },
-          { "instruction": "Receberás um e-mail de confirmação." }
+          {
+            "instruction": "Vai a hulu.com e inicia sessão."
+          },
+          {
+            "instruction": "Clica no ícone do teu perfil → «Conta»."
+          },
+          {
+            "instruction": "Em «A tua subscrição», clica em «Cancelar»."
+          },
+          {
+            "instruction": "Seleciona um motivo → O Hulu fará ofertas. Clica em «Continuar para cancelar»."
+          },
+          {
+            "instruction": "Clica em «Cancelar subscrição» para confirmar."
+          },
+          {
+            "instruction": "Receberás um e-mail de confirmação."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Abre Definições → toca no teu nome → Subscrições." },
-          { "instruction": "Encontra «Hulu» → toca nele." },
-          { "instruction": "Toca em «Cancelar subscrição» → Confirmar." }
+          {
+            "instruction": "Abre Definições → toca no teu nome → Subscrições."
+          },
+          {
+            "instruction": "Encontra «Hulu» → toca nele."
+          },
+          {
+            "instruction": "Toca em «Cancelar subscrição» → Confirmar."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Abre a Google Play Store → perfil → Subscrições → encontra o Hulu." },
-          { "instruction": "Toca em «Cancelar subscrição» → segue as instruções." }
+          {
+            "instruction": "Abre a Google Play Store → perfil → Subscrições → encontra o Hulu."
+          },
+          {
+            "instruction": "Toca em «Cancelar subscrição» → segue as instruções."
+          }
         ]
       }
     },
@@ -494,23 +789,42 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Vai a my.nordaccount.com e inicia sessão." },
-          { "instruction": "Clica em «Faturação» ou «Subscrição» na barra lateral esquerda." },
-          { "instruction": "Encontra o teu plano → clica em «Cancelar renovação automática» ou «Cancelar subscrição»." },
-          { "instruction": "Confirma o cancelamento." },
-          { "instruction": "Para reembolso: inicia um chat ao vivo em nordvpn.com/support e solicita-o. Os reembolsos são processados em 5 a 10 dias úteis.", "note": "O NordVPN não oferece reembolsos através do painel da conta — tens de contactar o suporte." }
+          {
+            "instruction": "Vai a my.nordaccount.com e inicia sessão."
+          },
+          {
+            "instruction": "Clica em «Faturação» ou «Subscrição» na barra lateral esquerda."
+          },
+          {
+            "instruction": "Encontra o teu plano → clica em «Cancelar renovação automática» ou «Cancelar subscrição»."
+          },
+          {
+            "instruction": "Confirma o cancelamento."
+          },
+          {
+            "instruction": "Para reembolso: inicia um chat ao vivo em nordvpn.com/support e solicita-o. Os reembolsos são processados em 5 a 10 dias úteis.",
+            "note": "O NordVPN não oferece reembolsos através do painel da conta — tens de contactar o suporte."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Se subscreveste através da App Store: Definições → ID Apple → Subscrições → NordVPN → Cancelar." },
-          { "instruction": "Nota: as subscrições da App Store não são elegíveis para o reembolso de 30 dias do NordVPN. Contacta a Apple." }
+          {
+            "instruction": "Se subscreveste através da App Store: Definições → ID Apple → Subscrições → NordVPN → Cancelar."
+          },
+          {
+            "instruction": "Nota: as subscrições da App Store não são elegíveis para o reembolso de 30 dias do NordVPN. Contacta a Apple."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Se subscreveste através da Google Play: Play Store → Subscrições → NordVPN → Cancelar." },
-          { "instruction": "Para reembolsos em compras Play, contacta o suporte da Google Play nas 48 horas." }
+          {
+            "instruction": "Se subscreveste através da Google Play: Play Store → Subscrições → NordVPN → Cancelar."
+          },
+          {
+            "instruction": "Para reembolsos em compras Play, contacta o suporte da Google Play nas 48 horas."
+          }
         ]
       }
     },
@@ -532,35 +846,68 @@
     "platforms": {
       "web": {
         "steps": [
-          {"instruction": "Vai a doordash.com e inicia sessão."},
-          {"instruction": "Clica no ícone do teu perfil → «Obter DashPass» ou vai a doordash.com/account."},
-          {"instruction": "Desliza até «DashPass» → clica em «Gerir DashPass»."},
-          {"instruction": "Clica em «Cancelar DashPass»."},
-          {"instruction": "Segue as confirmações → clica em «Cancelar DashPass» para confirmar.", "note": "Mantens os benefícios do DashPass até ao fim do teu período de faturação."}
+          {
+            "instruction": "Vai a doordash.com e inicia sessão."
+          },
+          {
+            "instruction": "Clica no ícone do teu perfil → «Obter DashPass» ou vai a doordash.com/account."
+          },
+          {
+            "instruction": "Desliza até «DashPass» → clica em «Gerir DashPass»."
+          },
+          {
+            "instruction": "Clica em «Cancelar DashPass»."
+          },
+          {
+            "instruction": "Segue as confirmações → clica em «Cancelar DashPass» para confirmar.",
+            "note": "Mantens os benefícios do DashPass até ao fim do teu período de faturação."
+          }
         ]
       },
       "ios": {
         "steps": [
-          {"instruction": "Abre a aplicação DoorDash → toca no ícone do teu perfil (em baixo à direita)."},
-          {"instruction": "Toca em «Obter DashPass» ou «Gerir DashPass»."},
-          {"instruction": "Toca em «Cancelar DashPass» → confirmar."}
+          {
+            "instruction": "Abre a aplicação DoorDash → toca no ícone do teu perfil (em baixo à direita)."
+          },
+          {
+            "instruction": "Toca em «Obter DashPass» ou «Gerir DashPass»."
+          },
+          {
+            "instruction": "Toca em «Cancelar DashPass» → confirmar."
+          }
         ]
       },
       "android": {
         "steps": [
-          {"instruction": "Abre a aplicação DoorDash → toca no ícone do teu perfil."},
-          {"instruction": "Toca em «Gerir DashPass»."},
-          {"instruction": "Toca em «Cancelar DashPass» → segue as confirmações."}
+          {
+            "instruction": "Abre a aplicação DoorDash → toca no ícone do teu perfil."
+          },
+          {
+            "instruction": "Toca em «Gerir DashPass»."
+          },
+          {
+            "instruction": "Toca em «Cancelar DashPass» → segue as confirmações."
+          }
         ]
       }
     },
     "commonIssues": [
-      {"question": "Não consigo encontrar a opção DashPass na minha conta.", "answer": "Certifica-te de que iniciaste sessão com a mesma conta utilizada para subscrever. Se subscreveste através dos benefícios do cartão de crédito Chase, tens de cancelar através do Chase, não diretamente no DoorDash."},
-      {"question": "Vou perder o meu DashPass a meio do mês?", "answer": "Não. Os benefícios do DashPass mantêm-se até ao fim do teu período de faturação atual."}
+      {
+        "question": "Não consigo encontrar a opção DashPass na minha conta.",
+        "answer": "Certifica-te de que iniciaste sessão com a mesma conta utilizada para subscrever. Se subscreveste através dos benefícios do cartão de crédito Chase, tens de cancelar através do Chase, não diretamente no DoorDash."
+      },
+      {
+        "question": "Vou perder o meu DashPass a meio do mês?",
+        "answer": "Não. Os benefícios do DashPass mantêm-se até ao fim do teu período de faturação atual."
+      }
     ],
     "alternatives": [
-      {"description": "9,99 $/mês — entrega gratuita no Uber Eats + viagens Uber"},
-      {"description": "9,99 $/mês — entrega gratuita em encomendas Grubhub"}
+      {
+        "description": "9,99 $/mês — entrega gratuita no Uber Eats + viagens Uber"
+      },
+      {
+        "description": "9,99 $/mês — entrega gratuita em encomendas Grubhub"
+      }
     ]
   },
   "peacock": {
@@ -570,35 +917,68 @@
     "platforms": {
       "web": {
         "steps": [
-          {"instruction": "Vai a peacocktv.com e inicia sessão."},
-          {"instruction": "Clica no ícone do teu perfil → «Conta»."},
-          {"instruction": "Em «Plano», clica em «Alterar ou cancelar plano»."},
-          {"instruction": "Clica em «Cancelar plano»."},
-          {"instruction": "Seleciona um motivo → clica em «Continuar».", "note": "O teu acesso ao Peacock Premium mantém-se até à data de faturação."},
-          {"instruction": "Confirma o cancelamento."}
+          {
+            "instruction": "Vai a peacocktv.com e inicia sessão."
+          },
+          {
+            "instruction": "Clica no ícone do teu perfil → «Conta»."
+          },
+          {
+            "instruction": "Em «Plano», clica em «Alterar ou cancelar plano»."
+          },
+          {
+            "instruction": "Clica em «Cancelar plano»."
+          },
+          {
+            "instruction": "Seleciona um motivo → clica em «Continuar».",
+            "note": "O teu acesso ao Peacock Premium mantém-se até à data de faturação."
+          },
+          {
+            "instruction": "Confirma o cancelamento."
+          }
         ]
       },
       "ios": {
         "steps": [
-          {"instruction": "Abre Definições → toca no teu nome → Subscrições."},
-          {"instruction": "Encontra «Peacock» → toca nele."},
-          {"instruction": "Toca em «Cancelar subscrição» → confirmar."}
+          {
+            "instruction": "Abre Definições → toca no teu nome → Subscrições."
+          },
+          {
+            "instruction": "Encontra «Peacock» → toca nele."
+          },
+          {
+            "instruction": "Toca em «Cancelar subscrição» → confirmar."
+          }
         ]
       },
       "android": {
         "steps": [
-          {"instruction": "Abre a Google Play Store → perfil → «Pagamentos e subscrições» → Subscrições."},
-          {"instruction": "Encontra «Peacock» → toca em «Cancelar subscrição» → confirmar."}
+          {
+            "instruction": "Abre a Google Play Store → perfil → «Pagamentos e subscrições» → Subscrições."
+          },
+          {
+            "instruction": "Encontra «Peacock» → toca em «Cancelar subscrição» → confirmar."
+          }
         ]
       }
     },
     "commonIssues": [
-      {"question": "Subscrevi através do meu fornecedor de TV — como cancelo?", "answer": "Se o Peacock estava incluído no teu plano de cabo ou internet, tens de cancelar através do teu fornecedor de TV/internet, não diretamente no Peacock."},
-      {"question": "Tenho o nível gratuito — preciso de cancelar?", "answer": "Não. O nível gratuito do Peacock não tem subscrição para cancelar. Apenas Premium e Premium Plus requerem cancelamento."}
+      {
+        "question": "Subscrevi através do meu fornecedor de TV — como cancelo?",
+        "answer": "Se o Peacock estava incluído no teu plano de cabo ou internet, tens de cancelar através do teu fornecedor de TV/internet, não diretamente no Peacock."
+      },
+      {
+        "question": "Tenho o nível gratuito — preciso de cancelar?",
+        "answer": "Não. O nível gratuito do Peacock não tem subscrição para cancelar. Apenas Premium e Premium Plus requerem cancelamento."
+      }
     ],
     "alternatives": [
-      {"description": "7,99 $/mês — CBS, MTV, Nickelodeon"},
-      {"description": "9,99 $/mês — conteúdo HBO"}
+      {
+        "description": "7,99 $/mês — CBS, MTV, Nickelodeon"
+      },
+      {
+        "description": "9,99 $/mês — conteúdo HBO"
+      }
     ]
   },
   "audible": {
@@ -608,35 +988,69 @@
     "platforms": {
       "web": {
         "steps": [
-          {"instruction": "Vai a audible.com e inicia sessão."},
-          {"instruction": "Passa o rato sobre o teu nome → clica em «Detalhes da conta»."},
-          {"instruction": "Clica em «Cancelar subscrição» na barra lateral esquerda ou em «Detalhes da subscrição»."},
-          {"instruction": "O Audible mostrará uma opção de «suspender subscrição» — clica em «Continuar a cancelar» se quiseres cancelar.", "note": "Usa os teus créditos antes de cancelar — expiram quando a tua subscrição terminar."},
-          {"instruction": "Seleciona um motivo → clica em «Cancelar subscrição»."},
-          {"instruction": "Receberás um e-mail de confirmação."}
+          {
+            "instruction": "Vai a audible.com e inicia sessão."
+          },
+          {
+            "instruction": "Passa o rato sobre o teu nome → clica em «Detalhes da conta»."
+          },
+          {
+            "instruction": "Clica em «Cancelar subscrição» na barra lateral esquerda ou em «Detalhes da subscrição»."
+          },
+          {
+            "instruction": "O Audible mostrará uma opção de «suspender subscrição» — clica em «Continuar a cancelar» se quiseres cancelar.",
+            "note": "Usa os teus créditos antes de cancelar — expiram quando a tua subscrição terminar."
+          },
+          {
+            "instruction": "Seleciona um motivo → clica em «Cancelar subscrição»."
+          },
+          {
+            "instruction": "Receberás um e-mail de confirmação."
+          }
         ]
       },
       "ios": {
         "steps": [
-          {"instruction": "Se subscreveste via App Store: Definições → ID Apple → Subscrições → Audible → Cancelar."},
-          {"instruction": "Se subscreveste diretamente na Amazon/Audible: usa os passos do site acima."}
+          {
+            "instruction": "Se subscreveste via App Store: Definições → ID Apple → Subscrições → Audible → Cancelar."
+          },
+          {
+            "instruction": "Se subscreveste diretamente na Amazon/Audible: usa os passos do site acima."
+          }
         ]
       },
       "android": {
         "steps": [
-          {"instruction": "Se subscreveste via Google Play: Play Store → Subscrições → Audible → Cancelar."},
-          {"instruction": "Se subscreveste diretamente: usa os passos do site acima."}
+          {
+            "instruction": "Se subscreveste via Google Play: Play Store → Subscrições → Audible → Cancelar."
+          },
+          {
+            "instruction": "Se subscreveste diretamente: usa os passos do site acima."
+          }
         ]
       }
     },
     "commonIssues": [
-      {"question": "O que acontece aos meus créditos quando cancelo?", "answer": "Os créditos não utilizados perdem-se ao cancelar. Usa-os antes de cancelar — podes comprar audiolivros com créditos e ficam teus para sempre mesmo após o cancelamento."},
-      {"question": "Vou perder os audiolivros que comprei?", "answer": "Não. Os audiolivros que compraste com créditos ou adquiriste separadamente são teus permanentemente. Podes aceder a eles através da aplicação Audible mesmo sem subscrição."},
-      {"question": "Posso suspender em vez de cancelar?", "answer": "Sim. O Audible permite suspender a subscrição de 1 a 3 meses. Durante a suspensão, não és cobrado mas também não acumulas créditos. Encontra a opção durante o processo de cancelamento."}
+      {
+        "question": "O que acontece aos meus créditos quando cancelo?",
+        "answer": "Os créditos não utilizados perdem-se ao cancelar. Usa-os antes de cancelar — podes comprar audiolivros com créditos e ficam teus para sempre mesmo após o cancelamento."
+      },
+      {
+        "question": "Vou perder os audiolivros que comprei?",
+        "answer": "Não. Os audiolivros que compraste com créditos ou adquiriste separadamente são teus permanentemente. Podes aceder a eles através da aplicação Audible mesmo sem subscrição."
+      },
+      {
+        "question": "Posso suspender em vez de cancelar?",
+        "answer": "Sim. O Audible permite suspender a subscrição de 1 a 3 meses. Durante a suspensão, não és cobrado mas também não acumulas créditos. Encontra a opção durante o processo de cancelamento."
+      }
     ],
     "alternatives": [
-      {"description": "11,99 $/mês — ebooks + alguns audiolivros"},
-      {"description": "11,99 $/mês — audiolivros, ebooks, documentos"}
+      {
+        "description": "11,99 $/mês — ebooks + alguns audiolivros"
+      },
+      {
+        "description": "11,99 $/mês — audiolivros, ebooks, documentos"
+      }
     ]
   },
   "fabletics": {
@@ -645,31 +1059,61 @@
     "platforms": {
       "web": {
         "steps": [
-          {"instruction": "Inicia sessão em fabletics.com e usa os créditos acumulados antes de cancelar."},
-          {"instruction": "Clica em «Créditos de membro» para verificar o teu saldo.", "note": "Os créditos expiram após o cancelamento — usa-os primeiro."},
-          {"instruction": "Abre o chat ao vivo em fabletics.com ou liga para 1-844-322-5384."},
-          {"instruction": "Diz ao agente que queres cancelar a tua subscrição VIP."},
-          {"instruction": "Recusa todas as ofertas de retenção (descontos, pausas, ofertas de créditos)."},
-          {"instruction": "Confirma o cancelamento e pede um número de confirmação ou e-mail."}
+          {
+            "instruction": "Inicia sessão em fabletics.com e usa os créditos acumulados antes de cancelar."
+          },
+          {
+            "instruction": "Clica em «Créditos de membro» para verificar o teu saldo.",
+            "note": "Os créditos expiram após o cancelamento — usa-os primeiro."
+          },
+          {
+            "instruction": "Abre o chat ao vivo em fabletics.com ou liga para 1-844-322-5384."
+          },
+          {
+            "instruction": "Diz ao agente que queres cancelar a tua subscrição VIP."
+          },
+          {
+            "instruction": "Recusa todas as ofertas de retenção (descontos, pausas, ofertas de créditos)."
+          },
+          {
+            "instruction": "Confirma o cancelamento e pede um número de confirmação ou e-mail."
+          }
         ]
       },
       "ios": {
         "steps": [
-          {"instruction": "A Fabletics não suporta cancelamento através da aplicação iOS nem da App Store."},
-          {"instruction": "Usa o telefone (1-844-322-5384) ou o chat ao vivo em fabletics.com."}
+          {
+            "instruction": "A Fabletics não suporta cancelamento através da aplicação iOS nem da App Store."
+          },
+          {
+            "instruction": "Usa o telefone (1-844-322-5384) ou o chat ao vivo em fabletics.com."
+          }
         ]
       },
       "android": {
         "steps": [
-          {"instruction": "A Fabletics não suporta cancelamento através da aplicação Android nem da Play Store."},
-          {"instruction": "Usa o telefone ou o chat ao vivo — consulta os passos web acima."}
+          {
+            "instruction": "A Fabletics não suporta cancelamento através da aplicação Android nem da Play Store."
+          },
+          {
+            "instruction": "Usa o telefone ou o chat ao vivo — consulta os passos web acima."
+          }
         ]
       }
     },
     "commonIssues": [
-      {"question": "Foram-me cobrados 59,95 $ — posso obter um reembolso?", "answer": "Se foste cobrado mas não quiseste, contacta o suporte da Fabletics imediatamente. Podem emitir um crédito, mas reembolsos em dinheiro são raros. O débito ocorre se não saltares o mês antes do dia 5."},
-      {"question": "O que é a opção «saltar o mês»?", "answer": "Todos os meses, tens de iniciar sessão e clicar em «Saltar este mês» antes do dia 5 para evitar ser cobrado. Este é um padrão obscuro deliberado — define um lembrete recorrente no calendário."},
-      {"question": "Posso cancelar online sem ligar?", "answer": "A Fabletics adicionou uma opção de chat ao vivo. O chat está disponível em fabletics.com e geralmente é mais rápido do que ligar."}
+      {
+        "question": "Foram-me cobrados 59,95 $ — posso obter um reembolso?",
+        "answer": "Se foste cobrado mas não quiseste, contacta o suporte da Fabletics imediatamente. Podem emitir um crédito, mas reembolsos em dinheiro são raros. O débito ocorre se não saltares o mês antes do dia 5."
+      },
+      {
+        "question": "O que é a opção «saltar o mês»?",
+        "answer": "Todos os meses, tens de iniciar sessão e clicar em «Saltar este mês» antes do dia 5 para evitar ser cobrado. Este é um padrão obscuro deliberado — define um lembrete recorrente no calendário."
+      },
+      {
+        "question": "Posso cancelar online sem ligar?",
+        "answer": "A Fabletics adicionou uma opção de chat ao vivo. O chat está disponível em fabletics.com e geralmente é mais rápido do que ligar."
+      }
     ]
   },
   "experian": {
@@ -679,34 +1123,66 @@
     "platforms": {
       "web": {
         "steps": [
-          {"instruction": "Inicia sessão em experian.com ou vai às definições da tua conta."},
-          {"instruction": "Se não houver botão de cancelamento disponível (comum), abre o chat ao vivo através de experian.com/consumer/help.html.", "note": "A Experian costuma esconder a opção de cancelamento — o chat ao vivo é geralmente a via mais rápida."},
-          {"instruction": "Diz ao agente que queres cancelar a tua subscrição."},
-          {"instruction": "Recusa quaisquer ofertas de retenção (pausa de monitorização de crédito, descontos)."},
-          {"instruction": "Pede um e-mail de confirmação com a tua data de cancelamento."}
+          {
+            "instruction": "Inicia sessão em experian.com ou vai às definições da tua conta."
+          },
+          {
+            "instruction": "Se não houver botão de cancelamento disponível (comum), abre o chat ao vivo através de experian.com/consumer/help.html.",
+            "note": "A Experian costuma esconder a opção de cancelamento — o chat ao vivo é geralmente a via mais rápida."
+          },
+          {
+            "instruction": "Diz ao agente que queres cancelar a tua subscrição."
+          },
+          {
+            "instruction": "Recusa quaisquer ofertas de retenção (pausa de monitorização de crédito, descontos)."
+          },
+          {
+            "instruction": "Pede um e-mail de confirmação com a tua data de cancelamento."
+          }
         ]
       },
       "ios": {
         "steps": [
-          {"instruction": "Se subscreveste via App Store: Definições → ID Apple → Subscrições → Experian → Cancelar."},
-          {"instruction": "Se subscreveste diretamente na Experian: usa o telefone (1-479-343-6239) ou o chat ao vivo."}
+          {
+            "instruction": "Se subscreveste via App Store: Definições → ID Apple → Subscrições → Experian → Cancelar."
+          },
+          {
+            "instruction": "Se subscreveste diretamente na Experian: usa o telefone (1-479-343-6239) ou o chat ao vivo."
+          }
         ]
       },
       "android": {
         "steps": [
-          {"instruction": "Se subscreveste via Google Play: Play Store → Subscrições → Experian → Cancelar."},
-          {"instruction": "Se subscreveste diretamente: usa o chat ao vivo ou liga ao suporte da Experian."}
+          {
+            "instruction": "Se subscreveste via Google Play: Play Store → Subscrições → Experian → Cancelar."
+          },
+          {
+            "instruction": "Se subscreveste diretamente: usa o chat ao vivo ou liga ao suporte da Experian."
+          }
         ]
       }
     },
     "commonIssues": [
-      {"question": "Não consigo encontrar o botão de cancelamento no site.", "answer": "A Experian dificulta intencionalmente o cancelamento de autoatendimento. Vai diretamente a experian.com/consumer/cancel.html ou usa o chat ao vivo. Ligar para 1-479-343-6239 também é fiável."},
-      {"question": "O cancelamento vai afetar a minha pontuação de crédito?", "answer": "Não. Cancelar a tua subscrição Experian não afeta de forma alguma a tua pontuação de crédito."},
-      {"question": "O que acontece à minha monitorização de crédito?", "answer": "Os alertas de monitorização de crédito param. Os dados do teu relatório de crédito não são eliminados — ainda podes obter relatórios anuais gratuitos em annualcreditreport.com."}
+      {
+        "question": "Não consigo encontrar o botão de cancelamento no site.",
+        "answer": "A Experian dificulta intencionalmente o cancelamento de autoatendimento. Vai diretamente a experian.com/consumer/cancel.html ou usa o chat ao vivo. Ligar para 1-479-343-6239 também é fiável."
+      },
+      {
+        "question": "O cancelamento vai afetar a minha pontuação de crédito?",
+        "answer": "Não. Cancelar a tua subscrição Experian não afeta de forma alguma a tua pontuação de crédito."
+      },
+      {
+        "question": "O que acontece à minha monitorização de crédito?",
+        "answer": "Os alertas de monitorização de crédito param. Os dados do teu relatório de crédito não são eliminados — ainda podes obter relatórios anuais gratuitos em annualcreditreport.com."
+      }
     ],
     "alternatives": [
-      {"description": "Monitorização de crédito gratuita — sem subscrição necessária"},
-      {"description": "8,99 $/mês — proteção contra roubo de identidade"}
+      {
+        "description": "Monitorização de crédito gratuita — sem subscrição necessária"
+      },
+      {
+        "description": "8,99 $/mês — proteção contra roubo de identidade"
+      }
     ]
   },
   "crunch-fitness": {
@@ -716,34 +1192,66 @@
     "platforms": {
       "web": {
         "steps": [
-          {"instruction": "Inicia sessão em crunch.com e verifica se o teu clube oferece cancelamento online (raro — a maioria não oferece)."},
-          {"instruction": "Se o cancelamento online não estiver disponível, vai pessoalmente ao teu clube de origem com um documento de identificação com foto."},
-          {"instruction": "Pede para falar com um consultor de subscrições e solicita o cancelamento.", "note": "Leva o teu ID de membro ou o e-mail utilizado no registo."},
-          {"instruction": "Em alternativa, envia uma carta registada ao teu clube de origem com: nome completo, ID de membro, morada e assinatura."},
-          {"instruction": "Guarda o recibo do correio registado como prova. O cancelamento geralmente entra em vigor 30 dias após a receção."}
+          {
+            "instruction": "Inicia sessão em crunch.com e verifica se o teu clube oferece cancelamento online (raro — a maioria não oferece)."
+          },
+          {
+            "instruction": "Se o cancelamento online não estiver disponível, vai pessoalmente ao teu clube de origem com um documento de identificação com foto."
+          },
+          {
+            "instruction": "Pede para falar com um consultor de subscrições e solicita o cancelamento.",
+            "note": "Leva o teu ID de membro ou o e-mail utilizado no registo."
+          },
+          {
+            "instruction": "Em alternativa, envia uma carta registada ao teu clube de origem com: nome completo, ID de membro, morada e assinatura."
+          },
+          {
+            "instruction": "Guarda o recibo do correio registado como prova. O cancelamento geralmente entra em vigor 30 dias após a receção."
+          }
         ]
       },
       "ios": {
         "steps": [
-          {"instruction": "O Crunch não suporta cancelamento através da aplicação iOS."},
-          {"instruction": "Cancela pessoalmente no teu clube de origem ou por correio registado — consulta os passos web."}
+          {
+            "instruction": "O Crunch não suporta cancelamento através da aplicação iOS."
+          },
+          {
+            "instruction": "Cancela pessoalmente no teu clube de origem ou por correio registado — consulta os passos web."
+          }
         ]
       },
       "android": {
         "steps": [
-          {"instruction": "O Crunch não suporta cancelamento através da aplicação Android."},
-          {"instruction": "Cancela pessoalmente ou por correio registado — consulta os passos web."}
+          {
+            "instruction": "O Crunch não suporta cancelamento através da aplicação Android."
+          },
+          {
+            "instruction": "Cancela pessoalmente ou por correio registado — consulta os passos web."
+          }
         ]
       }
     },
     "commonIssues": [
-      {"question": "Tenho um contrato anual — qual é a taxa de rescisão antecipada?", "answer": "A taxa é geralmente de 175 $ ou o saldo restante do contrato (o que for menor). Os membros mensais podem cancelar a qualquer momento com 30 dias de aviso."},
-      {"question": "Posso cancelar se me mudei?", "answer": "Sim — a mudança de residência é um motivo aceitável. Terás de fornecer prova da tua nova morada a mostrar que vives a mais de 40 km de qualquer localização Crunch."},
-      {"question": "Posso suspender a minha subscrição em vez de cancelar?", "answer": "Sim. A maioria das localizações Crunch permite uma suspensão de 1 a 3 meses por uma pequena taxa (10–15 $/mês). Pergunta no teu clube de origem."}
+      {
+        "question": "Tenho um contrato anual — qual é a taxa de rescisão antecipada?",
+        "answer": "A taxa é geralmente de 175 $ ou o saldo restante do contrato (o que for menor). Os membros mensais podem cancelar a qualquer momento com 30 dias de aviso."
+      },
+      {
+        "question": "Posso cancelar se me mudei?",
+        "answer": "Sim — a mudança de residência é um motivo aceitável. Terás de fornecer prova da tua nova morada a mostrar que vives a mais de 40 km de qualquer localização Crunch."
+      },
+      {
+        "question": "Posso suspender a minha subscrição em vez de cancelar?",
+        "answer": "Sim. A maioria das localizações Crunch permite uma suspensão de 1 a 3 meses por uma pequena taxa (10–15 $/mês). Pergunta no teu clube de origem."
+      }
     ],
     "alternatives": [
-      {"description": "10–25 $/mês — cancelamento online fácil"},
-      {"description": "30–50 $/mês — acesso 24/7"}
+      {
+        "description": "10–25 $/mês — cancelamento online fácil"
+      },
+      {
+        "description": "30–50 $/mês — acesso 24/7"
+      }
     ]
   },
   "xfinity": {
@@ -753,35 +1261,69 @@
     "platforms": {
       "web": {
         "steps": [
-          {"instruction": "Vai a xfinity.com/support e inicia sessão.", "note": "Verifica primeiro a data de fim do teu contrato — vai a A Minha Conta → Acordo de Serviço para ver se deves uma taxa de rescisão antecipada."},
-          {"instruction": "Usa o chat do Assistente Xfinity e escreve Cancelar serviço — às vezes funciona sem espera."},
-          {"instruction": "Em alternativa, liga para 1-800-934-6489. Espera tempos de espera de 15 a 45 minutos."},
-          {"instruction": "Diz ao representante que queres cancelar, não fazer downgrade. Recusa todas as ofertas de retenção."},
-          {"instruction": "Pede um número de confirmação de cancelamento e e-mail."},
-          {"instruction": "Devolve qualquer equipamento alugado (modem, router, descodificador) a uma loja Xfinity ou por kit de devolução pré-pago no prazo de 10 dias para evitar cobranças de equipamento."}
+          {
+            "instruction": "Vai a xfinity.com/support e inicia sessão.",
+            "note": "Verifica primeiro a data de fim do teu contrato — vai a A Minha Conta → Acordo de Serviço para ver se deves uma taxa de rescisão antecipada."
+          },
+          {
+            "instruction": "Usa o chat do Assistente Xfinity e escreve Cancelar serviço — às vezes funciona sem espera."
+          },
+          {
+            "instruction": "Em alternativa, liga para 1-800-934-6489. Espera tempos de espera de 15 a 45 minutos."
+          },
+          {
+            "instruction": "Diz ao representante que queres cancelar, não fazer downgrade. Recusa todas as ofertas de retenção."
+          },
+          {
+            "instruction": "Pede um número de confirmação de cancelamento e e-mail."
+          },
+          {
+            "instruction": "Devolve qualquer equipamento alugado (modem, router, descodificador) a uma loja Xfinity ou por kit de devolução pré-pago no prazo de 10 dias para evitar cobranças de equipamento."
+          }
         ]
       },
       "ios": {
         "steps": [
-          {"instruction": "Abre a aplicação Xfinity → toca no ícone de conta."},
-          {"instruction": "Toca em Gerir o meu plano — opções de cancelamento limitadas na aplicação. O cancelamento completo requer uma chamada ou visita à loja."}
+          {
+            "instruction": "Abre a aplicação Xfinity → toca no ícone de conta."
+          },
+          {
+            "instruction": "Toca em Gerir o meu plano — opções de cancelamento limitadas na aplicação. O cancelamento completo requer uma chamada ou visita à loja."
+          }
         ]
       },
       "android": {
         "steps": [
-          {"instruction": "Abre a aplicação Xfinity → ícone de conta → Gerir o meu plano."},
-          {"instruction": "Para o cancelamento completo, liga ou visita uma loja."}
+          {
+            "instruction": "Abre a aplicação Xfinity → ícone de conta → Gerir o meu plano."
+          },
+          {
+            "instruction": "Para o cancelamento completo, liga ou visita uma loja."
+          }
         ]
       }
     },
     "commonIssues": [
-      {"question": "Qual é a taxa de rescisão antecipada?", "answer": "Se estiveres sob um contrato de 1 ou 2 anos, o Xfinity cobra até 110 $ em taxas de rescisão antecipada. A taxa diminui mensalmente à medida que te aproximas do fim do contrato. Os clientes mensais não têm taxa de rescisão antecipada."},
-      {"question": "Tenho de devolver o equipamento?", "answer": "Sim — o equipamento não devolvido resulta em cobranças de 110 a 350 $ por dispositivo. Devolve-o no prazo de 10 dias após o cancelamento para evitar cobranças."},
-      {"question": "Posso cancelar online sem ligar?", "answer": "Algumas contas podem usar o chat do Assistente Xfinity para cancelar. Outras requerem uma chamada telefónica ou visita à loja. A via do chat é mais rápida se funcionar para o teu tipo de conta."}
+      {
+        "question": "Qual é a taxa de rescisão antecipada?",
+        "answer": "Se estiveres sob um contrato de 1 ou 2 anos, o Xfinity cobra até 110 $ em taxas de rescisão antecipada. A taxa diminui mensalmente à medida que te aproximas do fim do contrato. Os clientes mensais não têm taxa de rescisão antecipada."
+      },
+      {
+        "question": "Tenho de devolver o equipamento?",
+        "answer": "Sim — o equipamento não devolvido resulta em cobranças de 110 a 350 $ por dispositivo. Devolve-o no prazo de 10 dias após o cancelamento para evitar cobranças."
+      },
+      {
+        "question": "Posso cancelar online sem ligar?",
+        "answer": "Algumas contas podem usar o chat do Assistente Xfinity para cancelar. Outras requerem uma chamada telefónica ou visita à loja. A via do chat é mais rápida se funcionar para o teu tipo de conta."
+      }
     ],
     "alternatives": [
-      {"description": "Internet por fibra — preços competitivos"},
-      {"description": "Sem contratos, sem limites de dados"}
+      {
+        "description": "Internet por fibra — preços competitivos"
+      },
+      {
+        "description": "Sem contratos, sem limites de dados"
+      }
     ]
   },
   "fubotv": {
@@ -791,36 +1333,71 @@
     "platforms": {
       "web": {
         "steps": [
-          {"instruction": "Vai a fubo.tv e inicia sessão."},
-          {"instruction": "Clica no ícone do teu perfil (em cima à direita) → A Minha Conta."},
-          {"instruction": "Clica em Gerir Subscrição."},
-          {"instruction": "Clica em Cancelar Subscrição.", "note": "O FuboTV pode mostrar-te uma opção de pausa — só clica em Cancelar se quiseres cancelar completamente."},
-          {"instruction": "Seleciona um motivo → confirma o cancelamento."},
-          {"instruction": "Receberás um e-mail de confirmação."}
+          {
+            "instruction": "Vai a fubo.tv e inicia sessão."
+          },
+          {
+            "instruction": "Clica no ícone do teu perfil (em cima à direita) → A Minha Conta."
+          },
+          {
+            "instruction": "Clica em Gerir Subscrição."
+          },
+          {
+            "instruction": "Clica em Cancelar Subscrição.",
+            "note": "O FuboTV pode mostrar-te uma opção de pausa — só clica em Cancelar se quiseres cancelar completamente."
+          },
+          {
+            "instruction": "Seleciona um motivo → confirma o cancelamento."
+          },
+          {
+            "instruction": "Receberás um e-mail de confirmação."
+          }
         ]
       },
       "ios": {
         "steps": [
-          {"instruction": "Abre Definições → toca no teu nome → Subscrições."},
-          {"instruction": "Encontra FuboTV → toca nele."},
-          {"instruction": "Toca em Cancelar Subscrição → confirmar."}
+          {
+            "instruction": "Abre Definições → toca no teu nome → Subscrições."
+          },
+          {
+            "instruction": "Encontra FuboTV → toca nele."
+          },
+          {
+            "instruction": "Toca em Cancelar Subscrição → confirmar."
+          }
         ]
       },
       "android": {
         "steps": [
-          {"instruction": "Abre a Google Play Store → perfil → Pagamentos e subscrições → Subscrições."},
-          {"instruction": "Encontra FuboTV → toca em Cancelar subscrição → confirmar."}
+          {
+            "instruction": "Abre a Google Play Store → perfil → Pagamentos e subscrições → Subscrições."
+          },
+          {
+            "instruction": "Encontra FuboTV → toca em Cancelar subscrição → confirmar."
+          }
         ]
       }
     },
     "commonIssues": [
-      {"question": "Subscrevi através do Roku ou Amazon — como cancelo?", "answer": "Cancela através da plataforma que utilizaste: Roku (Definições → Subscrições → FuboTV), Amazon (amazon.com/mysubscriptions), ou as definições de subscrições do dispositivo Apple/Google."},
-      {"question": "O FuboTV oferece um período de avaliação gratuita?", "answer": "Períodos de avaliação gratuita são oferecidos ocasionalmente. Se cancelares durante uma avaliação, cancela pelo menos 24 horas antes de terminar para evitar ser cobrado."}
+      {
+        "question": "Subscrevi através do Roku ou Amazon — como cancelo?",
+        "answer": "Cancela através da plataforma que utilizaste: Roku (Definições → Subscrições → FuboTV), Amazon (amazon.com/mysubscriptions), ou as definições de subscrições do dispositivo Apple/Google."
+      },
+      {
+        "question": "O FuboTV oferece um período de avaliação gratuita?",
+        "answer": "Períodos de avaliação gratuita são oferecidos ocasionalmente. Se cancelares durante uma avaliação, cancela pelo menos 24 horas antes de terminar para evitar ser cobrado."
+      }
     ],
     "alternatives": [
-      {"description": "72,99 $/mês — mais de 100 canais, DVR ilimitado"},
-      {"description": "A partir de 40 $/mês — pacotes de canais flexíveis"},
-      {"description": "A partir de 64,99 $/mês — foco em desporto ao vivo"}
+      {
+        "description": "72,99 $/mês — mais de 100 canais, DVR ilimitado"
+      },
+      {
+        "description": "A partir de 40 $/mês — pacotes de canais flexíveis"
+      },
+      {
+        "description": "A partir de 64,99 $/mês — foco em desporto ao vivo"
+      }
     ]
   },
   "uber-eats": {
@@ -830,35 +1407,68 @@
     "platforms": {
       "web": {
         "steps": [
-          {"instruction": "Vai a uber.com e inicia sessão."},
-          {"instruction": "Clica no ícone do teu perfil → Uber One ou vai diretamente a uber.com/uberpro/uber-one."},
-          {"instruction": "Clica em Gerir subscrição."},
-          {"instruction": "Clica em Cancelar subscrição.", "note": "Os teus benefícios Uber One mantêm-se até ao fim do período de faturação."},
-          {"instruction": "Confirma o cancelamento."}
+          {
+            "instruction": "Vai a uber.com e inicia sessão."
+          },
+          {
+            "instruction": "Clica no ícone do teu perfil → Uber One ou vai diretamente a uber.com/uberpro/uber-one."
+          },
+          {
+            "instruction": "Clica em Gerir subscrição."
+          },
+          {
+            "instruction": "Clica em Cancelar subscrição.",
+            "note": "Os teus benefícios Uber One mantêm-se até ao fim do período de faturação."
+          },
+          {
+            "instruction": "Confirma o cancelamento."
+          }
         ]
       },
       "ios": {
         "steps": [
-          {"instruction": "Abre a aplicação Uber ou Uber Eats → toca no ícone do teu perfil."},
-          {"instruction": "Toca em Uber One → Gerir subscrição."},
-          {"instruction": "Toca em Cancelar subscrição → confirmar."}
+          {
+            "instruction": "Abre a aplicação Uber ou Uber Eats → toca no ícone do teu perfil."
+          },
+          {
+            "instruction": "Toca em Uber One → Gerir subscrição."
+          },
+          {
+            "instruction": "Toca em Cancelar subscrição → confirmar."
+          }
         ]
       },
       "android": {
         "steps": [
-          {"instruction": "Abre a aplicação Uber ou Uber Eats → ícone de perfil."},
-          {"instruction": "Toca em Uber One → Gerir subscrição → Cancelar subscrição."},
-          {"instruction": "Confirma o cancelamento."}
+          {
+            "instruction": "Abre a aplicação Uber ou Uber Eats → ícone de perfil."
+          },
+          {
+            "instruction": "Toca em Uber One → Gerir subscrição → Cancelar subscrição."
+          },
+          {
+            "instruction": "Confirma o cancelamento."
+          }
         ]
       }
     },
     "commonIssues": [
-      {"question": "Cancelar o Uber One cancela tanto os benefícios de viagens Uber como os do Uber Eats?", "answer": "Sim. O Uber One é uma subscrição única que cobre tanto os descontos em viagens Uber como os benefícios de entrega do Uber Eats. O cancelamento remove ambos."},
-      {"question": "Fui cobrado após cancelar.", "answer": "Se cancelaste antes da tua data de renovação mas mesmo assim foste cobrado, contacta o suporte Uber através da aplicação (Ajuda → Conta → Uber One) para obter um reembolso."}
+      {
+        "question": "Cancelar o Uber One cancela tanto os benefícios de viagens Uber como os do Uber Eats?",
+        "answer": "Sim. O Uber One é uma subscrição única que cobre tanto os descontos em viagens Uber como os benefícios de entrega do Uber Eats. O cancelamento remove ambos."
+      },
+      {
+        "question": "Fui cobrado após cancelar.",
+        "answer": "Se cancelaste antes da tua data de renovação mas mesmo assim foste cobrado, contacta o suporte Uber através da aplicação (Ajuda → Conta → Uber One) para obter um reembolso."
+      }
     ],
     "alternatives": [
-      {"description": "9,99 $/mês — entrega gratuita no DoorDash"},
-      {"description": "9,99 $/mês — entrega gratuita no Grubhub"}
+      {
+        "description": "9,99 $/mês — entrega gratuita no DoorDash"
+      },
+      {
+        "description": "9,99 $/mês — entrega gratuita no Grubhub"
+      }
     ]
   },
   "instacart": {
@@ -868,34 +1478,614 @@
     "platforms": {
       "web": {
         "steps": [
-          {"instruction": "Vai a instacart.com e inicia sessão."},
-          {"instruction": "Clica no ícone do teu perfil → Instacart+."},
-          {"instruction": "Clica em Gerir a tua subscrição."},
-          {"instruction": "Clica em Cancelar subscrição.", "note": "Se tiveres um plano anual com meses restantes, o Instacart pode oferecer um reembolso proporcional."},
-          {"instruction": "Confirma o cancelamento."}
+          {
+            "instruction": "Vai a instacart.com e inicia sessão."
+          },
+          {
+            "instruction": "Clica no ícone do teu perfil → Instacart+."
+          },
+          {
+            "instruction": "Clica em Gerir a tua subscrição."
+          },
+          {
+            "instruction": "Clica em Cancelar subscrição.",
+            "note": "Se tiveres um plano anual com meses restantes, o Instacart pode oferecer um reembolso proporcional."
+          },
+          {
+            "instruction": "Confirma o cancelamento."
+          }
         ]
       },
       "ios": {
         "steps": [
-          {"instruction": "Abre a aplicação Instacart → toca no ícone do teu perfil."},
-          {"instruction": "Toca em Instacart+ → Gerir subscrição."},
-          {"instruction": "Toca em Cancelar subscrição → confirmar."}
+          {
+            "instruction": "Abre a aplicação Instacart → toca no ícone do teu perfil."
+          },
+          {
+            "instruction": "Toca em Instacart+ → Gerir subscrição."
+          },
+          {
+            "instruction": "Toca em Cancelar subscrição → confirmar."
+          }
         ]
       },
       "android": {
         "steps": [
-          {"instruction": "Abre a aplicação Instacart → ícone de perfil → Instacart+."},
-          {"instruction": "Toca em Gerir subscrição → Cancelar subscrição → confirmar."}
+          {
+            "instruction": "Abre a aplicação Instacart → ícone de perfil → Instacart+."
+          },
+          {
+            "instruction": "Toca em Gerir subscrição → Cancelar subscrição → confirmar."
+          }
         ]
       }
     },
     "commonIssues": [
-      {"question": "Posso obter um reembolso pelo meu plano anual Instacart+?", "answer": "Sim, se não utilizaste muito a subscrição. O Instacart pode oferecer um reembolso proporcional pela parte não utilizada. Contacta o suporte se a opção não for mostrada durante o cancelamento."},
-      {"question": "O que acontece às minhas encomendas pendentes após o cancelamento?", "answer": "As encomendas ativas não são afetadas pelo cancelamento. As isenções de taxas de entrega não se aplicarão a novas encomendas feitas após o cancelamento."}
+      {
+        "question": "Posso obter um reembolso pelo meu plano anual Instacart+?",
+        "answer": "Sim, se não utilizaste muito a subscrição. O Instacart pode oferecer um reembolso proporcional pela parte não utilizada. Contacta o suporte se a opção não for mostrada durante o cancelamento."
+      },
+      {
+        "question": "O que acontece às minhas encomendas pendentes após o cancelamento?",
+        "answer": "As encomendas ativas não são afetadas pelo cancelamento. As isenções de taxas de entrega não se aplicarão a novas encomendas feitas após o cancelamento."
+      }
     ],
     "alternatives": [
-      {"description": "Entrega gratuita com Prime — entrega de supermercado"},
-      {"description": "99 $/ano — Target + outros retalhistas"}
+      {
+        "description": "Entrega gratuita com Prime — entrega de supermercado"
+      },
+      {
+        "description": "99 $/ano — Target + outros retalhistas"
+      }
+    ]
+  },
+  "espn-plus": {
+    "description": "Cancela o ESPN+ em menos de 5 minutos na web, iOS ou Android. Inclui passos para cancelar o Disney Bundle.",
+    "difficulty": "Fácil",
+    "difficultyReason": "O processo de cancelamento é simples, mas o Disney Bundle cancela todos os serviços em simultâneo.",
+    "refundPolicy": "Sem reembolsos. O acesso mantém-se até ao fim do período de faturação.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Inicia sessão em DisneyPlus.com ou ESPN.com."
+          },
+          {
+            "instruction": "Clica no ícone do teu perfil → Conta."
+          },
+          {
+            "instruction": "Clica em Subscrição."
+          },
+          {
+            "instruction": "Clica em Cancelar subscrição.",
+            "note": "Se tiveres o Disney Bundle, o ESPN+, Disney+ e Hulu serão cancelados em simultâneo."
+          },
+          {
+            "instruction": "Confirma o cancelamento."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abre as Definições → toca no teu nome de Apple ID → Subscrições."
+          },
+          {
+            "instruction": "Toca em ESPN+ → Cancelar subscrição → confirmar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abre a Google Play Store → toca no ícone do teu perfil."
+          },
+          {
+            "instruction": "Toca em Pagamentos e subscrições → Subscrições → ESPN+."
+          },
+          {
+            "instruction": "Toca em Cancelar subscrição → confirmar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Cancelar o ESPN+ cancela todo o Disney Bundle?",
+        "answer": "Sim. Se estiveres subscrito no Disney Bundle, cancelar através da conta cancela o ESPN+, Disney+ e Hulu em simultâneo."
+      },
+      {
+        "question": "Não consigo encontrar a opção de cancelamento.",
+        "answer": "Se te subscreveste no ESPN+ através do teu fornecedor de televisão, tens de cancelar diretamente com esse fornecedor, não no site do ESPN."
+      }
+    ]
+  },
+  "youtube-tv": {
+    "description": "Cancela o YouTube TV em menos de 3 minutos na web ou no telemóvel.",
+    "difficulty": "Fácil",
+    "difficultyReason": "O cancelamento na web é simples e requer apenas alguns cliques.",
+    "refundPolicy": "Sem reembolsos. O acesso mantém-se até ao fim do período de faturação. Podes pausar em vez de cancelar.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai a tv.youtube.com e inicia sessão."
+          },
+          {
+            "instruction": "Clica no ícone do teu perfil → Definições."
+          },
+          {
+            "instruction": "Clica em Subscrição → Cancelar subscrição."
+          },
+          {
+            "instruction": "Segue as instruções para confirmar o cancelamento."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abre as Definições → toca no teu nome de Apple ID → Subscrições."
+          },
+          {
+            "instruction": "Toca em YouTube TV → Cancelar subscrição → confirmar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abre a Google Play Store → Pagamentos e subscrições → Subscrições."
+          },
+          {
+            "instruction": "Toca em YouTube TV → Cancelar subscrição → confirmar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "O que acontece às minhas gravações DVR se cancelar?",
+        "answer": "Todas as gravações DVR serão eliminadas ao cancelar. Faz o download ou guarda-as antes de cancelar."
+      },
+      {
+        "question": "Posso pausar o YouTube TV em vez de cancelar?",
+        "answer": "Sim. Podes pausar a tua subscrição até 6 meses. Vai a Definições → Subscrição → Pausar subscrição."
+      }
+    ]
+  },
+  "paramount-plus": {
+    "description": "Cancela o Paramount+ em menos de 5 minutos na web, iOS ou Android.",
+    "difficulty": "Fácil",
+    "difficultyReason": "O cancelamento é simples, mas os utilizadores subscritos via Apple ou Amazon devem cancelar nessas plataformas.",
+    "refundPolicy": "Sem reembolsos. O acesso mantém-se até ao fim do período de faturação.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai a paramountplus.com e inicia sessão."
+          },
+          {
+            "instruction": "Clica no ícone do teu perfil → Definições."
+          },
+          {
+            "instruction": "Clica em Subscrição → Cancelar subscrição.",
+            "note": "Se tiveres o complemento SHOWTIME, também será cancelado."
+          },
+          {
+            "instruction": "Confirma o cancelamento."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abre as Definições → toca no teu nome de Apple ID → Subscrições."
+          },
+          {
+            "instruction": "Toca em Paramount+ → Cancelar subscrição → confirmar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abre a Google Play Store → Pagamentos e subscrições → Subscrições."
+          },
+          {
+            "instruction": "Toca em Paramount+ → Cancelar subscrição → confirmar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "O SHOWTIME é cancelado juntamente com o Paramount+?",
+        "answer": "Sim. Se tiveres o plano Paramount+ com SHOWTIME, ambos os serviços são cancelados em simultâneo."
+      },
+      {
+        "question": "Subscrevi o Paramount+ através da Apple ou Amazon.",
+        "answer": "Tens de cancelar diretamente através da Apple (Definições → Subscrições) ou Amazon (Prime Video → Canais), não no site do Paramount+."
+      }
+    ]
+  },
+  "apple-tv-plus": {
+    "description": "Cancela o Apple TV+ em menos de 2 minutos via iPhone, Mac ou web.",
+    "difficulty": "Fácil",
+    "difficultyReason": "O cancelamento é rápido e simples através de dispositivos Apple ou do site.",
+    "refundPolicy": "Sem reembolsos. O acesso mantém-se até ao fim do período de faturação.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai a appleid.apple.com e inicia sessão."
+          },
+          {
+            "instruction": "Clica em Subscrições."
+          },
+          {
+            "instruction": "Clica em Apple TV+ → Cancelar subscrição."
+          },
+          {
+            "instruction": "Confirma o cancelamento."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abre as Definições → toca no teu nome no topo."
+          },
+          {
+            "instruction": "Toca em Subscrições → Apple TV+."
+          },
+          {
+            "instruction": "Toca em Cancelar subscrição → confirmar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "O Apple TV+ nao tem aplicacao Android para gerir subscricoes."
+          },
+          {
+            "instruction": "Visita appleid.apple.com no teu navegador movel e segue os passos da web."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "O periodo de teste gratuito do dispositivo e cobrado automaticamente?",
+        "answer": "Sim. Se recebeste o Apple TV+ como bonus de dispositivo e nao cancelares antes do fim do periodo de teste, seras cobrado automaticamente pela tarifa regular."
+      },
+      {
+        "question": "Cancelar o Apple TV+ afeta outras subscricoes Apple?",
+        "answer": "Nao. O Apple TV+ e independente do Apple Music, iCloud e outros servicos Apple. Cancelar um nao afeta os outros."
+      }
+    ]
+  },
+  "dazn": {
+    "description": "Cancela o DAZN em menos de 5 minutos via web ou telemóvel.",
+    "difficulty": "Médio",
+    "difficultyReason": "O processo de cancelamento varia consoante a região e as condições do contrato.",
+    "refundPolicy": "Sem reembolsos por meses parciais. O acesso mantém-se até ao fim do período de faturação.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai a dazn.com e inicia sessão."
+          },
+          {
+            "instruction": "Clica no ícone do teu perfil → A minha conta."
+          },
+          {
+            "instruction": "Clica em Subscrição → Cancelar subscrição.",
+            "note": "A interface exata pode variar consoante a tua região."
+          },
+          {
+            "instruction": "Segue as instruções e confirma o cancelamento."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abre as Definições → toca no teu nome de Apple ID → Subscrições."
+          },
+          {
+            "instruction": "Toca em DAZN → Cancelar subscrição → confirmar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abre a Google Play Store → Pagamentos e subscrições → Subscrições."
+          },
+          {
+            "instruction": "Toca em DAZN → Cancelar subscrição → confirmar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Porque é que a interface é diferente na minha região?",
+        "answer": "O DAZN está disponível em muitos países e a interface e as opções de cancelamento podem variar consoante a região."
+      },
+      {
+        "question": "Receberei um reembolso pelo mês restante?",
+        "answer": "Não. O DAZN não reembolsa meses parciais. O teu acesso mantém-se até ao fim do período de faturação atual."
+      }
+    ]
+  },
+  "philo": {
+    "description": "Cancela o Philo em menos de 3 minutos na web, iOS ou Android.",
+    "difficulty": "Fácil",
+    "difficultyReason": "O Philo facilita o cancelamento sem taxa de cancelamento nem fricção de retenção.",
+    "refundPolicy": "Sem taxa de cancelamento. Sem reembolsos por meses parciais.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai a philo.com e inicia sessão."
+          },
+          {
+            "instruction": "Clica em Definições → Pagamentos."
+          },
+          {
+            "instruction": "Clica em Cancelar plano."
+          },
+          {
+            "instruction": "Confirma o cancelamento."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abre as Definições → toca no teu nome de Apple ID → Subscrições."
+          },
+          {
+            "instruction": "Toca em Philo → Cancelar subscrição → confirmar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abre a Google Play Store → Pagamentos e subscrições → Subscrições."
+          },
+          {
+            "instruction": "Toca em Philo → Cancelar subscrição → confirmar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Existe alguma taxa de cancelamento?",
+        "answer": "Não. O Philo não cobra taxas de cancelamento. Podes cancelar a qualquer momento."
+      },
+      {
+        "question": "Posso pausar o Philo em vez de cancelar?",
+        "answer": "Não. O Philo não oferece função de pausa. Tens de cancelar e subscrever novamente mais tarde se quiseres."
+      }
+    ]
+  },
+  "sling-tv": {
+    "description": "Cancela o Sling TV em menos de 5 minutos na web ou no telemóvel.",
+    "difficulty": "Fácil",
+    "difficultyReason": "O cancelamento é simples, mas o Sling TV pode oferecer um desconto para tentar reter-te.",
+    "refundPolicy": "Sem reembolsos. O acesso mantém-se até ao fim do período de faturação. As gravações DVR serão eliminadas.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai a sling.com/account/cancel-service e inicia sessão."
+          },
+          {
+            "instruction": "Clica em Cancelar serviço.",
+            "note": "O Sling TV pode oferecer um desconto ou opção de pausa antes de finalizar o cancelamento."
+          },
+          {
+            "instruction": "Recusa todas as ofertas e confirma o cancelamento."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abre as Definições → toca no teu nome de Apple ID → Subscrições."
+          },
+          {
+            "instruction": "Toca em Sling TV → Cancelar subscrição → confirmar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abre a Google Play Store → Pagamentos e subscrições → Subscrições."
+          },
+          {
+            "instruction": "Toca em Sling TV → Cancelar subscrição → confirmar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "O Sling TV ofereceu-me um desconto, devo aceitá-lo?",
+        "answer": "Depende de ti. O Sling TV frequentemente oferece 50% de desconto durante um ou dois meses para reter subscritores. Se só precisas de uma pausa, pode ser uma boa opção."
+      },
+      {
+        "question": "O que acontece às minhas gravações DVR após o cancelamento?",
+        "answer": "Todas as gravações DVR serão eliminadas após o cancelamento. Guarda qualquer conteúdo importante antes de cancelar."
+      }
+    ]
+  },
+  "whoop": {
+    "description": "Cancela a tua subscrição WHOOP — pode ser necessário contactar o suporte.",
+    "difficulty": "Difícil",
+    "difficultyReason": "O WHOOP tem um período de compromisso e o processo de cancelamento requer frequentemente contactar o suporte.",
+    "refundPolicy": "Sem reembolsos. Aplica-se um período de compromisso. O dispositivo deixa de funcionar sem subscrição ativa.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai a app.whoop.com e inicia sessão."
+          },
+          {
+            "instruction": "Clica no ícone do teu perfil → Subscrição.",
+            "note": "Se ainda estiveres dentro do período de compromisso, o cancelamento pode estar bloqueado."
+          },
+          {
+            "instruction": "Clica em Cancelar ou contacta o suporte WHOOP em support.whoop.com."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Se te subscreveste via App Store: Definições → nome de Apple ID → Subscrições → WHOOP → Cancelar."
+          },
+          {
+            "instruction": "Caso contrário, contacta o suporte WHOOP."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Se te subscreveste via Google Play: Play Store → Pagamentos e subscrições → WHOOP → Cancelar."
+          },
+          {
+            "instruction": "Caso contrário, contacta o suporte WHOOP."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "O meu cancelamento está bloqueado por um período de compromisso.",
+        "answer": "O WHOOP tem geralmente um período de compromisso de 12 meses. Se ainda estiveres dentro desse período, terás de esperar até ao fim ou contactar o suporte."
+      },
+      {
+        "question": "O meu dispositivo WHOOP continuará a funcionar após o cancelamento?",
+        "answer": "Não. O dispositivo WHOOP requer uma subscrição ativa. Sem subscrição, o dispositivo perderá a sua funcionalidade."
+      }
+    ]
+  },
+  "factor-meals": {
+    "description": "Cancela o Factor Meals antes de quarta-feira às 23:59 CT para evitar a cobrança da semana seguinte.",
+    "difficulty": "Médio",
+    "difficultyReason": "O prazo semanal de cancelamento (quarta-feira 23:59 CT) é rigoroso e fácil de deixar passar.",
+    "refundPolicy": "Sem reembolsos se o prazo for ultrapassado. As encomendas já processadas não podem ser canceladas.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai a factor75.com e inicia sessão."
+          },
+          {
+            "instruction": "Clica em Definições da conta → Definições do plano."
+          },
+          {
+            "instruction": "Clica em Cancelar plano.",
+            "note": "Tens de cancelar antes de quarta-feira às 23:59 CT para evitar a cobrança da próxima entrega."
+          },
+          {
+            "instruction": "Confirma o cancelamento."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "O Factor Meals nao tem opcao de cancelamento na aplicacao."
+          },
+          {
+            "instruction": "Usa o navegador movel para aceder a factor75.com e segue os passos da web."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "O Factor Meals nao tem opcao de cancelamento na aplicacao."
+          },
+          {
+            "instruction": "Usa o navegador movel para aceder a factor75.com e segue os passos da web."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Perdi o prazo de quarta-feira — serei cobrado na mesma?",
+        "answer": "Sim. Se perdeste o prazo (quarta-feira 23:59 CT), a semana seguinte já está processada e serás cobrado. Contacta o suporte se achares que houve um erro."
+      },
+      {
+        "question": "Posso pausar as entregas em vez de cancelar?",
+        "answer": "Sim. Podes saltar semanas individuais ou pausar o teu plano em vez de cancelar completamente. É uma boa opção se só precisas de uma pausa temporária."
+      }
+    ]
+  },
+  "stitch-fix": {
+    "description": "Cancela ou pausa a tua subscrição Stitch Fix em 2 minutos online.",
+    "difficulty": "Fácil",
+    "difficultyReason": "O cancelamento é simples, mas cancelar os Fixes não encerra a conta.",
+    "refundPolicy": "Sem reembolsos por Fixes enviados. Devolve os artigos indesejados no prazo de 3 dias.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai a stitchfix.com e inicia sessão."
+          },
+          {
+            "instruction": "Clica em Definições da conta → Programa de Fixes."
+          },
+          {
+            "instruction": "Clica em Cancelar Fixes."
+          },
+          {
+            "instruction": "Confirma o cancelamento."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "O Stitch Fix nao gere subscricoes atraves da aplicacao."
+          },
+          {
+            "instruction": "Visita stitchfix.com no teu navegador e segue os passos da web."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "O Stitch Fix nao gere subscricoes atraves da aplicacao."
+          },
+          {
+            "instruction": "Visita stitchfix.com no teu navegador e segue os passos da web."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Cancelar os Fixes e o mesmo que encerrar a minha conta?",
+        "answer": "Nao. Cancelar os Fixes significa que nao receberas novas entregas. A tua conta mantém-se ativa. Para encerrar completamente a conta, contacta o suporte."
+      },
+      {
+        "question": "Recebi um Fix que nao quero ficar.",
+        "answer": "Devolve os artigos indesejados no prazo de 3 dias apos recepcao. Apos esse prazo, seras cobrado pelo preco dos artigos que ficaste."
+      }
     ]
   }
 }

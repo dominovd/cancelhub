@@ -6,29 +6,61 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Buka netflix.com dan masuk ke akun Anda." },
-          { "instruction": "Klik ikon profil Anda → Akun." },
-          { "instruction": "Di bawah \"Keanggotaan\", klik \"Batalkan Keanggotaan\"." },
-          { "instruction": "Klik \"Selesaikan Pembatalan\" untuk mengonfirmasi." },
-          { "instruction": "Anda akan menerima email konfirmasi. Simpan sebagai bukti.", "note": "Akses berlanjut hingga akhir periode penagihan Anda saat ini." }
+          {
+            "instruction": "Buka netflix.com dan masuk ke akun Anda."
+          },
+          {
+            "instruction": "Klik ikon profil Anda → Akun."
+          },
+          {
+            "instruction": "Di bawah \"Keanggotaan\", klik \"Batalkan Keanggotaan\"."
+          },
+          {
+            "instruction": "Klik \"Selesaikan Pembatalan\" untuk mengonfirmasi."
+          },
+          {
+            "instruction": "Anda akan menerima email konfirmasi. Simpan sebagai bukti.",
+            "note": "Akses berlanjut hingga akhir periode penagihan Anda saat ini."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Buka Pengaturan iPhone → ketuk nama Anda di bagian atas." },
-          { "instruction": "Ketuk \"Langganan\"." },
-          { "instruction": "Cari dan ketuk \"Netflix\"." },
-          { "instruction": "Ketuk \"Batalkan Langganan\" → Konfirmasi." },
-          { "instruction": "Anda tetap memiliki akses hingga akhir periode penagihan.", "note": "Apple tidak memberikan pengembalian dana sebagian." }
+          {
+            "instruction": "Buka Pengaturan iPhone → ketuk nama Anda di bagian atas."
+          },
+          {
+            "instruction": "Ketuk \"Langganan\"."
+          },
+          {
+            "instruction": "Cari dan ketuk \"Netflix\"."
+          },
+          {
+            "instruction": "Ketuk \"Batalkan Langganan\" → Konfirmasi."
+          },
+          {
+            "instruction": "Anda tetap memiliki akses hingga akhir periode penagihan.",
+            "note": "Apple tidak memberikan pengembalian dana sebagian."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Buka Google Play Store." },
-          { "instruction": "Ketuk ikon profil Anda → \"Pembayaran & langganan\" → \"Langganan\"." },
-          { "instruction": "Cari \"Netflix\" dan ketuk." },
-          { "instruction": "Ketuk \"Batalkan langganan\" dan ikuti petunjuknya." },
-          { "instruction": "Akses berlanjut hingga akhir periode penagihan." }
+          {
+            "instruction": "Buka Google Play Store."
+          },
+          {
+            "instruction": "Ketuk ikon profil Anda → \"Pembayaran & langganan\" → \"Langganan\"."
+          },
+          {
+            "instruction": "Cari \"Netflix\" dan ketuk."
+          },
+          {
+            "instruction": "Ketuk \"Batalkan langganan\" dan ikuti petunjuknya."
+          },
+          {
+            "instruction": "Akses berlanjut hingga akhir periode penagihan."
+          }
         ]
       }
     },
@@ -47,9 +79,15 @@
       }
     ],
     "alternatives": [
-      { "description": "Bebas iklan, Rp49.000/bln" },
-      { "description": "Disney, Marvel, Star Wars — Rp39.000/bln" },
-      { "description": "Konten HBO — Rp109.000/bln" }
+      {
+        "description": "Bebas iklan, Rp49.000/bln"
+      },
+      {
+        "description": "Disney, Marvel, Star Wars — Rp39.000/bln"
+      },
+      {
+        "description": "Konten HBO — Rp109.000/bln"
+      }
     ]
   },
   "spotify": {
@@ -59,26 +97,51 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Buka spotify.com/account dan masuk." },
-          { "instruction": "Klik \"Ganti paket\" atau gulir ke \"Paket Anda\"." },
-          { "instruction": "Gulir ke bawah dan klik \"Batalkan Premium\"." },
-          { "instruction": "Ikuti langkah konfirmasi (Spotify mungkin menawarkan diskon — lewati jika tidak tertarik)." },
-          { "instruction": "Klik \"Tetap batalkan\" untuk mengonfirmasi. Anda akan mendapat email konfirmasi.", "note": "Anda tetap memiliki Premium hingga akhir periode penagihan." }
+          {
+            "instruction": "Buka spotify.com/account dan masuk."
+          },
+          {
+            "instruction": "Klik \"Ganti paket\" atau gulir ke \"Paket Anda\"."
+          },
+          {
+            "instruction": "Gulir ke bawah dan klik \"Batalkan Premium\"."
+          },
+          {
+            "instruction": "Ikuti langkah konfirmasi (Spotify mungkin menawarkan diskon — lewati jika tidak tertarik)."
+          },
+          {
+            "instruction": "Klik \"Tetap batalkan\" untuk mengonfirmasi. Anda akan mendapat email konfirmasi.",
+            "note": "Anda tetap memiliki Premium hingga akhir periode penagihan."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Buka Pengaturan iPhone → ketuk nama Apple ID Anda." },
-          { "instruction": "Ketuk \"Langganan\" → cari Spotify." },
-          { "instruction": "Ketuk \"Batalkan Langganan\" → Konfirmasi." }
+          {
+            "instruction": "Buka Pengaturan iPhone → ketuk nama Apple ID Anda."
+          },
+          {
+            "instruction": "Ketuk \"Langganan\" → cari Spotify."
+          },
+          {
+            "instruction": "Ketuk \"Batalkan Langganan\" → Konfirmasi."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Buka Google Play Store → ketuk ikon profil Anda." },
-          { "instruction": "Buka \"Pembayaran & langganan\" → \"Langganan\"." },
-          { "instruction": "Cari Spotify → ketuk \"Batalkan langganan\"." },
-          { "instruction": "Ikuti petunjuk konfirmasi." }
+          {
+            "instruction": "Buka Google Play Store → ketuk ikon profil Anda."
+          },
+          {
+            "instruction": "Buka \"Pembayaran & langganan\" → \"Langganan\"."
+          },
+          {
+            "instruction": "Cari Spotify → ketuk \"Batalkan langganan\"."
+          },
+          {
+            "instruction": "Ikuti petunjuk konfirmasi."
+          }
         ]
       }
     },
@@ -93,8 +156,12 @@
       }
     ],
     "alternatives": [
-      { "description": "Rp109.000/bln, bagus untuk pengguna ekosistem Apple" },
-      { "description": "Rp109.000/bln, termasuk dalam YouTube Premium" }
+      {
+        "description": "Rp109.000/bln, bagus untuk pengguna ekosistem Apple"
+      },
+      {
+        "description": "Rp109.000/bln, termasuk dalam YouTube Premium"
+      }
     ]
   },
   "adobe": {
@@ -104,24 +171,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Buka account.adobe.com dan masuk." },
-          { "instruction": "Klik \"Plans & Products\" di bilah sisi kiri." },
-          { "instruction": "Temukan paket Creative Cloud Anda dan klik \"Kelola paket\"." },
-          { "instruction": "Klik \"Batalkan paket Anda\".", "note": "Adobe akan menampilkan biaya penghentian dini pada langkah ini." },
-          { "instruction": "Pilih alasan → Adobe akan membuat beberapa penawaran (diskon, jeda). Klik \"Lanjutkan untuk membatalkan\" setiap kali." },
-          { "instruction": "Konfirmasi pembatalan. Simpan nomor konfirmasi." }
+          {
+            "instruction": "Buka account.adobe.com dan masuk."
+          },
+          {
+            "instruction": "Klik \"Plans & Products\" di bilah sisi kiri."
+          },
+          {
+            "instruction": "Temukan paket Creative Cloud Anda dan klik \"Kelola paket\"."
+          },
+          {
+            "instruction": "Klik \"Batalkan paket Anda\".",
+            "note": "Adobe akan menampilkan biaya penghentian dini pada langkah ini."
+          },
+          {
+            "instruction": "Pilih alasan → Adobe akan membuat beberapa penawaran (diskon, jeda). Klik \"Lanjutkan untuk membatalkan\" setiap kali."
+          },
+          {
+            "instruction": "Konfirmasi pembatalan. Simpan nomor konfirmasi."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Jika berlangganan melalui App Store: buka Pengaturan → Apple ID → Langganan → Adobe → Batalkan." },
-          { "instruction": "Jika berlangganan langsung dengan Adobe: gunakan langkah-langkah web di atas — aplikasi tidak mendukung pembatalan langsung." }
+          {
+            "instruction": "Jika berlangganan melalui App Store: buka Pengaturan → Apple ID → Langganan → Adobe → Batalkan."
+          },
+          {
+            "instruction": "Jika berlangganan langsung dengan Adobe: gunakan langkah-langkah web di atas — aplikasi tidak mendukung pembatalan langsung."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Jika berlangganan melalui Google Play: buka Play Store → Langganan → Adobe → Batalkan." },
-          { "instruction": "Jika berlangganan langsung dengan Adobe: gunakan langkah-langkah web di atas." }
+          {
+            "instruction": "Jika berlangganan melalui Google Play: buka Play Store → Langganan → Adobe → Batalkan."
+          },
+          {
+            "instruction": "Jika berlangganan langsung dengan Adobe: gunakan langkah-langkah web di atas."
+          }
         ]
       }
     },
@@ -140,9 +228,15 @@
       }
     ],
     "alternatives": [
-      { "description": "Pembelian sekali, tanpa langganan. Alternatif Photoshop/Illustrator." },
-      { "description": "Rp199.000/bln — bagus untuk non-desainer" },
-      { "description": "Tersedia tier gratis, terbaik untuk desain UI/UX" }
+      {
+        "description": "Pembelian sekali, tanpa langganan. Alternatif Photoshop/Illustrator."
+      },
+      {
+        "description": "Rp199.000/bln — bagus untuk non-desainer"
+      },
+      {
+        "description": "Tersedia tier gratis, terbaik untuk desain UI/UX"
+      }
     ]
   },
   "chatgpt": {
@@ -152,26 +246,51 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Buka chatgpt.com dan masuk." },
-          { "instruction": "Klik nama atau ikon profil Anda di pojok kiri bawah." },
-          { "instruction": "Buka \"Pengaturan\" → \"Langganan\"." },
-          { "instruction": "Klik \"Kelola langganan saya\"." },
-          { "instruction": "Klik \"Batalkan paket\" → Konfirmasi." },
-          { "instruction": "Anda akan menerima email konfirmasi. Akses Plus berlanjut hingga akhir periode.", "note": "ChatGPT secara otomatis kembali ke paket gratis." }
+          {
+            "instruction": "Buka chatgpt.com dan masuk."
+          },
+          {
+            "instruction": "Klik nama atau ikon profil Anda di pojok kiri bawah."
+          },
+          {
+            "instruction": "Buka \"Pengaturan\" → \"Langganan\"."
+          },
+          {
+            "instruction": "Klik \"Kelola langganan saya\"."
+          },
+          {
+            "instruction": "Klik \"Batalkan paket\" → Konfirmasi."
+          },
+          {
+            "instruction": "Anda akan menerima email konfirmasi. Akses Plus berlanjut hingga akhir periode.",
+            "note": "ChatGPT secara otomatis kembali ke paket gratis."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Buka Pengaturan → ketuk nama Apple ID Anda → Langganan." },
-          { "instruction": "Cari \"ChatGPT\" → ketuk." },
-          { "instruction": "Ketuk \"Batalkan Langganan\" → Konfirmasi." }
+          {
+            "instruction": "Buka Pengaturan → ketuk nama Apple ID Anda → Langganan."
+          },
+          {
+            "instruction": "Cari \"ChatGPT\" → ketuk."
+          },
+          {
+            "instruction": "Ketuk \"Batalkan Langganan\" → Konfirmasi."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Buka Google Play Store → ikon profil → \"Pembayaran & langganan\" → \"Langganan\"." },
-          { "instruction": "Cari \"ChatGPT\" → ketuk \"Batalkan langganan\"." },
-          { "instruction": "Ikuti petunjuk konfirmasi." }
+          {
+            "instruction": "Buka Google Play Store → ikon profil → \"Pembayaran & langganan\" → \"Langganan\"."
+          },
+          {
+            "instruction": "Cari \"ChatGPT\" → ketuk \"Batalkan langganan\"."
+          },
+          {
+            "instruction": "Ikuti petunjuk konfirmasi."
+          }
         ]
       }
     },
@@ -186,9 +305,15 @@
       }
     ],
     "alternatives": [
-      { "description": "AI dari Anthropic — tier gratis + Rp329.000/bln Pro" },
-      { "description": "AI dari Google — Rp329.000/bln, termasuk dalam Google One AI Premium" },
-      { "description": "Rp329.000/bln — mesin pencari berbasis AI" }
+      {
+        "description": "AI dari Anthropic — tier gratis + Rp329.000/bln Pro"
+      },
+      {
+        "description": "AI dari Google — Rp329.000/bln, termasuk dalam Google One AI Premium"
+      },
+      {
+        "description": "Rp329.000/bln — mesin pencari berbasis AI"
+      }
     ]
   },
   "amazon-prime": {
@@ -198,28 +323,57 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Buka amazon.co.id → arahkan kursor ke \"Akun & Daftar\" → klik \"Akun\"." },
-          { "instruction": "Klik \"Prime\" atau cari \"Kelola Keanggotaan Prime\" di pengaturan akun." },
-          { "instruction": "Klik \"Perbarui, batalkan, dan lainnya\" → \"Akhiri keanggotaan\"." },
-          { "instruction": "Pilih \"Akhiri Keanggotaan\" (bukan \"Ingatkan saya nanti\" atau opsi lain yang ditampilkan Amazon).", "note": "Amazon akan menampilkan jumlah pengembalian dana jika Anda memenuhi syarat." },
-          { "instruction": "Klik \"Batalkan keanggotaan\" untuk mengonfirmasi." },
-          { "instruction": "Periksa email Anda untuk konfirmasi." }
+          {
+            "instruction": "Buka amazon.co.id → arahkan kursor ke \"Akun & Daftar\" → klik \"Akun\"."
+          },
+          {
+            "instruction": "Klik \"Prime\" atau cari \"Kelola Keanggotaan Prime\" di pengaturan akun."
+          },
+          {
+            "instruction": "Klik \"Perbarui, batalkan, dan lainnya\" → \"Akhiri keanggotaan\"."
+          },
+          {
+            "instruction": "Pilih \"Akhiri Keanggotaan\" (bukan \"Ingatkan saya nanti\" atau opsi lain yang ditampilkan Amazon).",
+            "note": "Amazon akan menampilkan jumlah pengembalian dana jika Anda memenuhi syarat."
+          },
+          {
+            "instruction": "Klik \"Batalkan keanggotaan\" untuk mengonfirmasi."
+          },
+          {
+            "instruction": "Periksa email Anda untuk konfirmasi."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Buka aplikasi Amazon Shopping → ketuk tiga garis (menu)." },
-          { "instruction": "Gulir ke \"Akun\" → ketuk \"Kelola Keanggotaan Prime\"." },
-          { "instruction": "Ketuk \"Perbarui, batalkan, dan lainnya\" → \"Akhiri keanggotaan\"." },
-          { "instruction": "Ikuti petunjuk yang sama seperti versi web." },
-          { "instruction": "Catatan: jika Anda berlangganan melalui Apple, batalkan melalui Pengaturan iOS → Langganan." }
+          {
+            "instruction": "Buka aplikasi Amazon Shopping → ketuk tiga garis (menu)."
+          },
+          {
+            "instruction": "Gulir ke \"Akun\" → ketuk \"Kelola Keanggotaan Prime\"."
+          },
+          {
+            "instruction": "Ketuk \"Perbarui, batalkan, dan lainnya\" → \"Akhiri keanggotaan\"."
+          },
+          {
+            "instruction": "Ikuti petunjuk yang sama seperti versi web."
+          },
+          {
+            "instruction": "Catatan: jika Anda berlangganan melalui Apple, batalkan melalui Pengaturan iOS → Langganan."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Buka aplikasi Amazon Shopping → menu → \"Akun\"." },
-          { "instruction": "Ketuk \"Kelola Keanggotaan Prime\" → \"Akhiri keanggotaan\"." },
-          { "instruction": "Jika berlangganan melalui Google Play, batalkan melalui Play Store → Langganan." }
+          {
+            "instruction": "Buka aplikasi Amazon Shopping → menu → \"Akun\"."
+          },
+          {
+            "instruction": "Ketuk \"Kelola Keanggotaan Prime\" → \"Akhiri keanggotaan\"."
+          },
+          {
+            "instruction": "Jika berlangganan melalui Google Play, batalkan melalui Play Store → Langganan."
+          }
         ]
       }
     },
@@ -245,26 +399,51 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Buka disneyplus.com dan masuk." },
-          { "instruction": "Klik ikon profil Anda → \"Akun\"." },
-          { "instruction": "Di bawah \"Langganan\", klik \"Batalkan langganan\"." },
-          { "instruction": "Pilih alasan → Klik \"Lanjutkan\"." },
-          { "instruction": "Klik \"Batalkan langganan\" untuk mengonfirmasi." },
-          { "instruction": "Anda akan menerima email konfirmasi.", "note": "Akses berlanjut hingga tanggal penagihan Anda." }
+          {
+            "instruction": "Buka disneyplus.com dan masuk."
+          },
+          {
+            "instruction": "Klik ikon profil Anda → \"Akun\"."
+          },
+          {
+            "instruction": "Di bawah \"Langganan\", klik \"Batalkan langganan\"."
+          },
+          {
+            "instruction": "Pilih alasan → Klik \"Lanjutkan\"."
+          },
+          {
+            "instruction": "Klik \"Batalkan langganan\" untuk mengonfirmasi."
+          },
+          {
+            "instruction": "Anda akan menerima email konfirmasi.",
+            "note": "Akses berlanjut hingga tanggal penagihan Anda."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Buka Pengaturan → ketuk nama Anda → Langganan." },
-          { "instruction": "Cari \"Disney+\" → ketuk." },
-          { "instruction": "Ketuk \"Batalkan Langganan\" → konfirmasi." }
+          {
+            "instruction": "Buka Pengaturan → ketuk nama Anda → Langganan."
+          },
+          {
+            "instruction": "Cari \"Disney+\" → ketuk."
+          },
+          {
+            "instruction": "Ketuk \"Batalkan Langganan\" → konfirmasi."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Buka Google Play Store → profil → \"Pembayaran & langganan\" → \"Langganan\"." },
-          { "instruction": "Cari Disney+ → ketuk \"Batalkan langganan\"." },
-          { "instruction": "Selesaikan alur konfirmasi." }
+          {
+            "instruction": "Buka Google Play Store → profil → \"Pembayaran & langganan\" → \"Langganan\"."
+          },
+          {
+            "instruction": "Cari Disney+ → ketuk \"Batalkan langganan\"."
+          },
+          {
+            "instruction": "Selesaikan alur konfirmasi."
+          }
         ]
       }
     },
@@ -286,25 +465,48 @@
     "platforms": {
       "ios": {
         "steps": [
-          { "instruction": "Buka Pengaturan → ketuk nama Anda di bagian atas." },
-          { "instruction": "Ketuk \"Langganan\"." },
-          { "instruction": "Ketuk \"Apple Music\"." },
-          { "instruction": "Ketuk \"Batalkan Langganan\" → Konfirmasi.", "note": "Jika Anda sedang dalam uji coba gratis, Anda akan melihat tanggal berakhirnya uji coba." }
+          {
+            "instruction": "Buka Pengaturan → ketuk nama Anda di bagian atas."
+          },
+          {
+            "instruction": "Ketuk \"Langganan\"."
+          },
+          {
+            "instruction": "Ketuk \"Apple Music\"."
+          },
+          {
+            "instruction": "Ketuk \"Batalkan Langganan\" → Konfirmasi.",
+            "note": "Jika Anda sedang dalam uji coba gratis, Anda akan melihat tanggal berakhirnya uji coba."
+          }
         ]
       },
       "web": {
         "steps": [
-          { "instruction": "Buka aplikasi Musik di Mac → klik nama Anda → Pengaturan Akun. Atau kunjungi music.apple.com dan masuk." },
-          { "instruction": "Temukan \"Langganan\" → klik \"Kelola\"." },
-          { "instruction": "Temukan Apple Music → klik \"Edit\" → \"Batalkan Langganan\"." },
-          { "instruction": "Konfirmasi pembatalan." }
+          {
+            "instruction": "Buka aplikasi Musik di Mac → klik nama Anda → Pengaturan Akun. Atau kunjungi music.apple.com dan masuk."
+          },
+          {
+            "instruction": "Temukan \"Langganan\" → klik \"Kelola\"."
+          },
+          {
+            "instruction": "Temukan Apple Music → klik \"Edit\" → \"Batalkan Langganan\"."
+          },
+          {
+            "instruction": "Konfirmasi pembatalan."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Buka aplikasi Apple Music di Android." },
-          { "instruction": "Ketuk profil Anda → Pengaturan Akun → Langganan." },
-          { "instruction": "Ketuk \"Batalkan Langganan\" → Konfirmasi." }
+          {
+            "instruction": "Buka aplikasi Apple Music di Android."
+          },
+          {
+            "instruction": "Ketuk profil Anda → Pengaturan Akun → Langganan."
+          },
+          {
+            "instruction": "Ketuk \"Batalkan Langganan\" → Konfirmasi."
+          }
         ]
       }
     },
@@ -326,24 +528,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Buka account.microsoft.com dan masuk." },
-          { "instruction": "Klik \"Layanan & langganan\" di navigasi atas." },
-          { "instruction": "Temukan Microsoft 365 → klik \"Kelola\"." },
-          { "instruction": "Klik \"Batalkan\" di bawah detail langganan." },
-          { "instruction": "Ikuti petunjuknya. Microsoft mungkin menawarkan diskon — lewati jika ingin membatalkan.", "note": "Jika Anda memiliki lebih dari 5GB di OneDrive, unduh file Anda terlebih dahulu." },
-          { "instruction": "Konfirmasi pembatalan. Anda akan mendapat email konfirmasi." }
+          {
+            "instruction": "Buka account.microsoft.com dan masuk."
+          },
+          {
+            "instruction": "Klik \"Layanan & langganan\" di navigasi atas."
+          },
+          {
+            "instruction": "Temukan Microsoft 365 → klik \"Kelola\"."
+          },
+          {
+            "instruction": "Klik \"Batalkan\" di bawah detail langganan."
+          },
+          {
+            "instruction": "Ikuti petunjuknya. Microsoft mungkin menawarkan diskon — lewati jika ingin membatalkan.",
+            "note": "Jika Anda memiliki lebih dari 5GB di OneDrive, unduh file Anda terlebih dahulu."
+          },
+          {
+            "instruction": "Konfirmasi pembatalan. Anda akan mendapat email konfirmasi."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Jika berlangganan melalui App Store: Pengaturan → Apple ID → Langganan → Microsoft 365 → Batalkan." },
-          { "instruction": "Jika berlangganan melalui Microsoft langsung: gunakan langkah-langkah web di atas." }
+          {
+            "instruction": "Jika berlangganan melalui App Store: Pengaturan → Apple ID → Langganan → Microsoft 365 → Batalkan."
+          },
+          {
+            "instruction": "Jika berlangganan melalui Microsoft langsung: gunakan langkah-langkah web di atas."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Jika berlangganan melalui Google Play: Play Store → Langganan → Microsoft 365 → Batalkan." },
-          { "instruction": "Jika berlangganan langsung: gunakan langkah-langkah web di atas." }
+          {
+            "instruction": "Jika berlangganan melalui Google Play: Play Store → Langganan → Microsoft 365 → Batalkan."
+          },
+          {
+            "instruction": "Jika berlangganan langsung: gunakan langkah-langkah web di atas."
+          }
         ]
       }
     },
@@ -362,8 +585,12 @@
       }
     ],
     "alternatives": [
-      { "description": "Docs, Sheets, Slides — gratis dengan akun Google" },
-      { "description": "Gratis, alternatif Office sumber terbuka" }
+      {
+        "description": "Docs, Sheets, Slides — gratis dengan akun Google"
+      },
+      {
+        "description": "Gratis, alternatif Office sumber terbuka"
+      }
     ]
   },
   "claude": {
@@ -373,23 +600,42 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Buka claude.ai dan masuk." },
-          { "instruction": "Klik ikon profil Anda → \"Pengaturan\"." },
-          { "instruction": "Buka \"Penagihan\" di bilah sisi." },
-          { "instruction": "Klik \"Batalkan paket\" atau \"Batalkan langganan\"." },
-          { "instruction": "Konfirmasi pembatalan.", "note": "Akses Pro berlanjut hingga akhir periode penagihan Anda." }
+          {
+            "instruction": "Buka claude.ai dan masuk."
+          },
+          {
+            "instruction": "Klik ikon profil Anda → \"Pengaturan\"."
+          },
+          {
+            "instruction": "Buka \"Penagihan\" di bilah sisi."
+          },
+          {
+            "instruction": "Klik \"Batalkan paket\" atau \"Batalkan langganan\"."
+          },
+          {
+            "instruction": "Konfirmasi pembatalan.",
+            "note": "Akses Pro berlanjut hingga akhir periode penagihan Anda."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Jika berlangganan melalui App Store: Pengaturan → Apple ID → Langganan → Claude → Batalkan." },
-          { "instruction": "Jika berlangganan langsung melalui Anthropic: gunakan langkah-langkah web di atas." }
+          {
+            "instruction": "Jika berlangganan melalui App Store: Pengaturan → Apple ID → Langganan → Claude → Batalkan."
+          },
+          {
+            "instruction": "Jika berlangganan langsung melalui Anthropic: gunakan langkah-langkah web di atas."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Buka Google Play Store → profil → Langganan." },
-          { "instruction": "Cari Claude → ketuk \"Batalkan langganan\" → konfirmasi." }
+          {
+            "instruction": "Buka Google Play Store → profil → Langganan."
+          },
+          {
+            "instruction": "Cari Claude → ketuk \"Batalkan langganan\" → konfirmasi."
+          }
         ]
       }
     },
@@ -404,8 +650,12 @@
       }
     ],
     "alternatives": [
-      { "description": "Rp329.000/bln — GPT-4o OpenAI dan lainnya" },
-      { "description": "Rp329.000/bln — AI Google yang paling canggih" }
+      {
+        "description": "Rp329.000/bln — GPT-4o OpenAI dan lainnya"
+      },
+      {
+        "description": "Rp329.000/bln — AI Google yang paling canggih"
+      }
     ]
   },
   "youtube-premium": {
@@ -414,25 +664,48 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Buka youtube.com/paid_memberships dan masuk." },
-          { "instruction": "Temukan \"YouTube Premium\" → klik \"Kelola keanggotaan\"." },
-          { "instruction": "Klik \"Nonaktifkan\"." },
-          { "instruction": "Ikuti langkah konfirmasi → klik \"Lanjutkan untuk membatalkan\"." },
-          { "instruction": "Konfirmasi. Anda tetap memiliki Premium hingga akhir periode penagihan.", "note": "YouTube Music Premium sudah termasuk dan juga akan dibatalkan." }
+          {
+            "instruction": "Buka youtube.com/paid_memberships dan masuk."
+          },
+          {
+            "instruction": "Temukan \"YouTube Premium\" → klik \"Kelola keanggotaan\"."
+          },
+          {
+            "instruction": "Klik \"Nonaktifkan\"."
+          },
+          {
+            "instruction": "Ikuti langkah konfirmasi → klik \"Lanjutkan untuk membatalkan\"."
+          },
+          {
+            "instruction": "Konfirmasi. Anda tetap memiliki Premium hingga akhir periode penagihan.",
+            "note": "YouTube Music Premium sudah termasuk dan juga akan dibatalkan."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Buka Pengaturan → ketuk nama Anda → Langganan." },
-          { "instruction": "Temukan \"YouTube Premium\" → ketuk." },
-          { "instruction": "Ketuk \"Batalkan Langganan\" → Konfirmasi." }
+          {
+            "instruction": "Buka Pengaturan → ketuk nama Anda → Langganan."
+          },
+          {
+            "instruction": "Temukan \"YouTube Premium\" → ketuk."
+          },
+          {
+            "instruction": "Ketuk \"Batalkan Langganan\" → Konfirmasi."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Buka Google Play Store → profil → \"Pembayaran & langganan\" → Langganan." },
-          { "instruction": "Temukan \"YouTube Premium\" → ketuk \"Batalkan langganan\"." },
-          { "instruction": "Ikuti alur konfirmasi." }
+          {
+            "instruction": "Buka Google Play Store → profil → \"Pembayaran & langganan\" → Langganan."
+          },
+          {
+            "instruction": "Temukan \"YouTube Premium\" → ketuk \"Batalkan langganan\"."
+          },
+          {
+            "instruction": "Ikuti alur konfirmasi."
+          }
         ]
       }
     },
@@ -454,25 +727,47 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Buka hulu.com dan masuk." },
-          { "instruction": "Klik ikon profil Anda → \"Akun\"." },
-          { "instruction": "Di bawah \"Langganan Anda\", klik \"Batalkan\"." },
-          { "instruction": "Pilih alasan → Hulu akan membuat penawaran. Klik \"Lanjutkan untuk Membatalkan\"." },
-          { "instruction": "Klik \"Batalkan Langganan\" untuk mengonfirmasi." },
-          { "instruction": "Anda akan menerima email konfirmasi." }
+          {
+            "instruction": "Buka hulu.com dan masuk."
+          },
+          {
+            "instruction": "Klik ikon profil Anda → \"Akun\"."
+          },
+          {
+            "instruction": "Di bawah \"Langganan Anda\", klik \"Batalkan\"."
+          },
+          {
+            "instruction": "Pilih alasan → Hulu akan membuat penawaran. Klik \"Lanjutkan untuk Membatalkan\"."
+          },
+          {
+            "instruction": "Klik \"Batalkan Langganan\" untuk mengonfirmasi."
+          },
+          {
+            "instruction": "Anda akan menerima email konfirmasi."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Buka Pengaturan → ketuk nama Anda → Langganan." },
-          { "instruction": "Temukan \"Hulu\" → ketuk." },
-          { "instruction": "Ketuk \"Batalkan Langganan\" → Konfirmasi." }
+          {
+            "instruction": "Buka Pengaturan → ketuk nama Anda → Langganan."
+          },
+          {
+            "instruction": "Temukan \"Hulu\" → ketuk."
+          },
+          {
+            "instruction": "Ketuk \"Batalkan Langganan\" → Konfirmasi."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Buka Google Play Store → profil → Langganan → cari Hulu." },
-          { "instruction": "Ketuk \"Batalkan langganan\" → ikuti petunjuknya." }
+          {
+            "instruction": "Buka Google Play Store → profil → Langganan → cari Hulu."
+          },
+          {
+            "instruction": "Ketuk \"Batalkan langganan\" → ikuti petunjuknya."
+          }
         ]
       }
     },
@@ -494,23 +789,42 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Buka my.nordaccount.com dan masuk." },
-          { "instruction": "Klik \"Penagihan\" atau \"Langganan\" di bilah sisi kiri." },
-          { "instruction": "Temukan paket Anda → klik \"Batalkan pembaruan otomatis\" atau \"Batalkan langganan\"." },
-          { "instruction": "Konfirmasi pembatalan." },
-          { "instruction": "Untuk pengembalian dana: mulai live chat di nordvpn.com/support dan minta pengembalian dana. Pengembalian dana diproses dalam 5–10 hari kerja.", "note": "NordVPN tidak menawarkan pengembalian dana melalui dasbor akun — Anda harus menghubungi dukungan." }
+          {
+            "instruction": "Buka my.nordaccount.com dan masuk."
+          },
+          {
+            "instruction": "Klik \"Penagihan\" atau \"Langganan\" di bilah sisi kiri."
+          },
+          {
+            "instruction": "Temukan paket Anda → klik \"Batalkan pembaruan otomatis\" atau \"Batalkan langganan\"."
+          },
+          {
+            "instruction": "Konfirmasi pembatalan."
+          },
+          {
+            "instruction": "Untuk pengembalian dana: mulai live chat di nordvpn.com/support dan minta pengembalian dana. Pengembalian dana diproses dalam 5–10 hari kerja.",
+            "note": "NordVPN tidak menawarkan pengembalian dana melalui dasbor akun — Anda harus menghubungi dukungan."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Jika berlangganan melalui App Store: Pengaturan → Apple ID → Langganan → NordVPN → Batalkan." },
-          { "instruction": "Catatan: Langganan App Store tidak memenuhi syarat untuk pengembalian dana 30 hari NordVPN. Hubungi Apple sebagai gantinya." }
+          {
+            "instruction": "Jika berlangganan melalui App Store: Pengaturan → Apple ID → Langganan → NordVPN → Batalkan."
+          },
+          {
+            "instruction": "Catatan: Langganan App Store tidak memenuhi syarat untuk pengembalian dana 30 hari NordVPN. Hubungi Apple sebagai gantinya."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Jika berlangganan melalui Google Play: Play Store → Langganan → NordVPN → Batalkan." },
-          { "instruction": "Untuk pengembalian dana pembelian Play, hubungi dukungan Google Play dalam 48 jam." }
+          {
+            "instruction": "Jika berlangganan melalui Google Play: Play Store → Langganan → NordVPN → Batalkan."
+          },
+          {
+            "instruction": "Untuk pengembalian dana pembelian Play, hubungi dukungan Google Play dalam 48 jam."
+          }
         ]
       }
     },
@@ -532,25 +846,48 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Buka doordash.com dan masuk." },
-          { "instruction": "Klik ikon profil Anda → Dapatkan DashPass atau buka doordash.com/account." },
-          { "instruction": "Gulir ke DashPass → klik Kelola DashPass." },
-          { "instruction": "Klik Batalkan DashPass." },
-          { "instruction": "Ikuti petunjuk konfirmasi → klik Batalkan DashPass untuk mengonfirmasi.", "note": "Anda tetap mendapatkan manfaat DashPass hingga akhir periode penagihan." }
+          {
+            "instruction": "Buka doordash.com dan masuk."
+          },
+          {
+            "instruction": "Klik ikon profil Anda → Dapatkan DashPass atau buka doordash.com/account."
+          },
+          {
+            "instruction": "Gulir ke DashPass → klik Kelola DashPass."
+          },
+          {
+            "instruction": "Klik Batalkan DashPass."
+          },
+          {
+            "instruction": "Ikuti petunjuk konfirmasi → klik Batalkan DashPass untuk mengonfirmasi.",
+            "note": "Anda tetap mendapatkan manfaat DashPass hingga akhir periode penagihan."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Buka aplikasi DoorDash → ketuk ikon profil Anda (kanan bawah)." },
-          { "instruction": "Ketuk Dapatkan DashPass atau Kelola DashPass." },
-          { "instruction": "Ketuk Batalkan DashPass → konfirmasi." }
+          {
+            "instruction": "Buka aplikasi DoorDash → ketuk ikon profil Anda (kanan bawah)."
+          },
+          {
+            "instruction": "Ketuk Dapatkan DashPass atau Kelola DashPass."
+          },
+          {
+            "instruction": "Ketuk Batalkan DashPass → konfirmasi."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Buka aplikasi DoorDash → ketuk ikon profil Anda." },
-          { "instruction": "Ketuk Kelola DashPass." },
-          { "instruction": "Ketuk Batalkan DashPass → ikuti petunjuk konfirmasi." }
+          {
+            "instruction": "Buka aplikasi DoorDash → ketuk ikon profil Anda."
+          },
+          {
+            "instruction": "Ketuk Kelola DashPass."
+          },
+          {
+            "instruction": "Ketuk Batalkan DashPass → ikuti petunjuk konfirmasi."
+          }
         ]
       }
     },
@@ -565,8 +902,12 @@
       }
     ],
     "alternatives": [
-      { "description": "$9,99/bln — pengiriman gratis di Uber Eats + perjalanan Uber" },
-      { "description": "$9,99/bln — pengiriman gratis untuk pesanan Grubhub" }
+      {
+        "description": "$9,99/bln — pengiriman gratis di Uber Eats + perjalanan Uber"
+      },
+      {
+        "description": "$9,99/bln — pengiriman gratis untuk pesanan Grubhub"
+      }
     ]
   },
   "peacock": {
@@ -576,25 +917,48 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Buka peacocktv.com dan masuk." },
-          { "instruction": "Klik ikon profil Anda → Akun." },
-          { "instruction": "Di bawah Paket, klik Ubah atau batalkan paket." },
-          { "instruction": "Klik Batalkan paket." },
-          { "instruction": "Pilih alasan → klik Lanjutkan.", "note": "Akses Peacock Premium Anda berlanjut hingga tanggal penagihan." },
-          { "instruction": "Konfirmasi pembatalan." }
+          {
+            "instruction": "Buka peacocktv.com dan masuk."
+          },
+          {
+            "instruction": "Klik ikon profil Anda → Akun."
+          },
+          {
+            "instruction": "Di bawah Paket, klik Ubah atau batalkan paket."
+          },
+          {
+            "instruction": "Klik Batalkan paket."
+          },
+          {
+            "instruction": "Pilih alasan → klik Lanjutkan.",
+            "note": "Akses Peacock Premium Anda berlanjut hingga tanggal penagihan."
+          },
+          {
+            "instruction": "Konfirmasi pembatalan."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Buka Pengaturan → ketuk nama Anda → Langganan." },
-          { "instruction": "Temukan Peacock → ketuk." },
-          { "instruction": "Ketuk Batalkan Langganan → konfirmasi." }
+          {
+            "instruction": "Buka Pengaturan → ketuk nama Anda → Langganan."
+          },
+          {
+            "instruction": "Temukan Peacock → ketuk."
+          },
+          {
+            "instruction": "Ketuk Batalkan Langganan → konfirmasi."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Buka Google Play Store → profil → Pembayaran & langganan → Langganan." },
-          { "instruction": "Temukan Peacock → ketuk Batalkan langganan → konfirmasi." }
+          {
+            "instruction": "Buka Google Play Store → profil → Pembayaran & langganan → Langganan."
+          },
+          {
+            "instruction": "Temukan Peacock → ketuk Batalkan langganan → konfirmasi."
+          }
         ]
       }
     },
@@ -609,8 +973,12 @@
       }
     ],
     "alternatives": [
-      { "description": "$7,99/bln — CBS, MTV, Nickelodeon" },
-      { "description": "$9,99/bln — konten HBO" }
+      {
+        "description": "$7,99/bln — CBS, MTV, Nickelodeon"
+      },
+      {
+        "description": "$9,99/bln — konten HBO"
+      }
     ]
   },
   "audible": {
@@ -620,24 +988,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Buka audible.com dan masuk." },
-          { "instruction": "Arahkan kursor ke nama Anda → klik Detail Akun." },
-          { "instruction": "Klik Batalkan keanggotaan di bilah sisi kiri atau di bawah Detail Keanggotaan." },
-          { "instruction": "Audible akan menampilkan opsi jeda keanggotaan — klik Lanjutkan untuk Membatalkan jika Anda ingin membatalkan.", "note": "Gunakan kredit Anda sebelum membatalkan — kredit akan kedaluwarsa ketika keanggotaan berakhir." },
-          { "instruction": "Pilih alasan → klik Batalkan keanggotaan." },
-          { "instruction": "Anda akan menerima email konfirmasi." }
+          {
+            "instruction": "Buka audible.com dan masuk."
+          },
+          {
+            "instruction": "Arahkan kursor ke nama Anda → klik Detail Akun."
+          },
+          {
+            "instruction": "Klik Batalkan keanggotaan di bilah sisi kiri atau di bawah Detail Keanggotaan."
+          },
+          {
+            "instruction": "Audible akan menampilkan opsi jeda keanggotaan — klik Lanjutkan untuk Membatalkan jika Anda ingin membatalkan.",
+            "note": "Gunakan kredit Anda sebelum membatalkan — kredit akan kedaluwarsa ketika keanggotaan berakhir."
+          },
+          {
+            "instruction": "Pilih alasan → klik Batalkan keanggotaan."
+          },
+          {
+            "instruction": "Anda akan menerima email konfirmasi."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Jika berlangganan melalui App Store: Pengaturan → Apple ID → Langganan → Audible → Batalkan." },
-          { "instruction": "Jika berlangganan langsung: gunakan langkah-langkah web di atas." }
+          {
+            "instruction": "Jika berlangganan melalui App Store: Pengaturan → Apple ID → Langganan → Audible → Batalkan."
+          },
+          {
+            "instruction": "Jika berlangganan langsung: gunakan langkah-langkah web di atas."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Jika berlangganan melalui Google Play: Play Store → Langganan → Audible → Batalkan." },
-          { "instruction": "Jika berlangganan langsung: gunakan langkah-langkah web di atas." }
+          {
+            "instruction": "Jika berlangganan melalui Google Play: Play Store → Langganan → Audible → Batalkan."
+          },
+          {
+            "instruction": "Jika berlangganan langsung: gunakan langkah-langkah web di atas."
+          }
         ]
       }
     },
@@ -656,8 +1045,12 @@
       }
     ],
     "alternatives": [
-      { "description": "$11,99/bln — ebook + beberapa buku audio" },
-      { "description": "$11,99/bln — buku audio, ebook, dokumen" }
+      {
+        "description": "$11,99/bln — ebook + beberapa buku audio"
+      },
+      {
+        "description": "$11,99/bln — buku audio, ebook, dokumen"
+      }
     ]
   },
   "fabletics": {
@@ -666,24 +1059,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Masuk ke fabletics.com dan gunakan kredit yang terkumpul sebelum membatalkan." },
-          { "instruction": "Klik Kredit Anggota untuk memeriksa saldo Anda.", "note": "Kredit kedaluwarsa setelah pembatalan — gunakan terlebih dahulu." },
-          { "instruction": "Buka live chat di fabletics.com atau hubungi 1-844-322-5384." },
-          { "instruction": "Beritahu agen bahwa Anda ingin membatalkan keanggotaan VIP Anda." },
-          { "instruction": "Tolak semua penawaran retensi (diskon, jeda, penawaran kredit)." },
-          { "instruction": "Konfirmasi pembatalan dan minta nomor konfirmasi atau email." }
+          {
+            "instruction": "Masuk ke fabletics.com dan gunakan kredit yang terkumpul sebelum membatalkan."
+          },
+          {
+            "instruction": "Klik Kredit Anggota untuk memeriksa saldo Anda.",
+            "note": "Kredit kedaluwarsa setelah pembatalan — gunakan terlebih dahulu."
+          },
+          {
+            "instruction": "Buka live chat di fabletics.com atau hubungi 1-844-322-5384."
+          },
+          {
+            "instruction": "Beritahu agen bahwa Anda ingin membatalkan keanggotaan VIP Anda."
+          },
+          {
+            "instruction": "Tolak semua penawaran retensi (diskon, jeda, penawaran kredit)."
+          },
+          {
+            "instruction": "Konfirmasi pembatalan dan minta nomor konfirmasi atau email."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Fabletics tidak mendukung pembatalan melalui aplikasi iOS atau App Store." },
-          { "instruction": "Gunakan telepon (1-844-322-5384) atau live chat di fabletics.com." }
+          {
+            "instruction": "Fabletics tidak mendukung pembatalan melalui aplikasi iOS atau App Store."
+          },
+          {
+            "instruction": "Gunakan telepon (1-844-322-5384) atau live chat di fabletics.com."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Fabletics tidak mendukung pembatalan melalui aplikasi Android atau Play Store." },
-          { "instruction": "Gunakan telepon atau live chat — lihat langkah-langkah web di atas." }
+          {
+            "instruction": "Fabletics tidak mendukung pembatalan melalui aplikasi Android atau Play Store."
+          },
+          {
+            "instruction": "Gunakan telepon atau live chat — lihat langkah-langkah web di atas."
+          }
         ]
       }
     },
@@ -709,23 +1123,42 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Masuk ke experian.com atau buka pengaturan akun Anda." },
-          { "instruction": "Jika tidak ada tombol batalkan yang tersedia, buka live chat melalui experian.com/consumer/help.html.", "note": "Experian sering menyembunyikan opsi batalkan — live chat biasanya jalur tercepat." },
-          { "instruction": "Beritahu agen bahwa Anda ingin membatalkan langganan Anda." },
-          { "instruction": "Tolak penawaran retensi apapun." },
-          { "instruction": "Minta email konfirmasi dengan tanggal pembatalan Anda." }
+          {
+            "instruction": "Masuk ke experian.com atau buka pengaturan akun Anda."
+          },
+          {
+            "instruction": "Jika tidak ada tombol batalkan yang tersedia, buka live chat melalui experian.com/consumer/help.html.",
+            "note": "Experian sering menyembunyikan opsi batalkan — live chat biasanya jalur tercepat."
+          },
+          {
+            "instruction": "Beritahu agen bahwa Anda ingin membatalkan langganan Anda."
+          },
+          {
+            "instruction": "Tolak penawaran retensi apapun."
+          },
+          {
+            "instruction": "Minta email konfirmasi dengan tanggal pembatalan Anda."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Jika berlangganan melalui App Store: Pengaturan → Apple ID → Langganan → Experian → Batalkan." },
-          { "instruction": "Jika berlangganan langsung: gunakan telepon atau live chat." }
+          {
+            "instruction": "Jika berlangganan melalui App Store: Pengaturan → Apple ID → Langganan → Experian → Batalkan."
+          },
+          {
+            "instruction": "Jika berlangganan langsung: gunakan telepon atau live chat."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Jika berlangganan melalui Google Play: Play Store → Langganan → Experian → Batalkan." },
-          { "instruction": "Jika berlangganan langsung: gunakan live chat atau hubungi dukungan." }
+          {
+            "instruction": "Jika berlangganan melalui Google Play: Play Store → Langganan → Experian → Batalkan."
+          },
+          {
+            "instruction": "Jika berlangganan langsung: gunakan live chat atau hubungi dukungan."
+          }
         ]
       }
     },
@@ -744,8 +1177,12 @@
       }
     ],
     "alternatives": [
-      { "description": "Pemantauan kredit gratis — tidak perlu berlangganan" },
-      { "description": "$8,99/bln — perlindungan pencurian identitas" }
+      {
+        "description": "Pemantauan kredit gratis — tidak perlu berlangganan"
+      },
+      {
+        "description": "$8,99/bln — perlindungan pencurian identitas"
+      }
     ]
   },
   "crunch-fitness": {
@@ -755,23 +1192,42 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Masuk di crunch.com dan periksa apakah lokasi Anda menawarkan pembatalan online (jarang)." },
-          { "instruction": "Jika tidak tersedia online, kunjungi klub utama Anda secara langsung dengan foto ID." },
-          { "instruction": "Minta berbicara dengan penasihat keanggotaan dan ajukan permintaan pembatalan.", "note": "Bawa ID anggota atau email yang digunakan saat mendaftar." },
-          { "instruction": "Atau, kirim surat tercatat ke klub utama Anda dengan nama lengkap, ID anggota, alamat, dan tanda tangan." },
-          { "instruction": "Simpan tanda terima surat tercatat sebagai bukti. Pembatalan berlaku 30 hari setelah diterima." }
+          {
+            "instruction": "Masuk di crunch.com dan periksa apakah lokasi Anda menawarkan pembatalan online (jarang)."
+          },
+          {
+            "instruction": "Jika tidak tersedia online, kunjungi klub utama Anda secara langsung dengan foto ID."
+          },
+          {
+            "instruction": "Minta berbicara dengan penasihat keanggotaan dan ajukan permintaan pembatalan.",
+            "note": "Bawa ID anggota atau email yang digunakan saat mendaftar."
+          },
+          {
+            "instruction": "Atau, kirim surat tercatat ke klub utama Anda dengan nama lengkap, ID anggota, alamat, dan tanda tangan."
+          },
+          {
+            "instruction": "Simpan tanda terima surat tercatat sebagai bukti. Pembatalan berlaku 30 hari setelah diterima."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Crunch tidak mendukung pembatalan melalui aplikasi iOS." },
-          { "instruction": "Batalkan secara langsung atau melalui surat tercatat." }
+          {
+            "instruction": "Crunch tidak mendukung pembatalan melalui aplikasi iOS."
+          },
+          {
+            "instruction": "Batalkan secara langsung atau melalui surat tercatat."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Crunch tidak mendukung pembatalan melalui aplikasi Android." },
-          { "instruction": "Batalkan secara langsung atau melalui surat tercatat." }
+          {
+            "instruction": "Crunch tidak mendukung pembatalan melalui aplikasi Android."
+          },
+          {
+            "instruction": "Batalkan secara langsung atau melalui surat tercatat."
+          }
         ]
       }
     },
@@ -790,8 +1246,12 @@
       }
     ],
     "alternatives": [
-      { "description": "$10–$25/bln — pembatalan online yang mudah" },
-      { "description": "$30–$50/bln — akses 24/7" }
+      {
+        "description": "$10–$25/bln — pembatalan online yang mudah"
+      },
+      {
+        "description": "$30–$50/bln — akses 24/7"
+      }
     ]
   },
   "xfinity": {
@@ -801,24 +1261,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Buka xfinity.com/support dan masuk.", "note": "Periksa tanggal akhir kontrak Anda terlebih dahulu di Akun Saya → Perjanjian Layanan." },
-          { "instruction": "Gunakan obrolan Xfinity Assistant dan ketik Batalkan layanan." },
-          { "instruction": "Atau, hubungi 1-800-934-6489. Perkirakan waktu tunggu 15–45 menit." },
-          { "instruction": "Beritahu perwakilan bahwa Anda ingin membatalkan. Tolak semua penawaran retensi." },
-          { "instruction": "Minta nomor konfirmasi pembatalan dan email." },
-          { "instruction": "Kembalikan peralatan yang disewa dalam 10 hari untuk menghindari biaya peralatan." }
+          {
+            "instruction": "Buka xfinity.com/support dan masuk.",
+            "note": "Periksa tanggal akhir kontrak Anda terlebih dahulu di Akun Saya → Perjanjian Layanan."
+          },
+          {
+            "instruction": "Gunakan obrolan Xfinity Assistant dan ketik Batalkan layanan."
+          },
+          {
+            "instruction": "Atau, hubungi 1-800-934-6489. Perkirakan waktu tunggu 15–45 menit."
+          },
+          {
+            "instruction": "Beritahu perwakilan bahwa Anda ingin membatalkan. Tolak semua penawaran retensi."
+          },
+          {
+            "instruction": "Minta nomor konfirmasi pembatalan dan email."
+          },
+          {
+            "instruction": "Kembalikan peralatan yang disewa dalam 10 hari untuk menghindari biaya peralatan."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Buka aplikasi Xfinity → ikon akun." },
-          { "instruction": "Ketuk Kelola paket saya — pembatalan penuh memerlukan panggilan telepon atau kunjungan toko." }
+          {
+            "instruction": "Buka aplikasi Xfinity → ikon akun."
+          },
+          {
+            "instruction": "Ketuk Kelola paket saya — pembatalan penuh memerlukan panggilan telepon atau kunjungan toko."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Buka aplikasi Xfinity → Kelola paket saya." },
-          { "instruction": "Untuk pembatalan penuh, hubungi atau kunjungi toko." }
+          {
+            "instruction": "Buka aplikasi Xfinity → Kelola paket saya."
+          },
+          {
+            "instruction": "Untuk pembatalan penuh, hubungi atau kunjungi toko."
+          }
         ]
       }
     },
@@ -837,8 +1318,12 @@
       }
     ],
     "alternatives": [
-      { "description": "Internet serat — harga kompetitif" },
-      { "description": "Tanpa kontrak, tanpa batas data" }
+      {
+        "description": "Internet serat — harga kompetitif"
+      },
+      {
+        "description": "Tanpa kontrak, tanpa batas data"
+      }
     ]
   },
   "fubotv": {
@@ -848,25 +1333,48 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Buka fubo.tv dan masuk." },
-          { "instruction": "Klik ikon profil Anda → Akun Saya." },
-          { "instruction": "Klik Kelola Langganan." },
-          { "instruction": "Klik Batalkan Langganan.", "note": "FuboTV mungkin menampilkan opsi jeda — klik Batalkan hanya jika Anda ingin membatalkan sepenuhnya." },
-          { "instruction": "Pilih alasan → konfirmasi pembatalan." },
-          { "instruction": "Anda akan menerima email konfirmasi." }
+          {
+            "instruction": "Buka fubo.tv dan masuk."
+          },
+          {
+            "instruction": "Klik ikon profil Anda → Akun Saya."
+          },
+          {
+            "instruction": "Klik Kelola Langganan."
+          },
+          {
+            "instruction": "Klik Batalkan Langganan.",
+            "note": "FuboTV mungkin menampilkan opsi jeda — klik Batalkan hanya jika Anda ingin membatalkan sepenuhnya."
+          },
+          {
+            "instruction": "Pilih alasan → konfirmasi pembatalan."
+          },
+          {
+            "instruction": "Anda akan menerima email konfirmasi."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Buka Pengaturan → ketuk nama Anda → Langganan." },
-          { "instruction": "Temukan FuboTV → ketuk." },
-          { "instruction": "Ketuk Batalkan Langganan → konfirmasi." }
+          {
+            "instruction": "Buka Pengaturan → ketuk nama Anda → Langganan."
+          },
+          {
+            "instruction": "Temukan FuboTV → ketuk."
+          },
+          {
+            "instruction": "Ketuk Batalkan Langganan → konfirmasi."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Buka Google Play Store → profil → Pembayaran & langganan → Langganan." },
-          { "instruction": "Temukan FuboTV → ketuk Batalkan langganan → konfirmasi." }
+          {
+            "instruction": "Buka Google Play Store → profil → Pembayaran & langganan → Langganan."
+          },
+          {
+            "instruction": "Temukan FuboTV → ketuk Batalkan langganan → konfirmasi."
+          }
         ]
       }
     },
@@ -881,9 +1389,15 @@
       }
     ],
     "alternatives": [
-      { "description": "$72,99/bln — 100+ saluran, DVR tak terbatas" },
-      { "description": "Dari $40/bln — paket saluran yang fleksibel" },
-      { "description": "Dari $64,99/bln — fokus olahraga langsung" }
+      {
+        "description": "$72,99/bln — 100+ saluran, DVR tak terbatas"
+      },
+      {
+        "description": "Dari $40/bln — paket saluran yang fleksibel"
+      },
+      {
+        "description": "Dari $64,99/bln — fokus olahraga langsung"
+      }
     ]
   },
   "uber-eats": {
@@ -893,25 +1407,48 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Buka uber.com dan masuk." },
-          { "instruction": "Klik ikon profil Anda → Uber One." },
-          { "instruction": "Klik Kelola keanggotaan." },
-          { "instruction": "Klik Batalkan keanggotaan.", "note": "Manfaat Uber One Anda berlanjut hingga periode penagihan berakhir." },
-          { "instruction": "Konfirmasi pembatalan." }
+          {
+            "instruction": "Buka uber.com dan masuk."
+          },
+          {
+            "instruction": "Klik ikon profil Anda → Uber One."
+          },
+          {
+            "instruction": "Klik Kelola keanggotaan."
+          },
+          {
+            "instruction": "Klik Batalkan keanggotaan.",
+            "note": "Manfaat Uber One Anda berlanjut hingga periode penagihan berakhir."
+          },
+          {
+            "instruction": "Konfirmasi pembatalan."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Buka aplikasi Uber atau Uber Eats → ketuk ikon profil Anda." },
-          { "instruction": "Ketuk Uber One → Kelola keanggotaan." },
-          { "instruction": "Ketuk Batalkan keanggotaan → konfirmasi." }
+          {
+            "instruction": "Buka aplikasi Uber atau Uber Eats → ketuk ikon profil Anda."
+          },
+          {
+            "instruction": "Ketuk Uber One → Kelola keanggotaan."
+          },
+          {
+            "instruction": "Ketuk Batalkan keanggotaan → konfirmasi."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Buka aplikasi → ikon profil." },
-          { "instruction": "Ketuk Uber One → Kelola keanggotaan → Batalkan keanggotaan." },
-          { "instruction": "Konfirmasi pembatalan." }
+          {
+            "instruction": "Buka aplikasi → ikon profil."
+          },
+          {
+            "instruction": "Ketuk Uber One → Kelola keanggotaan → Batalkan keanggotaan."
+          },
+          {
+            "instruction": "Konfirmasi pembatalan."
+          }
         ]
       }
     },
@@ -926,8 +1463,12 @@
       }
     ],
     "alternatives": [
-      { "description": "$9,99/bln — pengiriman gratis di DoorDash" },
-      { "description": "$9,99/bln — pengiriman gratis di Grubhub" }
+      {
+        "description": "$9,99/bln — pengiriman gratis di DoorDash"
+      },
+      {
+        "description": "$9,99/bln — pengiriman gratis di Grubhub"
+      }
     ]
   },
   "instacart": {
@@ -937,24 +1478,45 @@
     "platforms": {
       "web": {
         "steps": [
-          { "instruction": "Buka instacart.com dan masuk." },
-          { "instruction": "Klik ikon profil Anda → Instacart+." },
-          { "instruction": "Klik Kelola keanggotaan Anda." },
-          { "instruction": "Klik Batalkan keanggotaan.", "note": "Jika Anda memiliki paket tahunan, Instacart mungkin menawarkan pengembalian dana prorata." },
-          { "instruction": "Konfirmasi pembatalan." }
+          {
+            "instruction": "Buka instacart.com dan masuk."
+          },
+          {
+            "instruction": "Klik ikon profil Anda → Instacart+."
+          },
+          {
+            "instruction": "Klik Kelola keanggotaan Anda."
+          },
+          {
+            "instruction": "Klik Batalkan keanggotaan.",
+            "note": "Jika Anda memiliki paket tahunan, Instacart mungkin menawarkan pengembalian dana prorata."
+          },
+          {
+            "instruction": "Konfirmasi pembatalan."
+          }
         ]
       },
       "ios": {
         "steps": [
-          { "instruction": "Buka aplikasi Instacart → ketuk ikon profil Anda." },
-          { "instruction": "Ketuk Instacart+ → Kelola keanggotaan." },
-          { "instruction": "Ketuk Batalkan keanggotaan → konfirmasi." }
+          {
+            "instruction": "Buka aplikasi Instacart → ketuk ikon profil Anda."
+          },
+          {
+            "instruction": "Ketuk Instacart+ → Kelola keanggotaan."
+          },
+          {
+            "instruction": "Ketuk Batalkan keanggotaan → konfirmasi."
+          }
         ]
       },
       "android": {
         "steps": [
-          { "instruction": "Buka aplikasi → ikon profil → Instacart+." },
-          { "instruction": "Ketuk Kelola keanggotaan → Batalkan keanggotaan → konfirmasi." }
+          {
+            "instruction": "Buka aplikasi → ikon profil → Instacart+."
+          },
+          {
+            "instruction": "Ketuk Kelola keanggotaan → Batalkan keanggotaan → konfirmasi."
+          }
         ]
       }
     },
@@ -969,8 +1531,564 @@
       }
     ],
     "alternatives": [
-      { "description": "Pengiriman gratis dengan Prime — pengiriman bahan makanan" },
-      { "description": "$99/thn — Target + pengecer lainnya" }
+      {
+        "description": "Pengiriman gratis dengan Prime — pengiriman bahan makanan"
+      },
+      {
+        "description": "$99/thn — Target + pengecer lainnya"
+      }
+    ]
+  },
+  "espn-plus": {
+    "description": "Batalkan ESPN+ dalam 5 menit di web, iOS, atau Android. Termasuk langkah pembatalan Disney Bundle.",
+    "difficulty": "Mudah",
+    "difficultyReason": "Proses pembatalan mudah, tetapi Disney Bundle membatalkan semua layanan sekaligus.",
+    "refundPolicy": "Tidak ada pengembalian dana. Akses berlanjut hingga akhir periode penagihan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Masuk ke DisneyPlus.com atau ESPN.com."
+          },
+          {
+            "instruction": "Klik ikon profil Anda → Akun."
+          },
+          {
+            "instruction": "Klik Langganan."
+          },
+          {
+            "instruction": "Klik Batalkan langganan.",
+            "note": "Jika Anda memiliki Disney Bundle, ESPN+, Disney+, dan Hulu akan dibatalkan sekaligus."
+          },
+          {
+            "instruction": "Konfirmasi pembatalan."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Buka Pengaturan → ketuk nama Apple ID Anda."
+          },
+          {
+            "instruction": "Ketuk Langganan → ESPN+."
+          },
+          {
+            "instruction": "Ketuk Batalkan Langganan → konfirmasi."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Buka Google Play Store → ketuk ikon profil Anda."
+          },
+          {
+            "instruction": "Ketuk Pembayaran & langganan → Langganan → ESPN+."
+          },
+          {
+            "instruction": "Ketuk Batalkan langganan → konfirmasi."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Apakah membatalkan ESPN+ juga membatalkan seluruh Disney Bundle?",
+        "answer": "Ya. Jika Anda berlangganan Disney Bundle, membatalkan melalui akun akan membatalkan ESPN+, Disney+, dan Hulu sekaligus."
+      },
+      {
+        "question": "Saya tidak bisa menemukan opsi pembatalan.",
+        "answer": "Jika Anda berlangganan ESPN+ melalui penyedia TV, Anda harus membatalkan langsung ke penyedia tersebut, bukan melalui situs ESPN."
+      }
+    ]
+  },
+  "youtube-tv": {
+    "description": "Batalkan YouTube TV dalam 3 menit di web atau ponsel.",
+    "difficulty": "Mudah",
+    "difficultyReason": "Pembatalan di web mudah dan hanya memerlukan beberapa klik.",
+    "refundPolicy": "Tidak ada pengembalian dana. Akses berlanjut hingga akhir periode penagihan. Anda bisa menjeda daripada membatalkan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Pergi ke tv.youtube.com dan masuk."
+          },
+          {
+            "instruction": "Klik ikon profil Anda → Pengaturan."
+          },
+          {
+            "instruction": "Klik Keanggotaan → Batalkan keanggotaan."
+          },
+          {
+            "instruction": "Ikuti petunjuk untuk mengonfirmasi pembatalan."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Buka Pengaturan → ketuk nama Apple ID Anda → Langganan."
+          },
+          {
+            "instruction": "Ketuk YouTube TV → Batalkan Langganan → konfirmasi."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Buka Google Play Store → Pembayaran & langganan → Langganan."
+          },
+          {
+            "instruction": "Ketuk YouTube TV → Batalkan langganan → konfirmasi."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Apa yang terjadi pada rekaman DVR saya setelah pembatalan?",
+        "answer": "Semua rekaman DVR akan dihapus setelah pembatalan. Unduh atau simpan sebelum membatalkan."
+      },
+      {
+        "question": "Bisakah saya menjeda YouTube TV daripada membatalkan?",
+        "answer": "Ya. Anda bisa menjeda keanggotaan hingga 6 bulan. Pergi ke Pengaturan → Keanggotaan → Jeda keanggotaan."
+      }
+    ]
+  },
+  "paramount-plus": {
+    "description": "Batalkan Paramount+ dalam 5 menit di web, iOS, atau Android.",
+    "difficulty": "Mudah",
+    "difficultyReason": "Pembatalan mudah, tetapi pengguna yang berlangganan melalui Apple atau Amazon harus membatalkan di sana.",
+    "refundPolicy": "Tidak ada pengembalian dana. Akses berlanjut hingga akhir periode penagihan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Pergi ke paramountplus.com dan masuk."
+          },
+          {
+            "instruction": "Klik ikon profil Anda → Pengaturan."
+          },
+          {
+            "instruction": "Klik Langganan → Batalkan Langganan.",
+            "note": "Jika Anda memiliki add-on SHOWTIME, itu juga akan dibatalkan."
+          },
+          {
+            "instruction": "Konfirmasi pembatalan."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Buka Pengaturan → ketuk nama Apple ID Anda → Langganan."
+          },
+          {
+            "instruction": "Ketuk Paramount+ → Batalkan Langganan → konfirmasi."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Buka Google Play Store → Pembayaran & langganan → Langganan."
+          },
+          {
+            "instruction": "Ketuk Paramount+ → Batalkan langganan → konfirmasi."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Apakah SHOWTIME dibatalkan bersama Paramount+?",
+        "answer": "Ya. Jika Anda memiliki paket Paramount+ with SHOWTIME, kedua layanan akan dibatalkan sekaligus."
+      },
+      {
+        "question": "Saya berlangganan Paramount+ melalui Apple atau Amazon.",
+        "answer": "Anda harus membatalkan langsung melalui Apple (Pengaturan → Langganan) atau Amazon (Prime Video → Channels), bukan melalui situs Paramount+."
+      }
+    ]
+  },
+  "apple-tv-plus": {
+    "description": "Batalkan Apple TV+ dalam 2 menit melalui iPhone, Mac, atau web.",
+    "difficulty": "Mudah",
+    "difficultyReason": "Pembatalan mudah dan cepat melalui perangkat Apple atau situs web.",
+    "refundPolicy": "Tidak ada pengembalian dana. Akses berlanjut hingga akhir periode penagihan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Pergi ke appleid.apple.com dan masuk."
+          },
+          {
+            "instruction": "Klik Langganan."
+          },
+          {
+            "instruction": "Klik Apple TV+ → Batalkan Langganan."
+          },
+          {
+            "instruction": "Konfirmasi pembatalan."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Buka Pengaturan → ketuk nama Anda di bagian atas."
+          },
+          {
+            "instruction": "Ketuk Langganan → Apple TV+."
+          },
+          {
+            "instruction": "Ketuk Batalkan Langganan → konfirmasi."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Apple TV+ tidak memiliki aplikasi Android untuk manajemen langganan."
+          },
+          {
+            "instruction": "Kunjungi appleid.apple.com di browser ponsel Anda dan ikuti langkah web."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Apakah saya akan ditagih otomatis setelah uji coba perangkat gratis?",
+        "answer": "Ya. Jika Anda mendapatkan Apple TV+ sebagai bonus perangkat dan tidak membatalkan uji coba, tarif reguler akan ditagih otomatis. Batalkan sebelum masa uji coba berakhir."
+      },
+      {
+        "question": "Apakah membatalkan Apple TV+ mempengaruhi langganan Apple lainnya?",
+        "answer": "Tidak. Apple TV+ terpisah dari Apple Music, iCloud, dan layanan Apple lainnya. Membatalkan satu layanan tidak mempengaruhi yang lain."
+      }
+    ]
+  },
+  "dazn": {
+    "description": "Batalkan DAZN dalam 5 menit melalui web atau ponsel.",
+    "difficulty": "Sedang",
+    "difficultyReason": "Proses pembatalan bervariasi tergantung wilayah dan ketentuan kontrak.",
+    "refundPolicy": "Tidak ada pengembalian dana untuk bulan yang sudah berjalan. Akses berlanjut hingga akhir periode penagihan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Pergi ke dazn.com dan masuk."
+          },
+          {
+            "instruction": "Klik ikon profil Anda → Akun Saya."
+          },
+          {
+            "instruction": "Klik Langganan → Batalkan Langganan.",
+            "note": "Tampilan antarmuka mungkin berbeda tergantung wilayah."
+          },
+          {
+            "instruction": "Ikuti petunjuk dan konfirmasi pembatalan."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Buka Pengaturan → ketuk nama Apple ID Anda → Langganan."
+          },
+          {
+            "instruction": "Ketuk DAZN → Batalkan Langganan → konfirmasi."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Buka Google Play Store → Pembayaran & langganan → Langganan."
+          },
+          {
+            "instruction": "Ketuk DAZN → Batalkan langganan → konfirmasi."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Mengapa antarmuka saya terlihat berbeda?",
+        "answer": "DAZN tersedia di banyak negara dan antarmuka serta opsi pembatalan dapat berbeda tergantung wilayah."
+      },
+      {
+        "question": "Apakah saya mendapat pengembalian dana untuk sisa bulan?",
+        "answer": "Tidak. DAZN tidak mengembalikan dana untuk bulan yang sudah berjalan. Akses Anda berlanjut hingga akhir periode penagihan saat ini."
+      }
+    ]
+  },
+  "philo": {
+    "description": "Batalkan Philo dalam 3 menit di web, iOS, atau Android.",
+    "difficulty": "Mudah",
+    "difficultyReason": "Philo membuat pembatalan mudah tanpa biaya atau hambatan retensi.",
+    "refundPolicy": "Tidak ada biaya pembatalan. Tidak ada pengembalian dana untuk bulan yang sudah berjalan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Pergi ke philo.com dan masuk."
+          },
+          {
+            "instruction": "Klik Pengaturan → Pembayaran."
+          },
+          {
+            "instruction": "Klik Batalkan Paket."
+          },
+          {
+            "instruction": "Konfirmasi pembatalan."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Buka Pengaturan → ketuk nama Apple ID Anda → Langganan."
+          },
+          {
+            "instruction": "Ketuk Philo → Batalkan Langganan → konfirmasi."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Buka Google Play Store → Pembayaran & langganan → Langganan."
+          },
+          {
+            "instruction": "Ketuk Philo → Batalkan langganan → konfirmasi."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Apakah ada biaya pembatalan?",
+        "answer": "Tidak. Philo tidak mengenakan biaya pembatalan. Anda bisa membatalkan kapan saja."
+      },
+      {
+        "question": "Bisakah saya menjeda Philo daripada membatalkan?",
+        "answer": "Tidak. Philo tidak memiliki fitur jeda. Anda harus membatalkan dan mendaftar ulang nanti."
+      }
+    ]
+  },
+  "sling-tv": {
+    "description": "Batalkan Sling TV dalam 5 menit di web atau ponsel.",
+    "difficulty": "Mudah",
+    "difficultyReason": "Pembatalan mudah, tetapi Sling TV mungkin menawarkan diskon untuk mempertahankan Anda.",
+    "refundPolicy": "Tidak ada pengembalian dana. Akses berlanjut hingga akhir periode penagihan. Rekaman DVR akan dihapus.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Pergi ke sling.com/account/cancel-service dan masuk."
+          },
+          {
+            "instruction": "Klik Batalkan Layanan.",
+            "note": "Sling TV mungkin menawarkan diskon atau opsi jeda sebelum pembatalan selesai."
+          },
+          {
+            "instruction": "Tolak semua penawaran dan konfirmasi pembatalan."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Buka Pengaturan → ketuk nama Apple ID Anda → Langganan."
+          },
+          {
+            "instruction": "Ketuk Sling TV → Batalkan Langganan → konfirmasi."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Buka Google Play Store → Pembayaran & langganan → Langganan."
+          },
+          {
+            "instruction": "Ketuk Sling TV → Batalkan langganan → konfirmasi."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Sling TV menawarkan saya diskon — haruskah saya menerimanya?",
+        "answer": "Terserah Anda. Sling TV sering menawarkan diskon 50% selama 1-2 bulan untuk mempertahankan pelanggan. Jika Anda hanya ingin jeda, ini bisa menjadi pilihan bagus."
+      },
+      {
+        "question": "Apa yang terjadi pada rekaman DVR saya setelah pembatalan?",
+        "answer": "Semua rekaman DVR akan dihapus setelah pembatalan. Simpan konten penting sebelum membatalkan."
+      }
+    ]
+  },
+  "whoop": {
+    "description": "Batalkan keanggotaan WHOOP — mungkin perlu menghubungi dukungan.",
+    "difficulty": "Sulit",
+    "difficultyReason": "WHOOP memiliki periode komitmen minimum dan proses pembatalan sering memerlukan kontak ke dukungan.",
+    "refundPolicy": "Tidak ada pengembalian dana. Periode komitmen berlaku. Perangkat berhenti berfungsi tanpa keanggotaan aktif.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Pergi ke app.whoop.com dan masuk."
+          },
+          {
+            "instruction": "Klik ikon profil Anda → Keanggotaan.",
+            "note": "Jika Anda masih dalam periode komitmen, pembatalan mungkin diblokir."
+          },
+          {
+            "instruction": "Klik Batalkan atau hubungi dukungan WHOOP di support.whoop.com."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Jika berlangganan melalui App Store: Pengaturan → nama Apple ID → Langganan → WHOOP → Batalkan."
+          },
+          {
+            "instruction": "Jika tidak, hubungi dukungan WHOOP."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Jika berlangganan melalui Google Play: Play Store → Pembayaran & langganan → WHOOP → Batalkan."
+          },
+          {
+            "instruction": "Jika tidak, hubungi dukungan WHOOP."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Pembatalan saya diblokir karena periode komitmen.",
+        "answer": "WHOOP biasanya memiliki periode komitmen minimum 12 bulan. Jika Anda masih dalam periode ini, Anda harus menunggu hingga akhir atau menghubungi dukungan."
+      },
+      {
+        "question": "Apakah perangkat WHOOP saya masih berfungsi setelah pembatalan?",
+        "answer": "Tidak. Perangkat WHOOP memerlukan keanggotaan aktif. Tanpa keanggotaan, perangkat tidak akan berfungsi."
+      }
+    ]
+  },
+  "factor-meals": {
+    "description": "Batalkan Factor Meals sebelum Rabu pukul 23:59 CT untuk menghindari tagihan minggu berikutnya.",
+    "difficulty": "Sedang",
+    "difficultyReason": "Batas waktu pembatalan mingguan (Rabu 23:59 CT) ketat dan mudah terlewat.",
+    "refundPolicy": "Tidak ada pengembalian dana jika batas waktu terlewat. Pesanan yang sudah diproses tidak dapat dibatalkan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Pergi ke factor75.com dan masuk."
+          },
+          {
+            "instruction": "Klik Pengaturan Akun → Pengaturan Paket."
+          },
+          {
+            "instruction": "Klik Batalkan Paket.",
+            "note": "Anda harus membatalkan sebelum Rabu pukul 23:59 CT untuk menghindari tagihan pengiriman berikutnya."
+          },
+          {
+            "instruction": "Konfirmasi pembatalan."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Factor Meals tidak memiliki opsi pembatalan dalam aplikasi."
+          },
+          {
+            "instruction": "Gunakan browser ponsel untuk mengunjungi factor75.com dan ikuti langkah web."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Factor Meals tidak memiliki opsi pembatalan dalam aplikasi."
+          },
+          {
+            "instruction": "Gunakan browser ponsel untuk mengunjungi factor75.com dan ikuti langkah web."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Saya melewatkan batas waktu Rabu — apakah saya tetap ditagih?",
+        "answer": "Ya. Jika Anda melewatkan batas waktu (Rabu 23:59 CT), minggu berikutnya sudah diproses dan Anda akan ditagih. Hubungi dukungan jika Anda yakin ada kesalahan."
+      },
+      {
+        "question": "Bisakah saya menjeda pengiriman daripada membatalkan?",
+        "answer": "Ya. Anda bisa melewati minggu tertentu atau menjeda paket daripada membatalkan sepenuhnya. Ini pilihan bagus jika Anda hanya perlu istirahat sejenak."
+      }
+    ]
+  },
+  "stitch-fix": {
+    "description": "Batalkan atau jeda langganan Stitch Fix Anda dalam 2 menit secara online.",
+    "difficulty": "Mudah",
+    "difficultyReason": "Pembatalan mudah, tetapi membatalkan Fixes tidak sama dengan menutup akun.",
+    "refundPolicy": "Tidak ada pengembalian dana untuk Fix yang sudah dikirim. Kembalikan item yang tidak diinginkan dalam 3 hari.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Pergi ke stitchfix.com dan masuk."
+          },
+          {
+            "instruction": "Klik Pengaturan Akun → Jadwal Fix."
+          },
+          {
+            "instruction": "Klik Batalkan Fixes."
+          },
+          {
+            "instruction": "Konfirmasi pembatalan."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Stitch Fix tidak mengelola langganan melalui aplikasi."
+          },
+          {
+            "instruction": "Kunjungi stitchfix.com di browser Anda dan ikuti langkah web."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Stitch Fix tidak mengelola langganan melalui aplikasi."
+          },
+          {
+            "instruction": "Kunjungi stitchfix.com di browser Anda dan ikuti langkah web."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Apakah membatalkan Fixes sama dengan menutup akun saya?",
+        "answer": "Tidak. Membatalkan Fixes berarti Anda tidak akan menerima pengiriman baru. Akun Anda tetap aktif. Untuk menutup akun sepenuhnya, hubungi dukungan."
+      },
+      {
+        "question": "Saya menerima Fix yang tidak ingin saya simpan.",
+        "answer": "Kembalikan item yang tidak diinginkan dalam 3 hari setelah diterima. Setelah itu, Anda akan ditagih untuk item yang disimpan."
+      }
     ]
   }
 }
