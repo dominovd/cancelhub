@@ -2586,5 +2586,431 @@
         "description": "InShot — मोबाइल वीडियो संपादक"
       }
     ]
+  },
+  "classpass": {
+    "description": "ClassPass को वेबसाइट या ऐप से रद्द करें — पॉज़ ऑफर को अस्वीकार करने के लिए तैयार रहें।",
+    "difficulty": "मध्यम",
+    "difficultyReason": "रद्दीकरण पूरा करने से पहले पॉज़ ऑफर को अस्वीकार करना होगा।",
+    "refundPolicy": "क्रेडिट वापस नहीं होते।",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "classpass.com/account/plan पर जाएं और लॉग इन करें।"
+          },
+          {
+            "instruction": "Membership रद्द करें पर क्लिक करें।"
+          },
+          {
+            "instruction": "पॉज़ ऑफर दिखने पर अस्वीकार करें।"
+          },
+          {
+            "instruction": "रद्दीकरण की पुष्टि करें।"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "ClassPass ऐप → Account → Plan → Membership रद्द करें। पॉज़ अस्वीकार करें और पुष्टि करें।"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "ClassPass ऐप → Account → Plan → Membership रद्द करें। पॉज़ अस्वीकार करें और पुष्टि करें।"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "क्या मेरे बचे हुए क्रेडिट वापस होंगे?",
+        "answer": "नहीं। ClassPass क्रेडिट रद्दीकरण के बाद वापस नहीं होते।"
+      }
+    ]
+  },
+  "blink-fitness": {
+    "description": "Blink Fitness को व्यक्तिगत रूप से जिम में या प्रमाणित मेल द्वारा रद्द करें — ऑनलाइन रद्दीकरण उपलब्ध नहीं।",
+    "difficulty": "कठिन",
+    "difficultyReason": "केवल व्यक्तिगत रूप से या प्रमाणित मेल से रद्द किया जा सकता है। 30 दिन का नोटिस आवश्यक है।",
+    "refundPolicy": "कोई रिफंड नहीं। 30 दिन का नोटिस आवश्यक।",
+    "platforms": {
+      "inPerson": {
+        "steps": [
+          {
+            "instruction": "किसी भी Blink Fitness जिम में व्यक्तिगत रूप से जाएं।"
+          },
+          {
+            "instruction": "रिसेप्शन पर रद्दीकरण फॉर्म मांगें।"
+          },
+          {
+            "instruction": "फॉर्म भरें और जमा करें। 30 दिन की नोटिस अवधि यहाँ से शुरू होती है।"
+          }
+        ]
+      },
+      "mail": {
+        "steps": [
+          {
+            "instruction": "अपना पूरा नाम, पता और रद्दीकरण अनुरोध लिखकर प्रमाणित मेल द्वारा जिम के पते पर भेजें।"
+          },
+          {
+            "instruction": "भेजने की रसीद संभालकर रखें। 30 दिन प्राप्ति के बाद से गिने जाते हैं।"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "क्या मैं ऑनलाइन या फोन से रद्द कर सकता हूं?",
+        "answer": "नहीं। Blink Fitness ऑनलाइन या फोन से रद्दीकरण की अनुमति नहीं देता। व्यक्तिगत रूप से जाना या प्रमाणित मेल भेजना आवश्यक है।"
+      }
+    ]
+  },
+  "snapchat-plus": {
+    "description": "Snapchat+ को ऐप या डिवाइस सेटिंग से रद्द करें। स्ट्रीक और यादें सुरक्षित रहती हैं।",
+    "difficulty": "आसान",
+    "difficultyReason": "ऐप या डिवाइस की सदस्यता सेटिंग से रद्द करना बहुत आसान है।",
+    "refundPolicy": "कोई रिफंड नहीं। स्ट्रीक और यादें बनी रहती हैं।",
+    "platforms": {
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Snapchat → Profile → Snapchat+ → Manage Subscription खोलें।"
+          },
+          {
+            "instruction": "Cancel Subscription पर टैप करें और पुष्टि करें।"
+          },
+          {
+            "note": "वैकल्पिक: Settings → Apple ID → Subscriptions → Snapchat+."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Snapchat → Profile → Snapchat+ → Manage Subscription खोलें।"
+          },
+          {
+            "instruction": "Cancel पर टैप करें और पुष्टि करें।"
+          },
+          {
+            "note": "वैकल्पिक: Google Play → Subscriptions → Snapchat+."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "क्या मेरी स्ट्रीक खो जाएंगी?",
+        "answer": "नहीं। Snapchat+ रद्द करने के बाद भी स्ट्रीक और यादें सुरक्षित रहती हैं।"
+      }
+    ]
+  },
+  "ea-play": {
+    "description": "EA Play को EA वेबसाइट या कंसोल से रद्द करें। गेम प्रगति सुरक्षित रहती है।",
+    "difficulty": "आसान",
+    "difficultyReason": "वेबसाइट या कंसोल से आसानी से रद्द किया जा सकता है।",
+    "refundPolicy": "कोई रिफंड नहीं। गेम प्रगति बनी रहती है।",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "ea.com पर जाएं और अपने अकाउंट में लॉग इन करें।"
+          },
+          {
+            "instruction": "Account → Subscriptions पर जाएं।"
+          },
+          {
+            "instruction": "EA Play चुनें और Cancel Subscription पर क्लिक करें।"
+          },
+          {
+            "instruction": "रद्दीकरण की पुष्टि करें।"
+          }
+        ]
+      },
+      "playstation": {
+        "steps": [
+          {
+            "instruction": "PS4/PS5 पर: Settings → Account → Subscriptions।"
+          },
+          {
+            "instruction": "EA Play चुनें और रद्द करें।"
+          }
+        ]
+      },
+      "xbox": {
+        "steps": [
+          {
+            "instruction": "account.microsoft.com → Services & subscriptions पर जाएं।"
+          },
+          {
+            "instruction": "EA Play ढूंढें और Cancel चुनें।"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "क्या मेरी गेम प्रगति खो जाएगी?",
+        "answer": "नहीं। EA Play रद्द करने के बाद गेम प्रगति और सेव फाइलें सुरक्षित रहती हैं।"
+      }
+    ]
+  },
+  "amazon-music": {
+    "description": "Amazon Music Unlimited को Amazon वेबसाइट से रद्द करें। Prime सदस्य 20 लाख गानों वाला Prime Music बनाए रखते हैं।",
+    "difficulty": "आसान",
+    "difficultyReason": "Amazon वेबसाइट से कुछ क्लिक में आसानी से रद्द किया जा सकता है।",
+    "refundPolicy": "कोई रिफंड नहीं। Prime Music (20 लाख गाने) Prime सदस्यों के लिए जारी रहता है।",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "amazon.in पर जाएं और लॉग इन करें।"
+          },
+          {
+            "instruction": "Account → Memberships & Subscriptions पर जाएं।"
+          },
+          {
+            "instruction": "Amazon Music Unlimited ढूंढें और Cancel subscription पर क्लिक करें।"
+          },
+          {
+            "instruction": "रद्दीकरण की पुष्टि करें।"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Amazon वेबसाइट या Settings → Apple ID → Subscriptions → Amazon Music से रद्द करें।"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Amazon वेबसाइट या Google Play → Subscriptions → Amazon Music से रद्द करें।"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "क्या मेरे सभी गाने चले जाएंगे?",
+        "answer": "Prime सदस्य Prime Music (20 लाख गाने) का उपयोग जारी रख सकते हैं। केवल अनलिमिटेड कैटलॉग हटाया जाता है।"
+      }
+    ]
+  },
+  "peloton": {
+    "description": "Peloton को members.onepeloton.com पर रद्द करें। बाइक मैन्युअल रूप से काम करती रहती है। App और All-Access अलग-अलग रद्द किए जाते हैं।",
+    "difficulty": "मध्यम",
+    "difficultyReason": "App और All-Access सदस्यताएं अलग-अलग रद्द की जाती हैं।",
+    "refundPolicy": "कोई रिफंड नहीं। Peloton बाइक बिना सदस्यता के भी मैन्युअल रूप से काम करती है।",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "members.onepeloton.com पर जाएं और लॉग इन करें।"
+          },
+          {
+            "instruction": "Settings → Membership पर जाएं।"
+          },
+          {
+            "instruction": "Cancel Membership पर क्लिक करें।"
+          },
+          {
+            "instruction": "निर्देशों का पालन करें और रद्दीकरण की पुष्टि करें।"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "App सदस्यता रद्द करें: Settings → Apple ID → Subscriptions → Peloton."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "App सदस्यता रद्द करें: Google Play → Subscriptions → Peloton."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "क्या मेरी बाइक काम करना बंद कर देगी?",
+        "answer": "नहीं। Peloton बाइक बिना सक्रिय सदस्यता के भी मैन्युअल रूप से काम करती रहती है।"
+      }
+    ]
+  },
+  "ring-protect": {
+    "description": "Ring Protect को वेबसाइट या ऐप से रद्द करें। कैमरे काम करते रहेंगे, लेकिन क्लाउड रिकॉर्डिंग बंद हो जाएगी।",
+    "difficulty": "आसान",
+    "difficultyReason": "Ring वेबसाइट या ऐप से सीधे रद्द किया जा सकता है।",
+    "refundPolicy": "कोई रिफंड नहीं। कैमरे काम करते रहते हैं लेकिन क्लाउड रिकॉर्डिंग और वीडियो इतिहास खो जाता है।",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "ring.com पर जाएं और लॉग इन करें।"
+          },
+          {
+            "instruction": "Account Control → Ring Protect Plans पर जाएं।"
+          },
+          {
+            "instruction": "प्लान चुनें और Cancel Plan पर क्लिक करें।"
+          },
+          {
+            "instruction": "रद्दीकरण की पुष्टि करें।"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ring ऐप → Menu → Account Control → Ring Protect → Cancel."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ring ऐप → Menu → Account Control → Ring Protect → Cancel."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "क्या मेरे कैमरे काम करना बंद कर देंगे?",
+        "answer": "नहीं। Ring कैमरे काम करते रहते हैं, लेकिन क्लाउड रिकॉर्डिंग और वीडियो इतिहास खो जाता है।"
+      }
+    ]
+  },
+  "grubhub": {
+    "description": "Grubhub+ को वेबसाइट या ऐप से रद्द करें। Amazon Prime उपयोगकर्ताओं को Amazon के माध्यम से डिस्कनेक्ट करना होगा। रिवॉर्ड पॉइंट सुरक्षित रहते हैं।",
+    "difficulty": "आसान",
+    "difficultyReason": "वेबसाइट या ऐप से आसानी से रद्द किया जा सकता है। Prime उपयोगकर्ताओं के लिए Amazon के माध्यम से अलग प्रक्रिया है।",
+    "refundPolicy": "कोई रिफंड नहीं। रिवॉर्ड पॉइंट बने रहते हैं।",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "grubhub.com पर जाएं और लॉग इन करें।"
+          },
+          {
+            "instruction": "Account → Grubhub+ पर जाएं।"
+          },
+          {
+            "instruction": "Cancel Grubhub+ पर क्लिक करें और पुष्टि करें।"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Grubhub ऐप → Account → Grubhub+ → Cancel."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Grubhub ऐप → Account → Grubhub+ → Cancel."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "मैं Amazon Prime सदस्य हूं — कैसे रद्द करूं?",
+        "answer": "Amazon Prime के माध्यम से सदस्यता लेने वाले उपयोगकर्ताओं को Amazon अकाउंट से सीधे Grubhub+ डिस्कनेक्ट करना होगा।"
+      }
+    ]
+  },
+  "crunchyroll": {
+    "description": "Crunchyroll को वेबसाइट से रद्द करें। देखने का इतिहास सुरक्षित रहता है। PlayStation उपयोगकर्ता PS से रद्द करें।",
+    "difficulty": "आसान",
+    "difficultyReason": "Crunchyroll वेबसाइट से कुछ क्लिक में रद्द किया जा सकता है।",
+    "refundPolicy": "कोई रिफंड नहीं। देखने का इतिहास बना रहता है।",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "crunchyroll.com/account पर जाएं और लॉग इन करें।"
+          },
+          {
+            "instruction": "Manage Premium पर जाएं।"
+          },
+          {
+            "instruction": "Cancel Subscription चुनें और पुष्टि करें।"
+          }
+        ]
+      },
+      "playstation": {
+        "steps": [
+          {
+            "instruction": "यदि PS के माध्यम से सदस्यता ली: PS Settings → Account → Subscriptions → Crunchyroll → Cancel."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Crunchyroll वेबसाइट या Settings → Apple ID → Subscriptions → Crunchyroll से रद्द करें।"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Crunchyroll वेबसाइट या Google Play → Subscriptions → Crunchyroll से रद्द करें।"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "क्या मेरा देखने का इतिहास मिट जाएगा?",
+        "answer": "नहीं। रद्दीकरण के बाद भी देखने का इतिहास सुरक्षित रहता है।"
+      }
+    ]
+  },
+  "weightwatchers": {
+    "description": "WeightWatchers को वेबसाइट से रद्द करें या सपोर्ट को कॉल करें। कमिटमेंट प्लान को समय से पहले रद्द नहीं किया जा सकता।",
+    "difficulty": "मध्यम",
+    "difficultyReason": "कमिटमेंट प्लान को जल्दी रद्द नहीं किया जा सकता। सपोर्ट को कॉल करना पड़ सकता है।",
+    "refundPolicy": "कमिटमेंट प्लान के लिए कोई रिफंड नहीं। अपने प्लान की शर्तें देखें।",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "weightwatchers.com/us/account/subscription पर जाएं और लॉग इन करें।"
+          },
+          {
+            "instruction": "अपनी सदस्यता ढूंढें और Cancel पर क्लिक करें।"
+          },
+          {
+            "instruction": "चरणों का पालन करें और रद्दीकरण की पुष्टि करें।"
+          }
+        ]
+      },
+      "phone": {
+        "steps": [
+          {
+            "instruction": "किसी प्रतिनिधि के माध्यम से रद्द करने के लिए WeightWatchers सपोर्ट को कॉल करें।"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "मेरे पास कमिटमेंट प्लान है — क्या मैं रद्द कर सकता हूं?",
+        "answer": "नहीं। WeightWatchers के कमिटमेंट प्लान को समय से पहले रद्द करने की अनुमति नहीं है।"
+      }
+    ]
   }
 }

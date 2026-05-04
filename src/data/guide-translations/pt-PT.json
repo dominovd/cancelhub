@@ -2579,5 +2579,437 @@
         "answer": "Cancela atraves das definicoes do dispositivo: subscricoes iOS nas definicoes do Apple ID, subscricoes Android na Google Play Store."
       }
     ]
+  },
+  "classpass": {
+    "description": "Cancela o ClassPass em menos de 5 minutos pela app ou pelo site. Os creditos nao utilizados sao perdidos no final do ciclo de faturacao.",
+    "difficulty": "Médio",
+    "difficultyReason": "A opcao de pausa e muito promovida, dificultando a localizacao do cancelamento.",
+    "refundPolicy": "Sem reembolsos. Os creditos nao utilizados sao perdidos no final do periodo de faturacao.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai a classpass.com/account/plan e inicia sessao."
+          },
+          {
+            "instruction": "Clica em Conta → Plano → Cancelar plano."
+          },
+          {
+            "instruction": "Clica em 'Nao obrigado, cancelar' apos a oferta de pausa."
+          },
+          {
+            "instruction": "Confirma o cancelamento."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abre a app ClassPass → Perfil → Definicoes → Gerir plano → Cancelar plano."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abre a app ClassPass → Perfil → Definicoes → Gerir plano → Cancelar plano."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "A app so me mostra a opcao de pausa.",
+        "answer": "Procura a hiperligacao pequena 'Nao obrigado, cancelar' abaixo da oferta de pausa. Esta propositadamente discreta."
+      },
+      {
+        "question": "Os creditos nao utilizados sao reembolsados?",
+        "answer": "Nao. Os creditos nao utilizados nao sao reembolsaveis e sao perdidos no final do periodo de faturacao."
+      }
+    ]
+  },
+  "blink-fitness": {
+    "description": "Cancela o Blink Fitness pessoalmente no teu ginasio de origem ou por carta registada. Nao ha cancelamento online disponivel.",
+    "difficulty": "Difícil",
+    "difficultyReason": "Nao existe cancelamento online. Tens de ir pessoalmente ou enviar carta registada, com 30 dias de aviso previo.",
+    "refundPolicy": "Sem reembolsos. E necessario um aviso previo de 30 dias.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "O cancelamento online nao esta disponivel."
+          },
+          {
+            "instruction": "Visita o teu ginasio de origem pessoalmente ou envia uma carta registada para o endereco do ginasio."
+          },
+          {
+            "instruction": "Solicita o formulario de cancelamento e entrega-o. E necessario um aviso de 30 dias."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Nao e possivel cancelar pela app. Vai pessoalmente ao ginasio ou envia carta registada."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Nao e possivel cancelar pela app. Vai pessoalmente ao ginasio ou envia carta registada."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Mudei de cidade e nao consigo ir ao meu ginasio de origem.",
+        "answer": "Envia uma carta registada com o teu nome, endereco e numero de membro para o teu ginasio de origem."
+      },
+      {
+        "question": "Qual e a duracao do periodo de aviso?",
+        "answer": "30 dias. A tua subscricao permanece ativa durante 30 dias apos a entrega do formulario de cancelamento."
+      }
+    ]
+  },
+  "snapchat-plus": {
+    "description": "Cancela o Snapchat+ em menos de 2 minutos pela app do Snapchat, Definicoes iOS ou Google Play.",
+    "difficulty": "Fácil",
+    "difficultyReason": "O cancelamento e rapido e esta disponivel em todas as plataformas.",
+    "refundPolicy": "Sem reembolsos. O acesso mantem-se ate ao fim do periodo de faturacao.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Abre a app Snapchat → Perfil → Definicoes → Snapchat+ → Gerir subscricao → Cancelar."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abre as Definicoes do iPhone → Apple ID → Subscricoes → Snapchat+ → Cancelar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abre a Google Play → Subscricoes → Snapchat+ → Cancelar subscricao."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Vou perder as minhas sequencias, memorias ou amigos ao cancelar?",
+        "answer": "Nao. As sequencias, memorias e amigos sao preservados no plano gratuito."
+      },
+      {
+        "question": "Nao consigo encontrar o cancelamento na app.",
+        "answer": "Usa as definicoes do dispositivo: subscricoes iOS nas definicoes do Apple ID, subscricoes Android na Google Play Store."
+      }
+    ]
+  },
+  "ea-play": {
+    "description": "Cancela o EA Play ou EA Play Pro em menos de 5 minutos na web, PlayStation, Xbox ou nas definicoes do dispositivo.",
+    "difficulty": "Fácil",
+    "difficultyReason": "O cancelamento e simples, mas deve ser feito no lugar certo consoante a plataforma.",
+    "refundPolicy": "Sem reembolsos. O acesso mantem-se ate ao fim do periodo de faturacao. O progresso e os saves sao preservados.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai a ea.com e inicia sessao."
+          },
+          {
+            "instruction": "Clica em Conta → Subscricoes → Cancelar."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abre as Definicoes do iPhone → Apple ID → Subscricoes → EA Play → Cancelar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abre a Google Play → Subscricoes → EA Play → Cancelar subscricao."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Subscrevi o EA Play via PlayStation ou Xbox. Como cancelo?",
+        "answer": "Cancela diretamente pela tua consola: subscricoes PlayStation nas definicoes da conta PSN, subscricoes Xbox na conta Microsoft."
+      },
+      {
+        "question": "O meu progresso e os meus saves vao ser perdidos?",
+        "answer": "Nao. O progresso e os saves sao preservados apos o cancelamento."
+      }
+    ]
+  },
+  "amazon-music": {
+    "description": "Cancela o Amazon Music Unlimited em menos de 2 minutos na Amazon. Os membros Prime mantem o acesso ao Prime Music.",
+    "difficulty": "Fácil",
+    "difficultyReason": "O cancelamento e simples e pode ser feito diretamente na conta Amazon.",
+    "refundPolicy": "Sem reembolsos. O acesso mantem-se ate ao fim do periodo de faturacao.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai a amazon.com e inicia sessao."
+          },
+          {
+            "instruction": "Navega para Subscricoes e adesoes → Cancelar Amazon Music Unlimited."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Nao e possivel cancelar pela app. Visita amazon.com no navegador movel e segue os passos web."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Nao e possivel cancelar pela app. Visita amazon.com no navegador movel e segue os passos web."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Vou perder o Prime Music se cancelar o Amazon Music Unlimited?",
+        "answer": "Nao. Os membros Prime mantem o acesso ao Prime Music com mais de 2 milhoes de musicas."
+      },
+      {
+        "question": "Serei cobrado se cancelar durante o periodo de teste gratuito?",
+        "answer": "Nao. Se cancelares durante o teste gratuito, nao sera efetuado qualquer debito."
+      }
+    ]
+  },
+  "peloton": {
+    "description": "Cancela a subscricao Peloton em menos de 5 minutos pela app ou pelo site. As subscricoes de hardware e app cancelam-se separadamente.",
+    "difficulty": "Médio",
+    "difficultyReason": "As subscricoes de hardware e app sao subscricoes distintas e devem ser canceladas individualmente.",
+    "refundPolicy": "Sem reembolsos. O acesso mantem-se ate ao fim do periodo de faturacao.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai a members.onepeloton.com e inicia sessao."
+          },
+          {
+            "instruction": "Clica em Perfil → Subscricao → Cancelar subscricao."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abre a app Peloton → Perfil → Definicoes → Subscricao → Cancelar."
+          },
+          {
+            "instruction": "Alternativa: Definicoes do iPhone → Apple ID → Subscricoes → Peloton → Cancelar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abre a app Peloton → Perfil → Definicoes → Subscricao → Cancelar."
+          },
+          {
+            "instruction": "Alternativa: Google Play → Subscricoes → Peloton → Cancelar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Posso continuar a usar a minha bicicleta ou passadeira sem subscricao?",
+        "answer": "Sim. O equipamento continua a funcionar para treinos manuais sem subscricao."
+      },
+      {
+        "question": "Tenho de cancelar as subscricoes App e All-Access separadamente?",
+        "answer": "Sim. As subscricoes App e All-Access sao distintas e devem ser canceladas individualmente."
+      }
+    ]
+  },
+  "ring-protect": {
+    "description": "Cancela o plano Ring Protect em menos de 3 minutos pela app Ring ou nas definicoes da conta Amazon.",
+    "difficulty": "Fácil",
+    "difficultyReason": "O cancelamento e simples e esta disponivel diretamente na app Ring ou na Amazon.",
+    "refundPolicy": "Sem reembolsos. O acesso mantem-se ate ao fim do periodo de faturacao.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai a ring.com/account e inicia sessao."
+          },
+          {
+            "instruction": "Navega para Ring Protect Plans → Cancelar plano."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abre a app Ring → Conta → Ring Protect Plans → Cancelar plano."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abre a app Ring → Conta → Ring Protect Plans → Cancelar plano."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "As minhas cameras funcionam sem Ring Protect?",
+        "answer": "Sim. As cameras continuam a funcionar, mas sem historico de video na nuvem. A visualizacao ao vivo e as notificacoes de movimento sao mantidas."
+      },
+      {
+        "question": "O que cobre o Ring Protect Plus/Pro?",
+        "answer": "O Ring Protect Plus e Pro cobrem todos os dispositivos numa morada, nao apenas um dispositivo individual."
+      }
+    ]
+  },
+  "grubhub": {
+    "description": "Cancela o Grubhub+ em menos de 3 minutos pela app ou em grubhub.com.",
+    "difficulty": "Fácil",
+    "difficultyReason": "O cancelamento e simples e esta disponivel diretamente na app ou no site.",
+    "refundPolicy": "Sem reembolsos. O acesso mantem-se ate ao fim do periodo de faturacao.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai a grubhub.com e inicia sessao."
+          },
+          {
+            "instruction": "Navega para Conta → Grubhub+ → Cancelar subscricao."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abre a app Grubhub → Perfil → Grubhub+ → Gerir → Cancelar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abre a app Grubhub → Perfil → Grubhub+ → Gerir → Cancelar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Sou membro Amazon Prime. Como cancelo o Grubhub+?",
+        "answer": "O Grubhub+ esta ligado ao Amazon Prime. Desvincula a conta atraves da tua conta Amazon e cancela a partir dai."
+      },
+      {
+        "question": "Os meus pontos de recompensa sao preservados apos o cancelamento?",
+        "answer": "Sim. Os teus pontos de recompensa sao preservados mesmo apos o cancelamento do Grubhub+."
+      }
+    ]
+  },
+  "crunchyroll": {
+    "description": "Cancela o Crunchyroll em menos de 3 minutos na web, iOS ou Android.",
+    "difficulty": "Fácil",
+    "difficultyReason": "O cancelamento e simples e esta disponivel em todas as plataformas.",
+    "refundPolicy": "Sem reembolsos. O acesso mantem-se ate ao fim do periodo de faturacao.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai a crunchyroll.com/account e inicia sessao."
+          },
+          {
+            "instruction": "Navega para Perfil → Definicoes → Gerir Premium → Cancelar Premium."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abre as Definicoes do iPhone → Apple ID → Subscricoes → Crunchyroll → Cancelar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abre a Google Play → Subscricoes → Crunchyroll → Cancelar subscricao."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "O meu historico e favoritos sao preservados apos o cancelamento?",
+        "answer": "Sim. O historico de visualizacao e os favoritos sao preservados apos o cancelamento da subscricao Premium."
+      },
+      {
+        "question": "Subscrevi o Crunchyroll via PlayStation.",
+        "answer": "Cancela atraves das definicoes da conta PlayStation, nao pelo site do Crunchyroll."
+      }
+    ]
+  },
+  "weightwatchers": {
+    "description": "Cancela a subscricao digital ou de workshop do WeightWatchers em menos de 5 minutos na web ou ligando para o suporte.",
+    "difficulty": "Médio",
+    "difficultyReason": "Os planos de compromisso nao podem ser cancelados antecipadamente. Se nao aparecer o botao de cancelar, e necessario ligar.",
+    "refundPolicy": "Sem reembolsos em planos de compromisso. Os planos mensais podem ser cancelados a qualquer momento.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai a weightwatchers.com/us/account/subscription e inicia sessao."
+          },
+          {
+            "instruction": "Clica em Cancelar subscricao. Se nao aparecer o botao, liga para 1-800-651-6000."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abre as Definicoes do iPhone → Apple ID → Subscricoes → WW → Cancelar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abre a Google Play → Subscricoes → WW → Cancelar subscricao."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Nao vejo o botao de cancelar no site.",
+        "answer": "Com planos de compromisso, o cancelamento antecipado nao e possivel. Liga para o suporte no 1-800-651-6000 para conheceres as tuas opcoes."
+      },
+      {
+        "question": "Posso cancelar um plano de compromisso antecipadamente?",
+        "answer": "Nao. Os planos de compromisso nao podem ser cancelados antecipadamente. Tens de aguardar ate ao fim do periodo contratado."
+      }
+    ]
   }
 }

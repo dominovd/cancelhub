@@ -2535,5 +2535,431 @@
         "answer": "Se o aplicativo estiver indisponível, cancele a assinatura pelas configurações do seu dispositivo (iOS ou Android)."
       }
     ]
+  },
+  "classpass": {
+    "description": "Cancele o ClassPass pelo site ou aplicativo — esteja preparado para recusar a oferta de pausa.",
+    "difficulty": "Médio",
+    "difficultyReason": "Você precisa recusar a oferta de pausa antes de concluir o cancelamento.",
+    "refundPolicy": "Créditos não são reembolsáveis.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse classpass.com/account/plan e faça login."
+          },
+          {
+            "instruction": "Clique em Cancelar Membership."
+          },
+          {
+            "instruction": "Recuse a oferta de pausa quando apresentada."
+          },
+          {
+            "instruction": "Confirme o cancelamento."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abra o app ClassPass → Conta → Plano → Cancelar Membership. Recuse a pausa e confirme."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abra o app ClassPass → Conta → Plano → Cancelar Membership. Recuse a pausa e confirme."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Meus créditos restantes serão reembolsados?",
+        "answer": "Não. Os créditos do ClassPass não são reembolsáveis."
+      }
+    ]
+  },
+  "blink-fitness": {
+    "description": "Cancele o Blink Fitness pessoalmente na academia ou por carta registrada — sem cancelamento online.",
+    "difficulty": "Difícil",
+    "difficultyReason": "O cancelamento só pode ser feito presencialmente ou por carta registrada. Aviso de 30 dias obrigatório.",
+    "refundPolicy": "Sem reembolsos. Aviso de 30 dias necessário.",
+    "platforms": {
+      "inPerson": {
+        "steps": [
+          {
+            "instruction": "Vá pessoalmente a qualquer academia Blink Fitness."
+          },
+          {
+            "instruction": "Solicite o formulário de cancelamento na recepção."
+          },
+          {
+            "instruction": "Preencha e envie o formulário. O período de aviso de 30 dias começa a partir daí."
+          }
+        ]
+      },
+      "mail": {
+        "steps": [
+          {
+            "instruction": "Envie uma carta por correio certificado com seu nome completo, endereço e pedido de cancelamento para o endereço da academia."
+          },
+          {
+            "instruction": "Guarde o comprovante de envio. O período de 30 dias começa ao receber a carta."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Posso cancelar online ou pelo telefone?",
+        "answer": "Não. O Blink Fitness não permite cancelamento online ou por telefone. É necessário comparecer pessoalmente ou enviar carta registrada."
+      }
+    ]
+  },
+  "snapchat-plus": {
+    "description": "Cancele o Snapchat+ nas configurações do app ou do dispositivo. Streaks e memórias são preservados.",
+    "difficulty": "Fácil",
+    "difficultyReason": "O cancelamento é simples pelas configurações da assinatura do app ou do dispositivo.",
+    "refundPolicy": "Sem reembolsos. Streaks e memórias são mantidos.",
+    "platforms": {
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abra o Snapchat → Perfil → Snapchat+ → Gerenciar Assinatura."
+          },
+          {
+            "instruction": "Toque em Cancelar Assinatura e confirme."
+          },
+          {
+            "note": "Como alternativa: Ajustes → Apple ID → Assinaturas → Snapchat+."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abra o Snapchat → Perfil → Snapchat+ → Gerenciar Assinatura."
+          },
+          {
+            "instruction": "Toque em Cancelar e confirme."
+          },
+          {
+            "note": "Como alternativa: Google Play → Assinaturas → Snapchat+."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Vou perder meus Streaks?",
+        "answer": "Não. Streaks e memórias são preservados após o cancelamento do Snapchat+."
+      }
+    ]
+  },
+  "ea-play": {
+    "description": "Cancele o EA Play pelo site da EA ou pelo console. O progresso do jogo é preservado.",
+    "difficulty": "Fácil",
+    "difficultyReason": "Cancelamento simples pelo site ou pelo console.",
+    "refundPolicy": "Sem reembolsos. O progresso do jogo é mantido.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse ea.com e faça login na sua conta."
+          },
+          {
+            "instruction": "Vá em Conta → Assinaturas."
+          },
+          {
+            "instruction": "Selecione EA Play e clique em Cancelar Assinatura."
+          },
+          {
+            "instruction": "Confirme o cancelamento."
+          }
+        ]
+      },
+      "playstation": {
+        "steps": [
+          {
+            "instruction": "No PS4/PS5, vá em Configurações → Conta → Assinaturas."
+          },
+          {
+            "instruction": "Selecione EA Play e cancele."
+          }
+        ]
+      },
+      "xbox": {
+        "steps": [
+          {
+            "instruction": "Acesse account.microsoft.com → Serviços e assinaturas."
+          },
+          {
+            "instruction": "Encontre EA Play e selecione Cancelar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Meu progresso no jogo será perdido?",
+        "answer": "Não. O progresso e os saves do jogo são preservados após o cancelamento do EA Play."
+      }
+    ]
+  },
+  "amazon-music": {
+    "description": "Cancele o Amazon Music Unlimited pelo site da Amazon. Membros Prime mantêm o Prime Music com 2 milhões de músicas.",
+    "difficulty": "Fácil",
+    "difficultyReason": "Cancelamento direto pelo site da Amazon em poucos cliques.",
+    "refundPolicy": "Sem reembolsos. Prime Music (2 milhões de músicas) continua disponível para membros Prime.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse amazon.com.br e faça login."
+          },
+          {
+            "instruction": "Vá em Conta → Associações e assinaturas."
+          },
+          {
+            "instruction": "Encontre Amazon Music Unlimited e clique em Cancelar assinatura."
+          },
+          {
+            "instruction": "Confirme o cancelamento."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Cancele pelo site da Amazon ou via Ajustes → Apple ID → Assinaturas → Amazon Music."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Cancele pelo site da Amazon ou via Google Play → Assinaturas → Amazon Music."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Vou perder toda a minha música?",
+        "answer": "Membros Prime mantêm o acesso ao Prime Music com 2 milhões de músicas. Apenas o catálogo ilimitado é removido."
+      }
+    ]
+  },
+  "peloton": {
+    "description": "Cancele o Peloton em members.onepeloton.com. A bike continua funcionando manualmente. App e All-Access são cancelados separadamente.",
+    "difficulty": "Médio",
+    "difficultyReason": "Assinaturas de App e All-Access são canceladas separadamente. A bike funciona sem assinatura.",
+    "refundPolicy": "Sem reembolsos. A bike Peloton funciona manualmente sem assinatura.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse members.onepeloton.com e faça login."
+          },
+          {
+            "instruction": "Vá em Configurações → Membership."
+          },
+          {
+            "instruction": "Clique em Cancelar Membership."
+          },
+          {
+            "instruction": "Siga as instruções e confirme o cancelamento."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Cancele a assinatura do App pelo Ajustes → Apple ID → Assinaturas → Peloton."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Cancele a assinatura do App pelo Google Play → Assinaturas → Peloton."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Minha bike vai parar de funcionar?",
+        "answer": "Não. A bike Peloton continua funcionando manualmente mesmo sem assinatura ativa."
+      }
+    ]
+  },
+  "ring-protect": {
+    "description": "Cancele o Ring Protect pelo site ou app. As câmeras continuam funcionando, mas sem gravação em nuvem.",
+    "difficulty": "Fácil",
+    "difficultyReason": "Cancelamento direto pelo site ou aplicativo Ring.",
+    "refundPolicy": "Sem reembolsos. As câmeras funcionam, mas perdem gravação em nuvem e histórico de vídeo.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse ring.com e faça login."
+          },
+          {
+            "instruction": "Vá em Controle de conta → Planos Ring Protect."
+          },
+          {
+            "instruction": "Selecione o plano e clique em Cancelar Plano."
+          },
+          {
+            "instruction": "Confirme o cancelamento."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abra o app Ring → Menu → Controle de conta → Ring Protect → Cancelar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abra o app Ring → Menu → Controle de conta → Ring Protect → Cancelar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Minhas câmeras vão parar de funcionar?",
+        "answer": "Não. As câmeras Ring continuam funcionando, mas sem gravação em nuvem ou histórico de vídeo."
+      }
+    ]
+  },
+  "grubhub": {
+    "description": "Cancele o Grubhub+ pelo site ou app. Usuários Amazon Prime devem desconectar via Amazon. Pontos de recompensa são preservados.",
+    "difficulty": "Fácil",
+    "difficultyReason": "Cancelamento simples pelo site ou app. Usuários Prime têm um fluxo separado via Amazon.",
+    "refundPolicy": "Sem reembolsos. Pontos de recompensa são mantidos.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse grubhub.com e faça login."
+          },
+          {
+            "instruction": "Vá em Conta → Grubhub+."
+          },
+          {
+            "instruction": "Clique em Cancelar Grubhub+ e confirme."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abra o app Grubhub → Conta → Grubhub+ → Cancelar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abra o app Grubhub → Conta → Grubhub+ → Cancelar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Sou membro Amazon Prime — como cancelo?",
+        "answer": "Usuários que assinaram via Amazon Prime devem desconectar o Grubhub+ diretamente pela conta Amazon."
+      }
+    ]
+  },
+  "crunchyroll": {
+    "description": "Cancele o Crunchyroll pelo site. Histórico de visualização é preservado. Usuários PlayStation cancelam pelo PS.",
+    "difficulty": "Fácil",
+    "difficultyReason": "Cancelamento direto pelo site da Crunchyroll em poucos cliques.",
+    "refundPolicy": "Sem reembolsos. Histórico de visualização é mantido.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse crunchyroll.com/account e faça login."
+          },
+          {
+            "instruction": "Vá em Gerenciar Premium."
+          },
+          {
+            "instruction": "Selecione Cancelar Assinatura e confirme."
+          }
+        ]
+      },
+      "playstation": {
+        "steps": [
+          {
+            "instruction": "Se assinou pelo PS: Configurações do PS → Conta → Assinaturas → Crunchyroll → Cancelar."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Cancele pelo site da Crunchyroll ou via Ajustes → Apple ID → Assinaturas → Crunchyroll."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Cancele pelo site da Crunchyroll ou via Google Play → Assinaturas → Crunchyroll."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Meu histórico de visualização será apagado?",
+        "answer": "Não. O histórico de visualização é preservado após o cancelamento."
+      }
+    ]
+  },
+  "weightwatchers": {
+    "description": "Cancele o WeightWatchers pelo site ou ligue para 1-800-651-6000. Planos de compromisso não podem ser cancelados antecipadamente.",
+    "difficulty": "Médio",
+    "difficultyReason": "O cancelamento antecipado de planos de compromisso não é permitido. Pode ser necessário ligar para o suporte.",
+    "refundPolicy": "Sem reembolsos em planos de compromisso. Consulte os termos do seu plano.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse weightwatchers.com/us/account/subscription e faça login."
+          },
+          {
+            "instruction": "Localize sua assinatura e clique em Cancelar."
+          },
+          {
+            "instruction": "Siga as etapas e confirme o cancelamento."
+          }
+        ]
+      },
+      "phone": {
+        "steps": [
+          {
+            "instruction": "Ligue para 1-800-651-6000 para cancelar com um representante."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Tenho um plano de compromisso — posso cancelar?",
+        "answer": "Não. Planos de compromisso do WeightWatchers não permitem cancelamento antecipado."
+      }
+    ]
   }
 }

@@ -41,6 +41,16 @@ import { uberOne } from './uber-one'
 import { onstar } from './onstar'
 import { ipsy } from './ipsy'
 import { capcut } from './capcut'
+import { classpass } from './classpass'
+import { blinkFitness } from './blink-fitness'
+import { snapchatPlus } from './snapchat-plus'
+import { eaPlay } from './ea-play'
+import { amazonMusic } from './amazon-music'
+import { peloton } from './peloton'
+import { ringProtect } from './ring-protect'
+import { grubhub } from './grubhub'
+import { crunchyroll } from './crunchyroll'
+import { weightwatchers } from './weightwatchers'
 
 export const allGuides: CancelGuide[] = [
   netflix,
@@ -85,6 +95,16 @@ export const allGuides: CancelGuide[] = [
   onstar,
   ipsy,
   capcut,
+  classpass,
+  blinkFitness,
+  snapchatPlus,
+  eaPlay,
+  amazonMusic,
+  peloton,
+  ringProtect,
+  grubhub,
+  crunchyroll,
+  weightwatchers,
 ]
 
 export const guidesBySlug: Record<string, CancelGuide> = Object.fromEntries(

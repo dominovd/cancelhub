@@ -2535,5 +2535,431 @@
         "answer": "Se l'app non è disponibile, annulla l'abbonamento tramite le impostazioni del dispositivo (iOS o Android)."
       }
     ]
+  },
+  "classpass": {
+    "description": "Annulla ClassPass tramite sito web o app — preparati a rifiutare l'offerta di pausa.",
+    "difficulty": "Medio",
+    "difficultyReason": "Devi rifiutare l'offerta di pausa prima di completare la disdetta.",
+    "refundPolicy": "I crediti non sono rimborsabili.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su classpass.com/account/plan e accedi."
+          },
+          {
+            "instruction": "Clicca su Annulla abbonamento."
+          },
+          {
+            "instruction": "Rifiuta l'offerta di pausa quando viene proposta."
+          },
+          {
+            "instruction": "Conferma la disdetta."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Apri l'app ClassPass → Account → Piano → Annulla abbonamento. Rifiuta la pausa e conferma."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Apri l'app ClassPass → Account → Piano → Annulla abbonamento. Rifiuta la pausa e conferma."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "I crediti rimanenti verranno rimborsati?",
+        "answer": "No. I crediti ClassPass non sono rimborsabili dopo la disdetta."
+      }
+    ]
+  },
+  "blink-fitness": {
+    "description": "Disdici Blink Fitness di persona o tramite posta raccomandata — nessuna cancellazione online.",
+    "difficulty": "Difficile",
+    "difficultyReason": "La disdetta è possibile solo di persona o tramite posta raccomandata. Preavviso di 30 giorni obbligatorio.",
+    "refundPolicy": "Nessun rimborso. Preavviso di 30 giorni richiesto.",
+    "platforms": {
+      "inPerson": {
+        "steps": [
+          {
+            "instruction": "Recati di persona in qualsiasi palestra Blink Fitness."
+          },
+          {
+            "instruction": "Richiedi il modulo di disdetta alla reception."
+          },
+          {
+            "instruction": "Compila e consegna il modulo. Il preavviso di 30 giorni decorre da questo momento."
+          }
+        ]
+      },
+      "mail": {
+        "steps": [
+          {
+            "instruction": "Invia una lettera raccomandata con nome completo, indirizzo e richiesta di disdetta all'indirizzo della palestra."
+          },
+          {
+            "instruction": "Conserva la ricevuta di spedizione. I 30 giorni decorrono dalla ricezione."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Posso disdire online o per telefono?",
+        "answer": "No. Blink Fitness non consente la disdetta online o telefonica. È necessario recarsi di persona o inviare posta raccomandata."
+      }
+    ]
+  },
+  "snapchat-plus": {
+    "description": "Annulla Snapchat+ dalle impostazioni dell'app o del dispositivo. Streak e ricordi vengono conservati.",
+    "difficulty": "Facile",
+    "difficultyReason": "La disdetta è semplice tramite le impostazioni dell'abbonamento nell'app o nel dispositivo.",
+    "refundPolicy": "Nessun rimborso. Streak e ricordi vengono mantenuti.",
+    "platforms": {
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Apri Snapchat → Profilo → Snapchat+ → Gestisci abbonamento."
+          },
+          {
+            "instruction": "Tocca Annulla abbonamento e conferma."
+          },
+          {
+            "note": "In alternativa: Impostazioni → ID Apple → Abbonamenti → Snapchat+."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Apri Snapchat → Profilo → Snapchat+ → Gestisci abbonamento."
+          },
+          {
+            "instruction": "Tocca Annulla e conferma."
+          },
+          {
+            "note": "In alternativa: Google Play → Abbonamenti → Snapchat+."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Perderò le mie Streak?",
+        "answer": "No. Streak e ricordi vengono conservati dopo la disdetta di Snapchat+."
+      }
+    ]
+  },
+  "ea-play": {
+    "description": "Annulla EA Play tramite il sito EA o la console. I progressi di gioco vengono conservati.",
+    "difficulty": "Facile",
+    "difficultyReason": "Disdetta semplice tramite sito web o console.",
+    "refundPolicy": "Nessun rimborso. I progressi di gioco vengono mantenuti.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su ea.com e accedi al tuo account."
+          },
+          {
+            "instruction": "Vai in Account → Abbonamenti."
+          },
+          {
+            "instruction": "Seleziona EA Play e clicca su Annulla abbonamento."
+          },
+          {
+            "instruction": "Conferma la disdetta."
+          }
+        ]
+      },
+      "playstation": {
+        "steps": [
+          {
+            "instruction": "Su PS4/PS5, vai in Impostazioni → Account → Abbonamenti."
+          },
+          {
+            "instruction": "Seleziona EA Play e annulla."
+          }
+        ]
+      },
+      "xbox": {
+        "steps": [
+          {
+            "instruction": "Accedi a account.microsoft.com → Servizi e abbonamenti."
+          },
+          {
+            "instruction": "Trova EA Play e seleziona Annulla."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Perderò i progressi di gioco?",
+        "answer": "No. I progressi e i salvataggi vengono conservati dopo la disdetta di EA Play."
+      }
+    ]
+  },
+  "amazon-music": {
+    "description": "Annulla Amazon Music Unlimited tramite il sito Amazon. I membri Prime conservano Prime Music con 2 milioni di brani.",
+    "difficulty": "Facile",
+    "difficultyReason": "Disdetta diretta dal sito Amazon in pochi clic.",
+    "refundPolicy": "Nessun rimborso. Prime Music (2 milioni di brani) rimane disponibile per i membri Prime.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su amazon.it e accedi."
+          },
+          {
+            "instruction": "Vai in Account → Abbonamenti e iscrizioni."
+          },
+          {
+            "instruction": "Trova Amazon Music Unlimited e clicca su Annulla abbonamento."
+          },
+          {
+            "instruction": "Conferma la disdetta."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Annulla tramite il sito Amazon o via Impostazioni → ID Apple → Abbonamenti → Amazon Music."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Annulla tramite il sito Amazon o via Google Play → Abbonamenti → Amazon Music."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Perderò tutta la mia musica?",
+        "answer": "I membri Prime conservano l'accesso a Prime Music con 2 milioni di brani. Viene rimosso solo il catalogo illimitato."
+      }
+    ]
+  },
+  "peloton": {
+    "description": "Annulla Peloton su members.onepeloton.com. La bici continua a funzionare manualmente. App e All-Access si annullano separatamente.",
+    "difficulty": "Medio",
+    "difficultyReason": "Gli abbonamenti App e All-Access si annullano separatamente. La bici funziona senza abbonamento.",
+    "refundPolicy": "Nessun rimborso. La bici Peloton funziona manualmente senza abbonamento.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su members.onepeloton.com e accedi."
+          },
+          {
+            "instruction": "Vai in Impostazioni → Membership."
+          },
+          {
+            "instruction": "Clicca su Annulla membership."
+          },
+          {
+            "instruction": "Segui le istruzioni e conferma la disdetta."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Annulla l'abbonamento App tramite Impostazioni → ID Apple → Abbonamenti → Peloton."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Annulla l'abbonamento App tramite Google Play → Abbonamenti → Peloton."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "La mia bici smetterà di funzionare?",
+        "answer": "No. La bici Peloton continua a funzionare manualmente anche senza un abbonamento attivo."
+      }
+    ]
+  },
+  "ring-protect": {
+    "description": "Annulla Ring Protect tramite sito web o app. Le telecamere continuano a funzionare, ma senza registrazione cloud.",
+    "difficulty": "Facile",
+    "difficultyReason": "Disdetta diretta tramite sito web o app Ring.",
+    "refundPolicy": "Nessun rimborso. Le telecamere funzionano ma perdono registrazione cloud e cronologia video.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su ring.com e accedi."
+          },
+          {
+            "instruction": "Vai in Controllo account → Piani Ring Protect."
+          },
+          {
+            "instruction": "Seleziona il piano e clicca su Annulla piano."
+          },
+          {
+            "instruction": "Conferma la disdetta."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Apri l'app Ring → Menu → Controllo account → Ring Protect → Annulla."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Apri l'app Ring → Menu → Controllo account → Ring Protect → Annulla."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Le mie telecamere smetteranno di funzionare?",
+        "answer": "No. Le telecamere Ring continuano a funzionare, ma senza registrazione cloud o cronologia video."
+      }
+    ]
+  },
+  "grubhub": {
+    "description": "Annulla Grubhub+ tramite sito web o app. Gli utenti Amazon Prime devono disconnettersi tramite Amazon. I punti premio vengono conservati.",
+    "difficulty": "Facile",
+    "difficultyReason": "Disdetta semplice tramite sito web o app. Gli utenti Prime hanno un flusso separato via Amazon.",
+    "refundPolicy": "Nessun rimborso. I punti premio vengono mantenuti.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su grubhub.com e accedi."
+          },
+          {
+            "instruction": "Vai in Account → Grubhub+."
+          },
+          {
+            "instruction": "Clicca su Annulla Grubhub+ e conferma."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "App Grubhub → Account → Grubhub+ → Annulla."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "App Grubhub → Account → Grubhub+ → Annulla."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Sono membro Amazon Prime — come annullo?",
+        "answer": "Gli utenti che si sono iscritti tramite Amazon Prime devono disconnettere Grubhub+ direttamente dall'account Amazon."
+      }
+    ]
+  },
+  "crunchyroll": {
+    "description": "Annulla Crunchyroll dal sito web. La cronologia delle visualizzazioni viene conservata. Gli utenti PlayStation annullano dal PS.",
+    "difficulty": "Facile",
+    "difficultyReason": "Disdetta diretta dal sito Crunchyroll in pochi clic.",
+    "refundPolicy": "Nessun rimborso. La cronologia delle visualizzazioni viene mantenuta.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su crunchyroll.com/account e accedi."
+          },
+          {
+            "instruction": "Vai in Gestisci Premium."
+          },
+          {
+            "instruction": "Seleziona Annulla abbonamento e conferma."
+          }
+        ]
+      },
+      "playstation": {
+        "steps": [
+          {
+            "instruction": "Se ti sei abbonato tramite PS: Impostazioni PS → Account → Abbonamenti → Crunchyroll → Annulla."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Annulla tramite il sito Crunchyroll o via Impostazioni → ID Apple → Abbonamenti → Crunchyroll."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Annulla tramite il sito Crunchyroll o via Google Play → Abbonamenti → Crunchyroll."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "La mia cronologia delle visualizzazioni verrà cancellata?",
+        "answer": "No. La cronologia delle visualizzazioni viene conservata dopo la disdetta."
+      }
+    ]
+  },
+  "weightwatchers": {
+    "description": "Annulla WeightWatchers tramite sito web o chiamando il supporto. I piani a impegno non possono essere annullati anticipatamente.",
+    "difficulty": "Medio",
+    "difficultyReason": "I piani a impegno non possono essere annullati in anticipo. Potrebbe essere necessario contattare il supporto.",
+    "refundPolicy": "Nessun rimborso per i piani a impegno. Consulta i termini del tuo piano.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su weightwatchers.com/us/account/subscription e accedi."
+          },
+          {
+            "instruction": "Individua il tuo abbonamento e clicca su Annulla."
+          },
+          {
+            "instruction": "Segui i passaggi e conferma la disdetta."
+          }
+        ]
+      },
+      "phone": {
+        "steps": [
+          {
+            "instruction": "Chiama il supporto WeightWatchers per annullare con un rappresentante."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ho un piano a impegno — posso annullare?",
+        "answer": "No. I piani a impegno di WeightWatchers non consentono la disdetta anticipata."
+      }
+    ]
   }
 }

@@ -2579,5 +2579,437 @@
         "answer": "Résiliez via les paramètres de l'appareil : abonnements iOS dans les réglages de l'identifiant Apple, abonnements Android dans le Google Play Store."
       }
     ]
+  },
+  "classpass": {
+    "description": "Résiliez ClassPass en moins de 5 minutes via l'application ou le site web. Les crédits non utilisés sont perdus à la fin du cycle de facturation.",
+    "difficulty": "Moyen",
+    "difficultyReason": "L'option de pause est fortement mise en avant, ce qui rend la résiliation difficile à trouver.",
+    "refundPolicy": "Aucun remboursement. Les crédits non utilisés sont perdus à la fin de la période de facturation.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Rendez-vous sur classpass.com/account/plan et connectez-vous."
+          },
+          {
+            "instruction": "Cliquez sur Compte → Plan → Annuler le plan."
+          },
+          {
+            "instruction": "Cliquez sur 'Non merci, annuler' apres l'offre de pause."
+          },
+          {
+            "instruction": "Confirmez la résiliation."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ouvrez l'app ClassPass → Profil → Paramètres → Gérer le plan → Annuler le plan."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ouvrez l'app ClassPass → Profil → Paramètres → Gérer le plan → Annuler le plan."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "L'app ne me montre que l'option de pause.",
+        "answer": "Recherchez le petit lien 'Non merci, annuler' sous l'offre de pause. Il est volontairement discret."
+      },
+      {
+        "question": "Les crédits non utilisés sont-ils remboursés ?",
+        "answer": "Non. Les crédits non utilisés ne sont pas remboursables et sont perdus à la fin de la période de facturation."
+      }
+    ]
+  },
+  "blink-fitness": {
+    "description": "Résiliez Blink Fitness en personne dans votre salle d'origine ou par courrier recommandé. Aucune résiliation en ligne disponible.",
+    "difficulty": "Difficile",
+    "difficultyReason": "Il n'existe pas de résiliation en ligne. Vous devez vous rendre en personne ou envoyer un courrier recommandé, avec un préavis de 30 jours.",
+    "refundPolicy": "Aucun remboursement. Un préavis de 30 jours est requis.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "La résiliation en ligne n'est pas disponible."
+          },
+          {
+            "instruction": "Rendez-vous en personne dans votre salle d'origine ou envoyez un courrier recommandé à l'adresse de la salle."
+          },
+          {
+            "instruction": "Demandez le formulaire de résiliation et soumettez-le. Un préavis de 30 jours est requis."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "La résiliation via l'app est impossible. Rendez-vous en personne dans la salle ou envoyez un courrier recommandé."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "La résiliation via l'app est impossible. Rendez-vous en personne dans la salle ou envoyez un courrier recommandé."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "J'ai déménagé et je ne peux plus me rendre dans ma salle d'origine.",
+        "answer": "Envoyez un courrier recommandé avec votre nom, adresse et numéro de membre à votre salle d'origine."
+      },
+      {
+        "question": "Quelle est la durée du préavis ?",
+        "answer": "30 jours. Votre abonnement reste actif pendant 30 jours après la soumission du formulaire de résiliation."
+      }
+    ]
+  },
+  "snapchat-plus": {
+    "description": "Résiliez Snapchat+ en moins de 2 minutes via l'app Snapchat, les réglages iOS ou Google Play.",
+    "difficulty": "Facile",
+    "difficultyReason": "La résiliation est rapide et disponible sur toutes les plateformes.",
+    "refundPolicy": "Aucun remboursement. L'accès se poursuit jusqu'à la fin de la période de facturation.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ouvrez l'app Snapchat → Profil → Paramètres → Snapchat+ → Gérer l'abonnement → Annuler."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ouvrez Réglages iPhone → Identifiant Apple → Abonnements → Snapchat+ → Résilier."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ouvrez Google Play → Abonnements → Snapchat+ → Résilier l'abonnement."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Vais-je perdre mes séries, souvenirs ou amis en résiliant ?",
+        "answer": "Non. Les séries, souvenirs et amis sont conservés dans le plan gratuit."
+      },
+      {
+        "question": "Je ne trouve pas la résiliation dans l'app.",
+        "answer": "Utilisez les paramètres de l'appareil : abonnements iOS dans les réglages de l'identifiant Apple, abonnements Android dans le Google Play Store."
+      }
+    ]
+  },
+  "ea-play": {
+    "description": "Résiliez EA Play ou EA Play Pro en moins de 5 minutes sur le web, PlayStation, Xbox ou les paramètres de l'appareil.",
+    "difficulty": "Facile",
+    "difficultyReason": "La résiliation est simple, mais doit être effectuée au bon endroit selon la plateforme.",
+    "refundPolicy": "Aucun remboursement. L'accès se poursuit jusqu'à la fin de la période de facturation. La progression et les sauvegardes sont conservées.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Rendez-vous sur ea.com et connectez-vous."
+          },
+          {
+            "instruction": "Cliquez sur Compte → Abonnements → Résilier."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ouvrez Réglages iPhone → Identifiant Apple → Abonnements → EA Play → Résilier."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ouvrez Google Play → Abonnements → EA Play → Résilier l'abonnement."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Je me suis abonné à EA Play via PlayStation ou Xbox. Comment résilier ?",
+        "answer": "Résiliez directement depuis votre console : abonnements PlayStation dans les paramètres du compte PSN, abonnements Xbox dans le compte Microsoft."
+      },
+      {
+        "question": "Ma progression et mes sauvegardes seront-elles perdues ?",
+        "answer": "Non. La progression et les sauvegardes sont conservées après la résiliation."
+      }
+    ]
+  },
+  "amazon-music": {
+    "description": "Résiliez Amazon Music Unlimited en moins de 2 minutes sur Amazon. Les membres Prime conservent l'accès à Prime Music.",
+    "difficulty": "Facile",
+    "difficultyReason": "La résiliation est simple et peut être effectuée directement depuis le compte Amazon.",
+    "refundPolicy": "Aucun remboursement. L'accès se poursuit jusqu'à la fin de la période de facturation.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Rendez-vous sur amazon.com et connectez-vous."
+          },
+          {
+            "instruction": "Naviguez vers Abonnements et adhésions → Résilier Amazon Music Unlimited."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "La résiliation via l'app est impossible. Visitez amazon.com dans le navigateur mobile et suivez les étapes web."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "La résiliation via l'app est impossible. Visitez amazon.com dans le navigateur mobile et suivez les étapes web."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Vais-je perdre Prime Music si je résilie Amazon Music Unlimited ?",
+        "answer": "Non. Les membres Prime conservent l'accès à Prime Music avec plus de 2 millions de titres."
+      },
+      {
+        "question": "Serai-je facturé si je résilie pendant l'essai gratuit ?",
+        "answer": "Non. Si vous résiliez pendant l'essai gratuit, aucun frais ne sera prélevé."
+      }
+    ]
+  },
+  "peloton": {
+    "description": "Résiliez votre abonnement Peloton en moins de 5 minutes via l'app ou le site web. Les abonnements matériel et app se résilient séparément.",
+    "difficulty": "Moyen",
+    "difficultyReason": "Les abonnements matériel et app sont des abonnements distincts et doivent être résiliés individuellement.",
+    "refundPolicy": "Aucun remboursement. L'accès se poursuit jusqu'à la fin de la période de facturation.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Rendez-vous sur members.onepeloton.com et connectez-vous."
+          },
+          {
+            "instruction": "Cliquez sur Profil → Abonnement → Résilier l'abonnement."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ouvrez l'app Peloton → Profil → Paramètres → Abonnement → Résilier."
+          },
+          {
+            "instruction": "Alternative : Réglages iPhone → Identifiant Apple → Abonnements → Peloton → Résilier."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ouvrez l'app Peloton → Profil → Paramètres → Abonnement → Résilier."
+          },
+          {
+            "instruction": "Alternative : Google Play → Abonnements → Peloton → Résilier."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Puis-je encore utiliser mon vélo ou tapis sans abonnement ?",
+        "answer": "Oui. L'équipement fonctionne toujours pour les entraînements manuels sans abonnement."
+      },
+      {
+        "question": "Dois-je résilier les abonnements App et All-Access séparément ?",
+        "answer": "Oui. Les abonnements App et All-Access sont distincts et doivent être résiliés individuellement."
+      }
+    ]
+  },
+  "ring-protect": {
+    "description": "Résiliez votre plan Ring Protect en moins de 3 minutes via l'app Ring ou les paramètres du compte Amazon.",
+    "difficulty": "Facile",
+    "difficultyReason": "La résiliation est simple et disponible directement dans l'app Ring ou sur Amazon.",
+    "refundPolicy": "Aucun remboursement. L'accès se poursuit jusqu'à la fin de la période de facturation.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Rendez-vous sur ring.com/account et connectez-vous."
+          },
+          {
+            "instruction": "Naviguez vers Ring Protect Plans → Annuler le plan."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ouvrez l'app Ring → Compte → Ring Protect Plans → Annuler le plan."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ouvrez l'app Ring → Compte → Ring Protect Plans → Annuler le plan."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Mes caméras fonctionnent-elles sans Ring Protect ?",
+        "answer": "Oui. Les caméras continuent de fonctionner, mais sans historique vidéo dans le cloud. La vue en direct et les notifications de mouvement sont conservées."
+      },
+      {
+        "question": "Que couvre Ring Protect Plus/Pro ?",
+        "answer": "Ring Protect Plus et Pro couvrent tous les appareils d'une adresse, pas seulement un seul appareil."
+      }
+    ]
+  },
+  "grubhub": {
+    "description": "Résiliez Grubhub+ en moins de 3 minutes via l'app ou grubhub.com.",
+    "difficulty": "Facile",
+    "difficultyReason": "La résiliation est simple et disponible directement dans l'app ou sur le site web.",
+    "refundPolicy": "Aucun remboursement. L'accès se poursuit jusqu'à la fin de la période de facturation.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Rendez-vous sur grubhub.com et connectez-vous."
+          },
+          {
+            "instruction": "Naviguez vers Compte → Grubhub+ → Résilier l'abonnement."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ouvrez l'app Grubhub → Profil → Grubhub+ → Gérer → Résilier."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ouvrez l'app Grubhub → Profil → Grubhub+ → Gérer → Résilier."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Je suis membre Amazon Prime. Comment résilier Grubhub+ ?",
+        "answer": "Grubhub+ est lié à Amazon Prime. Dissociez le compte depuis votre compte Amazon et résiliez depuis là."
+      },
+      {
+        "question": "Mes points de récompense sont-ils conservés après la résiliation ?",
+        "answer": "Oui. Vos points de récompense sont conservés même après la résiliation de Grubhub+."
+      }
+    ]
+  },
+  "crunchyroll": {
+    "description": "Résiliez Crunchyroll en moins de 3 minutes sur le web, iOS ou Android.",
+    "difficulty": "Facile",
+    "difficultyReason": "La résiliation est simple et disponible sur toutes les plateformes.",
+    "refundPolicy": "Aucun remboursement. L'accès se poursuit jusqu'à la fin de la période de facturation.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Rendez-vous sur crunchyroll.com/account et connectez-vous."
+          },
+          {
+            "instruction": "Naviguez vers Profil → Paramètres → Gérer Premium → Annuler Premium."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ouvrez Réglages iPhone → Identifiant Apple → Abonnements → Crunchyroll → Résilier."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ouvrez Google Play → Abonnements → Crunchyroll → Résilier l'abonnement."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Mon historique et mes favoris sont-ils conservés après la résiliation ?",
+        "answer": "Oui. L'historique de visionnage et les favoris sont conservés après la résiliation de l'abonnement Premium."
+      },
+      {
+        "question": "Je me suis abonné à Crunchyroll via PlayStation.",
+        "answer": "Résiliez depuis les paramètres du compte PlayStation, pas depuis le site web de Crunchyroll."
+      }
+    ]
+  },
+  "weightwatchers": {
+    "description": "Résiliez l'abonnement numérique ou atelier WeightWatchers en moins de 5 minutes sur le web ou en appelant le support.",
+    "difficulty": "Moyen",
+    "difficultyReason": "Les plans d'engagement ne peuvent pas être résiliés avant leur terme. Si le bouton de résiliation est absent, il faut appeler.",
+    "refundPolicy": "Aucun remboursement pour les plans d'engagement. Les plans mensuels peuvent être résiliés à tout moment.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Rendez-vous sur weightwatchers.com/us/account/subscription et connectez-vous."
+          },
+          {
+            "instruction": "Cliquez sur Résilier l'abonnement. Si le bouton est absent, appelez le 1-800-651-6000."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ouvrez Réglages iPhone → Identifiant Apple → Abonnements → WW → Résilier."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ouvrez Google Play → Abonnements → WW → Résilier l'abonnement."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Je ne vois pas le bouton de résiliation sur le site web.",
+        "answer": "Avec les plans d'engagement, la résiliation anticipée est impossible. Appelez le support au 1-800-651-6000 pour connaître vos options."
+      },
+      {
+        "question": "Puis-je résilier un plan d'engagement avant son terme ?",
+        "answer": "Non. Les plans d'engagement ne peuvent pas être résiliés avant leur terme. Vous devez attendre la fin de la période souscrite."
+      }
+    ]
   }
 }

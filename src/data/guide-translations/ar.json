@@ -2725,5 +2725,431 @@
         "description": "InShot — محرر فيديو للجوال"
       }
     ]
+  },
+  "classpass": {
+    "description": "ألغِ اشتراك ClassPass عبر الموقع أو التطبيق — كن مستعداً لرفض عرض الإيقاف المؤقت.",
+    "difficulty": "متوسط",
+    "difficultyReason": "يجب رفض عرض الإيقاف المؤقت قبل إتمام الإلغاء.",
+    "refundPolicy": "الرصيد غير قابل للاسترداد.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "اذهب إلى classpass.com/account/plan وسجّل الدخول."
+          },
+          {
+            "instruction": "انقر على إلغاء العضوية."
+          },
+          {
+            "instruction": "ارفض عرض الإيقاف المؤقت عند ظهوره."
+          },
+          {
+            "instruction": "أكّد الإلغاء."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "تطبيق ClassPass ← الحساب ← الخطة ← إلغاء العضوية. ارفض الإيقاف المؤقت وأكّد."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "تطبيق ClassPass ← الحساب ← الخطة ← إلغاء العضوية. ارفض الإيقاف المؤقت وأكّد."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "هل سيتم استرداد رصيدي المتبقي؟",
+        "answer": "لا. رصيد ClassPass غير قابل للاسترداد بعد الإلغاء."
+      }
+    ]
+  },
+  "blink-fitness": {
+    "description": "ألغِ اشتراك Blink Fitness شخصياً في الصالة أو بالبريد المسجّل — لا إلغاء إلكتروني.",
+    "difficulty": "صعب",
+    "difficultyReason": "الإلغاء متاح فقط شخصياً أو بالبريد المسجّل. يُشترط إشعار مسبق بـ 30 يوماً.",
+    "refundPolicy": "لا استرداد. يُشترط إشعار مسبق بـ 30 يوماً.",
+    "platforms": {
+      "inPerson": {
+        "steps": [
+          {
+            "instruction": "توجّه شخصياً إلى أي صالة Blink Fitness."
+          },
+          {
+            "instruction": "اطلب نموذج الإلغاء من الاستقبال."
+          },
+          {
+            "instruction": "املأ النموذج وسلّمه. تبدأ فترة الإشعار البالغة 30 يوماً من هذه اللحظة."
+          }
+        ]
+      },
+      "mail": {
+        "steps": [
+          {
+            "instruction": "أرسل خطاباً بريدياً مسجّلاً يتضمن اسمك الكامل وعنوانك وطلب الإلغاء إلى عنوان الصالة."
+          },
+          {
+            "instruction": "احتفظ بإيصال الإرسال. تبدأ الـ 30 يوماً من تاريخ الاستلام."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "هل يمكنني الإلغاء عبر الإنترنت أو الهاتف؟",
+        "answer": "لا. لا يسمح Blink Fitness بالإلغاء الإلكتروني أو الهاتفي. يجب الحضور شخصياً أو الإرسال بالبريد المسجّل."
+      }
+    ]
+  },
+  "snapchat-plus": {
+    "description": "ألغِ Snapchat+ من إعدادات التطبيق أو الجهاز. تُحفظ السلاسل والذكريات.",
+    "difficulty": "سهل",
+    "difficultyReason": "الإلغاء سهل عبر إعدادات الاشتراك في التطبيق أو الجهاز.",
+    "refundPolicy": "لا استرداد. تُحفظ السلاسل والذكريات.",
+    "platforms": {
+      "ios": {
+        "steps": [
+          {
+            "instruction": "افتح Snapchat ← الملف الشخصي ← Snapchat+ ← إدارة الاشتراك."
+          },
+          {
+            "instruction": "اضغط على إلغاء الاشتراك وأكّد."
+          },
+          {
+            "note": "بديلاً: الإعدادات ← Apple ID ← الاشتراكات ← Snapchat+."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "افتح Snapchat ← الملف الشخصي ← Snapchat+ ← إدارة الاشتراك."
+          },
+          {
+            "instruction": "اضغط على إلغاء وأكّد."
+          },
+          {
+            "note": "بديلاً: Google Play ← الاشتراكات ← Snapchat+."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "هل سأفقد سلاسلي؟",
+        "answer": "لا. تُحفظ السلاسل والذكريات بعد إلغاء Snapchat+."
+      }
+    ]
+  },
+  "ea-play": {
+    "description": "ألغِ اشتراك EA Play عبر موقع EA أو جهاز الألعاب. يُحفظ تقدمك في الألعاب.",
+    "difficulty": "سهل",
+    "difficultyReason": "الإلغاء سهل عبر الموقع أو جهاز الألعاب.",
+    "refundPolicy": "لا استرداد. يُحفظ تقدمك في الألعاب.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "اذهب إلى ea.com وسجّل الدخول إلى حسابك."
+          },
+          {
+            "instruction": "انتقل إلى الحساب ← الاشتراكات."
+          },
+          {
+            "instruction": "اختر EA Play وانقر على إلغاء الاشتراك."
+          },
+          {
+            "instruction": "أكّد الإلغاء."
+          }
+        ]
+      },
+      "playstation": {
+        "steps": [
+          {
+            "instruction": "على PS4/PS5: الإعدادات ← الحساب ← الاشتراكات."
+          },
+          {
+            "instruction": "اختر EA Play وألغِ."
+          }
+        ]
+      },
+      "xbox": {
+        "steps": [
+          {
+            "instruction": "اذهب إلى account.microsoft.com ← الخدمات والاشتراكات."
+          },
+          {
+            "instruction": "ابحث عن EA Play واختر إلغاء."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "هل سأفقد تقدمي في الألعاب؟",
+        "answer": "لا. يُحفظ تقدمك والبيانات المحفوظة بعد إلغاء EA Play."
+      }
+    ]
+  },
+  "amazon-music": {
+    "description": "ألغِ اشتراك Amazon Music Unlimited عبر موقع Amazon. يحتفظ أعضاء Prime بـ Prime Music مع 2 مليون أغنية.",
+    "difficulty": "سهل",
+    "difficultyReason": "إلغاء مباشر عبر موقع Amazon بنقرات قليلة.",
+    "refundPolicy": "لا استرداد. يحتفظ أعضاء Prime بـ Prime Music (مليونا أغنية).",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "اذهب إلى amazon.com وسجّل الدخول."
+          },
+          {
+            "instruction": "انتقل إلى الحساب ← العضويات والاشتراكات."
+          },
+          {
+            "instruction": "ابحث عن Amazon Music Unlimited وانقر على إلغاء الاشتراك."
+          },
+          {
+            "instruction": "أكّد الإلغاء."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "ألغِ عبر موقع Amazon أو عبر الإعدادات ← Apple ID ← الاشتراكات ← Amazon Music."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "ألغِ عبر موقع Amazon أو عبر Google Play ← الاشتراكات ← Amazon Music."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "هل سأفقد كل موسيقاي؟",
+        "answer": "يحتفظ أعضاء Prime بالوصول إلى Prime Music (مليونا أغنية). يُزال فقط الكتالوج غير المحدود."
+      }
+    ]
+  },
+  "peloton": {
+    "description": "ألغِ اشتراك Peloton على members.onepeloton.com. الدراجة تعمل يدوياً. التطبيق وAll-Access يُلغيان بشكل منفصل.",
+    "difficulty": "متوسط",
+    "difficultyReason": "يجب إلغاء اشتراكي التطبيق وAll-Access بشكل منفصل.",
+    "refundPolicy": "لا استرداد. دراجة Peloton تعمل يدوياً بدون اشتراك.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "اذهب إلى members.onepeloton.com وسجّل الدخول."
+          },
+          {
+            "instruction": "انتقل إلى الإعدادات ← العضوية."
+          },
+          {
+            "instruction": "انقر على إلغاء العضوية."
+          },
+          {
+            "instruction": "اتبع التعليمات وأكّد الإلغاء."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "لإلغاء اشتراك التطبيق: الإعدادات ← Apple ID ← الاشتراكات ← Peloton."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "لإلغاء اشتراك التطبيق: Google Play ← الاشتراكات ← Peloton."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "هل ستتوقف دراجتي عن العمل؟",
+        "answer": "لا. تستمر دراجة Peloton في العمل يدوياً حتى بدون اشتراك نشط."
+      }
+    ]
+  },
+  "ring-protect": {
+    "description": "ألغِ Ring Protect عبر الموقع أو التطبيق. الكاميرات تعمل لكن بدون تسجيل سحابي.",
+    "difficulty": "سهل",
+    "difficultyReason": "إلغاء مباشر عبر موقع Ring أو التطبيق.",
+    "refundPolicy": "لا استرداد. الكاميرات تعمل لكن تفقد التسجيل السحابي وسجل الفيديو.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "اذهب إلى ring.com وسجّل الدخول."
+          },
+          {
+            "instruction": "انتقل إلى إدارة الحساب ← خطط Ring Protect."
+          },
+          {
+            "instruction": "اختر الخطة وانقر على إلغاء الخطة."
+          },
+          {
+            "instruction": "أكّد الإلغاء."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "تطبيق Ring ← القائمة ← إدارة الحساب ← Ring Protect ← إلغاء."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "تطبيق Ring ← القائمة ← إدارة الحساب ← Ring Protect ← إلغاء."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "هل ستتوقف كاميراتي عن العمل؟",
+        "answer": "لا. تستمر كاميرات Ring في العمل لكن بدون تسجيل سحابي أو سجل فيديو."
+      }
+    ]
+  },
+  "grubhub": {
+    "description": "ألغِ Grubhub+ عبر الموقع أو التطبيق. يجب على مستخدمي Amazon Prime قطع الاتصال عبر Amazon. تُحفظ نقاط المكافآت.",
+    "difficulty": "سهل",
+    "difficultyReason": "إلغاء سهل عبر الموقع أو التطبيق. يتبع مستخدمو Prime خطوات منفصلة عبر Amazon.",
+    "refundPolicy": "لا استرداد. تُحفظ نقاط المكافآت.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "اذهب إلى grubhub.com وسجّل الدخول."
+          },
+          {
+            "instruction": "انتقل إلى الحساب ← Grubhub+."
+          },
+          {
+            "instruction": "انقر على إلغاء Grubhub+ وأكّد."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "تطبيق Grubhub ← الحساب ← Grubhub+ ← إلغاء."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "تطبيق Grubhub ← الحساب ← Grubhub+ ← إلغاء."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "أنا عضو Amazon Prime — كيف أُلغي؟",
+        "answer": "يجب على المستخدمين المشتركين عبر Amazon Prime قطع اتصال Grubhub+ من حساب Amazon مباشرةً."
+      }
+    ]
+  },
+  "crunchyroll": {
+    "description": "ألغِ اشتراك Crunchyroll عبر الموقع. يُحفظ سجل المشاهدة. يُلغي مستخدمو PlayStation الاشتراك من PS.",
+    "difficulty": "سهل",
+    "difficultyReason": "إلغاء مباشر عبر موقع Crunchyroll بنقرات قليلة.",
+    "refundPolicy": "لا استرداد. يُحفظ سجل المشاهدة.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "اذهب إلى crunchyroll.com/account وسجّل الدخول."
+          },
+          {
+            "instruction": "انتقل إلى إدارة Premium."
+          },
+          {
+            "instruction": "اختر إلغاء الاشتراك وأكّد."
+          }
+        ]
+      },
+      "playstation": {
+        "steps": [
+          {
+            "instruction": "إذا اشتركت عبر PS: إعدادات PS ← الحساب ← الاشتراكات ← Crunchyroll ← إلغاء."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "ألغِ عبر موقع Crunchyroll أو عبر الإعدادات ← Apple ID ← الاشتراكات ← Crunchyroll."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "ألغِ عبر موقع Crunchyroll أو عبر Google Play ← الاشتراكات ← Crunchyroll."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "هل سيتم حذف سجل مشاهدتي؟",
+        "answer": "لا. يُحفظ سجل المشاهدة بعد الإلغاء."
+      }
+    ]
+  },
+  "weightwatchers": {
+    "description": "ألغِ اشتراك WeightWatchers عبر الموقع أو اتصل بالدعم. لا يمكن إلغاء خطط الالتزام مبكراً.",
+    "difficulty": "متوسط",
+    "difficultyReason": "لا يمكن إلغاء خطط الالتزام مبكراً. قد تحتاج إلى الاتصال بالدعم.",
+    "refundPolicy": "لا استرداد لخطط الالتزام. راجع شروط خطتك.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "اذهب إلى weightwatchers.com/us/account/subscription وسجّل الدخول."
+          },
+          {
+            "instruction": "ابحث عن اشتراكك وانقر على إلغاء."
+          },
+          {
+            "instruction": "اتبع الخطوات وأكّد الإلغاء."
+          }
+        ]
+      },
+      "phone": {
+        "steps": [
+          {
+            "instruction": "للإلغاء عبر ممثل، اتصل بدعم WeightWatchers."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "لدي خطة التزام — هل يمكنني الإلغاء؟",
+        "answer": "لا. لا تسمح خطط الالتزام في WeightWatchers بالإلغاء المبكر."
+      }
+    ]
   }
 }

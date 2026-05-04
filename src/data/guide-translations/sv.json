@@ -2586,5 +2586,431 @@
         "description": "InShot — mobil videoredigerare"
       }
     ]
+  },
+  "classpass": {
+    "description": "Avsluta ClassPass via webbplats eller app — var beredd att avböja pauserbjudandet.",
+    "difficulty": "Medel",
+    "difficultyReason": "Du måste aktivt avböja pauserbjudandet innan du kan slutföra avslutningen.",
+    "refundPolicy": "Krediter återbetalas inte.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gå till classpass.com/account/plan och logga in."
+          },
+          {
+            "instruction": "Klicka på Avsluta medlemskap."
+          },
+          {
+            "instruction": "Avböj pauserbjudandet när det visas."
+          },
+          {
+            "instruction": "Bekräfta avslutningen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "ClassPass-appen → Konto → Plan → Avsluta medlemskap. Avböj paus och bekräfta."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "ClassPass-appen → Konto → Plan → Avsluta medlemskap. Avböj paus och bekräfta."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Återbetalas mina återstående krediter?",
+        "answer": "Nej. ClassPass-krediter återbetalas inte efter avslutning."
+      }
+    ]
+  },
+  "blink-fitness": {
+    "description": "Avsluta Blink Fitness personligen på gymmet eller via rekommenderat brev — ingen onlineavslutning.",
+    "difficulty": "Svårt",
+    "difficultyReason": "Avslutning är endast möjlig personligen eller via rekommenderat brev. 30 dagars uppsägningstid krävs.",
+    "refundPolicy": "Ingen återbetalning. 30 dagars uppsägningstid krävs.",
+    "platforms": {
+      "inPerson": {
+        "steps": [
+          {
+            "instruction": "Besök ett Blink Fitness-gym personligen."
+          },
+          {
+            "instruction": "Begär avslutningsformuläret i receptionen."
+          },
+          {
+            "instruction": "Fyll i och lämna in formuläret. 30-dagarsperioden börjar från detta tillfälle."
+          }
+        ]
+      },
+      "mail": {
+        "steps": [
+          {
+            "instruction": "Skicka ett rekommenderat brev med ditt fullständiga namn, adress och avslutningsbegäran till gymaddressen."
+          },
+          {
+            "instruction": "Spara kvittot. 30 dagarna räknas från mottagningsdatumet."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kan jag avsluta online eller via telefon?",
+        "answer": "Nej. Blink Fitness tillåter inte onlineavslutning eller telefonavslutning. Personligt besök eller rekommenderat brev krävs."
+      }
+    ]
+  },
+  "snapchat-plus": {
+    "description": "Avsluta Snapchat+ via appens inställningar eller enhetsinställningarna. Streaks och minnen bevaras.",
+    "difficulty": "Enkelt",
+    "difficultyReason": "Avslutning är enkel via abonnemangsinställningarna i appen eller på enheten.",
+    "refundPolicy": "Ingen återbetalning. Streaks och minnen bevaras.",
+    "platforms": {
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Öppna Snapchat → Profil → Snapchat+ → Hantera prenumeration."
+          },
+          {
+            "instruction": "Tryck på Avsluta prenumeration och bekräfta."
+          },
+          {
+            "note": "Alternativt: Inställningar → Apple ID → Prenumerationer → Snapchat+."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Öppna Snapchat → Profil → Snapchat+ → Hantera prenumeration."
+          },
+          {
+            "instruction": "Tryck på Avsluta och bekräfta."
+          },
+          {
+            "note": "Alternativt: Google Play → Prenumerationer → Snapchat+."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Förlorar jag mina Streaks?",
+        "answer": "Nej. Streaks och minnen bevaras efter att Snapchat+ avslutas."
+      }
+    ]
+  },
+  "ea-play": {
+    "description": "Avsluta EA Play via EAs webbplats eller konsolen. Spelframsteg bevaras.",
+    "difficulty": "Enkelt",
+    "difficultyReason": "Enkel avslutning via webbplats eller konsol.",
+    "refundPolicy": "Ingen återbetalning. Spelframsteg bevaras.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gå till ea.com och logga in på ditt konto."
+          },
+          {
+            "instruction": "Gå till Konto → Prenumerationer."
+          },
+          {
+            "instruction": "Välj EA Play och klicka på Avsluta prenumeration."
+          },
+          {
+            "instruction": "Bekräfta avslutningen."
+          }
+        ]
+      },
+      "playstation": {
+        "steps": [
+          {
+            "instruction": "På PS4/PS5: Inställningar → Konto → Prenumerationer."
+          },
+          {
+            "instruction": "Välj EA Play och avsluta."
+          }
+        ]
+      },
+      "xbox": {
+        "steps": [
+          {
+            "instruction": "Gå till account.microsoft.com → Tjänster och prenumerationer."
+          },
+          {
+            "instruction": "Hitta EA Play och välj Avsluta."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Förlorar jag mina spelframsteg?",
+        "answer": "Nej. Spelframsteg och sparfiler bevaras efter att EA Play avslutas."
+      }
+    ]
+  },
+  "amazon-music": {
+    "description": "Avsluta Amazon Music Unlimited via Amazons webbplats. Prime-medlemmar behåller Prime Music med 2 miljoner låtar.",
+    "difficulty": "Enkelt",
+    "difficultyReason": "Direkt avslutning via Amazons webbplats med några klick.",
+    "refundPolicy": "Ingen återbetalning. Prime Music (2 miljoner låtar) är kvar för Prime-medlemmar.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gå till amazon.se och logga in."
+          },
+          {
+            "instruction": "Gå till Konto → Medlemskap och prenumerationer."
+          },
+          {
+            "instruction": "Hitta Amazon Music Unlimited och klicka på Avsluta prenumeration."
+          },
+          {
+            "instruction": "Bekräfta avslutningen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Avsluta via Amazons webbplats eller via Inställningar → Apple ID → Prenumerationer → Amazon Music."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Avsluta via Amazons webbplats eller via Google Play → Prenumerationer → Amazon Music."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Förlorar jag all min musik?",
+        "answer": "Prime-medlemmar behåller tillgång till Prime Music med 2 miljoner låtar. Bara den obegränsade katalogen tas bort."
+      }
+    ]
+  },
+  "peloton": {
+    "description": "Avsluta Peloton på members.onepeloton.com. Cykeln fungerar manuellt. App och All-Access avslutas separat.",
+    "difficulty": "Medel",
+    "difficultyReason": "App- och All-Access-prenumerationer avslutas separat.",
+    "refundPolicy": "Ingen återbetalning. Peloton-cykeln fungerar manuellt utan prenumeration.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gå till members.onepeloton.com och logga in."
+          },
+          {
+            "instruction": "Gå till Inställningar → Medlemskap."
+          },
+          {
+            "instruction": "Klicka på Avsluta medlemskap."
+          },
+          {
+            "instruction": "Följ instruktionerna och bekräfta avslutningen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Avsluta App-prenumeration: Inställningar → Apple ID → Prenumerationer → Peloton."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Avsluta App-prenumeration: Google Play → Prenumerationer → Peloton."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Slutar min cykel att fungera?",
+        "answer": "Nej. Peloton-cykeln fortsätter fungera manuellt utan en aktiv prenumeration."
+      }
+    ]
+  },
+  "ring-protect": {
+    "description": "Avsluta Ring Protect via webbplatsen eller appen. Kameror fortsätter fungera men utan molninspelning.",
+    "difficulty": "Enkelt",
+    "difficultyReason": "Direktavslutning via Rings webbplats eller app.",
+    "refundPolicy": "Ingen återbetalning. Kameror fungerar men förlorar molninspelning och videohistorik.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gå till ring.com och logga in."
+          },
+          {
+            "instruction": "Gå till Kontohantering → Ring Protect-abonnemang."
+          },
+          {
+            "instruction": "Välj abonnemang och klicka på Avsluta abonnemang."
+          },
+          {
+            "instruction": "Bekräfta avslutningen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ring-appen → Meny → Kontohantering → Ring Protect → Avsluta."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ring-appen → Meny → Kontohantering → Ring Protect → Avsluta."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Slutar mina kameror att fungera?",
+        "answer": "Nej. Ring-kameror fortsätter fungera men utan molninspelning eller videohistorik."
+      }
+    ]
+  },
+  "grubhub": {
+    "description": "Avsluta Grubhub+ via webbplatsen eller appen. Amazon Prime-användare måste koppla från via Amazon. Bonuspoäng bevaras.",
+    "difficulty": "Enkelt",
+    "difficultyReason": "Enkel avslutning via webbplatsen eller appen. Prime-användare har en separat process via Amazon.",
+    "refundPolicy": "Ingen återbetalning. Bonuspoäng bevaras.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gå till grubhub.com och logga in."
+          },
+          {
+            "instruction": "Gå till Konto → Grubhub+."
+          },
+          {
+            "instruction": "Klicka på Avsluta Grubhub+ och bekräfta."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Grubhub-appen → Konto → Grubhub+ → Avsluta."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Grubhub-appen → Konto → Grubhub+ → Avsluta."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Jag är Amazon Prime-medlem — hur avslutar jag?",
+        "answer": "Användare som prenumererade via Amazon Prime måste koppla från Grubhub+ via sitt Amazon-konto."
+      }
+    ]
+  },
+  "crunchyroll": {
+    "description": "Avsluta Crunchyroll via webbplatsen. Tittarhistorik bevaras. PlayStation-användare avslutar via PS.",
+    "difficulty": "Enkelt",
+    "difficultyReason": "Direkt avslutning via Crunchyrolls webbplats med några klick.",
+    "refundPolicy": "Ingen återbetalning. Tittarhistorik bevaras.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gå till crunchyroll.com/account och logga in."
+          },
+          {
+            "instruction": "Gå till Hantera Premium."
+          },
+          {
+            "instruction": "Välj Avsluta prenumeration och bekräfta."
+          }
+        ]
+      },
+      "playstation": {
+        "steps": [
+          {
+            "instruction": "Om du prenumererade via PS: PS-inställningar → Konto → Prenumerationer → Crunchyroll → Avsluta."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Avsluta via Crunchyrolls webbplats eller via Inställningar → Apple ID → Prenumerationer → Crunchyroll."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Avsluta via Crunchyrolls webbplats eller via Google Play → Prenumerationer → Crunchyroll."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Raderas min tittarhistorik?",
+        "answer": "Nej. Tittarhistorik bevaras efter avslutning."
+      }
+    ]
+  },
+  "weightwatchers": {
+    "description": "Avsluta WeightWatchers via webbplatsen eller ring kundtjänst. Åtagandeplaner kan inte avslutas i förtid.",
+    "difficulty": "Medel",
+    "difficultyReason": "Åtagandeplaner kan inte avslutas i förtid. Det kan krävas att du ringer kundtjänst.",
+    "refundPolicy": "Ingen återbetalning vid åtagandeplaner. Se villkoren för din plan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gå till weightwatchers.com/us/account/subscription och logga in."
+          },
+          {
+            "instruction": "Hitta din prenumeration och klicka på Avsluta."
+          },
+          {
+            "instruction": "Följ stegen och bekräfta avslutningen."
+          }
+        ]
+      },
+      "phone": {
+        "steps": [
+          {
+            "instruction": "För avslutning via en medarbetare, ring WeightWatchers kundtjänst."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Jag har en åtagandeplan — kan jag avsluta?",
+        "answer": "Nej. WeightWatchers åtagandeplaner tillåter inte förtida avslutning."
+      }
+    ]
   }
 }

@@ -2725,5 +2725,431 @@
         "description": "InShot — 行動裝置影片編輯器"
       }
     ]
+  },
+  "classpass": {
+    "description": "透過網站或應用程式取消 ClassPass — 準備好拒絕暫停方案的提示。",
+    "difficulty": "中等",
+    "difficultyReason": "完成取消前需主動拒絕暫停方案。",
+    "refundPolicy": "點數不予退款。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 classpass.com/account/plan 並登入。"
+          },
+          {
+            "instruction": "點擊「取消會員資格」。"
+          },
+          {
+            "instruction": "出現暫停方案提示時予以拒絕。"
+          },
+          {
+            "instruction": "確認取消。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "開啟 ClassPass 應用程式 → 帳戶 → 方案 → 取消會員資格。拒絕暫停並確認。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "開啟 ClassPass 應用程式 → 帳戶 → 方案 → 取消會員資格。拒絕暫停並確認。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "剩餘點數會退款嗎？",
+        "answer": "不會。ClassPass 點數取消後不予退款。"
+      }
+    ]
+  },
+  "blink-fitness": {
+    "description": "取消 Blink Fitness 需親自前往健身房或以掛號信件辦理 — 不支援線上取消。",
+    "difficulty": "困難",
+    "difficultyReason": "只能親自前往或以掛號信件取消。需提前 30 天通知。",
+    "refundPolicy": "不予退款。需提前 30 天通知。",
+    "platforms": {
+      "inPerson": {
+        "steps": [
+          {
+            "instruction": "親自前往任何一間 Blink Fitness 健身房。"
+          },
+          {
+            "instruction": "在前台索取取消申請表。"
+          },
+          {
+            "instruction": "填寫並提交表格，30 天通知期從此刻開始計算。"
+          }
+        ]
+      },
+      "mail": {
+        "steps": [
+          {
+            "instruction": "以掛號信寄送包含全名、地址及取消要求的信函至健身房地址。"
+          },
+          {
+            "instruction": "保留寄件證明，30 天從收件日起算。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "可以線上或電話取消嗎？",
+        "answer": "不可以。Blink Fitness 不允許線上或電話取消，必須親自前往或寄掛號信件。"
+      }
+    ]
+  },
+  "snapchat-plus": {
+    "description": "透過應用程式或裝置設定取消 Snapchat+。連勝紀錄和回憶將保留。",
+    "difficulty": "簡單",
+    "difficultyReason": "透過應用程式或裝置的訂閱設定即可輕鬆取消。",
+    "refundPolicy": "不予退款。連勝紀錄和回憶將保留。",
+    "platforms": {
+      "ios": {
+        "steps": [
+          {
+            "instruction": "開啟 Snapchat → 個人資料 → Snapchat+ → 管理訂閱。"
+          },
+          {
+            "instruction": "點選「取消訂閱」並確認。"
+          },
+          {
+            "note": "或：設定 → Apple ID → 訂閱 → Snapchat+。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "開啟 Snapchat → 個人資料 → Snapchat+ → 管理訂閱。"
+          },
+          {
+            "instruction": "點選「取消」並確認。"
+          },
+          {
+            "note": "或：Google Play → 訂閱 → Snapchat+。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我的連勝紀錄會消失嗎？",
+        "answer": "不會。取消 Snapchat+ 後連勝紀錄和回憶仍會保留。"
+      }
+    ]
+  },
+  "ea-play": {
+    "description": "透過 EA 網站或主機取消 EA Play。遊戲進度將會保留。",
+    "difficulty": "簡單",
+    "difficultyReason": "透過網站或主機即可輕鬆取消。",
+    "refundPolicy": "不予退款。遊戲進度將保留。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 ea.com 並登入帳戶。"
+          },
+          {
+            "instruction": "前往帳戶 → 訂閱。"
+          },
+          {
+            "instruction": "選擇 EA Play 並點擊「取消訂閱」。"
+          },
+          {
+            "instruction": "確認取消。"
+          }
+        ]
+      },
+      "playstation": {
+        "steps": [
+          {
+            "instruction": "在 PS4/PS5：設定 → 帳戶 → 訂閱。"
+          },
+          {
+            "instruction": "選擇 EA Play 並取消。"
+          }
+        ]
+      },
+      "xbox": {
+        "steps": [
+          {
+            "instruction": "前往 account.microsoft.com → 服務與訂閱。"
+          },
+          {
+            "instruction": "找到 EA Play 並選擇取消。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我的遊戲進度會消失嗎？",
+        "answer": "不會。取消 EA Play 後遊戲進度和存檔仍會保留。"
+      }
+    ]
+  },
+  "amazon-music": {
+    "description": "透過 Amazon 網站取消 Amazon Music Unlimited。Prime 會員保留 200 萬首歌曲的 Prime Music。",
+    "difficulty": "簡單",
+    "difficultyReason": "透過 Amazon 網站幾步點擊即可完成取消。",
+    "refundPolicy": "不予退款。Prime 會員保留 Prime Music（200 萬首）。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 amazon.com 並登入。"
+          },
+          {
+            "instruction": "前往帳戶 → 會員資格與訂閱。"
+          },
+          {
+            "instruction": "找到 Amazon Music Unlimited 並點擊「取消訂閱」。"
+          },
+          {
+            "instruction": "確認取消。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "透過 Amazon 網站或設定 → Apple ID → 訂閱 → Amazon Music 取消。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "透過 Amazon 網站或 Google Play → 訂閱 → Amazon Music 取消。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我會失去所有音樂嗎？",
+        "answer": "Prime 會員可繼續使用 Prime Music（200 萬首）。僅移除無限制音樂庫。"
+      }
+    ]
+  },
+  "peloton": {
+    "description": "在 members.onepeloton.com 取消 Peloton。健身車仍可手動使用。App 和 All-Access 需分別取消。",
+    "difficulty": "中等",
+    "difficultyReason": "App 訂閱和 All-Access 需分別取消。",
+    "refundPolicy": "不予退款。Peloton 健身車無訂閱仍可手動使用。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 members.onepeloton.com 並登入。"
+          },
+          {
+            "instruction": "前往設定 → 會員資格。"
+          },
+          {
+            "instruction": "點擊「取消會員資格」。"
+          },
+          {
+            "instruction": "按照指示確認取消。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "取消 App 訂閱：設定 → Apple ID → 訂閱 → Peloton。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "取消 App 訂閱：Google Play → 訂閱 → Peloton。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我的健身車會停止運作嗎？",
+        "answer": "不會。即使沒有訂閱，Peloton 健身車仍可手動使用。"
+      }
+    ]
+  },
+  "ring-protect": {
+    "description": "透過網站或應用程式取消 Ring Protect。攝影機仍可運作，但無法進行雲端錄影。",
+    "difficulty": "簡單",
+    "difficultyReason": "透過 Ring 網站或應用程式直接取消。",
+    "refundPolicy": "不予退款。攝影機仍可運作，但會失去雲端錄影和影像記錄。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 ring.com 並登入。"
+          },
+          {
+            "instruction": "前往帳戶管理 → Ring Protect 方案。"
+          },
+          {
+            "instruction": "選擇方案並點擊「取消方案」。"
+          },
+          {
+            "instruction": "確認取消。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ring 應用程式 → 選單 → 帳戶管理 → Ring Protect → 取消。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ring 應用程式 → 選單 → 帳戶管理 → Ring Protect → 取消。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我的攝影機會停止運作嗎？",
+        "answer": "不會。Ring 攝影機仍可運作，但會失去雲端錄影和影像記錄。"
+      }
+    ]
+  },
+  "grubhub": {
+    "description": "透過網站或應用程式取消 Grubhub+。Amazon Prime 使用者需透過 Amazon 斷開連接。獎勵點數將保留。",
+    "difficulty": "簡單",
+    "difficultyReason": "透過網站或應用程式即可輕鬆取消。Prime 使用者需透過 Amazon 執行不同流程。",
+    "refundPolicy": "不予退款。獎勵點數將保留。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 grubhub.com 並登入。"
+          },
+          {
+            "instruction": "前往帳戶 → Grubhub+。"
+          },
+          {
+            "instruction": "點擊「取消 Grubhub+」並確認。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Grubhub 應用程式 → 帳戶 → Grubhub+ → 取消。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Grubhub 應用程式 → 帳戶 → Grubhub+ → 取消。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我是 Amazon Prime 會員，如何取消？",
+        "answer": "透過 Amazon Prime 訂閱的使用者需直接在 Amazon 帳戶中斷開 Grubhub+ 的連接。"
+      }
+    ]
+  },
+  "crunchyroll": {
+    "description": "透過網站取消 Crunchyroll。觀看記錄將保留。PlayStation 使用者需透過 PS 取消。",
+    "difficulty": "簡單",
+    "difficultyReason": "透過 Crunchyroll 網站幾步點擊即可完成取消。",
+    "refundPolicy": "不予退款。觀看記錄將保留。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 crunchyroll.com/account 並登入。"
+          },
+          {
+            "instruction": "前往管理 Premium。"
+          },
+          {
+            "instruction": "選擇「取消訂閱」並確認。"
+          }
+        ]
+      },
+      "playstation": {
+        "steps": [
+          {
+            "instruction": "若透過 PS 訂閱：PS 設定 → 帳戶 → 訂閱 → Crunchyroll → 取消。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "透過 Crunchyroll 網站或設定 → Apple ID → 訂閱 → Crunchyroll 取消。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "透過 Crunchyroll 網站或 Google Play → 訂閱 → Crunchyroll 取消。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我的觀看記錄會被刪除嗎？",
+        "answer": "不會。取消後觀看記錄仍會保留。"
+      }
+    ]
+  },
+  "weightwatchers": {
+    "description": "透過網站取消 WeightWatchers 或致電客服。承諾方案無法提前取消。",
+    "difficulty": "中等",
+    "difficultyReason": "承諾方案不允許提前取消，可能需要致電客服。",
+    "refundPolicy": "承諾方案不予退款。請查閱您的方案條款。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 weightwatchers.com/us/account/subscription 並登入。"
+          },
+          {
+            "instruction": "找到您的訂閱並點擊「取消」。"
+          },
+          {
+            "instruction": "按照步驟確認取消。"
+          }
+        ]
+      },
+      "phone": {
+        "steps": [
+          {
+            "instruction": "若需透過客服取消，請致電 WeightWatchers 客服專線。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我有承諾方案，可以取消嗎？",
+        "answer": "不可以。WeightWatchers 承諾方案不允許提前取消。"
+      }
+    ]
   }
 }

@@ -2535,5 +2535,431 @@
         "answer": "アプリが利用できない場合は、デバイスの設定（iOSまたはAndroid）からサブスクリプションをキャンセルしてください。"
       }
     ]
+  },
+  "classpass": {
+    "description": "ClassPassをウェブまたはアプリからキャンセル — 一時停止オファーを断る必要があります。",
+    "difficulty": "普通",
+    "difficultyReason": "キャンセル完了前に一時停止オファーを積極的に断う必要があります。",
+    "refundPolicy": "クレジットは返金不可です。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "classpass.com/account/planにアクセスしてログインします。"
+          },
+          {
+            "instruction": "「メンバーシップをキャンセル」をクリックします。"
+          },
+          {
+            "instruction": "一時停止オファーが表示されたら断ります。"
+          },
+          {
+            "instruction": "キャンセルを確認します。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "ClassPassアプリ → アカウント → プラン → メンバーシップをキャンセル。一時停止を断ってから確認します。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "ClassPassアプリ → アカウント → プラン → メンバーシップをキャンセル。一時停止を断ってから確認します。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "残りのクレジットは返金されますか？",
+        "answer": "いいえ。ClassPassのクレジットはキャンセル後も返金されません。"
+      }
+    ]
+  },
+  "blink-fitness": {
+    "description": "Blink Fitnessはジムで直接またはレター郵送でのみキャンセル可能 — オンラインキャンセル不可。",
+    "difficulty": "難しい",
+    "difficultyReason": "直接来店または書留郵便のみキャンセル可能。30日前通知が必要です。",
+    "refundPolicy": "返金なし。30日前通知が必要。",
+    "platforms": {
+      "inPerson": {
+        "steps": [
+          {
+            "instruction": "Blink Fitnessジムに直接出向きます。"
+          },
+          {
+            "instruction": "フロントデスクでキャンセルフォームを受け取ります。"
+          },
+          {
+            "instruction": "フォームに記入して提出します。30日間の通知期間はここから始まります。"
+          }
+        ]
+      },
+      "mail": {
+        "steps": [
+          {
+            "instruction": "氏名・住所・キャンセル要求を書いた手紙を書留で郵送します。"
+          },
+          {
+            "instruction": "送付証明を保管してください。30日間は受領後から始まります。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "オンラインや電話でキャンセルできますか？",
+        "answer": "いいえ。Blink Fitnessではオンラインや電話でのキャンセルはできません。直接来店または書留郵便が必要です。"
+      }
+    ]
+  },
+  "snapchat-plus": {
+    "description": "Snapchat+をアプリまたはデバイス設定からキャンセル。ストリークやメモリは保持されます。",
+    "difficulty": "簡単",
+    "difficultyReason": "アプリまたはデバイスのサブスクリプション設定から簡単にキャンセルできます。",
+    "refundPolicy": "返金なし。ストリークとメモリは保持されます。",
+    "platforms": {
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Snapchatを開く → プロフィール → Snapchat+ → サブスクリプションを管理。"
+          },
+          {
+            "instruction": "「サブスクリプションをキャンセル」をタップして確認します。"
+          },
+          {
+            "note": "または: 設定 → Apple ID → サブスクリプション → Snapchat+。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Snapchatを開く → プロフィール → Snapchat+ → サブスクリプションを管理。"
+          },
+          {
+            "instruction": "「キャンセル」をタップして確認します。"
+          },
+          {
+            "note": "または: Google Play → サブスクリプション → Snapchat+。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "ストリークは失われますか？",
+        "answer": "いいえ。Snapchat+キャンセル後もストリークとメモリは保持されます。"
+      }
+    ]
+  },
+  "ea-play": {
+    "description": "EA PlayをEAのウェブサイトまたはコンソールからキャンセル。ゲームの進行状況は保持されます。",
+    "difficulty": "簡単",
+    "difficultyReason": "ウェブサイトまたはコンソールから簡単にキャンセルできます。",
+    "refundPolicy": "返金なし。ゲームの進行状況は保持されます。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "ea.comにアクセスしてアカウントにログインします。"
+          },
+          {
+            "instruction": "アカウント → サブスクリプションに進みます。"
+          },
+          {
+            "instruction": "EA Playを選択して「サブスクリプションをキャンセル」をクリックします。"
+          },
+          {
+            "instruction": "キャンセルを確認します。"
+          }
+        ]
+      },
+      "playstation": {
+        "steps": [
+          {
+            "instruction": "PS4/PS5で設定 → アカウント → サブスクリプションに進みます。"
+          },
+          {
+            "instruction": "EA Playを選択してキャンセルします。"
+          }
+        ]
+      },
+      "xbox": {
+        "steps": [
+          {
+            "instruction": "account.microsoft.com → サービスとサブスクリプションにアクセスします。"
+          },
+          {
+            "instruction": "EA Playを見つけて「キャンセル」を選択します。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "ゲームの進行状況は失われますか？",
+        "answer": "いいえ。EA Playキャンセル後もゲームの進行状況とセーブデータは保持されます。"
+      }
+    ]
+  },
+  "amazon-music": {
+    "description": "Amazon Music UnlimitedをAmazonのウェブサイトからキャンセル。Primeメンバーは200万曲のPrime Musicを維持できます。",
+    "difficulty": "簡単",
+    "difficultyReason": "Amazonのウェブサイトから数クリックで簡単にキャンセルできます。",
+    "refundPolicy": "返金なし。PrimeメンバーはPrime Music（200万曲）を継続利用できます。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "amazon.co.jpにアクセスしてログインします。"
+          },
+          {
+            "instruction": "アカウント → メンバーシップおよびサブスクリプションに進みます。"
+          },
+          {
+            "instruction": "Amazon Music Unlimitedを見つけて「サブスクリプションをキャンセル」をクリックします。"
+          },
+          {
+            "instruction": "キャンセルを確認します。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "AmazonウェブサイトまたはiOS設定 → Apple ID → サブスクリプション → Amazon Musicからキャンセルします。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "AmazonウェブサイトまたはGoogle Play → サブスクリプション → Amazon Musicからキャンセルします。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "音楽が全て聴けなくなりますか？",
+        "answer": "PrimeメンバーはPrime Music（200万曲）を引き続き利用できます。無制限カタログのみが削除されます。"
+      }
+    ]
+  },
+  "peloton": {
+    "description": "members.onepeloton.comでPelotonをキャンセル。バイクは手動で引き続き使えます。AppとAll-Accessは別々にキャンセルが必要。",
+    "difficulty": "普通",
+    "difficultyReason": "AppサブスクリプションとAll-Accessは別々にキャンセルが必要です。",
+    "refundPolicy": "返金なし。Pelotonバイクはサブスクリプションなしでも手動で使用できます。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "members.onepeloton.comにアクセスしてログインします。"
+          },
+          {
+            "instruction": "設定 → メンバーシップに進みます。"
+          },
+          {
+            "instruction": "「メンバーシップをキャンセル」をクリックします。"
+          },
+          {
+            "instruction": "指示に従いキャンセルを確認します。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Appサブスクリプションをキャンセル: 設定 → Apple ID → サブスクリプション → Peloton。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Appサブスクリプションをキャンセル: Google Play → サブスクリプション → Peloton。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "バイクは使えなくなりますか？",
+        "answer": "いいえ。PelotonバイクはサブスクリプションなしでもĐược手動で使用できます。"
+      }
+    ]
+  },
+  "ring-protect": {
+    "description": "Ring ProtectをウェブサイトまたはアプリからキャンセルŒ。カメラは引き続き動作しますが、クラウド録画はなくなります。",
+    "difficulty": "簡単",
+    "difficultyReason": "RingのウェブサイトまたはアプリからŒ直接キャンセルできます。",
+    "refundPolicy": "返金なし。カメラは動作しますが、クラウド録画と映像履歴が失われます。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "ring.comにアクセスしてログインします。"
+          },
+          {
+            "instruction": "アカウント管理 → Ring Protectプランに進みます。"
+          },
+          {
+            "instruction": "プランを選択して「プランをキャンセル」をクリックします。"
+          },
+          {
+            "instruction": "キャンセルを確認します。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ringアプリ → メニュー → アカウント管理 → Ring Protect → キャンセル。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ringアプリ → メニュー → アカウント管理 → Ring Protect → キャンセル。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "カメラは使えなくなりますか？",
+        "answer": "いいえ。Ringカメラは引き続き動作しますが、クラウド録画と映像履歴がなくなります。"
+      }
+    ]
+  },
+  "grubhub": {
+    "description": "Grubhub+をウェブサイトまたはアプリからキャンセル。Amazon PrimeユーザーはAmazon経由で切断が必要。報酬ポイントは保持されます。",
+    "difficulty": "簡単",
+    "difficultyReason": "ウェブサイトまたはアプリから簡単にキャンセルできます。Primeユーザーは別の手順が必要です。",
+    "refundPolicy": "返金なし。報酬ポイントは保持されます。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "grubhub.comにアクセスしてログインします。"
+          },
+          {
+            "instruction": "アカウント → Grubhub+に進みます。"
+          },
+          {
+            "instruction": "「Grubhub+をキャンセル」をクリックして確認します。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Grubhubアプリ → アカウント → Grubhub+ → キャンセル。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Grubhubアプリ → アカウント → Grubhub+ → キャンセル。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Amazon Primeメンバーですが、どうすればキャンセルできますか？",
+        "answer": "Amazon Prime経由で加入したユーザーは、AmazonアカウントからGrubhub+を切断する必要があります。"
+      }
+    ]
+  },
+  "crunchyroll": {
+    "description": "Crunchyrollをウェブサイトからキャンセル。視聴履歴は保持されます。PlayStationユーザーはPS側でキャンセル。",
+    "difficulty": "簡単",
+    "difficultyReason": "CrunchyrollのウェブサイトからŒ数クリックで簡単にキャンセルできます。",
+    "refundPolicy": "返金なし。視聴履歴は保持されます。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "crunchyroll.com/accountにアクセスしてログインします。"
+          },
+          {
+            "instruction": "Premiumを管理に進みます。"
+          },
+          {
+            "instruction": "「サブスクリプションをキャンセル」を選択して確認します。"
+          }
+        ]
+      },
+      "playstation": {
+        "steps": [
+          {
+            "instruction": "PS経由で加入した場合: PS設定 → アカウント → サブスクリプション → Crunchyroll → キャンセル。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "CrunchyrollのウェブサイトまたはiOS設定 → Apple ID → サブスクリプション → Crunchyrollからキャンセルします。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "CrunchyrollのウェブサイトまたはGoogle Play → サブスクリプション → Crunchyrollからキャンセルします。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "視聴履歴は削除されますか？",
+        "answer": "いいえ。視聴履歴はキャンセル後も保持されます。"
+      }
+    ]
+  },
+  "weightwatchers": {
+    "description": "WeightWatchersをウェブサイトからキャンセルするか、サポートに電話。コミットメントプランは早期キャンセル不可。",
+    "difficulty": "普通",
+    "difficultyReason": "コミットメントプランは早期キャンセルができません。サポートへの電話が必要な場合があります。",
+    "refundPolicy": "コミットメントプランの返金なし。ご自身のプランの条件をご確認ください。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "weightwatchers.com/us/account/subscriptionにアクセスしてログインします。"
+          },
+          {
+            "instruction": "サブスクリプションを見つけて「キャンセル」をクリックします。"
+          },
+          {
+            "instruction": "手順に従いキャンセルを確認します。"
+          }
+        ]
+      },
+      "phone": {
+        "steps": [
+          {
+            "instruction": "担当者によるキャンセルはWeightWatchersサポートに電話してください。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "コミットメントプランに加入していますが、キャンセルできますか？",
+        "answer": "いいえ。WeightWatchersのコミットメントプランは早期キャンセルができません。"
+      }
+    ]
   }
 }

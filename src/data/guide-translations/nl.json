@@ -2725,5 +2725,431 @@
         "description": "InShot — mobiele video-editor"
       }
     ]
+  },
+  "classpass": {
+    "description": "Annuleer ClassPass via de website of app — wees voorbereid het pauze-aanbod te weigeren.",
+    "difficulty": "Gemiddeld",
+    "difficultyReason": "Je moet het pauze-aanbod actief weigeren voordat je de annulering kunt voltooien.",
+    "refundPolicy": "Credits zijn niet restitueerbaar.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar classpass.com/account/plan en log in."
+          },
+          {
+            "instruction": "Klik op Lidmaatschap annuleren."
+          },
+          {
+            "instruction": "Weiger het pauze-aanbod wanneer dit wordt getoond."
+          },
+          {
+            "instruction": "Bevestig de annulering."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Open ClassPass-app → Account → Plan → Lidmaatschap annuleren. Weiger pauze en bevestig."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Open ClassPass-app → Account → Plan → Lidmaatschap annuleren. Weiger pauze en bevestig."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Worden mijn resterende credits terugbetaald?",
+        "answer": "Nee. ClassPass-credits zijn niet restitueerbaar na annulering."
+      }
+    ]
+  },
+  "blink-fitness": {
+    "description": "Annuleer Blink Fitness in persoon of per aangetekende post — geen online annulering.",
+    "difficulty": "Moeilijk",
+    "difficultyReason": "Annulering is alleen mogelijk in persoon of per aangetekende post. 30 dagen opzegtermijn vereist.",
+    "refundPolicy": "Geen restitutie. 30 dagen opzegtermijn vereist.",
+    "platforms": {
+      "inPerson": {
+        "steps": [
+          {
+            "instruction": "Ga persoonlijk naar een Blink Fitness-vestiging."
+          },
+          {
+            "instruction": "Vraag het annuleringsformulier aan de balie."
+          },
+          {
+            "instruction": "Vul het formulier in en lever het in. De opzegtermijn van 30 dagen begint vanaf dit moment."
+          }
+        ]
+      },
+      "mail": {
+        "steps": [
+          {
+            "instruction": "Stuur een aangetekende brief met je volledige naam, adres en annuleringsverzoek naar het adres van de vestiging."
+          },
+          {
+            "instruction": "Bewaar het bewijs van verzending. De 30 dagen gaan in na ontvangst."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kan ik online of telefonisch annuleren?",
+        "answer": "Nee. Blink Fitness staat geen online of telefonische annulering toe. In persoon of aangetekende post is vereist."
+      }
+    ]
+  },
+  "snapchat-plus": {
+    "description": "Annuleer Snapchat+ via de app-instellingen of apparaatinstellingen. Streaks en herinneringen blijven bewaard.",
+    "difficulty": "Gemakkelijk",
+    "difficultyReason": "Annulering is eenvoudig via de abonnementsinstellingen in de app of het apparaat.",
+    "refundPolicy": "Geen restitutie. Streaks en herinneringen blijven behouden.",
+    "platforms": {
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Open Snapchat → Profiel → Snapchat+ → Abonnement beheren."
+          },
+          {
+            "instruction": "Tik op Abonnement annuleren en bevestig."
+          },
+          {
+            "note": "Als alternatief: Instellingen → Apple ID → Abonnementen → Snapchat+."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Open Snapchat → Profiel → Snapchat+ → Abonnement beheren."
+          },
+          {
+            "instruction": "Tik op Annuleren en bevestig."
+          },
+          {
+            "note": "Als alternatief: Google Play → Abonnementen → Snapchat+."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Verlies ik mijn Streaks?",
+        "answer": "Nee. Streaks en herinneringen blijven behouden na het annuleren van Snapchat+."
+      }
+    ]
+  },
+  "ea-play": {
+    "description": "Annuleer EA Play via de EA-website of via je console. Voortgang in games blijft bewaard.",
+    "difficulty": "Gemakkelijk",
+    "difficultyReason": "Eenvoudige annulering via de website of console.",
+    "refundPolicy": "Geen restitutie. Voortgang in games blijft behouden.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar ea.com en log in op je account."
+          },
+          {
+            "instruction": "Ga naar Account → Abonnementen."
+          },
+          {
+            "instruction": "Selecteer EA Play en klik op Abonnement annuleren."
+          },
+          {
+            "instruction": "Bevestig de annulering."
+          }
+        ]
+      },
+      "playstation": {
+        "steps": [
+          {
+            "instruction": "Op PS4/PS5: Instellingen → Account → Abonnementen."
+          },
+          {
+            "instruction": "Selecteer EA Play en annuleer."
+          }
+        ]
+      },
+      "xbox": {
+        "steps": [
+          {
+            "instruction": "Ga naar account.microsoft.com → Services en abonnementen."
+          },
+          {
+            "instruction": "Zoek EA Play en selecteer Annuleren."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Verlies ik mijn voortgang in games?",
+        "answer": "Nee. Voortgang en opgeslagen bestanden blijven bewaard na het annuleren van EA Play."
+      }
+    ]
+  },
+  "amazon-music": {
+    "description": "Annuleer Amazon Music Unlimited via de Amazon-website. Prime-leden behouden Prime Music met 2 miljoen nummers.",
+    "difficulty": "Gemakkelijk",
+    "difficultyReason": "Directe annulering via de Amazon-website in een paar klikken.",
+    "refundPolicy": "Geen restitutie. Prime Music (2 miljoen nummers) blijft beschikbaar voor Prime-leden.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar amazon.nl en log in."
+          },
+          {
+            "instruction": "Ga naar Account → Lidmaatschappen en abonnementen."
+          },
+          {
+            "instruction": "Zoek Amazon Music Unlimited en klik op Abonnement annuleren."
+          },
+          {
+            "instruction": "Bevestig de annulering."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Annuleer via de Amazon-website of via Instellingen → Apple ID → Abonnementen → Amazon Music."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Annuleer via de Amazon-website of via Google Play → Abonnementen → Amazon Music."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Verlies ik al mijn muziek?",
+        "answer": "Prime-leden behouden toegang tot Prime Music met 2 miljoen nummers. Alleen de onbeperkte catalogus wordt verwijderd."
+      }
+    ]
+  },
+  "peloton": {
+    "description": "Annuleer Peloton op members.onepeloton.com. De fiets blijft handmatig werken. App en All-Access worden afzonderlijk geannuleerd.",
+    "difficulty": "Gemiddeld",
+    "difficultyReason": "App- en All-Access-abonnementen worden afzonderlijk geannuleerd.",
+    "refundPolicy": "Geen restitutie. De Peloton-fiets werkt handmatig zonder abonnement.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar members.onepeloton.com en log in."
+          },
+          {
+            "instruction": "Ga naar Instellingen → Lidmaatschap."
+          },
+          {
+            "instruction": "Klik op Lidmaatschap annuleren."
+          },
+          {
+            "instruction": "Volg de instructies en bevestig de annulering."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Annuleer App-abonnement: Instellingen → Apple ID → Abonnementen → Peloton."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Annuleer App-abonnement: Google Play → Abonnementen → Peloton."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Werkt mijn fiets niet meer?",
+        "answer": "Nee. De Peloton-fiets blijft handmatig werken zonder een actief abonnement."
+      }
+    ]
+  },
+  "ring-protect": {
+    "description": "Annuleer Ring Protect via de website of app. Camera's blijven werken, maar zonder cloudopname.",
+    "difficulty": "Gemakkelijk",
+    "difficultyReason": "Directe annulering via de Ring-website of app.",
+    "refundPolicy": "Geen restitutie. Camera's werken maar verliezen cloudopname en videogeschiedenis.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar ring.com en log in."
+          },
+          {
+            "instruction": "Ga naar Accountbeheer → Ring Protect-abonnementen."
+          },
+          {
+            "instruction": "Selecteer het abonnement en klik op Abonnement annuleren."
+          },
+          {
+            "instruction": "Bevestig de annulering."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ring-app → Menu → Accountbeheer → Ring Protect → Annuleren."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ring-app → Menu → Accountbeheer → Ring Protect → Annuleren."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Werken mijn camera's niet meer?",
+        "answer": "Nee. Ring-camera's blijven werken, maar zonder cloudopname of videogeschiedenis."
+      }
+    ]
+  },
+  "grubhub": {
+    "description": "Annuleer Grubhub+ via de website of app. Amazon Prime-gebruikers moeten loskoppelen via Amazon. Beloningspunten blijven behouden.",
+    "difficulty": "Gemakkelijk",
+    "difficultyReason": "Eenvoudige annulering via de website of app. Prime-gebruikers hebben een apart proces via Amazon.",
+    "refundPolicy": "Geen restitutie. Beloningspunten blijven behouden.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar grubhub.com en log in."
+          },
+          {
+            "instruction": "Ga naar Account → Grubhub+."
+          },
+          {
+            "instruction": "Klik op Grubhub+ annuleren en bevestig."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Grubhub-app → Account → Grubhub+ → Annuleren."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Grubhub-app → Account → Grubhub+ → Annuleren."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ik ben Amazon Prime-lid — hoe annuleer ik?",
+        "answer": "Gebruikers die zich hebben aangemeld via Amazon Prime moeten Grubhub+ ontkoppelen via hun Amazon-account."
+      }
+    ]
+  },
+  "crunchyroll": {
+    "description": "Annuleer Crunchyroll via de website. Kijkgeschiedenis blijft behouden. PlayStation-gebruikers annuleren via PS.",
+    "difficulty": "Gemakkelijk",
+    "difficultyReason": "Directe annulering via de Crunchyroll-website in een paar klikken.",
+    "refundPolicy": "Geen restitutie. Kijkgeschiedenis blijft behouden.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar crunchyroll.com/account en log in."
+          },
+          {
+            "instruction": "Ga naar Premium beheren."
+          },
+          {
+            "instruction": "Selecteer Abonnement annuleren en bevestig."
+          }
+        ]
+      },
+      "playstation": {
+        "steps": [
+          {
+            "instruction": "Als je je hebt aangemeld via PS: PS-instellingen → Account → Abonnementen → Crunchyroll → Annuleren."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Annuleer via de Crunchyroll-website of via Instellingen → Apple ID → Abonnementen → Crunchyroll."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Annuleer via de Crunchyroll-website of via Google Play → Abonnementen → Crunchyroll."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Wordt mijn kijkgeschiedenis verwijderd?",
+        "answer": "Nee. Kijkgeschiedenis blijft behouden na annulering."
+      }
+    ]
+  },
+  "weightwatchers": {
+    "description": "Annuleer WeightWatchers via de website of bel de klantenservice. Verbintenisabonnementen kunnen niet vroegtijdig worden beëindigd.",
+    "difficulty": "Gemiddeld",
+    "difficultyReason": "Verbintenisabonnementen kunnen niet vroegtijdig worden geannuleerd. Mogelijk moet je de klantenservice bellen.",
+    "refundPolicy": "Geen restitutie bij verbintenisabonnementen. Raadpleeg de voorwaarden van je abonnement.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar weightwatchers.com/us/account/subscription en log in."
+          },
+          {
+            "instruction": "Zoek je abonnement op en klik op Annuleren."
+          },
+          {
+            "instruction": "Volg de stappen en bevestig de annulering."
+          }
+        ]
+      },
+      "phone": {
+        "steps": [
+          {
+            "instruction": "Bel de WeightWatchers-klantenservice om te annuleren via een medewerker."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ik heb een verbintenisabonnement — kan ik annuleren?",
+        "answer": "Nee. WeightWatchers-verbintenisabonnementen staan geen vroegtijdige annulering toe."
+      }
+    ]
   }
 }

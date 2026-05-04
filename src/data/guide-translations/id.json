@@ -2586,5 +2586,431 @@
         "description": "InShot — editor video mobile"
       }
     ]
+  },
+  "classpass": {
+    "description": "Batalkan ClassPass melalui situs web atau aplikasi — bersiaplah menolak tawaran jeda.",
+    "difficulty": "Sedang",
+    "difficultyReason": "Anda harus menolak tawaran jeda sebelum menyelesaikan pembatalan.",
+    "refundPolicy": "Kredit tidak dapat dikembalikan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka classpass.com/account/plan dan masuk."
+          },
+          {
+            "instruction": "Klik Batalkan Keanggotaan."
+          },
+          {
+            "instruction": "Tolak tawaran jeda saat muncul."
+          },
+          {
+            "instruction": "Konfirmasi pembatalan."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Aplikasi ClassPass → Akun → Paket → Batalkan Keanggotaan. Tolak jeda dan konfirmasi."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Aplikasi ClassPass → Akun → Paket → Batalkan Keanggotaan. Tolak jeda dan konfirmasi."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Apakah kredit saya yang tersisa akan dikembalikan?",
+        "answer": "Tidak. Kredit ClassPass tidak dapat dikembalikan setelah pembatalan."
+      }
+    ]
+  },
+  "blink-fitness": {
+    "description": "Batalkan Blink Fitness secara langsung di gym atau melalui surat tercatat — tidak ada pembatalan online.",
+    "difficulty": "Sulit",
+    "difficultyReason": "Pembatalan hanya bisa dilakukan secara langsung atau melalui surat tercatat. Pemberitahuan 30 hari diperlukan.",
+    "refundPolicy": "Tidak ada pengembalian dana. Pemberitahuan 30 hari diperlukan.",
+    "platforms": {
+      "inPerson": {
+        "steps": [
+          {
+            "instruction": "Kunjungi gym Blink Fitness secara langsung."
+          },
+          {
+            "instruction": "Minta formulir pembatalan di resepsionis."
+          },
+          {
+            "instruction": "Isi dan serahkan formulir. Masa pemberitahuan 30 hari dimulai dari sini."
+          }
+        ]
+      },
+      "mail": {
+        "steps": [
+          {
+            "instruction": "Kirim surat tercatat berisi nama lengkap, alamat, dan permintaan pembatalan ke alamat gym."
+          },
+          {
+            "instruction": "Simpan bukti pengiriman. 30 hari dihitung sejak surat diterima."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Bisakah saya membatalkan secara online atau lewat telepon?",
+        "answer": "Tidak. Blink Fitness tidak mengizinkan pembatalan online atau melalui telepon. Kunjungan langsung atau surat tercatat diperlukan."
+      }
+    ]
+  },
+  "snapchat-plus": {
+    "description": "Batalkan Snapchat+ melalui pengaturan aplikasi atau perangkat. Streak dan kenangan tetap tersimpan.",
+    "difficulty": "Mudah",
+    "difficultyReason": "Pembatalan mudah melalui pengaturan langganan di aplikasi atau perangkat.",
+    "refundPolicy": "Tidak ada pengembalian dana. Streak dan kenangan tetap ada.",
+    "platforms": {
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Buka Snapchat → Profil → Snapchat+ → Kelola Langganan."
+          },
+          {
+            "instruction": "Ketuk Batalkan Langganan dan konfirmasi."
+          },
+          {
+            "note": "Alternatif: Pengaturan → Apple ID → Langganan → Snapchat+."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Buka Snapchat → Profil → Snapchat+ → Kelola Langganan."
+          },
+          {
+            "instruction": "Ketuk Batalkan dan konfirmasi."
+          },
+          {
+            "note": "Alternatif: Google Play → Langganan → Snapchat+."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Apakah saya akan kehilangan Streak saya?",
+        "answer": "Tidak. Streak dan kenangan tetap tersimpan setelah membatalkan Snapchat+."
+      }
+    ]
+  },
+  "ea-play": {
+    "description": "Batalkan EA Play melalui situs web EA atau konsol. Kemajuan game tetap tersimpan.",
+    "difficulty": "Mudah",
+    "difficultyReason": "Pembatalan mudah melalui situs web atau konsol.",
+    "refundPolicy": "Tidak ada pengembalian dana. Kemajuan game tetap tersimpan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka ea.com dan masuk ke akun Anda."
+          },
+          {
+            "instruction": "Buka Akun → Langganan."
+          },
+          {
+            "instruction": "Pilih EA Play dan klik Batalkan Langganan."
+          },
+          {
+            "instruction": "Konfirmasi pembatalan."
+          }
+        ]
+      },
+      "playstation": {
+        "steps": [
+          {
+            "instruction": "Di PS4/PS5: Pengaturan → Akun → Langganan."
+          },
+          {
+            "instruction": "Pilih EA Play dan batalkan."
+          }
+        ]
+      },
+      "xbox": {
+        "steps": [
+          {
+            "instruction": "Buka account.microsoft.com → Layanan & langganan."
+          },
+          {
+            "instruction": "Temukan EA Play dan pilih Batalkan."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Apakah kemajuan game saya akan hilang?",
+        "answer": "Tidak. Kemajuan dan file simpanan game tetap ada setelah membatalkan EA Play."
+      }
+    ]
+  },
+  "amazon-music": {
+    "description": "Batalkan Amazon Music Unlimited melalui situs web Amazon. Anggota Prime tetap memiliki Prime Music dengan 2 juta lagu.",
+    "difficulty": "Mudah",
+    "difficultyReason": "Pembatalan langsung melalui situs web Amazon dalam beberapa klik.",
+    "refundPolicy": "Tidak ada pengembalian dana. Prime Music (2 juta lagu) tetap tersedia untuk anggota Prime.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka amazon.com dan masuk."
+          },
+          {
+            "instruction": "Buka Akun → Keanggotaan & Langganan."
+          },
+          {
+            "instruction": "Temukan Amazon Music Unlimited dan klik Batalkan Langganan."
+          },
+          {
+            "instruction": "Konfirmasi pembatalan."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Batalkan melalui situs web Amazon atau Pengaturan → Apple ID → Langganan → Amazon Music."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Batalkan melalui situs web Amazon atau Google Play → Langganan → Amazon Music."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Apakah saya akan kehilangan semua musik saya?",
+        "answer": "Anggota Prime tetap dapat mengakses Prime Music dengan 2 juta lagu. Hanya katalog tak terbatas yang dihapus."
+      }
+    ]
+  },
+  "peloton": {
+    "description": "Batalkan Peloton di members.onepeloton.com. Sepeda tetap berfungsi secara manual. App dan All-Access dibatalkan secara terpisah.",
+    "difficulty": "Sedang",
+    "difficultyReason": "Langganan App dan All-Access dibatalkan secara terpisah.",
+    "refundPolicy": "Tidak ada pengembalian dana. Sepeda Peloton berfungsi secara manual tanpa langganan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka members.onepeloton.com dan masuk."
+          },
+          {
+            "instruction": "Buka Pengaturan → Keanggotaan."
+          },
+          {
+            "instruction": "Klik Batalkan Keanggotaan."
+          },
+          {
+            "instruction": "Ikuti petunjuk dan konfirmasi pembatalan."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Batalkan langganan App: Pengaturan → Apple ID → Langganan → Peloton."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Batalkan langganan App: Google Play → Langganan → Peloton."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Apakah sepeda saya akan berhenti berfungsi?",
+        "answer": "Tidak. Sepeda Peloton tetap berfungsi secara manual tanpa langganan aktif."
+      }
+    ]
+  },
+  "ring-protect": {
+    "description": "Batalkan Ring Protect melalui situs web atau aplikasi. Kamera tetap berfungsi tetapi tanpa perekaman cloud.",
+    "difficulty": "Mudah",
+    "difficultyReason": "Pembatalan langsung melalui situs web atau aplikasi Ring.",
+    "refundPolicy": "Tidak ada pengembalian dana. Kamera tetap berfungsi tetapi kehilangan perekaman cloud dan riwayat video.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka ring.com dan masuk."
+          },
+          {
+            "instruction": "Buka Kontrol Akun → Paket Ring Protect."
+          },
+          {
+            "instruction": "Pilih paket dan klik Batalkan Paket."
+          },
+          {
+            "instruction": "Konfirmasi pembatalan."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Aplikasi Ring → Menu → Kontrol Akun → Ring Protect → Batalkan."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Aplikasi Ring → Menu → Kontrol Akun → Ring Protect → Batalkan."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Apakah kamera saya akan berhenti berfungsi?",
+        "answer": "Tidak. Kamera Ring tetap berfungsi tetapi tanpa perekaman cloud atau riwayat video."
+      }
+    ]
+  },
+  "grubhub": {
+    "description": "Batalkan Grubhub+ melalui situs web atau aplikasi. Pengguna Amazon Prime harus memutuskan sambungan melalui Amazon. Poin reward tetap ada.",
+    "difficulty": "Mudah",
+    "difficultyReason": "Pembatalan mudah melalui situs web atau aplikasi. Pengguna Prime memiliki proses terpisah melalui Amazon.",
+    "refundPolicy": "Tidak ada pengembalian dana. Poin reward tetap ada.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka grubhub.com dan masuk."
+          },
+          {
+            "instruction": "Buka Akun → Grubhub+."
+          },
+          {
+            "instruction": "Klik Batalkan Grubhub+ dan konfirmasi."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Aplikasi Grubhub → Akun → Grubhub+ → Batalkan."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Aplikasi Grubhub → Akun → Grubhub+ → Batalkan."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Saya anggota Amazon Prime — bagaimana cara membatalkan?",
+        "answer": "Pengguna yang berlangganan melalui Amazon Prime harus memutuskan Grubhub+ langsung dari akun Amazon mereka."
+      }
+    ]
+  },
+  "crunchyroll": {
+    "description": "Batalkan Crunchyroll melalui situs web. Riwayat tontonan tetap tersimpan. Pengguna PlayStation membatalkan melalui PS.",
+    "difficulty": "Mudah",
+    "difficultyReason": "Pembatalan langsung melalui situs web Crunchyroll dalam beberapa klik.",
+    "refundPolicy": "Tidak ada pengembalian dana. Riwayat tontonan tetap tersimpan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka crunchyroll.com/account dan masuk."
+          },
+          {
+            "instruction": "Buka Kelola Premium."
+          },
+          {
+            "instruction": "Pilih Batalkan Langganan dan konfirmasi."
+          }
+        ]
+      },
+      "playstation": {
+        "steps": [
+          {
+            "instruction": "Jika berlangganan melalui PS: Pengaturan PS → Akun → Langganan → Crunchyroll → Batalkan."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Batalkan melalui situs web Crunchyroll atau Pengaturan → Apple ID → Langganan → Crunchyroll."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Batalkan melalui situs web Crunchyroll atau Google Play → Langganan → Crunchyroll."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Apakah riwayat tontonan saya akan dihapus?",
+        "answer": "Tidak. Riwayat tontonan tetap tersimpan setelah pembatalan."
+      }
+    ]
+  },
+  "weightwatchers": {
+    "description": "Batalkan WeightWatchers melalui situs web atau hubungi dukungan. Paket komitmen tidak dapat dibatalkan lebih awal.",
+    "difficulty": "Sedang",
+    "difficultyReason": "Paket komitmen tidak dapat dibatalkan lebih awal. Mungkin perlu menghubungi dukungan.",
+    "refundPolicy": "Tidak ada pengembalian dana untuk paket komitmen. Lihat syarat paket Anda.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka weightwatchers.com/us/account/subscription dan masuk."
+          },
+          {
+            "instruction": "Temukan langganan Anda dan klik Batalkan."
+          },
+          {
+            "instruction": "Ikuti langkah-langkah dan konfirmasi pembatalan."
+          }
+        ]
+      },
+      "phone": {
+        "steps": [
+          {
+            "instruction": "Untuk membatalkan melalui perwakilan, hubungi dukungan WeightWatchers."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Saya memiliki paket komitmen — bisakah saya membatalkan?",
+        "answer": "Tidak. Paket komitmen WeightWatchers tidak mengizinkan pembatalan lebih awal."
+      }
+    ]
   }
 }

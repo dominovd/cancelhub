@@ -2725,5 +2725,431 @@
         "description": "InShot — мобильный видеоредактор"
       }
     ]
+  },
+  "classpass": {
+    "description": "Отмените ClassPass через сайт или приложение — будьте готовы отклонить предложение о паузе.",
+    "difficulty": "Средне",
+    "difficultyReason": "Перед завершением отмены нужно отклонить предложение о паузе.",
+    "refundPolicy": "Кредиты не возвращаются.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Перейдите на classpass.com/account/plan и войдите в аккаунт."
+          },
+          {
+            "instruction": "Нажмите «Отменить членство»."
+          },
+          {
+            "instruction": "Откажитесь от предложения паузы."
+          },
+          {
+            "instruction": "Подтвердите отмену."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Приложение ClassPass → Аккаунт → Тариф → Отменить членство. Откажитесь от паузы и подтвердите."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Приложение ClassPass → Аккаунт → Тариф → Отменить членство. Откажитесь от паузы и подтвердите."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Будут ли возвращены мои оставшиеся кредиты?",
+        "answer": "Нет. Кредиты ClassPass не возвращаются после отмены."
+      }
+    ]
+  },
+  "blink-fitness": {
+    "description": "Отмените Blink Fitness лично в зале или заказным письмом — онлайн-отмена недоступна.",
+    "difficulty": "Сложно",
+    "difficultyReason": "Отмена возможна только лично или заказным письмом. Требуется уведомление за 30 дней.",
+    "refundPolicy": "Без возврата средств. Требуется уведомление за 30 дней.",
+    "platforms": {
+      "inPerson": {
+        "steps": [
+          {
+            "instruction": "Лично придите в любой зал Blink Fitness."
+          },
+          {
+            "instruction": "Попросите форму отмены на ресепшене."
+          },
+          {
+            "instruction": "Заполните и сдайте форму. 30-дневный период уведомления начинается с этого момента."
+          }
+        ]
+      },
+      "mail": {
+        "steps": [
+          {
+            "instruction": "Отправьте заказное письмо с полным именем, адресом и запросом на отмену по адресу зала."
+          },
+          {
+            "instruction": "Сохраните подтверждение отправки. 30 дней отсчитываются с момента получения."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Можно ли отменить онлайн или по телефону?",
+        "answer": "Нет. Blink Fitness не допускает онлайн или телефонной отмены. Требуется личное посещение или заказное письмо."
+      }
+    ]
+  },
+  "snapchat-plus": {
+    "description": "Отмените Snapchat+ в настройках приложения или устройства. Серии и воспоминания сохраняются.",
+    "difficulty": "Легко",
+    "difficultyReason": "Отмена проста через настройки подписки в приложении или на устройстве.",
+    "refundPolicy": "Без возврата. Серии и воспоминания сохраняются.",
+    "platforms": {
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Откройте Snapchat → Профиль → Snapchat+ → Управление подпиской."
+          },
+          {
+            "instruction": "Нажмите «Отменить подписку» и подтвердите."
+          },
+          {
+            "note": "Или: Настройки → Apple ID → Подписки → Snapchat+."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Откройте Snapchat → Профиль → Snapchat+ → Управление подпиской."
+          },
+          {
+            "instruction": "Нажмите «Отменить» и подтвердите."
+          },
+          {
+            "note": "Или: Google Play → Подписки → Snapchat+."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Потеряю ли я серии?",
+        "answer": "Нет. Серии и воспоминания сохраняются после отмены Snapchat+."
+      }
+    ]
+  },
+  "ea-play": {
+    "description": "Отмените EA Play через сайт EA или консоль. Прогресс в играх сохраняется.",
+    "difficulty": "Легко",
+    "difficultyReason": "Простая отмена через сайт или консоль.",
+    "refundPolicy": "Без возврата средств. Прогресс в играх сохраняется.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Перейдите на ea.com и войдите в аккаунт."
+          },
+          {
+            "instruction": "Перейдите в Аккаунт → Подписки."
+          },
+          {
+            "instruction": "Выберите EA Play и нажмите «Отменить подписку»."
+          },
+          {
+            "instruction": "Подтвердите отмену."
+          }
+        ]
+      },
+      "playstation": {
+        "steps": [
+          {
+            "instruction": "На PS4/PS5: Настройки → Аккаунт → Подписки."
+          },
+          {
+            "instruction": "Выберите EA Play и отмените."
+          }
+        ]
+      },
+      "xbox": {
+        "steps": [
+          {
+            "instruction": "Перейдите на account.microsoft.com → Службы и подписки."
+          },
+          {
+            "instruction": "Найдите EA Play и выберите «Отменить»."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Потеряю ли я прогресс в играх?",
+        "answer": "Нет. Прогресс и сохранения сохраняются после отмены EA Play."
+      }
+    ]
+  },
+  "amazon-music": {
+    "description": "Отмените Amazon Music Unlimited через сайт Amazon. Участники Prime сохраняют Prime Music с 2 миллионами треков.",
+    "difficulty": "Легко",
+    "difficultyReason": "Прямая отмена через сайт Amazon в несколько кликов.",
+    "refundPolicy": "Без возврата. Участники Prime сохраняют доступ к Prime Music (2 миллиона треков).",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Перейдите на amazon.com и войдите в аккаунт."
+          },
+          {
+            "instruction": "Перейдите в Аккаунт → Членства и подписки."
+          },
+          {
+            "instruction": "Найдите Amazon Music Unlimited и нажмите «Отменить подписку»."
+          },
+          {
+            "instruction": "Подтвердите отмену."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Отмените через сайт Amazon или через Настройки → Apple ID → Подписки → Amazon Music."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Отмените через сайт Amazon или через Google Play → Подписки → Amazon Music."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Потеряю ли я всю свою музыку?",
+        "answer": "Участники Prime сохраняют доступ к Prime Music (2 миллиона треков). Удаляется только безлимитный каталог."
+      }
+    ]
+  },
+  "peloton": {
+    "description": "Отмените Peloton на members.onepeloton.com. Байк продолжает работать вручную. App и All-Access отменяются отдельно.",
+    "difficulty": "Средне",
+    "difficultyReason": "Подписки App и All-Access отменяются отдельно.",
+    "refundPolicy": "Без возврата. Байк Peloton работает вручную без подписки.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Перейдите на members.onepeloton.com и войдите в аккаунт."
+          },
+          {
+            "instruction": "Перейдите в Настройки → Членство."
+          },
+          {
+            "instruction": "Нажмите «Отменить членство»."
+          },
+          {
+            "instruction": "Следуйте инструкциям и подтвердите отмену."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Отмена App-подписки: Настройки → Apple ID → Подписки → Peloton."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Отмена App-подписки: Google Play → Подписки → Peloton."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Перестанет ли работать мой байк?",
+        "answer": "Нет. Байк Peloton продолжает работать вручную без активной подписки."
+      }
+    ]
+  },
+  "ring-protect": {
+    "description": "Отмените Ring Protect через сайт или приложение. Камеры продолжают работать, но без облачной записи.",
+    "difficulty": "Легко",
+    "difficultyReason": "Прямая отмена через сайт или приложение Ring.",
+    "refundPolicy": "Без возврата. Камеры работают, но теряют облачную запись и историю видео.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Перейдите на ring.com и войдите в аккаунт."
+          },
+          {
+            "instruction": "Перейдите в Управление аккаунтом → Планы Ring Protect."
+          },
+          {
+            "instruction": "Выберите план и нажмите «Отменить план»."
+          },
+          {
+            "instruction": "Подтвердите отмену."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Приложение Ring → Меню → Управление аккаунтом → Ring Protect → Отменить."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Приложение Ring → Меню → Управление аккаунтом → Ring Protect → Отменить."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Перестанут ли работать мои камеры?",
+        "answer": "Нет. Камеры Ring продолжают работать, но без облачной записи и истории видео."
+      }
+    ]
+  },
+  "grubhub": {
+    "description": "Отмените Grubhub+ через сайт или приложение. Пользователи Amazon Prime должны отключиться через Amazon. Бонусные баллы сохраняются.",
+    "difficulty": "Легко",
+    "difficultyReason": "Простая отмена через сайт или приложение. Пользователи Prime проходят отдельную процедуру через Amazon.",
+    "refundPolicy": "Без возврата. Бонусные баллы сохраняются.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Перейдите на grubhub.com и войдите в аккаунт."
+          },
+          {
+            "instruction": "Перейдите в Аккаунт → Grubhub+."
+          },
+          {
+            "instruction": "Нажмите «Отменить Grubhub+» и подтвердите."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Приложение Grubhub → Аккаунт → Grubhub+ → Отменить."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Приложение Grubhub → Аккаунт → Grubhub+ → Отменить."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Я участник Amazon Prime — как отменить?",
+        "answer": "Пользователи, подписавшиеся через Amazon Prime, должны отключить Grubhub+ через аккаунт Amazon."
+      }
+    ]
+  },
+  "crunchyroll": {
+    "description": "Отмените Crunchyroll через сайт. История просмотров сохраняется. Пользователи PlayStation отменяют через PS.",
+    "difficulty": "Легко",
+    "difficultyReason": "Прямая отмена через сайт Crunchyroll в несколько кликов.",
+    "refundPolicy": "Без возврата. История просмотров сохраняется.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Перейдите на crunchyroll.com/account и войдите в аккаунт."
+          },
+          {
+            "instruction": "Перейдите в Управление Premium."
+          },
+          {
+            "instruction": "Выберите «Отменить подписку» и подтвердите."
+          }
+        ]
+      },
+      "playstation": {
+        "steps": [
+          {
+            "instruction": "Если подписка оформлена через PS: Настройки PS → Аккаунт → Подписки → Crunchyroll → Отменить."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Отмените через сайт Crunchyroll или через Настройки → Apple ID → Подписки → Crunchyroll."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Отмените через сайт Crunchyroll или через Google Play → Подписки → Crunchyroll."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Будет ли удалена моя история просмотров?",
+        "answer": "Нет. История просмотров сохраняется после отмены."
+      }
+    ]
+  },
+  "weightwatchers": {
+    "description": "Отмените WeightWatchers через сайт или позвоните в поддержку. Контрактные планы не могут быть отменены досрочно.",
+    "difficulty": "Средне",
+    "difficultyReason": "Контрактные планы не допускают досрочной отмены. Может потребоваться звонок в поддержку.",
+    "refundPolicy": "Без возврата для контрактных планов. Ознакомьтесь с условиями вашего плана.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Перейдите на weightwatchers.com/us/account/subscription и войдите в аккаунт."
+          },
+          {
+            "instruction": "Найдите подписку и нажмите «Отменить»."
+          },
+          {
+            "instruction": "Следуйте шагам и подтвердите отмену."
+          }
+        ]
+      },
+      "phone": {
+        "steps": [
+          {
+            "instruction": "Для отмены через представителя позвоните в поддержку WeightWatchers."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "У меня контрактный план — могу ли я отменить?",
+        "answer": "Нет. Контрактные планы WeightWatchers не допускают досрочной отмены."
+      }
+    ]
   }
 }

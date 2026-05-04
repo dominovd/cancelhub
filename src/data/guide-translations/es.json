@@ -2579,5 +2579,437 @@
         "answer": "Cancela desde la configuración del dispositivo: suscripciones iOS en la configuración del Apple ID, suscripciones Android en Google Play Store."
       }
     ]
+  },
+  "classpass": {
+    "description": "Cancela ClassPass en menos de 5 minutos por la app o el sitio web. Los créditos no utilizados se pierden al final del ciclo de facturación.",
+    "difficulty": "Medio",
+    "difficultyReason": "La opción de pausar se promociona intensamente, lo que dificulta encontrar la cancelación.",
+    "refundPolicy": "Sin reembolsos. Los créditos no utilizados se pierden al final del período de facturación.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ve a classpass.com/account/plan e inicia sesión."
+          },
+          {
+            "instruction": "Haz clic en Cuenta → Plan → Cancelar plan."
+          },
+          {
+            "instruction": "Haz clic en 'No gracias, cancelar' después de la oferta de pausar."
+          },
+          {
+            "instruction": "Confirma la cancelación."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abre la app ClassPass → Perfil → Configuración → Gestionar plan → Cancelar plan."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abre la app ClassPass → Perfil → Configuración → Gestionar plan → Cancelar plan."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "La app solo me muestra la opción de pausar.",
+        "answer": "Busca el enlace pequeño 'No gracias, cancelar' debajo de la oferta de pausar. Está diseñado para pasar desapercibido."
+      },
+      {
+        "question": "¿Se reembolsan los créditos no utilizados?",
+        "answer": "No. Los créditos no utilizados no son reembolsables y se pierden al final del período de facturación."
+      }
+    ]
+  },
+  "blink-fitness": {
+    "description": "Cancela Blink Fitness en persona en tu gimnasio de origen o por correo certificado. No hay cancelación online disponible.",
+    "difficulty": "Difícil",
+    "difficultyReason": "No existe cancelación online. Debes ir en persona o enviar correo certificado, con un aviso previo de 30 días.",
+    "refundPolicy": "Sin reembolsos. Se requiere un aviso previo de 30 días.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "La cancelación online no está disponible."
+          },
+          {
+            "instruction": "Visita tu gimnasio de origen en persona o envía una carta certificada a la dirección del gimnasio."
+          },
+          {
+            "instruction": "Solicita el formulario de cancelación y entrégalo. Se requiere un aviso de 30 días."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "No es posible cancelar desde la app. Ve en persona al gimnasio o envía correo certificado."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "No es posible cancelar desde la app. Ve en persona al gimnasio o envía correo certificado."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Me he mudado y no puedo visitar mi gimnasio de origen.",
+        "answer": "Envía una carta certificada con tu nombre, dirección y número de membresía a tu gimnasio de origen."
+      },
+      {
+        "question": "¿Cuánto dura el período de aviso?",
+        "answer": "30 días. Tu membresía permanece activa durante 30 días después de entregar el formulario de cancelación."
+      }
+    ]
+  },
+  "snapchat-plus": {
+    "description": "Cancela Snapchat+ en menos de 2 minutos por la app de Snapchat, Configuración de iOS o Google Play.",
+    "difficulty": "Fácil",
+    "difficultyReason": "La cancelación es rápida y está disponible en todas las plataformas.",
+    "refundPolicy": "Sin reembolsos. El acceso continúa hasta el final del período de facturación.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Abre la app de Snapchat → Perfil → Configuración → Snapchat+ → Gestionar membresía → Cancelar."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abre Configuración del iPhone → Apple ID → Suscripciones → Snapchat+ → Cancelar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abre Google Play → Suscripciones → Snapchat+ → Cancelar suscripción."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "¿Perderé mis rachas, recuerdos o amigos al cancelar?",
+        "answer": "No. Las rachas, recuerdos y amigos se conservan en el plan gratuito."
+      },
+      {
+        "question": "No encuentro la cancelación en la app.",
+        "answer": "Usa la configuración del dispositivo: suscripciones iOS en la configuración del Apple ID, suscripciones Android en Google Play Store."
+      }
+    ]
+  },
+  "ea-play": {
+    "description": "Cancela EA Play o EA Play Pro en menos de 5 minutos en la web, PlayStation, Xbox o la configuración del dispositivo.",
+    "difficulty": "Fácil",
+    "difficultyReason": "La cancelación es sencilla, pero debe realizarse en el lugar correcto según la plataforma.",
+    "refundPolicy": "Sin reembolsos. El acceso continúa hasta el final del período de facturación. El progreso y las partidas guardadas se conservan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ve a ea.com e inicia sesión."
+          },
+          {
+            "instruction": "Haz clic en Cuenta → Suscripciones → Cancelar."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abre Configuración del iPhone → Apple ID → Suscripciones → EA Play → Cancelar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abre Google Play → Suscripciones → EA Play → Cancelar suscripción."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Me suscribí a EA Play a través de PlayStation o Xbox. ¿Cómo cancelo?",
+        "answer": "Cancela directamente desde tu consola: suscripciones de PlayStation en la configuración de la cuenta PSN, suscripciones de Xbox en la cuenta de Microsoft."
+      },
+      {
+        "question": "¿Se perderá mi progreso y mis partidas guardadas?",
+        "answer": "No. El progreso y las partidas guardadas se conservan después de cancelar."
+      }
+    ]
+  },
+  "amazon-music": {
+    "description": "Cancela Amazon Music Unlimited en menos de 2 minutos en Amazon. Los miembros Prime mantienen el acceso a Prime Music.",
+    "difficulty": "Fácil",
+    "difficultyReason": "La cancelación es sencilla y se puede realizar directamente en la cuenta de Amazon.",
+    "refundPolicy": "Sin reembolsos. El acceso continúa hasta el final del período de facturación.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ve a amazon.com e inicia sesión."
+          },
+          {
+            "instruction": "Navega a Membresías y suscripciones → Cancelar Amazon Music Unlimited."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "No es posible cancelar desde la app. Visita amazon.com en el navegador móvil y sigue los pasos web."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "No es posible cancelar desde la app. Visita amazon.com en el navegador móvil y sigue los pasos web."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "¿Perderé Prime Music si cancelo Amazon Music Unlimited?",
+        "answer": "No. Los miembros Prime mantienen el acceso a Prime Music con más de 2 millones de canciones."
+      },
+      {
+        "question": "¿Se me cobrará si cancelo durante la prueba gratuita?",
+        "answer": "No. Si cancelas durante la prueba gratuita, no se realizará ningún cargo."
+      }
+    ]
+  },
+  "peloton": {
+    "description": "Cancela la membresía de Peloton en menos de 5 minutos por la app o el sitio web. Las membresías de hardware y app se cancelan por separado.",
+    "difficulty": "Medio",
+    "difficultyReason": "Las membresías de hardware y app son suscripciones separadas y deben cancelarse individualmente.",
+    "refundPolicy": "Sin reembolsos. El acceso continúa hasta el final del período de facturación.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ve a members.onepeloton.com e inicia sesión."
+          },
+          {
+            "instruction": "Haz clic en Perfil → Membresía → Cancelar membresía."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abre la app de Peloton → Perfil → Configuración → Membresía → Cancelar."
+          },
+          {
+            "instruction": "Alternativa: Configuración del iPhone → Apple ID → Suscripciones → Peloton → Cancelar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abre la app de Peloton → Perfil → Configuración → Membresía → Cancelar."
+          },
+          {
+            "instruction": "Alternativa: Google Play → Suscripciones → Peloton → Cancelar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "¿Puedo seguir usando mi bici o cinta sin membresía?",
+        "answer": "Sí. El equipo sigue funcionando para entrenamientos manuales sin membresía."
+      },
+      {
+        "question": "¿Debo cancelar la membresía de App y All-Access por separado?",
+        "answer": "Sí. Las membresías de App y All-Access son suscripciones separadas y deben cancelarse individualmente."
+      }
+    ]
+  },
+  "ring-protect": {
+    "description": "Cancela el plan Ring Protect en menos de 3 minutos por la app de Ring o la configuración de la cuenta de Amazon.",
+    "difficulty": "Fácil",
+    "difficultyReason": "La cancelación es sencilla y está disponible directamente en la app de Ring o en Amazon.",
+    "refundPolicy": "Sin reembolsos. El acceso continúa hasta el final del período de facturación.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ve a ring.com/account e inicia sesión."
+          },
+          {
+            "instruction": "Navega a Ring Protect Plans → Cancelar plan."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abre la app de Ring → Cuenta → Ring Protect Plans → Cancelar plan."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abre la app de Ring → Cuenta → Ring Protect Plans → Cancelar plan."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "¿Funcionan mis cámaras sin Ring Protect?",
+        "answer": "Sí. Las cámaras siguen funcionando, pero sin historial de video en la nube. Se mantiene la vista en vivo y las notificaciones de movimiento."
+      },
+      {
+        "question": "¿Qué cubre Ring Protect Plus/Pro?",
+        "answer": "Ring Protect Plus y Pro cubren todos los dispositivos en una dirección, no solo un dispositivo individual."
+      }
+    ]
+  },
+  "grubhub": {
+    "description": "Cancela Grubhub+ en menos de 3 minutos por la app o grubhub.com.",
+    "difficulty": "Fácil",
+    "difficultyReason": "La cancelación es sencilla y está disponible directamente en la app o en el sitio web.",
+    "refundPolicy": "Sin reembolsos. El acceso continúa hasta el final del período de facturación.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ve a grubhub.com e inicia sesión."
+          },
+          {
+            "instruction": "Navega a Cuenta → Grubhub+ → Cancelar membresía."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abre la app de Grubhub → Perfil → Grubhub+ → Gestionar → Cancelar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abre la app de Grubhub → Perfil → Grubhub+ → Gestionar → Cancelar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Soy miembro de Amazon Prime. ¿Cómo cancelo Grubhub+?",
+        "answer": "Grubhub+ está vinculado a Amazon Prime. Desvincula la cuenta desde tu cuenta de Amazon y cancela desde allí."
+      },
+      {
+        "question": "¿Se conservan mis puntos de recompensa al cancelar?",
+        "answer": "Sí. Tus puntos de recompensa se conservan incluso después de cancelar Grubhub+."
+      }
+    ]
+  },
+  "crunchyroll": {
+    "description": "Cancela Crunchyroll en menos de 3 minutos en la web, iOS o Android.",
+    "difficulty": "Fácil",
+    "difficultyReason": "La cancelación es sencilla y está disponible en todas las plataformas.",
+    "refundPolicy": "Sin reembolsos. El acceso continúa hasta el final del período de facturación.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ve a crunchyroll.com/account e inicia sesión."
+          },
+          {
+            "instruction": "Navega a Perfil → Configuración → Gestionar Premium → Cancelar Premium."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abre Configuración del iPhone → Apple ID → Suscripciones → Crunchyroll → Cancelar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abre Google Play → Suscripciones → Crunchyroll → Cancelar suscripción."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "¿Se conservan mi historial y favoritos al cancelar?",
+        "answer": "Sí. El historial de reproducción y los favoritos se conservan después de cancelar la suscripción Premium."
+      },
+      {
+        "question": "Me suscribí a Crunchyroll a través de PlayStation.",
+        "answer": "Cancela desde la configuración de la cuenta de PlayStation, no desde el sitio web de Crunchyroll."
+      }
+    ]
+  },
+  "weightwatchers": {
+    "description": "Cancela la membresía digital o de taller de WeightWatchers en menos de 5 minutos por la web o llamando al soporte.",
+    "difficulty": "Medio",
+    "difficultyReason": "Los planes de compromiso no se pueden cancelar anticipadamente. Si no aparece el botón de cancelar, es necesario llamar.",
+    "refundPolicy": "Sin reembolsos en planes de compromiso. Los planes mensuales se pueden cancelar en cualquier momento.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ve a weightwatchers.com/us/account/subscription e inicia sesión."
+          },
+          {
+            "instruction": "Haz clic en Cancelar suscripción. Si no aparece el botón, llama al 1-800-651-6000."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abre Configuración del iPhone → Apple ID → Suscripciones → WW → Cancelar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abre Google Play → Suscripciones → WW → Cancelar suscripción."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "No veo el botón de cancelar en el sitio web.",
+        "answer": "Con los planes de compromiso no es posible cancelar anticipadamente. Llama al soporte al 1-800-651-6000 para conocer tus opciones."
+      },
+      {
+        "question": "¿Puedo cancelar un plan de compromiso antes de tiempo?",
+        "answer": "No. Los planes de compromiso no se pueden cancelar anticipadamente. Debes esperar hasta el final del período contratado."
+      }
+    ]
   }
 }

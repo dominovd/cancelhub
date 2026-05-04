@@ -2582,5 +2582,437 @@
         "answer": "Kündige über die Geräteeinstellungen: iOS-Abonnements unter den Apple-ID-Einstellungen, Android-Abonnements im Google Play Store."
       }
     ]
+  },
+  "classpass": {
+    "description": "Kündige ClassPass in unter 5 Minuten über die App oder das Web. Nicht genutzte Credits verfallen am Ende des Abrechnungszeitraums.",
+    "difficulty": "Mittel",
+    "difficultyReason": "Die Pausieren-Option wird stark beworben und erschwert das Finden der Kündigung.",
+    "refundPolicy": "Keine Rückerstattungen. Nicht genutzte Credits verfallen am Ende des Abrechnungszeitraums.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu classpass.com/account/plan und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf Account → Plan → Plan kündigen."
+          },
+          {
+            "instruction": "Klicke auf 'Nein danke, kündigen' nach dem Pausieren-Angebot."
+          },
+          {
+            "instruction": "Bestätige die Kündigung."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Öffne die ClassPass-App → Profil → Einstellungen → Plan verwalten → Plan kündigen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Öffne die ClassPass-App → Profil → Einstellungen → Plan verwalten → Plan kündigen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Die App zeigt mir nur eine Pausieren-Option an.",
+        "answer": "Suche nach dem kleinen Link 'Nein danke, kündigen' unterhalb des Pausieren-Angebots. Er ist bewusst klein gestaltet."
+      },
+      {
+        "question": "Werden meine ungenutzten Credits erstattet?",
+        "answer": "Nein. Nicht genutzte Credits sind nicht erstattungsfähig und verfallen am Ende des Abrechnungszeitraums."
+      }
+    ]
+  },
+  "blink-fitness": {
+    "description": "Kündige Blink Fitness persönlich in deinem Heimstudio oder per Einschreiben. Eine Online-Kündigung ist nicht möglich.",
+    "difficulty": "Schwer",
+    "difficultyReason": "Es gibt keine Online-Kündigung. Die Kündigung muss persönlich oder per Einschreiben erfolgen, mit 30 Tagen Kündigungsfrist.",
+    "refundPolicy": "Keine Rückerstattungen. 30 Tage Kündigungsfrist erforderlich.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Eine Online-Kündigung ist nicht verfügbar."
+          },
+          {
+            "instruction": "Besuche dein Heimstudio persönlich oder sende ein Einschreiben an die Adresse des Heimstudios."
+          },
+          {
+            "instruction": "Beantrage das Kündigungsformular und reiche es ein. Beachte die 30-tägige Kündigungsfrist."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Keine App-Kündigung möglich. Gehe persönlich ins Studio oder sende ein Einschreiben."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Keine App-Kündigung möglich. Gehe persönlich ins Studio oder sende ein Einschreiben."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ich bin umgezogen und kann mein Heimstudio nicht mehr besuchen.",
+        "answer": "Sende ein Einschreiben mit deinem Namen, deiner Adresse und deiner Mitgliedsnummer an dein Heimstudio."
+      },
+      {
+        "question": "Wie lange dauert die Kündigungsfrist?",
+        "answer": "30 Tage. Deine Mitgliedschaft bleibt noch 30 Tage nach dem Einreichen des Kündigungsformulars aktiv."
+      }
+    ]
+  },
+  "snapchat-plus": {
+    "description": "Kündige Snapchat+ in unter 2 Minuten über die Snapchat-App, die iOS-Einstellungen oder Google Play.",
+    "difficulty": "Einfach",
+    "difficultyReason": "Die Kündigung ist schnell und auf allen Plattformen verfügbar.",
+    "refundPolicy": "Keine Rückerstattungen. Der Zugang läuft bis zum Ende des Abrechnungszeitraums.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Öffne die Snapchat-App → Profil → Einstellungen → Snapchat+ → Mitgliedschaft verwalten → Kündigen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Öffne die iPhone-Einstellungen → Apple-ID → Abonnements → Snapchat+ → Kündigen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Öffne Google Play → Abonnements → Snapchat+ → Abonnement kündigen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Verliere ich meine Streaks, Erinnerungen oder Freunde nach der Kündigung?",
+        "answer": "Nein. Streaks, Erinnerungen und Freunde bleiben auch im kostenlosen Tarif erhalten."
+      },
+      {
+        "question": "Ich kann die Kündigung in der App nicht finden.",
+        "answer": "Nutze stattdessen die Geräteeinstellungen: iOS-Abonnements unter den Apple-ID-Einstellungen, Android-Abonnements im Google Play Store."
+      }
+    ]
+  },
+  "ea-play": {
+    "description": "Kündige EA Play oder EA Play Pro in unter 5 Minuten im Web, auf PlayStation, Xbox oder in den Geräteeinstellungen.",
+    "difficulty": "Einfach",
+    "difficultyReason": "Die Kündigung ist unkompliziert, muss aber je nach Plattform an der richtigen Stelle erfolgen.",
+    "refundPolicy": "Keine Rückerstattungen. Der Zugang läuft bis zum Ende des Abrechnungszeitraums. Spielfortschritte und Speicherstände bleiben erhalten.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu ea.com und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf Account → Abonnements → Kündigen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Öffne die iPhone-Einstellungen → Apple-ID → Abonnements → EA Play → Kündigen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Öffne Google Play → Abonnements → EA Play → Abonnement kündigen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ich habe EA Play über PlayStation oder Xbox abonniert. Wie kündige ich?",
+        "answer": "Kündige direkt über deine Konsole: PlayStation-Abonnements in den PSN-Kontoeinstellungen, Xbox-Abonnements im Microsoft-Konto."
+      },
+      {
+        "question": "Gehen meine Spielfortschritte und Speicherstände verloren?",
+        "answer": "Nein. Spielfortschritte und Speicherstände bleiben nach der Kündigung erhalten."
+      }
+    ]
+  },
+  "amazon-music": {
+    "description": "Kündige Amazon Music Unlimited in unter 2 Minuten bei Amazon. Prime-Mitglieder behalten weiterhin Zugang zu Prime Music.",
+    "difficulty": "Einfach",
+    "difficultyReason": "Die Kündigung ist unkompliziert und direkt im Amazon-Konto möglich.",
+    "refundPolicy": "Keine Rückerstattungen. Der Zugang läuft bis zum Ende des Abrechnungszeitraums.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu amazon.com und melde dich an."
+          },
+          {
+            "instruction": "Navigiere zu Mitgliedschaften & Abonnements → Amazon Music Unlimited kündigen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Eine Kündigung uber die App ist nicht moglich. Besuche amazon.com im mobilen Browser und folge den Web-Schritten."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Eine Kündigung uber die App ist nicht moglich. Besuche amazon.com im mobilen Browser und folge den Web-Schritten."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Verliere ich Prime Music, wenn ich Amazon Music Unlimited kündige?",
+        "answer": "Nein. Prime-Mitglieder behalten weiterhin Zugang zu Prime Music mit über 2 Millionen Songs."
+      },
+      {
+        "question": "Werde ich für meine kostenlose Testversion belastet, wenn ich kündige?",
+        "answer": "Nein. Wenn du während der kostenlosen Testversion kündigst, entstehen keine Kosten."
+      }
+    ]
+  },
+  "peloton": {
+    "description": "Kündige die Peloton-Mitgliedschaft in unter 5 Minuten über die App oder das Web. Hardware- und App-Mitgliedschaften werden separat gekündigt.",
+    "difficulty": "Mittel",
+    "difficultyReason": "Hardware- und App-Mitgliedschaften sind getrennte Abonnements und müssen separat gekündigt werden.",
+    "refundPolicy": "Keine Rückerstattungen. Der Zugang läuft bis zum Ende des Abrechnungszeitraums.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu members.onepeloton.com und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf Profil → Mitgliedschaft → Mitgliedschaft kündigen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Öffne die Peloton-App → Profil → Einstellungen → Mitgliedschaft → Kündigen."
+          },
+          {
+            "instruction": "Alternativ: iPhone-Einstellungen → Apple-ID → Abonnements → Peloton → Kündigen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Öffne die Peloton-App → Profil → Einstellungen → Mitgliedschaft → Kündigen."
+          },
+          {
+            "instruction": "Alternativ: Google Play → Abonnements → Peloton → Kündigen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kann ich mein Bike oder Tread noch ohne Mitgliedschaft nutzen?",
+        "answer": "Ja. Das Gerät funktioniert weiterhin für manuelle Workouts ohne Mitgliedschaft."
+      },
+      {
+        "question": "Muss ich App- und All-Access-Mitgliedschaft separat kündigen?",
+        "answer": "Ja. App- und All-Access-Mitgliedschaften sind separate Abonnements und müssen einzeln gekündigt werden."
+      }
+    ]
+  },
+  "ring-protect": {
+    "description": "Kündige den Ring Protect Plan in unter 3 Minuten über die Ring-App oder die Amazon-Kontoeinstellungen.",
+    "difficulty": "Einfach",
+    "difficultyReason": "Die Kündigung ist unkompliziert und direkt in der Ring-App oder bei Amazon möglich.",
+    "refundPolicy": "Keine Rückerstattungen. Der Zugang läuft bis zum Ende des Abrechnungszeitraums.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu ring.com/account und melde dich an."
+          },
+          {
+            "instruction": "Navigiere zu Ring Protect Plans → Plan kündigen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Öffne die Ring-App → Account → Ring Protect Plans → Plan kündigen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Öffne die Ring-App → Account → Ring Protect Plans → Plan kündigen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Funktionieren meine Kameras noch ohne Ring Protect?",
+        "answer": "Ja. Die Kameras funktionieren weiterhin, aber ohne Cloud-Videospeicher. Live-Ansicht und Bewegungsbenachrichtigungen bleiben erhalten."
+      },
+      {
+        "question": "Was deckt Ring Protect Plus/Pro ab?",
+        "answer": "Ring Protect Plus und Pro decken alle Gerate an einer Adresse ab, nicht nur ein einzelnes Gerat."
+      }
+    ]
+  },
+  "grubhub": {
+    "description": "Kündige Grubhub+ in unter 3 Minuten über die App oder grubhub.com.",
+    "difficulty": "Einfach",
+    "difficultyReason": "Die Kündigung ist unkompliziert und direkt in der App oder im Web möglich.",
+    "refundPolicy": "Keine Rückerstattungen. Der Zugang läuft bis zum Ende des Abrechnungszeitraums.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu grubhub.com und melde dich an."
+          },
+          {
+            "instruction": "Navigiere zu Account → Grubhub+ → Mitgliedschaft kündigen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Öffne die Grubhub-App → Profil → Grubhub+ → Verwalten → Kündigen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Öffne die Grubhub-App → Profil → Grubhub+ → Verwalten → Kündigen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ich bin Amazon-Prime-Mitglied. Wie kündige ich Grubhub+?",
+        "answer": "Grubhub+ ist mit Amazon Prime verknüpft. Trenne die Verknüpfung über dein Amazon-Konto und kündige dort."
+      },
+      {
+        "question": "Bleiben meine Rewards-Punkte nach der Kündigung erhalten?",
+        "answer": "Ja. Deine Rewards-Punkte bleiben auch nach der Kündigung von Grubhub+ erhalten."
+      }
+    ]
+  },
+  "crunchyroll": {
+    "description": "Kündige Crunchyroll in unter 3 Minuten im Web, auf iOS oder Android.",
+    "difficulty": "Einfach",
+    "difficultyReason": "Die Kündigung ist unkompliziert und auf allen Plattformen verfügbar.",
+    "refundPolicy": "Keine Rückerstattungen. Der Zugang läuft bis zum Ende des Abrechnungszeitraums.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu crunchyroll.com/account und melde dich an."
+          },
+          {
+            "instruction": "Navigiere zu Profil → Einstellungen → Premium verwalten → Premium kündigen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Öffne die iPhone-Einstellungen → Apple-ID → Abonnements → Crunchyroll → Kündigen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Öffne Google Play → Abonnements → Crunchyroll → Abonnement kündigen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Bleiben mein Wiedergabeverlauf und meine Favoriten nach der Kündigung erhalten?",
+        "answer": "Ja. Wiedergabeverlauf und Favoriten bleiben auch nach der Kündigung des Premium-Abonnements erhalten."
+      },
+      {
+        "question": "Ich habe Crunchyroll über PlayStation abonniert.",
+        "answer": "Kündige über die PlayStation-Kontoeinstellungen, nicht über die Crunchyroll-Website."
+      }
+    ]
+  },
+  "weightwatchers": {
+    "description": "Kündige WW (WeightWatchers) Digital- oder Workshop-Mitgliedschaft in unter 5 Minuten im Web oder per Anruf beim Support.",
+    "difficulty": "Mittel",
+    "difficultyReason": "Bei Verpflichtungsplänen ist keine vorzeitige Kündigung möglich. Wenn kein Kündigen-Button angezeigt wird, muss der Support angerufen werden.",
+    "refundPolicy": "Keine Rückerstattungen bei Verpflichtungsplänen. Monatliche Pläne können jederzeit gekündigt werden.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu weightwatchers.com/us/account/subscription und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf Abonnement kündigen. Falls kein Button vorhanden ist, rufe 1-800-651-6000 an."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Öffne die iPhone-Einstellungen → Apple-ID → Abonnements → WW → Kündigen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Öffne Google Play → Abonnements → WW → Abonnement kündigen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ich sehe keinen Kündigen-Button auf der Website.",
+        "answer": "Bei Verpflichtungsplänen ist eine vorzeitige Kündigung nicht möglich. Rufe den Support unter 1-800-651-6000 an, um Optionen zu besprechen."
+      },
+      {
+        "question": "Kann ich einen Verpflichtungsplan vorzeitig kündigen?",
+        "answer": "Nein. Verpflichtungspläne können nicht vorzeitig gekündigt werden. Du musst bis zum Ende der Laufzeit warten."
+      }
+    ]
   }
 }

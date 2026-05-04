@@ -2535,5 +2535,431 @@
         "answer": "앱을 이용할 수 없는 경우 기기 설정(iOS 또는 Android)을 통해 구독을 취소하세요."
       }
     ]
+  },
+  "classpass": {
+    "description": "ClassPass를 웹 또는 앱에서 취소하세요 — 일시 중지 제안을 거절할 준비를 하세요.",
+    "difficulty": "보통",
+    "difficultyReason": "취소 완료 전 일시 중지 제안을 적극적으로 거절해야 합니다.",
+    "refundPolicy": "크레딧은 환불되지 않습니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "classpass.com/account/plan에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "멤버십 취소를 클릭합니다."
+          },
+          {
+            "instruction": "일시 중지 제안이 표시되면 거절합니다."
+          },
+          {
+            "instruction": "취소를 확인합니다."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "ClassPass 앱 → 계정 → 플랜 → 멤버십 취소. 일시 중지 제안을 거절하고 확인합니다."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "ClassPass 앱 → 계정 → 플랜 → 멤버십 취소. 일시 중지 제안을 거절하고 확인합니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "남은 크레딧은 환불되나요?",
+        "answer": "아니요. ClassPass 크레딧은 취소 후 환불되지 않습니다."
+      }
+    ]
+  },
+  "blink-fitness": {
+    "description": "Blink Fitness는 직접 방문 또는 등기 우편으로만 취소 가능 — 온라인 취소 불가.",
+    "difficulty": "어려움",
+    "difficultyReason": "직접 방문 또는 등기 우편으로만 취소할 수 있습니다. 30일 사전 통보가 필요합니다.",
+    "refundPolicy": "환불 없음. 30일 사전 통보 필요.",
+    "platforms": {
+      "inPerson": {
+        "steps": [
+          {
+            "instruction": "Blink Fitness 헬스장에 직접 방문합니다."
+          },
+          {
+            "instruction": "안내 데스크에서 취소 양식을 받습니다."
+          },
+          {
+            "instruction": "양식을 작성하여 제출합니다. 30일 통보 기간이 시작됩니다."
+          }
+        ]
+      },
+      "mail": {
+        "steps": [
+          {
+            "instruction": "이름, 주소, 취소 요청을 담은 서신을 등기 우편으로 헬스장 주소로 발송합니다."
+          },
+          {
+            "instruction": "발송 영수증을 보관하세요. 30일은 수령 후부터 시작됩니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "온라인이나 전화로 취소할 수 있나요?",
+        "answer": "아니요. Blink Fitness는 온라인이나 전화 취소를 허용하지 않습니다. 직접 방문 또는 등기 우편이 필요합니다."
+      }
+    ]
+  },
+  "snapchat-plus": {
+    "description": "Snapchat+를 앱 또는 기기 설정에서 취소하세요. 스트릭과 추억은 유지됩니다.",
+    "difficulty": "쉬움",
+    "difficultyReason": "앱 또는 기기 구독 설정에서 간단하게 취소할 수 있습니다.",
+    "refundPolicy": "환불 없음. 스트릭과 추억은 유지됩니다.",
+    "platforms": {
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Snapchat → 프로필 → Snapchat+ → 구독 관리를 엽니다."
+          },
+          {
+            "instruction": "구독 취소를 탭하고 확인합니다."
+          },
+          {
+            "note": "또는: 설정 → Apple ID → 구독 → Snapchat+."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Snapchat → 프로필 → Snapchat+ → 구독 관리를 엽니다."
+          },
+          {
+            "instruction": "취소를 탭하고 확인합니다."
+          },
+          {
+            "note": "또는: Google Play → 구독 → Snapchat+."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "스트릭을 잃게 되나요?",
+        "answer": "아니요. Snapchat+ 취소 후에도 스트릭과 추억은 유지됩니다."
+      }
+    ]
+  },
+  "ea-play": {
+    "description": "EA Play를 EA 웹사이트 또는 콘솔에서 취소하세요. 게임 진행 상황은 유지됩니다.",
+    "difficulty": "쉬움",
+    "difficultyReason": "웹사이트 또는 콘솔에서 간단하게 취소할 수 있습니다.",
+    "refundPolicy": "환불 없음. 게임 진행 상황은 유지됩니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "ea.com에 접속하여 계정에 로그인합니다."
+          },
+          {
+            "instruction": "계정 → 구독으로 이동합니다."
+          },
+          {
+            "instruction": "EA Play를 선택하고 구독 취소를 클릭합니다."
+          },
+          {
+            "instruction": "취소를 확인합니다."
+          }
+        ]
+      },
+      "playstation": {
+        "steps": [
+          {
+            "instruction": "PS4/PS5에서 설정 → 계정 → 구독으로 이동합니다."
+          },
+          {
+            "instruction": "EA Play를 선택하고 취소합니다."
+          }
+        ]
+      },
+      "xbox": {
+        "steps": [
+          {
+            "instruction": "account.microsoft.com → 서비스 및 구독에 접속합니다."
+          },
+          {
+            "instruction": "EA Play를 찾아 취소를 선택합니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "게임 진행 상황을 잃게 되나요?",
+        "answer": "아니요. EA Play 취소 후에도 게임 진행 상황과 저장 파일은 유지됩니다."
+      }
+    ]
+  },
+  "amazon-music": {
+    "description": "Amazon Music Unlimited을 Amazon 웹사이트에서 취소하세요. Prime 회원은 200만 곡의 Prime Music을 유지합니다.",
+    "difficulty": "쉬움",
+    "difficultyReason": "Amazon 웹사이트에서 몇 번의 클릭으로 간단하게 취소할 수 있습니다.",
+    "refundPolicy": "환불 없음. Prime 회원은 Prime Music(200만 곡)을 계속 이용할 수 있습니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "amazon.com에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "계정 → 멤버십 및 구독으로 이동합니다."
+          },
+          {
+            "instruction": "Amazon Music Unlimited를 찾아 구독 취소를 클릭합니다."
+          },
+          {
+            "instruction": "취소를 확인합니다."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Amazon 웹사이트 또는 설정 → Apple ID → 구독 → Amazon Music에서 취소합니다."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Amazon 웹사이트 또는 Google Play → 구독 → Amazon Music에서 취소합니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "음악을 모두 잃게 되나요?",
+        "answer": "Prime 회원은 Prime Music(200만 곡)을 계속 이용할 수 있습니다. 무제한 카탈로그만 제거됩니다."
+      }
+    ]
+  },
+  "peloton": {
+    "description": "members.onepeloton.com에서 Peloton을 취소하세요. 자전거는 수동으로 계속 사용 가능합니다. 앱과 All-Access는 별도로 취소해야 합니다.",
+    "difficulty": "보통",
+    "difficultyReason": "앱 구독과 All-Access는 별도로 취소해야 합니다.",
+    "refundPolicy": "환불 없음. Peloton 자전거는 구독 없이도 수동으로 사용할 수 있습니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "members.onepeloton.com에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "설정 → 멤버십으로 이동합니다."
+          },
+          {
+            "instruction": "멤버십 취소를 클릭합니다."
+          },
+          {
+            "instruction": "안내에 따라 취소를 확인합니다."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "앱 구독 취소: 설정 → Apple ID → 구독 → Peloton."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "앱 구독 취소: Google Play → 구독 → Peloton."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "자전거를 사용할 수 없게 되나요?",
+        "answer": "아니요. Peloton 자전거는 구독 없이도 수동으로 계속 사용할 수 있습니다."
+      }
+    ]
+  },
+  "ring-protect": {
+    "description": "Ring Protect를 웹사이트 또는 앱에서 취소하세요. 카메라는 계속 작동하지만 클라우드 녹화는 불가합니다.",
+    "difficulty": "쉬움",
+    "difficultyReason": "Ring 웹사이트 또는 앱에서 직접 취소할 수 있습니다.",
+    "refundPolicy": "환불 없음. 카메라는 작동하지만 클라우드 녹화와 영상 기록을 잃습니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "ring.com에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "계정 관리 → Ring Protect 플랜으로 이동합니다."
+          },
+          {
+            "instruction": "플랜을 선택하고 플랜 취소를 클릭합니다."
+          },
+          {
+            "instruction": "취소를 확인합니다."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ring 앱 → 메뉴 → 계정 관리 → Ring Protect → 취소."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ring 앱 → 메뉴 → 계정 관리 → Ring Protect → 취소."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "카메라가 작동을 멈추나요?",
+        "answer": "아니요. Ring 카메라는 계속 작동하지만 클라우드 녹화와 영상 기록이 사라집니다."
+      }
+    ]
+  },
+  "grubhub": {
+    "description": "Grubhub+를 웹사이트 또는 앱에서 취소하세요. Amazon Prime 사용자는 Amazon을 통해 연결을 끊어야 합니다. 리워드 포인트는 유지됩니다.",
+    "difficulty": "쉬움",
+    "difficultyReason": "웹사이트 또는 앱에서 간단하게 취소할 수 있습니다. Prime 사용자는 별도 절차가 필요합니다.",
+    "refundPolicy": "환불 없음. 리워드 포인트는 유지됩니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "grubhub.com에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "계정 → Grubhub+로 이동합니다."
+          },
+          {
+            "instruction": "Grubhub+ 취소를 클릭하고 확인합니다."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Grubhub 앱 → 계정 → Grubhub+ → 취소."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Grubhub 앱 → 계정 → Grubhub+ → 취소."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Amazon Prime 회원인데 어떻게 취소하나요?",
+        "answer": "Amazon Prime을 통해 가입한 사용자는 Amazon 계정에서 직접 Grubhub+의 연결을 끊어야 합니다."
+      }
+    ]
+  },
+  "crunchyroll": {
+    "description": "Crunchyroll을 웹사이트에서 취소하세요. 시청 기록은 유지됩니다. PlayStation 사용자는 PS에서 취소합니다.",
+    "difficulty": "쉬움",
+    "difficultyReason": "Crunchyroll 웹사이트에서 몇 번의 클릭으로 간단하게 취소할 수 있습니다.",
+    "refundPolicy": "환불 없음. 시청 기록은 유지됩니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "crunchyroll.com/account에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "프리미엄 관리로 이동합니다."
+          },
+          {
+            "instruction": "구독 취소를 선택하고 확인합니다."
+          }
+        ]
+      },
+      "playstation": {
+        "steps": [
+          {
+            "instruction": "PS를 통해 구독한 경우: PS 설정 → 계정 → 구독 → Crunchyroll → 취소."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Crunchyroll 웹사이트 또는 설정 → Apple ID → 구독 → Crunchyroll에서 취소합니다."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Crunchyroll 웹사이트 또는 Google Play → 구독 → Crunchyroll에서 취소합니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "시청 기록이 삭제되나요?",
+        "answer": "아니요. 시청 기록은 취소 후에도 유지됩니다."
+      }
+    ]
+  },
+  "weightwatchers": {
+    "description": "WeightWatchers를 웹사이트에서 취소하거나 고객 지원에 전화하세요. 약정 플랜은 조기 취소가 불가합니다.",
+    "difficulty": "보통",
+    "difficultyReason": "약정 플랜은 조기 취소가 불가합니다. 고객 지원에 전화해야 할 수도 있습니다.",
+    "refundPolicy": "약정 플랜 환불 없음. 플랜 약관을 확인하세요.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "weightwatchers.com/us/account/subscription에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "구독을 찾아 취소를 클릭합니다."
+          },
+          {
+            "instruction": "단계를 따라 취소를 확인합니다."
+          }
+        ]
+      },
+      "phone": {
+        "steps": [
+          {
+            "instruction": "담당자를 통한 취소는 WeightWatchers 고객 지원에 전화하세요."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "약정 플랜인데 취소할 수 있나요?",
+        "answer": "아니요. WeightWatchers 약정 플랜은 조기 취소가 허용되지 않습니다."
+      }
+    ]
   }
 }

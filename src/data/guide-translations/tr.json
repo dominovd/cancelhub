@@ -2586,5 +2586,431 @@
         "description": "InShot - mobil video duzenleyici"
       }
     ]
+  },
+  "classpass": {
+    "description": "ClassPass'i web sitesi veya uygulama uzerinden iptal edin — duraklama teklifini reddetmeye hazir olun.",
+    "difficulty": "Orta",
+    "difficultyReason": "Iptali tamamlamadan once duraklama teklifini reddetmeniz gerekir.",
+    "refundPolicy": "Krediler iade edilmez.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "classpass.com/account/plan adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "Uyeligi Iptal Et'e tiklayin."
+          },
+          {
+            "instruction": "Duraklama teklifi gorundugunde reddedin."
+          },
+          {
+            "instruction": "Iptali onaylayin."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "ClassPass uygulamasi -> Hesap -> Plan -> Uyeligi Iptal Et. Duraklamayi reddedin ve onaylayin."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "ClassPass uygulamasi -> Hesap -> Plan -> Uyeligi Iptal Et. Duraklamayi reddedin ve onaylayin."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kalan kredilerim iade edilecek mi?",
+        "answer": "Hayir. ClassPass kredileri iptal sonrasinda iade edilmez."
+      }
+    ]
+  },
+  "blink-fitness": {
+    "description": "Blink Fitness'i spor salonunda bizzat veya taahhutlu posta ile iptal edin — cevrimici iptal yok.",
+    "difficulty": "Zor",
+    "difficultyReason": "Iptal yalnizca bizzat veya taahhutlu posta ile yapilabilir. 30 gun onceden bildirim gereklidir.",
+    "refundPolicy": "Iade yoktur. 30 gun onceden bildirim gereklidir.",
+    "platforms": {
+      "inPerson": {
+        "steps": [
+          {
+            "instruction": "Herhangi bir Blink Fitness spor salonuna bizzat gidin."
+          },
+          {
+            "instruction": "Resepsiyondan iptal formunu isteyin."
+          },
+          {
+            "instruction": "Formu doldurup teslim edin. 30 gunluk bildirim suresi buradan baslar."
+          }
+        ]
+      },
+      "mail": {
+        "steps": [
+          {
+            "instruction": "Tam adinizi, adresinizi ve iptal talebinizi iceren bir mektubu taahhutlu posta ile spor salonunun adresine gonderin."
+          },
+          {
+            "instruction": "Gonderim makbuzunu saklayin. 30 gun teslim tarihinden itibaren hesaplanir."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Cevrimici veya telefonla iptal edebilir miyim?",
+        "answer": "Hayir. Blink Fitness cevrimici veya telefonla iptal izni vermez. Bizzat gitmek veya taahhutlu posta gondermek gereklidir."
+      }
+    ]
+  },
+  "snapchat-plus": {
+    "description": "Snapchat+'i uygulama veya cihaz ayarlarindan iptal edin. Seriler ve anlar korunur.",
+    "difficulty": "Kolay",
+    "difficultyReason": "Iptal, uygulamadaki veya cihazdaki abonelik ayarlarindan kolayca yapilabilir.",
+    "refundPolicy": "Iade yoktur. Seriler ve anlar korunur.",
+    "platforms": {
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Snapchat -> Profil -> Snapchat+ -> Aboneligi Yonet'i acin."
+          },
+          {
+            "instruction": "Aboneligi Iptal Et'e dokunun ve onaylayin."
+          },
+          {
+            "note": "Alternatif: Ayarlar -> Apple ID -> Abonelikler -> Snapchat+."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Snapchat -> Profil -> Snapchat+ -> Aboneligi Yonet'i acin."
+          },
+          {
+            "instruction": "Iptal Et'e dokunun ve onaylayin."
+          },
+          {
+            "note": "Alternatif: Google Play -> Abonelikler -> Snapchat+."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Serilerimi kaybeder miyim?",
+        "answer": "Hayir. Snapchat+ iptal edildikten sonra seriler ve anlar korunur."
+      }
+    ]
+  },
+  "ea-play": {
+    "description": "EA Play'i EA web sitesi veya konsol uzerinden iptal edin. Oyun ilerlemesi korunur.",
+    "difficulty": "Kolay",
+    "difficultyReason": "Web sitesi veya konsol uzerinden kolay iptal.",
+    "refundPolicy": "Iade yoktur. Oyun ilerlemesi korunur.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "ea.com'a gidin ve hesabiniza giris yapin."
+          },
+          {
+            "instruction": "Hesap -> Abonelikler bolumune gidin."
+          },
+          {
+            "instruction": "EA Play'i secin ve Aboneligi Iptal Et'e tiklayin."
+          },
+          {
+            "instruction": "Iptali onaylayin."
+          }
+        ]
+      },
+      "playstation": {
+        "steps": [
+          {
+            "instruction": "PS4/PS5'te: Ayarlar -> Hesap -> Abonelikler."
+          },
+          {
+            "instruction": "EA Play'i secin ve iptal edin."
+          }
+        ]
+      },
+      "xbox": {
+        "steps": [
+          {
+            "instruction": "account.microsoft.com -> Hizmetler ve abonelikler bolumune gidin."
+          },
+          {
+            "instruction": "EA Play'i bulun ve Iptal'i secin."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Oyun ilerlememizi kaybeder miyim?",
+        "answer": "Hayir. EA Play iptal edildikten sonra oyun ilerlemesi ve kayit dosyalari korunur."
+      }
+    ]
+  },
+  "amazon-music": {
+    "description": "Amazon Music Unlimited'i Amazon web sitesi uzerinden iptal edin. Prime uyeler 2 milyon sarkiyla Prime Music'e sahip olmaya devam eder.",
+    "difficulty": "Kolay",
+    "difficultyReason": "Amazon web sitesi uzerinden birkaç tiklama ile kolay iptal.",
+    "refundPolicy": "Iade yoktur. Prime Music (2 milyon sarki) Prime uyeler icin devam eder.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "amazon.com.tr'ye gidin ve giris yapin."
+          },
+          {
+            "instruction": "Hesap -> Uyelikler ve Abonelikler bolumune gidin."
+          },
+          {
+            "instruction": "Amazon Music Unlimited'i bulun ve Aboneligi Iptal Et'e tiklayin."
+          },
+          {
+            "instruction": "Iptali onaylayin."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Amazon web sitesi veya Ayarlar -> Apple ID -> Abonelikler -> Amazon Music uzerinden iptal edin."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Amazon web sitesi veya Google Play -> Abonelikler -> Amazon Music uzerinden iptal edin."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Tum muzigimi kaybeder miyim?",
+        "answer": "Prime uyeler Prime Music'e (2 milyon sarki) erismeye devam eder. Yalnizca sinırsiz katalog kaldirilir."
+      }
+    ]
+  },
+  "peloton": {
+    "description": "Peloton'u members.onepeloton.com'da iptal edin. Bisiklet manuel olarak calismaya devam eder. Uygulama ve All-Access ayri ayri iptal edilir.",
+    "difficulty": "Orta",
+    "difficultyReason": "Uygulama ve All-Access abonelikleri ayri ayri iptal edilir.",
+    "refundPolicy": "Iade yoktur. Peloton bisikleti abonelik olmadan manuel olarak calisir.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "members.onepeloton.com'a gidin ve giris yapin."
+          },
+          {
+            "instruction": "Ayarlar -> Uyelik bolumune gidin."
+          },
+          {
+            "instruction": "Uyeligi Iptal Et'e tiklayin."
+          },
+          {
+            "instruction": "Talimatlari izleyin ve iptali onaylayin."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Uygulama aboneligini iptal edin: Ayarlar -> Apple ID -> Abonelikler -> Peloton."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Uygulama aboneligini iptal edin: Google Play -> Abonelikler -> Peloton."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Bisikletim calismayi mi durduracak?",
+        "answer": "Hayir. Peloton bisikleti aktif bir abonelik olmadan manuel olarak calismaya devam eder."
+      }
+    ]
+  },
+  "ring-protect": {
+    "description": "Ring Protect'i web sitesi veya uygulama uzerinden iptal edin. Kameralar calismaya devam eder ancak bulut kayit olmaz.",
+    "difficulty": "Kolay",
+    "difficultyReason": "Ring web sitesi veya uygulama uzerinden dogrudan iptal.",
+    "refundPolicy": "Iade yoktur. Kameralar calisir ancak bulut kayit ve video gecmisi kaybolur.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "ring.com'a gidin ve giris yapin."
+          },
+          {
+            "instruction": "Hesap Kontrolu -> Ring Protect Planlari bolumune gidin."
+          },
+          {
+            "instruction": "Plani secin ve Plani Iptal Et'e tiklayin."
+          },
+          {
+            "instruction": "Iptali onaylayin."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ring uygulamasi -> Menu -> Hesap Kontrolu -> Ring Protect -> Iptal."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ring uygulamasi -> Menu -> Hesap Kontrolu -> Ring Protect -> Iptal."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kameralarim calismayı durduracak mi?",
+        "answer": "Hayir. Ring kameralari calismaya devam eder ancak bulut kayit veya video gecmisi olmaz."
+      }
+    ]
+  },
+  "grubhub": {
+    "description": "Grubhub+'i web sitesi veya uygulama uzerinden iptal edin. Amazon Prime kullanicilari Amazon uzerinden baglantıyı kesmeli. Odül puanları korunur.",
+    "difficulty": "Kolay",
+    "difficultyReason": "Web sitesi veya uygulama uzerinden kolay iptal. Prime kullanicilari icin Amazon uzerinden ayri bir surecvar.",
+    "refundPolicy": "Iade yoktur. Odül puanlari korunur.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "grubhub.com'a gidin ve giris yapin."
+          },
+          {
+            "instruction": "Hesap -> Grubhub+ bolumune gidin."
+          },
+          {
+            "instruction": "Grubhub+'i Iptal Et'e tiklayin ve onaylayin."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Grubhub uygulamasi -> Hesap -> Grubhub+ -> Iptal."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Grubhub uygulamasi -> Hesap -> Grubhub+ -> Iptal."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Amazon Prime uyesiyim — nasil iptal ederim?",
+        "answer": "Amazon Prime uzerinden abone olan kullanicilar, Grubhub+'i dogrudan Amazon hesaplarindan baglantisini kesmeli."
+      }
+    ]
+  },
+  "crunchyroll": {
+    "description": "Crunchyroll'u web sitesi uzerinden iptal edin. Izleme gecmisi korunur. PlayStation kullanicilari PS uzerinden iptal eder.",
+    "difficulty": "Kolay",
+    "difficultyReason": "Crunchyroll web sitesi uzerinden birkaç tiklama ile dogrudan iptal.",
+    "refundPolicy": "Iade yoktur. Izleme gecmisi korunur.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "crunchyroll.com/account adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "Premium'u Yonet bolumune gidin."
+          },
+          {
+            "instruction": "Aboneligi Iptal Et'i secin ve onaylayin."
+          }
+        ]
+      },
+      "playstation": {
+        "steps": [
+          {
+            "instruction": "PS uzerinden abone olduysaniz: PS Ayarları -> Hesap -> Abonelikler -> Crunchyroll -> Iptal."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Crunchyroll web sitesi veya Ayarlar -> Apple ID -> Abonelikler -> Crunchyroll uzerinden iptal edin."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Crunchyroll web sitesi veya Google Play -> Abonelikler -> Crunchyroll uzerinden iptal edin."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Izleme gecmisim silinecek mi?",
+        "answer": "Hayir. Izleme gecmisi iptal sonrasinda korunur."
+      }
+    ]
+  },
+  "weightwatchers": {
+    "description": "WeightWatchers'i web sitesi uzerinden iptal edin veya destegi arayin. Taahhut planlari erken iptal edilemez.",
+    "difficulty": "Orta",
+    "difficultyReason": "Taahhut planlari erken iptal edilemez. Destegi aramaniz gerekebilir.",
+    "refundPolicy": "Taahhut planlari icin iade yoktur. Planınızın kosullarını kontrol edin.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "weightwatchers.com/us/account/subscription adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "Aboneliginizi bulun ve Iptal'e tiklayin."
+          },
+          {
+            "instruction": "Adimlari izleyin ve iptali onaylayin."
+          }
+        ]
+      },
+      "phone": {
+        "steps": [
+          {
+            "instruction": "Bir temsilci araciligiyla iptal icin WeightWatchers destegini arayin."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Taahhut planim var — iptal edebilir miyim?",
+        "answer": "Hayir. WeightWatchers taahhut planlari erken iptale izin vermez."
+      }
+    ]
   }
 }
