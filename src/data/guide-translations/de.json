@@ -3015,4 +3015,476 @@
       }
     ]
   }
+,
+  "ancestry": {
+    "description": "Kündige dein Ancestry-Abonnement (Stammbaum und Genealogie) in unter 5 Minuten im Web oder über die Geräteeinstellungen.",
+    "difficulty": "Mittel",
+    "difficultyReason": "Die Kündigung ist online möglich, aber der Stammbaum bleibt nur lesend erhalten, und Jahrespläne werden nicht anteilig erstattet.",
+    "refundPolicy": "Keine anteiligen Rückerstattungen bei Jahresplänen. Familienstammbaumdaten bleiben nach der Kündigung erhalten.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu ancestry.com und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf dein Profilsymbol → Kontoeinstellungen."
+          },
+          {
+            "instruction": "Gehe zu ancestry.com/account/subscription und klicke auf Abonnement kündigen."
+          },
+          {
+            "instruction": "Folge den Anweisungen und bestätige die Kündigung."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Öffne die iPhone-Einstellungen → Apple-ID → Abonnements → Ancestry → Kündigen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Öffne Google Play → Abonnements → Ancestry → Abonnement kündigen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Bleiben meine Stammbaumdaten nach der Kündigung erhalten?",
+        "answer": "Ja. Deine Familienstammbaumdaten bleiben nach der Kündigung erhalten, du hast jedoch keinen Zugang zu Archivdatensaetzen mehr."
+      },
+      {
+        "question": "Kann ich einen Jahresplan anteilig erstatten lassen?",
+        "answer": "Nein. Ancestry erstattet Jahreszahlungen nicht anteilig. Der Zugang laeuft bis zum Ende des bezahlten Zeitraums."
+      }
+    ]
+  },
+  "patreon": {
+    "description": "Kuendige Patreon-Mitgliedschaften bei einzelnen Creators in unter 2 Minuten im Web oder in der App.",
+    "difficulty": "Einfach",
+    "difficultyReason": "Jede Mitgliedschaft muss separat gekuendigt werden, der Vorgang selbst ist jedoch unkompliziert.",
+    "refundPolicy": "Rueckerstattung moeglich, wenn sie innerhalb von 5 Tagen beim Creator beantragt wird. Jede Mitgliedschaft wird einzeln gekuendigt.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu patreon.com/settings/memberships und melde dich an."
+          },
+          {
+            "instruction": "Suche den Creator, dessen Mitgliedschaft du kuendigen moechtest."
+          },
+          {
+            "instruction": "Klicke auf Bearbeiten → Mitgliedschaft kuendigen."
+          },
+          {
+            "instruction": "Wiederhole dies fuer jede weitere Mitgliedschaft."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Oeffne die Patreon-App → Mitgliedschaften."
+          },
+          {
+            "instruction": "Waehle den Creator → tippe auf Kuendigen."
+          },
+          {
+            "instruction": "Wiederhole dies fuer jeden Creator."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Oeffne die Patreon-App → Mitgliedschaften."
+          },
+          {
+            "instruction": "Waehle den Creator → tippe auf Kuendigen."
+          },
+          {
+            "instruction": "Wiederhole dies fuer jeden Creator."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kann ich alle Mitgliedschaften auf einmal kuendigen?",
+        "answer": "Nein. Patreon bietet keine Massenkuendigung an. Jede Mitgliedschaft muss einzeln gekuendigt werden."
+      },
+      {
+        "question": "Wie beantrage ich eine Rueckerstattung?",
+        "answer": "Kontaktiere den Creator direkt innerhalb von 5 Tagen nach der Zahlung, um eine Rueckerstattung zu beantragen."
+      }
+    ]
+  },
+  "substack": {
+    "description": "Kuendige bezahlte Substack-Newsletter-Abonnements einzeln im Web oder in der App.",
+    "difficulty": "Einfach",
+    "difficultyReason": "Es gibt keine Massenkuendigung; jeder Newsletter muss separat gekuendigt werden.",
+    "refundPolicy": "Keine Massenkuendigung. Rueckerstattungen fuer Jahresplaene liegen im Ermessen des Autors.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu substack.com/account/payments und melde dich an."
+          },
+          {
+            "instruction": "Suche das Abonnement, das du kuendigen moechtest, und klicke auf Verwalten."
+          },
+          {
+            "instruction": "Klicke auf Kuendigen und bestaetige deine Wahl."
+          },
+          {
+            "instruction": "Wiederhole dies fuer jeden weiteren Newsletter."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Nutze die Substack-App oder gehe zu den iPhone-Einstellungen → Apple-ID → Abonnements, um dort zu kuendigen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Nutze die Substack-App oder den Browser; alternativ kuendige ueber Google Play → Abonnements."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kann ich alle Substack-Abonnements auf einmal kuendigen?",
+        "answer": "Nein. Jeder Newsletter muss separat gekuendigt werden."
+      },
+      {
+        "question": "Habe ich Anspruch auf eine Rueckerstattung fuer ein Jahresabo?",
+        "answer": "Rueckerstattungen bei Jahresplaenen liegen im Ermessen des jeweiligen Autors. Kontaktiere ihn direkt."
+      }
+    ]
+  },
+  "pandora": {
+    "description": "Kuendige Pandora Plus oder Premium in unter 5 Minuten im Web oder ueber den App Store.",
+    "difficulty": "Einfach",
+    "difficultyReason": "Die Web-Kuendigung ist unkompliziert; ueber den Mobilfunkanbieter abonnierte Nutzer muessen diesen kontaktieren.",
+    "refundPolicy": "Nach der Kuendigung wird das Konto auf den kostenlosen, werbefinanzierten Dienst umgestellt. Hoerverlauf bleibt erhalten. Carrier-Abonnements muessen ueber den Anbieter gekuendigt werden.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu pandora.com/account/subscription und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf Abonnement kuendigen und folge den Anweisungen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Wenn du ueber den App Store abonniert hast: iPhone-Einstellungen → Apple-ID → Abonnements → Pandora → Kuendigen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Kuendige ueber den Browser oder Google Play → Abonnements → Pandora → Abonnement kuendigen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Was passiert mit meinem Hoerverlauf nach der Kuendigung?",
+        "answer": "Dein Hoerverlauf und deine Stationen bleiben erhalten. Du kehrst zum kostenlosen, werbefinanzierten Pandora-Dienst zurueck."
+      },
+      {
+        "question": "Ich zahle Pandora ueber meinen Mobilfunkanbieter.",
+        "answer": "Kontaktiere deinen Anbieter direkt, um das Abonnement zu kuendigen."
+      }
+    ]
+  },
+  "duolingo-plus": {
+    "description": "Kuendige Duolingo Plus bzw. Super Duolingo in unter 3 Minuten im Web oder ueber die Geraeteeinstellungen.",
+    "difficulty": "Einfach",
+    "difficultyReason": "Die Kuendigung ist unkompliziert. Lernfortschritt und Streak bleiben im kostenlosen Modus erhalten.",
+    "refundPolicy": "Lernfortschritt und Streak bleiben nach der Kuendigung erhalten. Duolingo Plus und Super Duolingo sind dasselbe Produkt.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu duolingo.com/settings/super und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf Abonnement kuendigen und bestaetige deine Wahl."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Gehe zu den iPhone-Einstellungen → Apple-ID → Abonnements → Duolingo → Kuendigen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Oeffne Google Play → Abonnements → Duolingo → Abonnement kuendigen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Bleiben mein Lernfortschritt und mein Streak nach der Kuendigung erhalten?",
+        "answer": "Ja. Alle Fortschritte und dein Streak bleiben im kostenlosen Modus vollstaendig erhalten."
+      },
+      {
+        "question": "Was ist der Unterschied zwischen Duolingo Plus und Super Duolingo?",
+        "answer": "Es handelt sich um dasselbe Produkt unter verschiedenen Namen. Beide bieten werbefreies Lernen und weitere Vorteile."
+      }
+    ]
+  },
+  "google-one": {
+    "description": "Downgrade von Google One auf den kostenlosen 15-GB-Tarif in unter 5 Minuten.",
+    "difficulty": "Einfach",
+    "difficultyReason": "Das Downgrade ist unkompliziert, aber Daten ueber dem 15-GB-Limit werden nicht mehr synchronisiert und Google Photos Backup wird beeintraechtigt.",
+    "refundPolicy": "Daten ueber 15 GB werden nach dem Downgrade nicht mehr synchronisiert. Google Photos Backup wird beeintraechtigt, wenn das Limit ueberschritten ist.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu one.google.com und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf Speicher verwalten → Auf kostenloses Kontingent downgraden."
+          },
+          {
+            "instruction": "Bestaetigen, dass du auf 15 GB downgraden moechtest."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Oeffne die Google One App → tippe auf Mitgliedschaft verwalten, oder gehe zu den iPhone-Einstellungen → Apple-ID → Abonnements → Google One → Kuendigen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Oeffne die Google One App → Einstellungen → Mitgliedschaft verwalten → Auf kostenloses Kontingent downgraden."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Was passiert mit meinen Daten, wenn ich ueber 15 GB habe?",
+        "answer": "Daten ueber 15 GB werden nicht mehr synchronisiert. Google Photos erstellt keine neuen Sicherungen mehr. Vorhandene Dateien werden nicht geloescht."
+      },
+      {
+        "question": "Beeintraechtigt das Downgrade Google Photos?",
+        "answer": "Ja. Wenn du mehr als 15 GB belegt hast, werden neue Fotos nicht mehr gesichert, bis du Speicherplatz freigibst."
+      }
+    ]
+  },
+  "siriusxm": {
+    "description": "Kuendige SiriusXM per Telefon oder Website. Rechne mit einem 15- bis 30-minuetigen Gespraech mit aggressiven Haltestrategien.",
+    "difficulty": "Schwer",
+    "difficultyReason": "SiriusXM ist bekannt fuer sehr aggressive Haltestrategien. Ein Anruf ist fast immer erforderlich, und Mitarbeiter bieten wiederholt Rabatte an.",
+    "refundPolicy": "Anteilige Erstattung bei vorbezahlten Jahresplaenen. Werbepreise steigen nach dem ersten Jahr auf den vollen Preis.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu siriusxm.com und melde dich an."
+          },
+          {
+            "instruction": "Suche die Kuendigungsoption unter Kontoeinstellungen oder rufe 1-888-539-7474 an."
+          },
+          {
+            "instruction": "Sage beim automatischen Menue 'Kuendigen', um direkt zu einem Mitarbeiter zu gelangen."
+          },
+          {
+            "instruction": "Bestehe auf der Kuendigung, auch wenn Rabatte angeboten werden. Bestaetigung per E-Mail anfordern."
+          }
+        ]
+      },
+      "phone": {
+        "steps": [
+          {
+            "instruction": "Rufe 1-888-539-7474 an."
+          },
+          {
+            "instruction": "Sage 'Kuendigen' beim automatischen Menue, um Wartezeiten zu verkuerzen."
+          },
+          {
+            "instruction": "Bestaehe auf der Kuendigung; Mitarbeiter werden mehrere Rabatte anbieten."
+          },
+          {
+            "instruction": "Bestaetigung per E-Mail oder Referenznummer notieren."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Muss ich wirklich anrufen, um zu kuendigen?",
+        "answer": "Meistens ja. Die Online-Kuendigung ist oft nicht verfuegbar oder sehr gut versteckt. Ein Anruf ist der zuverlaessigste Weg."
+      },
+      {
+        "question": "Mein Preis ist nach dem ersten Jahr stark gestiegen.",
+        "answer": "Werbepreise von SiriusXM sind nur fuer das erste Jahr gueltig. Du kannst waehrend des Gespraechs einen Rabattpreis aushandeln."
+      }
+    ]
+  },
+  "tidal": {
+    "description": "Kuendige Tidal HiFi in unter 5 Minuten im Web oder ueber die Geraeteeinstellungen.",
+    "difficulty": "Einfach",
+    "difficultyReason": "Die Kuendigung ist unkompliziert. Playlists bleiben im kostenlosen Tarif erhalten; Downloads werden entfernt.",
+    "refundPolicy": "Playlists bleiben im kostenlosen Tarif erhalten. Downloads werden nach der Kuendigung entfernt. Carrier-Bundles muessen ueber den Anbieter gekuendigt werden.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu tidal.com und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf dein Profilsymbol → Konto → Abonnement."
+          },
+          {
+            "instruction": "Klicke auf Abonnement kuendigen und bestaetigen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Gehe zu den iPhone-Einstellungen → Apple-ID → Abonnements → Tidal → Kuendigen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Oeffne Google Play → Abonnements → Tidal → Abonnement kuendigen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Bleiben meine Playlists nach der Kuendigung erhalten?",
+        "answer": "Ja, Playlists bleiben im kostenlosen Tidal-Tarif erhalten. Heruntergeladene Dateien werden jedoch entfernt."
+      },
+      {
+        "question": "Ich habe Tidal ueber meinen Mobilfunkanbieter.",
+        "answer": "Kuendige das Bundle direkt bei deinem Anbieter, nicht ueber Tidal."
+      }
+    ]
+  },
+  "onlyfans": {
+    "description": "Deaktiviere die automatische Verlaengerung fuer OnlyFans-Creator-Abonnements einzeln in der App oder im Web.",
+    "difficulty": "Einfach",
+    "difficultyReason": "Es gibt keine Massenkuendigung. Die automatische Verlaengerung muss fuer jeden Creator einzeln deaktiviert werden.",
+    "refundPolicy": "Der Zugang bleibt bis zum Ende des bezahlten Zeitraums bestehen. Keine Massenkuendigung moeglich.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu onlyfans.com/my/subscriptions/active und melde dich an."
+          },
+          {
+            "instruction": "Suche den Creator und deaktiviere die automatische Verlaengerung."
+          },
+          {
+            "instruction": "Wiederhole dies fuer jeden Creator."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Oeffne die OnlyFans-App → Abonnements → deaktiviere die automatische Verlaengerung fuer jeden Creator."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Oeffne die OnlyFans-App → Abonnements → deaktiviere die automatische Verlaengerung fuer jeden Creator."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kann ich alle OnlyFans-Abonnements auf einmal kuendigen?",
+        "answer": "Nein. Die automatische Verlaengerung muss fuer jeden Creator einzeln deaktiviert werden."
+      },
+      {
+        "question": "Verliere ich sofort den Zugang, wenn ich kuendige?",
+        "answer": "Nein. Der Zugang bleibt bis zum Ende des aktuellen bezahlten Zeitraums erhalten."
+      }
+    ]
+  },
+  "thrive-market": {
+    "description": "Kuendige deine Thrive Market Mitgliedschaft im Web oder per Live-Chat in unter 5 Minuten.",
+    "difficulty": "Mittel",
+    "difficultyReason": "Es gibt keinen direkten Kuendigen-Button auf der Website; Live-Chat oder Kontakt mit dem Support ist oft erforderlich.",
+    "refundPolicy": "30-taegige Rueckerstattungsgarantie fuer Jahresplaene. Wenn kein Kuendigen-Button sichtbar ist, Live-Chat nutzen.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu thrivemarket.com/account/membership und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf Mitgliedschaft kuendigen, falls vorhanden. Andernfalls den Live-Chat starten."
+          },
+          {
+            "instruction": "Im Live-Chat mitteilen, dass du kuendigen moechtest, und die Bestaetigung abwarten."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Nutze den Browser, um thrivemarket.com/account/membership aufzurufen, oder die iPhone-Einstellungen → Apple-ID → Abonnements, falls dort abonniert."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Nutze den Browser, um thrivemarket.com/account/membership aufzurufen, oder Google Play → Abonnements, falls dort abonniert."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ich sehe keinen Kuendigen-Button auf der Website.",
+        "answer": "Nutze den Live-Chat auf thrivemarket.com. Der Support hilft dir bei der Kuendigung."
+      },
+      {
+        "question": "Erhalte ich eine Rueckerstattung fuer meinen Jahresplan?",
+        "answer": "Ja, wenn du innerhalb von 30 Tagen nach dem Kauf kuendigst. Danach gibt es keine Rueckerstattung."
+      }
+    ]
+  }
+
 }

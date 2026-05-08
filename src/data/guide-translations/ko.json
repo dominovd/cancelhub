@@ -2961,5 +2961,369 @@
         "answer": "아니요. WeightWatchers 약정 플랜은 조기 취소가 허용되지 않습니다."
       }
     ]
+  },
+  "ancestry": {
+    "description": "Ancestry 웹사이트의 계정 설정에서 구독을 취소하세요. 가계도는 유지됩니다. 연간 구독은 부분 환불이 없습니다.",
+    "difficulty": "보통",
+    "difficultyReason": "웹에서 취소할 수 있지만 연간 구독의 부분 환불이 없으므로 주의가 필요합니다.",
+    "refundPolicy": "연간 구독 부분 환불 없음. 월간 구독은 언제든지 취소 가능합니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "ancestry.com에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "오른쪽 상단 사용자 아이콘 → '멤버십 및 결제'를 클릭합니다."
+          },
+          {
+            "instruction": "'구독 취소'를 클릭하고 단계를 따릅니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "취소 후 가계도가 삭제되나요?",
+        "answer": "아니요. 가계도 데이터는 취소 후에도 유지됩니다."
+      },
+      {
+        "question": "연간 구독 중에 취소하면 환불받을 수 있나요?",
+        "answer": "아니요. Ancestry는 연간 구독에 대한 부분 환불을 제공하지 않습니다."
+      }
+    ]
+  },
+  "patreon": {
+    "description": "Patreon 크리에이터 멤버십은 각각 개별 취소해야 합니다. 설정/멤버십에서 취소. 환불은 5일 이내에 크리에이터에게 연락하세요.",
+    "difficulty": "쉬움",
+    "difficultyReason": "각 크리에이터 멤버십을 개별적으로 취소해야 합니다.",
+    "refundPolicy": "청구 후 5일 이내에 크리에이터에게 연락하면 환불 가능. 자동 환불은 없습니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "patreon.com에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "오른쪽 상단 아이콘 → '멤버십'을 선택합니다."
+          },
+          {
+            "instruction": "취소할 크리에이터 옆의 '편집'을 클릭합니다."
+          },
+          {
+            "instruction": "'멤버십 취소'를 선택하고 확인합니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "모든 크리에이터를 한 번에 취소할 수 있나요?",
+        "answer": "아니요. 각 크리에이터 멤버십을 개별적으로 취소해야 합니다."
+      },
+      {
+        "question": "환불을 받을 수 있나요?",
+        "answer": "청구 후 5일 이내에 크리에이터에게 직접 연락하면 환불을 요청할 수 있습니다."
+      }
+    ]
+  },
+  "substack": {
+    "description": "유료 Substack 뉴스레터를 substack.com/account/payments에서 개별 취소. 일괄 취소는 없습니다.",
+    "difficulty": "쉬움",
+    "difficultyReason": "각 뉴스레터를 개별 취소해야 하지만 과정은 간단합니다.",
+    "refundPolicy": "환불 정책은 뉴스레터마다 다릅니다. 각 발행자에게 문의하세요.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "substack.com/account/payments에 접속합니다."
+          },
+          {
+            "instruction": "취소할 구독을 찾습니다."
+          },
+          {
+            "instruction": "'관리' 또는 '취소'를 클릭하고 단계를 따릅니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "모든 Substack을 한 번에 취소할 수 있나요?",
+        "answer": "아니요. 각 유료 뉴스레터를 개별적으로 취소해야 합니다."
+      },
+      {
+        "question": "취소 후에도 아카이브를 볼 수 있나요?",
+        "answer": "무료 콘텐츠는 계속 볼 수 있지만 유료 기사 접근권은 사라집니다."
+      }
+    ]
+  },
+  "pandora": {
+    "description": "Pandora 프리미엄을 웹에서 취소하면 무료 플랜으로 돌아갑니다. 청취 기록은 유지됩니다. 통신사 번들 구독은 통신사에 연락하세요.",
+    "difficulty": "쉬움",
+    "difficultyReason": "웹에서 바로 취소할 수 있으며 무료 플랜으로 이동합니다.",
+    "refundPolicy": "일반적으로 환불 없음. 통신사 경유의 경우 통신사 정책이 적용됩니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "pandora.com에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "'설정' → '구독'을 선택합니다."
+          },
+          {
+            "instruction": "'구독 취소'를 클릭하고 확인합니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "취소 후에도 Pandora를 사용할 수 있나요?",
+        "answer": "네. 광고가 포함된 무료 플랜으로 자동 전환됩니다."
+      },
+      {
+        "question": "통신사를 통해 가입했는데 어떻게 해야 하나요?",
+        "answer": "해당 통신사에 직접 연락하여 취소하세요."
+      }
+    ]
+  },
+  "duolingo-plus": {
+    "description": "Duolingo Plus(Super Duolingo)를 웹 또는 기기 설정에서 취소. 스트릭과 학습 진도는 유지됩니다.",
+    "difficulty": "쉬움",
+    "difficultyReason": "웹이나 기기에서 쉽게 취소할 수 있습니다.",
+    "refundPolicy": "일반적으로 환불 없음. iOS는 Apple 정책, Android는 Google 정책을 따릅니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "duolingo.com에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "'설정' → 'Super Duolingo' → '구독 관리'를 선택합니다."
+          },
+          {
+            "instruction": "'취소'를 클릭하고 단계를 따릅니다."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone 설정 → Apple ID → 구독 → Duolingo → 취소를 선택합니다."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play → 구독 → Duolingo → 취소를 선택합니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "취소 후에도 스트릭이 남나요?",
+        "answer": "네. 스트릭과 학습 진도는 취소 후에도 유지됩니다."
+      },
+      {
+        "question": "Duolingo Plus와 Super Duolingo는 같은 건가요?",
+        "answer": "네. 동일한 서비스로 이름이 변경되었습니다."
+      }
+    ]
+  },
+  "google-one": {
+    "description": "Google One 스토리지 플랜을 one.google.com 또는 Google One 앱에서 무료 15GB로 다운그레이드. 15GB 초과 데이터는 동기화되지 않습니다.",
+    "difficulty": "쉬움",
+    "difficultyReason": "웹이나 앱에서 쉽게 다운그레이드할 수 있습니다.",
+    "refundPolicy": "일반적으로 환불 없음. Google 정책을 확인하세요.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "one.google.com에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "'플랜 관리' → '다운그레이드'를 선택합니다."
+          },
+          {
+            "instruction": "무료 15GB 플랜을 선택하고 확인합니다."
+          }
+        ]
+      },
+      "app": {
+        "steps": [
+          {
+            "instruction": "Google One 앱에서 메뉴 → '플랜 관리' → '다운그레이드'를 선택합니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "15GB 초과 데이터는 어떻게 되나요?",
+        "answer": "15GB를 초과하는 데이터는 동기화되지 않으며 Google 포토의 새 사진도 백업되지 않습니다."
+      },
+      {
+        "question": "취소 후 즉시 적용되나요?",
+        "answer": "현재 결제 기간이 끝날 때까지는 현재 플랜이 유지됩니다."
+      }
+    ]
+  },
+  "siriusxm": {
+    "description": "SiriusXM 취소는 전화(1-888-539-7474) 또는 siriusxm.com에서. 매우 적극적인 유지 시도로 15~30분 소요될 수 있습니다.",
+    "difficulty": "어려움",
+    "difficultyReason": "고객 서비스가 매우 적극적으로 취소를 저지하려 합니다. 전화 통화 15~30분을 각오하세요. 프로모션 요금 종료 후 정가로 급등합니다.",
+    "refundPolicy": "일할 계산 환불이 적용될 수 있습니다. 고객 지원에 확인하세요.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "siriusxm.com에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "'내 계정' → '구독' → '취소'를 선택합니다."
+          },
+          {
+            "instruction": "화면 안내에 따릅니다(유지 오퍼가 있을 수 있습니다)."
+          }
+        ]
+      },
+      "phone": {
+        "steps": [
+          {
+            "instruction": "1-888-539-7474에 전화하여 취소 의사를 밝힙니다."
+          },
+          {
+            "instruction": "유지 오퍼를 거절하고 취소를 확인합니다."
+          },
+          {
+            "instruction": "확인 번호를 반드시 기록해 두세요."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "전화에서 계속 붙잡으려 합니다. 어떻게 해야 하나요?",
+        "answer": "'취소하고 싶습니다'라고 명확히 계속 말하세요. 오퍼를 거절해도 됩니다."
+      },
+      {
+        "question": "프로모션 요금이 종료되었습니다.",
+        "answer": "SiriusXM은 프로모션 종료 후 정가로 올립니다. 취소하거나 협상하세요."
+      }
+    ]
+  },
+  "tidal": {
+    "description": "TIDAL을 tidal.com 또는 기기 설정에서 취소. 플레이리스트는 무료 플랜에서도 유지됩니다. 다운로드된 콘텐츠는 삭제됩니다.",
+    "difficulty": "쉬움",
+    "difficultyReason": "웹이나 기기에서 쉽게 취소할 수 있습니다.",
+    "refundPolicy": "일반적으로 환불 없음. iOS는 Apple 정책, Android는 Google 정책을 따릅니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "tidal.com에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "'설정' → '구독' → '취소'를 선택합니다."
+          },
+          {
+            "instruction": "단계를 따라 취소를 확인합니다."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone 설정 → Apple ID → 구독 → TIDAL → 취소를 선택합니다."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play → 구독 → TIDAL → 취소를 선택합니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "취소 후에도 플레이리스트가 남나요?",
+        "answer": "네. 플레이리스트는 무료 플랜에서도 유지되지만 다운로드된 콘텐츠는 삭제됩니다."
+      },
+      {
+        "question": "무료 플랜이 있나요?",
+        "answer": "네. 취소 후 광고가 포함된 무료 플랜으로 전환할 수 있습니다."
+      }
+    ]
+  },
+  "onlyfans": {
+    "description": "OnlyFans 크리에이터 구독을 onlyfans.com/my/subscriptions/active에서 자동 갱신을 개별로 끄세요. 현재 기간이 끝날 때까지 접근은 유지됩니다.",
+    "difficulty": "쉬움",
+    "difficultyReason": "각 크리에이터의 자동 갱신을 개별적으로 비활성화해야 합니다.",
+    "refundPolicy": "일반적으로 환불 없음. 구독 기간 종료까지 접근이 유지됩니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "onlyfans.com/my/subscriptions/active에 접속합니다."
+          },
+          {
+            "instruction": "취소할 크리에이터를 찾습니다."
+          },
+          {
+            "instruction": "'자동 갱신'을 꺼줍니다."
+          },
+          {
+            "instruction": "현재 기간이 끝날 때까지 접근은 유지됩니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "자동 갱신을 끄면 바로 접근이 차단되나요?",
+        "answer": "아니요. 현재 구독 기간이 끝날 때까지 접근은 유지됩니다."
+      },
+      {
+        "question": "모든 크리에이터를 일괄 취소할 수 있나요?",
+        "answer": "아니요. 각 크리에이터 구독을 개별적으로 관리해야 합니다."
+      }
+    ]
+  },
+  "thrive-market": {
+    "description": "Thrive Market 멤버십을 thrivemarket.com/account/membership 또는 라이브 채팅에서 취소. 연간 멤버십은 30일 이내 전액 환불 가능.",
+    "difficulty": "보통",
+    "difficultyReason": "웹에서 취소할 수 있지만 라이브 채팅이 필요할 수 있습니다. 연간 플랜 환불 정책에 주의가 필요합니다.",
+    "refundPolicy": "연간 멤버십은 30일 이내 전액 환불. 월간 플랜은 환불 없음.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "thrivemarket.com/account/membership에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "'멤버십 취소'를 선택합니다."
+          },
+          {
+            "instruction": "단계를 따라 취소를 확인합니다. 라이브 채팅이 필요할 수도 있습니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "연간 멤버십 환불을 받을 수 있나요?",
+        "answer": "네. 구매 후 30일 이내라면 전액 환불을 신청할 수 있습니다."
+      },
+      {
+        "question": "취소 후에도 서비스를 이용할 수 있나요?",
+        "answer": "현재 결제 기간이 끝날 때까지 계속 이용하실 수 있습니다."
+      }
+    ]
   }
 }

@@ -51,6 +51,16 @@ import { ringProtect } from './ring-protect'
 import { grubhub } from './grubhub'
 import { crunchyroll } from './crunchyroll'
 import { weightwatchers } from './weightwatchers'
+import { ancestry } from './ancestry'
+import { patreon } from './patreon'
+import { substack } from './substack'
+import { pandora } from './pandora'
+import { duolingoPlus } from './duolingo-plus'
+import { googleOne } from './google-one'
+import { siriusxm } from './siriusxm'
+import { tidal } from './tidal'
+import { onlyfans } from './onlyfans'
+import { thriveMarket } from './thrive-market'
 
 export const allGuides: CancelGuide[] = [
   netflix,
@@ -105,6 +115,16 @@ export const allGuides: CancelGuide[] = [
   grubhub,
   crunchyroll,
   weightwatchers,
+  ancestry,
+  patreon,
+  substack,
+  pandora,
+  duolingoPlus,
+  googleOne,
+  siriusxm,
+  tidal,
+  onlyfans,
+  thriveMarket,
 ]
 
 export const guidesBySlug: Record<string, CancelGuide> = Object.fromEntries(

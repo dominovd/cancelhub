@@ -3012,4 +3012,470 @@
       }
     ]
   }
+,
+  "ancestry": {
+    "description": "Resiliez votre abonnement Ancestry (arbre genealogique) en moins de 5 minutes sur le web ou depuis les parametres de votre appareil.",
+    "difficulty": "Moyen",
+    "difficultyReason": "La resiliation est possible en ligne, mais les donnees de l'arbre familial ne sont conservees qu'en lecture seule et les plans annuels ne font l'objet d'aucun remboursement au prorata.",
+    "refundPolicy": "Aucun remboursement au prorata pour les plans annuels. Les donnees de l'arbre genealogique sont conservees apres la resiliation.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Rendez-vous sur ancestry.com et connectez-vous."
+          },
+          {
+            "instruction": "Cliquez sur votre icone de profil → Parametres du compte."
+          },
+          {
+            "instruction": "Accedez a ancestry.com/account/subscription et cliquez sur Resilier l'abonnement."
+          },
+          {
+            "instruction": "Suivez les etapes et confirmez la resiliation."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ouvrez Reglages iPhone → Identifiant Apple → Abonnements → Ancestry → Resilier."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ouvrez Google Play → Abonnements → Ancestry → Resilier l'abonnement."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Mes donnees d'arbre genealogique sont-elles conservees apres la resiliation ?",
+        "answer": "Oui. Vos donnees familiales sont conservees, mais vous perdez l'acces aux archives."
+      },
+      {
+        "question": "Puis-je obtenir un remboursement au prorata pour un plan annuel ?",
+        "answer": "Non. Ancestry ne rembourse pas au prorata les paiements annuels. L'acces se poursuit jusqu'a la fin de la periode payee."
+      }
+    ]
+  },
+  "patreon": {
+    "description": "Resiliez vos abonnements Patreon aupres de createurs individuels en moins de 2 minutes sur le web ou dans l'application.",
+    "difficulty": "Facile",
+    "difficultyReason": "Chaque abonnement doit etre resilie separement, mais la procedure en elle-meme est simple.",
+    "refundPolicy": "Remboursement possible si demande au createur dans les 5 jours suivant le paiement. Chaque abonnement se resilie independamment.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Rendez-vous sur patreon.com/settings/memberships et connectez-vous."
+          },
+          {
+            "instruction": "Trouvez le createur dont vous souhaitez resilier l'abonnement."
+          },
+          {
+            "instruction": "Cliquez sur Modifier → Resilier l'abonnement."
+          },
+          {
+            "instruction": "Repetez l'operation pour chaque createur."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ouvrez l'app Patreon → Abonnements → selectionnez le createur → Resilier."
+          },
+          {
+            "instruction": "Repetez pour chaque createur."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ouvrez l'app Patreon → Abonnements → selectionnez le createur → Resilier."
+          },
+          {
+            "instruction": "Repetez pour chaque createur."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Puis-je resilier tous mes abonnements en meme temps ?",
+        "answer": "Non. Patreon ne propose pas de resiliation groupee. Chaque abonnement doit etre resilie separement."
+      },
+      {
+        "question": "Comment demander un remboursement ?",
+        "answer": "Contactez directement le createur dans les 5 jours suivant le prelevement pour demander un remboursement."
+      }
+    ]
+  },
+  "substack": {
+    "description": "Resiliez vos newsletters payantes Substack une par une sur le web ou dans l'application.",
+    "difficulty": "Facile",
+    "difficultyReason": "Il n'y a pas de resiliation groupee ; chaque newsletter doit etre resiliee separement.",
+    "refundPolicy": "Pas de resiliation groupee. Les remboursements pour les plans annuels sont a la discretion de l'auteur.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Rendez-vous sur substack.com/account/payments et connectez-vous."
+          },
+          {
+            "instruction": "Trouvez l'abonnement a resilier et cliquez sur Gerer."
+          },
+          {
+            "instruction": "Cliquez sur Resilier et confirmez."
+          },
+          {
+            "instruction": "Repetez l'operation pour chaque newsletter."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Utilisez l'app Substack ou allez dans Reglages iPhone → Identifiant Apple → Abonnements pour resilier depuis la."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Utilisez l'app Substack ou le navigateur ; vous pouvez aussi resilier depuis Google Play → Abonnements."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Puis-je resilier tous mes abonnements Substack en meme temps ?",
+        "answer": "Non. Chaque newsletter doit etre resiliee separement."
+      },
+      {
+        "question": "Ai-je droit a un remboursement pour un plan annuel ?",
+        "answer": "Les remboursements pour les plans annuels sont a la discretion de l'auteur. Contactez-le directement."
+      }
+    ]
+  },
+  "pandora": {
+    "description": "Resiliez Pandora Plus ou Premium en moins de 5 minutes sur le web ou via la boutique d'applications.",
+    "difficulty": "Facile",
+    "difficultyReason": "La resiliation sur le web est simple ; les abonnes via leur operateur doivent le contacter directement.",
+    "refundPolicy": "Apres la resiliation, le compte repasse au service gratuit avec publicites. L'historique est conserve. Les abonnements operateur doivent etre resilies aupres de l'operateur.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Rendez-vous sur pandora.com/account/subscription et connectez-vous."
+          },
+          {
+            "instruction": "Cliquez sur Resilier l'abonnement et suivez les instructions."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Si vous avez souscrit via l'App Store : Reglages iPhone → Identifiant Apple → Abonnements → Pandora → Resilier."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Resiliez depuis le navigateur ou Google Play → Abonnements → Pandora → Resilier l'abonnement."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Que se passe-t-il avec mon historique apres la resiliation ?",
+        "answer": "Votre historique et vos stations sont conserves. Vous repassez au service gratuit Pandora avec publicites."
+      },
+      {
+        "question": "Je paie Pandora via mon operateur.",
+        "answer": "Contactez directement votre operateur pour resilier l'abonnement."
+      }
+    ]
+  },
+  "duolingo-plus": {
+    "description": "Resiliez Duolingo Plus ou Super Duolingo en moins de 3 minutes sur le web ou depuis les parametres de votre appareil.",
+    "difficulty": "Facile",
+    "difficultyReason": "La resiliation est simple. La progression et le compteur de series sont conserves dans le plan gratuit.",
+    "refundPolicy": "La progression et le compteur de series sont conserves apres la resiliation. Duolingo Plus et Super Duolingo sont le meme produit.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Rendez-vous sur duolingo.com/settings/super et connectez-vous."
+          },
+          {
+            "instruction": "Cliquez sur Resilier l'abonnement et confirmez."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Allez dans Reglages iPhone → Identifiant Apple → Abonnements → Duolingo → Resilier."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ouvrez Google Play → Abonnements → Duolingo → Resilier l'abonnement."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ma progression et mon compteur de series sont-ils conserves apres la resiliation ?",
+        "answer": "Oui. Toute votre progression et votre compteur sont preserves dans le plan gratuit."
+      },
+      {
+        "question": "Quelle est la difference entre Duolingo Plus et Super Duolingo ?",
+        "answer": "Il s'agit du meme produit sous deux noms differents. Les deux offrent un apprentissage sans publicites et d'autres avantages."
+      }
+    ]
+  },
+  "google-one": {
+    "description": "Passez de Google One au plan gratuit de 15 Go en moins de 5 minutes.",
+    "difficulty": "Facile",
+    "difficultyReason": "Le changement est simple, mais les donnees au-dela de la limite de 15 Go ne seront plus synchronisees et Google Photos sera affecte.",
+    "refundPolicy": "Les donnees depassant 15 Go ne seront plus synchronisees apres le changement. La sauvegarde Google Photos sera affectee si la limite est depassee.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Rendez-vous sur one.google.com et connectez-vous."
+          },
+          {
+            "instruction": "Cliquez sur Gerer le stockage → Passer au plan gratuit."
+          },
+          {
+            "instruction": "Confirmez le passage a 15 Go."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ouvrez l'app Google One → Gerer l'abonnement, ou allez dans Reglages iPhone → Identifiant Apple → Abonnements → Google One → Resilier."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ouvrez l'app Google One → Parametres → Gerer l'abonnement → Passer au plan gratuit."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Que se passe-t-il avec mes donnees si je depasse 15 Go ?",
+        "answer": "Les donnees depassant 15 Go ne seront plus synchronisees. Google Photos n'effectuera plus de nouvelles sauvegardes. Les fichiers existants ne sont pas supprimes."
+      },
+      {
+        "question": "Le changement affecte-t-il Google Photos ?",
+        "answer": "Oui. Si vous avez plus de 15 Go utilises, les nouvelles photos ne seront plus sauvegardees jusqu'a ce que vous liberiez de l'espace."
+      }
+    ]
+  },
+  "siriusxm": {
+    "description": "Resiliez SiriusXM par telephone ou sur le web. Prevoyez un appel de 15 a 30 minutes avec des tentatives de retention agressives.",
+    "difficulty": "Difficile",
+    "difficultyReason": "SiriusXM est connu pour ses tactiques de retention tres agressives. Un appel est presque toujours necessaire, et les agents proposent des remises a plusieurs reprises.",
+    "refundPolicy": "Remboursement au prorata pour les plans annuels prepaves. Les tarifs promotionnels passent au plein tarif apres la premiere annee.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Rendez-vous sur siriusxm.com et connectez-vous."
+          },
+          {
+            "instruction": "Cherchez l'option de resiliation dans les parametres du compte ou appelez le 1-888-539-7474."
+          },
+          {
+            "instruction": "Dites 'Resilier' dans le menu automatique pour acceder directement a un agent."
+          },
+          {
+            "instruction": "Insistez sur la resiliation meme si des remises sont proposees. Demandez une confirmation par e-mail."
+          }
+        ]
+      },
+      "phone": {
+        "steps": [
+          {
+            "instruction": "Appelez le 1-888-539-7474."
+          },
+          {
+            "instruction": "Dites 'Resilier' dans le menu automatique pour reduire le temps d'attente."
+          },
+          {
+            "instruction": "Insistez sur la resiliation ; les agents proposeront plusieurs remises."
+          },
+          {
+            "instruction": "Notez la confirmation par e-mail ou le numero de reference."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Est-il obligatoire d'appeler pour resilier ?",
+        "answer": "Dans la plupart des cas, oui. La resiliation en ligne est souvent indisponible ou tres difficile a trouver. Appeler est la methode la plus fiable."
+      },
+      {
+        "question": "Mon tarif a beaucoup augmente apres la premiere annee.",
+        "answer": "Les tarifs promotionnels de SiriusXM ne sont valables que pour la premiere annee. Vous pouvez negocier un tarif reduit lors de l'appel."
+      }
+    ]
+  },
+  "tidal": {
+    "description": "Resiliez Tidal HiFi en moins de 5 minutes sur le web ou depuis les parametres de votre appareil.",
+    "difficulty": "Facile",
+    "difficultyReason": "La resiliation est simple. Les listes de lecture sont conservees dans le plan gratuit ; les telechargements sont supprimes.",
+    "refundPolicy": "Les listes de lecture sont conservees dans le plan gratuit. Les telechargements sont supprimes apres la resiliation. Les forfaits operateur doivent etre resilies aupres de l'operateur.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Rendez-vous sur tidal.com et connectez-vous."
+          },
+          {
+            "instruction": "Cliquez sur votre icone de profil → Compte → Abonnement."
+          },
+          {
+            "instruction": "Cliquez sur Resilier l'abonnement et confirmez."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Allez dans Reglages iPhone → Identifiant Apple → Abonnements → Tidal → Resilier."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ouvrez Google Play → Abonnements → Tidal → Resilier l'abonnement."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Mes listes de lecture sont-elles conservees apres la resiliation ?",
+        "answer": "Oui, les listes de lecture sont conservees dans le plan gratuit Tidal. Les fichiers telecharges sont cependant supprimes."
+      },
+      {
+        "question": "J'ai Tidal via mon operateur.",
+        "answer": "Resiliez le forfait directement aupres de votre operateur, pas via Tidal."
+      }
+    ]
+  },
+  "onlyfans": {
+    "description": "Desactivez le renouvellement automatique des abonnements OnlyFans un par un dans l'application ou sur le web.",
+    "difficulty": "Facile",
+    "difficultyReason": "Il n'y a pas de resiliation groupee. Le renouvellement automatique doit etre desactive pour chaque createur separement.",
+    "refundPolicy": "L'acces se poursuit jusqu'a la fin de la periode payee. Pas de resiliation groupee possible.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Rendez-vous sur onlyfans.com/my/subscriptions/active et connectez-vous."
+          },
+          {
+            "instruction": "Trouvez le createur et desactivez le Renouvellement automatique."
+          },
+          {
+            "instruction": "Repetez l'operation pour chaque createur."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ouvrez l'app OnlyFans → Abonnements → desactivez le Renouvellement automatique pour chaque createur."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ouvrez l'app OnlyFans → Abonnements → desactivez le Renouvellement automatique pour chaque createur."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Puis-je resilier tous mes abonnements OnlyFans en meme temps ?",
+        "answer": "Non. Le renouvellement automatique doit etre desactive pour chaque createur separement."
+      },
+      {
+        "question": "Perds-je immediatement l'acces apres la resiliation ?",
+        "answer": "Non. L'acces se poursuit jusqu'a la fin de la periode payee en cours."
+      }
+    ]
+  },
+  "thrive-market": {
+    "description": "Resiliez votre adhesion Thrive Market sur le web ou par chat en direct en moins de 5 minutes.",
+    "difficulty": "Moyen",
+    "difficultyReason": "Il n'y a pas de bouton de resiliation direct sur le site ; le chat en direct ou le support est souvent necessaire.",
+    "refundPolicy": "Garantie de remboursement de 30 jours pour les plans annuels. Si le bouton de resiliation n'est pas visible, utilisez le chat en direct.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Rendez-vous sur thrivemarket.com/account/membership et connectez-vous."
+          },
+          {
+            "instruction": "Cliquez sur Resilier l'adhesion si disponible. Sinon, lancez le chat en direct."
+          },
+          {
+            "instruction": "Dans le chat, indiquez que vous souhaitez resilier et attendez la confirmation."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Utilisez le navigateur pour acceder a thrivemarket.com/account/membership, ou allez dans Reglages iPhone → Identifiant Apple → Abonnements si vous avez souscrit la."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Utilisez le navigateur pour acceder a thrivemarket.com/account/membership, ou Google Play → Abonnements si vous avez souscrit la."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Je ne vois pas le bouton de resiliation sur le site.",
+        "answer": "Utilisez le chat en direct sur thrivemarket.com. L'equipe support vous aidera a resilier."
+      },
+      {
+        "question": "Serai-je rembourse pour mon plan annuel ?",
+        "answer": "Oui, si vous resiliez dans les 30 jours suivant l'achat. Apres ce delai, aucun remboursement n'est possible."
+      }
+    ]
+  }
+
 }

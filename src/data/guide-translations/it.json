@@ -2962,4 +2962,470 @@
       }
     ]
   }
+,
+  "ancestry": {
+    "description": "Disdici il tuo abbonamento ad Ancestry (albero genealogico) in meno di 5 minuti sul web o dalle impostazioni del dispositivo.",
+    "difficulty": "Medio",
+    "difficultyReason": "La disdetta e possibile online, ma i dati dell'albero familiare restano in sola lettura e i piani annuali non vengono rimborsati in modo proporzionale.",
+    "refundPolicy": "Nessun rimborso proporzionale per i piani annuali. I dati dell'albero genealogico vengono conservati dopo la disdetta.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su ancestry.com e accedi."
+          },
+          {
+            "instruction": "Clicca sull'icona del tuo profilo → Impostazioni account."
+          },
+          {
+            "instruction": "Vai su ancestry.com/account/subscription e clicca su Annulla abbonamento."
+          },
+          {
+            "instruction": "Segui i passaggi e conferma la disdetta."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Apri Impostazioni iPhone → ID Apple → Abbonamenti → Ancestry → Annulla."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Apri Google Play → Abbonamenti → Ancestry → Annulla abbonamento."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "I dati del mio albero genealogico vengono conservati dopo la disdetta?",
+        "answer": "Si. I dati del tuo albero familiare vengono conservati, ma perdi l'accesso ai record degli archivi."
+      },
+      {
+        "question": "Posso ottenere un rimborso proporzionale per un piano annuale?",
+        "answer": "No. Ancestry non effettua rimborsi proporzionali per i pagamenti annuali. L'accesso continua fino alla fine del periodo pagato."
+      }
+    ]
+  },
+  "patreon": {
+    "description": "Disdici le iscrizioni Patreon ai singoli creator in meno di 2 minuti sul web o nell'app.",
+    "difficulty": "Facile",
+    "difficultyReason": "Ogni iscrizione deve essere disdetta separatamente, ma la procedura e semplice.",
+    "refundPolicy": "Rimborso possibile se richiesto al creator entro 5 giorni dal pagamento. Ogni iscrizione viene disdetta in modo indipendente.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su patreon.com/settings/memberships e accedi."
+          },
+          {
+            "instruction": "Trova il creator di cui vuoi disdire l'iscrizione."
+          },
+          {
+            "instruction": "Clicca su Modifica → Annulla iscrizione."
+          },
+          {
+            "instruction": "Ripeti per ogni creator."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Apri l'app Patreon → Iscrizioni → seleziona il creator → Annulla."
+          },
+          {
+            "instruction": "Ripeti per ogni creator."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Apri l'app Patreon → Iscrizioni → seleziona il creator → Annulla."
+          },
+          {
+            "instruction": "Ripeti per ogni creator."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Posso disdire tutte le iscrizioni in una volta sola?",
+        "answer": "No. Patreon non offre la disdetta di massa. Ogni iscrizione deve essere annullata singolarmente."
+      },
+      {
+        "question": "Come posso richiedere un rimborso?",
+        "answer": "Contatta direttamente il creator entro 5 giorni dall'addebito per richiedere il rimborso."
+      }
+    ]
+  },
+  "substack": {
+    "description": "Disdici le newsletter a pagamento di Substack una alla volta sul web o nell'app.",
+    "difficulty": "Facile",
+    "difficultyReason": "Non esiste la disdetta di massa; ogni newsletter deve essere disdetta separatamente.",
+    "refundPolicy": "Nessuna disdetta di massa. I rimborsi per i piani annuali sono a discrezione dell'autore.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su substack.com/account/payments e accedi."
+          },
+          {
+            "instruction": "Trova l'abbonamento da disdire e clicca su Gestisci."
+          },
+          {
+            "instruction": "Clicca su Annulla e conferma."
+          },
+          {
+            "instruction": "Ripeti per ogni newsletter."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Usa l'app Substack o vai su Impostazioni iPhone → ID Apple → Abbonamenti per disdire da li."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Usa l'app Substack o il browser; in alternativa disdici da Google Play → Abbonamenti."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Posso disdire tutti gli abbonamenti Substack in una volta sola?",
+        "answer": "No. Ogni newsletter deve essere disdetta separatamente."
+      },
+      {
+        "question": "Ho diritto a un rimborso per un piano annuale?",
+        "answer": "I rimborsi per i piani annuali sono a discrezione dell'autore. Contattalo direttamente."
+      }
+    ]
+  },
+  "pandora": {
+    "description": "Disdici Pandora Plus o Premium in meno di 5 minuti sul web o tramite l'app store.",
+    "difficulty": "Facile",
+    "difficultyReason": "La disdetta via web e semplice; chi si e abbonato tramite operatore deve contattarlo direttamente.",
+    "refundPolicy": "Dopo la disdetta, l'account torna al servizio gratuito con pubblicita. La cronologia viene conservata. Gli abbonamenti tramite operatore devono essere disdetti con l'operatore.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su pandora.com/account/subscription e accedi."
+          },
+          {
+            "instruction": "Clicca su Annulla abbonamento e segui le istruzioni."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Se ti sei abbonato dall'App Store: Impostazioni iPhone → ID Apple → Abbonamenti → Pandora → Annulla."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Disdici dal browser o da Google Play → Abbonamenti → Pandora → Annulla abbonamento."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Cosa succede alla mia cronologia dopo la disdetta?",
+        "answer": "La tua cronologia e le stazioni vengono conservate. Tornerai al servizio gratuito di Pandora con pubblicita."
+      },
+      {
+        "question": "Pago Pandora tramite il mio operatore.",
+        "answer": "Contatta direttamente il tuo operatore per disdire l'abbonamento."
+      }
+    ]
+  },
+  "duolingo-plus": {
+    "description": "Disdici Duolingo Plus o Super Duolingo in meno di 3 minuti sul web o dalle impostazioni del dispositivo.",
+    "difficulty": "Facile",
+    "difficultyReason": "La disdetta e semplice. I progressi di apprendimento e la serie giornaliera vengono conservati nel piano gratuito.",
+    "refundPolicy": "I progressi e la serie giornaliera vengono conservati dopo la disdetta. Duolingo Plus e Super Duolingo sono lo stesso prodotto.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su duolingo.com/settings/super e accedi."
+          },
+          {
+            "instruction": "Clicca su Annulla abbonamento e conferma."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Vai su Impostazioni iPhone → ID Apple → Abbonamenti → Duolingo → Annulla."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Apri Google Play → Abbonamenti → Duolingo → Annulla abbonamento."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "I miei progressi e la serie giornaliera vengono conservati dopo la disdetta?",
+        "answer": "Si. Tutti i progressi e la serie giornaliera vengono mantenuti nel piano gratuito."
+      },
+      {
+        "question": "Qual e la differenza tra Duolingo Plus e Super Duolingo?",
+        "answer": "E lo stesso prodotto con nomi diversi. Entrambi offrono apprendimento senza pubblicita e altri vantaggi."
+      }
+    ]
+  },
+  "google-one": {
+    "description": "Esegui il downgrade di Google One al piano gratuito da 15 GB in meno di 5 minuti.",
+    "difficulty": "Facile",
+    "difficultyReason": "Il downgrade e semplice, ma i dati oltre il limite di 15 GB non si sincronizzeranno piu e Google Foto sara influenzato.",
+    "refundPolicy": "I dati oltre 15 GB non si sincronizzeranno dopo il downgrade. Il backup di Google Foto sara influenzato se il limite viene superato.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su one.google.com e accedi."
+          },
+          {
+            "instruction": "Clicca su Gestisci spazio di archiviazione → Passa al piano gratuito."
+          },
+          {
+            "instruction": "Conferma il downgrade a 15 GB."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Apri l'app Google One → Gestisci abbonamento, o vai su Impostazioni iPhone → ID Apple → Abbonamenti → Google One → Annulla."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Apri l'app Google One → Impostazioni → Gestisci abbonamento → Passa al piano gratuito."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Cosa succede ai miei dati se supero i 15 GB?",
+        "answer": "I dati oltre 15 GB non si sincronizzeranno. Google Foto non eseguira nuovi backup. I file esistenti non vengono eliminati."
+      },
+      {
+        "question": "Il downgrade influenza Google Foto?",
+        "answer": "Si. Se hai piu di 15 GB utilizzati, le nuove foto non verranno salvate nel backup finche non liberi spazio."
+      }
+    ]
+  },
+  "siriusxm": {
+    "description": "Disdici SiriusXM per telefono o sul web. Prevedi una chiamata di 15-30 minuti con tattiche di fidelizzazione molto aggressive.",
+    "difficulty": "Difficile",
+    "difficultyReason": "SiriusXM e noto per le sue tattiche di fidelizzazione molto aggressive. Una chiamata e quasi sempre necessaria e gli operatori propongono sconti ripetutamente.",
+    "refundPolicy": "Rimborso proporzionale per i piani annuali prepagati. Le tariffe promozionali passano al prezzo pieno dopo il primo anno.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su siriusxm.com e accedi."
+          },
+          {
+            "instruction": "Cerca l'opzione di disdetta nelle impostazioni dell'account o chiama il 1-888-539-7474."
+          },
+          {
+            "instruction": "Di' 'Annulla' nel menu automatico per parlare direttamente con un operatore."
+          },
+          {
+            "instruction": "Insisti sulla disdetta anche se ti vengono offerti sconti. Chiedi conferma via e-mail."
+          }
+        ]
+      },
+      "phone": {
+        "steps": [
+          {
+            "instruction": "Chiama il 1-888-539-7474."
+          },
+          {
+            "instruction": "Di' 'Annulla' nel menu automatico per ridurre i tempi di attesa."
+          },
+          {
+            "instruction": "Insisti sulla disdetta; gli operatori proporrranno diversi sconti."
+          },
+          {
+            "instruction": "Prendi nota della conferma via e-mail o del numero di riferimento."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "E obbligatorio chiamare per disdire?",
+        "answer": "Nella maggior parte dei casi, si. La disdetta online e spesso non disponibile o molto difficile da trovare. Chiamare e il metodo piu affidabile."
+      },
+      {
+        "question": "La mia tariffa e aumentata molto dopo il primo anno.",
+        "answer": "Le tariffe promozionali di SiriusXM sono valide solo per il primo anno. Puoi negoziare una tariffa scontata durante la chiamata."
+      }
+    ]
+  },
+  "tidal": {
+    "description": "Disdici Tidal HiFi in meno di 5 minuti sul web o dalle impostazioni del dispositivo.",
+    "difficulty": "Facile",
+    "difficultyReason": "La disdetta e semplice. Le playlist vengono conservate nel piano gratuito; i download vengono rimossi.",
+    "refundPolicy": "Le playlist vengono conservate nel piano gratuito. I download vengono rimossi dopo la disdetta. I bundle operatore devono essere disdetti tramite l'operatore.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su tidal.com e accedi."
+          },
+          {
+            "instruction": "Clicca sull'icona del tuo profilo → Account → Abbonamento."
+          },
+          {
+            "instruction": "Clicca su Annulla abbonamento e conferma."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Vai su Impostazioni iPhone → ID Apple → Abbonamenti → Tidal → Annulla."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Apri Google Play → Abbonamenti → Tidal → Annulla abbonamento."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Le mie playlist vengono conservate dopo la disdetta?",
+        "answer": "Si, le playlist vengono conservate nel piano gratuito di Tidal. I file scaricati vengono pero rimossi."
+      },
+      {
+        "question": "Ho Tidal tramite il mio operatore.",
+        "answer": "Disdici il bundle direttamente con il tuo operatore, non tramite Tidal."
+      }
+    ]
+  },
+  "onlyfans": {
+    "description": "Disattiva il rinnovo automatico degli abbonamenti OnlyFans uno alla volta nell'app o sul web.",
+    "difficulty": "Facile",
+    "difficultyReason": "Non esiste la disdetta di massa. Il rinnovo automatico deve essere disattivato per ogni creator singolarmente.",
+    "refundPolicy": "L'accesso continua fino alla fine del periodo pagato. Non e possibile la disdetta di massa.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su onlyfans.com/my/subscriptions/active e accedi."
+          },
+          {
+            "instruction": "Trova il creator e disattiva il Rinnovo automatico."
+          },
+          {
+            "instruction": "Ripeti per ogni creator."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Apri l'app OnlyFans → Abbonamenti → disattiva il Rinnovo automatico per ogni creator."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Apri l'app OnlyFans → Abbonamenti → disattiva il Rinnovo automatico per ogni creator."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Posso disdire tutti gli abbonamenti OnlyFans in una volta sola?",
+        "answer": "No. Il rinnovo automatico deve essere disattivato per ogni creator singolarmente."
+      },
+      {
+        "question": "Perdo l'accesso immediatamente dopo la disdetta?",
+        "answer": "No. L'accesso continua fino alla fine del periodo pagato corrente."
+      }
+    ]
+  },
+  "thrive-market": {
+    "description": "Disdici la tua iscrizione a Thrive Market sul web o tramite chat dal vivo in meno di 5 minuti.",
+    "difficulty": "Medio",
+    "difficultyReason": "Non c'e un pulsante di disdetta diretto sul sito; spesso e necessario usare la chat dal vivo o contattare il supporto.",
+    "refundPolicy": "Garanzia di rimborso di 30 giorni per i piani annuali. Se il pulsante di disdetta non e visibile, usa la chat dal vivo.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su thrivemarket.com/account/membership e accedi."
+          },
+          {
+            "instruction": "Clicca su Annulla iscrizione se disponibile. In caso contrario, avvia la chat dal vivo."
+          },
+          {
+            "instruction": "Nella chat, comunica che desideri disdire e attendi la conferma."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Usa il browser per accedere a thrivemarket.com/account/membership, o vai su Impostazioni iPhone → ID Apple → Abbonamenti se ti sei abbonato li."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Usa il browser per accedere a thrivemarket.com/account/membership, o Google Play → Abbonamenti se ti sei abbonato li."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Non vedo il pulsante di disdetta sul sito.",
+        "answer": "Usa la chat dal vivo su thrivemarket.com. Il team di supporto ti aiutera a disdire."
+      },
+      {
+        "question": "Ricevero un rimborso per il mio piano annuale?",
+        "answer": "Si, se disdici entro 30 giorni dall'acquisto. Dopo questo periodo non sono previsti rimborsi."
+      }
+    ]
+  }
+
 }

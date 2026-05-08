@@ -3012,5 +3012,369 @@
         "answer": "Nej. WeightWatchers åtagandeplaner tillåter inte förtida avslutning."
       }
     ]
+  },
+  "ancestry": {
+    "description": "Avsluta ditt Ancestry-abonnemang via kontoinställningarna på webbplatsen. Stamträdet bevaras. Inga partiella återbetalningar på årsabonnemang.",
+    "difficulty": "Medel",
+    "difficultyReason": "Du kan avsluta via webben, men årsabonnemang ger ingen partiell återbetalning — var uppmärksam på det.",
+    "refundPolicy": "Ingen partiell återbetalning för årsabonnemang. Månadsabonnemang kan avslutas när som helst.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gå till ancestry.com och logga in."
+          },
+          {
+            "instruction": "Klicka på användarikonen uppe till höger och välj 'Medlemskap och fakturering'."
+          },
+          {
+            "instruction": "Klicka på 'Avsluta abonnemang' och följ stegen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Raderas mitt stamträd efter avslutning?",
+        "answer": "Nej. Stamträdsdata bevaras efter avslutning."
+      },
+      {
+        "question": "Får jag återbetalning om jag avslutar ett årsabonnemang i förtid?",
+        "answer": "Nej. Ancestry erbjuder ingen partiell återbetalning för årsabonnemang."
+      }
+    ]
+  },
+  "patreon": {
+    "description": "Avsluta varje skapares medlemskap på Patreon separat via inställningar/medlemskap. Ingen massavslutning. Återbetalning inom 5 dagar via skaparen.",
+    "difficulty": "Enkelt",
+    "difficultyReason": "Du måste avsluta varje skapares medlemskap separat.",
+    "refundPolicy": "Kontakta skaparen inom 5 dagar efter debitering för eventuell återbetalning. Ingen automatisk återbetalning.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gå till patreon.com och logga in."
+          },
+          {
+            "instruction": "Klicka på ikonen uppe till höger och välj 'Medlemskap'."
+          },
+          {
+            "instruction": "Klicka på 'Redigera' bredvid skaparen du vill avsluta."
+          },
+          {
+            "instruction": "Välj 'Avsluta medlemskap' och bekräfta."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kan jag avsluta alla skapare på en gång?",
+        "answer": "Nej. Du måste avsluta varje skapares medlemskap separat."
+      },
+      {
+        "question": "Kan jag få återbetalning?",
+        "answer": "Kontakta skaparen direkt inom 5 dagar efter debitering för att begära återbetalning."
+      }
+    ]
+  },
+  "substack": {
+    "description": "Avsluta betalda Substack-nyhetsbrev separat via substack.com/account/payments. Ingen massavslutning möjlig.",
+    "difficulty": "Enkelt",
+    "difficultyReason": "Varje nyhetsbrev måste avslutas separat, men processen är enkel.",
+    "refundPolicy": "Återbetalningspolicyn varierar per nyhetsbrev. Kontakta utgivaren.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gå till substack.com/account/payments."
+          },
+          {
+            "instruction": "Hitta prenumerationen du vill avsluta."
+          },
+          {
+            "instruction": "Klicka på 'Hantera' eller 'Avsluta' och följ stegen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kan jag avsluta alla Substacks på en gång?",
+        "answer": "Nej. Varje betalt nyhetsbrev måste avslutas separat."
+      },
+      {
+        "question": "Kan jag läsa arkivet efter avslutning?",
+        "answer": "Gratis innehåll förblir tillgängligt, men du förlorar åtkomst till betalda artiklar."
+      }
+    ]
+  },
+  "pandora": {
+    "description": "Avsluta Pandora Premium via webbplatsen och återgå till gratisplanen. Lyssnarhistorik bevaras. Operatörsbundna abonnemang — kontakta operatören.",
+    "difficulty": "Enkelt",
+    "difficultyReason": "Snabb onlineavslutning med övergång till gratisplan.",
+    "refundPolicy": "Vanligtvis ingen återbetalning. Operatörsbundna abonnemang följer operatörens villkor.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gå till pandora.com och logga in."
+          },
+          {
+            "instruction": "Välj 'Inställningar' → 'Abonnemang'."
+          },
+          {
+            "instruction": "Klicka på 'Avsluta abonnemang' och bekräfta."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kan jag använda Pandora efter avslutning?",
+        "answer": "Ja. Du övergår automatiskt till den kostnadsfria planen med annonser."
+      },
+      {
+        "question": "Jag registrerade mig via min operatör. Vad gör jag?",
+        "answer": "Kontakta din mobiloperatör direkt för att avsluta."
+      }
+    ]
+  },
+  "duolingo-plus": {
+    "description": "Avsluta Duolingo Plus (Super Duolingo) via webbplatsen eller enhetsinställningarna. Streak och lärandeframsteg bevaras.",
+    "difficulty": "Enkelt",
+    "difficultyReason": "Enkelt att avsluta via webbplatsen eller enheten.",
+    "refundPolicy": "Vanligtvis ingen återbetalning. iOS följer Apples policy, Android följer Googles policy.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gå till duolingo.com och logga in."
+          },
+          {
+            "instruction": "Välj 'Inställningar' → 'Super Duolingo' → 'Hantera abonnemang'."
+          },
+          {
+            "instruction": "Klicka på 'Avsluta' och följ stegen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Gå till iPhone-inställningar → Apple-ID → Prenumerationer → Duolingo → Avsluta."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Gå till Google Play → Prenumerationer → Duolingo → Avsluta."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Bevaras min streak efter avslutning?",
+        "answer": "Ja. Streak och lärandeframsteg bevaras efter avslutning."
+      },
+      {
+        "question": "Är Duolingo Plus och Super Duolingo samma sak?",
+        "answer": "Ja. Samma tjänst, bara ett nytt namn."
+      }
+    ]
+  },
+  "google-one": {
+    "description": "Nedgradera din Google One-lagringsplan till gratis 15 GB via one.google.com eller Google One-appen. Data över 15 GB synkroniseras inte längre.",
+    "difficulty": "Enkelt",
+    "difficultyReason": "Enkelt att nedgradera via webbplatsen eller appen.",
+    "refundPolicy": "Vanligtvis ingen återbetalning. Se Googles policy.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gå till one.google.com och logga in."
+          },
+          {
+            "instruction": "Välj 'Hantera plan' → 'Nedgradera'."
+          },
+          {
+            "instruction": "Välj den kostnadsfria 15 GB-planen och bekräfta."
+          }
+        ]
+      },
+      "app": {
+        "steps": [
+          {
+            "instruction": "Öppna Google One-appen → Meny → 'Hantera plan' → 'Nedgradera'."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Vad händer med data över 15 GB?",
+        "answer": "Data över 15 GB synkroniseras inte längre och nya foton säkerhetskopieras inte i Google Foto."
+      },
+      {
+        "question": "Gäller ändringen omedelbart?",
+        "answer": "Din nuvarande plan gäller till slutet av den aktuella faktureringsperioden."
+      }
+    ]
+  },
+  "siriusxm": {
+    "description": "Avsluta SiriusXM via telefon (1-888-539-7474) eller siriusxm.com. Mycket aggressiv retentionsstrategi — räkna med 15–30 minuter. Kampanjpriser höjs till fullt pris.",
+    "difficulty": "Svårt",
+    "difficultyReason": "Kundtjänst försöker aktivt behålla dig som kund. Räkna med ett samtal på 15–30 minuter. Kampanjpriser höjs kraftigt efter att kampanjen upphör.",
+    "refundPolicy": "Daglig återbetalning kan tillämpas. Kontrollera med kundtjänst.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gå till siriusxm.com och logga in."
+          },
+          {
+            "instruction": "Välj 'Mitt konto' → 'Abonnemang' → 'Avsluta'."
+          },
+          {
+            "instruction": "Följ instruktionerna på skärmen (retentionserbjudanden kan förekomma)."
+          }
+        ]
+      },
+      "phone": {
+        "steps": [
+          {
+            "instruction": "Ring 1-888-539-7474 och meddela att du vill avsluta."
+          },
+          {
+            "instruction": "Avböj retentionserbjudanden och bekräfta avslutningen."
+          },
+          {
+            "instruction": "Anteckna ditt bekräftelsenummer."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "De fortsätter komma med erbjudanden. Vad gör jag?",
+        "answer": "Fortsätt säga tydligt: 'Jag vill avsluta.' Du har rätt att tacka nej till alla erbjudanden."
+      },
+      {
+        "question": "Mitt kampanjpris har upphört.",
+        "answer": "SiriusXM höjer priset till fullt pris efter kampanjen. Avsluta eller förhandla."
+      }
+    ]
+  },
+  "tidal": {
+    "description": "Avsluta TIDAL via tidal.com eller enhetsinställningarna. Spellistor bevaras i gratisplanen. Nedladdat innehåll tas bort.",
+    "difficulty": "Enkelt",
+    "difficultyReason": "Enkelt att avsluta via webbplatsen eller enheten.",
+    "refundPolicy": "Vanligtvis ingen återbetalning. iOS följer Apples policy, Android följer Googles policy.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gå till tidal.com och logga in."
+          },
+          {
+            "instruction": "Välj 'Inställningar' → 'Abonnemang' → 'Avsluta'."
+          },
+          {
+            "instruction": "Följ stegen och bekräfta avslutningen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Gå till iPhone-inställningar → Apple-ID → Prenumerationer → TIDAL → Avsluta."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Gå till Google Play → Prenumerationer → TIDAL → Avsluta."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Bevaras mina spellistor efter avslutning?",
+        "answer": "Ja. Spellistor bevaras i gratisplanen, men nedladdat innehåll tas bort."
+      },
+      {
+        "question": "Finns det en gratisplan?",
+        "answer": "Ja. Du kan byta till den kostnadsfria planen med annonser efter avslutning."
+      }
+    ]
+  },
+  "onlyfans": {
+    "description": "Stäng av automatisk förnyelse per skapare på onlyfans.com/my/subscriptions/active. Åtkomst fortsätter till periodens slut.",
+    "difficulty": "Enkelt",
+    "difficultyReason": "Du måste inaktivera automatisk förnyelse för varje skapare separat.",
+    "refundPolicy": "Vanligtvis ingen återbetalning. Åtkomst bevaras till slutet av abonnemangsperioden.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gå till onlyfans.com/my/subscriptions/active."
+          },
+          {
+            "instruction": "Hitta skaparen du vill avsluta."
+          },
+          {
+            "instruction": "Stäng av 'Automatisk förnyelse'."
+          },
+          {
+            "instruction": "Åtkomst fortsätter till slutet av den aktuella perioden."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Förlorar jag åtkomst direkt när jag stänger av automatisk förnyelse?",
+        "answer": "Nej. Åtkomst bevaras till slutet av den aktuella abonnemangsperioden."
+      },
+      {
+        "question": "Kan jag avsluta alla skapare på en gång?",
+        "answer": "Nej. Varje abonnemang måste hanteras separat."
+      }
+    ]
+  },
+  "thrive-market": {
+    "description": "Avsluta Thrive Market-medlemskapet via thrivemarket.com/account/membership eller livechatt. Årsmedlemskap återbetalas fullt ut inom 30 dagar.",
+    "difficulty": "Medel",
+    "difficultyReason": "Du kan avsluta online men livechatt kan krävas. Observera återbetalningspolicyn för årsplaner.",
+    "refundPolicy": "Årsmedlemskap återbetalas fullt ut inom 30 dagar. Ingen återbetalning för månadsplaner.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gå till thrivemarket.com/account/membership och logga in."
+          },
+          {
+            "instruction": "Välj 'Avsluta medlemskap'."
+          },
+          {
+            "instruction": "Följ stegen och bekräfta. Livechatt kan krävas."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kan jag få återbetalning för årsmedlemskapet?",
+        "answer": "Ja. Inom 30 dagar efter köp kan du begära full återbetalning."
+      },
+      {
+        "question": "Kan jag använda tjänsten efter avslutning?",
+        "answer": "Ja, till slutet av din nuvarande faktureringsperiod."
+      }
+    ]
   }
 }

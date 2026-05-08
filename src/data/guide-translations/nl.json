@@ -3151,5 +3151,369 @@
         "answer": "Nee. WeightWatchers-verbintenisabonnementen staan geen vroegtijdige annulering toe."
       }
     ]
+  },
+  "ancestry": {
+    "description": "Annuleer je Ancestry-abonnement via de accountinstellingen op de website. Je stamboom blijft bewaard. Geen gedeeltelijke terugbetaling bij jaarabonnementen.",
+    "difficulty": "Gemiddeld",
+    "difficultyReason": "Je kunt online annuleren, maar jaarabonnementen geven geen gedeeltelijke terugbetaling — let hier goed op.",
+    "refundPolicy": "Geen gedeeltelijke terugbetaling bij jaarabonnementen. Maandabonnementen kunnen op elk moment worden opgezegd.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar ancestry.com en log in."
+          },
+          {
+            "instruction": "Klik op het gebruikerspictogram rechtsboven en kies 'Lidmaatschap en facturering'."
+          },
+          {
+            "instruction": "Klik op 'Abonnement opzeggen' en volg de stappen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Wordt mijn stamboom verwijderd na annulering?",
+        "answer": "Nee. Je stamboomgegevens blijven bewaard na annulering."
+      },
+      {
+        "question": "Krijg ik een terugbetaling als ik een jaarabonnement halverwege opzeg?",
+        "answer": "Nee. Ancestry biedt geen gedeeltelijke terugbetaling voor jaarabonnementen."
+      }
+    ]
+  },
+  "patreon": {
+    "description": "Annuleer elk Patreon-creatorslidmaatschap afzonderlijk via instellingen/lidmaatschappen. Geen bulkannulering. Terugbetaling binnen 5 dagen via de creator.",
+    "difficulty": "Gemakkelijk",
+    "difficultyReason": "Je moet elk creatorslidmaatschap afzonderlijk annuleren.",
+    "refundPolicy": "Neem binnen 5 dagen na facturering contact op met de creator voor een eventuele terugbetaling. Geen automatische terugbetaling.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar patreon.com en log in."
+          },
+          {
+            "instruction": "Klik op het pictogram rechtsboven en kies 'Lidmaatschappen'."
+          },
+          {
+            "instruction": "Klik op 'Bewerken' naast de creator die je wilt opzeggen."
+          },
+          {
+            "instruction": "Kies 'Lidmaatschap opzeggen' en bevestig."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kan ik alle creators tegelijk opzeggen?",
+        "answer": "Nee. Je moet elk creatorslidmaatschap afzonderlijk annuleren."
+      },
+      {
+        "question": "Kan ik een terugbetaling krijgen?",
+        "answer": "Neem binnen 5 dagen na facturering rechtstreeks contact op met de creator om een terugbetaling aan te vragen."
+      }
+    ]
+  },
+  "substack": {
+    "description": "Annuleer betaalde Substack-nieuwsbrieven afzonderlijk via substack.com/account/payments. Geen bulkannulering mogelijk.",
+    "difficulty": "Gemakkelijk",
+    "difficultyReason": "Elke nieuwsbrief moet afzonderlijk worden opgezegd, maar het proces is eenvoudig.",
+    "refundPolicy": "Het terugbetalingsbeleid verschilt per nieuwsbrief. Neem contact op met de uitgever.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar substack.com/account/payments."
+          },
+          {
+            "instruction": "Zoek het abonnement dat je wilt opzeggen."
+          },
+          {
+            "instruction": "Klik op 'Beheren' of 'Annuleren' en volg de stappen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kan ik alle Substacks tegelijk opzeggen?",
+        "answer": "Nee. Elke betaalde nieuwsbrief moet afzonderlijk worden opgezegd."
+      },
+      {
+        "question": "Kan ik het archief nog lezen na annulering?",
+        "answer": "Gratis content blijft toegankelijk, maar de toegang tot betaalde artikelen vervalt."
+      }
+    ]
+  },
+  "pandora": {
+    "description": "Annuleer Pandora Premium via de website en ga terug naar het gratis abonnement. Luistergeschiedenis blijft bewaard. Operator-bundels: neem contact op met je provider.",
+    "difficulty": "Gemakkelijk",
+    "difficultyReason": "Direct online annuleren met overstap naar het gratis abonnement.",
+    "refundPolicy": "Over het algemeen geen terugbetaling. Bij provider-bundels gelden de voorwaarden van de provider.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar pandora.com en log in."
+          },
+          {
+            "instruction": "Kies 'Instellingen' → 'Abonnement'."
+          },
+          {
+            "instruction": "Klik op 'Abonnement opzeggen' en bevestig."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kan ik Pandora nog gebruiken na annulering?",
+        "answer": "Ja. Je wordt automatisch overgeschakeld naar het gratis abonnement met advertenties."
+      },
+      {
+        "question": "Ik heb me aangemeld via mijn provider. Wat nu?",
+        "answer": "Neem rechtstreeks contact op met je mobiele provider om op te zeggen."
+      }
+    ]
+  },
+  "duolingo-plus": {
+    "description": "Zeg Duolingo Plus (Super Duolingo) op via de website of apparaatinstellingen. Je streak en voortgang blijven bewaard.",
+    "difficulty": "Gemakkelijk",
+    "difficultyReason": "Eenvoudig op te zeggen via de website of je apparaat.",
+    "refundPolicy": "Over het algemeen geen terugbetaling. iOS volgt het Apple-beleid, Android het Google-beleid.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar duolingo.com en log in."
+          },
+          {
+            "instruction": "Kies 'Instellingen' → 'Super Duolingo' → 'Abonnement beheren'."
+          },
+          {
+            "instruction": "Klik op 'Annuleren' en volg de stappen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ga naar iPhone-instellingen → Apple ID → Abonnementen → Duolingo → Annuleren."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ga naar Google Play → Abonnementen → Duolingo → Annuleren."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Blijft mijn streak behouden na annulering?",
+        "answer": "Ja. Je streak en leervoortgang blijven bewaard na annulering."
+      },
+      {
+        "question": "Zijn Duolingo Plus en Super Duolingo hetzelfde?",
+        "answer": "Ja. Dezelfde dienst, alleen hernoemd."
+      }
+    ]
+  },
+  "google-one": {
+    "description": "Downgrade je Google One-opslagabonnement naar het gratis 15 GB-plan via one.google.com of de Google One-app. Gegevens boven 15 GB worden niet meer gesynchroniseerd.",
+    "difficulty": "Gemakkelijk",
+    "difficultyReason": "Eenvoudig te downgraden via de website of app.",
+    "refundPolicy": "Over het algemeen geen terugbetaling. Raadpleeg het Google-beleid.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar one.google.com en log in."
+          },
+          {
+            "instruction": "Kies 'Plan beheren' → 'Downgraden'."
+          },
+          {
+            "instruction": "Selecteer het gratis 15 GB-plan en bevestig."
+          }
+        ]
+      },
+      "app": {
+        "steps": [
+          {
+            "instruction": "Open de Google One-app → Menu → 'Plan beheren' → 'Downgraden'."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Wat gebeurt er met gegevens boven 15 GB?",
+        "answer": "Gegevens boven 15 GB worden niet meer gesynchroniseerd en nieuwe foto's worden niet meer geback-upt in Google Foto's."
+      },
+      {
+        "question": "Is de annulering direct van kracht?",
+        "answer": "Je huidige plan blijft actief tot het einde van de huidige factureringsperiode."
+      }
+    ]
+  },
+  "siriusxm": {
+    "description": "Annuleer SiriusXM via telefoon (1-888-539-7474) of siriusxm.com. Zeer agressieve retentiegesprekken — reken op 15-30 minuten. Promotietarieven stijgen naar volle prijs.",
+    "difficulty": "Moeilijk",
+    "difficultyReason": "De klantenservice probeert je actief te overtuigen om te blijven. Reken op een telefoongesprek van 15-30 minuten. Promotietarieven springen naar de volle prijs na afloop.",
+    "refundPolicy": "Mogelijk dagelijkse terugbetaling van toepassing. Vraag dit na bij de klantenservice.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar siriusxm.com en log in."
+          },
+          {
+            "instruction": "Kies 'Mijn account' → 'Abonnement' → 'Annuleren'."
+          },
+          {
+            "instruction": "Volg de instructies op het scherm (er kunnen retentieaanbiedingen verschijnen)."
+          }
+        ]
+      },
+      "phone": {
+        "steps": [
+          {
+            "instruction": "Bel 1-888-539-7474 en geef aan dat je wilt annuleren."
+          },
+          {
+            "instruction": "Weiger de retentieaanbiedingen en bevestig de annulering."
+          },
+          {
+            "instruction": "Noteer je bevestigingsnummer."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ze blijven me aanbiedingen doen. Wat moet ik doen?",
+        "answer": "Blijf duidelijk zeggen: 'Ik wil annuleren.' Je mag alle aanbiedingen weigeren."
+      },
+      {
+        "question": "Mijn promotietarief is verlopen.",
+        "answer": "SiriusXM verhoogt de prijs naar volle tarief na afloop van de promotie. Annuleer of onderhandel."
+      }
+    ]
+  },
+  "tidal": {
+    "description": "Zeg TIDAL op via tidal.com of apparaatinstellingen. Afspeellijsten blijven bewaard in het gratis abonnement. Gedownloade inhoud wordt verwijderd.",
+    "difficulty": "Gemakkelijk",
+    "difficultyReason": "Eenvoudig op te zeggen via de website of je apparaat.",
+    "refundPolicy": "Over het algemeen geen terugbetaling. iOS volgt het Apple-beleid, Android het Google-beleid.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar tidal.com en log in."
+          },
+          {
+            "instruction": "Kies 'Instellingen' → 'Abonnement' → 'Annuleren'."
+          },
+          {
+            "instruction": "Volg de stappen en bevestig de annulering."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ga naar iPhone-instellingen → Apple ID → Abonnementen → TIDAL → Annuleren."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ga naar Google Play → Abonnementen → TIDAL → Annuleren."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Blijven mijn afspeellijsten na annulering?",
+        "answer": "Ja. Afspeellijsten blijven bewaard in het gratis abonnement, maar gedownloade inhoud wordt verwijderd."
+      },
+      {
+        "question": "Is er een gratis abonnement?",
+        "answer": "Ja. Na annulering kun je overstappen naar het gratis abonnement met advertenties."
+      }
+    ]
+  },
+  "onlyfans": {
+    "description": "Schakel automatische verlenging per creator uit via onlyfans.com/my/subscriptions/active. Toegang blijft tot het einde van de huidige periode.",
+    "difficulty": "Gemakkelijk",
+    "difficultyReason": "Je moet automatische verlenging per creator afzonderlijk uitschakelen.",
+    "refundPolicy": "Over het algemeen geen terugbetaling. Toegang blijft actief tot het einde van de abonnementsperiode.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar onlyfans.com/my/subscriptions/active."
+          },
+          {
+            "instruction": "Zoek de creator die je wilt opzeggen."
+          },
+          {
+            "instruction": "Zet 'Automatisch verlengen' uit."
+          },
+          {
+            "instruction": "Toegang blijft actief tot het einde van de huidige periode."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Verlies ik direct toegang als ik automatisch verlengen uitzet?",
+        "answer": "Nee. Toegang blijft actief tot het einde van de huidige abonnementsperiode."
+      },
+      {
+        "question": "Kan ik alle creators tegelijk opzeggen?",
+        "answer": "Nee. Elk abonnement moet afzonderlijk worden beheerd."
+      }
+    ]
+  },
+  "thrive-market": {
+    "description": "Annuleer Thrive Market-lidmaatschap via thrivemarket.com/account/membership of live chat. Jaarabonnement volledig terugbetaald binnen 30 dagen.",
+    "difficulty": "Gemiddeld",
+    "difficultyReason": "Je kunt online annuleren maar live chat kan nodig zijn. Let op het terugbetalingsbeleid voor jaarabonnementen.",
+    "refundPolicy": "Jaarabonnement volledig terugbetaald binnen 30 dagen. Geen terugbetaling voor maandabonnementen.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar thrivemarket.com/account/membership en log in."
+          },
+          {
+            "instruction": "Kies 'Lidmaatschap opzeggen'."
+          },
+          {
+            "instruction": "Volg de stappen en bevestig. Live chat kan nodig zijn."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kan ik mijn jaarabonnement terugkrijgen?",
+        "answer": "Ja. Binnen 30 dagen na aankoop kun je een volledige terugbetaling aanvragen."
+      },
+      {
+        "question": "Kan ik de service nog gebruiken na annulering?",
+        "answer": "Ja, tot het einde van je huidige factureringsperiode."
+      }
+    ]
   }
 }

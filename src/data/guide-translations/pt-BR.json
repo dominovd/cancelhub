@@ -2962,4 +2962,470 @@
       }
     ]
   }
+,
+  "ancestry": {
+    "description": "Cancele sua assinatura do Ancestry (arvore genealogica) em menos de 5 minutos pela web ou pelas configuracoes do dispositivo.",
+    "difficulty": "Medio",
+    "difficultyReason": "O cancelamento e possivel online, mas os dados da arvore familiar ficam apenas em modo de leitura e planos anuais nao sao reembolsados proporcionalmente.",
+    "refundPolicy": "Sem reembolsos proporcionais em planos anuais. Os dados da arvore genealogica sao preservados apos o cancelamento.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse ancestry.com e faca login."
+          },
+          {
+            "instruction": "Clique no seu icone de perfil → Configuracoes da conta."
+          },
+          {
+            "instruction": "Acesse ancestry.com/account/subscription e clique em Cancelar assinatura."
+          },
+          {
+            "instruction": "Siga as etapas e confirme o cancelamento."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abra Configuracoes do iPhone → Apple ID → Assinaturas → Ancestry → Cancelar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abra o Google Play → Assinaturas → Ancestry → Cancelar assinatura."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Os dados da minha arvore genealogica sao mantidos apos o cancelamento?",
+        "answer": "Sim. Os dados da sua arvore familiar sao preservados, mas voce perde o acesso aos registros de arquivo."
+      },
+      {
+        "question": "Posso obter reembolso proporcional de um plano anual?",
+        "answer": "Nao. O Ancestry nao reembolsa proporcionalmente pagamentos anuais. O acesso continua ate o fim do periodo pago."
+      }
+    ]
+  },
+  "patreon": {
+    "description": "Cancele assinaturas do Patreon com criadores individuais em menos de 2 minutos pela web ou pelo app.",
+    "difficulty": "Facil",
+    "difficultyReason": "Cada assinatura precisa ser cancelada separadamente, mas o processo em si e simples.",
+    "refundPolicy": "Reembolso possivel se solicitado ao criador nos 5 dias apos o pagamento. Cada assinatura e cancelada de forma independente.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse patreon.com/settings/memberships e faca login."
+          },
+          {
+            "instruction": "Encontre o criador cuja assinatura deseja cancelar."
+          },
+          {
+            "instruction": "Clique em Editar → Cancelar assinatura."
+          },
+          {
+            "instruction": "Repita o processo para cada criador."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abra o app do Patreon → Assinaturas → selecione o criador → Cancelar."
+          },
+          {
+            "instruction": "Repita para cada criador."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abra o app do Patreon → Assinaturas → selecione o criador → Cancelar."
+          },
+          {
+            "instruction": "Repita para cada criador."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Posso cancelar todas as assinaturas de uma vez?",
+        "answer": "Nao. O Patreon nao oferece cancelamento em massa. Cada assinatura precisa ser cancelada individualmente."
+      },
+      {
+        "question": "Como solicitar reembolso?",
+        "answer": "Entre em contato diretamente com o criador nos 5 dias apos a cobranca para solicitar o reembolso."
+      }
+    ]
+  },
+  "substack": {
+    "description": "Cancele assinaturas pagas de newsletters do Substack uma a uma pela web ou pelo app.",
+    "difficulty": "Facil",
+    "difficultyReason": "Nao ha cancelamento em massa; cada newsletter precisa ser cancelada separadamente.",
+    "refundPolicy": "Sem cancelamento em massa. Reembolsos de planos anuais ficam a criterio do autor.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse substack.com/account/payments e faca login."
+          },
+          {
+            "instruction": "Encontre a assinatura que deseja cancelar e clique em Gerenciar."
+          },
+          {
+            "instruction": "Clique em Cancelar e confirme."
+          },
+          {
+            "instruction": "Repita o processo para cada newsletter."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Use o app do Substack ou va em Configuracoes do iPhone → Apple ID → Assinaturas para cancelar por la."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Use o app do Substack ou o navegador; ou cancele pelo Google Play → Assinaturas."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Posso cancelar todas as assinaturas do Substack de uma vez?",
+        "answer": "Nao. Cada newsletter precisa ser cancelada individualmente."
+      },
+      {
+        "question": "Tenho direito a reembolso em um plano anual?",
+        "answer": "Reembolsos de planos anuais ficam a criterio do autor. Entre em contato diretamente com ele."
+      }
+    ]
+  },
+  "pandora": {
+    "description": "Cancele o Pandora Plus ou Premium em menos de 5 minutos pela web ou pela loja de aplicativos.",
+    "difficulty": "Facil",
+    "difficultyReason": "O cancelamento pela web e simples; assinantes via operadora precisam entrar em contato com ela diretamente.",
+    "refundPolicy": "Apos o cancelamento, a conta volta ao servico gratuito com anuncios. O historico e preservado. Assinaturas pela operadora precisam ser canceladas com ela.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse pandora.com/account/subscription e faca login."
+          },
+          {
+            "instruction": "Clique em Cancelar assinatura e siga as instrucoes."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Se assinou pela App Store: Configuracoes do iPhone → Apple ID → Assinaturas → Pandora → Cancelar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Cancele pelo navegador ou Google Play → Assinaturas → Pandora → Cancelar assinatura."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "O que acontece com meu historico apos o cancelamento?",
+        "answer": "Seu historico e estacoes sao preservados. Voce voltara ao servico gratuito do Pandora com anuncios."
+      },
+      {
+        "question": "Pago o Pandora pela minha operadora.",
+        "answer": "Entre em contato diretamente com sua operadora para cancelar a assinatura."
+      }
+    ]
+  },
+  "duolingo-plus": {
+    "description": "Cancele o Duolingo Plus ou Super Duolingo em menos de 3 minutos pela web ou nas configuracoes do dispositivo.",
+    "difficulty": "Facil",
+    "difficultyReason": "O cancelamento e simples. O progresso de aprendizado e a sequencia sao preservados no plano gratuito.",
+    "refundPolicy": "O progresso de aprendizado e a sequencia sao preservados apos o cancelamento. Duolingo Plus e Super Duolingo sao o mesmo produto.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse duolingo.com/settings/super e faca login."
+          },
+          {
+            "instruction": "Clique em Cancelar assinatura e confirme."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Va em Configuracoes do iPhone → Apple ID → Assinaturas → Duolingo → Cancelar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abra o Google Play → Assinaturas → Duolingo → Cancelar assinatura."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Meu progresso e sequencia sao mantidos apos o cancelamento?",
+        "answer": "Sim. Todo o seu progresso e sequencia sao preservados no plano gratuito."
+      },
+      {
+        "question": "Qual a diferenca entre Duolingo Plus e Super Duolingo?",
+        "answer": "Sao o mesmo produto com nomes diferentes. Ambos oferecem aprendizado sem anuncios e outros beneficios."
+      }
+    ]
+  },
+  "google-one": {
+    "description": "Faca downgrade do Google One para o plano gratuito de 15 GB em menos de 5 minutos.",
+    "difficulty": "Facil",
+    "difficultyReason": "O downgrade e simples, mas dados acima de 15 GB deixarao de sincronizar e o Google Fotos sera afetado.",
+    "refundPolicy": "Dados acima de 15 GB nao sincronizarao apos o downgrade. O backup do Google Fotos sera afetado se o limite for ultrapassado.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse one.google.com e faca login."
+          },
+          {
+            "instruction": "Clique em Gerenciar armazenamento → Mudar para o plano gratuito."
+          },
+          {
+            "instruction": "Confirme o downgrade para 15 GB."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abra o app Google One → Gerenciar assinatura, ou va em Configuracoes do iPhone → Apple ID → Assinaturas → Google One → Cancelar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abra o app Google One → Configuracoes → Gerenciar assinatura → Mudar para o plano gratuito."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "O que acontece com meus dados se eu tiver mais de 15 GB?",
+        "answer": "Dados acima de 15 GB nao sincronizarao. O Google Fotos nao fara novos backups. Os arquivos existentes nao sao excluidos."
+      },
+      {
+        "question": "O downgrade afeta o Google Fotos?",
+        "answer": "Sim. Se voce tiver mais de 15 GB em uso, novas fotos nao serao salvas em backup ate que voce libere espaco."
+      }
+    ]
+  },
+  "siriusxm": {
+    "description": "Cancele o SiriusXM por telefone ou pela web. Espere uma ligacao de 15 a 30 minutos com taticas de retencao muito agressivas.",
+    "difficulty": "Dificil",
+    "difficultyReason": "O SiriusXM e conhecido por suas taticas de retencao muito agressivas. Uma ligacao e quase sempre necessaria e os atendentes oferecem descontos repetidamente.",
+    "refundPolicy": "Reembolso proporcional em planos anuais pre-pagos. As tarifas promocionais sobem para o preco cheio apos o primeiro ano.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse siriusxm.com e faca login."
+          },
+          {
+            "instruction": "Procure a opcao de cancelamento nas configuracoes da conta ou ligue para 1-888-539-7474."
+          },
+          {
+            "instruction": "Diga 'Cancelar' no menu automatico para falar diretamente com um atendente."
+          },
+          {
+            "instruction": "Insista no cancelamento mesmo que sejam oferecidos descontos. Peca confirmacao por e-mail."
+          }
+        ]
+      },
+      "phone": {
+        "steps": [
+          {
+            "instruction": "Ligue para 1-888-539-7474."
+          },
+          {
+            "instruction": "Diga 'Cancelar' no menu automatico para reduzir o tempo de espera."
+          },
+          {
+            "instruction": "Insista no cancelamento; os atendentes oferecao varios descontos."
+          },
+          {
+            "instruction": "Guarde a confirmacao por e-mail ou o numero de referencia."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "E obrigatorio ligar para cancelar?",
+        "answer": "Na maioria dos casos, sim. O cancelamento online muitas vezes nao esta disponivel ou e muito dificil de encontrar. Ligar e o metodo mais confiavel."
+      },
+      {
+        "question": "Minha tarifa aumentou muito apos o primeiro ano.",
+        "answer": "As tarifas promocionais do SiriusXM sao validas apenas no primeiro ano. Voce pode negociar uma tarifa com desconto durante a ligacao."
+      }
+    ]
+  },
+  "tidal": {
+    "description": "Cancele o Tidal HiFi em menos de 5 minutos pela web ou nas configuracoes do dispositivo.",
+    "difficulty": "Facil",
+    "difficultyReason": "O cancelamento e simples. As playlists sao mantidas no plano gratuito; os downloads sao removidos.",
+    "refundPolicy": "As playlists sao mantidas no plano gratuito. Os downloads sao removidos apos o cancelamento. Pacotes de operadora devem ser cancelados com a operadora.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse tidal.com e faca login."
+          },
+          {
+            "instruction": "Clique no seu icone de perfil → Conta → Assinatura."
+          },
+          {
+            "instruction": "Clique em Cancelar assinatura e confirme."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Va em Configuracoes do iPhone → Apple ID → Assinaturas → Tidal → Cancelar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abra o Google Play → Assinaturas → Tidal → Cancelar assinatura."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Minhas playlists sao mantidas apos o cancelamento?",
+        "answer": "Sim, as playlists sao mantidas no plano gratuito do Tidal. No entanto, os arquivos baixados sao removidos."
+      },
+      {
+        "question": "Tenho o Tidal pela minha operadora.",
+        "answer": "Cancele o pacote diretamente com sua operadora, nao pelo Tidal."
+      }
+    ]
+  },
+  "onlyfans": {
+    "description": "Desative a renovacao automatica das assinaturas do OnlyFans uma a uma no app ou na web.",
+    "difficulty": "Facil",
+    "difficultyReason": "Nao ha cancelamento em massa. A renovacao automatica deve ser desativada para cada criador individualmente.",
+    "refundPolicy": "O acesso continua ate o fim do periodo pago. Nao e possivel o cancelamento em massa.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse onlyfans.com/my/subscriptions/active e faca login."
+          },
+          {
+            "instruction": "Encontre o criador e desative a Renovacao automatica."
+          },
+          {
+            "instruction": "Repita o processo para cada criador."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abra o app do OnlyFans → Assinaturas → desative a Renovacao automatica para cada criador."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abra o app do OnlyFans → Assinaturas → desative a Renovacao automatica para cada criador."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Posso cancelar todas as assinaturas do OnlyFans de uma vez?",
+        "answer": "Nao. A renovacao automatica deve ser desativada para cada criador individualmente."
+      },
+      {
+        "question": "Perco o acesso imediatamente ao cancelar?",
+        "answer": "Nao. O acesso continua ate o fim do periodo pago atual."
+      }
+    ]
+  },
+  "thrive-market": {
+    "description": "Cancele sua assinatura do Thrive Market pela web ou pelo chat ao vivo em menos de 5 minutos.",
+    "difficulty": "Medio",
+    "difficultyReason": "Nao ha um botao de cancelamento direto no site; geralmente e necessario usar o chat ao vivo ou contatar o suporte.",
+    "refundPolicy": "Garantia de reembolso de 30 dias para planos anuais. Se nao houver botao de cancelamento visivel, use o chat ao vivo.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse thrivemarket.com/account/membership e faca login."
+          },
+          {
+            "instruction": "Clique em Cancelar assinatura se disponivel. Caso contrario, inicie o chat ao vivo."
+          },
+          {
+            "instruction": "No chat, informe que deseja cancelar e aguarde a confirmacao."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Use o navegador para acessar thrivemarket.com/account/membership, ou va em Configuracoes do iPhone → Apple ID → Assinaturas se assinou por la."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Use o navegador para acessar thrivemarket.com/account/membership, ou Google Play → Assinaturas se assinou por la."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Nao vejo o botao de cancelar no site.",
+        "answer": "Use o chat ao vivo em thrivemarket.com. A equipe de suporte ajudara voce a cancelar."
+      },
+      {
+        "question": "Serei reembolsado pelo meu plano anual?",
+        "answer": "Sim, se cancelar nos 30 dias apos a compra. Apos esse prazo, nao ha reembolsos."
+      }
+    ]
+  }
+
 }

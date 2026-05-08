@@ -3012,5 +3012,369 @@
         "answer": "Hayir. WeightWatchers taahhut planlari erken iptale izin vermez."
       }
     ]
+  },
+  "ancestry": {
+    "description": "Ancestry aboneliginizi web sitesindeki hesap ayarlarindan iptal edin. Soy agaci korunur. Yillik planlarda kismi iade yapilmaz.",
+    "difficulty": "Orta",
+    "difficultyReason": "Web uzerinden iptal edilebilir, ancak yillik planlarda kismi iade olmadigi icin dikkatli olun.",
+    "refundPolicy": "Yillik planlarda kismi iade yapilmaz. Aylik planlar her zaman iptal edilebilir.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "ancestry.com adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "Sag ustteki kullanici simgesine tiklayin ve 'Uyelik ve Faturalama'yi secin."
+          },
+          {
+            "instruction": "'Aboneligi Iptal Et'e tiklayin ve adimlari izleyin."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Iptal sonrasi soy agacim silinecek mi?",
+        "answer": "Hayir. Soy agaci verileri iptal sonrasinda korunur."
+      },
+      {
+        "question": "Yillik planimi iptal edersem iade alabilir miyim?",
+        "answer": "Hayir. Ancestry yillik planlar icin kismi iade saglamaz."
+      }
+    ]
+  },
+  "patreon": {
+    "description": "Patreon'daki her icerik uretici uyeligini ayri ayri ayarlar/uyelikler bolumunden iptal edin. Toplu iptal yoktur. Iade icin 5 gun icinde icerik ureticisiyle iletisime gecin.",
+    "difficulty": "Kolay",
+    "difficultyReason": "Her icerik uretici uyeligini ayri ayri iptal etmek gerekir.",
+    "refundPolicy": "Faturalamanin ardindan 5 gun icinde icerik ureticisiyle iletisime gec. Otomatik iade yoktur.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "patreon.com adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "Sag ustteki simgeye tiklayin ve 'Uyelikler'i secin."
+          },
+          {
+            "instruction": "Iptal etmek istediginiz ureticinin yanindaki 'Duzenle'ye tiklayin."
+          },
+          {
+            "instruction": "'Uyeligi Iptal Et'i secin ve onaylayin."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Tum ureticileri ayni anda iptal edebilir miyim?",
+        "answer": "Hayir. Her ureticinin uyeligi ayri ayri iptal edilmelidir."
+      },
+      {
+        "question": "Iade alabilir miyim?",
+        "answer": "Faturalamanin ardindan 5 gun icinde ureticiyle dogrudan iletisime gec."
+      }
+    ]
+  },
+  "substack": {
+    "description": "Ucretli Substack boltenlerini substack.com/account/payments uzerinden tek tek iptal edin. Toplu iptal yoktur.",
+    "difficulty": "Kolay",
+    "difficultyReason": "Her bolteni ayri ayri iptal etmek gerekir, ancak surec basittir.",
+    "refundPolicy": "Iade politikasi her boltene gore degisir. Yayinciya basvurun.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "substack.com/account/payments adresine gidin."
+          },
+          {
+            "instruction": "Iptal etmek istediginiz aboneligi bulun."
+          },
+          {
+            "instruction": "'Yonet' veya 'Iptal Et'e tiklayin ve adimlari izleyin."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Tum Substack'leri ayni anda iptal edebilir miyim?",
+        "answer": "Hayir. Her ucretli bolteni ayri ayri iptal etmek gerekir."
+      },
+      {
+        "question": "Iptal sonrasi arsivi okuyabilir miyim?",
+        "answer": "Ucretsiz icerige erisim devam eder, ancak ucretli makalelere erisim kaybolur."
+      }
+    ]
+  },
+  "pandora": {
+    "description": "Pandora Premium'u web sitesinden iptal ederek ucretsiz plana geri donun. Dinleme gecmisi korunur. Operatoru uzerinden abone olanlar operatoruyle iletisime gecmeli.",
+    "difficulty": "Kolay",
+    "difficultyReason": "Ucretsiz plana gecisle hizli online iptal.",
+    "refundPolicy": "Genellikle iade yapilmaz. Operator aboneliklerinde operator politikasi gecerlidir.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "pandora.com adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "'Ayarlar' -> 'Abonelik'i secin."
+          },
+          {
+            "instruction": "'Aboneligi Iptal Et'e tiklayin ve onaylayin."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Iptal sonrasi Pandora'yi kullanabilir miyim?",
+        "answer": "Evet. Otomatik olarak reklamli ucretsiz plana gececeksiniz."
+      },
+      {
+        "question": "Operatorum araciligiyla abone oldum. Ne yapmaliyim?",
+        "answer": "Iptal icin mobil operatorunuzle dogrudan iletisime gecin."
+      }
+    ]
+  },
+  "duolingo-plus": {
+    "description": "Duolingo Plus'i (Super Duolingo) web veya cihaz ayarlari uzerinden iptal edin. Seri ve ogrenme ilerlemesi korunur.",
+    "difficulty": "Kolay",
+    "difficultyReason": "Web veya cihaz uzerinden kolayca iptal edilebilir.",
+    "refundPolicy": "Genellikle iade yapilmaz. iOS, Apple politikasini; Android, Google politikasini izler.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "duolingo.com adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "'Ayarlar' -> 'Super Duolingo' -> 'Aboneligi Yonet'i secin."
+          },
+          {
+            "instruction": "'Iptal Et'e tiklayin ve adimlari izleyin."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone Ayarlari -> Apple ID -> Abonelikler -> Duolingo -> Iptal Et yolunu izleyin."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play -> Abonelikler -> Duolingo -> Iptal Et yolunu izleyin."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Iptal sonrasi serim devam edecek mi?",
+        "answer": "Evet. Seri ve ogrenme ilerlemesi iptal sonrasinda korunur."
+      },
+      {
+        "question": "Duolingo Plus ile Super Duolingo ayni mi?",
+        "answer": "Evet. Ayni hizmet, sadece ismi degisti."
+      }
+    ]
+  },
+  "google-one": {
+    "description": "Google One depolama planini one.google.com veya Google One uygulamasi uzerinden ucretsiz 15 GB'a indirin. 15 GB uzerindeki veriler senkronize edilmez, Fotograflar etkilenir.",
+    "difficulty": "Kolay",
+    "difficultyReason": "Web sitesi veya uygulama uzerinden kolayca indirilebilir.",
+    "refundPolicy": "Genellikle iade yapilmaz. Google politikasini inceleyin.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "one.google.com adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "'Plani Yonet' -> 'Asagi Indir'i secin."
+          },
+          {
+            "instruction": "Ucretsiz 15 GB planini secin ve onaylayin."
+          }
+        ]
+      },
+      "app": {
+        "steps": [
+          {
+            "instruction": "Google One uygulamasinda Menu -> 'Plani Yonet' -> 'Asagi Indir'i secin."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "15 GB'in uzerindeki verilere ne olur?",
+        "answer": "15 GB uzerindeki veriler senkronize edilmez ve yeni fotograflar Google Fotograflar'da yedeklenmez."
+      },
+      {
+        "question": "Degisiklik hemen mi gerceklesiyor?",
+        "answer": "Mevcut planiz, gecerli faturalama donemi sonuna kadar devam eder."
+      }
+    ]
+  },
+  "siriusxm": {
+    "description": "SiriusXM'i telefon (1-888-539-7474) veya siriusxm.com uzerinden iptal edin. Cok agresif elde tutma girisimi -- 15-30 dakika surebilir. Tanitim fiyatlari tam fiyata cikar.",
+    "difficulty": "Zor",
+    "difficultyReason": "Musteri hizmetleri sizi tutmak icin cok aktif caba sarf eder. 15-30 dakikalik bir arama bekleyin. Tanitim suresi sonrasinda fiyatlar ciddi artis gosterir.",
+    "refundPolicy": "Gunluk bazda iade uygulanabilir. Musteri desteginden dogrulayin.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "siriusxm.com adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "'Hesabim' -> 'Abonelik' -> 'Iptal Et'i secin."
+          },
+          {
+            "instruction": "Ekrandaki talimatlari izleyin (elde tutma teklifleri cikabilir)."
+          }
+        ]
+      },
+      "phone": {
+        "steps": [
+          {
+            "instruction": "1-888-539-7474'u arayin ve iptal etmek istediginizi bildirin."
+          },
+          {
+            "instruction": "Elde tutma tekliflerini reddedin ve iptali onaylayin."
+          },
+          {
+            "instruction": "Onay numaranizi not etmeyi unutmayin."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Surekli teklif yapiyorlar. Ne yapmaliyim?",
+        "answer": "'Iptal etmek istiyorum' demeye devam edin. Tum teklifleri reddetme hakkiniz var."
+      },
+      {
+        "question": "Tanitim fiyatim sona erdi.",
+        "answer": "SiriusXM, tanitim bittikten sonra tam fiyata gec yapar. Iptal edin veya muzakere edin."
+      }
+    ]
+  },
+  "tidal": {
+    "description": "TIDAL'i tidal.com veya cihaz ayarlari uzerinden iptal edin. Oynatma listeleri ucretsiz planda korunur. Indirilen icerikler kaldirilir.",
+    "difficulty": "Kolay",
+    "difficultyReason": "Web veya cihaz uzerinden kolayca iptal edilebilir.",
+    "refundPolicy": "Genellikle iade yapilmaz. iOS, Apple politikasini; Android, Google politikasini izler.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "tidal.com adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "'Ayarlar' -> 'Abonelik' -> 'Iptal Et'i secin."
+          },
+          {
+            "instruction": "Adimlari izleyin ve iptali onaylayin."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone Ayarlari -> Apple ID -> Abonelikler -> TIDAL -> Iptal Et yolunu izleyin."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play -> Abonelikler -> TIDAL -> Iptal Et yolunu izleyin."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Iptal sonrasi oynatma listelerim kalacak mi?",
+        "answer": "Evet. Oynatma listeleri ucretsiz planda korunur, ancak indirilen icerikler kaldirilir."
+      },
+      {
+        "question": "Ucretsiz bir plan var mi?",
+        "answer": "Evet. Iptal sonrasi reklamli ucretsiz plana gecebilirsiniz."
+      }
+    ]
+  },
+  "onlyfans": {
+    "description": "OnlyFans'ta onlyfans.com/my/subscriptions/active adresinden her icerik ureticisi icin Otomatik Yenileme'yi ayri ayri kapatin. Gecerli donem sonuna kadar erisim devam eder.",
+    "difficulty": "Kolay",
+    "difficultyReason": "Her ureticinin otomatik yenilemesini ayri ayri devre disi birakmak gerekir.",
+    "refundPolicy": "Genellikle iade yapilmaz. Abonelik donemi sonuna kadar erisim devam eder.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "onlyfans.com/my/subscriptions/active adresine gidin."
+          },
+          {
+            "instruction": "Iptal etmek istediginiz ureticiy bulun."
+          },
+          {
+            "instruction": "'Otomatik Yenileme'yi kapatin."
+          },
+          {
+            "instruction": "Gecerli donem sonuna kadar erisim devam eder."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Otomatik Yenileme'yi kapatirsam hemen erisim kaybolur mu?",
+        "answer": "Hayir. Mevcut abonelik donemi sonuna kadar erisim devam eder."
+      },
+      {
+        "question": "Tum ureticileri ayni anda iptal edebilir miyim?",
+        "answer": "Hayir. Her abonelik ayri ayri yonetilmelidir."
+      }
+    ]
+  },
+  "thrive-market": {
+    "description": "Thrive Market uyeliginizi thrivemarket.com/account/membership veya canli sohbet uzerinden iptal edin. Yillik uyelik 30 gun icinde tam iade saglar.",
+    "difficulty": "Orta",
+    "difficultyReason": "Cevrimici iptal edilebilir ancak canli sohbet gerekebilir. Yillik planlar icin iade politikasina dikkat edin.",
+    "refundPolicy": "Yillik uyelik 30 gun icinde tam iade. Aylik planlar icin iade yapilmaz.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "thrivemarket.com/account/membership adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "'Uyeligi Iptal Et'i secin."
+          },
+          {
+            "instruction": "Adimlari izleyin ve onaylayin. Canli sohbet gerekebilir."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Yillik uyelik ucretini geri alabilir miyim?",
+        "answer": "Evet. Satin alimdan itibaren 30 gun icinde tam iade talep edebilirsiniz."
+      },
+      {
+        "question": "Iptal sonrasi hizmeti kullanabilir miyim?",
+        "answer": "Evet, mevcut faturalama doneminin sonuna kadar."
+      }
+    ]
   }
 }

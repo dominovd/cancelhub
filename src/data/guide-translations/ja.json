@@ -2961,5 +2961,369 @@
         "answer": "いいえ。WeightWatchersのコミットメントプランは早期キャンセルができません。"
       }
     ]
+  },
+  "ancestry": {
+    "description": "AncestryのウェブサイトでアカウントからAncestryサブスクリプションをキャンセル。家系図は保持されます。年間プランの部分返金なし。",
+    "difficulty": "普通",
+    "difficultyReason": "ウェブからキャンセルできますが、年間プランには部分返金がなく注意が必要です。",
+    "refundPolicy": "年間プランの部分返金なし。月額プランはいつでもキャンセル可能です。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "ancestry.comにアクセスしてログインします。"
+          },
+          {
+            "instruction": "右上のユーザーアイコンをクリックし、「会員プランとお支払い」を選択します。"
+          },
+          {
+            "instruction": "「サブスクリプションをキャンセル」をクリックし、手順に従います。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "キャンセル後、家系図は削除されますか？",
+        "answer": "いいえ。家系図のデータはキャンセル後も保持されます。"
+      },
+      {
+        "question": "年間プランの途中でキャンセルしたら返金されますか？",
+        "answer": "いいえ。Ancestryは年間プランの部分返金を行っていません。"
+      }
+    ]
+  },
+  "patreon": {
+    "description": "Patreonのクリエイターメンバーシップをそれぞれ個別にキャンセル。一括キャンセルはありません。返金は5日以内にクリエイターへ連絡。",
+    "difficulty": "簡単",
+    "difficultyReason": "各クリエイターのメンバーシップを個別にキャンセルする必要があります。",
+    "refundPolicy": "5日以内にクリエイターに連絡すると返金対応の可能性あり。自動的な返金はありません。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "patreon.comにアクセスしてログインします。"
+          },
+          {
+            "instruction": "右上のアイコンから「メンバーシップ」を選択します。"
+          },
+          {
+            "instruction": "キャンセルしたいクリエイターの隣にある「編集」をクリックします。"
+          },
+          {
+            "instruction": "「メンバーシップをキャンセル」を選択し確認します。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "一度に全クリエイターをキャンセルできますか？",
+        "answer": "いいえ。各クリエイターのメンバーシップを個別にキャンセルする必要があります。"
+      },
+      {
+        "question": "返金は受けられますか？",
+        "answer": "請求後5日以内にクリエイターに直接連絡することで返金を依頼できます。"
+      }
+    ]
+  },
+  "substack": {
+    "description": "Substackの有料ニュースレターをsubstack.com/account/paymentsから個別にキャンセル。一括キャンセルはありません。",
+    "difficulty": "簡単",
+    "difficultyReason": "各ニュースレターを個別にキャンセルする必要がありますが、手順は簡単です。",
+    "refundPolicy": "返金ポリシーはニュースレターごとに異なります。各発行者にお問い合わせください。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "substack.com/account/paymentsにアクセスします。"
+          },
+          {
+            "instruction": "キャンセルしたいサブスクリプションを見つけます。"
+          },
+          {
+            "instruction": "「管理」または「キャンセル」をクリックし、手順に従います。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "全てのSubstackを一度にキャンセルできますか？",
+        "answer": "いいえ。各有料ニュースレターを個別にキャンセルする必要があります。"
+      },
+      {
+        "question": "キャンセル後もアーカイブは読めますか？",
+        "answer": "無料コンテンツは引き続き閲覧できますが、有料記事へのアクセスは失われます。"
+      }
+    ]
+  },
+  "pandora": {
+    "description": "PandoraプレミアムをウェブからキャンセルするとPandoraの無料プランに戻ります。聴取履歴は保持されます。キャリア経由のサブスクリプションはキャリアに連絡。",
+    "difficulty": "簡単",
+    "difficultyReason": "ウェブからすぐにキャンセルでき、無料プランに移行します。",
+    "refundPolicy": "一般的に返金なし。キャリア経由の場合はキャリアのポリシーが適用されます。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "pandora.comにアクセスしてログインします。"
+          },
+          {
+            "instruction": "「設定」→「サブスクリプション」を選択します。"
+          },
+          {
+            "instruction": "「サブスクリプションをキャンセル」をクリックし、確認します。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "キャンセル後もPandoraは使えますか？",
+        "answer": "はい。無料の広告付きプランに自動的に移行されます。"
+      },
+      {
+        "question": "キャリア経由で登録しました。どうすればいいですか？",
+        "answer": "携帯キャリアに直接連絡してキャンセルしてください。"
+      }
+    ]
+  },
+  "duolingo-plus": {
+    "description": "Duolingo Plus（Super Duolingo）をウェブまたはデバイスの設定からキャンセル。ストリークと学習進捗は保持されます。",
+    "difficulty": "簡単",
+    "difficultyReason": "ウェブやデバイスから簡単にキャンセルできます。",
+    "refundPolicy": "一般的に返金なし。iOSはAppleのポリシー、AndroidはGoogleのポリシーに従います。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "duolingo.comにアクセスしてログインします。"
+          },
+          {
+            "instruction": "「設定」→「Super Duolingo」→「サブスクリプションを管理」を選択します。"
+          },
+          {
+            "instruction": "「キャンセル」をクリックし、手順に従います。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhoneの設定 → Apple ID → サブスクリプション → Duolingo → キャンセルを選択します。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play → サブスクリプション → Duolingo → キャンセルを選択します。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "キャンセル後もストリークは残りますか？",
+        "answer": "はい。ストリークと学習進捗はキャンセル後も保持されます。"
+      },
+      {
+        "question": "Duolingo PlusとSuper Duolingoは同じですか？",
+        "answer": "はい。同じサービスで名前が変更されました。"
+      }
+    ]
+  },
+  "google-one": {
+    "description": "Google Oneのストレージプランをone.google.comまたはGoogle Oneアプリからダウングレード。無料の15GBに戻ります。15GBを超えるデータは同期されなくなります。",
+    "difficulty": "簡単",
+    "difficultyReason": "ウェブやアプリから簡単にダウングレードできます。",
+    "refundPolicy": "一般的に返金なし。Googleのポリシーをご確認ください。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "one.google.comにアクセスしてログインします。"
+          },
+          {
+            "instruction": "「プランを管理」→「ダウングレード」を選択します。"
+          },
+          {
+            "instruction": "無料の15GBプランを選択し確認します。"
+          }
+        ]
+      },
+      "app": {
+        "steps": [
+          {
+            "instruction": "Google OneアプリでメニューをタップN→「プランを管理」→「ダウングレード」を選択します。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "15GBを超えるデータはどうなりますか？",
+        "answer": "15GBを超えるデータは同期されなくなり、Googleフォトの新しい写真もバックアップされません。"
+      },
+      {
+        "question": "キャンセル後すぐに効果がありますか？",
+        "answer": "現在の請求期間が終了するまでは現在のプランが継続されます。"
+      }
+    ]
+  },
+  "siriusxm": {
+    "description": "SiriusXMのキャンセルは電話（1-888-539-7474）またはsiriusxm.comから。引き止めトークが非常に積極的で15〜30分かかる場合があります。",
+    "difficulty": "難しい",
+    "difficultyReason": "カスタマーサービスが非常に積極的に引き止めを試みます。電話での15〜30分の対応を覚悟してください。プロモーション料金が終了すると定価に跳ね上がります。",
+    "refundPolicy": "日割り計算での返金が適用される場合があります。サポートに確認してください。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "siriusxm.comにアクセスしてログインします。"
+          },
+          {
+            "instruction": "「マイアカウント」→「サブスクリプション」→「キャンセル」を選択します。"
+          },
+          {
+            "instruction": "画面の指示に従います（引き止めオファーがある場合があります）。"
+          }
+        ]
+      },
+      "phone": {
+        "steps": [
+          {
+            "instruction": "1-888-539-7474に電話し、キャンセルを希望することを担当者に伝えます。"
+          },
+          {
+            "instruction": "引き止めオファーを断り、キャンセルを確認します。"
+          },
+          {
+            "instruction": "確認番号を必ず控えておきましょう。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "電話で引き止められます。どうすればいいですか？",
+        "answer": "「キャンセルしたいです」と明確に伝え続けてください。オファーを断っても問題ありません。"
+      },
+      {
+        "question": "プロモーション料金が終了しました。",
+        "answer": "SiriusXMはプロモーション終了後に定価に引き上げます。キャンセルか交渉で対処してください。"
+      }
+    ]
+  },
+  "tidal": {
+    "description": "TIDALをtidal.comまたはデバイスの設定からキャンセル。プレイリストは無料プランでも保持。ダウンロードしたコンテンツは削除されます。",
+    "difficulty": "簡単",
+    "difficultyReason": "ウェブやデバイスから簡単にキャンセルできます。",
+    "refundPolicy": "一般的に返金なし。iOSはAppleのポリシー、AndroidはGoogleのポリシーに従います。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "tidal.comにアクセスしてログインします。"
+          },
+          {
+            "instruction": "「設定」→「サブスクリプション」→「キャンセル」を選択します。"
+          },
+          {
+            "instruction": "手順に従いキャンセルを確認します。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhoneの設定 → Apple ID → サブスクリプション → TIDAL → キャンセルを選択します。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play → サブスクリプション → TIDAL → キャンセルを選択します。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "キャンセル後もプレイリストは残りますか？",
+        "answer": "はい。プレイリストは無料プランでも保持されますが、ダウンロードしたコンテンツは削除されます。"
+      },
+      {
+        "question": "無料プランはありますか？",
+        "answer": "はい。キャンセル後は無料の広告付きプランに移行できます。"
+      }
+    ]
+  },
+  "onlyfans": {
+    "description": "OnlyFansの各クリエイターのサブスクリプションを個別にオフにするには、onlyfans.com/my/subscriptions/activeで自動更新をオフにします。現在の期間が終了するまでアクセスは継続。",
+    "difficulty": "簡単",
+    "difficultyReason": "各クリエイターの自動更新を個別に無効にする必要があります。",
+    "refundPolicy": "一般的に返金なし。サブスクリプション期間終了まではアクセスが継続します。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "onlyfans.com/my/subscriptions/activeにアクセスします。"
+          },
+          {
+            "instruction": "キャンセルしたいクリエイターを見つけます。"
+          },
+          {
+            "instruction": "「自動更新」をオフに切り替えます。"
+          },
+          {
+            "instruction": "現在の期間が終了するまでアクセスは継続されます。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "自動更新をオフにしたらすぐにアクセスできなくなりますか？",
+        "answer": "いいえ。現在の購読期間が終了するまでアクセスは継続されます。"
+      },
+      {
+        "question": "全クリエイターを一括でキャンセルできますか？",
+        "answer": "いいえ。各クリエイターのサブスクリプションを個別に管理する必要があります。"
+      }
+    ]
+  },
+  "thrive-market": {
+    "description": "Thrive Marketのメンバーシップをthrivemarket.com/account/membershipまたはライブチャットからキャンセル。年間メンバーシップは30日以内なら返金可能。",
+    "difficulty": "普通",
+    "difficultyReason": "ウェブからキャンセルできますが、ライブチャットが必要な場合もあります。年間プランの返金ポリシーに注意が必要です。",
+    "refundPolicy": "年間メンバーシップは30日以内なら全額返金。月額プランは返金なし。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "thrivemarket.com/account/membershipにアクセスしてログインします。"
+          },
+          {
+            "instruction": "「メンバーシップをキャンセル」を選択します。"
+          },
+          {
+            "instruction": "手順に従いキャンセルを確認します。ライブチャットが必要な場合もあります。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "年間メンバーシップの返金は受けられますか？",
+        "answer": "はい。購入後30日以内であれば全額返金を申請できます。"
+      },
+      {
+        "question": "キャンセル後もサービスは使えますか？",
+        "answer": "現在の請求期間の終了まで引き続きご利用いただけます。"
+      }
+    ]
   }
 }

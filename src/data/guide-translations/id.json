@@ -3012,5 +3012,369 @@
         "answer": "Tidak. Paket komitmen WeightWatchers tidak mengizinkan pembatalan lebih awal."
       }
     ]
+  },
+  "ancestry": {
+    "description": "Batalkan langganan Ancestry melalui pengaturan akun di situs web. Pohon keluarga tetap tersimpan. Tidak ada pengembalian dana sebagian untuk langganan tahunan.",
+    "difficulty": "Sedang",
+    "difficultyReason": "Dapat dibatalkan melalui web, tetapi langganan tahunan tidak memberikan pengembalian dana sebagian — perhatikan hal ini.",
+    "refundPolicy": "Tidak ada pengembalian dana sebagian untuk langganan tahunan. Langganan bulanan dapat dibatalkan kapan saja.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka ancestry.com dan masuk."
+          },
+          {
+            "instruction": "Klik ikon pengguna di kanan atas dan pilih 'Keanggotaan & Penagihan'."
+          },
+          {
+            "instruction": "Klik 'Batalkan Langganan' dan ikuti langkah-langkahnya."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Apakah pohon keluarga saya akan dihapus setelah pembatalan?",
+        "answer": "Tidak. Data pohon keluarga tetap tersimpan setelah pembatalan."
+      },
+      {
+        "question": "Apakah saya mendapat pengembalian dana jika membatalkan langganan tahunan di tengah jalan?",
+        "answer": "Tidak. Ancestry tidak memberikan pengembalian dana sebagian untuk langganan tahunan."
+      }
+    ]
+  },
+  "patreon": {
+    "description": "Batalkan setiap keanggotaan kreator di Patreon secara terpisah melalui pengaturan/keanggotaan. Tidak ada pembatalan massal. Pengembalian dana dalam 5 hari melalui kreator.",
+    "difficulty": "Mudah",
+    "difficultyReason": "Setiap keanggotaan kreator harus dibatalkan secara terpisah.",
+    "refundPolicy": "Hubungi kreator dalam 5 hari setelah penagihan untuk kemungkinan pengembalian dana. Tidak ada pengembalian dana otomatis.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka patreon.com dan masuk."
+          },
+          {
+            "instruction": "Klik ikon di kanan atas dan pilih 'Keanggotaan'."
+          },
+          {
+            "instruction": "Klik 'Edit' di sebelah kreator yang ingin Anda batalkan."
+          },
+          {
+            "instruction": "Pilih 'Batalkan Keanggotaan' dan konfirmasi."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Bisakah saya membatalkan semua kreator sekaligus?",
+        "answer": "Tidak. Setiap keanggotaan kreator harus dibatalkan secara terpisah."
+      },
+      {
+        "question": "Bisakah saya mendapatkan pengembalian dana?",
+        "answer": "Hubungi kreator langsung dalam 5 hari setelah penagihan untuk meminta pengembalian dana."
+      }
+    ]
+  },
+  "substack": {
+    "description": "Batalkan newsletter berbayar Substack satu per satu melalui substack.com/account/payments. Tidak ada pembatalan massal.",
+    "difficulty": "Mudah",
+    "difficultyReason": "Setiap newsletter harus dibatalkan secara terpisah, tetapi prosesnya sederhana.",
+    "refundPolicy": "Kebijakan pengembalian dana berbeda-beda per newsletter. Hubungi penerbit masing-masing.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka substack.com/account/payments."
+          },
+          {
+            "instruction": "Temukan langganan yang ingin Anda batalkan."
+          },
+          {
+            "instruction": "Klik 'Kelola' atau 'Batalkan' dan ikuti langkah-langkahnya."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Bisakah saya membatalkan semua Substack sekaligus?",
+        "answer": "Tidak. Setiap newsletter berbayar harus dibatalkan secara terpisah."
+      },
+      {
+        "question": "Bisakah saya membaca arsip setelah pembatalan?",
+        "answer": "Konten gratis tetap dapat diakses, tetapi akses ke artikel berbayar akan hilang."
+      }
+    ]
+  },
+  "pandora": {
+    "description": "Batalkan Pandora Premium melalui situs web dan kembali ke paket gratis. Riwayat dengarkan tetap tersimpan. Bundel operator: hubungi operator Anda.",
+    "difficulty": "Mudah",
+    "difficultyReason": "Pembatalan cepat online dengan perpindahan ke paket gratis.",
+    "refundPolicy": "Umumnya tidak ada pengembalian dana. Bundel operator mengikuti kebijakan operator.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka pandora.com dan masuk."
+          },
+          {
+            "instruction": "Pilih 'Pengaturan' → 'Langganan'."
+          },
+          {
+            "instruction": "Klik 'Batalkan Langganan' dan konfirmasi."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Bisakah saya menggunakan Pandora setelah pembatalan?",
+        "answer": "Ya. Anda akan otomatis beralih ke paket gratis dengan iklan."
+      },
+      {
+        "question": "Saya berlangganan melalui operator. Apa yang harus saya lakukan?",
+        "answer": "Hubungi operator seluler Anda langsung untuk membatalkan."
+      }
+    ]
+  },
+  "duolingo-plus": {
+    "description": "Batalkan Duolingo Plus (Super Duolingo) melalui web atau pengaturan perangkat. Streak dan kemajuan belajar tetap tersimpan.",
+    "difficulty": "Mudah",
+    "difficultyReason": "Mudah dibatalkan melalui web atau perangkat.",
+    "refundPolicy": "Umumnya tidak ada pengembalian dana. iOS mengikuti kebijakan Apple, Android mengikuti kebijakan Google.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka duolingo.com dan masuk."
+          },
+          {
+            "instruction": "Pilih 'Pengaturan' → 'Super Duolingo' → 'Kelola Langganan'."
+          },
+          {
+            "instruction": "Klik 'Batalkan' dan ikuti langkah-langkahnya."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Buka Pengaturan iPhone → Apple ID → Langganan → Duolingo → Batalkan."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Buka Google Play → Langganan → Duolingo → Batalkan."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Apakah streak saya tetap ada setelah pembatalan?",
+        "answer": "Ya. Streak dan kemajuan belajar tetap tersimpan setelah pembatalan."
+      },
+      {
+        "question": "Apakah Duolingo Plus dan Super Duolingo sama?",
+        "answer": "Ya. Layanan yang sama, hanya berganti nama."
+      }
+    ]
+  },
+  "google-one": {
+    "description": "Turunkan paket penyimpanan Google One ke 15GB gratis melalui one.google.com atau aplikasi Google One. Data di atas 15GB tidak akan disinkronkan, memengaruhi Google Foto.",
+    "difficulty": "Mudah",
+    "difficultyReason": "Mudah diturunkan melalui situs web atau aplikasi.",
+    "refundPolicy": "Umumnya tidak ada pengembalian dana. Lihat kebijakan Google.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka one.google.com dan masuk."
+          },
+          {
+            "instruction": "Pilih 'Kelola Paket' → 'Turunkan Paket'."
+          },
+          {
+            "instruction": "Pilih paket 15GB gratis dan konfirmasi."
+          }
+        ]
+      },
+      "app": {
+        "steps": [
+          {
+            "instruction": "Di aplikasi Google One, buka Menu → 'Kelola Paket' → 'Turunkan Paket'."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Apa yang terjadi pada data di atas 15GB?",
+        "answer": "Data di atas 15GB tidak akan disinkronkan dan foto baru tidak akan dicadangkan di Google Foto."
+      },
+      {
+        "question": "Apakah perubahan langsung berlaku?",
+        "answer": "Paket Anda saat ini akan berlanjut hingga akhir periode penagihan saat ini."
+      }
+    ]
+  },
+  "siriusxm": {
+    "description": "Batalkan SiriusXM melalui telepon (1-888-539-7474) atau siriusxm.com. Upaya retensi sangat agresif — siapkan waktu 15-30 menit. Harga promosi melonjak ke harga penuh.",
+    "difficulty": "Sulit",
+    "difficultyReason": "Layanan pelanggan berupaya keras mempertahankan Anda. Siapkan waktu 15-30 menit untuk telepon. Harga promosi melonjak drastis setelah berakhir.",
+    "refundPolicy": "Pengembalian dana harian mungkin berlaku. Konfirmasi dengan layanan pelanggan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka siriusxm.com dan masuk."
+          },
+          {
+            "instruction": "Pilih 'Akun Saya' → 'Langganan' → 'Batalkan'."
+          },
+          {
+            "instruction": "Ikuti instruksi di layar (penawaran retensi mungkin muncul)."
+          }
+        ]
+      },
+      "phone": {
+        "steps": [
+          {
+            "instruction": "Telepon 1-888-539-7474 dan sampaikan keinginan Anda untuk membatalkan."
+          },
+          {
+            "instruction": "Tolak penawaran retensi dan konfirmasi pembatalan."
+          },
+          {
+            "instruction": "Catat nomor konfirmasi Anda."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Mereka terus memberikan penawaran. Apa yang harus saya lakukan?",
+        "answer": "Terus katakan dengan jelas: 'Saya ingin membatalkan.' Anda berhak menolak semua penawaran."
+      },
+      {
+        "question": "Harga promosi saya sudah berakhir.",
+        "answer": "SiriusXM menaikkan harga ke tarif penuh setelah promosi. Batalkan atau negosiasikan."
+      }
+    ]
+  },
+  "tidal": {
+    "description": "Batalkan TIDAL melalui tidal.com atau pengaturan perangkat. Daftar putar tetap tersimpan di paket gratis. Konten yang diunduh akan dihapus.",
+    "difficulty": "Mudah",
+    "difficultyReason": "Mudah dibatalkan melalui web atau perangkat.",
+    "refundPolicy": "Umumnya tidak ada pengembalian dana. iOS mengikuti kebijakan Apple, Android mengikuti kebijakan Google.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka tidal.com dan masuk."
+          },
+          {
+            "instruction": "Pilih 'Pengaturan' → 'Langganan' → 'Batalkan'."
+          },
+          {
+            "instruction": "Ikuti langkah-langkah dan konfirmasi pembatalan."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Buka Pengaturan iPhone → Apple ID → Langganan → TIDAL → Batalkan."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Buka Google Play → Langganan → TIDAL → Batalkan."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Apakah daftar putar saya tetap ada setelah pembatalan?",
+        "answer": "Ya. Daftar putar tetap tersimpan di paket gratis, tetapi konten yang diunduh akan dihapus."
+      },
+      {
+        "question": "Apakah ada paket gratis?",
+        "answer": "Ya. Anda dapat beralih ke paket gratis dengan iklan setelah pembatalan."
+      }
+    ]
+  },
+  "onlyfans": {
+    "description": "Matikan Auto-Renew per kreator di onlyfans.com/my/subscriptions/active. Akses berlanjut hingga akhir periode saat ini.",
+    "difficulty": "Mudah",
+    "difficultyReason": "Anda harus menonaktifkan perpanjangan otomatis untuk setiap kreator secara terpisah.",
+    "refundPolicy": "Umumnya tidak ada pengembalian dana. Akses berlanjut hingga akhir periode berlangganan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka onlyfans.com/my/subscriptions/active."
+          },
+          {
+            "instruction": "Temukan kreator yang ingin Anda batalkan."
+          },
+          {
+            "instruction": "Matikan 'Auto-Renew'."
+          },
+          {
+            "instruction": "Akses berlanjut hingga akhir periode saat ini."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Apakah akses langsung hilang saat mematikan Auto-Renew?",
+        "answer": "Tidak. Akses berlanjut hingga akhir periode berlangganan saat ini."
+      },
+      {
+        "question": "Bisakah saya membatalkan semua kreator sekaligus?",
+        "answer": "Tidak. Setiap langganan harus dikelola secara terpisah."
+      }
+    ]
+  },
+  "thrive-market": {
+    "description": "Batalkan keanggotaan Thrive Market melalui thrivemarket.com/account/membership atau live chat. Keanggotaan tahunan mendapat pengembalian dana penuh dalam 30 hari.",
+    "difficulty": "Sedang",
+    "difficultyReason": "Dapat dibatalkan online tetapi mungkin memerlukan live chat. Perhatikan kebijakan pengembalian dana untuk paket tahunan.",
+    "refundPolicy": "Keanggotaan tahunan mendapat pengembalian dana penuh dalam 30 hari. Tidak ada pengembalian dana untuk paket bulanan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka thrivemarket.com/account/membership dan masuk."
+          },
+          {
+            "instruction": "Pilih 'Batalkan Keanggotaan'."
+          },
+          {
+            "instruction": "Ikuti langkah-langkah dan konfirmasi. Live chat mungkin diperlukan."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Bisakah saya mendapatkan pengembalian dana untuk keanggotaan tahunan?",
+        "answer": "Ya. Dalam 30 hari setelah pembelian, Anda dapat mengajukan pengembalian dana penuh."
+      },
+      {
+        "question": "Bisakah saya menggunakan layanan setelah pembatalan?",
+        "answer": "Ya, hingga akhir periode penagihan Anda saat ini."
+      }
+    ]
   }
 }
