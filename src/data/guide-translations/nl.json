@@ -3515,5 +3515,482 @@
         "answer": "Ja, tot het einde van je huidige factureringsperiode."
       }
     ]
+  },
+  "linkedin-premium": {
+    "description": "Annuleer LinkedIn Premium via het web of de apparaatinstellingen. Je profiel en connecties blijven behouden.",
+    "difficulty": "Gemiddeld",
+    "difficultyReason": "De annuleringsoptie is verborgen in meerdere menuniveaus en niet meteen zichtbaar.",
+    "refundPolicy": "Geen pro-rata terugbetaling. Toegang blijft actief tot het einde van de factureringsperiode.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar linkedin.com en log in."
+          },
+          {
+            "instruction": "Klik op je profielfoto (rechtsboven) → Instellingen en privacy."
+          },
+          {
+            "instruction": "Selecteer Abonnementen en betalingen."
+          },
+          {
+            "instruction": "Klik op Premium beheren → Abonnement annuleren."
+          },
+          {
+            "instruction": "Volg de stappen om te bevestigen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Open iPhone-instellingen → je naam → Abonnementen."
+          },
+          {
+            "instruction": "Selecteer LinkedIn en tik op Abonnement annuleren."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Open Google Play → profielpictogram → Betalingen en abonnementen → Abonnementen."
+          },
+          {
+            "instruction": "Selecteer LinkedIn en tik op Annuleren."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Verlies ik mijn connecties of profiel?",
+        "answer": "Nee. Profiel, connecties en berichten blijven beschikbaar in het gratis account."
+      },
+      {
+        "question": "Wat verlies ik na annulering?",
+        "answer": "InMail-credits, profielweergaven en geavanceerde analyses."
+      }
+    ]
+  },
+  "dropbox": {
+    "description": "Schakel van Dropbox Plus of Professional naar het gratis plan van 2 GB via accountbeheer.",
+    "difficulty": "Gemakkelijk",
+    "difficultyReason": "Planwijziging is direct toegankelijk vanuit de accountinstellingen.",
+    "refundPolicy": "Geen pro-rata terugbetaling. Toegang tot het betaalde plan blijft actief tot het einde van de periode.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar dropbox.com/account/plan en log in."
+          },
+          {
+            "instruction": "Klik op Plan wijzigen."
+          },
+          {
+            "instruction": "Selecteer het gratis plan (2 GB) en bevestig."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Open Safari en ga naar dropbox.com/account/plan, of gebruik iPhone-instellingen → Abonnementen als je via Apple hebt geabonneerd."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Open de browser en ga naar dropbox.com/account/plan, of gebruik Google Play → Abonnementen als je daar hebt geabonneerd."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Worden mijn bestanden verwijderd?",
+        "answer": "Nee. Bestanden boven 2 GB worden niet meer gesynchroniseerd, maar niet verwijderd."
+      },
+      {
+        "question": "Ik heb een Business-account.",
+        "answer": "Business-accounts worden beheerd via de beheerconsole. Neem contact op met je beheerder."
+      }
+    ]
+  },
+  "grammarly": {
+    "description": "Annuleer Grammarly Premium via de accountinstellingen en keer terug naar de gratis basisversie.",
+    "difficulty": "Gemakkelijk",
+    "difficultyReason": "De annuleringsoptie is direct beschikbaar in de abonnementsinstellingen.",
+    "refundPolicy": "Terugbetaling mogelijk binnen 30 dagen na jaaraankoop via support.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar account.grammarly.com/subscription en log in."
+          },
+          {
+            "instruction": "Klik op Abonnement annuleren."
+          },
+          {
+            "instruction": "Volg de stappen en bevestig de annulering."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Open iPhone-instellingen → je naam → Abonnementen → Grammarly → Abonnement annuleren."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Open Google Play → profielpictogram → Betalingen en abonnementen → Abonnementen → Grammarly → Annuleren."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Wat gebeurt er na annulering?",
+        "answer": "Je account gaat terug naar de gratis versie met beperkte basiscontroles."
+      },
+      {
+        "question": "Kan ik terugbetaling krijgen voor mijn jaarplan?",
+        "answer": "Ja, binnen 30 dagen na aankoop. Neem contact op met Grammarly-support."
+      }
+    ]
+  },
+  "canva-pro": {
+    "description": "Annuleer Canva Pro via de accountinstellingen. Ontwerpen blijven beschikbaar in het gratis plan.",
+    "difficulty": "Gemakkelijk",
+    "difficultyReason": "De annuleringsoptie is eenvoudig te vinden via Facturering en plannen.",
+    "refundPolicy": "Geen pro-rata terugbetaling. Premiumfuncties blijven actief tot het einde van de periode.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar canva.com en log in."
+          },
+          {
+            "instruction": "Klik op je profielfoto → Accountinstellingen."
+          },
+          {
+            "instruction": "Selecteer Facturering en plannen."
+          },
+          {
+            "instruction": "Klik op Plan annuleren en bevestig."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Open iPhone-instellingen → je naam → Abonnementen → Canva → Abonnement annuleren."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Open Google Play → profielpictogram → Betalingen en abonnementen → Abonnementen → Canva → Annuleren."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Verlies ik mijn ontwerpen?",
+        "answer": "Nee. Alle ontwerpen blijven bewaard, maar Premium-elementen kunnen niet worden bewerkt."
+      },
+      {
+        "question": "Kan ik op elk moment annuleren?",
+        "answer": "Ja. Annulering is onmiddellijk; Premium-toegang duurt tot het einde van de factureringsperiode."
+      }
+    ]
+  },
+  "hellofresh": {
+    "description": "Annuleer HelloFresh via het web voor vrijdagmidnacht. De app biedt geen directe annuleringsoptie.",
+    "difficulty": "Gemiddeld",
+    "difficultyReason": "HelloFresh promoot pauze-opties agressief voordat annulering mogelijk is.",
+    "refundPolicy": "Al verwerkte bestellingen kunnen niet worden geannuleerd. Annuleer voor vrijdagmidnacht.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar hellofresh.com en log in."
+          },
+          {
+            "instruction": "Ga naar Account → Planinstellingen."
+          },
+          {
+            "instruction": "Scroll voorbij de pauze-aanbiedingen en klik op Plan annuleren."
+          },
+          {
+            "instruction": "Volg de stappen om de annulering te bevestigen."
+          },
+          {
+            "instruction": "Zorg dat je voor vrijdagmidnacht annuleert om de volgende levering te vermijden."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Gebruik de mobiele browser en ga naar hellofresh.com/account/plan. De app biedt geen directe annulering."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Gebruik de mobiele browser en ga naar hellofresh.com/account/plan. De app biedt geen directe annulering."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Waarom word ik aangespoord te pauzeren?",
+        "answer": "HelloFresh geeft de voorkeur aan pauzeren boven annuleren. Negeer deze aanbiedingen en ga door met annuleren."
+      },
+      {
+        "question": "Tot wanneer moet ik annuleren om de volgende bestelling te vermijden?",
+        "answer": "De deadline is vrijdagmidnacht voor de week erna."
+      }
+    ]
+  },
+  "playstation-plus": {
+    "description": "Annuleer PlayStation Plus via het web, de app of direct op de PS4/PS5-console.",
+    "difficulty": "Gemakkelijk",
+    "difficultyReason": "De annuleringsoptie is duidelijk en toegankelijk via de accountinstellingen.",
+    "refundPolicy": "Geen pro-rata terugbetaling. Toegang blijft actief tot het einde van de factureringsperiode.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar playstation.com en log in."
+          },
+          {
+            "instruction": "Klik op je profielfoto → Accountinstellingen."
+          },
+          {
+            "instruction": "Selecteer Abonnementen."
+          },
+          {
+            "instruction": "Klik op Annuleren naast PlayStation Plus."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Open de PlayStation-app → profielpictogram → Abonnementen → PlayStation Plus annuleren."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Open de PlayStation-app → profielpictogram → Abonnementen → PlayStation Plus annuleren."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Wat gebeurt er met mijn maandelijkse games?",
+        "answer": "Maandelijkse games worden vergrendeld totdat je je opnieuw abonneert. Ze worden niet verwijderd."
+      },
+      {
+        "question": "Kan ik via de console annuleren?",
+        "answer": "Ja. Ga op PS4/PS5 naar Instellingen → Account → Abonnementen → Annuleren."
+      }
+    ]
+  },
+  "xbox-game-pass": {
+    "description": "Annuleer Xbox Game Pass via het Microsoft-account op het web, de Xbox-app of de console.",
+    "difficulty": "Gemakkelijk",
+    "difficultyReason": "Annulering via het Microsoft-account op het web is eenvoudig en snel.",
+    "refundPolicy": "Geen pro-rata terugbetaling. Toegang blijft actief tot het einde van de factureringsperiode.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar account.microsoft.com/services en log in."
+          },
+          {
+            "instruction": "Zoek Xbox Game Pass en klik op Annuleren."
+          },
+          {
+            "instruction": "Volg de stappen om te bevestigen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Open de Xbox-app of gebruik iPhone-instellingen → Abonnementen als je via Apple hebt geabonneerd."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Open de Xbox-app of Google Play → Betalingen en abonnementen → Abonnementen → Game Pass → Annuleren."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Wat is Xbox Game Pass Ultimate?",
+        "answer": "Ultimate bevat Xbox Live Gold, PC Game Pass en cloudgaming in een abonnement."
+      },
+      {
+        "question": "Kan ik via de console annuleren?",
+        "answer": "Ja. Ga op Xbox naar Instellingen → Account → Abonnementen → Game Pass beheren."
+      }
+    ]
+  },
+  "calm": {
+    "description": "Annuleer Calm Premium via het web of de apparaatinstellingen. iOS-abonnementen moeten via iOS worden geannuleerd.",
+    "difficulty": "Gemakkelijk",
+    "difficultyReason": "Duidelijke annuleringsoptie in de app-instellingen voor directe aankopen.",
+    "refundPolicy": "Toegang blijft actief tot het einde van de factureringsperiode.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar calm.com/app/settings en log in."
+          },
+          {
+            "instruction": "Klik op Premium annuleren (alleen voor directe aankopen bij Calm)."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Open iPhone-instellingen → je naam → Abonnementen → Calm → Abonnement annuleren."
+          },
+          {
+            "instruction": "iOS-abonnementen MOETEN via iOS-instellingen worden geannuleerd, niet via de app."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Open Google Play → profielpictogram → Betalingen en abonnementen → Abonnementen → Calm → Annuleren."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Waarom kan ik niet annuleren via de app?",
+        "answer": "Als je via de App Store hebt geabonneerd, moet je annuleren via de iOS- of Android-instellingen."
+      },
+      {
+        "question": "Heb ik na annulering nog toegang tot content?",
+        "answer": "Ja, tot het einde van de huidige factureringsperiode."
+      }
+    ]
+  },
+  "headspace": {
+    "description": "Annuleer Headspace via het web of de apparaatinstellingen. Gratis content blijft beschikbaar.",
+    "difficulty": "Gemakkelijk",
+    "difficultyReason": "De annuleringsoptie is eenvoudig te vinden in de accountinstellingen.",
+    "refundPolicy": "Geen pro-rata terugbetaling. Gratis content blijft beschikbaar na annulering.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar headspace.com/account/subscriptions en log in."
+          },
+          {
+            "instruction": "Klik op Abonnement annuleren."
+          },
+          {
+            "instruction": "Bevestig de annulering."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Open iPhone-instellingen → je naam → Abonnementen → Headspace → Abonnement annuleren."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Open Google Play → profielpictogram → Betalingen en abonnementen → Abonnementen → Headspace → Annuleren."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Heb ik na annulering nog toegang tot content?",
+        "answer": "Gratis content blijft beschikbaar. Premium-content is niet meer toegankelijk na het einde van de periode."
+      },
+      {
+        "question": "Ik heb een studenten- of werkplan.",
+        "answer": "Neem contact op met Headspace-support om speciale plannen te annuleren."
+      }
+    ]
+  },
+  "chewy-autoship": {
+    "description": "Annuleer Chewy Autoship-leveringen via het web of de app. Elk product moet afzonderlijk worden geannuleerd.",
+    "difficulty": "Gemakkelijk",
+    "difficultyReason": "Autoship-abonnementen staan duidelijk vermeld in het accountbeheer.",
+    "refundPolicy": "Chewy staat bekend om zijn genereuze terugbetalingsbeleid. Neem contact op met support bij problemen.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar chewy.com en log in."
+          },
+          {
+            "instruction": "Klik op Account → Autoship en bespaar."
+          },
+          {
+            "instruction": "Klik op Autoship beheren naast het product → Annuleren."
+          },
+          {
+            "instruction": "Herhaal voor elk product."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Open de Chewy-app → Account → Autoship en bespaar → selecteer product → Annuleren."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Open de Chewy-app → Account → Autoship en bespaar → selecteer product → Annuleren."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kan ik alle Autoships tegelijk annuleren?",
+        "answer": "Nee. Elk product moet afzonderlijk worden geannuleerd."
+      },
+      {
+        "question": "Hoe goed is het terugbetalingsbeleid van Chewy?",
+        "answer": "Chewy staat bekend om uitstekende klantenservice. Neem contact op met support bij problemen."
+      }
+    ]
   }
 }

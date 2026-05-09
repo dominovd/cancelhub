@@ -3515,5 +3515,482 @@
         "answer": "نعم، حتى نهاية دورة الفوترة الحالية."
       }
     ]
+  },
+  "linkedin-premium": {
+    "description": "الغِ اشتراك LinkedIn Premium عبر الويب أو إعدادات الجهاز. يظل ملفك الشخصي واتصالاتك كما هي.",
+    "difficulty": "متوسط",
+    "difficultyReason": "خيار الإلغاء مخفي في عدة مستويات من القوائم وليس واضحاً في البداية.",
+    "refundPolicy": "لا توجد استردادات نسبية. يستمر الوصول حتى نهاية فترة الفوترة.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "انتقل إلى linkedin.com وسجّل الدخول."
+          },
+          {
+            "instruction": "انقر على صورة ملفك الشخصي (أعلى اليمين) ثم الإعدادات والخصوصية."
+          },
+          {
+            "instruction": "اختر الاشتراكات والمدفوعات."
+          },
+          {
+            "instruction": "انقر على إدارة Premium ثم إلغاء الاشتراك."
+          },
+          {
+            "instruction": "اتبع الخطوات للتأكيد."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "افتح إعدادات iPhone ثم اسمك ثم الاشتراكات."
+          },
+          {
+            "instruction": "اختر LinkedIn واضغط على إلغاء الاشتراك."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "افتح Google Play ثم أيقونة الملف الشخصي ثم المدفوعات والاشتراكات ثم الاشتراكات."
+          },
+          {
+            "instruction": "اختر LinkedIn واضغط على إلغاء."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "هل سأفقد اتصالاتي أو ملفي الشخصي؟",
+        "answer": "لا. يبقى ملفك الشخصي واتصالاتك ورسائلك في الحساب المجاني."
+      },
+      {
+        "question": "ماذا سأفقد بعد الإلغاء؟",
+        "answer": "رصيد InMail وعدد مشاهدات الملف الشخصي والتحليلات المتقدمة."
+      }
+    ]
+  },
+  "dropbox": {
+    "description": "انتقل من Dropbox Plus أو Professional إلى الخطة المجانية 2 غيغابايت عبر إدارة الحساب.",
+    "difficulty": "سهل",
+    "difficultyReason": "تغيير الخطة متاح مباشرة من إعدادات الحساب.",
+    "refundPolicy": "لا توجد استردادات نسبية. يستمر الوصول إلى الخطة المدفوعة حتى نهاية الفترة.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "انتقل إلى dropbox.com/account/plan وسجّل الدخول."
+          },
+          {
+            "instruction": "انقر على تغيير الخطة."
+          },
+          {
+            "instruction": "اختر الخطة المجانية (2 غيغابايت) وأكّد."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "افتح Safari وانتقل إلى dropbox.com/account/plan، أو استخدم إعدادات iPhone ثم الاشتراكات إذا اشتركت عبر Apple."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "افتح المتصفح وانتقل إلى dropbox.com/account/plan، أو استخدم Google Play ثم الاشتراكات إذا اشتركت هناك."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "هل ستُحذف ملفاتي؟",
+        "answer": "لا. ستتوقف الملفات التي تتجاوز 2 غيغابايت عن المزامنة لكنها لن تُحذف."
+      },
+      {
+        "question": "لدي حساب Business.",
+        "answer": "تُدار حسابات Business عبر وحدة تحكم المشرف. تواصل مع مشرفك."
+      }
+    ]
+  },
+  "grammarly": {
+    "description": "الغِ اشتراك Grammarly Premium من إعدادات الحساب وعد إلى النسخة المجانية الأساسية.",
+    "difficulty": "سهل",
+    "difficultyReason": "خيار الإلغاء متاح مباشرة في إعدادات الاشتراك.",
+    "refundPolicy": "الاسترداد ممكن خلال 30 يوماً من الشراء السنوي عبر الدعم.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "انتقل إلى account.grammarly.com/subscription وسجّل الدخول."
+          },
+          {
+            "instruction": "انقر على إلغاء الاشتراك."
+          },
+          {
+            "instruction": "اتبع الخطوات وأكّد الإلغاء."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "افتح إعدادات iPhone ثم اسمك ثم الاشتراكات ثم Grammarly ثم إلغاء الاشتراك."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "افتح Google Play ثم أيقونة الملف الشخصي ثم المدفوعات والاشتراكات ثم الاشتراكات ثم Grammarly ثم إلغاء."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "ماذا سيحدث بعد الإلغاء؟",
+        "answer": "سيعود حسابك إلى النسخة المجانية مع فحوصات أساسية محدودة."
+      },
+      {
+        "question": "هل يمكنني استرداد المال من خطتي السنوية؟",
+        "answer": "نعم، خلال 30 يوماً من الشراء. تواصل مع دعم Grammarly."
+      }
+    ]
+  },
+  "canva-pro": {
+    "description": "الغِ اشتراك Canva Pro من إعدادات الحساب. تبقى تصاميمك محفوظة في الخطة المجانية.",
+    "difficulty": "سهل",
+    "difficultyReason": "خيار الإلغاء سهل الوصول إليه من قسم الفوترة والخطط.",
+    "refundPolicy": "لا توجد استردادات نسبية. تبقى ميزات Premium نشطة حتى نهاية الفترة.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "انتقل إلى canva.com وسجّل الدخول."
+          },
+          {
+            "instruction": "انقر على صورة ملفك الشخصي ثم إعدادات الحساب."
+          },
+          {
+            "instruction": "اختر الفوترة والخطط."
+          },
+          {
+            "instruction": "انقر على إلغاء الخطة وأكّد."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "افتح إعدادات iPhone ثم اسمك ثم الاشتراكات ثم Canva ثم إلغاء الاشتراك."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "افتح Google Play ثم أيقونة الملف الشخصي ثم المدفوعات والاشتراكات ثم الاشتراكات ثم Canva ثم إلغاء."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "هل سأفقد تصاميمي؟",
+        "answer": "لا. تبقى جميع التصاميم محفوظة لكن عناصر Premium لن يمكن تعديلها."
+      },
+      {
+        "question": "هل يمكنني الإلغاء في أي وقت؟",
+        "answer": "نعم. الإلغاء فوري، والوصول إلى Premium يستمر حتى نهاية دورة الفوترة."
+      }
+    ]
+  },
+  "hellofresh": {
+    "description": "الغِ اشتراك HelloFresh عبر الويب قبل منتصف ليل الجمعة. التطبيق لا يتيح الإلغاء المباشر.",
+    "difficulty": "متوسط",
+    "difficultyReason": "يروّج HelloFresh بقوة لخيارات الإيقاف المؤقت قبل إتاحة الإلغاء.",
+    "refundPolicy": "لا يمكن إلغاء الطلبات المعالجة مسبقاً. الغِ قبل منتصف ليل الجمعة.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "انتقل إلى hellofresh.com وسجّل الدخول."
+          },
+          {
+            "instruction": "انتقل إلى الحساب ثم إعدادات الخطة."
+          },
+          {
+            "instruction": "مرّر بجانب عروض الإيقاف المؤقت وانقر على إلغاء الخطة."
+          },
+          {
+            "instruction": "اتبع الخطوات لتأكيد الإلغاء."
+          },
+          {
+            "instruction": "تأكد من الإلغاء قبل منتصف ليل الجمعة لتجنب التسليم التالي."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "استخدم متصفح الجوال وانتقل إلى hellofresh.com/account/plan. التطبيق لا يوفر إلغاءً مباشراً."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "استخدم متصفح الجوال وانتقل إلى hellofresh.com/account/plan. التطبيق لا يوفر إلغاءً مباشراً."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "لماذا يُشجّعونني على الإيقاف المؤقت؟",
+        "answer": "يفضّل HelloFresh الإيقاف المؤقت على الإلغاء. تجاهل هذه العروض وتابع عملية الإلغاء."
+      },
+      {
+        "question": "ما هو آخر موعد للإلغاء لتجنب الطلب التالي؟",
+        "answer": "الموعد النهائي هو منتصف ليل الجمعة للأسبوع التالي."
+      }
+    ]
+  },
+  "playstation-plus": {
+    "description": "الغِ اشتراك PlayStation Plus عبر الويب أو التطبيق أو مباشرة من جهاز PS4/PS5.",
+    "difficulty": "سهل",
+    "difficultyReason": "خيار الإلغاء واضح ومتاح من إعدادات الحساب.",
+    "refundPolicy": "لا توجد استردادات نسبية. يستمر الوصول حتى نهاية فترة الفوترة.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "انتقل إلى playstation.com وسجّل الدخول."
+          },
+          {
+            "instruction": "انقر على صورة ملفك الشخصي ثم إعدادات الحساب."
+          },
+          {
+            "instruction": "اختر الاشتراكات."
+          },
+          {
+            "instruction": "انقر على إلغاء بجانب PlayStation Plus."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "افتح تطبيق PlayStation ثم أيقونة الملف الشخصي ثم الاشتراكات ثم إلغاء PlayStation Plus."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "افتح تطبيق PlayStation ثم أيقونة الملف الشخصي ثم الاشتراكات ثم إلغاء PlayStation Plus."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "ماذا يحدث لألعابي الشهرية؟",
+        "answer": "تُقفل الألعاب الشهرية حتى تعيد الاشتراك. لن تُحذف."
+      },
+      {
+        "question": "هل يمكنني الإلغاء من وحدة التحكم؟",
+        "answer": "نعم. على PS4/PS5 انتقل إلى الإعدادات ثم الحساب ثم الاشتراكات ثم إلغاء."
+      }
+    ]
+  },
+  "xbox-game-pass": {
+    "description": "الغِ اشتراك Xbox Game Pass عبر حساب Microsoft على الويب أو تطبيق Xbox أو وحدة التحكم.",
+    "difficulty": "سهل",
+    "difficultyReason": "الإلغاء عبر حساب Microsoft على الويب بسيط وسريع.",
+    "refundPolicy": "لا توجد استردادات نسبية. يستمر الوصول حتى نهاية فترة الفوترة.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "انتقل إلى account.microsoft.com/services وسجّل الدخول."
+          },
+          {
+            "instruction": "ابحث عن Xbox Game Pass وانقر على إلغاء."
+          },
+          {
+            "instruction": "اتبع الخطوات للتأكيد."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "افتح تطبيق Xbox أو استخدم إعدادات iPhone ثم الاشتراكات إذا اشتركت عبر Apple."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "افتح تطبيق Xbox أو Google Play ثم المدفوعات والاشتراكات ثم الاشتراكات ثم Game Pass ثم إلغاء."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "ما هو Xbox Game Pass Ultimate؟",
+        "answer": "Ultimate يشمل Xbox Live Gold وPC Game Pass والألعاب السحابية في اشتراك واحد."
+      },
+      {
+        "question": "هل يمكنني الإلغاء من وحدة التحكم؟",
+        "answer": "نعم. على Xbox انتقل إلى الإعدادات ثم الحساب ثم الاشتراكات ثم إدارة Game Pass."
+      }
+    ]
+  },
+  "calm": {
+    "description": "الغِ اشتراك Calm Premium عبر الويب أو إعدادات الجهاز. يجب إلغاء اشتراكات iOS من إعدادات iOS.",
+    "difficulty": "سهل",
+    "difficultyReason": "خيار إلغاء واضح في إعدادات التطبيق للمشتريات المباشرة.",
+    "refundPolicy": "يستمر الوصول حتى نهاية فترة الفوترة.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "انتقل إلى calm.com/app/settings وسجّل الدخول."
+          },
+          {
+            "instruction": "انقر على إلغاء Premium (للمشتريات المباشرة من Calm فقط)."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "افتح إعدادات iPhone ثم اسمك ثم الاشتراكات ثم Calm ثم إلغاء الاشتراك."
+          },
+          {
+            "instruction": "يجب إلغاء اشتراكات iOS من إعدادات iOS وليس من التطبيق."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "افتح Google Play ثم أيقونة الملف الشخصي ثم المدفوعات والاشتراكات ثم الاشتراكات ثم Calm ثم إلغاء."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "لماذا لا أستطيع الإلغاء من التطبيق؟",
+        "answer": "إذا اشتركت عبر App Store فيجب الإلغاء من إعدادات iOS أو Android."
+      },
+      {
+        "question": "هل يمكنني الوصول إلى المحتوى بعد الإلغاء؟",
+        "answer": "نعم، حتى نهاية فترة الفوترة الحالية."
+      }
+    ]
+  },
+  "headspace": {
+    "description": "الغِ اشتراك Headspace عبر الويب أو إعدادات الجهاز. يبقى المحتوى المجاني متاحاً.",
+    "difficulty": "سهل",
+    "difficultyReason": "خيار الإلغاء سهل الإيجاد في إعدادات الحساب.",
+    "refundPolicy": "لا توجد استردادات نسبية. يبقى المحتوى المجاني متاحاً بعد الإلغاء.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "انتقل إلى headspace.com/account/subscriptions وسجّل الدخول."
+          },
+          {
+            "instruction": "انقر على إلغاء الاشتراك."
+          },
+          {
+            "instruction": "أكّد الإلغاء."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "افتح إعدادات iPhone ثم اسمك ثم الاشتراكات ثم Headspace ثم إلغاء الاشتراك."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "افتح Google Play ثم أيقونة الملف الشخصي ثم المدفوعات والاشتراكات ثم الاشتراكات ثم Headspace ثم إلغاء."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "هل يمكنني الوصول إلى المحتوى بعد الإلغاء؟",
+        "answer": "يبقى المحتوى المجاني متاحاً. لن يكون المحتوى Premium متاحاً بعد نهاية الفترة."
+      },
+      {
+        "question": "لديّ خطة طلابية أو خطة عمل.",
+        "answer": "تواصل مع دعم Headspace لإلغاء الخطط الخاصة."
+      }
+    ]
+  },
+  "chewy-autoship": {
+    "description": "الغِ طلبات Chewy التلقائية عبر الويب أو التطبيق. يجب إلغاء كل منتج على حدة.",
+    "difficulty": "سهل",
+    "difficultyReason": "اشتراكات Autoship مدرجة بوضوح في إدارة الحساب.",
+    "refundPolicy": "تشتهر Chewy بسياسة استرداد سخية. تواصل مع الدعم عند وجود أي مشكلة.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "انتقل إلى chewy.com وسجّل الدخول."
+          },
+          {
+            "instruction": "انقر على الحساب ثم Autoship والتوفير."
+          },
+          {
+            "instruction": "انقر على إدارة Autoship بجانب المنتج ثم إلغاء."
+          },
+          {
+            "instruction": "كرّر العملية لكل منتج."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "افتح تطبيق Chewy ثم الحساب ثم Autoship والتوفير ثم اختر المنتج ثم إلغاء."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "افتح تطبيق Chewy ثم الحساب ثم Autoship والتوفير ثم اختر المنتج ثم إلغاء."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "هل يمكنني إلغاء جميع طلبات Autoship دفعة واحدة؟",
+        "answer": "لا. يجب إلغاء كل منتج بشكل منفصل."
+      },
+      {
+        "question": "ما مدى جودة سياسة الاسترداد في Chewy؟",
+        "answer": "تشتهر Chewy بخدمة عملاء ممتازة. تواصل مع الدعم عند وجود أي مشكلة."
+      }
+    ]
   }
 }

@@ -3376,5 +3376,482 @@
         "answer": "Evet, mevcut faturalama doneminin sonuna kadar."
       }
     ]
+  },
+  "linkedin-premium": {
+    "description": "LinkedIn Premium'u web veya cihaz ayarlari uzerinden iptal edin. Profiliniz ve baglantilarniz korunur.",
+    "difficulty": "Orta",
+    "difficultyReason": "Iptal secenegi birden fazla menu katmanina gomulmustur ve hemen gorunmez.",
+    "refundPolicy": "Oransal iade yoktur. Faturalama donemi sonuna kadar erisim devam eder.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "linkedin.com adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "Sag ustteki profil fotografiniza tiklayin → Ayarlar ve Gizlilik."
+          },
+          {
+            "instruction": "Abonelikler ve Odemeler'i secin."
+          },
+          {
+            "instruction": "Premium'u Yonet → Aboneligi Iptal Et'e tiklayin."
+          },
+          {
+            "instruction": "Onaylamak icin adimlari izleyin."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone Ayarlari → adiniz → Abonelikler'i acin."
+          },
+          {
+            "instruction": "LinkedIn'i secin ve Aboneligi Iptal Et'e dokunun."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play → profil simgesi → Odemeler ve abonelikler → Abonelikler'i acin."
+          },
+          {
+            "instruction": "LinkedIn'i secin ve Iptal'e dokunun."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Baglantillarimi veya profilimi kaybeder miyim?",
+        "answer": "Hayir. Profil, baglantillar ve mesajlar ucretsiz hesapta korunur."
+      },
+      {
+        "question": "Iptal sonrasi ne kaybederim?",
+        "answer": "InMail kredileri, profil goruntuleme ve gelismis analitik ozellikleri."
+      }
+    ]
+  },
+  "dropbox": {
+    "description": "Dropbox Plus veya Professional'dan hesap yonetimi uzerinden ucretsiz 2 GB plana gecin.",
+    "difficulty": "Kolay",
+    "difficultyReason": "Plan degisikligi hesap ayarlarindan dogrudan erisilebilinir.",
+    "refundPolicy": "Oransal iade yoktur. Odeme yapilan plana erisim donem sonuna kadar devam eder.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "dropbox.com/account/plan adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "Plani degistir'e tiklayin."
+          },
+          {
+            "instruction": "Ucretsiz plani (2 GB) secin ve onaylayin."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Safari'yi acin ve dropbox.com/account/plan adresine gidin; ya da Apple uzerinden abone olduysaniz iPhone Ayarlari → Abonelikler'i kullanin."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Tarayiciyi acin ve dropbox.com/account/plan adresine gidin; ya da Google Play uzerinden abone olduysaniz Google Play → Abonelikler'i kullanin."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Dosyalarim silinecek mi?",
+        "answer": "Hayir. 2 GB'i asan dosyalar senkronize edilmez ama silinmez."
+      },
+      {
+        "question": "Business hesabim var.",
+        "answer": "Business hesaplari Yonetici Konsolu uzerinden yonetilir. Yoneticinizle iletisime gecin."
+      }
+    ]
+  },
+  "grammarly": {
+    "description": "Hesap ayarlarindan Grammarly Premium'u iptal edin ve ucretsiz temel surume donum.",
+    "difficulty": "Kolay",
+    "difficultyReason": "Iptal secenegi abonelik ayarlarindan dogrudan erisilebilinir.",
+    "refundPolicy": "Yillik satin alimlarda 30 gun icinde destek araciligi ile iade mumkundur.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "account.grammarly.com/subscription adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "Aboneligi Iptal Et'e tiklayin."
+          },
+          {
+            "instruction": "Adimlari izleyin ve iptali onaylayin."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone Ayarlari → adiniz → Abonelikler → Grammarly → Aboneligi Iptal Et'i acin."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play → profil simgesi → Odemeler ve abonelikler → Abonelikler → Grammarly → Iptal'i acin."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Iptal sonrasi ne olur?",
+        "answer": "Hesabiniz sinirli temel denetimlerle ucretsiz surume gecer."
+      },
+      {
+        "question": "Yillik planim icin iade alabilir miyim?",
+        "answer": "Evet, satin almadan sonraki 30 gun icinde. Grammarly destekle iletisime gecin."
+      }
+    ]
+  },
+  "canva-pro": {
+    "description": "Hesap ayarlarindan Canva Pro'yu iptal edin. Tasarimlar ucretsiz planda korunur.",
+    "difficulty": "Kolay",
+    "difficultyReason": "Iptal secenegi Faturalama ve planlar bolumunden kolayca erisilebilinir.",
+    "refundPolicy": "Oransal iade yoktur. Premium ozellikler donem sonuna kadar aktif kalir.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "canva.com adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "Profil fotografiniza → Hesap Ayarlari'na tiklayin."
+          },
+          {
+            "instruction": "Faturalama ve Planlar'i secin."
+          },
+          {
+            "instruction": "Plani iptal et'e tiklayin ve onaylayin."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone Ayarlari → adiniz → Abonelikler → Canva → Aboneligi Iptal Et'i acin."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play → profil simgesi → Odemeler ve abonelikler → Abonelikler → Canva → Iptal'i acin."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Tasarimlarimi kaybeder miyim?",
+        "answer": "Hayir. Tum tasarimlar korunur ancak Premium ogeler duzenlenemez."
+      },
+      {
+        "question": "Istediğim zaman iptal edebilir miyim?",
+        "answer": "Evet. Iptal hemen gecerlidir; Premium erisim faturalama donemi sonuna kadar devam eder."
+      }
+    ]
+  },
+  "hellofresh": {
+    "description": "HelloFresh'i Cuma geceyarisi'ndan once web uzerinden iptal edin. Uygulama dogrudan iptal sunmaz.",
+    "difficulty": "Orta",
+    "difficultyReason": "HelloFresh, iptali gostermeden once agresif bicimde duraklama secenekleri onerr.",
+    "refundPolicy": "Onceden islenen siparisler iptal edilemez. Cuma geceyarisi'ndan once iptal edin.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "hellofresh.com adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "Hesap → Plan Ayarlari'na gidin."
+          },
+          {
+            "instruction": "Duraklama tekliflerini gecin ve Plani iptal et'e tiklayin."
+          },
+          {
+            "instruction": "Iptali onaylamak icin adimlari izleyin."
+          },
+          {
+            "instruction": "Bir sonraki teslimatdan kacmak icin Cuma geceyarisi'ndan once iptal ettiginizden emin olun."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Mobil tarayici kullanin ve hellofresh.com/account/plan adresini acin. Uygulama dogrudan iptal desteklemiyor."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Mobil tarayici kullanin ve hellofresh.com/account/plan adresini acin. Uygulama dogrudan iptal desteklemiyor."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Neden duraklatmam oneriliyor?",
+        "answer": "HelloFresh iptali degil duraklatmayi tercih eder. Bu teklifleri gormezden gelin ve iptale devam edin."
+      },
+      {
+        "question": "Bir sonraki siparisi onlemek icin ne zamana kadar iptal etmeliyim?",
+        "answer": "Son tarih, gelecek hafta icin Cuma geceyarisi'dir."
+      }
+    ]
+  },
+  "playstation-plus": {
+    "description": "PlayStation Plus'i web, uygulama veya PS4/PS5 konsolundan dogrudan iptal edin.",
+    "difficulty": "Kolay",
+    "difficultyReason": "Iptal secenegi hesap ayarlarindan acikca erisilebilinir.",
+    "refundPolicy": "Oransal iade yoktur. Erisim faturalama donemi sonuna kadar devam eder.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "playstation.com adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "Profil fotografiniza → Hesap Ayarlari'na tiklayin."
+          },
+          {
+            "instruction": "Abonelikler'i secin."
+          },
+          {
+            "instruction": "PlayStation Plus'in yanindaki Iptal et'e tiklayin."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "PlayStation uygulamasini acin → profil simgesi → Abonelikler → PlayStation Plus'i Iptal Et."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "PlayStation uygulamasini acin → profil simgesi → Abonelikler → PlayStation Plus'i Iptal Et."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Aylik oyunlarima ne olur?",
+        "answer": "Aylik oyunlar yeniden abone olana kadar kilitlenir. Silinmez."
+      },
+      {
+        "question": "Konsoldan iptal edebilir miyim?",
+        "answer": "Evet. PS4/PS5'te Ayarlar → Hesap → Abonelikler → Iptal'e gidin."
+      }
+    ]
+  },
+  "xbox-game-pass": {
+    "description": "Xbox Game Pass'i web'deki Microsoft hesabi, Xbox uygulamasi veya konsol uzerinden iptal edin.",
+    "difficulty": "Kolay",
+    "difficultyReason": "Web'deki Microsoft hesabi uzerinden iptal basit ve hizlidir.",
+    "refundPolicy": "Oransal iade yoktur. Erisim faturalama donemi sonuna kadar devam eder.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "account.microsoft.com/services adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "Xbox Game Pass'i bulun ve Iptal et'e tiklayin."
+          },
+          {
+            "instruction": "Onaylamak icin adimlari izleyin."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Xbox uygulamasini acin veya Apple uzerinden abone olduysaniz iPhone Ayarlari → Abonelikler'i kullanin."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Xbox uygulamasini acin veya Google Play → Odemeler ve abonelikler → Abonelikler → Game Pass → Iptal'i kullanin."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Xbox Game Pass Ultimate nedir?",
+        "answer": "Ultimate; Xbox Live Gold, PC Game Pass ve bulut oyunculugunu tek abonelikte icerir."
+      },
+      {
+        "question": "Konsoldan iptal edebilir miyim?",
+        "answer": "Evet. Xbox'ta Ayarlar → Hesap → Abonelikler → Game Pass'i Yonet'e gidin."
+      }
+    ]
+  },
+  "calm": {
+    "description": "Calm Premium'u web veya cihaz ayarlari uzerinden iptal edin. iOS abonelikleri iOS Ayarlari'ndan iptal edilmelidir.",
+    "difficulty": "Kolay",
+    "difficultyReason": "Dogrudan satin alimlarda uygulama ayarlarinda acik bir iptal secenegi bulunur.",
+    "refundPolicy": "Erisim faturalama donemi sonuna kadar devam eder.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "calm.com/app/settings adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "Premium'u Iptal Et'e tiklayin (yalnizca Calm uzerinden dogrudan satin alimlarda gecerlidir)."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone Ayarlari → adiniz → Abonelikler → Calm → Aboneligi Iptal Et'i acin."
+          },
+          {
+            "instruction": "iOS abonelikleri uygulamadan degil iOS Ayarlari'ndan iptal edilmelidir."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play → profil simgesi → Odemeler ve abonelikler → Abonelikler → Calm → Iptal'i acin."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Neden uygulamadan iptal edemiyorum?",
+        "answer": "App Store uzerinden abone olduysaniz iOS veya Android ayarlarindan iptal etmeniz gerekir."
+      },
+      {
+        "question": "Iptal sonrasi iceriklere erisebilir miyim?",
+        "answer": "Evet, mevcut faturalama donemi sonuna kadar."
+      }
+    ]
+  },
+  "headspace": {
+    "description": "Headspace'i web veya cihaz ayarlari uzerinden iptal edin. Ucretsiz icerikler kullanilabilir olmaya devam eder.",
+    "difficulty": "Kolay",
+    "difficultyReason": "Iptal secenegi hesap ayarlarinda kolayca bulunabilir.",
+    "refundPolicy": "Oransal iade yoktur. Ucretsiz icerikler iptalden sonra da kullanilabilir.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "headspace.com/account/subscriptions adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "Aboneligi Iptal Et'e tiklayin."
+          },
+          {
+            "instruction": "Iptali onaylayin."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone Ayarlari → adiniz → Abonelikler → Headspace → Aboneligi Iptal Et'i acin."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play → profil simgesi → Odemeler ve abonelikler → Abonelikler → Headspace → Iptal'i acin."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Iptal sonrasi iceriklere erisebilir miyim?",
+        "answer": "Ucretsiz icerikler kullanilabilir olmaya devam eder. Premium icerikler donem bitiminden sonra erisilenemez."
+      },
+      {
+        "question": "Ogrenci veya is planimvar.",
+        "answer": "Ozel planlari iptal etmek icin Headspace destegiyle iletisime gecin."
+      }
+    ]
+  },
+  "chewy-autoship": {
+    "description": "Chewy Autoship teslimatlarini web veya uygulama uzerinden iptal edin. Her urun ayri ayri iptal edilmelidir.",
+    "difficulty": "Kolay",
+    "difficultyReason": "Autoship abonelikleri hesap yonetiminde acikca listelenmistir.",
+    "refundPolicy": "Chewy comert iade politikasyila bilinir. Sorun yasarsaniz destek ile iletisime gecin.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "chewy.com adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "Hesap → Autoship ve Tasarruf'a tiklayin."
+          },
+          {
+            "instruction": "Urunun yanindaki Autoship'i Yonet → Iptal'e tiklayin."
+          },
+          {
+            "instruction": "Her urun icin tekrarlayin."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Chewy uygulamasini acin → Hesap → Autoship ve Tasarruf → urunu secin → Iptal Et."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Chewy uygulamasini acin → Hesap → Autoship ve Tasarruf → urunu secin → Iptal Et."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Tum Autoship'leri ayni anda iptal edebilir miyim?",
+        "answer": "Hayir. Her urun ayri ayri iptal edilmelidir."
+      },
+      {
+        "question": "Chewy'nin iade politikasi nasil?",
+        "answer": "Chewy mukemmel musteri hizmetiyle bilinir. Sorun yasarsaniz destek ile iletisime gecin."
+      }
+    ]
   }
 }

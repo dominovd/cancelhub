@@ -3376,5 +3376,482 @@
         "answer": "Ja, till slutet av din nuvarande faktureringsperiod."
       }
     ]
+  },
+  "linkedin-premium": {
+    "description": "Avsluta LinkedIn Premium via webben eller enhetsinstaellningarna. Din profil och dina kontakter bevaras.",
+    "difficulty": "Medel",
+    "difficultyReason": "Avslutningsalternativet aer gomt i flera menynivaaer och aer inte omedelbart synligt.",
+    "refundPolicy": "Inga proportionella aaterbetalningar. Tillgaengligheten kvarstaar till faktureringsperiodens slut.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gaaa till linkedin.com och logga in."
+          },
+          {
+            "instruction": "Klicka paa din profilbild (uppe till hoeeger) → Instaellningar och integritet."
+          },
+          {
+            "instruction": "Vaelj Prenumerationer och betalningar."
+          },
+          {
+            "instruction": "Klicka paa Hantera Premium → Avsluta prenumeration."
+          },
+          {
+            "instruction": "Foelj stegen foer att bekraefta."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Oeppna iPhone-instaellningar → ditt namn → Prenumerationer."
+          },
+          {
+            "instruction": "Vaelj LinkedIn och tryck paa Avsluta prenumeration."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Oeppna Google Play → profilikonen → Betalningar och prenumerationer → Prenumerationer."
+          },
+          {
+            "instruction": "Vaelj LinkedIn och tryck paa Avsluta."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Foerlorar jag mina kontakter eller min profil?",
+        "answer": "Nej. Profil, kontakter och meddelanden finns kvar i det kostnadsfria kontot."
+      },
+      {
+        "question": "Vad foerlorar jag efter avslutning?",
+        "answer": "InMail-krediter, profilvisningar och avancerad analys."
+      }
+    ]
+  },
+  "dropbox": {
+    "description": "Gaaa fraan Dropbox Plus eller Professional till det kostnadsfria 2 GB-abonnemanget via kontohanteringen.",
+    "difficulty": "Enkelt",
+    "difficultyReason": "Planbyte aer tillgaengligt direkt fraan kontoinstaellningarna.",
+    "refundPolicy": "Inga proportionella aaterbetalningar. Tillgaengligheten till det betalda abonnemanget kvarstaar till periodens slut.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gaaa till dropbox.com/account/plan och logga in."
+          },
+          {
+            "instruction": "Klicka paa Byt plan."
+          },
+          {
+            "instruction": "Vaelj det kostnadsfria abonnemanget (2 GB) och bekraefta."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Oeppna Safari och gaaa till dropbox.com/account/plan, eller anvaend iPhone-instaellningar → Prenumerationer om du prenumererade via Apple."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Oeppna webblaeesaren och gaaa till dropbox.com/account/plan, eller anvaend Google Play → Prenumerationer om du prenumererade daer."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kommer mina filer att raderas?",
+        "answer": "Nej. Filer stoerre aen 2 GB slutar synkroniseras men raderas inte."
+      },
+      {
+        "question": "Jag har ett Business-konto.",
+        "answer": "Business-konton hanteras via adminkonsolen. Kontakta din administratoer."
+      }
+    ]
+  },
+  "grammarly": {
+    "description": "Avsluta Grammarly Premium via kontoinstaellningarna och aatergaa till den kostnadsfria grundversionen.",
+    "difficulty": "Enkelt",
+    "difficultyReason": "Avslutningsalternativet aer tillgaengligt direkt i prenumerationsinstaellningarna.",
+    "refundPolicy": "AAterbetaling moejlig inom 30 dagar efter aarskoep via support.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gaaa till account.grammarly.com/subscription och logga in."
+          },
+          {
+            "instruction": "Klicka paa Avsluta prenumeration."
+          },
+          {
+            "instruction": "Foelj stegen och bekraefta avslutningen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Oeppna iPhone-instaellningar → ditt namn → Prenumerationer → Grammarly → Avsluta prenumeration."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Oeppna Google Play → profilikonen → Betalningar och prenumerationer → Prenumerationer → Grammarly → Avsluta."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Vad haender efter avslutning?",
+        "answer": "Ditt konto aatergaar till den kostnadsfria versionen med begraensade grundkontroller."
+      },
+      {
+        "question": "Kan jag faa aatersaettning foer mitt aarsabonnemang?",
+        "answer": "Ja, inom 30 dagar fraan koepet. Kontakta Grammarlyss support."
+      }
+    ]
+  },
+  "canva-pro": {
+    "description": "Avsluta Canva Pro via kontoinstaellningarna. Dina designer bevaras i det kostnadsfria abonnemanget.",
+    "difficulty": "Enkelt",
+    "difficultyReason": "Avslutningsalternativet aer laett tillgaengligt under Fakturering och abonnemang.",
+    "refundPolicy": "Inga proportionella aaterbetalningar. Premium-funktioner aer aktiva till periodens slut.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gaaa till canva.com och logga in."
+          },
+          {
+            "instruction": "Klicka paa din profilbild → Kontoinstaellningar."
+          },
+          {
+            "instruction": "Vaelj Fakturering och abonnemang."
+          },
+          {
+            "instruction": "Klicka paa Avsluta abonnemang och bekraefta."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Oeppna iPhone-instaellningar → ditt namn → Prenumerationer → Canva → Avsluta prenumeration."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Oeppna Google Play → profilikonen → Betalningar och prenumerationer → Prenumerationer → Canva → Avsluta."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Foerlorar jag mina designer?",
+        "answer": "Nej. Alla designer bevaras, men Premium-element kan inte redigeras."
+      },
+      {
+        "question": "Kan jag avsluta naar som helst?",
+        "answer": "Ja. Avslutningen traeder i kraft omedelbart; Premium-tillgaengligheten varar till faktureringscykelns slut."
+      }
+    ]
+  },
+  "hellofresh": {
+    "description": "Avsluta HelloFresh via webben innan fredag midnight. Appen erbjuder inte direkt avslutning.",
+    "difficulty": "Medel",
+    "difficultyReason": "HelloFresh marknasfoer aktivt pauseringsalternativ innan avslutning aer moejlig.",
+    "refundPolicy": "Redan behandlade bestaellningar kan inte avbrytas. Avsluta innan fredag midnight.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gaaa till hellofresh.com och logga in."
+          },
+          {
+            "instruction": "Gaaa till Konto → Planinstaellningar."
+          },
+          {
+            "instruction": "Scrolla foerbi pauserbjudandena och klicka paa Avsluta abonnemang."
+          },
+          {
+            "instruction": "Foelj stegen foer att bekraefta avslutningen."
+          },
+          {
+            "instruction": "Se till att avsluta innan fredag midnight foer att undvika naesta leverans."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Anvaend mobillaeesaren och gaaa till hellofresh.com/account/plan. Appen erbjuder inte direkt avslutning."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Anvaend mobillaeesaren och gaaa till hellofresh.com/account/plan. Appen erbjuder inte direkt avslutning."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Varfoer uppmanas jag att pausa?",
+        "answer": "HelloFresh foeredrar pausering framfoer avslutning. Ignorera dessa erbjudanden och fortsaett avsluta."
+      },
+      {
+        "question": "Naar maaaste jag avsluta foer att undvika naesta bestaellning?",
+        "answer": "Sista datum aer fredag midnight foer naesta vecka."
+      }
+    ]
+  },
+  "playstation-plus": {
+    "description": "Avsluta PlayStation Plus via webben, appen eller direkt paa PS4/PS5-konsolen.",
+    "difficulty": "Enkelt",
+    "difficultyReason": "Avslutningsalternativet aer tydligt och tillgaengligt fraan kontoinstaellningarna.",
+    "refundPolicy": "Inga proportionella aaterbetalningar. Tillgaengligheten kvarstaar till faktureringsperiodens slut.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gaaa till playstation.com och logga in."
+          },
+          {
+            "instruction": "Klicka paa din profilbild → Kontoinstaellningar."
+          },
+          {
+            "instruction": "Vaelj Prenumerationer."
+          },
+          {
+            "instruction": "Klicka paa Avsluta bredvid PlayStation Plus."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Oeppna PlayStation-appen → profilikonen → Prenumerationer → Avsluta PlayStation Plus."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Oeppna PlayStation-appen → profilikonen → Prenumerationer → Avsluta PlayStation Plus."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Vad haender med mina maanadsvis spel?",
+        "answer": "Maanadsvis spel laases tills du prenumererar igen. De raderas inte."
+      },
+      {
+        "question": "Kan jag avsluta via konsolen?",
+        "answer": "Ja. Paa PS4/PS5, gaaa till Instaellningar → Konto → Prenumerationer → Avsluta."
+      }
+    ]
+  },
+  "xbox-game-pass": {
+    "description": "Avsluta Xbox Game Pass via Microsoft-kontot paa webben, Xbox-appen eller konsolen.",
+    "difficulty": "Enkelt",
+    "difficultyReason": "Avslutning via Microsoft-kontot paa webben aer enkelt och snabbt.",
+    "refundPolicy": "Inga proportionella aaterbetalningar. Tillgaengligheten kvarstaar till faktureringsperiodens slut.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gaaa till account.microsoft.com/services och logga in."
+          },
+          {
+            "instruction": "Hitta Xbox Game Pass och klicka paa Avsluta."
+          },
+          {
+            "instruction": "Foelj stegen foer att bekraefta."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Oeppna Xbox-appen eller anvaend iPhone-instaellningar → Prenumerationer om du prenumererade via Apple."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Oeppna Xbox-appen eller Google Play → Betalningar och prenumerationer → Prenumerationer → Game Pass → Avsluta."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Vad aer Xbox Game Pass Ultimate?",
+        "answer": "Ultimate inkluderar Xbox Live Gold, PC Game Pass och molnspelande i ett prenumeration."
+      },
+      {
+        "question": "Kan jag avsluta via konsolen?",
+        "answer": "Ja. Paa Xbox, gaaa till Instaellningar → Konto → Prenumerationer → Hantera Game Pass."
+      }
+    ]
+  },
+  "calm": {
+    "description": "Avsluta Calm Premium via webben eller enhetsinstaellningarna. iOS-prenumerationer maaste avslutas via iOS.",
+    "difficulty": "Enkelt",
+    "difficultyReason": "Tydligt avslutningsalternativ i appinstaellningarna foer direktkoep.",
+    "refundPolicy": "Tillgaengligheten kvarstaar till faktureringsperiodens slut.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gaaa till calm.com/app/settings och logga in."
+          },
+          {
+            "instruction": "Klicka paa Avsluta Premium (endast foer direktkoep via Calm)."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Oeppna iPhone-instaellningar → ditt namn → Prenumerationer → Calm → Avsluta prenumeration."
+          },
+          {
+            "instruction": "iOS-prenumerationer MAASTE avslutas via iOS-instaellningar, inte via appen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Oeppna Google Play → profilikonen → Betalningar och prenumerationer → Prenumerationer → Calm → Avsluta."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Varfoer kan jag inte avsluta via appen?",
+        "answer": "Om du prenumererade via App Store maaste du avsluta via iOS- eller Android-instaellningarna."
+      },
+      {
+        "question": "Har jag tillgaeng till innehaall efter avslutning?",
+        "answer": "Ja, till slutet av den aktuella faktureringsperioden."
+      }
+    ]
+  },
+  "headspace": {
+    "description": "Avsluta Headspace via webben eller enhetsinstaellningarna. Kostnadsfritt innehaall finns kvar.",
+    "difficulty": "Enkelt",
+    "difficultyReason": "Avslutningsalternativet aer laett att hitta i kontoinstaellningarna.",
+    "refundPolicy": "Inga proportionella aaterbetalningar. Kostnadsfritt innehaall aer tillgaengligt efter avslutning.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gaaa till headspace.com/account/subscriptions och logga in."
+          },
+          {
+            "instruction": "Klicka paa Avsluta prenumeration."
+          },
+          {
+            "instruction": "Bekraefta avslutningen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Oeppna iPhone-instaellningar → ditt namn → Prenumerationer → Headspace → Avsluta prenumeration."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Oeppna Google Play → profilikonen → Betalningar och prenumerationer → Prenumerationer → Headspace → Avsluta."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Har jag tillgaeng till innehaall efter avslutning?",
+        "answer": "Kostnadsfritt innehaall finns kvar. Premium-innehaall aer inte tillgaengligt efter periodens slut."
+      },
+      {
+        "question": "Jag har ett student- eller arbetsabonnemang.",
+        "answer": "Kontakta Headspace support foer att avsluta speciella abonnemang."
+      }
+    ]
+  },
+  "chewy-autoship": {
+    "description": "Avsluta Chewy Autoship-leveranser via webben eller appen. Varje produkt maaste avslutas separat.",
+    "difficulty": "Enkelt",
+    "difficultyReason": "Autoship-prenumerationer aer tydligt listade i kontohanteringen.",
+    "refundPolicy": "Chewy aer kaent foer sin generoes aaterbetalningspolicy. Kontakta support vid problem.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gaaa till chewy.com och logga in."
+          },
+          {
+            "instruction": "Klicka paa Konto → Autoship och spara."
+          },
+          {
+            "instruction": "Klicka paa Hantera Autoship bredvid produkten → Avsluta."
+          },
+          {
+            "instruction": "Upprepa foer varje produkt."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Oeppna Chewy-appen → Konto → Autoship och spara → vaelj produkt → Avsluta."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Oeppna Chewy-appen → Konto → Autoship och spara → vaelj produkt → Avsluta."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kan jag avsluta alla Autoship paa en gaang?",
+        "answer": "Nej. Varje produkt maaste avslutas individuellt."
+      },
+      {
+        "question": "Hur bra aer Chewys aaterbetalningspolicy?",
+        "answer": "Chewy aer kaent foer sin utmaerkta kundservice. Kontakta support vid problem."
+      }
+    ]
   }
 }

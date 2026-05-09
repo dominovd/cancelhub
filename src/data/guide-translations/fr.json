@@ -3011,8 +3011,7 @@
         "answer": "Non. Les plans d'engagement ne peuvent pas être résiliés avant leur terme. Vous devez attendre la fin de la période souscrite."
       }
     ]
-  }
-,
+  },
   "ancestry": {
     "description": "Resiliez votre abonnement Ancestry (arbre genealogique) en moins de 5 minutes sur le web ou depuis les parametres de votre appareil.",
     "difficulty": "Moyen",
@@ -3476,6 +3475,482 @@
         "answer": "Oui, si vous resiliez dans les 30 jours suivant l'achat. Apres ce delai, aucun remboursement n'est possible."
       }
     ]
+  },
+  "linkedin-premium": {
+    "description": "Resiliez LinkedIn Premium depuis le web ou les parametres de l'appareil. Le profil et les connexions sont conserves.",
+    "difficulty": "Moyen",
+    "difficultyReason": "L'option de resiliation est enfouie dans plusieurs niveaux de menus et n'est pas immediatement visible.",
+    "refundPolicy": "Pas de remboursement au prorata. L'acces reste actif jusqu'a la fin de la periode de facturation.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Allez sur linkedin.com et connectez-vous."
+          },
+          {
+            "instruction": "Cliquez sur votre photo de profil (en haut a droite) → Parametres et confidentialite."
+          },
+          {
+            "instruction": "Selectionnez Abonnements et paiements."
+          },
+          {
+            "instruction": "Cliquez sur Gerer Premium → Resilier l'abonnement."
+          },
+          {
+            "instruction": "Suivez les etapes pour confirmer."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ouvrez Reglages iPhone → votre nom → Abonnements."
+          },
+          {
+            "instruction": "Selectionnez LinkedIn et appuyez sur Resilier l'abonnement."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ouvrez Google Play → icone de profil → Paiements et abonnements → Abonnements."
+          },
+          {
+            "instruction": "Selectionnez LinkedIn et appuyez sur Resilier."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Vais-je perdre mes connexions ou mon profil ?",
+        "answer": "Non. Le profil, les connexions et les messages restent sur le compte gratuit."
+      },
+      {
+        "question": "Que perdrai-je apres la resiliation ?",
+        "answer": "Les credits InMail, les vues de profil et les analyses avancees."
+      }
+    ]
+  },
+  "dropbox": {
+    "description": "Passez de Dropbox Plus ou Professional a l'offre gratuite de 2 Go depuis la gestion de compte.",
+    "difficulty": "Facile",
+    "difficultyReason": "Le changement de plan est accessible directement depuis les parametres du compte.",
+    "refundPolicy": "Pas de remboursement au prorata. L'acces au plan payant reste actif jusqu'a la fin de la periode.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Allez sur dropbox.com/account/plan et connectez-vous."
+          },
+          {
+            "instruction": "Cliquez sur Changer de plan."
+          },
+          {
+            "instruction": "Selectionnez le plan gratuit (2 Go) et confirmez."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ouvrez Safari et allez sur dropbox.com/account/plan, ou utilisez Reglages iPhone → Abonnements si vous avez souscrit via Apple."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ouvrez le navigateur et allez sur dropbox.com/account/plan, ou utilisez Google Play → Abonnements si vous avez souscrit la-bas."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Mes fichiers seront-ils supprimes ?",
+        "answer": "Non. Les fichiers depassant 2 Go cesseront de se synchroniser mais ne seront pas supprimes."
+      },
+      {
+        "question": "J'ai un compte Business.",
+        "answer": "Les comptes Business sont geres via la Console d'administration. Contactez votre administrateur."
+      }
+    ]
+  },
+  "grammarly": {
+    "description": "Resiliez Grammarly Premium depuis les parametres du compte et revenez a la version gratuite.",
+    "difficulty": "Facile",
+    "difficultyReason": "L'option de resiliation est disponible directement dans les parametres d'abonnement.",
+    "refundPolicy": "Remboursement possible dans les 30 jours apres un achat annuel en contactant le support.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Allez sur account.grammarly.com/subscription et connectez-vous."
+          },
+          {
+            "instruction": "Cliquez sur Resilier l'abonnement."
+          },
+          {
+            "instruction": "Suivez les etapes et confirmez la resiliation."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ouvrez Reglages iPhone → votre nom → Abonnements → Grammarly → Resilier l'abonnement."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ouvrez Google Play → icone de profil → Paiements et abonnements → Abonnements → Grammarly → Resilier."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Que se passe-t-il apres la resiliation ?",
+        "answer": "Votre compte revient a la version gratuite avec des verifications de base limitees."
+      },
+      {
+        "question": "Puis-je obtenir un remboursement pour mon plan annuel ?",
+        "answer": "Oui, dans les 30 jours suivant l'achat. Contactez le support Grammarly."
+      }
+    ]
+  },
+  "canva-pro": {
+    "description": "Resiliez Canva Pro depuis les parametres du compte. Les creations sont conservees dans le plan gratuit.",
+    "difficulty": "Facile",
+    "difficultyReason": "L'option de resiliation est facilement accessible dans Facturation et plans.",
+    "refundPolicy": "Pas de remboursement au prorata. Les fonctionnalites Premium restent actives jusqu'a la fin de la periode.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Allez sur canva.com et connectez-vous."
+          },
+          {
+            "instruction": "Cliquez sur votre photo de profil → Parametres du compte."
+          },
+          {
+            "instruction": "Selectionnez Facturation et plans."
+          },
+          {
+            "instruction": "Cliquez sur Resilier le plan et confirmez."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ouvrez Reglages iPhone → votre nom → Abonnements → Canva → Resilier l'abonnement."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ouvrez Google Play → icone de profil → Paiements et abonnements → Abonnements → Canva → Resilier."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Vais-je perdre mes creations ?",
+        "answer": "Non. Toutes les creations sont conservees, mais les elements Premium ne pourront pas etre modifies."
+      },
+      {
+        "question": "Puis-je resilier a tout moment ?",
+        "answer": "Oui. La resiliation est immediate ; l'acces Premium dure jusqu'a la fin du cycle de facturation."
+      }
+    ]
+  },
+  "hellofresh": {
+    "description": "Resiliez HelloFresh depuis le web avant vendredi minuit. L'application ne permet pas de resilier directement.",
+    "difficulty": "Moyen",
+    "difficultyReason": "HelloFresh pousse agressivement vers la suspension avant d'afficher l'option de resiliation.",
+    "refundPolicy": "Les commandes deja traitees ne peuvent pas etre annulees. Resiliez avant vendredi minuit.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Allez sur hellofresh.com et connectez-vous."
+          },
+          {
+            "instruction": "Allez dans Compte → Parametres du plan."
+          },
+          {
+            "instruction": "Faites defiler apres les offres de suspension et cliquez sur Resilier le plan."
+          },
+          {
+            "instruction": "Suivez les etapes pour confirmer la resiliation."
+          },
+          {
+            "instruction": "Assurez-vous de resilier avant vendredi minuit pour eviter la prochaine livraison."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Utilisez le navigateur mobile et allez sur hellofresh.com/account/plan. L'application ne propose pas de resiliation directe."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Utilisez le navigateur mobile et allez sur hellofresh.com/account/plan. L'application ne propose pas de resiliation directe."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Pourquoi m'incite-t-on a suspendre plutot qu'a resilier ?",
+        "answer": "HelloFresh prefere que vous suspendiez votre abonnement. Ignorez ces offres et continuez vers la resiliation."
+      },
+      {
+        "question": "Jusqu'a quand puis-je resilier pour eviter la prochaine commande ?",
+        "answer": "La date limite est le vendredi minuit pour la semaine suivante."
+      }
+    ]
+  },
+  "playstation-plus": {
+    "description": "Resiliez PlayStation Plus depuis le web, l'application ou directement sur la console PS4/PS5.",
+    "difficulty": "Facile",
+    "difficultyReason": "L'option de resiliation est claire et accessible depuis les parametres du compte.",
+    "refundPolicy": "Pas de remboursement au prorata. L'acces reste actif jusqu'a la fin de la periode de facturation.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Allez sur playstation.com et connectez-vous."
+          },
+          {
+            "instruction": "Cliquez sur votre photo de profil → Parametres du compte."
+          },
+          {
+            "instruction": "Selectionnez Abonnements."
+          },
+          {
+            "instruction": "Cliquez sur Resilier en regard de PlayStation Plus."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ouvrez l'application PlayStation → icone de profil → Abonnements → Resilier PlayStation Plus."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ouvrez l'application PlayStation → icone de profil → Abonnements → Resilier PlayStation Plus."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Que se passe-t-il avec mes jeux mensuels ?",
+        "answer": "Les jeux mensuels sont verrouilles jusqu'a ce que vous vous reabonniez. Ils ne sont pas supprimes."
+      },
+      {
+        "question": "Puis-je resilier depuis la console ?",
+        "answer": "Oui. Sur PS4/PS5, allez dans Parametres → Compte → Abonnements → Resilier."
+      }
+    ]
+  },
+  "xbox-game-pass": {
+    "description": "Resiliez Xbox Game Pass depuis le compte Microsoft sur le web, l'application Xbox ou la console.",
+    "difficulty": "Facile",
+    "difficultyReason": "La resiliation via le compte Microsoft sur le web est simple et rapide.",
+    "refundPolicy": "Pas de remboursement au prorata. L'acces reste actif jusqu'a la fin de la periode de facturation.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Allez sur account.microsoft.com/services et connectez-vous."
+          },
+          {
+            "instruction": "Recherchez Xbox Game Pass et cliquez sur Resilier."
+          },
+          {
+            "instruction": "Suivez les etapes pour confirmer."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ouvrez l'application Xbox ou utilisez Reglages iPhone → Abonnements si vous avez souscrit via Apple."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ouvrez l'application Xbox ou Google Play → Paiements et abonnements → Abonnements → Game Pass → Resilier."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Qu'est-ce que Xbox Game Pass Ultimate ?",
+        "answer": "Ultimate inclut Xbox Live Gold, PC Game Pass et le jeu en cloud en un seul abonnement."
+      },
+      {
+        "question": "Puis-je resilier depuis la console ?",
+        "answer": "Oui. Sur Xbox, allez dans Parametres → Compte → Abonnements → Gerer Game Pass."
+      }
+    ]
+  },
+  "calm": {
+    "description": "Resiliez Calm Premium depuis le web ou les parametres de l'appareil. Les abonnements iOS doivent etre resilie depuis iOS.",
+    "difficulty": "Facile",
+    "difficultyReason": "Option de resiliation claire dans les parametres de l'application pour les achats directs.",
+    "refundPolicy": "L'acces reste actif jusqu'a la fin de la periode de facturation.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Allez sur calm.com/app/settings et connectez-vous."
+          },
+          {
+            "instruction": "Cliquez sur Resilier Premium (uniquement pour les achats directs sur Calm)."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ouvrez Reglages iPhone → votre nom → Abonnements → Calm → Resilier l'abonnement."
+          },
+          {
+            "instruction": "Les abonnements iOS DOIVENT etre resilies depuis les Reglages iOS, pas depuis l'application."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ouvrez Google Play → icone de profil → Paiements et abonnements → Abonnements → Calm → Resilier."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Pourquoi ne puis-je pas resilier depuis l'application ?",
+        "answer": "Si vous avez souscrit via l'App Store, la resiliation doit se faire depuis les Reglages iOS ou Android."
+      },
+      {
+        "question": "Puis-je acceder au contenu apres la resiliation ?",
+        "answer": "Oui, jusqu'a la fin de la periode de facturation en cours."
+      }
+    ]
+  },
+  "headspace": {
+    "description": "Resiliez Headspace depuis le web ou les parametres de l'appareil. Le contenu gratuit reste disponible.",
+    "difficulty": "Facile",
+    "difficultyReason": "L'option de resiliation est facilement trouvable dans les parametres du compte.",
+    "refundPolicy": "Pas de remboursement au prorata. Le contenu gratuit reste disponible apres la resiliation.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Allez sur headspace.com/account/subscriptions et connectez-vous."
+          },
+          {
+            "instruction": "Cliquez sur Resilier l'abonnement."
+          },
+          {
+            "instruction": "Confirmez la resiliation."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ouvrez Reglages iPhone → votre nom → Abonnements → Headspace → Resilier l'abonnement."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ouvrez Google Play → icone de profil → Paiements et abonnements → Abonnements → Headspace → Resilier."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Puis-je acceder au contenu apres la resiliation ?",
+        "answer": "Le contenu gratuit reste disponible. Le contenu Premium n'est plus accessible a la fin de la periode."
+      },
+      {
+        "question": "J'ai un plan etudiant ou professionnel.",
+        "answer": "Contactez le support Headspace pour resilier les plans speciaux."
+      }
+    ]
+  },
+  "chewy-autoship": {
+    "description": "Resiliez les livraisons automatiques Chewy depuis le web ou l'application. Chaque produit doit etre annule separement.",
+    "difficulty": "Facile",
+    "difficultyReason": "Les abonnements Autoship sont clairement listes dans la gestion de compte.",
+    "refundPolicy": "Chewy est reconnu pour sa politique de remboursement tres genereuse. Contactez le support en cas de probleme.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Allez sur chewy.com et connectez-vous."
+          },
+          {
+            "instruction": "Cliquez sur Compte → Autoship et economies."
+          },
+          {
+            "instruction": "Cliquez sur Gerer Autoship a cote du produit → Resilier."
+          },
+          {
+            "instruction": "Repetez pour chaque produit."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ouvrez l'application Chewy → Compte → Autoship et economies → selectionnez le produit → Resilier."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ouvrez l'application Chewy → Compte → Autoship et economies → selectionnez le produit → Resilier."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Puis-je resilier tous mes Autoship en meme temps ?",
+        "answer": "Non. Chaque produit doit etre annule individuellement."
+      },
+      {
+        "question": "Quelle est la politique de remboursement de Chewy ?",
+        "answer": "Chewy est reconnu pour son excellent service client. Contactez le support en cas de probleme."
+      }
+    ]
   }
-
 }

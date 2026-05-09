@@ -3376,5 +3376,482 @@
         "answer": "Ya, hingga akhir periode penagihan Anda saat ini."
       }
     ]
+  },
+  "linkedin-premium": {
+    "description": "Batalkan LinkedIn Premium melalui web atau pengaturan perangkat. Profil dan koneksi tetap tersimpan.",
+    "difficulty": "Sedang",
+    "difficultyReason": "Opsi pembatalan tersembunyi di beberapa level menu dan tidak langsung terlihat.",
+    "refundPolicy": "Tidak ada pengembalian dana proporsional. Akses tetap aktif hingga akhir periode penagihan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka linkedin.com dan masuk."
+          },
+          {
+            "instruction": "Klik foto profil Anda (kanan atas) → Pengaturan & Privasi."
+          },
+          {
+            "instruction": "Pilih Langganan & Pembayaran."
+          },
+          {
+            "instruction": "Klik Kelola Premium → Batalkan langganan."
+          },
+          {
+            "instruction": "Ikuti langkah-langkah untuk mengonfirmasi."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Buka Pengaturan iPhone → nama Anda → Langganan."
+          },
+          {
+            "instruction": "Pilih LinkedIn dan ketuk Batalkan Langganan."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Buka Google Play → ikon profil → Pembayaran & langganan → Langganan."
+          },
+          {
+            "instruction": "Pilih LinkedIn dan ketuk Batalkan."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Apakah saya akan kehilangan koneksi atau profil?",
+        "answer": "Tidak. Profil, koneksi, dan pesan tetap ada di akun gratis."
+      },
+      {
+        "question": "Apa yang saya kehilangan setelah pembatalan?",
+        "answer": "Kredit InMail, tampilan profil, dan analitik lanjutan."
+      }
+    ]
+  },
+  "dropbox": {
+    "description": "Beralih dari Dropbox Plus atau Professional ke paket gratis 2GB melalui manajemen akun.",
+    "difficulty": "Mudah",
+    "difficultyReason": "Perubahan paket dapat diakses langsung dari pengaturan akun.",
+    "refundPolicy": "Tidak ada pengembalian dana proporsional. Akses paket berbayar tetap aktif hingga akhir periode.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka dropbox.com/account/plan dan masuk."
+          },
+          {
+            "instruction": "Klik Ganti paket."
+          },
+          {
+            "instruction": "Pilih paket gratis (2GB) dan konfirmasi."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Buka Safari dan buka dropbox.com/account/plan, atau gunakan Pengaturan iPhone → Langganan jika berlangganan melalui Apple."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Buka browser dan buka dropbox.com/account/plan, atau gunakan Google Play → Langganan jika berlangganan di sana."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Apakah file saya akan dihapus?",
+        "answer": "Tidak. File di atas 2GB akan berhenti disinkronkan tetapi tidak dihapus."
+      },
+      {
+        "question": "Saya memiliki akun Business.",
+        "answer": "Akun Business dikelola melalui Admin Console. Hubungi administrator Anda."
+      }
+    ]
+  },
+  "grammarly": {
+    "description": "Batalkan Grammarly Premium dari pengaturan akun dan kembali ke versi dasar gratis.",
+    "difficulty": "Mudah",
+    "difficultyReason": "Opsi pembatalan tersedia langsung di pengaturan langganan.",
+    "refundPolicy": "Pengembalian dana dimungkinkan dalam 30 hari setelah pembelian tahunan melalui dukungan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka account.grammarly.com/subscription dan masuk."
+          },
+          {
+            "instruction": "Klik Batalkan langganan."
+          },
+          {
+            "instruction": "Ikuti langkah-langkah dan konfirmasi pembatalan."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Buka Pengaturan iPhone → nama Anda → Langganan → Grammarly → Batalkan Langganan."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Buka Google Play → ikon profil → Pembayaran & langganan → Langganan → Grammarly → Batalkan."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Apa yang terjadi setelah pembatalan?",
+        "answer": "Akun Anda akan kembali ke versi gratis dengan pemeriksaan dasar terbatas."
+      },
+      {
+        "question": "Bisakah saya mendapatkan pengembalian dana untuk paket tahunan?",
+        "answer": "Ya, dalam 30 hari setelah pembelian. Hubungi dukungan Grammarly."
+      }
+    ]
+  },
+  "canva-pro": {
+    "description": "Batalkan Canva Pro dari pengaturan akun. Desain tetap tersimpan di paket gratis.",
+    "difficulty": "Mudah",
+    "difficultyReason": "Opsi pembatalan mudah diakses di Penagihan & Paket.",
+    "refundPolicy": "Tidak ada pengembalian dana proporsional. Fitur Premium tetap aktif hingga akhir periode.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka canva.com dan masuk."
+          },
+          {
+            "instruction": "Klik foto profil → Pengaturan Akun."
+          },
+          {
+            "instruction": "Pilih Penagihan & Paket."
+          },
+          {
+            "instruction": "Klik Batalkan paket dan konfirmasi."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Buka Pengaturan iPhone → nama Anda → Langganan → Canva → Batalkan Langganan."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Buka Google Play → ikon profil → Pembayaran & langganan → Langganan → Canva → Batalkan."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Apakah desain saya akan hilang?",
+        "answer": "Tidak. Semua desain tetap tersimpan, tetapi elemen Premium tidak dapat diedit."
+      },
+      {
+        "question": "Bisakah saya membatalkan kapan saja?",
+        "answer": "Ya. Pembatalan langsung berlaku; akses Premium berlangsung hingga akhir siklus penagihan."
+      }
+    ]
+  },
+  "hellofresh": {
+    "description": "Batalkan HelloFresh melalui web sebelum Jumat tengah malam. Aplikasi tidak menyediakan pembatalan langsung.",
+    "difficulty": "Sedang",
+    "difficultyReason": "HelloFresh secara agresif mempromosikan opsi jeda sebelum pembatalan.",
+    "refundPolicy": "Pesanan yang sudah diproses tidak dapat dibatalkan. Batalkan sebelum Jumat tengah malam.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka hellofresh.com dan masuk."
+          },
+          {
+            "instruction": "Buka Akun → Pengaturan Paket."
+          },
+          {
+            "instruction": "Gulir melewati tawaran jeda dan klik Batalkan paket."
+          },
+          {
+            "instruction": "Ikuti langkah-langkah untuk mengonfirmasi pembatalan."
+          },
+          {
+            "instruction": "Pastikan membatalkan sebelum Jumat tengah malam untuk menghindari pengiriman berikutnya."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Gunakan browser mobile dan buka hellofresh.com/account/plan. Aplikasi tidak mendukung pembatalan langsung."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Gunakan browser mobile dan buka hellofresh.com/account/plan. Aplikasi tidak mendukung pembatalan langsung."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Mengapa saya terus didorong untuk menjeda?",
+        "answer": "HelloFresh lebih memilih jeda daripada pembatalan. Abaikan tawaran tersebut dan lanjutkan pembatalan."
+      },
+      {
+        "question": "Sampai kapan saya harus membatalkan untuk menghindari pesanan berikutnya?",
+        "answer": "Batas waktu adalah Jumat tengah malam untuk minggu berikutnya."
+      }
+    ]
+  },
+  "playstation-plus": {
+    "description": "Batalkan PlayStation Plus melalui web, aplikasi, atau langsung di konsol PS4/PS5.",
+    "difficulty": "Mudah",
+    "difficultyReason": "Opsi pembatalan jelas dan mudah diakses dari pengaturan akun.",
+    "refundPolicy": "Tidak ada pengembalian dana proporsional. Akses tetap aktif hingga akhir periode penagihan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka playstation.com dan masuk."
+          },
+          {
+            "instruction": "Klik foto profil → Pengaturan Akun."
+          },
+          {
+            "instruction": "Pilih Langganan."
+          },
+          {
+            "instruction": "Klik Batalkan di sebelah PlayStation Plus."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Buka aplikasi PlayStation → ikon profil → Langganan → Batalkan PlayStation Plus."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Buka aplikasi PlayStation → ikon profil → Langganan → Batalkan PlayStation Plus."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Apa yang terjadi dengan game bulanan saya?",
+        "answer": "Game bulanan akan terkunci hingga Anda berlangganan kembali. Game tidak dihapus."
+      },
+      {
+        "question": "Bisakah saya membatalkan dari konsol?",
+        "answer": "Ya. Di PS4/PS5 buka Pengaturan → Akun → Langganan → Batalkan."
+      }
+    ]
+  },
+  "xbox-game-pass": {
+    "description": "Batalkan Xbox Game Pass melalui akun Microsoft di web, aplikasi Xbox, atau konsol.",
+    "difficulty": "Mudah",
+    "difficultyReason": "Pembatalan melalui akun Microsoft di web mudah dan cepat.",
+    "refundPolicy": "Tidak ada pengembalian dana proporsional. Akses tetap aktif hingga akhir periode penagihan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka account.microsoft.com/services dan masuk."
+          },
+          {
+            "instruction": "Temukan Xbox Game Pass dan klik Batalkan."
+          },
+          {
+            "instruction": "Ikuti langkah-langkah untuk mengonfirmasi."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Buka aplikasi Xbox atau gunakan Pengaturan iPhone → Langganan jika berlangganan melalui Apple."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Buka aplikasi Xbox atau Google Play → Pembayaran & langganan → Langganan → Game Pass → Batalkan."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Apa itu Xbox Game Pass Ultimate?",
+        "answer": "Ultimate mencakup Xbox Live Gold, PC Game Pass, dan cloud gaming dalam satu langganan."
+      },
+      {
+        "question": "Bisakah saya membatalkan dari konsol?",
+        "answer": "Ya. Di Xbox buka Pengaturan → Akun → Langganan → Kelola Game Pass."
+      }
+    ]
+  },
+  "calm": {
+    "description": "Batalkan Calm Premium melalui web atau pengaturan perangkat. Langganan iOS harus dibatalkan melalui iOS.",
+    "difficulty": "Mudah",
+    "difficultyReason": "Opsi pembatalan jelas di pengaturan aplikasi untuk pembelian langsung.",
+    "refundPolicy": "Akses tetap aktif hingga akhir periode penagihan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka calm.com/app/settings dan masuk."
+          },
+          {
+            "instruction": "Klik Batalkan Premium (hanya untuk pembelian langsung di Calm)."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Buka Pengaturan iPhone → nama Anda → Langganan → Calm → Batalkan Langganan."
+          },
+          {
+            "instruction": "Langganan iOS HARUS dibatalkan melalui Pengaturan iOS, bukan dari aplikasi."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Buka Google Play → ikon profil → Pembayaran & langganan → Langganan → Calm → Batalkan."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Mengapa saya tidak bisa membatalkan dari aplikasi?",
+        "answer": "Jika berlangganan melalui App Store, pembatalan harus dilakukan melalui pengaturan iOS atau Android."
+      },
+      {
+        "question": "Bisakah saya mengakses konten setelah pembatalan?",
+        "answer": "Ya, hingga akhir periode penagihan saat ini."
+      }
+    ]
+  },
+  "headspace": {
+    "description": "Batalkan Headspace melalui web atau pengaturan perangkat. Konten gratis tetap tersedia.",
+    "difficulty": "Mudah",
+    "difficultyReason": "Opsi pembatalan mudah ditemukan di pengaturan akun.",
+    "refundPolicy": "Tidak ada pengembalian dana proporsional. Konten gratis tetap tersedia setelah pembatalan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka headspace.com/account/subscriptions dan masuk."
+          },
+          {
+            "instruction": "Klik Batalkan langganan."
+          },
+          {
+            "instruction": "Konfirmasi pembatalan."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Buka Pengaturan iPhone → nama Anda → Langganan → Headspace → Batalkan Langganan."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Buka Google Play → ikon profil → Pembayaran & langganan → Langganan → Headspace → Batalkan."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Bisakah saya mengakses konten setelah pembatalan?",
+        "answer": "Konten gratis tetap tersedia. Konten Premium tidak dapat diakses setelah periode berakhir."
+      },
+      {
+        "question": "Saya memiliki paket pelajar atau kerja.",
+        "answer": "Hubungi dukungan Headspace untuk membatalkan paket khusus."
+      }
+    ]
+  },
+  "chewy-autoship": {
+    "description": "Batalkan pengiriman Chewy Autoship melalui web atau aplikasi. Setiap produk harus dibatalkan secara terpisah.",
+    "difficulty": "Mudah",
+    "difficultyReason": "Langganan Autoship terdaftar dengan jelas di manajemen akun.",
+    "refundPolicy": "Chewy dikenal dengan kebijakan pengembalian dana yang murah hati. Hubungi dukungan jika ada masalah.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka chewy.com dan masuk."
+          },
+          {
+            "instruction": "Klik Akun → Autoship & Hemat."
+          },
+          {
+            "instruction": "Klik Kelola Autoship di sebelah produk → Batalkan."
+          },
+          {
+            "instruction": "Ulangi untuk setiap produk."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Buka aplikasi Chewy → Akun → Autoship & Hemat → pilih produk → Batalkan."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Buka aplikasi Chewy → Akun → Autoship & Hemat → pilih produk → Batalkan."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Bisakah saya membatalkan semua Autoship sekaligus?",
+        "answer": "Tidak. Setiap produk harus dibatalkan secara individual."
+      },
+      {
+        "question": "Seberapa baik kebijakan pengembalian dana Chewy?",
+        "answer": "Chewy dikenal dengan layanan pelanggan yang sangat baik. Hubungi dukungan jika ada masalah."
+      }
+    ]
   }
 }

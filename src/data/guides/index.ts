@@ -61,6 +61,16 @@ import { siriusxm } from './siriusxm'
 import { tidal } from './tidal'
 import { onlyfans } from './onlyfans'
 import { thriveMarket } from './thrive-market'
+import { linkedinPremium } from './linkedin-premium'
+import { dropbox } from './dropbox'
+import { grammarly } from './grammarly'
+import { canvaPro } from './canva-pro'
+import { hellofresh } from './hellofresh'
+import { playstationPlus } from './playstation-plus'
+import { xboxGamePass } from './xbox-game-pass'
+import { calm } from './calm'
+import { headspace } from './headspace'
+import { chewyAutoship } from './chewy-autoship'
 
 export const allGuides: CancelGuide[] = [
   netflix,
@@ -125,6 +135,16 @@ export const allGuides: CancelGuide[] = [
   tidal,
   onlyfans,
   thriveMarket,
+  linkedinPremium,
+  dropbox,
+  grammarly,
+  canvaPro,
+  hellofresh,
+  playstationPlus,
+  xboxGamePass,
+  calm,
+  headspace,
+  chewyAutoship,
 ]
 
 export const guidesBySlug: Record<string, CancelGuide> = Object.fromEntries(

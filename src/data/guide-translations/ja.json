@@ -3325,5 +3325,483 @@
         "answer": "現在の請求期間の終了まで引き続きご利用いただけます。"
       }
     ]
+  },
+  "linkedin-premium": {
+    "description": "LinkedIn PremiumをWebまたはデバイス設定からキャンセルします。プロフィールと繋がりはそのまま維持されます。",
+    "difficulty": "普通",
+    "difficultyReason": "キャンセルオプションが複数のメニュー階層に隠れており、すぐには見つかりません。",
+    "refundPolicy": "日割り返金はありません。請求期間の終了までアクセスは継続されます。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "linkedin.comにアクセスしてログインします。"
+          },
+          {
+            "instruction": "右上のプロフィール写真をクリック → 設定とプライバシー。"
+          },
+          {
+            "instruction": "「サブスクリプションとお支払い」を選択します。"
+          },
+          {
+            "instruction": "「Premiumを管理」→「サブスクリプションをキャンセル」をクリックします。"
+          },
+          {
+            "instruction": "手順に従って確認します。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone設定 → 自分の名前 → サブスクリプションを開きます。"
+          },
+          {
+            "instruction": "LinkedInを選択し、「サブスクリプションをキャンセル」をタップします。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play → プロフィールアイコン → お支払いとサブスクリプション → サブスクリプションを開きます。"
+          },
+          {
+            "instruction": "LinkedInを選択し、「キャンセル」をタップします。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "繋がりやプロフィールは失われますか？",
+        "answer": "いいえ。プロフィール、繋がり、メッセージは無料アカウントで引き続き利用できます。"
+      },
+      {
+        "question": "キャンセル後に何が使えなくなりますか？",
+        "answer": "InMailクレジット、プロフィール閲覧数、詳細な分析機能が利用できなくなります。"
+      }
+    ]
+  },
+  "dropbox": {
+    "description": "Dropbox PlusまたはProfessionalからアカウント管理で無料の2GBプランに変更します。",
+    "difficulty": "簡単",
+    "difficultyReason": "プラン変更はアカウント設定から直接アクセスできます。",
+    "refundPolicy": "日割り返金はありません。有料プランへのアクセスは期間終了まで継続されます。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "dropbox.com/account/planにアクセスしてログインします。"
+          },
+          {
+            "instruction": "「プランを変更」をクリックします。"
+          },
+          {
+            "instruction": "無料プラン（2GB）を選択して確認します。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "SafariでdropBox.com/account/planを開くか、Appleから登録した場合はiPhone設定 → サブスクリプションを使用します。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "ブラウザでdropbox.com/account/planを開くか、Google Playから登録した場合はGoogle Play → サブスクリプションを使用します。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "ファイルは削除されますか？",
+        "answer": "いいえ。2GBを超えるファイルは同期されなくなりますが、削除はされません。"
+      },
+      {
+        "question": "Businessアカウントを持っています。",
+        "answer": "Businessアカウントは管理コンソールから管理されます。管理者にご連絡ください。"
+      }
+    ]
+  },
+  "grammarly": {
+    "description": "アカウント設定からGrammarly Premiumをキャンセルし、無料の基本版に戻ります。",
+    "difficulty": "簡単",
+    "difficultyReason": "キャンセルオプションはサブスクリプション設定から直接アクセスできます。",
+    "refoundPolicy": "年間購入の場合、30日以内にサポートへ連絡することで返金可能です。",
+    "refundPolicy": "年間購入の場合、30日以内にサポートへ連絡することで返金可能です。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "account.grammarly.com/subscriptionにアクセスしてログインします。"
+          },
+          {
+            "instruction": "「サブスクリプションをキャンセル」をクリックします。"
+          },
+          {
+            "instruction": "手順に従いキャンセルを確認します。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone設定 → 自分の名前 → サブスクリプション → Grammarly → サブスクリプションをキャンセルを開きます。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play → プロフィールアイコン → お支払いとサブスクリプション → サブスクリプション → Grammarly → キャンセルを開きます。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "キャンセル後はどうなりますか？",
+        "answer": "アカウントは制限された基本チェックのみの無料版に戻ります。"
+      },
+      {
+        "question": "年間プランの返金を受けられますか？",
+        "answer": "はい、購入から30日以内であれば可能です。Grammarlyサポートへご連絡ください。"
+      }
+    ]
+  },
+  "canva-pro": {
+    "description": "アカウント設定からCanva Proをキャンセルします。デザインは無料プランでも保持されます。",
+    "difficulty": "簡単",
+    "difficultyReason": "「請求とプラン」からキャンセルオプションに簡単にアクセスできます。",
+    "refundPolicy": "日割り返金はありません。プレミアム機能は期間終了まで有効です。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "canva.comにアクセスしてログインします。"
+          },
+          {
+            "instruction": "プロフィール写真 → アカウント設定をクリックします。"
+          },
+          {
+            "instruction": "「請求とプラン」を選択します。"
+          },
+          {
+            "instruction": "「プランをキャンセル」をクリックして確認します。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone設定 → 自分の名前 → サブスクリプション → Canva → サブスクリプションをキャンセルを開きます。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play → プロフィールアイコン → お支払いとサブスクリプション → サブスクリプション → Canva → キャンセルを開きます。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "デザインは失われますか？",
+        "answer": "いいえ。すべてのデザインは保持されますが、プレミアム素材は編集できなくなります。"
+      },
+      {
+        "question": "いつでもキャンセルできますか？",
+        "answer": "はい。キャンセルはすぐに有効になり、プレミアムアクセスは請求サイクル終了まで続きます。"
+      }
+    ]
+  },
+  "hellofresh": {
+    "description": "HelloFreshを金曜日の深夜前までにWebからキャンセルします。アプリからは直接キャンセルできません。",
+    "difficulty": "普通",
+    "difficultyReason": "HelloFreshはキャンセル前に一時停止オプションを積極的に促します。",
+    "refundPolicy": "既に処理された注文はキャンセルできません。金曜日の深夜前にキャンセルしてください。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "hellofresh.comにアクセスしてログインします。"
+          },
+          {
+            "instruction": "アカウント → プラン設定に移動します。"
+          },
+          {
+            "instruction": "一時停止のオファーをスクロールして「プランをキャンセル」をクリックします。"
+          },
+          {
+            "instruction": "手順に従ってキャンセルを確認します。"
+          },
+          {
+            "instruction": "次回の配送を避けるため、金曜日の深夜前にキャンセルしてください。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "モバイルブラウザでhellofresh.com/account/planを開いてください。アプリは直接キャンセルに対応していません。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "モバイルブラウザでhellofresh.com/account/planを開いてください。アプリは直接キャンセルに対応していません。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "なぜ一時停止を勧めてくるのですか？",
+        "answer": "HelloFreshはキャンセルより一時停止を好みます。これらのオファーを無視してキャンセルを進めてください。"
+      },
+      {
+        "question": "次回の注文を避けるためのキャンセル期限はいつですか？",
+        "answer": "翌週分のキャンセル期限は金曜日の深夜です。"
+      }
+    ]
+  },
+  "playstation-plus": {
+    "description": "PlayStation PlusをWeb、アプリ、またはPS4/PS5本体から直接キャンセルします。",
+    "difficulty": "簡単",
+    "difficultyReason": "キャンセルオプションはアカウント設定から明確にアクセスできます。",
+    "refundPolicy": "日割り返金はありません。アクセスは請求期間終了まで継続されます。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "playstation.comにアクセスしてログインします。"
+          },
+          {
+            "instruction": "プロフィール写真 → アカウント設定をクリックします。"
+          },
+          {
+            "instruction": "「サブスクリプション」を選択します。"
+          },
+          {
+            "instruction": "PlayStation Plusの横の「キャンセル」をクリックします。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "PlayStationアプリ → プロフィールアイコン → サブスクリプション → PlayStation Plusをキャンセルを開きます。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "PlayStationアプリ → プロフィールアイコン → サブスクリプション → PlayStation Plusをキャンセルを開きます。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "毎月のゲームはどうなりますか？",
+        "answer": "毎月のゲームは再登録するまでロックされます。削除はされません。"
+      },
+      {
+        "question": "本体からキャンセルできますか？",
+        "answer": "はい。PS4/PS5で設定 → アカウント → サブスクリプション → キャンセルに進みます。"
+      }
+    ]
+  },
+  "xbox-game-pass": {
+    "description": "Xbox Game PassをWeb上のMicrosoftアカウント、Xboxアプリ、または本体からキャンセルします。",
+    "difficulty": "簡単",
+    "difficultyReason": "Web上のMicrosoftアカウントからのキャンセルはシンプルで迅速です。",
+    "refundPolicy": "日割り返金はありません。アクセスは請求期間終了まで継続されます。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "account.microsoft.com/servicesにアクセスしてログインします。"
+          },
+          {
+            "instruction": "Xbox Game Passを見つけて「キャンセル」をクリックします。"
+          },
+          {
+            "instruction": "手順に従って確認します。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Xboxアプリを開くか、Appleから登録した場合はiPhone設定 → サブスクリプションを使用します。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "XboxアプリまたはGoogle Play → お支払いとサブスクリプション → サブスクリプション → Game Pass → キャンセルを開きます。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Xbox Game Pass Ultimateとは何ですか？",
+        "answer": "UltimateにはXbox Live Gold、PC Game Pass、クラウドゲームが1つのサブスクリプションに含まれます。"
+      },
+      {
+        "question": "本体からキャンセルできますか？",
+        "answer": "はい。Xboxで設定 → アカウント → サブスクリプション → Game Passを管理に進みます。"
+      }
+    ]
+  },
+  "calm": {
+    "description": "Calm PremiumをWebまたはデバイス設定からキャンセルします。iOSサブスクリプションはiOS設定からキャンセルする必要があります。",
+    "difficulty": "簡単",
+    "difficultyReason": "直接購入の場合、アプリ設定にキャンセルオプションが明確に表示されます。",
+    "refundPolicy": "アクセスは請求期間終了まで継続されます。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "calm.com/app/settingsにアクセスしてログインします。"
+          },
+          {
+            "instruction": "「Premiumをキャンセル」をクリックします（Calmで直接購入した場合のみ）。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone設定 → 自分の名前 → サブスクリプション → Calm → サブスクリプションをキャンセルを開きます。"
+          },
+          {
+            "instruction": "iOSサブスクリプションはアプリからではなく、iOS設定からキャンセルする必要があります。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play → プロフィールアイコン → お支払いとサブスクリプション → サブスクリプション → Calm → キャンセルを開きます。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "なぜアプリからキャンセルできないのですか？",
+        "answer": "App Storeから登録した場合、iOSまたはAndroidの設定からキャンセルする必要があります。"
+      },
+      {
+        "question": "キャンセル後もコンテンツにアクセスできますか？",
+        "answer": "はい、現在の請求期間が終了するまでアクセスできます。"
+      }
+    ]
+  },
+  "headspace": {
+    "description": "HeadspaceをWebまたはデバイス設定からキャンセルします。無料コンテンツは引き続き利用できます。",
+    "difficulty": "簡単",
+    "difficultyReason": "キャンセルオプションはアカウント設定で簡単に見つかります。",
+    "refundPolicy": "日割り返金はありません。無料コンテンツはキャンセル後も引き続き利用できます。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "headspace.com/account/subscriptionsにアクセスしてログインします。"
+          },
+          {
+            "instruction": "「サブスクリプションをキャンセル」をクリックします。"
+          },
+          {
+            "instruction": "キャンセルを確認します。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone設定 → 自分の名前 → サブスクリプション → Headspace → サブスクリプションをキャンセルを開きます。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play → プロフィールアイコン → お支払いとサブスクリプション → サブスクリプション → Headspace → キャンセルを開きます。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "キャンセル後もコンテンツにアクセスできますか？",
+        "answer": "無料コンテンツは引き続き利用できます。プレミアムコンテンツは期間終了後にアクセスできなくなります。"
+      },
+      {
+        "question": "学生プランや職場プランを利用しています。",
+        "answer": "特別なプランのキャンセルはHeadspaceサポートにお問い合わせください。"
+      }
+    ]
+  },
+  "chewy-autoship": {
+    "description": "ChewyのAutoship配送をWebまたはアプリからキャンセルします。各商品を個別にキャンセルする必要があります。",
+    "difficulty": "簡単",
+    "difficultyReason": "Autoshipサブスクリプションはアカウント管理に明確にリストされています。",
+    "refundPolicy": "Chewyは寛大な返金ポリシーで知られています。問題がある場合はサポートにご連絡ください。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "chewy.comにアクセスしてログインします。"
+          },
+          {
+            "instruction": "アカウント → Autoshipと節約をクリックします。"
+          },
+          {
+            "instruction": "商品の横の「Autoshipを管理」→「キャンセル」をクリックします。"
+          },
+          {
+            "instruction": "各商品について繰り返します。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Chewyアプリ → アカウント → Autoshipと節約 → 商品を選択 → キャンセルをタップします。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Chewyアプリ → アカウント → Autoshipと節約 → 商品を選択 → キャンセルをタップします。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "すべてのAutoshipを一度にキャンセルできますか？",
+        "answer": "いいえ。各商品を個別にキャンセルする必要があります。"
+      },
+      {
+        "question": "Chewyの返金ポリシーはどうですか？",
+        "answer": "Chewyは優れたカスタマーサービスで知られています。問題がある場合はサポートにお問い合わせください。"
+      }
+    ]
   }
 }

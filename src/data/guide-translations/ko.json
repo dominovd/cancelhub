@@ -3325,5 +3325,482 @@
         "answer": "현재 결제 기간이 끝날 때까지 계속 이용하실 수 있습니다."
       }
     ]
+  },
+  "linkedin-premium": {
+    "description": "LinkedIn Premium을 웹 또는 기기 설정에서 해지합니다. 프로필과 연결은 유지됩니다.",
+    "difficulty": "보통",
+    "difficultyReason": "해지 옵션이 여러 메뉴 단계에 숨겨져 있어 즉시 찾기 어렵습니다.",
+    "refundPolicy": "비례 환불 없음. 청구 기간 종료까지 접근이 유지됩니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "linkedin.com에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "오른쪽 상단 프로필 사진 클릭 → 설정 및 개인정보."
+          },
+          {
+            "instruction": "구독 및 결제를 선택합니다."
+          },
+          {
+            "instruction": "Premium 관리 → 구독 취소를 클릭합니다."
+          },
+          {
+            "instruction": "단계에 따라 확인합니다."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone 설정 → 이름 → 구독을 엽니다."
+          },
+          {
+            "instruction": "LinkedIn을 선택하고 구독 취소를 탭합니다."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play → 프로필 아이콘 → 결제 및 구독 → 구독을 엽니다."
+          },
+          {
+            "instruction": "LinkedIn을 선택하고 취소를 탭합니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "연결이나 프로필을 잃게 되나요?",
+        "answer": "아니요. 프로필, 연결, 메시지는 무료 계정에 유지됩니다."
+      },
+      {
+        "question": "취소 후 무엇을 잃나요?",
+        "answer": "InMail 크레딧, 프로필 조회수, 고급 분석 기능을 잃게 됩니다."
+      }
+    ]
+  },
+  "dropbox": {
+    "description": "계정 관리에서 Dropbox Plus 또는 Professional을 무료 2GB 요금제로 변경합니다.",
+    "difficulty": "쉬움",
+    "difficultyReason": "요금제 변경은 계정 설정에서 직접 접근할 수 있습니다.",
+    "refundPolicy": "비례 환불 없음. 유료 요금제 이용은 기간 종료까지 유지됩니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "dropbox.com/account/plan에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "요금제 변경을 클릭합니다."
+          },
+          {
+            "instruction": "무료 요금제(2GB)를 선택하고 확인합니다."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Safari에서 dropbox.com/account/plan을 열거나, Apple을 통해 구독한 경우 iPhone 설정 → 구독을 사용합니다."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "브라우저에서 dropbox.com/account/plan을 열거나, Google Play를 통해 구독한 경우 Google Play → 구독을 사용합니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "파일이 삭제되나요?",
+        "answer": "아니요. 2GB를 초과하는 파일은 동기화되지 않지만 삭제되지는 않습니다."
+      },
+      {
+        "question": "Business 계정입니다.",
+        "answer": "Business 계정은 관리자 콘솔에서 관리됩니다. 관리자에게 문의하세요."
+      }
+    ]
+  },
+  "grammarly": {
+    "description": "계정 설정에서 Grammarly Premium을 취소하고 무료 기본 버전으로 되돌아갑니다.",
+    "difficulty": "쉬움",
+    "difficultyReason": "취소 옵션은 구독 설정에서 직접 접근할 수 있습니다.",
+    "refundPolicy": "연간 구매 후 30일 이내에 지원팀에 연락하면 환불 가능합니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "account.grammarly.com/subscription에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "구독 취소를 클릭합니다."
+          },
+          {
+            "instruction": "단계에 따라 취소를 확인합니다."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone 설정 → 이름 → 구독 → Grammarly → 구독 취소를 엽니다."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play → 프로필 아이콘 → 결제 및 구독 → 구독 → Grammarly → 취소를 엽니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "취소 후 어떻게 되나요?",
+        "answer": "계정이 제한된 기본 검사만 가능한 무료 버전으로 전환됩니다."
+      },
+      {
+        "question": "연간 요금제 환불을 받을 수 있나요?",
+        "answer": "네, 구매 후 30일 이내에 가능합니다. Grammarly 지원팀에 문의하세요."
+      }
+    ]
+  },
+  "canva-pro": {
+    "description": "계정 설정에서 Canva Pro를 취소합니다. 디자인은 무료 요금제에서 유지됩니다.",
+    "difficulty": "쉬움",
+    "difficultyReason": "취소 옵션은 청구 및 요금제에서 쉽게 찾을 수 있습니다.",
+    "refundPolicy": "비례 환불 없음. 프리미엄 기능은 기간 종료까지 활성 상태입니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "canva.com에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "프로필 사진 → 계정 설정을 클릭합니다."
+          },
+          {
+            "instruction": "청구 및 요금제를 선택합니다."
+          },
+          {
+            "instruction": "요금제 취소를 클릭하고 확인합니다."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone 설정 → 이름 → 구독 → Canva → 구독 취소를 엽니다."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play → 프로필 아이콘 → 결제 및 구독 → 구독 → Canva → 취소를 엽니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "디자인을 잃게 되나요?",
+        "answer": "아니요. 모든 디자인은 유지되지만 프리미엄 요소는 편집할 수 없습니다."
+      },
+      {
+        "question": "언제든지 취소할 수 있나요?",
+        "answer": "네. 취소는 즉시 적용되며 프리미엄 이용은 청구 주기 종료까지 유지됩니다."
+      }
+    ]
+  },
+  "hellofresh": {
+    "description": "HelloFresh를 금요일 자정 전에 웹에서 취소합니다. 앱에서는 직접 취소할 수 없습니다.",
+    "difficulty": "보통",
+    "difficultyReason": "HelloFresh는 취소 전에 일시 중지 옵션을 적극적으로 권유합니다.",
+    "refundPolicy": "이미 처리된 주문은 취소할 수 없습니다. 금요일 자정 전에 취소하세요.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "hellofresh.com에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "계정 → 요금제 설정으로 이동합니다."
+          },
+          {
+            "instruction": "일시 중지 제안을 스크롤하여 넘기고 요금제 취소를 클릭합니다."
+          },
+          {
+            "instruction": "단계에 따라 취소를 확인합니다."
+          },
+          {
+            "instruction": "다음 배송을 피하려면 금요일 자정 전에 취소하세요."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "모바일 브라우저에서 hellofresh.com/account/plan을 여세요. 앱은 직접 취소를 지원하지 않습니다."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "모바일 브라우저에서 hellofresh.com/account/plan을 여세요. 앱은 직접 취소를 지원하지 않습니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "왜 일시 중지를 권유하나요?",
+        "answer": "HelloFresh는 취소보다 일시 중지를 선호합니다. 이 제안을 무시하고 취소를 진행하세요."
+      },
+      {
+        "question": "다음 주문을 피하려면 언제까지 취소해야 하나요?",
+        "answer": "다음 주 배송의 취소 마감은 금요일 자정입니다."
+      }
+    ]
+  },
+  "playstation-plus": {
+    "description": "PlayStation Plus를 웹, 앱 또는 PS4/PS5 본체에서 직접 취소합니다.",
+    "difficulty": "쉬움",
+    "difficultyReason": "취소 옵션은 계정 설정에서 명확하게 접근할 수 있습니다.",
+    "refundPolicy": "비례 환불 없음. 이용은 청구 기간 종료까지 유지됩니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "playstation.com에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "프로필 사진 → 계정 설정을 클릭합니다."
+          },
+          {
+            "instruction": "구독을 선택합니다."
+          },
+          {
+            "instruction": "PlayStation Plus 옆의 취소를 클릭합니다."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "PlayStation 앱 → 프로필 아이콘 → 구독 → PlayStation Plus 취소를 엽니다."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "PlayStation 앱 → 프로필 아이콘 → 구독 → PlayStation Plus 취소를 엽니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "월간 게임은 어떻게 되나요?",
+        "answer": "월간 게임은 재구독할 때까지 잠깁니다. 삭제되지는 않습니다."
+      },
+      {
+        "question": "본체에서 취소할 수 있나요?",
+        "answer": "네. PS4/PS5에서 설정 → 계정 → 구독 → 취소로 이동합니다."
+      }
+    ]
+  },
+  "xbox-game-pass": {
+    "description": "Xbox Game Pass를 웹 Microsoft 계정, Xbox 앱 또는 본체에서 취소합니다.",
+    "difficulty": "쉬움",
+    "difficultyReason": "웹 Microsoft 계정을 통한 취소는 간단하고 빠릅니다.",
+    "refundPolicy": "비례 환불 없음. 이용은 청구 기간 종료까지 유지됩니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "account.microsoft.com/services에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "Xbox Game Pass를 찾아 취소를 클릭합니다."
+          },
+          {
+            "instruction": "단계에 따라 확인합니다."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Xbox 앱을 열거나, Apple을 통해 구독한 경우 iPhone 설정 → 구독을 사용합니다."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Xbox 앱을 열거나 Google Play → 결제 및 구독 → 구독 → Game Pass → 취소를 엽니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Xbox Game Pass Ultimate는 무엇인가요?",
+        "answer": "Ultimate는 Xbox Live Gold, PC Game Pass, 클라우드 게임이 하나의 구독에 포함됩니다."
+      },
+      {
+        "question": "본체에서 취소할 수 있나요?",
+        "answer": "네. Xbox에서 설정 → 계정 → 구독 → Game Pass 관리로 이동합니다."
+      }
+    ]
+  },
+  "calm": {
+    "description": "Calm Premium을 웹 또는 기기 설정에서 취소합니다. iOS 구독은 iOS 설정에서 취소해야 합니다.",
+    "difficulty": "쉬움",
+    "difficultyReason": "직접 구매의 경우 앱 설정에 명확한 취소 옵션이 있습니다.",
+    "refundPolicy": "이용은 청구 기간 종료까지 유지됩니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "calm.com/app/settings에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "Premium 취소를 클릭합니다(Calm에서 직접 구매한 경우에만)."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone 설정 → 이름 → 구독 → Calm → 구독 취소를 엽니다."
+          },
+          {
+            "instruction": "iOS 구독은 앱이 아닌 iOS 설정에서 취소해야 합니다."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play → 프로필 아이콘 → 결제 및 구독 → 구독 → Calm → 취소를 엽니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "왜 앱에서 취소할 수 없나요?",
+        "answer": "App Store를 통해 구독한 경우 iOS 또는 Android 설정에서 취소해야 합니다."
+      },
+      {
+        "question": "취소 후 콘텐츠에 접근할 수 있나요?",
+        "answer": "네, 현재 청구 기간이 끝날 때까지 이용할 수 있습니다."
+      }
+    ]
+  },
+  "headspace": {
+    "description": "Headspace를 웹 또는 기기 설정에서 취소합니다. 무료 콘텐츠는 계속 이용할 수 있습니다.",
+    "difficulty": "쉬움",
+    "difficultyReason": "취소 옵션은 계정 설정에서 쉽게 찾을 수 있습니다.",
+    "refundPolicy": "비례 환불 없음. 무료 콘텐츠는 취소 후에도 이용 가능합니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "headspace.com/account/subscriptions에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "구독 취소를 클릭합니다."
+          },
+          {
+            "instruction": "취소를 확인합니다."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone 설정 → 이름 → 구독 → Headspace → 구독 취소를 엽니다."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play → 프로필 아이콘 → 결제 및 구독 → 구독 → Headspace → 취소를 엽니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "취소 후 콘텐츠에 접근할 수 있나요?",
+        "answer": "무료 콘텐츠는 계속 이용 가능합니다. 프리미엄 콘텐츠는 기간 종료 후 접근할 수 없습니다."
+      },
+      {
+        "question": "학생 또는 직장 요금제를 이용하고 있습니다.",
+        "answer": "특별 요금제 취소는 Headspace 지원팀에 문의하세요."
+      }
+    ]
+  },
+  "chewy-autoship": {
+    "description": "Chewy Autoship 배송을 웹 또는 앱에서 취소합니다. 각 상품을 개별적으로 취소해야 합니다.",
+    "difficulty": "쉬움",
+    "difficultyReason": "Autoship 구독은 계정 관리에 명확하게 나열되어 있습니다.",
+    "refundPolicy": "Chewy는 관대한 환불 정책으로 유명합니다. 문제가 있으면 지원팀에 문의하세요.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "chewy.com에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "계정 → Autoship 및 절약을 클릭합니다."
+          },
+          {
+            "instruction": "상품 옆의 Autoship 관리 → 취소를 클릭합니다."
+          },
+          {
+            "instruction": "각 상품에 대해 반복합니다."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Chewy 앱 → 계정 → Autoship 및 절약 → 상품 선택 → 취소를 탭합니다."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Chewy 앱 → 계정 → Autoship 및 절약 → 상품 선택 → 취소를 탭합니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "모든 Autoship을 한 번에 취소할 수 있나요?",
+        "answer": "아니요. 각 상품을 개별적으로 취소해야 합니다."
+      },
+      {
+        "question": "Chewy의 환불 정책은 어떤가요?",
+        "answer": "Chewy는 우수한 고객 서비스로 유명합니다. 문제가 있으면 지원팀에 문의하세요."
+      }
+    ]
   }
 }

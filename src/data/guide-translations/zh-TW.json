@@ -3515,5 +3515,482 @@
         "answer": "可以，直到當前計費週期結束為止。"
       }
     ]
+  },
+  "linkedin-premium": {
+    "description": "透過網頁或裝置設定取消 LinkedIn Premium。個人檔案和聯絡人將保留不變。",
+    "difficulty": "中等",
+    "difficultyReason": "取消選項隱藏在多個選單層級中，不易立即找到。",
+    "refundPolicy": "無按比例退款。存取權限維持至計費週期結束。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 linkedin.com 並登入。"
+          },
+          {
+            "instruction": "點擊右上角個人頭像 → 設定與隱私。"
+          },
+          {
+            "instruction": "選擇訂閱與付款。"
+          },
+          {
+            "instruction": "點擊管理 Premium → 取消訂閱。"
+          },
+          {
+            "instruction": "依照步驟確認。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "開啟 iPhone 設定 → 您的姓名 → 訂閱。"
+          },
+          {
+            "instruction": "選擇 LinkedIn 並點擊取消訂閱。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "開啟 Google Play → 個人頭像 → 付款與訂閱 → 訂閱。"
+          },
+          {
+            "instruction": "選擇 LinkedIn 並點擊取消。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我會失去聯絡人或個人檔案嗎？",
+        "answer": "不會。個人檔案、聯絡人和訊息在免費帳戶中都會保留。"
+      },
+      {
+        "question": "取消後我會失去什麼？",
+        "answer": "InMail 點數、個人檔案瀏覽次數和進階分析功能。"
+      }
+    ]
+  },
+  "dropbox": {
+    "description": "透過帳戶管理將 Dropbox Plus 或 Professional 降級為免費 2GB 方案。",
+    "difficulty": "簡單",
+    "difficultyReason": "方案變更可直接從帳戶設定存取。",
+    "refundPolicy": "無按比例退款。付費方案的存取權維持至週期結束。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 dropbox.com/account/plan 並登入。"
+          },
+          {
+            "instruction": "點擊變更方案。"
+          },
+          {
+            "instruction": "選擇免費方案（2GB）並確認。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "開啟 Safari 前往 dropbox.com/account/plan，或若透過 Apple 訂閱，使用 iPhone 設定 → 訂閱。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "開啟瀏覽器前往 dropbox.com/account/plan，或若透過 Google Play 訂閱，使用 Google Play → 訂閱。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我的檔案會被刪除嗎？",
+        "answer": "不會。超過 2GB 的檔案將停止同步，但不會被刪除。"
+      },
+      {
+        "question": "我有 Business 帳戶。",
+        "answer": "Business 帳戶透過管理主控台管理。請聯絡您的管理員。"
+      }
+    ]
+  },
+  "grammarly": {
+    "description": "從帳戶設定取消 Grammarly Premium 並回到免費基本版。",
+    "difficulty": "簡單",
+    "difficultyReason": "取消選項可直接從訂閱設定存取。",
+    "refundPolicy": "年度購買後 30 天內透過客服申請可獲退款。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 account.grammarly.com/subscription 並登入。"
+          },
+          {
+            "instruction": "點擊取消訂閱。"
+          },
+          {
+            "instruction": "依照步驟確認取消。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "開啟 iPhone 設定 → 您的姓名 → 訂閱 → Grammarly → 取消訂閱。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "開啟 Google Play → 個人頭像 → 付款與訂閱 → 訂閱 → Grammarly → 取消。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "取消後會發生什麼？",
+        "answer": "您的帳戶將回到僅有基本有限檢查的免費版本。"
+      },
+      {
+        "question": "我可以獲得年度方案的退款嗎？",
+        "answer": "可以，購買後 30 天內可申請。請聯絡 Grammarly 客服。"
+      }
+    ]
+  },
+  "canva-pro": {
+    "description": "從帳戶設定取消 Canva Pro。設計作品在免費方案中仍會保留。",
+    "difficulty": "簡單",
+    "difficultyReason": "取消選項可從帳單與方案輕鬆存取。",
+    "refundPolicy": "無按比例退款。Premium 功能在週期結束前保持有效。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 canva.com 並登入。"
+          },
+          {
+            "instruction": "點擊個人頭像 → 帳戶設定。"
+          },
+          {
+            "instruction": "選擇帳單與方案。"
+          },
+          {
+            "instruction": "點擊取消方案並確認。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "開啟 iPhone 設定 → 您的姓名 → 訂閱 → Canva → 取消訂閱。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "開啟 Google Play → 個人頭像 → 付款與訂閱 → 訂閱 → Canva → 取消。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我的設計作品會遺失嗎？",
+        "answer": "不會。所有設計作品都會保留，但 Premium 元素將無法編輯。"
+      },
+      {
+        "question": "我可以隨時取消嗎？",
+        "answer": "可以。取消立即生效；Premium 存取維持至計費週期結束。"
+      }
+    ]
+  },
+  "hellofresh": {
+    "description": "在週五午夜前透過網頁取消 HelloFresh。應用程式不提供直接取消功能。",
+    "difficulty": "中等",
+    "difficultyReason": "HelloFresh 在取消前積極推廣暫停選項。",
+    "refundPolicy": "已處理的訂單無法取消。請在週五午夜前取消。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 hellofresh.com 並登入。"
+          },
+          {
+            "instruction": "前往帳戶 → 方案設定。"
+          },
+          {
+            "instruction": "略過暫停優惠，點擊取消方案。"
+          },
+          {
+            "instruction": "依照步驟確認取消。"
+          },
+          {
+            "instruction": "確保在週五午夜前取消以避免下次配送。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "使用行動瀏覽器前往 hellofresh.com/account/plan。應用程式不提供直接取消。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "使用行動瀏覽器前往 hellofresh.com/account/plan。應用程式不提供直接取消。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "為什麼一直推薦我暫停？",
+        "answer": "HelloFresh 較偏好暫停而非取消。忽略這些優惠並繼續取消程序。"
+      },
+      {
+        "question": "要在什麼時間前取消才能避免下筆訂單？",
+        "answer": "截止時間是下週的週五午夜。"
+      }
+    ]
+  },
+  "playstation-plus": {
+    "description": "透過網頁、應用程式或直接在 PS4/PS5 主機上取消 PlayStation Plus。",
+    "difficulty": "簡單",
+    "difficultyReason": "取消選項從帳戶設定清楚可見並可存取。",
+    "refundPolicy": "無按比例退款。存取權限維持至計費週期結束。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 playstation.com 並登入。"
+          },
+          {
+            "instruction": "點擊個人頭像 → 帳戶設定。"
+          },
+          {
+            "instruction": "選擇訂閱。"
+          },
+          {
+            "instruction": "點擊 PlayStation Plus 旁的取消。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "開啟 PlayStation 應用程式 → 個人頭像 → 訂閱 → 取消 PlayStation Plus。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "開啟 PlayStation 應用程式 → 個人頭像 → 訂閱 → 取消 PlayStation Plus。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "每月遊戲會怎樣？",
+        "answer": "每月遊戲在重新訂閱前會被鎖定，但不會被刪除。"
+      },
+      {
+        "question": "可以從主機取消嗎？",
+        "answer": "可以。在 PS4/PS5 前往設定 → 帳戶 → 訂閱 → 取消。"
+      }
+    ]
+  },
+  "xbox-game-pass": {
+    "description": "透過網頁上的 Microsoft 帳戶、Xbox 應用程式或主機取消 Xbox Game Pass。",
+    "difficulty": "簡單",
+    "difficultyReason": "透過網頁 Microsoft 帳戶取消既簡單又快速。",
+    "refundPolicy": "無按比例退款。存取權限維持至計費週期結束。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 account.microsoft.com/services 並登入。"
+          },
+          {
+            "instruction": "找到 Xbox Game Pass 並點擊取消。"
+          },
+          {
+            "instruction": "依照步驟確認。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "開啟 Xbox 應用程式，或若透過 Apple 訂閱，使用 iPhone 設定 → 訂閱。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "開啟 Xbox 應用程式或 Google Play → 付款與訂閱 → 訂閱 → Game Pass → 取消。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Xbox Game Pass Ultimate 是什麼？",
+        "answer": "Ultimate 包含 Xbox Live Gold、PC Game Pass 和雲端遊戲，合而為一。"
+      },
+      {
+        "question": "可以從主機取消嗎？",
+        "answer": "可以。在 Xbox 前往設定 → 帳戶 → 訂閱 → 管理 Game Pass。"
+      }
+    ]
+  },
+  "calm": {
+    "description": "透過網頁或裝置設定取消 Calm Premium。iOS 訂閱必須透過 iOS 設定取消。",
+    "difficulty": "簡單",
+    "difficultyReason": "直接購買時，應用程式設定中有清楚的取消選項。",
+    "refundPolicy": "存取權限維持至計費週期結束。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 calm.com/app/settings 並登入。"
+          },
+          {
+            "instruction": "點擊取消 Premium（僅適用於直接在 Calm 購買的情況）。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "開啟 iPhone 設定 → 您的姓名 → 訂閱 → Calm → 取消訂閱。"
+          },
+          {
+            "instruction": "iOS 訂閱必須透過 iOS 設定取消，不能從應用程式取消。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "開啟 Google Play → 個人頭像 → 付款與訂閱 → 訂閱 → Calm → 取消。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "為什麼無法從應用程式取消？",
+        "answer": "若透過 App Store 訂閱，必須從 iOS 或 Android 設定取消。"
+      },
+      {
+        "question": "取消後仍可存取內容嗎？",
+        "answer": "可以，直到當前計費週期結束。"
+      }
+    ]
+  },
+  "headspace": {
+    "description": "透過網頁或裝置設定取消 Headspace。免費內容在取消後仍可使用。",
+    "difficulty": "簡單",
+    "difficultyReason": "取消選項在帳戶設定中容易找到。",
+    "refundPolicy": "無按比例退款。免費內容在取消後仍然可用。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 headspace.com/account/subscriptions 並登入。"
+          },
+          {
+            "instruction": "點擊取消訂閱。"
+          },
+          {
+            "instruction": "確認取消。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "開啟 iPhone 設定 → 您的姓名 → 訂閱 → Headspace → 取消訂閱。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "開啟 Google Play → 個人頭像 → 付款與訂閱 → 訂閱 → Headspace → 取消。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "取消後仍可存取內容嗎？",
+        "answer": "免費內容仍然可用。Premium 內容在週期結束後無法存取。"
+      },
+      {
+        "question": "我有學生或工作方案。",
+        "answer": "請聯絡 Headspace 客服以取消特殊方案。"
+      }
+    ]
+  },
+  "chewy-autoship": {
+    "description": "透過網頁或應用程式取消 Chewy 自動配送。每個商品必須單獨取消。",
+    "difficulty": "簡單",
+    "difficultyReason": "Autoship 訂閱在帳戶管理中清楚列出。",
+    "refundPolicy": "Chewy 以慷慨的退款政策聞名。有任何問題請聯絡客服。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 chewy.com 並登入。"
+          },
+          {
+            "instruction": "點擊帳戶 → Autoship 與省錢。"
+          },
+          {
+            "instruction": "點擊商品旁的管理 Autoship → 取消。"
+          },
+          {
+            "instruction": "對每個商品重複此步驟。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "開啟 Chewy 應用程式 → 帳戶 → Autoship 與省錢 → 選擇商品 → 取消。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "開啟 Chewy 應用程式 → 帳戶 → Autoship 與省錢 → 選擇商品 → 取消。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "可以一次取消所有 Autoship 嗎？",
+        "answer": "不行。每個商品必須單獨取消。"
+      },
+      {
+        "question": "Chewy 的退款政策有多好？",
+        "answer": "Chewy 以出色的客戶服務聞名。有任何問題請聯絡客服。"
+      }
+    ]
   }
 }

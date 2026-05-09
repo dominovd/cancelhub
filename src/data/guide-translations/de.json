@@ -3014,8 +3014,7 @@
         "answer": "Nein. Verpflichtungspläne können nicht vorzeitig gekündigt werden. Du musst bis zum Ende der Laufzeit warten."
       }
     ]
-  }
-,
+  },
   "ancestry": {
     "description": "Kündige dein Ancestry-Abonnement (Stammbaum und Genealogie) in unter 5 Minuten im Web oder über die Geräteeinstellungen.",
     "difficulty": "Mittel",
@@ -3485,6 +3484,482 @@
         "answer": "Ja, wenn du innerhalb von 30 Tagen nach dem Kauf kuendigst. Danach gibt es keine Rueckerstattung."
       }
     ]
+  },
+  "linkedin-premium": {
+    "description": "Kuendige LinkedIn Premium im Web oder ueber die Geraeteeinstellungen. Profil und Verbindungen bleiben erhalten.",
+    "difficulty": "Mittel",
+    "difficultyReason": "Die Kuendigungsoption ist in mehreren Menuepunkten vergraben und nicht sofort auffindbar.",
+    "refundPolicy": "Kein anteiliger Rueckerstattungsanspruch. Zugang bleibt bis zum Ende des Abrechnungszeitraums.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu linkedin.com und melde dich an."
+          },
+          {
+            "instruction": "Klicke oben rechts auf dein Profilsymbol → Einstellungen und Datenschutz."
+          },
+          {
+            "instruction": "Waehle Abonnements und Zahlungen."
+          },
+          {
+            "instruction": "Klicke auf Premium verwalten → Abonnement kuendigen."
+          },
+          {
+            "instruction": "Folge den Anweisungen zur Bestaetigung."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Oeffne iPhone-Einstellungen → tippe auf deinen Namen → Abonnements."
+          },
+          {
+            "instruction": "Waehle LinkedIn und tippe auf Abonnement kuendigen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Oeffne Google Play Store → Profilsymbol → Zahlungen und Abonnements → Abonnements."
+          },
+          {
+            "instruction": "Waehle LinkedIn und tippe auf Abonnement kuendigen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Verliere ich meine Verbindungen oder mein Profil?",
+        "answer": "Nein. Profil, Verbindungen und Nachrichten bleiben im kostenlosen Konto erhalten."
+      },
+      {
+        "question": "Was verliere ich nach der Kuendigung?",
+        "answer": "InMail-Guthaben, Profilaufrufe und erweiterte Analysen gehen verloren."
+      }
+    ]
+  },
+  "dropbox": {
+    "description": "Wechsle von Dropbox Plus oder Professional zum kostenlosen 2-GB-Tarif ueber die Kontoverwaltung.",
+    "difficulty": "Einfach",
+    "difficultyReason": "Der Tarifwechsel ist im Konto direkt erreichbar und unkompliziert.",
+    "refundPolicy": "Keine anteiligen Rueckerstattungen. Zugang zum bezahlten Tarif bleibt bis zum Ende des Zeitraums.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu dropbox.com/account/plan und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf Tarif aendern."
+          },
+          {
+            "instruction": "Waehle den kostenlosen Tarif (2 GB) und bestaetigue."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Oeffne Safari und gehe zu dropbox.com/account/plan, oder nutze iPhone-Einstellungen → Abonnements, falls ueber Apple abonniert."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Oeffne den Browser und gehe zu dropbox.com/account/plan, oder nutze Google Play → Abonnements, falls dort abonniert."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Werden meine Dateien geloescht?",
+        "answer": "Nein. Dateien ueber 2 GB werden nicht mehr synchronisiert, aber nicht geloescht."
+      },
+      {
+        "question": "Ich habe ein Business-Konto.",
+        "answer": "Business-Konten werden ueber die Admin-Konsole verwaltet. Wende dich an deinen Administrator."
+      }
+    ]
+  },
+  "grammarly": {
+    "description": "Kuendige Grammarly Premium ueber die Kontoeinstellungen und kehre zur kostenlosen Basisversion zurueck.",
+    "difficulty": "Einfach",
+    "difficultyReason": "Die Kuendigungsoption ist direkt in den Abonnementeinstellungen erreichbar.",
+    "refundPolicy": "Rueckerstattung innerhalb von 30 Tagen bei Jahreskauf ueber den Support moeglich.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu account.grammarly.com/subscription und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf Abonnement kuendigen."
+          },
+          {
+            "instruction": "Folge den Anweisungen und bestaetigue die Kuendigung."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Oeffne iPhone-Einstellungen → tippe auf deinen Namen → Abonnements → Grammarly → Abonnement kuendigen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Oeffne Google Play Store → Profilsymbol → Zahlungen und Abonnements → Abonnements → Grammarly → Kuendigen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Was passiert nach der Kuendigung?",
+        "answer": "Dein Konto wechselt zur kostenlosen Version mit eingeschraenkten Prueffunktionen."
+      },
+      {
+        "question": "Kann ich eine Rueckerstattung fuer meinen Jahresplan erhalten?",
+        "answer": "Ja, innerhalb von 30 Tagen nach dem Kauf. Kontaktiere den Grammarly-Support."
+      }
+    ]
+  },
+  "canva-pro": {
+    "description": "Kuendige Canva Pro in den Kontoeinstellungen. Designs bleiben im kostenlosen Konto erhalten.",
+    "difficulty": "Einfach",
+    "difficultyReason": "Die Kuendigungsoption ist unter Abrechnung und Plaene leicht auffindbar.",
+    "refundPolicy": "Keine anteiligen Rueckerstattungen. Premium-Funktionen bleiben bis zum Ende des Zeitraums aktiv.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu canva.com und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf dein Profilsymbol → Kontoeinstellungen."
+          },
+          {
+            "instruction": "Waehle Abrechnung und Plaene."
+          },
+          {
+            "instruction": "Klicke auf Plan kuendigen und bestaetigue."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Oeffne iPhone-Einstellungen → tippe auf deinen Namen → Abonnements → Canva → Abonnement kuendigen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Oeffne Google Play Store → Profilsymbol → Zahlungen und Abonnements → Abonnements → Canva → Kuendigen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Gehen meine Designs verloren?",
+        "answer": "Nein. Alle Designs bleiben im kostenlosen Konto erhalten, aber Premium-Elemente koennen nicht bearbeitet werden."
+      },
+      {
+        "question": "Kann ich jederzeit kuendigen?",
+        "answer": "Ja. Die Kuendigung ist jederzeit moeglich; Premium bleibt bis zum Ende des Abrechnungszeitraums aktiv."
+      }
+    ]
+  },
+  "hellofresh": {
+    "description": "Kuendige HelloFresh im Web vor Freitagmitternacht. Die App bietet keine Kuendigungsoption.",
+    "difficulty": "Mittel",
+    "difficultyReason": "HelloFresh bewirbt aggressiv Pausierungsoptionen, bevor die Kuendigung abgeschlossen werden kann.",
+    "refundPolicy": "Bestellungen, die bereits verarbeitet wurden, koennen nicht storniert werden. Vor Freitagmitternacht kuendigen.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu hellofresh.com und melde dich an."
+          },
+          {
+            "instruction": "Navigiere zu Konto → Planeinstellungen."
+          },
+          {
+            "instruction": "Scrolle an den Pausierungs-Angeboten vorbei und klicke auf Plan kuendigen."
+          },
+          {
+            "instruction": "Folge den Schritten zur Bestaetigung der Kuendigung."
+          },
+          {
+            "instruction": "Stelle sicher, dass du vor Freitagmitternacht kuendigst, um die naechste Lieferung zu verhindern."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Nutze den mobilen Browser und gehe zu hellofresh.com/account/plan. Die App bietet keine direkte Kuendigungsoption."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Nutze den mobilen Browser und gehe zu hellofresh.com/account/plan. Die App bietet keine direkte Kuendigungsoption."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Warum werde ich zum Pausieren gedraengt?",
+        "answer": "HelloFresh bietet Pausieren als Alternative zur Kuendigung an. Ignoriere diese Angebote und klicke weiter auf Kuendigen."
+      },
+      {
+        "question": "Bis wann muss ich kuendigen, um die naechste Box zu vermeiden?",
+        "answer": "Die Kuendigungsfrist endet freitagsmitternacht fuer die Bestellung der Folgewoche."
+      }
+    ]
+  },
+  "playstation-plus": {
+    "description": "Kuendige PlayStation Plus im Web, in der App oder direkt auf der PS4/PS5-Konsole.",
+    "difficulty": "Einfach",
+    "difficultyReason": "Die Kuendigungsoption ist in den Kontoeinstellungen klar erreichbar.",
+    "refundPolicy": "Keine anteiligen Rueckerstattungen. Zugang bleibt bis zum Ende des Abrechnungszeitraums.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu playstation.com und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf dein Profilsymbol → Kontoeinstellungen."
+          },
+          {
+            "instruction": "Waehle Abonnements."
+          },
+          {
+            "instruction": "Klicke neben PlayStation Plus auf Kuendigen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Oeffne die PlayStation App → tippe auf dein Profilsymbol → Abonnements → PlayStation Plus kuendigen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Oeffne die PlayStation App → tippe auf dein Profilsymbol → Abonnements → PlayStation Plus kuendigen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Was passiert mit meinen monatlichen Spielen?",
+        "answer": "Monatliche Spiele sind gesperrt, bis du dich erneut anmeldest. Sie werden nicht geloescht."
+      },
+      {
+        "question": "Kann ich auch ueber die Konsole kuendigen?",
+        "answer": "Ja. Gehe auf der PS4/PS5 zu Einstellungen → Konto → Abonnements → Kuendigen."
+      }
+    ]
+  },
+  "xbox-game-pass": {
+    "description": "Kuendige Xbox Game Pass ueber Microsoft-Konto im Web, in der Xbox App oder auf der Konsole.",
+    "difficulty": "Einfach",
+    "difficultyReason": "Die Kuendigung ueber das Microsoft-Konto im Web ist einfach und schnell.",
+    "refundPolicy": "Keine anteiligen Rueckerstattungen. Zugang bleibt bis zum Ende des Abrechnungszeitraums.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu account.microsoft.com/services und melde dich an."
+          },
+          {
+            "instruction": "Suche Xbox Game Pass und klicke auf Kuendigen."
+          },
+          {
+            "instruction": "Folge den Anweisungen zur Bestaetigung."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Oeffne die Xbox App oder nutze iPhone-Einstellungen → Abonnements, falls ueber Apple abonniert."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Oeffne die Xbox App oder Google Play → Zahlungen und Abonnements → Abonnements → Game Pass → Kuendigen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Was ist Xbox Game Pass Ultimate?",
+        "answer": "Ultimate beinhaltet Xbox Live Gold, PC Game Pass und Cloud-Gaming in einem Abonnement."
+      },
+      {
+        "question": "Kann ich auch auf der Konsole kuendigen?",
+        "answer": "Ja. Gehe auf der Xbox zu Einstellungen → Konto → Abonnements → Game Pass verwalten."
+      }
+    ]
+  },
+  "calm": {
+    "description": "Kuendige Calm Premium im Web oder ueber die Geraeteeinstellungen. iOS-Abonnements muessen ueber iOS-Einstellungen gekuendigt werden.",
+    "difficulty": "Einfach",
+    "difficultyReason": "Klare Kuendigungsoption in den App-Einstellungen, sofern nicht ueber App Store abonniert.",
+    "refundPolicy": "Zugang bleibt bis zum Ende des Abrechnungszeitraums erhalten.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu calm.com/app/settings und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf Premium kuendigen (nur fuer Direktkauf ueber Calm)."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Oeffne iPhone-Einstellungen → tippe auf deinen Namen → Abonnements → Calm → Abonnement kuendigen."
+          },
+          {
+            "instruction": "iOS-Abonnements MUESSEN ueber die iOS-Einstellungen gekuendigt werden, nicht in der App."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Oeffne Google Play Store → Profilsymbol → Zahlungen und Abonnements → Abonnements → Calm → Kuendigen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Warum kann ich in der App nicht kuendigen?",
+        "answer": "Wenn du ueber den App Store abonniert hast, muss die Kuendigung ueber die iOS- oder Android-Einstellungen erfolgen."
+      },
+      {
+        "question": "Kann ich noch auf Inhalte zugreifen nach der Kuendigung?",
+        "answer": "Ja, bis zum Ende des aktuellen Abrechnungszeitraums."
+      }
+    ]
+  },
+  "headspace": {
+    "description": "Kuendige Headspace im Web oder ueber die Geraeteeinstellungen. Kostenlose Inhalte bleiben verfuegbar.",
+    "difficulty": "Einfach",
+    "difficultyReason": "Die Kuendigungsoption ist im Konto direkt auffindbar.",
+    "refundPolicy": "Keine anteiligen Rueckerstattungen. Kostenlose Inhalte bleiben nach der Kuendigung verfuegbar.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu headspace.com/account/subscriptions und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf Abonnement kuendigen."
+          },
+          {
+            "instruction": "Bestaetigue die Kuendigung."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Oeffne iPhone-Einstellungen → tippe auf deinen Namen → Abonnements → Headspace → Abonnement kuendigen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Oeffne Google Play Store → Profilsymbol → Zahlungen und Abonnements → Abonnements → Headspace → Kuendigen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Behalte ich nach der Kuendigung Zugang zu Inhalten?",
+        "answer": "Kostenlose Inhalte bleiben verfuegbar. Premium-Inhalte sind nach dem Ende des Abrechnungszeitraums nicht mehr zugaenglich."
+      },
+      {
+        "question": "Ich habe einen Studenten- oder Arbeitsplan.",
+        "answer": "Kontaktiere den Headspace-Support fuer die Kuendigung spezieller Tarife."
+      }
+    ]
+  },
+  "chewy-autoship": {
+    "description": "Kuendige Chewy Autoship-Lieferungen im Web oder in der App. Jedes Produkt muss einzeln gekuendigt werden.",
+    "difficulty": "Einfach",
+    "difficultyReason": "Autoship-Abonnements sind klar in der Kontoverwaltung aufgelistet.",
+    "refundPolicy": "Chewy ist bekannt fuer seine grosszuegige Rueckerstattungsrichtlinie. Support bei Problemen kontaktieren.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu chewy.com und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf Konto → Autoship und sparen."
+          },
+          {
+            "instruction": "Klicke neben dem Produkt auf Autoship verwalten → Kuendigen."
+          },
+          {
+            "instruction": "Wiederhole dies fuer jedes Produkt."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Oeffne die Chewy App → tippe auf Konto → Autoship und sparen → waehle das Produkt → Kuendigen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Oeffne die Chewy App → tippe auf Konto → Autoship und sparen → waehle das Produkt → Kuendigen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kann ich alle Autoships auf einmal kuendigen?",
+        "answer": "Nein. Jedes Produkt muss einzeln gekuendigt werden."
+      },
+      {
+        "question": "Wie gut ist Chewys Rueckerstattungsrichtlinie?",
+        "answer": "Chewy ist fuer seinen exzellenten Kundenservice bekannt. Bei Problemen einfach den Support kontaktieren."
+      }
+    ]
   }
-
 }

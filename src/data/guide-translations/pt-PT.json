@@ -3011,8 +3011,7 @@
         "answer": "Nao. Os planos de compromisso nao podem ser cancelados antecipadamente. Tens de aguardar ate ao fim do periodo contratado."
       }
     ]
-  }
-,
+  },
   "ancestry": {
     "description": "Cancela a tua subscricao ao Ancestry (arvore genealogica) em menos de 5 minutos na web ou atraves das definicoes do dispositivo.",
     "difficulty": "Medio",
@@ -3476,6 +3475,482 @@
         "answer": "Sim, se cancelares nos 30 dias apos a compra. Depois desse prazo, nao ha reembolsos."
       }
     ]
+  },
+  "linkedin-premium": {
+    "description": "Cancela o LinkedIn Premium atraves da web ou das definicoes do dispositivo. O perfil e as ligacoes sao mantidos.",
+    "difficulty": "Medio",
+    "difficultyReason": "A opcao de cancelamento esta escondida em varios niveis de menus e nao e imediatamente visivel.",
+    "refundPolicy": "Sem reembolsos proporcionais. O acesso mantem-se ate ao fim do periodo de faturacao.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai a linkedin.com e inicia sessao."
+          },
+          {
+            "instruction": "Clica na tua foto de perfil (canto superior direito) → Definicoes e privacidade."
+          },
+          {
+            "instruction": "Seleciona Subscricoes e pagamentos."
+          },
+          {
+            "instruction": "Clica em Gerir Premium → Cancelar subscricao."
+          },
+          {
+            "instruction": "Segue os passos para confirmar."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abre as Definicoes do iPhone → teu nome → Subscricoes."
+          },
+          {
+            "instruction": "Seleciona LinkedIn e toca em Cancelar subscricao."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abre a Google Play → icone de perfil → Pagamentos e subscricoes → Subscricoes."
+          },
+          {
+            "instruction": "Seleciona LinkedIn e toca em Cancelar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Vou perder as minhas ligacoes ou perfil?",
+        "answer": "Nao. O perfil, ligacoes e mensagens mantem-se na conta gratuita."
+      },
+      {
+        "question": "O que perco apos o cancelamento?",
+        "answer": "Creditos InMail, visualizacoes de perfil e analises avancadas."
+      }
+    ]
+  },
+  "dropbox": {
+    "description": "Muda do Dropbox Plus ou Professional para o plano gratuito de 2 GB atraves da gestao de conta.",
+    "difficulty": "Facil",
+    "difficultyReason": "A mudanca de plano e acessivel diretamente nas definicoes da conta.",
+    "refundPolicy": "Sem reembolsos proporcionais. O acesso ao plano pago mantem-se ate ao fim do periodo.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai a dropbox.com/account/plan e inicia sessao."
+          },
+          {
+            "instruction": "Clica em Mudar de plano."
+          },
+          {
+            "instruction": "Seleciona o plano gratuito (2 GB) e confirma."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abre o Safari e vai a dropbox.com/account/plan, ou usa as Definicoes do iPhone → Subscricoes se subscreveste via Apple."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abre o browser e vai a dropbox.com/account/plan, ou usa a Google Play → Subscricoes se subscreveste la."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Os meus ficheiros vao ser eliminados?",
+        "answer": "Nao. Os ficheiros com mais de 2 GB deixarao de sincronizar, mas nao serao eliminados."
+      },
+      {
+        "question": "Tenho uma conta Business.",
+        "answer": "As contas Business sao geridas atraves da Consola de administracao. Contacta o teu administrador."
+      }
+    ]
+  },
+  "grammarly": {
+    "description": "Cancela o Grammarly Premium nas definicoes da conta e volta a versao gratuita.",
+    "difficulty": "Facil",
+    "difficultyReason": "A opcao de cancelamento esta disponivel diretamente nas definicoes de subscricao.",
+    "refundPolicy": "Reembolso possivel em 30 dias apos compra anual contactando o suporte.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai a account.grammarly.com/subscription e inicia sessao."
+          },
+          {
+            "instruction": "Clica em Cancelar subscricao."
+          },
+          {
+            "instruction": "Segue os passos e confirma o cancelamento."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abre as Definicoes do iPhone → teu nome → Subscricoes → Grammarly → Cancelar subscricao."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abre a Google Play → icone de perfil → Pagamentos e subscricoes → Subscricoes → Grammarly → Cancelar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "O que acontece apos o cancelamento?",
+        "answer": "A tua conta reverte para a versao gratuita com verificacoes basicas limitadas."
+      },
+      {
+        "question": "Posso obter reembolso pelo meu plano anual?",
+        "answer": "Sim, em 30 dias apos a compra. Contacta o suporte do Grammarly."
+      }
+    ]
+  },
+  "canva-pro": {
+    "description": "Cancela o Canva Pro nas definicoes da conta. Os designs sao mantidos no plano gratuito.",
+    "difficulty": "Facil",
+    "difficultyReason": "A opcao de cancelamento e facilmente acessivel em Faturacao e planos.",
+    "refundPolicy": "Sem reembolsos proporcionais. As funcionalidades Premium mantem-se ativas ate ao fim do periodo.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai a canva.com e inicia sessao."
+          },
+          {
+            "instruction": "Clica na tua foto de perfil → Definicoes de conta."
+          },
+          {
+            "instruction": "Seleciona Faturacao e planos."
+          },
+          {
+            "instruction": "Clica em Cancelar plano e confirma."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abre as Definicoes do iPhone → teu nome → Subscricoes → Canva → Cancelar subscricao."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abre a Google Play → icone de perfil → Pagamentos e subscricoes → Subscricoes → Canva → Cancelar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Vou perder os meus designs?",
+        "answer": "Nao. Todos os designs sao mantidos, mas os elementos Premium nao poderao ser editados."
+      },
+      {
+        "question": "Posso cancelar a qualquer momento?",
+        "answer": "Sim. O cancelamento e imediato; o acesso Premium dura ate ao fim do ciclo de faturacao."
+      }
+    ]
+  },
+  "hellofresh": {
+    "description": "Cancela o HelloFresh atraves da web antes de sexta-feira a meia-noite. A app nao permite cancelar diretamente.",
+    "difficulty": "Medio",
+    "difficultyReason": "O HelloFresh promove agressivamente a pausa antes de mostrar a opcao de cancelamento.",
+    "refundPolicy": "As encomendas ja processadas nao podem ser canceladas. Cancela antes de sexta-feira a meia-noite.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai a hellofresh.com e inicia sessao."
+          },
+          {
+            "instruction": "Va a Conta → Definicoes do plano."
+          },
+          {
+            "instruction": "Passa pelas ofertas de pausa e clica em Cancelar plano."
+          },
+          {
+            "instruction": "Segue os passos para confirmar o cancelamento."
+          },
+          {
+            "instruction": "Certifica-te de cancelar antes de sexta-feira a meia-noite para evitar a proxima entrega."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Usa o browser movel e vai a hellofresh.com/account/plan. A app nao oferece cancelamento direto."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Usa o browser movel e vai a hellofresh.com/account/plan. A app nao oferece cancelamento direto."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Porque me insistem em pausar?",
+        "answer": "O HelloFresh prefere que pauses a subscricao. Ignora essas ofertas e continua com o cancelamento."
+      },
+      {
+        "question": "Ate quando tenho de cancelar para evitar a proxima encomenda?",
+        "answer": "O prazo e sexta-feira a meia-noite para a semana seguinte."
+      }
+    ]
+  },
+  "playstation-plus": {
+    "description": "Cancela o PlayStation Plus atraves da web, da app ou diretamente na consola PS4/PS5.",
+    "difficulty": "Facil",
+    "difficultyReason": "A opcao de cancelamento e clara e acessivel nas definicoes da conta.",
+    "refundPolicy": "Sem reembolsos proporcionais. O acesso mantem-se ate ao fim do periodo de faturacao.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai a playstation.com e inicia sessao."
+          },
+          {
+            "instruction": "Clica na tua foto de perfil → Definicoes da conta."
+          },
+          {
+            "instruction": "Seleciona Subscricoes."
+          },
+          {
+            "instruction": "Clica em Cancelar junto ao PlayStation Plus."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abre a app PlayStation → icone de perfil → Subscricoes → Cancelar PlayStation Plus."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abre a app PlayStation → icone de perfil → Subscricoes → Cancelar PlayStation Plus."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "O que acontece aos meus jogos mensais?",
+        "answer": "Os jogos mensais ficam bloqueados ate voltares a subscrever. Nao sao eliminados."
+      },
+      {
+        "question": "Posso cancelar pela consola?",
+        "answer": "Sim. Na PS4/PS5 vai a Definicoes → Conta → Subscricoes → Cancelar."
+      }
+    ]
+  },
+  "xbox-game-pass": {
+    "description": "Cancela o Xbox Game Pass atraves da conta Microsoft na web, da app Xbox ou da consola.",
+    "difficulty": "Facil",
+    "difficultyReason": "O cancelamento atraves da conta Microsoft na web e simples e rapido.",
+    "refundPolicy": "Sem reembolsos proporcionais. O acesso mantem-se ate ao fim do periodo de faturacao.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai a account.microsoft.com/services e inicia sessao."
+          },
+          {
+            "instruction": "Encontra o Xbox Game Pass e clica em Cancelar."
+          },
+          {
+            "instruction": "Segue os passos para confirmar."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abre a app Xbox ou usa as Definicoes do iPhone → Subscricoes se subscreveste via Apple."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abre a app Xbox ou a Google Play → Pagamentos e subscricoes → Subscricoes → Game Pass → Cancelar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "O que e o Xbox Game Pass Ultimate?",
+        "answer": "O Ultimate inclui Xbox Live Gold, PC Game Pass e cloud gaming numa unica subscricao."
+      },
+      {
+        "question": "Posso cancelar pela consola?",
+        "answer": "Sim. Na Xbox vai a Definicoes → Conta → Subscricoes → Gerir Game Pass."
+      }
+    ]
+  },
+  "calm": {
+    "description": "Cancela o Calm Premium atraves da web ou das definicoes do dispositivo. As subscricoes iOS devem ser canceladas pelo iOS.",
+    "difficulty": "Facil",
+    "difficultyReason": "Opcao de cancelamento clara nas definicoes da app para compras diretas.",
+    "refundPolicy": "O acesso mantem-se ate ao fim do periodo de faturacao.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai a calm.com/app/settings e inicia sessao."
+          },
+          {
+            "instruction": "Clica em Cancelar Premium (apenas para compras diretas no Calm)."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abre as Definicoes do iPhone → teu nome → Subscricoes → Calm → Cancelar subscricao."
+          },
+          {
+            "instruction": "As subscricoes iOS TEM de ser canceladas pelas Definicoes do iOS, nao pela app."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abre a Google Play → icone de perfil → Pagamentos e subscricoes → Subscricoes → Calm → Cancelar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Porque nao consigo cancelar pela app?",
+        "answer": "Se subscreveste atraves da App Store, o cancelamento deve ser feito pelas Definicoes do iOS ou Android."
+      },
+      {
+        "question": "Posso aceder ao conteudo apos o cancelamento?",
+        "answer": "Sim, ate ao fim do periodo de faturacao atual."
+      }
+    ]
+  },
+  "headspace": {
+    "description": "Cancela o Headspace atraves da web ou das definicoes do dispositivo. O conteudo gratuito permanece disponivel.",
+    "difficulty": "Facil",
+    "difficultyReason": "A opcao de cancelamento e facilmente encontrada nas definicoes da conta.",
+    "refundPolicy": "Sem reembolsos proporcionais. O conteudo gratuito permanece disponivel apos o cancelamento.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai a headspace.com/account/subscriptions e inicia sessao."
+          },
+          {
+            "instruction": "Clica em Cancelar subscricao."
+          },
+          {
+            "instruction": "Confirma o cancelamento."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abre as Definicoes do iPhone → teu nome → Subscricoes → Headspace → Cancelar subscricao."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abre a Google Play → icone de perfil → Pagamentos e subscricoes → Subscricoes → Headspace → Cancelar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Mantenho acesso ao conteudo apos cancelar?",
+        "answer": "O conteudo gratuito permanece disponivel. O conteudo Premium deixa de estar acessivel no fim do periodo."
+      },
+      {
+        "question": "Tenho um plano de estudante ou de trabalho.",
+        "answer": "Contacta o suporte do Headspace para cancelar planos especiais."
+      }
+    ]
+  },
+  "chewy-autoship": {
+    "description": "Cancela as entregas automaticas Chewy atraves da web ou da app. Cada produto deve ser cancelado separadamente.",
+    "difficulty": "Facil",
+    "difficultyReason": "As subscricoes Autoship estao claramente listadas na gestao de conta.",
+    "refundPolicy": "O Chewy e conhecido pela sua generosa politica de reembolso. Contacta o suporte para qualquer problema.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai a chewy.com e inicia sessao."
+          },
+          {
+            "instruction": "Clica em Conta → Autoship e poupanca."
+          },
+          {
+            "instruction": "Clica em Gerir Autoship junto ao produto → Cancelar."
+          },
+          {
+            "instruction": "Repete para cada produto."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abre a app Chewy → Conta → Autoship e poupanca → seleciona o produto → Cancelar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abre a app Chewy → Conta → Autoship e poupanca → seleciona o produto → Cancelar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Posso cancelar todos os Autoship de uma vez?",
+        "answer": "Nao. Cada produto tem de ser cancelado individualmente."
+      },
+      {
+        "question": "Qual e a politica de reembolso do Chewy?",
+        "answer": "O Chewy e conhecido pelo seu excelente servico ao cliente. Contacta o suporte para qualquer problema."
+      }
+    ]
   }
-
 }
