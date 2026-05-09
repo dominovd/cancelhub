@@ -4355,5 +4355,465 @@
         "answer": "Tidak. Discovery+ tidak menyertakan konten Max/HBO."
       }
     ]
+  },
+  "britbox": {
+    "description": "BritBox adalah layanan streaming TV Inggris (Rp/bulan setara $8.99). Pembatalan mudah melalui situs web atau pengaturan perangkat.",
+    "difficulty": "Mudah",
+    "difficultyReason": "Opsi pembatalan jelas di pengaturan akun.",
+    "refundPolicy": "Daftar tontonan tetap tersimpan setelah pembatalan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Kunjungi britbox.com/account dan masuk."
+          },
+          {
+            "instruction": "Klik Batalkan Langganan."
+          },
+          {
+            "instruction": "Konfirmasi pembatalan."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Pengaturan iPhone, nama Anda, Langganan, BritBox, Batalkan."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profil, Pembayaran dan Langganan, Langganan, BritBox, Batalkan."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Saya berlangganan melalui Amazon. Di mana membatalkan?",
+        "answer": "Melalui Amazon Prime Video Channels, bukan di britbox.com."
+      },
+      {
+        "question": "Saya berlangganan melalui Apple. Di mana membatalkan?",
+        "answer": "Di Pengaturan iPhone pada menu Langganan."
+      },
+      {
+        "question": "Apakah daftar tontonan tetap tersimpan?",
+        "answer": "Ya, daftar tontonan tetap tersimpan setelah pembatalan."
+      }
+    ]
+  },
+  "acorn-tv": {
+    "description": "Acorn TV adalah layanan streaming drama Inggris dan internasional ($6.99/bulan). Pembatalan mudah melalui situs web atau pengaturan perangkat.",
+    "difficulty": "Mudah",
+    "difficultyReason": "Opsi pembatalan jelas di pengaturan akun.",
+    "refundPolicy": "Riwayat tontonan tetap tersimpan setelah pembatalan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Kunjungi acorn.tv/my-account dan masuk."
+          },
+          {
+            "instruction": "Klik Batalkan Langganan."
+          },
+          {
+            "instruction": "Konfirmasi pembatalan."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Pengaturan iPhone, nama Anda, Langganan, Acorn TV, Batalkan."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profil, Pembayaran dan Langganan, Langganan, Acorn TV, Batalkan."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Saya berlangganan melalui Amazon. Di mana membatalkan?",
+        "answer": "Melalui Amazon Prime Video Channels, bukan di acorn.tv."
+      },
+      {
+        "question": "Apakah riwayat tontonan tetap tersimpan?",
+        "answer": "Ya, riwayat tontonan tetap tersimpan setelah pembatalan."
+      }
+    ]
+  },
+  "fabfitfun": {
+    "description": "FabFitFun adalah kotak langganan gaya hidup ($54.99/kuartal). Pembatalan melalui situs web; perhatikan batas waktu musiman.",
+    "difficulty": "Sedang",
+    "difficultyReason": "Batas waktu musiman dan tidak adanya fitur jeda membuat prosesnya agak rumit.",
+    "refundPolicy": "Harus membatalkan sebelum batas waktu musiman. Tidak ada fitur jeda.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Kunjungi fabfitfun.com/account/edit dan masuk."
+          },
+          {
+            "instruction": "Klik Batalkan Keanggotaan."
+          },
+          {
+            "instruction": "Konfirmasi pembatalan sebelum batas waktu musiman."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Gunakan browser; pembatalan di aplikasi tidak tersedia."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Gunakan browser; pembatalan di aplikasi tidak tersedia."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Apakah ada fitur jeda?",
+        "answer": "Tidak, fitur jeda tidak tersedia."
+      },
+      {
+        "question": "Kapan batas waktu musiman?",
+        "answer": "Periksa akun Anda untuk batas waktu musiman saat ini."
+      }
+    ]
+  },
+  "beachbody": {
+    "description": "BODi (Beachbody On Demand) adalah layanan streaming kebugaran ($19.99/bulan). Pembatalan melalui situs web, obrolan dukungan, atau telepon.",
+    "difficulty": "Sedang",
+    "difficultyReason": "Beberapa cara pembatalan; dukungan mungkin menawarkan alternatif.",
+    "refundPolicy": "Jaminan pengembalian dana 30 hari untuk pelanggan baru.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Kunjungi beachbodyondemand.com/account dan masuk."
+          },
+          {
+            "instruction": "Klik Batalkan Keanggotaan atau gunakan obrolan dukungan."
+          },
+          {
+            "instruction": "Atau hubungi 1-800-470-7870."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Pengaturan iPhone, nama Anda, Langganan, BODi, Batalkan."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profil, Pembayaran dan Langganan, Langganan, BODi, Batalkan."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Apakah saya berhak mendapat pengembalian dana?",
+        "answer": "Pelanggan baru mendapat jaminan pengembalian dana 30 hari."
+      },
+      {
+        "question": "Bagaimana menghubungi dukungan?",
+        "answer": "Melalui obrolan di situs web atau menelepon 1-800-470-7870."
+      }
+    ]
+  },
+  "blue-apron": {
+    "description": "Blue Apron adalah layanan kit makanan ($9.99-$13.99/porsi). Pembatalan melalui situs web; batas waktu Jumat tengah malam.",
+    "difficulty": "Sedang",
+    "difficultyReason": "Opsi jeda ditampilkan sebelum pembatalan; perhatikan batas waktu mingguan.",
+    "refundPolicy": "Harus membatalkan sebelum Jumat tengah malam untuk menghindari pengiriman berikutnya.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Kunjungi blueapron.com/account/settings dan masuk."
+          },
+          {
+            "instruction": "Klik Pengaturan Paket."
+          },
+          {
+            "instruction": "Gulir melewati opsi jeda dan klik Batalkan Paket."
+          },
+          {
+            "instruction": "Konfirmasi pembatalan."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Gunakan browser; pembatalan di aplikasi tidak tersedia."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Gunakan browser; pembatalan di aplikasi tidak tersedia."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Sampai kapan bisa membatalkan?",
+        "answer": "Sebelum Jumat tengah malam untuk menghindari pengiriman minggu berikutnya."
+      },
+      {
+        "question": "Bisakah saya menjeda daripada membatalkan?",
+        "answer": "Ya, Blue Apron menawarkan opsi jeda."
+      }
+    ]
+  },
+  "home-chef": {
+    "description": "Home Chef adalah layanan kit makanan ($9.95-$15.95/porsi). Pembatalan mudah melalui situs web; batas waktu Kamis tengah malam.",
+    "difficulty": "Mudah",
+    "difficultyReason": "Opsi pembatalan jelas, namun perhatikan batas waktu Kamis.",
+    "refundPolicy": "Harus membatalkan sebelum Kamis tengah malam. Bisa melewati minggu tertentu.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Kunjungi homechef.com/account dan masuk."
+          },
+          {
+            "instruction": "Klik Batalkan Akun (di bawah opsi jeda)."
+          },
+          {
+            "instruction": "Konfirmasi pembatalan."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Gunakan browser; pembatalan di aplikasi tidak tersedia."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Gunakan browser; pembatalan di aplikasi tidak tersedia."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Sampai kapan bisa membatalkan?",
+        "answer": "Sebelum Kamis tengah malam untuk menghindari pengiriman berikutnya."
+      },
+      {
+        "question": "Bisakah melewati minggu tertentu?",
+        "answer": "Ya, bisa melewati minggu tanpa membatalkan langganan."
+      }
+    ]
+  },
+  "everyplate": {
+    "description": "EveryPlate adalah layanan kit makanan hemat ($4.99-$6.99/porsi) dari HelloFresh. Pembatalan mudah melalui situs web.",
+    "difficulty": "Mudah",
+    "difficultyReason": "Opsi pembatalan jelas; perhatikan batas waktu Sabtu.",
+    "refundPolicy": "Harus membatalkan sebelum Sabtu tengah malam. Bisa melewati minggu.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Kunjungi everyplate.com/account dan masuk."
+          },
+          {
+            "instruction": "Klik Batalkan Langganan."
+          },
+          {
+            "instruction": "Konfirmasi pembatalan."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Gunakan browser; pembatalan di aplikasi tidak tersedia."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Gunakan browser; pembatalan di aplikasi tidak tersedia."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Sampai kapan bisa membatalkan?",
+        "answer": "Sebelum Sabtu tengah malam untuk menghindari pengiriman berikutnya."
+      },
+      {
+        "question": "Siapa yang mengelola EveryPlate?",
+        "answer": "EveryPlate adalah bagian dari HelloFresh."
+      }
+    ]
+  },
+  "sun-basket": {
+    "description": "Sun Basket adalah layanan kit makanan organik ($10.99-$16.99/porsi). Pembatalan melalui situs web; opsi jeda sangat dipromosikan.",
+    "difficulty": "Sedang",
+    "difficultyReason": "Opsi jeda sangat dipromosikan sebelum pembatalan; batas waktu Rabu.",
+    "refundPolicy": "Harus membatalkan sebelum Rabu tengah malam.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Kunjungi sunbasket.com/account dan masuk."
+          },
+          {
+            "instruction": "Gulir melewati tawaran jeda dan klik Batalkan Paket."
+          },
+          {
+            "instruction": "Konfirmasi pembatalan."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Gunakan browser; pembatalan di aplikasi tidak tersedia."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Gunakan browser; pembatalan di aplikasi tidak tersedia."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Sampai kapan bisa membatalkan?",
+        "answer": "Sebelum Rabu tengah malam untuk menghindari pengiriman berikutnya."
+      },
+      {
+        "question": "Apakah ada opsi jeda?",
+        "answer": "Ya, Sun Basket menawarkan jeda yang sangat dipromosikan sebelum pembatalan."
+      }
+    ]
+  },
+  "butcherbox": {
+    "description": "ButcherBox adalah layanan pengiriman daging ($146-$291/kotak). Pembatalan melalui situs web; batalkan 3 hari sebelum tanggal tagihan.",
+    "difficulty": "Sedang",
+    "difficultyReason": "Tautan pembatalan memerlukan pengguliran; perhatikan tenggat 3 hari.",
+    "refundPolicy": "Batalkan 3 hari sebelum tanggal tagihan. Pesanan bisa ditunda atau dilewati.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Kunjungi butcherbox.com/account/plan dan masuk."
+          },
+          {
+            "instruction": "Gulir ke bawah dan klik Batalkan Keanggotaan."
+          },
+          {
+            "instruction": "Konfirmasi pembatalan."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Gunakan browser; pembatalan di aplikasi tidak tersedia."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Gunakan browser; pembatalan di aplikasi tidak tersedia."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Berapa jauh sebelumnya harus membatalkan?",
+        "answer": "Setidaknya 3 hari sebelum tanggal tagihan berikutnya."
+      },
+      {
+        "question": "Bisakah melewati pesanan?",
+        "answer": "Ya, pesanan bisa ditunda atau dilewati."
+      }
+    ]
+  },
+  "dollar-shave-club": {
+    "description": "Dollar Shave Club adalah layanan langganan pisau cukur dan produk perawatan ($5-$15/bulan). Pembatalan mudah melalui situs web.",
+    "difficulty": "Mudah",
+    "difficultyReason": "Opsi pembatalan jelas di pengaturan keanggotaan.",
+    "refundPolicy": "Produk yang belum dibuka bisa dikembalikan dalam 30 hari. Pengiriman bisa dijeda atau ditunda.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Kunjungi dollarshaveclub.com/account dan masuk."
+          },
+          {
+            "instruction": "Klik Pengaturan Keanggotaan."
+          },
+          {
+            "instruction": "Klik Batalkan Keanggotaan."
+          },
+          {
+            "instruction": "Konfirmasi pembatalan."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Gunakan browser; pembatalan di aplikasi tidak tersedia."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Gunakan browser; pembatalan di aplikasi tidak tersedia."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Bisakah menjeda daripada membatalkan?",
+        "answer": "Ya, pengiriman bisa dijeda atau ditunda."
+      },
+      {
+        "question": "Bisakah mengembalikan produk?",
+        "answer": "Ya, produk yang belum dibuka bisa dikembalikan dalam 30 hari."
+      }
+    ]
   }
 }

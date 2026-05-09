@@ -4355,5 +4355,465 @@
         "answer": "नहीं। Discovery+ में Max/HBO सामग्री शामिल नहीं है।"
       }
     ]
+  },
+  "britbox": {
+    "description": "BritBox ek British TV streaming seva hai (maasik $8.99). Website ya device settings se aasaani se band kiya ja sakta hai.",
+    "difficulty": "आसान",
+    "difficultyReason": "Khaate ki settings mein spashtata band karne ka vikalp hai.",
+    "refundPolicy": "Band karne ke baad bhi aapki watchlist surakshit rahegi.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "britbox.com/account par jaayein aur login karein."
+          },
+          {
+            "instruction": "Subscription cancel karein par click karein."
+          },
+          {
+            "instruction": "Cancel karne ki pushhti karein."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone Settings, aapka naam, Subscriptions, BritBox, Cancel karein."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profile, Payments aur Subscriptions, Subscriptions, BritBox, Cancel karein."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Maine Amazon se subscribe kiya. Cancel kahaan karein?",
+        "answer": "Amazon Prime Video Channels se cancel karein, britbox.com se nahin."
+      },
+      {
+        "question": "Maine Apple se subscribe kiya. Cancel kahaan karein?",
+        "answer": "iPhone Settings mein Subscriptions se cancel karein."
+      },
+      {
+        "question": "Kya meri watchlist surakshit rahegi?",
+        "answer": "Haan, band karne ke baad bhi watchlist surakshit rahegi."
+      }
+    ]
+  },
+  "acorn-tv": {
+    "description": "Acorn TV British aur antarrashtriya drama streaming seva hai (maasik $6.99). Website ya device settings se aasaani se band kiya ja sakta hai.",
+    "difficulty": "आसान",
+    "difficultyReason": "Khaate ki settings mein spashtata band karne ka vikalp hai.",
+    "refundPolicy": "Band karne ke baad bhi aapka viewing history surakshit rahega.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "acorn.tv/my-account par jaayein aur login karein."
+          },
+          {
+            "instruction": "Subscription cancel karein par click karein."
+          },
+          {
+            "instruction": "Cancel karne ki pushhti karein."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone Settings, aapka naam, Subscriptions, Acorn TV, Cancel karein."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profile, Payments aur Subscriptions, Subscriptions, Acorn TV, Cancel karein."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Maine Amazon se subscribe kiya. Cancel kahaan karein?",
+        "answer": "Amazon Prime Video Channels se cancel karein, acorn.tv se nahin."
+      },
+      {
+        "question": "Kya mera viewing history surakshit rahega?",
+        "answer": "Haan, band karne ke baad bhi viewing history surakshit rahega."
+      }
+    ]
+  },
+  "fabfitfun": {
+    "description": "FabFitFun ek lifestyle subscription box hai (timaahi $54.99). Website se band karein; seasonal deadline dhyaan mein rakhein.",
+    "difficulty": "मध्यम",
+    "difficultyReason": "Seasonal deadlines aur pause suvidha naa hone se prakriya thodi jatil hai.",
+    "refundPolicy": "Seasonal deadline se pehle band karna zaroori hai. Pause ki suvidha uplabdh nahin hai.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "fabfitfun.com/account/edit par jaayein aur login karein."
+          },
+          {
+            "instruction": "Membership cancel karein par click karein."
+          },
+          {
+            "instruction": "Seasonal deadline se pehle cancel karne ki pushhti karein."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Browser ka upyog karein; app mein cancel karne ki suvidha uplabdh nahin hai."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Browser ka upyog karein; app mein cancel karne ki suvidha uplabdh nahin hai."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kya pause ki suvidha hai?",
+        "answer": "Nahin, pause ki suvidha uplabdh nahin hai."
+      },
+      {
+        "question": "Seasonal deadline kab hai?",
+        "answer": "Apne khaate mein vartamaan seasonal deadline dekhein."
+      }
+    ]
+  },
+  "beachbody": {
+    "description": "BODi (Beachbody On Demand) ek fitness streaming seva hai (maasik $19.99). Website, support chat ya phone se band kiya ja sakta hai.",
+    "difficulty": "मध्यम",
+    "difficultyReason": "Cancel karne ke kai tarike hain; support vikatp pesh kar sakta hai.",
+    "refundPolicy": "Naye subscribers ke liye 30 din ki paisa wapsi ki guarantee hai.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "beachbodyondemand.com/account par jaayein aur login karein."
+          },
+          {
+            "instruction": "Membership cancel karein par click karein ya support chat ka upyog karein."
+          },
+          {
+            "instruction": "Ya 1-800-470-7870 par call karein."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone Settings, aapka naam, Subscriptions, BODi, Cancel karein."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profile, Payments aur Subscriptions, Subscriptions, BODi, Cancel karein."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kya mujhe refund milega?",
+        "answer": "Naye subscribers ko 30 din ki money-back guarantee milti hai."
+      },
+      {
+        "question": "Support se kaise sampark karein?",
+        "answer": "Website par chat se ya 1-800-470-7870 par call karein."
+      }
+    ]
+  },
+  "blue-apron": {
+    "description": "Blue Apron ek meal kit seva hai (prati meal $9.99-$13.99). Website se band karein; deadline Shukrawar ki aadhi raat hai.",
+    "difficulty": "मध्यम",
+    "difficultyReason": "Cancel karne se pehle pause vikatp dikhaye jaate hain; saaptahik deadline dhyaan mein rakhein.",
+    "refundPolicy": "Agli delivery se bachne ke liye Shukrawar ki aadhi raat se pehle band karna hoga.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "blueapron.com/account/settings par jaayein aur login karein."
+          },
+          {
+            "instruction": "Plan Settings par click karein."
+          },
+          {
+            "instruction": "Pause options ko paar karke scroll karein aur Cancel Plan par click karein."
+          },
+          {
+            "instruction": "Cancel karne ki pushhti karein."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Browser ka upyog karein; app mein cancel karne ki suvidha uplabdh nahin hai."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Browser ka upyog karein; app mein cancel karne ki suvidha uplabdh nahin hai."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kab tak cancel kar sakta hun?",
+        "answer": "Agli saaptahik delivery se bachne ke liye Shukrawar ki aadhi raat se pehle."
+      },
+      {
+        "question": "Cancel ki jagah pause kar sakta hun?",
+        "answer": "Haan, Blue Apron pause ka vikalp pradan karta hai."
+      }
+    ]
+  },
+  "home-chef": {
+    "description": "Home Chef ek meal kit seva hai (prati meal $9.95-$15.95). Website se aasaani se band kiya ja sakta hai; deadline Guruwar ki aadhi raat hai.",
+    "difficulty": "आसान",
+    "difficultyReason": "Spashtata band karne ka vikalp hai lekin Guruwar ki deadline dhyaan mein rakhein.",
+    "refundPolicy": "Guruwar ki aadhi raat se pehle band karna hoga. Alag-alag hafton ko skip kar sakte hain.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "homechef.com/account par jaayein aur login karein."
+          },
+          {
+            "instruction": "Account cancel karein par click karein (pause option ke neeche)."
+          },
+          {
+            "instruction": "Cancel karne ki pushhti karein."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Browser ka upyog karein; app mein cancel karne ki suvidha uplabdh nahin hai."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Browser ka upyog karein; app mein cancel karne ki suvidha uplabdh nahin hai."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kab tak cancel kar sakta hun?",
+        "answer": "Agli delivery se bachne ke liye Guruwar ki aadhi raat se pehle."
+      },
+      {
+        "question": "Kya alag-alag hafton ko skip kar sakta hun?",
+        "answer": "Haan, band kiye bina hafton ko skip kar sakte hain."
+      }
+    ]
+  },
+  "everyplate": {
+    "description": "EveryPlate HelloFresh ki ek budget meal kit seva hai (prati meal $4.99-$6.99). Website se aasaani se band kiya ja sakta hai.",
+    "difficulty": "आसान",
+    "difficultyReason": "Spashtata band karne ka vikalp hai; Shanivaar ki deadline dhyaan mein rakhein.",
+    "refundPolicy": "Shanivaar ki aadhi raat se pehle band karna hoga. Hafte skip kar sakte hain.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "everyplate.com/account par jaayein aur login karein."
+          },
+          {
+            "instruction": "Subscription cancel karein par click karein."
+          },
+          {
+            "instruction": "Cancel karne ki pushhti karein."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Browser ka upyog karein; app mein cancel karne ki suvidha uplabdh nahin hai."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Browser ka upyog karein; app mein cancel karne ki suvidha uplabdh nahin hai."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kab tak cancel kar sakta hun?",
+        "answer": "Agli delivery se bachne ke liye Shanivaar ki aadhi raat se pehle."
+      },
+      {
+        "question": "EveryPlate kaun chalata hai?",
+        "answer": "EveryPlate HelloFresh ka hissa hai."
+      }
+    ]
+  },
+  "sun-basket": {
+    "description": "Sun Basket ek organic meal kit seva hai (prati meal $10.99-$16.99). Website se band karein; pause ki suvidha bahut zyada promote ki jaati hai.",
+    "difficulty": "मध्यम",
+    "difficultyReason": "Band karne se pehle pause ko bahut promote kiya jaata hai; Budhwar ki deadline dhyaan mein rakhein.",
+    "refundPolicy": "Budhwar ki aadhi raat se pehle band karna hoga.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "sunbasket.com/account par jaayein aur login karein."
+          },
+          {
+            "instruction": "Pause offer ko paar karke scroll karein aur Cancel Plan par click karein."
+          },
+          {
+            "instruction": "Cancel karne ki pushhti karein."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Browser ka upyog karein; app mein cancel karne ki suvidha uplabdh nahin hai."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Browser ka upyog karein; app mein cancel karne ki suvidha uplabdh nahin hai."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kab tak cancel kar sakta hun?",
+        "answer": "Agli delivery se bachne ke liye Budhwar ki aadhi raat se pehle."
+      },
+      {
+        "question": "Kya pause ka vikalp milta hai?",
+        "answer": "Haan, Sun Basket pause pradan karta hai jise band karne se pehle bahut promote kiya jaata hai."
+      }
+    ]
+  },
+  "butcherbox": {
+    "description": "ButcherBox ek meat delivery seva hai (prati box $146-$291). Website se band karein; billing date se 3 din pehle cancel karein.",
+    "difficulty": "मध्यम",
+    "difficultyReason": "Cancel karne ka link scroll karne par milta hai; 3 din pehle ki deadline dhyaan mein rakhein.",
+    "refundPolicy": "Billing date se 3 din pehle cancel karein. Orders delay ya skip kiye ja sakte hain.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "butcherbox.com/account/plan par jaayein aur login karein."
+          },
+          {
+            "instruction": "Neeche scroll karein aur Cancel Membership par click karein."
+          },
+          {
+            "instruction": "Cancel karne ki pushhti karein."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Browser ka upyog karein; app mein cancel karne ki suvidha uplabdh nahin hai."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Browser ka upyog karein; app mein cancel karne ki suvidha uplabdh nahin hai."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kitne samay pehle cancel karna hoga?",
+        "answer": "Agli billing date se kam se kam 3 din pehle."
+      },
+      {
+        "question": "Kya order skip kar sakta hun?",
+        "answer": "Haan, orders ko delay ya skip kiya ja sakta hai."
+      }
+    ]
+  },
+  "dollar-shave-club": {
+    "description": "Dollar Shave Club ek razor aur grooming products subscription seva hai (maasik $5-$15). Website se aasaani se band kiya ja sakta hai.",
+    "difficulty": "आसान",
+    "difficultyReason": "Membership settings mein spashtata band karne ka vikalp hai.",
+    "refundPolicy": "30 din ke andar naa khole gaye items vaapis kiye ja sakte hain. Deliveries pause ya delay ki ja sakti hain.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "dollarshaveclub.com/account par jaayein aur login karein."
+          },
+          {
+            "instruction": "Membership Settings par click karein."
+          },
+          {
+            "instruction": "Cancel Membership par click karein."
+          },
+          {
+            "instruction": "Cancel karne ki pushhti karein."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Browser ka upyog karein; app mein cancel karne ki suvidha uplabdh nahin hai."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Browser ka upyog karein; app mein cancel karne ki suvidha uplabdh nahin hai."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Cancel ki jagah pause kar sakta hun?",
+        "answer": "Haan, deliveries pause ya delay ki ja sakti hain."
+      },
+      {
+        "question": "Kya items vaapis kar sakta hun?",
+        "answer": "Haan, naa khole gaye items 30 din ke andar vaapis kiye ja sakte hain."
+      }
+    ]
   }
 }

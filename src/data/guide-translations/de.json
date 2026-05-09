@@ -4469,5 +4469,465 @@
         "answer": "Nein. Discovery+ enthaelt keine Max/HBO-Inhalte."
       }
     ]
+  },
+  "britbox": {
+    "description": "BritBox ist ein britischer TV-Streamingdienst (8,99 $/Monat). Kuendigung einfach per Website oder Geraeteeinstellungen.",
+    "difficulty": "Einfach",
+    "difficultyReason": "Klare Kuendigungsoption in den Kontoeinstellungen.",
+    "refundPolicy": "Deine Merkliste bleibt nach der Kuendigung erhalten.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu britbox.com/account und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf Abonnement kuendigen."
+          },
+          {
+            "instruction": "Bestatige die Kuendigung."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone-Einstellungen, deinen Namen, Abonnements, BritBox, Kuendigen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profil, Zahlungen und Abonnements, Abonnements, BritBox, Kuendigen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ich habe ueber Amazon abonniert. Wo kuendige ich?",
+        "answer": "Ueber Amazon Prime Video Channels, nicht ueber britbox.com."
+      },
+      {
+        "question": "Ich habe ueber Apple abonniert. Wo kuendige ich?",
+        "answer": "Ueber die iPhone-Einstellungen unter Abonnements."
+      },
+      {
+        "question": "Bleibt meine Merkliste gespeichert?",
+        "answer": "Ja, die Merkliste bleibt nach der Kuendigung erhalten."
+      }
+    ]
+  },
+  "acorn-tv": {
+    "description": "Acorn TV ist ein Streamingdienst fuer britische und internationale Dramen (6,99 $/Monat). Kuendigung einfach per Website oder Geraeteeinstellungen.",
+    "difficulty": "Einfach",
+    "difficultyReason": "Klare Kuendigungsoption in den Kontoeinstellungen.",
+    "refundPolicy": "Dein Wiedergabeverlauf bleibt nach der Kuendigung erhalten.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu acorn.tv/my-account und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf Abonnement kuendigen."
+          },
+          {
+            "instruction": "Bestatige die Kuendigung."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone-Einstellungen, deinen Namen, Abonnements, Acorn TV, Kuendigen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profil, Zahlungen und Abonnements, Abonnements, Acorn TV, Kuendigen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ich habe ueber Amazon abonniert. Wo kuendige ich?",
+        "answer": "Ueber Amazon Prime Video Channels, nicht ueber acorn.tv."
+      },
+      {
+        "question": "Bleibt mein Wiedergabeverlauf gespeichert?",
+        "answer": "Ja, der Wiedergabeverlauf bleibt nach der Kuendigung erhalten."
+      }
+    ]
+  },
+  "fabfitfun": {
+    "description": "FabFitFun ist eine Lifestyle-Abo-Box (54,99 $/Quartal). Kuendigung per Website; Frist vor saisonalem Stichtag beachten.",
+    "difficulty": "Mittel",
+    "difficultyReason": "Saisonale Kuendigungsfristen und keine Pause-Funktion machen den Prozess etwas komplizierter.",
+    "refundPolicy": "Kuendigung muss vor dem saisonalen Stichtag erfolgen. Keine Pause-Funktion verfuegbar.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu fabfitfun.com/account/edit und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf Mitgliedschaft kuendigen."
+          },
+          {
+            "instruction": "Bestatige die Kuendigung vor dem saisonalen Stichtag."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Nutze den Browser; eine In-App-Kuendigung ist nicht verfuegbar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Nutze den Browser; eine In-App-Kuendigung ist nicht verfuegbar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Gibt es eine Pause-Funktion?",
+        "answer": "Nein, eine Pause-Funktion ist nicht verfuegbar."
+      },
+      {
+        "question": "Wann muss ich vor dem Stichtag kuendigen?",
+        "answer": "Pruefe dein Konto auf den aktuellen saisonalen Stichtag."
+      }
+    ]
+  },
+  "beachbody": {
+    "description": "BODi (Beachbody On Demand) ist ein Fitness-Streamingdienst (19,99 $/Monat). Kuendigung per Website, Support-Chat oder Telefon.",
+    "difficulty": "Mittel",
+    "difficultyReason": "Mehrere Kuendigungswege; Support kann Angebote machen.",
+    "refundPolicy": "30 Tage Rueckerstattung fuer Neuabonnenten.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu beachbodyondemand.com/account und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf Mitgliedschaft kuendigen oder nutze den Support-Chat."
+          },
+          {
+            "instruction": "Alternativ anrufen: 1-800-470-7870."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone-Einstellungen, deinen Namen, Abonnements, BODi, Kuendigen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profil, Zahlungen und Abonnements, Abonnements, BODi, Kuendigen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Habe ich Anspruch auf eine Rueckerstattung?",
+        "answer": "Neuabonnenten erhalten eine 30-taetige Geld-zurueck-Garantie."
+      },
+      {
+        "question": "Wie erreiche ich den Support?",
+        "answer": "Per Chat auf der Website oder telefonisch unter 1-800-470-7870."
+      }
+    ]
+  },
+  "blue-apron": {
+    "description": "Blue Apron ist ein Mahlzeit-Kit-Service (9,99-13,99 $/Mahlzeit). Kuendigung per Website; Frist Freitag Mitternacht beachten.",
+    "difficulty": "Mittel",
+    "difficultyReason": "Pause-Optionen werden vor der Kuendigung stark beworben; Wochenfrist beachten.",
+    "refundPolicy": "Kuendigung muss vor Freitag Mitternacht erfolgen, um die naechste Lieferung zu vermeiden.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu blueapron.com/account/settings und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf Plan-Einstellungen."
+          },
+          {
+            "instruction": "Scrolle an den Pause-Optionen vorbei und klicke auf Plan kuendigen."
+          },
+          {
+            "instruction": "Bestatige die Kuendigung."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Nutze den Browser; eine In-App-Kuendigung ist nicht verfuegbar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Nutze den Browser; eine In-App-Kuendigung ist nicht verfuegbar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Bis wann muss ich kuendigen?",
+        "answer": "Vor Freitag Mitternacht, um die naechste Wochenlieferung zu vermeiden."
+      },
+      {
+        "question": "Kann ich pausieren statt zu kuendigen?",
+        "answer": "Ja, Blue Apron bietet eine Pause-Option an."
+      }
+    ]
+  },
+  "home-chef": {
+    "description": "Home Chef ist ein Mahlzeit-Kit-Service (9,95-15,95 $/Mahlzeit). Kuendigung einfach per Website; Frist Donnerstag Mitternacht beachten.",
+    "difficulty": "Einfach",
+    "difficultyReason": "Klare Kuendigungsoption, aber Donnerstag-Frist beachten.",
+    "refundPolicy": "Kuendigung muss vor Donnerstag Mitternacht erfolgen. Einzelne Wochen koennen uebersprungen werden.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu homechef.com/account und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf Konto kuendigen (unterhalb der Pause-Option)."
+          },
+          {
+            "instruction": "Bestatige die Kuendigung."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Nutze den Browser; eine In-App-Kuendigung ist nicht verfuegbar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Nutze den Browser; eine In-App-Kuendigung ist nicht verfuegbar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Bis wann muss ich kuendigen?",
+        "answer": "Vor Donnerstag Mitternacht, um die naechste Lieferung zu vermeiden."
+      },
+      {
+        "question": "Kann ich einzelne Wochen ueberspringen?",
+        "answer": "Ja, du kannst einzelne Wochen ueberspringen ohne zu kuendigen."
+      }
+    ]
+  },
+  "everyplate": {
+    "description": "EveryPlate ist ein guenstiger Mahlzeit-Kit-Service (4,99-6,99 $/Mahlzeit), betrieben von HelloFresh. Kuendigung einfach per Website.",
+    "difficulty": "Einfach",
+    "difficultyReason": "Klare Kuendigungsoption; Samstag-Frist beachten.",
+    "refundPolicy": "Kuendigung muss vor Samstag Mitternacht erfolgen. Wochen koennen uebersprungen werden.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu everyplate.com/account und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf Abonnement kuendigen."
+          },
+          {
+            "instruction": "Bestatige die Kuendigung."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Nutze den Browser; eine In-App-Kuendigung ist nicht verfuegbar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Nutze den Browser; eine In-App-Kuendigung ist nicht verfuegbar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Bis wann muss ich kuendigen?",
+        "answer": "Vor Samstag Mitternacht, um die naechste Lieferung zu vermeiden."
+      },
+      {
+        "question": "Wer betreibt EveryPlate?",
+        "answer": "EveryPlate gehoert zu HelloFresh."
+      }
+    ]
+  },
+  "sun-basket": {
+    "description": "Sun Basket ist ein Bio-Mahlzeit-Kit-Service (10,99-16,99 $/Mahlzeit). Kuendigung per Website; Pause wird stark beworben.",
+    "difficulty": "Mittel",
+    "difficultyReason": "Pause-Option wird vor der Kuendigung stark beworben; Mittwoch-Frist beachten.",
+    "refundPolicy": "Kuendigung muss vor Mittwoch Mitternacht erfolgen.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu sunbasket.com/account und melde dich an."
+          },
+          {
+            "instruction": "Scrolle an der Pause-Option vorbei und klicke auf Plan kuendigen."
+          },
+          {
+            "instruction": "Bestatige die Kuendigung."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Nutze den Browser; eine In-App-Kuendigung ist nicht verfuegbar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Nutze den Browser; eine In-App-Kuendigung ist nicht verfuegbar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Bis wann muss ich kuendigen?",
+        "answer": "Vor Mittwoch Mitternacht, um die naechste Lieferung zu vermeiden."
+      },
+      {
+        "question": "Wird eine Pause angeboten?",
+        "answer": "Ja, Sun Basket bietet eine Pause-Option an, die vor der Kuendigung stark beworben wird."
+      }
+    ]
+  },
+  "butcherbox": {
+    "description": "ButcherBox ist ein Fleischlieferservice (146-291 $/Box). Kuendigung per Website; 3 Tage vor Abrechnungsdatum kuendigen.",
+    "difficulty": "Mittel",
+    "difficultyReason": "Kuendigungslink erst nach Scrollen sichtbar; 3-Tage-Frist vor Abrechnung beachten.",
+    "refundPolicy": "3 Tage vor dem Abrechnungsdatum kuendigen. Bestellungen koennen verzoegert oder uebersprungen werden.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu butcherbox.com/account/plan und melde dich an."
+          },
+          {
+            "instruction": "Scrolle nach unten und klicke auf Mitgliedschaft kuendigen."
+          },
+          {
+            "instruction": "Bestatige die Kuendigung."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Nutze den Browser; eine In-App-Kuendigung ist nicht verfuegbar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Nutze den Browser; eine In-App-Kuendigung ist nicht verfuegbar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Wie fruehzeitig muss ich kuendigen?",
+        "answer": "Mindestens 3 Tage vor dem naechsten Abrechnungsdatum."
+      },
+      {
+        "question": "Kann ich eine Bestellung ueberspringen?",
+        "answer": "Ja, du kannst Bestellungen verzoegern oder ueberspringen."
+      }
+    ]
+  },
+  "dollar-shave-club": {
+    "description": "Dollar Shave Club ist ein Rasierer- und Pflegeprodukt-Abodienst (5-15 $/Monat). Kuendigung einfach per Website.",
+    "difficulty": "Einfach",
+    "difficultyReason": "Klare Kuendigungsoption in den Mitgliedschaftseinstellungen.",
+    "refundPolicy": "Ruecksendung ungeoeffneter Artikel innerhalb von 30 Tagen moeglich. Sendungen koennen pausiert oder verzoegert werden.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu dollarshaveclub.com/account und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf Mitgliedschafts-Einstellungen."
+          },
+          {
+            "instruction": "Klicke auf Mitgliedschaft kuendigen."
+          },
+          {
+            "instruction": "Bestatige die Kuendigung."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Nutze den Browser; eine In-App-Kuendigung ist nicht verfuegbar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Nutze den Browser; eine In-App-Kuendigung ist nicht verfuegbar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kann ich pausieren statt zu kuendigen?",
+        "answer": "Ja, du kannst Sendungen pausieren oder verzoegern."
+      },
+      {
+        "question": "Kann ich Artikel zuruecksenden?",
+        "answer": "Ja, ungeoeffnete Artikel koennen innerhalb von 30 Tagen zurueckgesendet werden."
+      }
+    ]
   }
 }

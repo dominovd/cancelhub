@@ -4404,5 +4404,465 @@
         "answer": "No. Discovery+ non include contenuti Max/HBO."
       }
     ]
+  },
+  "britbox": {
+    "description": "BritBox e un servizio di streaming televisivo britannico (8,99 $/mese). Disdetta semplice dal sito o dalle impostazioni del dispositivo.",
+    "difficulty": "Facile",
+    "difficultyReason": "Opzione di disdetta chiara nelle impostazioni dell'account.",
+    "refundPolicy": "La lista dei preferiti viene conservata dopo la disdetta.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su britbox.com/account e accedi."
+          },
+          {
+            "instruction": "Clicca su Annulla abbonamento."
+          },
+          {
+            "instruction": "Conferma la disdetta."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Impostazioni iPhone, il tuo nome, Abbonamenti, BritBox, Annulla."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profilo, Pagamenti e abbonamenti, Abbonamenti, BritBox, Annulla."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Mi sono abbonato tramite Amazon. Dove disdico?",
+        "answer": "Tramite Amazon Prime Video Channels, non su britbox.com."
+      },
+      {
+        "question": "Mi sono abbonato tramite Apple. Dove disdico?",
+        "answer": "Nelle Impostazioni iPhone, sotto Abbonamenti."
+      },
+      {
+        "question": "La mia lista dei preferiti viene conservata?",
+        "answer": "Si, la lista viene conservata dopo la disdetta."
+      }
+    ]
+  },
+  "acorn-tv": {
+    "description": "Acorn TV e un servizio di streaming di drammi britannici e internazionali (6,99 $/mese). Disdetta semplice dal sito o dalle impostazioni del dispositivo.",
+    "difficulty": "Facile",
+    "difficultyReason": "Opzione di disdetta chiara nelle impostazioni dell'account.",
+    "refundPolicy": "La cronologia delle riproduzioni viene conservata dopo la disdetta.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su acorn.tv/my-account e accedi."
+          },
+          {
+            "instruction": "Clicca su Annulla abbonamento."
+          },
+          {
+            "instruction": "Conferma la disdetta."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Impostazioni iPhone, il tuo nome, Abbonamenti, Acorn TV, Annulla."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profilo, Pagamenti e abbonamenti, Abbonamenti, Acorn TV, Annulla."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Mi sono abbonato tramite Amazon. Dove disdico?",
+        "answer": "Tramite Amazon Prime Video Channels, non su acorn.tv."
+      },
+      {
+        "question": "La cronologia delle riproduzioni viene conservata?",
+        "answer": "Si, la cronologia viene conservata dopo la disdetta."
+      }
+    ]
+  },
+  "fabfitfun": {
+    "description": "FabFitFun e una box in abbonamento lifestyle (54,99 $/trimestre). Disdetta dal sito; rispettare la scadenza stagionale.",
+    "difficulty": "Medio",
+    "difficultyReason": "Le scadenze stagionali e l'assenza di pausa rendono il processo piu complesso.",
+    "refundPolicy": "Devi disdire prima della scadenza stagionale. Non e disponibile la funzione pausa.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su fabfitfun.com/account/edit e accedi."
+          },
+          {
+            "instruction": "Clicca su Annulla iscrizione."
+          },
+          {
+            "instruction": "Conferma la disdetta prima della scadenza stagionale."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Usa il browser; la disdetta nell'app non e disponibile."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Usa il browser; la disdetta nell'app non e disponibile."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "E disponibile l'opzione pausa?",
+        "answer": "No, la funzione pausa non e disponibile."
+      },
+      {
+        "question": "Qual e la scadenza stagionale?",
+        "answer": "Controlla il tuo account per la scadenza stagionale corrente."
+      }
+    ]
+  },
+  "beachbody": {
+    "description": "BODi (Beachbody On Demand) e un servizio di streaming fitness (19,99 $/mese). Disdetta dal sito, chat di supporto o telefono.",
+    "difficulty": "Medio",
+    "difficultyReason": "Piu canali di disdetta; il supporto puo proporre alternative.",
+    "refundPolicy": "Rimborso di 30 giorni per i nuovi abbonati.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su beachbodyondemand.com/account e accedi."
+          },
+          {
+            "instruction": "Clicca su Annulla iscrizione o usa la chat di supporto."
+          },
+          {
+            "instruction": "In alternativa chiama il 1-800-470-7870."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Impostazioni iPhone, il tuo nome, Abbonamenti, BODi, Annulla."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profilo, Pagamenti e abbonamenti, Abbonamenti, BODi, Annulla."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ho diritto al rimborso?",
+        "answer": "I nuovi abbonati hanno una garanzia di rimborso di 30 giorni."
+      },
+      {
+        "question": "Come contatto il supporto?",
+        "answer": "Tramite chat sul sito o chiamando il 1-800-470-7870."
+      }
+    ]
+  },
+  "blue-apron": {
+    "description": "Blue Apron e un servizio di kit pasto (9,99-13,99 $/pasto). Disdetta dal sito; scadenza venerdi a mezzanotte.",
+    "difficulty": "Medio",
+    "difficultyReason": "Le opzioni di pausa vengono mostrate prima della disdetta; rispettare la scadenza settimanale.",
+    "refundPolicy": "Devi disdire prima di venerdi a mezzanotte per evitare la consegna successiva.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su blueapron.com/account/settings e accedi."
+          },
+          {
+            "instruction": "Clicca su Impostazioni piano."
+          },
+          {
+            "instruction": "Scorri oltre le opzioni di pausa e clicca su Annulla piano."
+          },
+          {
+            "instruction": "Conferma la disdetta."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Usa il browser; la disdetta nell'app non e disponibile."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Usa il browser; la disdetta nell'app non e disponibile."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Entro quando posso disdire?",
+        "answer": "Prima di venerdi a mezzanotte per evitare la consegna settimanale successiva."
+      },
+      {
+        "question": "Posso mettere in pausa invece di disdire?",
+        "answer": "Si, Blue Apron offre l'opzione di pausa."
+      }
+    ]
+  },
+  "home-chef": {
+    "description": "Home Chef e un servizio di kit pasto (9,95-15,95 $/pasto). Disdetta semplice dal sito; scadenza giovedi a mezzanotte.",
+    "difficulty": "Facile",
+    "difficultyReason": "Opzione di disdetta chiara, ma rispettare la scadenza del giovedi.",
+    "refundPolicy": "Devi disdire prima di giovedi a mezzanotte. Puoi saltare singole settimane.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su homechef.com/account e accedi."
+          },
+          {
+            "instruction": "Clicca su Annulla account (sotto l'opzione di pausa)."
+          },
+          {
+            "instruction": "Conferma la disdetta."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Usa il browser; la disdetta nell'app non e disponibile."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Usa il browser; la disdetta nell'app non e disponibile."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Entro quando posso disdire?",
+        "answer": "Prima di giovedi a mezzanotte per evitare la consegna successiva."
+      },
+      {
+        "question": "Posso saltare singole settimane?",
+        "answer": "Si, puoi saltare settimane senza disdire."
+      }
+    ]
+  },
+  "everyplate": {
+    "description": "EveryPlate e un servizio di kit pasto economico (4,99-6,99 $/pasto), gestito da HelloFresh. Disdetta semplice dal sito.",
+    "difficulty": "Facile",
+    "difficultyReason": "Opzione di disdetta chiara; rispettare la scadenza del sabato.",
+    "refundPolicy": "Devi disdire prima di sabato a mezzanotte. Puoi saltare settimane.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su everyplate.com/account e accedi."
+          },
+          {
+            "instruction": "Clicca su Annulla abbonamento."
+          },
+          {
+            "instruction": "Conferma la disdetta."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Usa il browser; la disdetta nell'app non e disponibile."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Usa il browser; la disdetta nell'app non e disponibile."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Entro quando posso disdire?",
+        "answer": "Prima di sabato a mezzanotte per evitare la consegna successiva."
+      },
+      {
+        "question": "Chi gestisce EveryPlate?",
+        "answer": "EveryPlate appartiene a HelloFresh."
+      }
+    ]
+  },
+  "sun-basket": {
+    "description": "Sun Basket e un servizio di kit pasto biologici (10,99-16,99 $/pasto). Disdetta dal sito; la pausa viene fortemente promossa.",
+    "difficulty": "Medio",
+    "difficultyReason": "L'opzione di pausa viene fortemente promossa prima della disdetta; scadenza mercoledi.",
+    "refundPolicy": "Devi disdire prima di mercoledi a mezzanotte.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su sunbasket.com/account e accedi."
+          },
+          {
+            "instruction": "Scorri oltre l'offerta di pausa e clicca su Annulla piano."
+          },
+          {
+            "instruction": "Conferma la disdetta."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Usa il browser; la disdetta nell'app non e disponibile."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Usa il browser; la disdetta nell'app non e disponibile."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Entro quando posso disdire?",
+        "answer": "Prima di mercoledi a mezzanotte per evitare la consegna successiva."
+      },
+      {
+        "question": "Viene offerta l'opzione di pausa?",
+        "answer": "Si, Sun Basket offre la pausa, fortemente promossa prima della disdetta."
+      }
+    ]
+  },
+  "butcherbox": {
+    "description": "ButcherBox e un servizio di consegna carne (146-291 $/box). Disdetta dal sito; cancellare 3 giorni prima della data di addebito.",
+    "difficulty": "Medio",
+    "difficultyReason": "Il link di disdetta richiede di scorrere la pagina; rispettare l'anticipo di 3 giorni.",
+    "refundPolicy": "Cancellare 3 giorni prima della data di addebito. Gli ordini possono essere posticipati o saltati.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su butcherbox.com/account/plan e accedi."
+          },
+          {
+            "instruction": "Scorri verso il basso e clicca su Annulla iscrizione."
+          },
+          {
+            "instruction": "Conferma la disdetta."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Usa il browser; la disdetta nell'app non e disponibile."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Usa il browser; la disdetta nell'app non e disponibile."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Con quanto anticipo devo disdire?",
+        "answer": "Almeno 3 giorni prima della prossima data di addebito."
+      },
+      {
+        "question": "Posso saltare un ordine?",
+        "answer": "Si, puoi posticipare o saltare ordini."
+      }
+    ]
+  },
+  "dollar-shave-club": {
+    "description": "Dollar Shave Club e un servizio in abbonamento di rasoi e prodotti per la cura personale (5-15 $/mese). Disdetta semplice dal sito.",
+    "difficulty": "Facile",
+    "difficultyReason": "Opzione di disdetta chiara nelle impostazioni dell'iscrizione.",
+    "refundPolicy": "Restituzione di articoli non aperti entro 30 giorni. Le spedizioni possono essere messe in pausa o posticipate.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Vai su dollarshaveclub.com/account e accedi."
+          },
+          {
+            "instruction": "Clicca su Impostazioni iscrizione."
+          },
+          {
+            "instruction": "Clicca su Annulla iscrizione."
+          },
+          {
+            "instruction": "Conferma la disdetta."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Usa il browser; la disdetta nell'app non e disponibile."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Usa il browser; la disdetta nell'app non e disponibile."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Posso mettere in pausa invece di disdire?",
+        "answer": "Si, puoi mettere in pausa o posticipare le spedizioni."
+      },
+      {
+        "question": "Posso restituire articoli?",
+        "answer": "Si, gli articoli non aperti possono essere restituiti entro 30 giorni."
+      }
+    ]
   }
 }

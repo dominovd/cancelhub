@@ -4494,5 +4494,465 @@
         "answer": "Nee. Discovery+ bevat geen Max/HBO-inhoud."
       }
     ]
+  },
+  "britbox": {
+    "description": "BritBox is een Britse tv-streamingdienst ($ 8,99/maand). Opzeggen via de website of apparaatinstellingen.",
+    "difficulty": "Gemakkelijk",
+    "difficultyReason": "Duidelijke opzegoptie in de accountinstellingen.",
+    "refundPolicy": "Je watchlist blijft bewaard na opzegging.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar britbox.com/account en log in."
+          },
+          {
+            "instruction": "Klik op Abonnement opzeggen."
+          },
+          {
+            "instruction": "Bevestig de opzegging."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone-instellingen, je naam, Abonnementen, BritBox, Opzeggen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profiel, Betalingen en abonnementen, Abonnementen, BritBox, Opzeggen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ik heb via Amazon geabonneerd. Waar zeg ik op?",
+        "answer": "Via Amazon Prime Video Channels, niet via britbox.com."
+      },
+      {
+        "question": "Ik heb via Apple geabonneerd. Waar zeg ik op?",
+        "answer": "Via iPhone-instellingen onder Abonnementen."
+      },
+      {
+        "question": "Blijft mijn watchlist bewaard?",
+        "answer": "Ja, de watchlist blijft bewaard na opzegging."
+      }
+    ]
+  },
+  "acorn-tv": {
+    "description": "Acorn TV is een streamingdienst voor Britse en internationale drama's ($ 6,99/maand). Opzeggen via de website of apparaatinstellingen.",
+    "difficulty": "Gemakkelijk",
+    "difficultyReason": "Duidelijke opzegoptie in de accountinstellingen.",
+    "refundPolicy": "Je kijkgeschiedenis blijft bewaard na opzegging.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar acorn.tv/my-account en log in."
+          },
+          {
+            "instruction": "Klik op Abonnement opzeggen."
+          },
+          {
+            "instruction": "Bevestig de opzegging."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone-instellingen, je naam, Abonnementen, Acorn TV, Opzeggen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profiel, Betalingen en abonnementen, Abonnementen, Acorn TV, Opzeggen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ik heb via Amazon geabonneerd. Waar zeg ik op?",
+        "answer": "Via Amazon Prime Video Channels, niet via acorn.tv."
+      },
+      {
+        "question": "Blijft mijn kijkgeschiedenis bewaard?",
+        "answer": "Ja, de kijkgeschiedenis blijft bewaard na opzegging."
+      }
+    ]
+  },
+  "fabfitfun": {
+    "description": "FabFitFun is een lifestyle-abonnementsdoos ($ 54,99/kwartaal). Opzeggen via de website; let op de seizoensdeadline.",
+    "difficulty": "Gemiddeld",
+    "difficultyReason": "Seizoensdeadlines en geen pauzeoptie maken het proces wat ingewikkelder.",
+    "refundPolicy": "Je moet opzeggen voor de seizoensdeadline. Er is geen pauzeoptie.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar fabfitfun.com/account/edit en log in."
+          },
+          {
+            "instruction": "Klik op Lidmaatschap opzeggen."
+          },
+          {
+            "instruction": "Bevestig de opzegging voor de seizoensdeadline."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Gebruik de browser; opzegging in de app is niet beschikbaar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Gebruik de browser; opzegging in de app is niet beschikbaar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Is er een pauzeoptie?",
+        "answer": "Nee, een pauzeoptie is niet beschikbaar."
+      },
+      {
+        "question": "Wanneer is de seizoensdeadline?",
+        "answer": "Controleer je account voor de huidige seizoensdeadline."
+      }
+    ]
+  },
+  "beachbody": {
+    "description": "BODi (Beachbody On Demand) is een fitnessstreamingdienst ($ 19,99/maand). Opzeggen via website, supportchat of telefoon.",
+    "difficulty": "Gemiddeld",
+    "difficultyReason": "Meerdere opzegkanalen; support kan alternatieven aanbieden.",
+    "refundPolicy": "30 dagen terugbetalingsgarantie voor nieuwe abonnees.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar beachbodyondemand.com/account en log in."
+          },
+          {
+            "instruction": "Klik op Lidmaatschap opzeggen of gebruik de supportchat."
+          },
+          {
+            "instruction": "Of bel 1-800-470-7870."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone-instellingen, je naam, Abonnementen, BODi, Opzeggen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profiel, Betalingen en abonnementen, Abonnementen, BODi, Opzeggen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Heb ik recht op terugbetaling?",
+        "answer": "Nieuwe abonnees hebben een 30-daagse terugbetalingsgarantie."
+      },
+      {
+        "question": "Hoe neem ik contact op met support?",
+        "answer": "Via chat op de website of door te bellen naar 1-800-470-7870."
+      }
+    ]
+  },
+  "blue-apron": {
+    "description": "Blue Apron is een maaltijdkitservice ($ 9,99-13,99/maaltijd). Opzeggen via de website; deadline vrijdag middernacht.",
+    "difficulty": "Gemiddeld",
+    "difficultyReason": "Pauzeopties worden getoond voor opzegging; let op de wekelijkse deadline.",
+    "refundPolicy": "Je moet opzeggen voor vrijdag middernacht om de volgende levering te vermijden.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar blueapron.com/account/settings en log in."
+          },
+          {
+            "instruction": "Klik op Planinstellingen."
+          },
+          {
+            "instruction": "Scroll voorbij de pauzeopties en klik op Plan opzeggen."
+          },
+          {
+            "instruction": "Bevestig de opzegging."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Gebruik de browser; opzegging in de app is niet beschikbaar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Gebruik de browser; opzegging in de app is niet beschikbaar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Tot wanneer kan ik opzeggen?",
+        "answer": "Voor vrijdag middernacht om de volgende wekelijkse levering te vermijden."
+      },
+      {
+        "question": "Kan ik pauzeren in plaats van opzeggen?",
+        "answer": "Ja, Blue Apron biedt een pauzeoptie."
+      }
+    ]
+  },
+  "home-chef": {
+    "description": "Home Chef is een maaltijdkitservice ($ 9,95-15,95/maaltijd). Eenvoudig opzeggen via de website; deadline donderdag middernacht.",
+    "difficulty": "Gemakkelijk",
+    "difficultyReason": "Duidelijke opzegoptie, maar let op de donderdagdeadline.",
+    "refundPolicy": "Je moet opzeggen voor donderdag middernacht. Je kunt afzonderlijke weken overslaan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar homechef.com/account en log in."
+          },
+          {
+            "instruction": "Klik op Account opzeggen (onder de pauzeoptie)."
+          },
+          {
+            "instruction": "Bevestig de opzegging."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Gebruik de browser; opzegging in de app is niet beschikbaar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Gebruik de browser; opzegging in de app is niet beschikbaar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Tot wanneer kan ik opzeggen?",
+        "answer": "Voor donderdag middernacht om de volgende levering te vermijden."
+      },
+      {
+        "question": "Kan ik afzonderlijke weken overslaan?",
+        "answer": "Ja, je kunt weken overslaan zonder op te zeggen."
+      }
+    ]
+  },
+  "everyplate": {
+    "description": "EveryPlate is een betaalbare maaltijdkitservice ($ 4,99-6,99/maaltijd) van HelloFresh. Eenvoudig opzeggen via de website.",
+    "difficulty": "Gemakkelijk",
+    "difficultyReason": "Duidelijke opzegoptie; let op de zaterdagdeadline.",
+    "refundPolicy": "Je moet opzeggen voor zaterdag middernacht. Je kunt weken overslaan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar everyplate.com/account en log in."
+          },
+          {
+            "instruction": "Klik op Abonnement opzeggen."
+          },
+          {
+            "instruction": "Bevestig de opzegging."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Gebruik de browser; opzegging in de app is niet beschikbaar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Gebruik de browser; opzegging in de app is niet beschikbaar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Tot wanneer kan ik opzeggen?",
+        "answer": "Voor zaterdag middernacht om de volgende levering te vermijden."
+      },
+      {
+        "question": "Wie beheert EveryPlate?",
+        "answer": "EveryPlate hoort bij HelloFresh."
+      }
+    ]
+  },
+  "sun-basket": {
+    "description": "Sun Basket is een biologische maaltijdkitservice ($ 10,99-16,99/maaltijd). Opzeggen via de website; pauze wordt sterk gepromoot.",
+    "difficulty": "Gemiddeld",
+    "difficultyReason": "Pauzeoptie wordt sterk gepromoot voor opzegging; let op de woensdagdeadline.",
+    "refundPolicy": "Je moet opzeggen voor woensdag middernacht.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar sunbasket.com/account en log in."
+          },
+          {
+            "instruction": "Scroll voorbij het pauzeaanbod en klik op Plan opzeggen."
+          },
+          {
+            "instruction": "Bevestig de opzegging."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Gebruik de browser; opzegging in de app is niet beschikbaar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Gebruik de browser; opzegging in de app is niet beschikbaar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Tot wanneer kan ik opzeggen?",
+        "answer": "Voor woensdag middernacht om de volgende levering te vermijden."
+      },
+      {
+        "question": "Wordt een pauzeoptie aangeboden?",
+        "answer": "Ja, Sun Basket biedt pauze aan, sterk gepromoot voor opzegging."
+      }
+    ]
+  },
+  "butcherbox": {
+    "description": "ButcherBox is een vleesleveringsservice ($ 146-291/doos). Opzeggen via de website; zeg 3 dagen voor de factuurdatum op.",
+    "difficulty": "Gemiddeld",
+    "difficultyReason": "De opzeglink vereist scrollen; let op de vooraanmelding van 3 dagen.",
+    "refundPolicy": "Zeg 3 dagen voor de factuurdatum op. Bestellingen kunnen worden uitgesteld of overgeslagen.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar butcherbox.com/account/plan en log in."
+          },
+          {
+            "instruction": "Scroll naar beneden en klik op Lidmaatschap opzeggen."
+          },
+          {
+            "instruction": "Bevestig de opzegging."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Gebruik de browser; opzegging in de app is niet beschikbaar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Gebruik de browser; opzegging in de app is niet beschikbaar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Hoe ver van tevoren moet ik opzeggen?",
+        "answer": "Minimaal 3 dagen voor de volgende factuurdatum."
+      },
+      {
+        "question": "Kan ik een bestelling overslaan?",
+        "answer": "Ja, je kunt bestellingen uitstellen of overslaan."
+      }
+    ]
+  },
+  "dollar-shave-club": {
+    "description": "Dollar Shave Club is een abonnementsdienst voor scheermesjes en verzorgingsproducten ($ 5-15/maand). Eenvoudig opzeggen via de website.",
+    "difficulty": "Gemakkelijk",
+    "difficultyReason": "Duidelijke opzegoptie in de lidmaatschapsinstellingen.",
+    "refundPolicy": "Ongeopende artikelen retourneren binnen 30 dagen. Verzendingen kunnen worden gepauzeerd of uitgesteld.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar dollarshaveclub.com/account en log in."
+          },
+          {
+            "instruction": "Klik op Lidmaatschapsinstellingen."
+          },
+          {
+            "instruction": "Klik op Lidmaatschap opzeggen."
+          },
+          {
+            "instruction": "Bevestig de opzegging."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Gebruik de browser; opzegging in de app is niet beschikbaar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Gebruik de browser; opzegging in de app is niet beschikbaar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kan ik pauzeren in plaats van opzeggen?",
+        "answer": "Ja, je kunt verzendingen pauzeren of uitstellen."
+      },
+      {
+        "question": "Kan ik artikelen retourneren?",
+        "answer": "Ja, ongeopende artikelen kunnen binnen 30 dagen worden geretourneerd."
+      }
+    ]
   }
 }

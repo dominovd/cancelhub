@@ -4494,5 +4494,465 @@
         "answer": "Нет. Discovery+ не включает контент Max/HBO."
       }
     ]
+  },
+  "britbox": {
+    "description": "BritBox - strimingovyy servis britanskogo televideniya (8,99 $/mec). Otmena cherez sayt ili nastroyki ustroystva.",
+    "difficulty": "Легко",
+    "difficultyReason": "Chyotkaya optsiya otmeny v nastroykakh akkaunta.",
+    "refundPolicy": "Spisok prosmotra sokhranayetsya posle otmeny.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Pereydite na britbox.com/account i voyidite v akkount."
+          },
+          {
+            "instruction": "Nazhimte 'Otmenit podpisku'."
+          },
+          {
+            "instruction": "Podtverdite otmenu."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Nastroyki iPhone, vashe imya, Podpiski, BritBox, Otmenit."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Market, Profil, Platezhi i podpiski, Podpiski, BritBox, Otmenit."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Podpisalsya cherez Amazon. Kak otmenit?",
+        "answer": "Cherez Amazon Prime Video Channels, ne cherez britbox.com."
+      },
+      {
+        "question": "Podpisalsya cherez Apple. Kak otmenit?",
+        "answer": "V Nastroykakh iPhone v razdele Podpiski."
+      },
+      {
+        "question": "Sokhranitsya li moy spisok prosmotra?",
+        "answer": "Da, spisok prosmotra sokhranitsya posle otmeny."
+      }
+    ]
+  },
+  "acorn-tv": {
+    "description": "Acorn TV - strimingovyy servis britanskikh i mezhdunarodnykh dramy (6,99 $/mec). Otmena cherez sayt ili nastroyki ustroystva.",
+    "difficulty": "Легко",
+    "difficultyReason": "Chyotkaya optsiya otmeny v nastroykakh akkaunta.",
+    "refundPolicy": "Istoriya prosmotra sokhranayetsya posle otmeny.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Pereydite na acorn.tv/my-account i voyidite v akkount."
+          },
+          {
+            "instruction": "Nazhimte 'Otmenit podpisku'."
+          },
+          {
+            "instruction": "Podtverdite otmenu."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Nastroyki iPhone, vashe imya, Podpiski, Acorn TV, Otmenit."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Market, Profil, Platezhi i podpiski, Podpiski, Acorn TV, Otmenit."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Podpisalsya cherez Amazon. Kak otmenit?",
+        "answer": "Cherez Amazon Prime Video Channels, ne cherez acorn.tv."
+      },
+      {
+        "question": "Sokhranitsya li istoriya prosmotra?",
+        "answer": "Da, istoriya prosmotra sokhranitsya posle otmeny."
+      }
+    ]
+  },
+  "fabfitfun": {
+    "description": "FabFitFun - podpisochnyy boks v stile layfstayl (54,99 $/kvartal). Otmena cherez sayt; soblyudayte sezonnye sroki.",
+    "difficulty": "Средне",
+    "difficultyReason": "Sezonnye sroki i otsutstviye funktsii pauzy uslozhnayut protsess.",
+    "refundPolicy": "Neobkhodimo otmenit do sezonnogo sroka. Funktsiya pauzy nedostupna.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Pereydite na fabfitfun.com/account/edit i voyidite v akkount."
+          },
+          {
+            "instruction": "Nazhimte 'Otmenit chlenstvo'."
+          },
+          {
+            "instruction": "Podtverdite otmenu do sezonnogo sroka."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ispolzuyte brauzer; otmena v prilozhenii nedostupna."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ispolzuyte brauzer; otmena v prilozhenii nedostupna."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Est li funktsiya pauzy?",
+        "answer": "Net, funktsiya pauzy nedostupna."
+      },
+      {
+        "question": "Kogda sezonnyy srok?",
+        "answer": "Proverte tekushchiy sezonnyy srok v svoem akkaunt."
+      }
+    ]
+  },
+  "beachbody": {
+    "description": "BODi (Beachbody On Demand) - strimingovyy fitnes-servis (19,99 $/mec). Otmena cherez sayt, chat podderzhki ili telefon.",
+    "difficulty": "Средне",
+    "difficultyReason": "Neskolko sposobov otmeny; podderzhka mozhet predlagat alternativy.",
+    "refundPolicy": "30-dnevnaya garantiya vozvrata dlya novykh podpischikov.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Pereydite na beachbodyondemand.com/account i voyidite v akkount."
+          },
+          {
+            "instruction": "Nazhimte 'Otmenit chlenstvo' ili ispolzuyte chat podderzhki."
+          },
+          {
+            "instruction": "Ili pozvonite po nomeru 1-800-470-7870."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Nastroyki iPhone, vashe imya, Podpiski, BODi, Otmenit."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Market, Profil, Platezhi i podpiski, Podpiski, BODi, Otmenit."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Mogu li ya poluchit vozvrat?",
+        "answer": "Novye podpischiki imeyut 30-dnevnuyu garantiyu vozvrata."
+      },
+      {
+        "question": "Kak svyazatsya s podderzhkoy?",
+        "answer": "Cherez chat na sayte ili pozvoniv po nomeru 1-800-470-7870."
+      }
+    ]
+  },
+  "blue-apron": {
+    "description": "Blue Apron - servis nabora produktov dlya blyud (9,99-13,99 $/porsiya). Otmena cherez sayt; srok - pyatnitsa v polnoch.",
+    "difficulty": "Средне",
+    "difficultyReason": "Pered otmenoy pokazyvayutsya optsii pauzy; nuzhno soblyudat ezhenedelnyy srok.",
+    "refundPolicy": "Neobkhodimo otmenit do pyatnitsy v polnoch, chtoby izbezhat sleduyushchey dostavki.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Pereydite na blueapron.com/account/settings i voyidite v akkount."
+          },
+          {
+            "instruction": "Nazhimte 'Nastroyki plana'."
+          },
+          {
+            "instruction": "Prokrutite mimo optsiy pauzy i nazhimte 'Otmenit plan'."
+          },
+          {
+            "instruction": "Podtverdite otmenu."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ispolzuyte brauzer; otmena v prilozhenii nedostupna."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ispolzuyte brauzer; otmena v prilozhenii nedostupna."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Do kakogo chisla mozhno otmenit?",
+        "answer": "Do pyatnitsy v polnoch, chtoby izbezhat sleduyushchey ezhenedelnoy dostavki."
+      },
+      {
+        "question": "Mogu li ya priostanovit vmesto otmeny?",
+        "answer": "Da, Blue Apron predlagayet opsiyu pauzy."
+      }
+    ]
+  },
+  "home-chef": {
+    "description": "Home Chef - servis nabora produktov dlya blyud (9,95-15,95 $/porsiya). Prostaya otmena cherez sayt; srok - chetverg v polnoch.",
+    "difficulty": "Легко",
+    "difficultyReason": "Chyotkaya optsiya otmeny, no sleduyet soblyudat srok chetverg.",
+    "refundPolicy": "Neobkhodimo otmenit do chetverga v polnoch. Mozhno propuskat otdelnye nedeli.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Pereydite na homechef.com/account i voyidite v akkount."
+          },
+          {
+            "instruction": "Nazhimte 'Otmenit akkount' (nizhe optsii pauzy)."
+          },
+          {
+            "instruction": "Podtverdite otmenu."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ispolzuyte brauzer; otmena v prilozhenii nedostupna."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ispolzuyte brauzer; otmena v prilozhenii nedostupna."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Do kakogo chisla mozhno otmenit?",
+        "answer": "Do chetverga v polnoch, chtoby izbezhat sleduyushchey dostavki."
+      },
+      {
+        "question": "Mogu li ya propuskat otdelnye nedeli?",
+        "answer": "Da, mozhno propuskat nedeli bez otmeny podpiski."
+      }
+    ]
+  },
+  "everyplate": {
+    "description": "EveryPlate - byudzhetnyy servis nabora produktov dlya blyud (4,99-6,99 $/porsiya) ot HelloFresh. Prostaya otmena cherez sayt.",
+    "difficulty": "Легко",
+    "difficultyReason": "Chyotkaya optsiya otmeny; sleduyte sroku v subbotu.",
+    "refundPolicy": "Neobkhodimo otmenit do subboty v polnoch. Mozhno propuskat nedeli.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Pereydite na everyplate.com/account i voyidite v akkount."
+          },
+          {
+            "instruction": "Nazhimte 'Otmenit podpisku'."
+          },
+          {
+            "instruction": "Podtverdite otmenu."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ispolzuyte brauzer; otmena v prilozhenii nedostupna."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ispolzuyte brauzer; otmena v prilozhenii nedostupna."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Do kakogo chisla mozhno otmenit?",
+        "answer": "Do subboty v polnoch, chtoby izbezhat sleduyushchey dostavki."
+      },
+      {
+        "question": "Kto upravlyayet EveryPlate?",
+        "answer": "EveryPlate prinadlezhit HelloFresh."
+      }
+    ]
+  },
+  "sun-basket": {
+    "description": "Sun Basket - organicheskiy servis nabora produktov dlya blyud (10,99-16,99 $/porsiya). Otmena cherez sayt; pauza aktivno predlagayetsya.",
+    "difficulty": "Средне",
+    "difficultyReason": "Optsiya pauzy aktivno predlagayetsya pered otmenoy; srok - sreda v polnoch.",
+    "refundPolicy": "Neobkhodimo otmenit do sredy v polnoch.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Pereydite na sunbasket.com/account i voyidite v akkount."
+          },
+          {
+            "instruction": "Prokrutite mimo predlozheniya pauzy i nazhimte 'Otmenit plan'."
+          },
+          {
+            "instruction": "Podtverdite otmenu."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ispolzuyte brauzer; otmena v prilozhenii nedostupna."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ispolzuyte brauzer; otmena v prilozhenii nedostupna."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Do kakogo chisla mozhno otmenit?",
+        "answer": "Do sredy v polnoch, chtoby izbezhat sleduyushchey dostavki."
+      },
+      {
+        "question": "Predlagayetsya li pauza?",
+        "answer": "Da, Sun Basket predlagayet pauzu, kotoruyu aktivno rekomenduet pered otmenoy."
+      }
+    ]
+  },
+  "butcherbox": {
+    "description": "ButcherBox - servis dostavki myasa (146-291 $/korobka). Otmena cherez sayt; otmenyayte za 3 dnya do daty spasaniya.",
+    "difficulty": "Средне",
+    "difficultyReason": "Ssylka na otmenu nakhodik vnizu stranitsy; neobkhodimo soblyudat 3-dnevnyy srok.",
+    "refundPolicy": "Otmenyayte za 3 dnya do daty spasaniya. Zakazy mozhno otsrochit ili propustit.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Pereydite na butcherbox.com/account/plan i voyidite v akkount."
+          },
+          {
+            "instruction": "Prokrutite vniz i nazhimte 'Otmenit chlenstvo'."
+          },
+          {
+            "instruction": "Podtverdite otmenu."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ispolzuyte brauzer; otmena v prilozhenii nedostupna."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ispolzuyte brauzer; otmena v prilozhenii nedostupna."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Za skolko sleduyet otmenyat?",
+        "answer": "Minimum za 3 dnya do sleduyushchey daty spasaniya."
+      },
+      {
+        "question": "Mogu li ya propustit zakaz?",
+        "answer": "Da, zakazy mozhno otsrochit ili propustit."
+      }
+    ]
+  },
+  "dollar-shave-club": {
+    "description": "Dollar Shave Club - servis podpiski na britvy i sredstva ukhoda (5-15 $/mec). Prostaya otmena cherez sayt.",
+    "difficulty": "Легко",
+    "difficultyReason": "Chyotkaya optsiya otmeny v nastroykakh chlenstva.",
+    "refundPolicy": "Vozvrat neupakovannykh tovarov v techenie 30 dney. Dostavki mozhno priostanovit ili otsrochit.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Pereydite na dollarshaveclub.com/account i voyidite v akkount."
+          },
+          {
+            "instruction": "Nazhimte 'Nastroyki chlenstva'."
+          },
+          {
+            "instruction": "Nazhimte 'Otmenit chlenstvo'."
+          },
+          {
+            "instruction": "Podtverdite otmenu."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ispolzuyte brauzer; otmena v prilozhenii nedostupna."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ispolzuyte brauzer; otmena v prilozhenii nedostupna."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Mogu li ya priostanovit vmesto otmeny?",
+        "answer": "Da, dostavki mozhno priostanovit ili otsrochit."
+      },
+      {
+        "question": "Mogu li ya vernut tovary?",
+        "answer": "Da, neupakovannye tovary mozhno vernut v techenie 30 dney."
+      }
+    ]
   }
 }

@@ -4355,5 +4355,465 @@
         "answer": "Nej. Discovery+ innehåller inget Max/HBO-innehåll."
       }
     ]
+  },
+  "britbox": {
+    "description": "BritBox ar en brittisk TV-streamingtjanst (8,99 $/manad). Avsluta enkelt via webbplatsen eller enhetsinstaellningarna.",
+    "difficulty": "Enkelt",
+    "difficultyReason": "Tydligt avslutningsalternativ i kontoinstaellningarna.",
+    "refundPolicy": "Din bevakningslista bevaras efter avslutning.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga till britbox.com/account och logga in."
+          },
+          {
+            "instruction": "Klicka pa Avsluta prenumeration."
+          },
+          {
+            "instruction": "Bekrafta avslutningen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone-instaellningar, ditt namn, Prenumerationer, BritBox, Avsluta."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Butik, Profil, Betalningar och prenumerationer, Prenumerationer, BritBox, Avsluta."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Jag prenumererar via Amazon. Var avslutar jag?",
+        "answer": "Via Amazon Prime Video Channels, inte pa britbox.com."
+      },
+      {
+        "question": "Jag prenumererar via Apple. Var avslutar jag?",
+        "answer": "I iPhone-instaellningar under Prenumerationer."
+      },
+      {
+        "question": "Bevaras min bevakningslista?",
+        "answer": "Ja, bevakningslistan bevaras efter avslutning."
+      }
+    ]
+  },
+  "acorn-tv": {
+    "description": "Acorn TV ar en streamingtjanst for brittisk och internationell drama (6,99 $/manad). Avsluta enkelt via webbplatsen eller enhetsinstaellningarna.",
+    "difficulty": "Enkelt",
+    "difficultyReason": "Tydligt avslutningsalternativ i kontoinstaellningarna.",
+    "refundPolicy": "Din visningshistorik bevaras efter avslutning.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga till acorn.tv/my-account och logga in."
+          },
+          {
+            "instruction": "Klicka pa Avsluta prenumeration."
+          },
+          {
+            "instruction": "Bekrafta avslutningen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone-instaellningar, ditt namn, Prenumerationer, Acorn TV, Avsluta."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Butik, Profil, Betalningar och prenumerationer, Prenumerationer, Acorn TV, Avsluta."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Jag prenumererar via Amazon. Var avslutar jag?",
+        "answer": "Via Amazon Prime Video Channels, inte pa acorn.tv."
+      },
+      {
+        "question": "Bevaras min visningshistorik?",
+        "answer": "Ja, visningshistoriken bevaras efter avslutning."
+      }
+    ]
+  },
+  "fabfitfun": {
+    "description": "FabFitFun ar en livsstilsprenumerationsbox (54,99 $/kvartal). Avsluta via webbplatsen; respektera den sasongsbundna deadlinen.",
+    "difficulty": "Medel",
+    "difficultyReason": "Sasongsbundna deadlines och avsaknad av pausfunktion gor processen nagot komplicerad.",
+    "refundPolicy": "Du maste avsluta fore den sasongsbundna deadlinen. Ingen pausfunktion finns.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga till fabfitfun.com/account/edit och logga in."
+          },
+          {
+            "instruction": "Klicka pa Avsluta medlemskap."
+          },
+          {
+            "instruction": "Bekrafta avslutningen fore den sasongsbundna deadlinen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Anvand webblaesaren; avslutning i appen ar inte tillganglig."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Anvand webblaesaren; avslutning i appen ar inte tillganglig."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Finns det en pausfunktion?",
+        "answer": "Nej, pausfunktion ar inte tillganglig."
+      },
+      {
+        "question": "Nar ar den sasongsbundna deadlinen?",
+        "answer": "Kontrollera ditt konto for den aktuella sasongsbundna deadlinen."
+      }
+    ]
+  },
+  "beachbody": {
+    "description": "BODi (Beachbody On Demand) ar en fitness-streamingtjanst (19,99 $/manad). Avsluta via webbplats, supportchatt eller telefon.",
+    "difficulty": "Medel",
+    "difficultyReason": "Flera avslutningsvagar; supporten kan erbjuda alternativ.",
+    "refundPolicy": "30 dagars aterbetalningsgaranti for nya prenumeranter.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga till beachbodyondemand.com/account och logga in."
+          },
+          {
+            "instruction": "Klicka pa Avsluta medlemskap eller anvand supportchatten."
+          },
+          {
+            "instruction": "Eller ring 1-800-470-7870."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone-instaellningar, ditt namn, Prenumerationer, BODi, Avsluta."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Butik, Profil, Betalningar och prenumerationer, Prenumerationer, BODi, Avsluta."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Har jag ratt till aterbetalning?",
+        "answer": "Nya prenumeranter har en 30-dagars aterbetalningsgaranti."
+      },
+      {
+        "question": "Hur kontaktar jag supporten?",
+        "answer": "Via chatt pa webbplatsen eller genom att ringa 1-800-470-7870."
+      }
+    ]
+  },
+  "blue-apron": {
+    "description": "Blue Apron ar en maltidsladesevice (9,99-13,99 $/maltid). Avsluta via webbplatsen; deadline fredag vid midnatt.",
+    "difficulty": "Medel",
+    "difficultyReason": "Pauseringsalternativ visas fore avslutning; veckovisa deadlines maste respekteras.",
+    "refundPolicy": "Du maste avsluta fore fredag vid midnatt for att undvika naesta leverans.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga till blueapron.com/account/settings och logga in."
+          },
+          {
+            "instruction": "Klicka pa Planinstaellningar."
+          },
+          {
+            "instruction": "Scrolla forbi pauseringsalternativen och klicka pa Avsluta plan."
+          },
+          {
+            "instruction": "Bekrafta avslutningen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Anvand webblaesaren; avslutning i appen ar inte tillganglig."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Anvand webblaesaren; avslutning i appen ar inte tillganglig."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Till nar kan jag avsluta?",
+        "answer": "Fore fredag vid midnatt for att undvika naesta veckans leverans."
+      },
+      {
+        "question": "Kan jag pausa istallet for att avsluta?",
+        "answer": "Ja, Blue Apron erbjuder ett pauseringsalternativ."
+      }
+    ]
+  },
+  "home-chef": {
+    "description": "Home Chef ar en maltidsladeservice (9,95-15,95 $/maltid). Enkel avslutning via webbplatsen; deadline torsdag vid midnatt.",
+    "difficulty": "Enkelt",
+    "difficultyReason": "Tydligt avslutningsalternativ men torsdag-deadline maste respekteras.",
+    "refundPolicy": "Du maste avsluta fore torsdag vid midnatt. Du kan hoppa over enskilda veckor.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga till homechef.com/account och logga in."
+          },
+          {
+            "instruction": "Klicka pa Avsluta konto (under pauseringsalternativet)."
+          },
+          {
+            "instruction": "Bekrafta avslutningen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Anvand webblaesaren; avslutning i appen ar inte tillganglig."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Anvand webblaesaren; avslutning i appen ar inte tillganglig."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Till nar kan jag avsluta?",
+        "answer": "Fore torsdag vid midnatt for att undvika naesta leverans."
+      },
+      {
+        "question": "Kan jag hoppa over enskilda veckor?",
+        "answer": "Ja, du kan hoppa over veckor utan att avsluta."
+      }
+    ]
+  },
+  "everyplate": {
+    "description": "EveryPlate ar en budgetvanllig maltidsladesevice (4,99-6,99 $/maltid) fran HelloFresh. Enkel avslutning via webbplatsen.",
+    "difficulty": "Enkelt",
+    "difficultyReason": "Tydligt avslutningsalternativ; lordag-deadline maste respekteras.",
+    "refundPolicy": "Du maste avsluta fore lordag vid midnatt. Du kan hoppa over veckor.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga till everyplate.com/account och logga in."
+          },
+          {
+            "instruction": "Klicka pa Avsluta prenumeration."
+          },
+          {
+            "instruction": "Bekrafta avslutningen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Anvand webblaesaren; avslutning i appen ar inte tillganglig."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Anvand webblaesaren; avslutning i appen ar inte tillganglig."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Till nar kan jag avsluta?",
+        "answer": "Fore lordag vid midnatt for att undvika naesta leverans."
+      },
+      {
+        "question": "Vem driver EveryPlate?",
+        "answer": "EveryPlate tillhor HelloFresh."
+      }
+    ]
+  },
+  "sun-basket": {
+    "description": "Sun Basket ar en ekologisk maltidsladesevice (10,99-16,99 $/maltid). Avsluta via webbplatsen; pausering marknadsfonors aktivt.",
+    "difficulty": "Medel",
+    "difficultyReason": "Pauseringsalternativet marknadsfonors aktivt fore avslutning; deadline onsdag.",
+    "refundPolicy": "Du maste avsluta fore onsdag vid midnatt.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga till sunbasket.com/account och logga in."
+          },
+          {
+            "instruction": "Scrolla forbi pauseringserbjudandet och klicka pa Avsluta plan."
+          },
+          {
+            "instruction": "Bekrafta avslutningen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Anvand webblaesaren; avslutning i appen ar inte tillganglig."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Anvand webblaesaren; avslutning i appen ar inte tillganglig."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Till nar kan jag avsluta?",
+        "answer": "Fore onsdag vid midnatt for att undvika naesta leverans."
+      },
+      {
+        "question": "Erbjuds pauseringsalternativ?",
+        "answer": "Ja, Sun Basket erbjuder pausering som aktivt marknadsfonors fore avslutning."
+      }
+    ]
+  },
+  "butcherbox": {
+    "description": "ButcherBox ar en kotslevice (146-291 $/box). Avsluta via webbplatsen; avsluta 3 dagar fore faktureringsdatumet.",
+    "difficulty": "Medel",
+    "difficultyReason": "Avslutningslanken kraver scrollning; 3-dagars forvarning maste respekteras.",
+    "refundPolicy": "Avsluta 3 dagar fore faktureringsdatumet. Bestallningar kan skjutas upp eller hoppas over.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga till butcherbox.com/account/plan och logga in."
+          },
+          {
+            "instruction": "Scrolla ner och klicka pa Avsluta medlemskap."
+          },
+          {
+            "instruction": "Bekrafta avslutningen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Anvand webblaesaren; avslutning i appen ar inte tillganglig."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Anvand webblaesaren; avslutning i appen ar inte tillganglig."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Hur langt i forvag maste jag avsluta?",
+        "answer": "Minst 3 dagar fore naesta faktureringsdatum."
+      },
+      {
+        "question": "Kan jag hoppa over en bestallning?",
+        "answer": "Ja, du kan skjuta upp eller hoppa over bestallningar."
+      }
+    ]
+  },
+  "dollar-shave-club": {
+    "description": "Dollar Shave Club ar en prenumerationstjanst for rakknivar och vardprodukter (5-15 $/manad). Enkel avslutning via webbplatsen.",
+    "difficulty": "Enkelt",
+    "difficultyReason": "Tydligt avslutningsalternativ i medlemskapsinstaellningarna.",
+    "refundPolicy": "Ooeppnade artiklar kan returneras inom 30 dagar. Leveranser kan pauseras eller skjutas upp.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga till dollarshaveclub.com/account och logga in."
+          },
+          {
+            "instruction": "Klicka pa Medlemskapsinstaellningar."
+          },
+          {
+            "instruction": "Klicka pa Avsluta medlemskap."
+          },
+          {
+            "instruction": "Bekrafta avslutningen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Anvand webblaesaren; avslutning i appen ar inte tillganglig."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Anvand webblaesaren; avslutning i appen ar inte tillganglig."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kan jag pausa istallet for att avsluta?",
+        "answer": "Ja, du kan pausa eller skjuta upp leveranser."
+      },
+      {
+        "question": "Kan jag returnera artiklar?",
+        "answer": "Ja, ooeppnade artiklar kan returneras inom 30 dagar."
+      }
+    ]
   }
 }

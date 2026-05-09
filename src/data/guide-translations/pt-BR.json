@@ -4404,5 +4404,465 @@
         "answer": "Não. O Discovery+ não inclui conteúdo Max/HBO."
       }
     ]
+  },
+  "britbox": {
+    "description": "BritBox e um servico de streaming de televisao britanica (US$ 8,99/mes). Cancelamento facil pelo site ou nas configuracoes do dispositivo.",
+    "difficulty": "Facil",
+    "difficultyReason": "Opcao de cancelamento clara nas configuracoes da conta.",
+    "refundPolicy": "Sua lista de favoritos e mantida apos o cancelamento.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse britbox.com/account e faca login."
+          },
+          {
+            "instruction": "Clique em Cancelar assinatura."
+          },
+          {
+            "instruction": "Confirme o cancelamento."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ajustes do iPhone, seu nome, Assinaturas, BritBox, Cancelar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Perfil, Pagamentos e assinaturas, Assinaturas, BritBox, Cancelar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Assinei via Amazon. Onde cancelo?",
+        "answer": "No Amazon Prime Video Channels, nao em britbox.com."
+      },
+      {
+        "question": "Assinei via Apple. Onde cancelo?",
+        "answer": "Nos Ajustes do iPhone, em Assinaturas."
+      },
+      {
+        "question": "Minha lista de favoritos e mantida?",
+        "answer": "Sim, a lista e mantida apos o cancelamento."
+      }
+    ]
+  },
+  "acorn-tv": {
+    "description": "Acorn TV e um servico de streaming de dramas britanicos e internacionais (US$ 6,99/mes). Cancelamento facil pelo site ou nas configuracoes do dispositivo.",
+    "difficulty": "Facil",
+    "difficultyReason": "Opcao de cancelamento clara nas configuracoes da conta.",
+    "refundPolicy": "Seu historico de reproducao e mantido apos o cancelamento.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse acorn.tv/my-account e faca login."
+          },
+          {
+            "instruction": "Clique em Cancelar assinatura."
+          },
+          {
+            "instruction": "Confirme o cancelamento."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ajustes do iPhone, seu nome, Assinaturas, Acorn TV, Cancelar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Perfil, Pagamentos e assinaturas, Assinaturas, Acorn TV, Cancelar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Assinei via Amazon. Onde cancelo?",
+        "answer": "No Amazon Prime Video Channels, nao em acorn.tv."
+      },
+      {
+        "question": "Meu historico de reproducao e mantido?",
+        "answer": "Sim, o historico e mantido apos o cancelamento."
+      }
+    ]
+  },
+  "fabfitfun": {
+    "description": "FabFitFun e uma caixa de assinatura de lifestyle (US$ 54,99/trimestre). Cancelamento pelo site; respeitar o prazo sazonal.",
+    "difficulty": "Medio",
+    "difficultyReason": "Os prazos sazonais e a ausencia de pausa tornam o processo mais complexo.",
+    "refundPolicy": "Voce deve cancelar antes do prazo sazonal. Nao ha funcao de pausa.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse fabfitfun.com/account/edit e faca login."
+          },
+          {
+            "instruction": "Clique em Cancelar adesao."
+          },
+          {
+            "instruction": "Confirme o cancelamento antes do prazo sazonal."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Use o navegador; cancelamento pelo app nao disponivel."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Use o navegador; cancelamento pelo app nao disponivel."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ha opcao de pausa?",
+        "answer": "Nao, a funcao de pausa nao esta disponivel."
+      },
+      {
+        "question": "Qual e o prazo sazonal?",
+        "answer": "Consulte sua conta para ver o prazo sazonal atual."
+      }
+    ]
+  },
+  "beachbody": {
+    "description": "BODi (Beachbody On Demand) e um servico de streaming de fitness (US$ 19,99/mes). Cancelamento pelo site, chat de suporte ou telefone.",
+    "difficulty": "Medio",
+    "difficultyReason": "Varios canais de cancelamento; o suporte pode oferecer alternativas.",
+    "refundPolicy": "Reembolso de 30 dias para novos assinantes.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse beachbodyondemand.com/account e faca login."
+          },
+          {
+            "instruction": "Clique em Cancelar adesao ou use o chat de suporte."
+          },
+          {
+            "instruction": "Alternativamente, ligue para 1-800-470-7870."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ajustes do iPhone, seu nome, Assinaturas, BODi, Cancelar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Perfil, Pagamentos e assinaturas, Assinaturas, BODi, Cancelar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Tenho direito a reembolso?",
+        "answer": "Novos assinantes tem garantia de reembolso de 30 dias."
+      },
+      {
+        "question": "Como entrar em contato com o suporte?",
+        "answer": "Por chat no site ou ligando para 1-800-470-7870."
+      }
+    ]
+  },
+  "blue-apron": {
+    "description": "Blue Apron e um servico de kits de refeicao (US$ 9,99-13,99/refeicao). Cancelamento pelo site; prazo sexta-feira a meia-noite.",
+    "difficulty": "Medio",
+    "difficultyReason": "Opcoes de pausa aparecem antes do cancelamento; respeitar o prazo semanal.",
+    "refundPolicy": "Voce deve cancelar antes de sexta-feira a meia-noite para evitar a proxima entrega.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse blueapron.com/account/settings e faca login."
+          },
+          {
+            "instruction": "Clique em Configuracoes do plano."
+          },
+          {
+            "instruction": "Role alem das opcoes de pausa e clique em Cancelar plano."
+          },
+          {
+            "instruction": "Confirme o cancelamento."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Use o navegador; cancelamento pelo app nao disponivel."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Use o navegador; cancelamento pelo app nao disponivel."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ate quando posso cancelar?",
+        "answer": "Antes de sexta-feira a meia-noite para evitar a proxima entrega semanal."
+      },
+      {
+        "question": "Posso pausar em vez de cancelar?",
+        "answer": "Sim, o Blue Apron oferece opcao de pausa."
+      }
+    ]
+  },
+  "home-chef": {
+    "description": "Home Chef e um servico de kits de refeicao (US$ 9,95-15,95/refeicao). Cancelamento facil pelo site; prazo quinta-feira a meia-noite.",
+    "difficulty": "Facil",
+    "difficultyReason": "Opcao de cancelamento clara, mas respeitar o prazo de quinta-feira.",
+    "refundPolicy": "Voce deve cancelar antes de quinta-feira a meia-noite. Pode pular semanas individuais.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse homechef.com/account e faca login."
+          },
+          {
+            "instruction": "Clique em Cancelar conta (abaixo da opcao de pausa)."
+          },
+          {
+            "instruction": "Confirme o cancelamento."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Use o navegador; cancelamento pelo app nao disponivel."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Use o navegador; cancelamento pelo app nao disponivel."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ate quando posso cancelar?",
+        "answer": "Antes de quinta-feira a meia-noite para evitar a proxima entrega."
+      },
+      {
+        "question": "Posso pular semanas individuais?",
+        "answer": "Sim, voce pode pular semanas sem cancelar."
+      }
+    ]
+  },
+  "everyplate": {
+    "description": "EveryPlate e um servico de kits de refeicao economico (US$ 4,99-6,99/refeicao), operado pela HelloFresh. Cancelamento facil pelo site.",
+    "difficulty": "Facil",
+    "difficultyReason": "Opcao de cancelamento clara; respeitar o prazo de sabado.",
+    "refundPolicy": "Voce deve cancelar antes de sabado a meia-noite. Pode pular semanas.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse everyplate.com/account e faca login."
+          },
+          {
+            "instruction": "Clique em Cancelar assinatura."
+          },
+          {
+            "instruction": "Confirme o cancelamento."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Use o navegador; cancelamento pelo app nao disponivel."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Use o navegador; cancelamento pelo app nao disponivel."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ate quando posso cancelar?",
+        "answer": "Antes de sabado a meia-noite para evitar a proxima entrega."
+      },
+      {
+        "question": "Quem opera o EveryPlate?",
+        "answer": "O EveryPlate pertence a HelloFresh."
+      }
+    ]
+  },
+  "sun-basket": {
+    "description": "Sun Basket e um servico de kits de refeicao organicos (US$ 10,99-16,99/refeicao). Cancelamento pelo site; pausa fortemente promovida.",
+    "difficulty": "Medio",
+    "difficultyReason": "A opcao de pausa e fortemente promovida antes do cancelamento; prazo quarta-feira.",
+    "refundPolicy": "Voce deve cancelar antes de quarta-feira a meia-noite.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse sunbasket.com/account e faca login."
+          },
+          {
+            "instruction": "Role alem da oferta de pausa e clique em Cancelar plano."
+          },
+          {
+            "instruction": "Confirme o cancelamento."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Use o navegador; cancelamento pelo app nao disponivel."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Use o navegador; cancelamento pelo app nao disponivel."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ate quando posso cancelar?",
+        "answer": "Antes de quarta-feira a meia-noite para evitar a proxima entrega."
+      },
+      {
+        "question": "Ha opcao de pausa?",
+        "answer": "Sim, o Sun Basket oferece pausa, fortemente promovida antes do cancelamento."
+      }
+    ]
+  },
+  "butcherbox": {
+    "description": "ButcherBox e um servico de entrega de carne (US$ 146-291/caixa). Cancelamento pelo site; cancelar 3 dias antes da data de cobranca.",
+    "difficulty": "Medio",
+    "difficultyReason": "O link de cancelamento requer rolagem na pagina; respeitar a antecedencia de 3 dias.",
+    "refundPolicy": "Cancelar 3 dias antes da data de cobranca. Os pedidos podem ser adiados ou pulados.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse butcherbox.com/account/plan e faca login."
+          },
+          {
+            "instruction": "Role para baixo e clique em Cancelar adesao."
+          },
+          {
+            "instruction": "Confirme o cancelamento."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Use o navegador; cancelamento pelo app nao disponivel."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Use o navegador; cancelamento pelo app nao disponivel."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Com quanta antecedencia devo cancelar?",
+        "answer": "Pelo menos 3 dias antes da proxima data de cobranca."
+      },
+      {
+        "question": "Posso pular um pedido?",
+        "answer": "Sim, voce pode adiar ou pular pedidos."
+      }
+    ]
+  },
+  "dollar-shave-club": {
+    "description": "Dollar Shave Club e um servico de assinatura de laminas e cuidados pessoais (US$ 5-15/mes). Cancelamento facil pelo site.",
+    "difficulty": "Facil",
+    "difficultyReason": "Opcao de cancelamento clara nas configuracoes de adesao.",
+    "refundPolicy": "Devolucao de itens nao abertos em 30 dias. Os envios podem ser pausados ou adiados.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse dollarshaveclub.com/account e faca login."
+          },
+          {
+            "instruction": "Clique em Configuracoes de adesao."
+          },
+          {
+            "instruction": "Clique em Cancelar adesao."
+          },
+          {
+            "instruction": "Confirme o cancelamento."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Use o navegador; cancelamento pelo app nao disponivel."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Use o navegador; cancelamento pelo app nao disponivel."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Posso pausar em vez de cancelar?",
+        "answer": "Sim, voce pode pausar ou adiar os envios."
+      },
+      {
+        "question": "Posso devolver itens?",
+        "answer": "Sim, itens nao abertos podem ser devolvidos em 30 dias."
+      }
+    ]
   }
 }

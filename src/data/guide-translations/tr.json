@@ -4355,5 +4355,465 @@
         "answer": "Hayir. Discovery+, Max/HBO icerigi icermiyor."
       }
     ]
+  },
+  "britbox": {
+    "description": "BritBox, Ingiliz TV yayin akisi servisidir (aylik 8,99 $). Web sitesi veya cihaz ayarlari uzerinden kolayca iptal edilebilir.",
+    "difficulty": "Kolay",
+    "difficultyReason": "Hesap ayarlarinda acik bir iptal secenegi bulunmaktadir.",
+    "refundPolicy": "Iptalden sonra izleme listesi korunur.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "britbox.com/account adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "Aboneligi iptal et secenegine tiklayin."
+          },
+          {
+            "instruction": "Iptali onaylayin."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone Ayarlari, adiniz, Abonelikler, BritBox, Iptal et."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profil, Odemeler ve abonelikler, Abonelikler, BritBox, Iptal et."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Amazon uzerinden abone oldum. Nerede iptal ederim?",
+        "answer": "Amazon Prime Video Channels uzerinden iptal edin, britbox.com uzerinden degil."
+      },
+      {
+        "question": "Apple uzerinden abone oldum. Nerede iptal ederim?",
+        "answer": "iPhone Ayarlari'nda Abonelikler bolumunden iptal edin."
+      },
+      {
+        "question": "Izleme listem korunacak mi?",
+        "answer": "Evet, iptalden sonra izleme listesi korunur."
+      }
+    ]
+  },
+  "acorn-tv": {
+    "description": "Acorn TV, Ingiliz ve uluslararasi dram yayin akisi servisidir (aylik 6,99 $). Web sitesi veya cihaz ayarlari uzerinden kolayca iptal edilebilir.",
+    "difficulty": "Kolay",
+    "difficultyReason": "Hesap ayarlarinda acik bir iptal secenegi bulunmaktadir.",
+    "refundPolicy": "Iptalden sonra izleme gecmisi korunur.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "acorn.tv/my-account adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "Aboneligi iptal et secenegine tiklayin."
+          },
+          {
+            "instruction": "Iptali onaylayin."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone Ayarlari, adiniz, Abonelikler, Acorn TV, Iptal et."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profil, Odemeler ve abonelikler, Abonelikler, Acorn TV, Iptal et."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Amazon uzerinden abone oldum. Nerede iptal ederim?",
+        "answer": "Amazon Prime Video Channels uzerinden iptal edin, acorn.tv uzerinden degil."
+      },
+      {
+        "question": "Izleme gecmisim korunacak mi?",
+        "answer": "Evet, iptalden sonra izleme gecmisi korunur."
+      }
+    ]
+  },
+  "fabfitfun": {
+    "description": "FabFitFun, yasam tarzi abonelik kutusudur (3 ayda bir 54,99 $). Web sitesi uzerinden iptal edilebilir; mevsimsel son tarihe dikkat edin.",
+    "difficulty": "Orta",
+    "difficultyReason": "Mevsimsel son tarihler ve duraklatma ozelligi olmadiginda surec biraz karmasiklasiyor.",
+    "refundPolicy": "Mevsimsel son tarihten once iptal etmeniz gerekir. Duraklatma ozelligi mevcut degildir.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "fabfitfun.com/account/edit adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "Uyeligi iptal et secenegine tiklayin."
+          },
+          {
+            "instruction": "Mevsimsel son tarihten once iptali onaylayin."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Tarayici kullanin; uygulama ici iptal mevcut degildir."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Tarayici kullanin; uygulama ici iptal mevcut degildir."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Duraklatma ozelligi var mi?",
+        "answer": "Hayir, duraklatma ozelligi mevcut degildir."
+      },
+      {
+        "question": "Mevsimsel son tarih ne zaman?",
+        "answer": "Guncel mevsimsel son tarihi hesabinizdan kontrol edin."
+      }
+    ]
+  },
+  "beachbody": {
+    "description": "BODi (Beachbody On Demand), fitness yayin akisi servisidir (aylik 19,99 $). Web sitesi, destek sohbeti veya telefon uzerinden iptal edilebilir.",
+    "difficulty": "Orta",
+    "difficultyReason": "Birden fazla iptal yolu vardir; destek alternatifler sunabilir.",
+    "refundPolicy": "Yeni aboneler icin 30 gunluk iade garantisi vardir.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "beachbodyondemand.com/account adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "Uyeligi iptal et secenegine tiklayin veya destek sohbetini kullanin."
+          },
+          {
+            "instruction": "Ya da 1-800-470-7870 numarasini arayin."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone Ayarlari, adiniz, Abonelikler, BODi, Iptal et."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profil, Odemeler ve abonelikler, Abonelikler, BODi, Iptal et."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Iade alabilir miyim?",
+        "answer": "Yeni aboneler 30 gunluk para iade garantisine sahiptir."
+      },
+      {
+        "question": "Destekle nasil iletisime gecerim?",
+        "answer": "Web sitesindeki sohbet araciligiyla veya 1-800-470-7870 numarasini arayarak."
+      }
+    ]
+  },
+  "blue-apron": {
+    "description": "Blue Apron, yemek kiti servisidir (yemek basina 9,99-13,99 $). Web sitesi uzerinden iptal edilebilir; son tarih Cuma geceyarisi.",
+    "difficulty": "Orta",
+    "difficultyReason": "Iptalden once duraklatma secenekleri gosterilir; haftalik son tarihe dikkat etmek gerekir.",
+    "refundPolicy": "Bir sonraki teslimatten kacmak icin Cuma geceyarisi oncesinde iptal etmeniz gerekir.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "blueapron.com/account/settings adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "Plan Ayarlari secenegine tiklayin."
+          },
+          {
+            "instruction": "Duraklatma seceneklerini gecin ve Plani iptal et secenegine tiklayin."
+          },
+          {
+            "instruction": "Iptali onaylayin."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Tarayici kullanin; uygulama ici iptal mevcut degildir."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Tarayici kullanin; uygulama ici iptal mevcut degildir."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ne zamana kadar iptal edebilirim?",
+        "answer": "Bir sonraki haftalik teslimatten kacmak icin Cuma geceyarisi oncesinde."
+      },
+      {
+        "question": "Iptal etmek yerine duraklatabilir miyim?",
+        "answer": "Evet, Blue Apron duraklatma secenegi sunmaktadir."
+      }
+    ]
+  },
+  "home-chef": {
+    "description": "Home Chef, yemek kiti servisidir (yemek basina 9,95-15,95 $). Web sitesi uzerinden kolayca iptal edilebilir; son tarih Persembe geceyarisi.",
+    "difficulty": "Kolay",
+    "difficultyReason": "Acik iptal secenegi vardir ancak Persembe son tarihine dikkat etmek gerekir.",
+    "refundPolicy": "Persembe geceyarisi oncesinde iptal etmeniz gerekir. Bireysel haftalar atlanabilir.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "homechef.com/account adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "Hesabi iptal et secenegine tiklayin (duraklatma seceneginin altinda)."
+          },
+          {
+            "instruction": "Iptali onaylayin."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Tarayici kullanin; uygulama ici iptal mevcut degildir."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Tarayici kullanin; uygulama ici iptal mevcut degildir."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ne zamana kadar iptal edebilirim?",
+        "answer": "Bir sonraki teslimatten kacmak icin Persembe geceyarisi oncesinde."
+      },
+      {
+        "question": "Bireysel haftalar atlanabilir mi?",
+        "answer": "Evet, aboneligi iptal etmeden haftalar atlanabilir."
+      }
+    ]
+  },
+  "everyplate": {
+    "description": "EveryPlate, HelloFresh'e ait ekonomik yemek kiti servisidir (yemek basina 4,99-6,99 $). Web sitesi uzerinden kolayca iptal edilebilir.",
+    "difficulty": "Kolay",
+    "difficultyReason": "Acik iptal secenegi vardir; Cumartesi son tarihine dikkat edin.",
+    "refundPolicy": "Cumartesi geceyarisi oncesinde iptal etmeniz gerekir. Haftalar atlanabilir.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "everyplate.com/account adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "Aboneligi iptal et secenegine tiklayin."
+          },
+          {
+            "instruction": "Iptali onaylayin."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Tarayici kullanin; uygulama ici iptal mevcut degildir."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Tarayici kullanin; uygulama ici iptal mevcut degildir."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ne zamana kadar iptal edebilirim?",
+        "answer": "Bir sonraki teslimatten kacmak icin Cumartesi geceyarisi oncesinde."
+      },
+      {
+        "question": "EveryPlate'i kim isletiyor?",
+        "answer": "EveryPlate, HelloFresh'e aittir."
+      }
+    ]
+  },
+  "sun-basket": {
+    "description": "Sun Basket, organik yemek kiti servisidir (yemek basina 10,99-16,99 $). Web sitesi uzerinden iptal edilebilir; duraklatma yogun sekilde tanitilir.",
+    "difficulty": "Orta",
+    "difficultyReason": "Iptalden once duraklatma secenegi yogun sekilde tanitilir; Carsamba son tarihine dikkat edin.",
+    "refundPolicy": "Carsamba geceyarisi oncesinde iptal etmeniz gerekir.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "sunbasket.com/account adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "Duraklatma teklifini gecin ve Plani iptal et secenegine tiklayin."
+          },
+          {
+            "instruction": "Iptali onaylayin."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Tarayici kullanin; uygulama ici iptal mevcut degildir."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Tarayici kullanin; uygulama ici iptal mevcut degildir."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ne zamana kadar iptal edebilirim?",
+        "answer": "Bir sonraki teslimatten kacmak icin Carsamba geceyarisi oncesinde."
+      },
+      {
+        "question": "Duraklatma secenegi sunuluyor mu?",
+        "answer": "Evet, Sun Basket iptalden once yogun sekilde tanitilan duraklatma secenegi sunmaktadir."
+      }
+    ]
+  },
+  "butcherbox": {
+    "description": "ButcherBox, et teslimat servisidir (kutu basina 146-291 $). Web sitesi uzerinden iptal edilebilir; faturalama tarihinden 3 gun once iptal edin.",
+    "difficulty": "Orta",
+    "difficultyReason": "Iptal baglantisi icin asagi kaydirma gerekir; 3 gunluk one sureli bildirimi gozeten gerekir.",
+    "refundPolicy": "Faturalama tarihinden 3 gun once iptal edin. Siparisler ertelenebilir veya atlanabilir.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "butcherbox.com/account/plan adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "Asagi kaydirun ve Uyeligi iptal et secenegine tiklayin."
+          },
+          {
+            "instruction": "Iptali onaylayin."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Tarayici kullanin; uygulama ici iptal mevcut degildir."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Tarayici kullanin; uygulama ici iptal mevcut degildir."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ne kadar once iptal etmeliyim?",
+        "answer": "Bir sonraki faturalama tarihinden en az 3 gun once."
+      },
+      {
+        "question": "Siparis atlayabilir miyim?",
+        "answer": "Evet, siparisler ertelenebilir veya atlanabilir."
+      }
+    ]
+  },
+  "dollar-shave-club": {
+    "description": "Dollar Shave Club, jilet ve kisisel bakim urunleri abonelik servisidir (aylik 5-15 $). Web sitesi uzerinden kolayca iptal edilebilir.",
+    "difficulty": "Kolay",
+    "difficultyReason": "Uyelik ayarlarinda acik bir iptal secenegi bulunmaktadir.",
+    "refundPolicy": "Acilmamis urunler 30 gun icinde iade edilebilir. Gonderi duraklatilabilir veya ertelenebilir.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "dollarshaveclub.com/account adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "Uyelik Ayarlari secenegine tiklayin."
+          },
+          {
+            "instruction": "Uyeligi iptal et secenegine tiklayin."
+          },
+          {
+            "instruction": "Iptali onaylayin."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Tarayici kullanin; uygulama ici iptal mevcut degildir."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Tarayici kullanin; uygulama ici iptal mevcut degildir."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Iptal etmek yerine duraklatabilir miyim?",
+        "answer": "Evet, gonderi duraklatilabilir veya ertelenebilir."
+      },
+      {
+        "question": "Urunleri iade edebilir miyim?",
+        "answer": "Evet, acilmamis urunler 30 gun icinde iade edilebilir."
+      }
+    ]
   }
 }

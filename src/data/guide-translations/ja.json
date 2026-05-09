@@ -4305,5 +4305,465 @@
         "answer": "いいえ。Discovery+にはMax/HBOコンテンツが含まれていません。"
       }
     ]
+  },
+  "britbox": {
+    "description": "BritBoxは英国テレビのストリーミングサービスです（月額8.99ドル）。ウェブサイトまたはデバイス設定から簡単に解約できます。",
+    "difficulty": "簡単",
+    "difficultyReason": "アカウント設定に明確な解約オプションがあります。",
+    "refundPolicy": "解約後もウォッチリストは保持されます。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "britbox.com/accountにアクセスしてサインインします。"
+          },
+          {
+            "instruction": "「サブスクリプションをキャンセル」をクリックします。"
+          },
+          {
+            "instruction": "解約を確認します。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhoneの設定、お名前、サブスクリプション、BritBox、キャンセルの順にタップします。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Playストア、プロフィール、お支払いとサブスクリプション、サブスクリプション、BritBox、キャンセルの順にタップします。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Amazonで登録しました。どこでキャンセルしますか？",
+        "answer": "Amazon Prime Videoチャンネルからキャンセルします。britbox.comではありません。"
+      },
+      {
+        "question": "Appleで登録しました。どこでキャンセルしますか？",
+        "answer": "iPhoneの設定のサブスクリプションからキャンセルします。"
+      },
+      {
+        "question": "ウォッチリストは保持されますか？",
+        "answer": "はい、解約後もウォッチリストは保持されます。"
+      }
+    ]
+  },
+  "acorn-tv": {
+    "description": "Acorn TVは英国および国際ドラマのストリーミングサービスです（月額6.99ドル）。ウェブサイトまたはデバイス設定から簡単に解約できます。",
+    "difficulty": "簡単",
+    "difficultyReason": "アカウント設定に明確な解約オプションがあります。",
+    "refundPolicy": "解約後も視聴履歴は保持されます。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "acorn.tv/my-accountにアクセスしてサインインします。"
+          },
+          {
+            "instruction": "「サブスクリプションをキャンセル」をクリックします。"
+          },
+          {
+            "instruction": "解約を確認します。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhoneの設定、お名前、サブスクリプション、Acorn TV、キャンセルの順にタップします。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Playストア、プロフィール、お支払いとサブスクリプション、サブスクリプション、Acorn TV、キャンセルの順にタップします。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Amazonで登録しました。どこでキャンセルしますか？",
+        "answer": "Amazon Prime Videoチャンネルからキャンセルします。acorn.tvではありません。"
+      },
+      {
+        "question": "視聴履歴は保持されますか？",
+        "answer": "はい、解約後も視聴履歴は保持されます。"
+      }
+    ]
+  },
+  "fabfitfun": {
+    "description": "FabFitFunはライフスタイルサブスクリプションボックスです（四半期ごと54.99ドル）。ウェブサイトから解約できます。季節の締め切りに注意してください。",
+    "difficulty": "普通",
+    "difficultyReason": "季節の締め切りとポーズ機能がないため、少し複雑です。",
+    "refundPolicy": "季節の締め切り前に解約する必要があります。ポーズ機能はありません。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "fabfitfun.com/account/editにアクセスしてサインインします。"
+          },
+          {
+            "instruction": "「メンバーシップをキャンセル」をクリックします。"
+          },
+          {
+            "instruction": "季節の締め切り前に解約を確認します。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "ブラウザをご利用ください。アプリ内解約はできません。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "ブラウザをご利用ください。アプリ内解約はできません。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "ポーズ機能はありますか？",
+        "answer": "いいえ、ポーズ機能はありません。"
+      },
+      {
+        "question": "季節の締め切りはいつですか？",
+        "answer": "アカウントで現在の季節の締め切りをご確認ください。"
+      }
+    ]
+  },
+  "beachbody": {
+    "description": "BODi（Beachbody On Demand）はフィットネスストリーミングサービスです（月額19.99ドル）。ウェブサイト、サポートチャット、または電話から解約できます。",
+    "difficulty": "普通",
+    "difficultyReason": "複数の解約方法があり、サポートが代替案を提示することがあります。",
+    "refundPolicy": "新規契約者は30日間の返金保証があります。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "beachbodyondemand.com/accountにアクセスしてサインインします。"
+          },
+          {
+            "instruction": "「メンバーシップをキャンセル」をクリックするか、サポートチャットを利用します。"
+          },
+          {
+            "instruction": "または1-800-470-7870に電話します。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhoneの設定、お名前、サブスクリプション、BODi、キャンセルの順にタップします。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Playストア、プロフィール、お支払いとサブスクリプション、サブスクリプション、BODi、キャンセルの順にタップします。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "返金を受けられますか？",
+        "answer": "新規契約者は30日間の返金保証があります。"
+      },
+      {
+        "question": "サポートへの連絡方法は？",
+        "answer": "ウェブサイトのチャットまたは1-800-470-7870にお電話ください。"
+      }
+    ]
+  },
+  "blue-apron": {
+    "description": "Blue Apronはミールキットサービスです（1食9.99〜13.99ドル）。ウェブサイトから解約できます。金曜日の深夜が締め切りです。",
+    "difficulty": "普通",
+    "difficultyReason": "解約前にポーズオプションが表示されます。週次締め切りに注意が必要です。",
+    "refundPolicy": "次回配送を避けるには金曜日の深夜までに解約する必要があります。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "blueapron.com/account/settingsにアクセスしてサインインします。"
+          },
+          {
+            "instruction": "「プラン設定」をクリックします。"
+          },
+          {
+            "instruction": "ポーズオプションを過ぎてスクロールし「プランをキャンセル」をクリックします。"
+          },
+          {
+            "instruction": "解約を確認します。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "ブラウザをご利用ください。アプリ内解約はできません。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "ブラウザをご利用ください。アプリ内解約はできません。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "いつまでに解約できますか？",
+        "answer": "次週の配送を避けるには金曜日の深夜までに解約してください。"
+      },
+      {
+        "question": "解約の代わりにポーズできますか？",
+        "answer": "はい、Blue Apronはポーズオプションを提供しています。"
+      }
+    ]
+  },
+  "home-chef": {
+    "description": "Home Chefはミールキットサービスです（1食9.95〜15.95ドル）。ウェブサイトから簡単に解約できます。木曜日の深夜が締め切りです。",
+    "difficulty": "簡単",
+    "difficultyReason": "明確な解約オプションがありますが、木曜日の締め切りに注意が必要です。",
+    "refundPolicy": "木曜日の深夜までに解約する必要があります。個々の週をスキップできます。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "homechef.com/accountにアクセスしてサインインします。"
+          },
+          {
+            "instruction": "「アカウントをキャンセル」をクリックします（ポーズオプションの下）。"
+          },
+          {
+            "instruction": "解約を確認します。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "ブラウザをご利用ください。アプリ内解約はできません。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "ブラウザをご利用ください。アプリ内解約はできません。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "いつまでに解約できますか？",
+        "answer": "次回の配送を避けるには木曜日の深夜までに解約してください。"
+      },
+      {
+        "question": "個々の週をスキップできますか？",
+        "answer": "はい、解約せずに週をスキップできます。"
+      }
+    ]
+  },
+  "everyplate": {
+    "description": "EveryPlateはHelloFreshが運営するリーズナブルなミールキットサービスです（1食4.99〜6.99ドル）。ウェブサイトから簡単に解約できます。",
+    "difficulty": "簡単",
+    "difficultyReason": "明確な解約オプションがあります。土曜日の締め切りに注意してください。",
+    "refundPolicy": "土曜日の深夜までに解約する必要があります。週をスキップできます。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "everyplate.com/accountにアクセスしてサインインします。"
+          },
+          {
+            "instruction": "「サブスクリプションをキャンセル」をクリックします。"
+          },
+          {
+            "instruction": "解約を確認します。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "ブラウザをご利用ください。アプリ内解約はできません。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "ブラウザをご利用ください。アプリ内解約はできません。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "いつまでに解約できますか？",
+        "answer": "次回の配送を避けるには土曜日の深夜までに解約してください。"
+      },
+      {
+        "question": "EveryPlateは誰が運営していますか？",
+        "answer": "EveryPlateはHelloFreshに属しています。"
+      }
+    ]
+  },
+  "sun-basket": {
+    "description": "Sun Basketはオーガニックミールキットサービスです（1食10.99〜16.99ドル）。ウェブサイトから解約できます。ポーズが強く促されます。",
+    "difficulty": "普通",
+    "difficultyReason": "解約前にポーズオプションが強く促されます。水曜日の締め切りに注意が必要です。",
+    "refundPolicy": "水曜日の深夜までに解約する必要があります。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "sunbasket.com/accountにアクセスしてサインインします。"
+          },
+          {
+            "instruction": "ポーズオプションを過ぎてスクロールし「プランをキャンセル」をクリックします。"
+          },
+          {
+            "instruction": "解約を確認します。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "ブラウザをご利用ください。アプリ内解約はできません。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "ブラウザをご利用ください。アプリ内解約はできません。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "いつまでに解約できますか？",
+        "answer": "次回の配送を避けるには水曜日の深夜までに解約してください。"
+      },
+      {
+        "question": "ポーズオプションはありますか？",
+        "answer": "はい、Sun Basketはポーズを提供しており、解約前に強く促されます。"
+      }
+    ]
+  },
+  "butcherbox": {
+    "description": "ButcherBoxは食肉配送サービスです（1箱146〜291ドル）。ウェブサイトから解約できます。請求日の3日前に解約してください。",
+    "difficulty": "普通",
+    "difficultyReason": "解約リンクはスクロールが必要です。3日前の締め切りに注意が必要です。",
+    "refundPolicy": "請求日の3日前に解約してください。注文の遅延やスキップが可能です。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "butcherbox.com/account/planにアクセスしてサインインします。"
+          },
+          {
+            "instruction": "下にスクロールして「メンバーシップをキャンセル」をクリックします。"
+          },
+          {
+            "instruction": "解約を確認します。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "ブラウザをご利用ください。アプリ内解約はできません。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "ブラウザをご利用ください。アプリ内解約はできません。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "どのくらい前に解約する必要がありますか？",
+        "answer": "次回の請求日の少なくとも3日前に解約してください。"
+      },
+      {
+        "question": "注文をスキップできますか？",
+        "answer": "はい、注文を遅延またはスキップできます。"
+      }
+    ]
+  },
+  "dollar-shave-club": {
+    "description": "Dollar Shave Clubはカミソリとグルーミング用品のサブスクリプションサービスです（月額5〜15ドル）。ウェブサイトから簡単に解約できます。",
+    "difficulty": "簡単",
+    "difficultyReason": "メンバーシップ設定に明確な解約オプションがあります。",
+    "refundPolicy": "未開封品は30日以内に返品可能です。配送のポーズや遅延が可能です。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "dollarshaveclub.com/accountにアクセスしてサインインします。"
+          },
+          {
+            "instruction": "「メンバーシップ設定」をクリックします。"
+          },
+          {
+            "instruction": "「メンバーシップをキャンセル」をクリックします。"
+          },
+          {
+            "instruction": "解約を確認します。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "ブラウザをご利用ください。アプリ内解約はできません。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "ブラウザをご利用ください。アプリ内解約はできません。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "解約の代わりにポーズできますか？",
+        "answer": "はい、配送をポーズまたは遅延できます。"
+      },
+      {
+        "question": "商品を返品できますか？",
+        "answer": "はい、未開封品は30日以内に返品できます。"
+      }
+    ]
   }
 }

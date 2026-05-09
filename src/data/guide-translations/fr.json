@@ -4460,5 +4460,465 @@
         "answer": "Non. Discovery+ n'inclut pas les contenus Max/HBO."
       }
     ]
+  },
+  "britbox": {
+    "description": "BritBox est un service de streaming de television britannique (8,99 $/mois). Resiliation facile depuis le site ou les parametres de l'appareil.",
+    "difficulty": "Facile",
+    "difficultyReason": "Option de resiliation claire dans les parametres du compte.",
+    "refundPolicy": "La liste de favoris est conservee apres la resiliation.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Rendez-vous sur britbox.com/account et connectez-vous."
+          },
+          {
+            "instruction": "Cliquez sur Resilier l'abonnement."
+          },
+          {
+            "instruction": "Confirmez la resiliation."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Reglages iPhone, votre nom, Abonnements, BritBox, Resilier."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profil, Paiements et abonnements, Abonnements, BritBox, Resilier."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Je me suis abonne via Amazon. Ou resilier ?",
+        "answer": "Via Amazon Prime Video Channels, pas sur britbox.com."
+      },
+      {
+        "question": "Je me suis abonne via Apple. Ou resilier ?",
+        "answer": "Dans les Reglages iPhone, sous Abonnements."
+      },
+      {
+        "question": "Ma liste de favoris est-elle conservee ?",
+        "answer": "Oui, la liste est conservee apres la resiliation."
+      }
+    ]
+  },
+  "acorn-tv": {
+    "description": "Acorn TV est un service de streaming de drames britanniques et internationaux (6,99 $/mois). Resiliation facile depuis le site ou les parametres de l'appareil.",
+    "difficulty": "Facile",
+    "difficultyReason": "Option de resiliation claire dans les parametres du compte.",
+    "refundPolicy": "L'historique de visionnage est conserve apres la resiliation.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Rendez-vous sur acorn.tv/my-account et connectez-vous."
+          },
+          {
+            "instruction": "Cliquez sur Resilier l'abonnement."
+          },
+          {
+            "instruction": "Confirmez la resiliation."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Reglages iPhone, votre nom, Abonnements, Acorn TV, Resilier."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profil, Paiements et abonnements, Abonnements, Acorn TV, Resilier."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Je me suis abonne via Amazon. Ou resilier ?",
+        "answer": "Via Amazon Prime Video Channels, pas sur acorn.tv."
+      },
+      {
+        "question": "Mon historique de visionnage est-il conserve ?",
+        "answer": "Oui, l'historique est conserve apres la resiliation."
+      }
+    ]
+  },
+  "fabfitfun": {
+    "description": "FabFitFun est une box de style de vie par abonnement (54,99 $/trimestre). Resiliation depuis le site ; respecter la date limite saisonniere.",
+    "difficulty": "Moyen",
+    "difficultyReason": "Les dates limites saisonnieres et l'absence de pause compliquent le processus.",
+    "refundPolicy": "Vous devez resilier avant la date limite saisonniere. Pas de fonction pause.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Rendez-vous sur fabfitfun.com/account/edit et connectez-vous."
+          },
+          {
+            "instruction": "Cliquez sur Annuler l'adhesion."
+          },
+          {
+            "instruction": "Confirmez la resiliation avant la date limite saisonniere."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Utilisez le navigateur ; la resiliation dans l'appli n'est pas disponible."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Utilisez le navigateur ; la resiliation dans l'appli n'est pas disponible."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Y a-t-il une option de pause ?",
+        "answer": "Non, la fonction pause n'est pas disponible."
+      },
+      {
+        "question": "Quand est la date limite saisonniere ?",
+        "answer": "Consultez votre compte pour connaitre la date limite saisonniere actuelle."
+      }
+    ]
+  },
+  "beachbody": {
+    "description": "BODi (Beachbody On Demand) est un service de streaming fitness (19,99 $/mois). Resiliation depuis le site, le chat d'assistance ou par telephone.",
+    "difficulty": "Moyen",
+    "difficultyReason": "Plusieurs voies de resiliation ; l'assistance peut proposer des alternatives.",
+    "refundPolicy": "Remboursement de 30 jours pour les nouveaux abonnes.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Rendez-vous sur beachbodyondemand.com/account et connectez-vous."
+          },
+          {
+            "instruction": "Cliquez sur Annuler l'adhesion ou utilisez le chat d'assistance."
+          },
+          {
+            "instruction": "Vous pouvez aussi appeler le 1-800-470-7870."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Reglages iPhone, votre nom, Abonnements, BODi, Resilier."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profil, Paiements et abonnements, Abonnements, BODi, Resilier."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ai-je droit a un remboursement ?",
+        "answer": "Les nouveaux abonnes beneficient d'une garantie de remboursement de 30 jours."
+      },
+      {
+        "question": "Comment contacter l'assistance ?",
+        "answer": "Par chat sur le site ou en appelant le 1-800-470-7870."
+      }
+    ]
+  },
+  "blue-apron": {
+    "description": "Blue Apron est un service de kits repas (9,99-13,99 $/repas). Resiliation depuis le site ; date limite le vendredi a minuit.",
+    "difficulty": "Moyen",
+    "difficultyReason": "Les options de pause s'affichent avant la resiliation ; respecter la date limite hebdomadaire.",
+    "refundPolicy": "Vous devez resilier avant le vendredi a minuit pour eviter la prochaine livraison.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Rendez-vous sur blueapron.com/account/settings et connectez-vous."
+          },
+          {
+            "instruction": "Cliquez sur Parametres du plan."
+          },
+          {
+            "instruction": "Faites defiler au-dela des options de pause et cliquez sur Annuler le plan."
+          },
+          {
+            "instruction": "Confirmez la resiliation."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Utilisez le navigateur ; la resiliation dans l'appli n'est pas disponible."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Utilisez le navigateur ; la resiliation dans l'appli n'est pas disponible."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Jusqu'a quand puis-je resilier ?",
+        "answer": "Avant le vendredi a minuit pour eviter la prochaine livraison hebdomadaire."
+      },
+      {
+        "question": "Puis-je mettre en pause plutot que resilier ?",
+        "answer": "Oui, Blue Apron propose une option de pause."
+      }
+    ]
+  },
+  "home-chef": {
+    "description": "Home Chef est un service de kits repas (9,95-15,95 $/repas). Resiliation facile depuis le site ; date limite le jeudi a minuit.",
+    "difficulty": "Facile",
+    "difficultyReason": "Option de resiliation claire, mais respecter la date limite du jeudi.",
+    "refundPolicy": "Vous devez resilier avant le jeudi a minuit. Vous pouvez sauter des semaines individuelles.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Rendez-vous sur homechef.com/account et connectez-vous."
+          },
+          {
+            "instruction": "Cliquez sur Annuler le compte (en dessous de l'option de pause)."
+          },
+          {
+            "instruction": "Confirmez la resiliation."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Utilisez le navigateur ; la resiliation dans l'appli n'est pas disponible."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Utilisez le navigateur ; la resiliation dans l'appli n'est pas disponible."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Jusqu'a quand puis-je resilier ?",
+        "answer": "Avant le jeudi a minuit pour eviter la prochaine livraison."
+      },
+      {
+        "question": "Puis-je sauter des semaines individuelles ?",
+        "answer": "Oui, vous pouvez sauter des semaines sans resilier."
+      }
+    ]
+  },
+  "everyplate": {
+    "description": "EveryPlate est un service de kits repas economique (4,99-6,99 $/repas), exploite par HelloFresh. Resiliation facile depuis le site.",
+    "difficulty": "Facile",
+    "difficultyReason": "Option de resiliation claire ; respecter la date limite du samedi.",
+    "refundPolicy": "Vous devez resilier avant le samedi a minuit. Vous pouvez sauter des semaines.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Rendez-vous sur everyplate.com/account et connectez-vous."
+          },
+          {
+            "instruction": "Cliquez sur Annuler l'abonnement."
+          },
+          {
+            "instruction": "Confirmez la resiliation."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Utilisez le navigateur ; la resiliation dans l'appli n'est pas disponible."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Utilisez le navigateur ; la resiliation dans l'appli n'est pas disponible."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Jusqu'a quand puis-je resilier ?",
+        "answer": "Avant le samedi a minuit pour eviter la prochaine livraison."
+      },
+      {
+        "question": "Qui exploite EveryPlate ?",
+        "answer": "EveryPlate appartient a HelloFresh."
+      }
+    ]
+  },
+  "sun-basket": {
+    "description": "Sun Basket est un service de kits repas bio (10,99-16,99 $/repas). Resiliation depuis le site ; la pause est fortement promue.",
+    "difficulty": "Moyen",
+    "difficultyReason": "L'option de pause est fortement promue avant la resiliation ; date limite le mercredi.",
+    "refundPolicy": "Vous devez resilier avant le mercredi a minuit.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Rendez-vous sur sunbasket.com/account et connectez-vous."
+          },
+          {
+            "instruction": "Faites defiler au-dela de l'offre de pause et cliquez sur Annuler le plan."
+          },
+          {
+            "instruction": "Confirmez la resiliation."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Utilisez le navigateur ; la resiliation dans l'appli n'est pas disponible."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Utilisez le navigateur ; la resiliation dans l'appli n'est pas disponible."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Jusqu'a quand puis-je resilier ?",
+        "answer": "Avant le mercredi a minuit pour eviter la prochaine livraison."
+      },
+      {
+        "question": "Une option de pause est-elle proposee ?",
+        "answer": "Oui, Sun Basket propose une pause, fortement mise en avant avant la resiliation."
+      }
+    ]
+  },
+  "butcherbox": {
+    "description": "ButcherBox est un service de livraison de viande (146-291 $/box). Resiliation depuis le site ; resilier 3 jours avant la date de facturation.",
+    "difficulty": "Moyen",
+    "difficultyReason": "Le lien de resiliation necessite de faire defiler la page ; respecter le delai de 3 jours.",
+    "refundPolicy": "Resilier 3 jours avant la date de facturation. Les commandes peuvent etre differees ou sautees.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Rendez-vous sur butcherbox.com/account/plan et connectez-vous."
+          },
+          {
+            "instruction": "Faites defiler vers le bas et cliquez sur Annuler l'adhesion."
+          },
+          {
+            "instruction": "Confirmez la resiliation."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Utilisez le navigateur ; la resiliation dans l'appli n'est pas disponible."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Utilisez le navigateur ; la resiliation dans l'appli n'est pas disponible."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Combien de temps a l'avance dois-je resilier ?",
+        "answer": "Au moins 3 jours avant la prochaine date de facturation."
+      },
+      {
+        "question": "Puis-je sauter une commande ?",
+        "answer": "Oui, vous pouvez differer ou sauter des commandes."
+      }
+    ]
+  },
+  "dollar-shave-club": {
+    "description": "Dollar Shave Club est un service d'abonnement rasoirs et soins (5-15 $/mois). Resiliation facile depuis le site.",
+    "difficulty": "Facile",
+    "difficultyReason": "Option de resiliation claire dans les parametres d'adhesion.",
+    "refundPolicy": "Retour des articles non ouverts dans les 30 jours. Les livraisons peuvent etre mises en pause ou differees.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Rendez-vous sur dollarshaveclub.com/account et connectez-vous."
+          },
+          {
+            "instruction": "Cliquez sur Parametres d'adhesion."
+          },
+          {
+            "instruction": "Cliquez sur Annuler l'adhesion."
+          },
+          {
+            "instruction": "Confirmez la resiliation."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Utilisez le navigateur ; la resiliation dans l'appli n'est pas disponible."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Utilisez le navigateur ; la resiliation dans l'appli n'est pas disponible."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Puis-je mettre en pause plutot que resilier ?",
+        "answer": "Oui, vous pouvez mettre en pause ou differer les livraisons."
+      },
+      {
+        "question": "Puis-je retourner des articles ?",
+        "answer": "Oui, les articles non ouverts peuvent etre retournes dans les 30 jours."
+      }
+    ]
   }
 }

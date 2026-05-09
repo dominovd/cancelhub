@@ -4494,5 +4494,465 @@
         "answer": "不包含。Discovery+ 不含 Max/HBO 內容。"
       }
     ]
+  },
+  "britbox": {
+    "description": "BritBox 是英國電視串流服務（每月 $8.99）。可透過網站或裝置設定輕鬆取消。",
+    "difficulty": "簡單",
+    "difficultyReason": "帳戶設定中有明確的取消選項。",
+    "refundPolicy": "取消後仍保留觀看清單。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 britbox.com/account 並登入。"
+          },
+          {
+            "instruction": "點選「取消訂閱」。"
+          },
+          {
+            "instruction": "確認取消。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone 設定、您的姓名、訂閱、BritBox、取消。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play 商店、個人資料、付款與訂閱、訂閱、BritBox、取消。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我透過 Amazon 訂閱。在哪裡取消？",
+        "answer": "透過 Amazon Prime Video 頻道取消，不是在 britbox.com。"
+      },
+      {
+        "question": "我透過 Apple 訂閱。在哪裡取消？",
+        "answer": "在 iPhone 設定的訂閱項目中取消。"
+      },
+      {
+        "question": "觀看清單會保留嗎？",
+        "answer": "是的，取消後仍保留觀看清單。"
+      }
+    ]
+  },
+  "acorn-tv": {
+    "description": "Acorn TV 是英國及國際劇集串流服務（每月 $6.99）。可透過網站或裝置設定輕鬆取消。",
+    "difficulty": "簡單",
+    "difficultyReason": "帳戶設定中有明確的取消選項。",
+    "refundPolicy": "取消後仍保留觀看紀錄。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 acorn.tv/my-account 並登入。"
+          },
+          {
+            "instruction": "點選「取消訂閱」。"
+          },
+          {
+            "instruction": "確認取消。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone 設定、您的姓名、訂閱、Acorn TV、取消。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play 商店、個人資料、付款與訂閱、訂閱、Acorn TV、取消。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我透過 Amazon 訂閱。在哪裡取消？",
+        "answer": "透過 Amazon Prime Video 頻道取消，不是在 acorn.tv。"
+      },
+      {
+        "question": "觀看紀錄會保留嗎？",
+        "answer": "是的，取消後仍保留觀看紀錄。"
+      }
+    ]
+  },
+  "fabfitfun": {
+    "description": "FabFitFun 是生活風格訂閱盒（每季 $54.99）。可透過網站取消；請注意季節性截止日期。",
+    "difficulty": "中等",
+    "difficultyReason": "季節性截止日期和無暫停功能使流程較為複雜。",
+    "refundPolicy": "必須在季節性截止日期前取消。無暫停功能。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 fabfitfun.com/account/edit 並登入。"
+          },
+          {
+            "instruction": "點選「取消會員資格」。"
+          },
+          {
+            "instruction": "在季節性截止日期前確認取消。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "請使用瀏覽器；應用程式內取消不可用。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "請使用瀏覽器；應用程式內取消不可用。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "有暫停功能嗎？",
+        "answer": "沒有，暫停功能不可用。"
+      },
+      {
+        "question": "季節性截止日期是什麼時候？",
+        "answer": "請查看您的帳戶以了解當前的季節性截止日期。"
+      }
+    ]
+  },
+  "beachbody": {
+    "description": "BODi（Beachbody On Demand）是健身串流服務（每月 $19.99）。可透過網站、支援聊天或電話取消。",
+    "difficulty": "中等",
+    "difficultyReason": "多種取消方式；客服可能提供替代方案。",
+    "refundPolicy": "新訂閱者享有 30 天退款保證。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 beachbodyondemand.com/account 並登入。"
+          },
+          {
+            "instruction": "點選「取消會員資格」或使用支援聊天。"
+          },
+          {
+            "instruction": "或致電 1-800-470-7870。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone 設定、您的姓名、訂閱、BODi、取消。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play 商店、個人資料、付款與訂閱、訂閱、BODi、取消。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我可以獲得退款嗎？",
+        "answer": "新訂閱者享有 30 天退款保證。"
+      },
+      {
+        "question": "如何聯繫客服？",
+        "answer": "透過網站聊天或致電 1-800-470-7870。"
+      }
+    ]
+  },
+  "blue-apron": {
+    "description": "Blue Apron 是餐食套件服務（每餐 $9.99-$13.99）。可透過網站取消；截止日期為週五午夜。",
+    "difficulty": "中等",
+    "difficultyReason": "取消前會顯示暫停選項；需注意每週截止日期。",
+    "refundPolicy": "必須在週五午夜前取消以避免下次配送。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 blueapron.com/account/settings 並登入。"
+          },
+          {
+            "instruction": "點選「方案設定」。"
+          },
+          {
+            "instruction": "略過暫停選項向下捲動，點選「取消方案」。"
+          },
+          {
+            "instruction": "確認取消。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "請使用瀏覽器；應用程式內取消不可用。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "請使用瀏覽器；應用程式內取消不可用。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "最晚何時可以取消？",
+        "answer": "週五午夜前取消以避免下次每週配送。"
+      },
+      {
+        "question": "可以暫停而非取消嗎？",
+        "answer": "是的，Blue Apron 提供暫停選項。"
+      }
+    ]
+  },
+  "home-chef": {
+    "description": "Home Chef 是餐食套件服務（每餐 $9.95-$15.95）。可透過網站輕鬆取消；截止日期為週四午夜。",
+    "difficulty": "簡單",
+    "difficultyReason": "有明確的取消選項，但需注意週四截止日期。",
+    "refundPolicy": "必須在週四午夜前取消。可跳過個別週數。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 homechef.com/account 並登入。"
+          },
+          {
+            "instruction": "點選「取消帳戶」（暫停選項下方）。"
+          },
+          {
+            "instruction": "確認取消。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "請使用瀏覽器；應用程式內取消不可用。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "請使用瀏覽器；應用程式內取消不可用。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "最晚何時可以取消？",
+        "answer": "週四午夜前取消以避免下次配送。"
+      },
+      {
+        "question": "可以跳過個別週數嗎？",
+        "answer": "是的，可以跳過週數而不取消訂閱。"
+      }
+    ]
+  },
+  "everyplate": {
+    "description": "EveryPlate 是 HelloFresh 旗下的平價餐食套件服務（每餐 $4.99-$6.99）。可透過網站輕鬆取消。",
+    "difficulty": "簡單",
+    "difficultyReason": "有明確的取消選項；注意週六截止日期。",
+    "refundPolicy": "必須在週六午夜前取消。可跳過週數。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 everyplate.com/account 並登入。"
+          },
+          {
+            "instruction": "點選「取消訂閱」。"
+          },
+          {
+            "instruction": "確認取消。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "請使用瀏覽器；應用程式內取消不可用。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "請使用瀏覽器；應用程式內取消不可用。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "最晚何時可以取消？",
+        "answer": "週六午夜前取消以避免下次配送。"
+      },
+      {
+        "question": "EveryPlate 由誰營運？",
+        "answer": "EveryPlate 隸屬於 HelloFresh。"
+      }
+    ]
+  },
+  "sun-basket": {
+    "description": "Sun Basket 是有機餐食套件服務（每餐 $10.99-$16.99）。可透過網站取消；暫停選項被大力推廣。",
+    "difficulty": "中等",
+    "difficultyReason": "取消前會大力推廣暫停選項；截止日期為週三。",
+    "refundPolicy": "必須在週三午夜前取消。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 sunbasket.com/account 並登入。"
+          },
+          {
+            "instruction": "略過暫停優惠向下捲動，點選「取消方案」。"
+          },
+          {
+            "instruction": "確認取消。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "請使用瀏覽器；應用程式內取消不可用。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "請使用瀏覽器；應用程式內取消不可用。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "最晚何時可以取消？",
+        "answer": "週三午夜前取消以避免下次配送。"
+      },
+      {
+        "question": "有提供暫停選項嗎？",
+        "answer": "有，Sun Basket 提供暫停功能，並在取消前大力推廣。"
+      }
+    ]
+  },
+  "butcherbox": {
+    "description": "ButcherBox 是肉品配送服務（每箱 $146-$291）。可透過網站取消；請在帳單日前 3 天取消。",
+    "difficulty": "中等",
+    "difficultyReason": "取消連結需向下捲動才能找到；需注意 3 天的提前期。",
+    "refundPolicy": "在帳單日前 3 天取消。可延遲或跳過訂單。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 butcherbox.com/account/plan 並登入。"
+          },
+          {
+            "instruction": "向下捲動，點選「取消會員資格」。"
+          },
+          {
+            "instruction": "確認取消。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "請使用瀏覽器；應用程式內取消不可用。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "請使用瀏覽器；應用程式內取消不可用。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "需要提前多久取消？",
+        "answer": "至少在下次帳單日前 3 天取消。"
+      },
+      {
+        "question": "可以跳過訂單嗎？",
+        "answer": "是的，可以延遲或跳過訂單。"
+      }
+    ]
+  },
+  "dollar-shave-club": {
+    "description": "Dollar Shave Club 是刮鬍刀及美容用品訂閱服務（每月 $5-$15）。可透過網站輕鬆取消。",
+    "difficulty": "簡單",
+    "difficultyReason": "會員設定中有明確的取消選項。",
+    "refundPolicy": "未開封商品可在 30 天內退貨。可暫停或延遲配送。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 dollarshaveclub.com/account 並登入。"
+          },
+          {
+            "instruction": "點選「會員設定」。"
+          },
+          {
+            "instruction": "點選「取消會員資格」。"
+          },
+          {
+            "instruction": "確認取消。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "請使用瀏覽器；應用程式內取消不可用。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "請使用瀏覽器；應用程式內取消不可用。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "可以暫停而非取消嗎？",
+        "answer": "是的，可以暫停或延遲配送。"
+      },
+      {
+        "question": "可以退貨嗎？",
+        "answer": "是的，未開封商品可在 30 天內退貨。"
+      }
+    ]
   }
 }

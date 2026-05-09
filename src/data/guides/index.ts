@@ -81,6 +81,16 @@ import { curology } from './curology'
 import { starz } from './starz'
 import { shudder } from './shudder'
 import { discoveryPlus } from './discovery-plus'
+import { britbox } from './britbox'
+import { acornTv } from './acorn-tv'
+import { fabfitfun } from './fabfitfun'
+import { beachbody } from './beachbody'
+import { blueApron } from './blue-apron'
+import { homeChef } from './home-chef'
+import { everyplate } from './everyplate'
+import { sunBasket } from './sun-basket'
+import { butcherbox } from './butcherbox'
+import { dollarShaveClub } from './dollar-shave-club'
 
 export const allGuides: CancelGuide[] = [
   netflix,
@@ -165,6 +175,16 @@ export const allGuides: CancelGuide[] = [
   starz,
   shudder,
   discoveryPlus,
+  britbox,
+  acornTv,
+  fabfitfun,
+  beachbody,
+  blueApron,
+  homeChef,
+  everyplate,
+  sunBasket,
+  butcherbox,
+  dollarShaveClub,
 ]
 
 export const guidesBySlug: Record<string, CancelGuide> = Object.fromEntries(

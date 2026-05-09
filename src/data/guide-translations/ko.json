@@ -4304,5 +4304,465 @@
         "answer": "아니요. Discovery+에는 Max/HBO 콘텐츠가 포함되지 않습니다."
       }
     ]
+  },
+  "britbox": {
+    "description": "BritBox는 영국 TV 스트리밍 서비스입니다(월 $8.99). 웹사이트 또는 기기 설정에서 간편하게 해지할 수 있습니다.",
+    "difficulty": "쉬움",
+    "difficultyReason": "계정 설정에 명확한 해지 옵션이 있습니다.",
+    "refundPolicy": "해지 후에도 시청 목록이 유지됩니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "britbox.com/account에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "구독 취소를 클릭합니다."
+          },
+          {
+            "instruction": "해지를 확인합니다."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone 설정, 이름, 구독, BritBox, 취소 순으로 탭합니다."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play 스토어, 프로필, 결제 및 구독, 구독, BritBox, 취소 순으로 탭합니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Amazon을 통해 구독했습니다. 어디서 취소하나요?",
+        "answer": "Amazon Prime Video 채널에서 취소하세요. britbox.com이 아닙니다."
+      },
+      {
+        "question": "Apple을 통해 구독했습니다. 어디서 취소하나요?",
+        "answer": "iPhone 설정의 구독 메뉴에서 취소하세요."
+      },
+      {
+        "question": "시청 목록이 유지되나요?",
+        "answer": "네, 해지 후에도 시청 목록이 유지됩니다."
+      }
+    ]
+  },
+  "acorn-tv": {
+    "description": "Acorn TV는 영국 및 국제 드라마 스트리밍 서비스입니다(월 $6.99). 웹사이트 또는 기기 설정에서 간편하게 해지할 수 있습니다.",
+    "difficulty": "쉬움",
+    "difficultyReason": "계정 설정에 명확한 해지 옵션이 있습니다.",
+    "refundPolicy": "해지 후에도 시청 기록이 유지됩니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "acorn.tv/my-account에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "구독 취소를 클릭합니다."
+          },
+          {
+            "instruction": "해지를 확인합니다."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone 설정, 이름, 구독, Acorn TV, 취소 순으로 탭합니다."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play 스토어, 프로필, 결제 및 구독, 구독, Acorn TV, 취소 순으로 탭합니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Amazon을 통해 구독했습니다. 어디서 취소하나요?",
+        "answer": "Amazon Prime Video 채널에서 취소하세요. acorn.tv가 아닙니다."
+      },
+      {
+        "question": "시청 기록이 유지되나요?",
+        "answer": "네, 해지 후에도 시청 기록이 유지됩니다."
+      }
+    ]
+  },
+  "fabfitfun": {
+    "description": "FabFitFun은 라이프스타일 구독 박스입니다(분기별 $54.99). 웹사이트에서 해지할 수 있습니다. 시즌 마감일을 반드시 지키세요.",
+    "difficulty": "보통",
+    "difficultyReason": "시즌 마감일과 일시정지 기능 부재로 다소 복잡합니다.",
+    "refundPolicy": "시즌 마감일 전에 해지해야 합니다. 일시정지 기능은 없습니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "fabfitfun.com/account/edit에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "멤버십 취소를 클릭합니다."
+          },
+          {
+            "instruction": "시즌 마감일 전에 해지를 확인합니다."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "브라우저를 사용하세요. 앱 내 해지는 지원되지 않습니다."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "브라우저를 사용하세요. 앱 내 해지는 지원되지 않습니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "일시정지 기능이 있나요?",
+        "answer": "아니요, 일시정지 기능은 제공되지 않습니다."
+      },
+      {
+        "question": "시즌 마감일이 언제인가요?",
+        "answer": "계정에서 현재 시즌 마감일을 확인하세요."
+      }
+    ]
+  },
+  "beachbody": {
+    "description": "BODi(Beachbody On Demand)는 피트니스 스트리밍 서비스입니다(월 $19.99). 웹사이트, 지원 채팅 또는 전화로 해지할 수 있습니다.",
+    "difficulty": "보통",
+    "difficultyReason": "여러 해지 방법이 있으며 고객 지원에서 대안을 제시할 수 있습니다.",
+    "refundPolicy": "신규 구독자에게는 30일 환불 보장이 있습니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "beachbodyondemand.com/account에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "멤버십 취소를 클릭하거나 지원 채팅을 이용합니다."
+          },
+          {
+            "instruction": "또는 1-800-470-7870으로 전화합니다."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone 설정, 이름, 구독, BODi, 취소 순으로 탭합니다."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play 스토어, 프로필, 결제 및 구독, 구독, BODi, 취소 순으로 탭합니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "환불을 받을 수 있나요?",
+        "answer": "신규 구독자는 30일 환불 보장을 받을 수 있습니다."
+      },
+      {
+        "question": "고객 지원에 어떻게 연락하나요?",
+        "answer": "웹사이트 채팅 또는 1-800-470-7870으로 전화하세요."
+      }
+    ]
+  },
+  "blue-apron": {
+    "description": "Blue Apron은 밀키트 서비스입니다(1식 $9.99-$13.99). 웹사이트에서 해지할 수 있습니다. 금요일 자정이 마감입니다.",
+    "difficulty": "보통",
+    "difficultyReason": "해지 전에 일시정지 옵션이 표시됩니다. 주간 마감일을 확인해야 합니다.",
+    "refundPolicy": "다음 배송을 피하려면 금요일 자정 전에 해지해야 합니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "blueapron.com/account/settings에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "플랜 설정을 클릭합니다."
+          },
+          {
+            "instruction": "일시정지 옵션을 지나 스크롤하여 플랜 취소를 클릭합니다."
+          },
+          {
+            "instruction": "해지를 확인합니다."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "브라우저를 사용하세요. 앱 내 해지는 지원되지 않습니다."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "브라우저를 사용하세요. 앱 내 해지는 지원되지 않습니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "언제까지 해지할 수 있나요?",
+        "answer": "다음 주 배송을 피하려면 금요일 자정 전에 해지하세요."
+      },
+      {
+        "question": "해지 대신 일시정지할 수 있나요?",
+        "answer": "네, Blue Apron은 일시정지 옵션을 제공합니다."
+      }
+    ]
+  },
+  "home-chef": {
+    "description": "Home Chef는 밀키트 서비스입니다(1식 $9.95-$15.95). 웹사이트에서 간편하게 해지할 수 있습니다. 목요일 자정이 마감입니다.",
+    "difficulty": "쉬움",
+    "difficultyReason": "명확한 해지 옵션이 있지만 목요일 마감일을 확인해야 합니다.",
+    "refundPolicy": "목요일 자정 전에 해지해야 합니다. 개별 주를 건너뛸 수 있습니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "homechef.com/account에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "계정 취소를 클릭합니다(일시정지 옵션 아래)."
+          },
+          {
+            "instruction": "해지를 확인합니다."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "브라우저를 사용하세요. 앱 내 해지는 지원되지 않습니다."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "브라우저를 사용하세요. 앱 내 해지는 지원되지 않습니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "언제까지 해지할 수 있나요?",
+        "answer": "다음 배송을 피하려면 목요일 자정 전에 해지하세요."
+      },
+      {
+        "question": "개별 주를 건너뛸 수 있나요?",
+        "answer": "네, 해지하지 않고도 주를 건너뛸 수 있습니다."
+      }
+    ]
+  },
+  "everyplate": {
+    "description": "EveryPlate는 HelloFresh가 운영하는 저렴한 밀키트 서비스입니다(1식 $4.99-$6.99). 웹사이트에서 간편하게 해지할 수 있습니다.",
+    "difficulty": "쉬움",
+    "difficultyReason": "명확한 해지 옵션이 있습니다. 토요일 마감일을 확인하세요.",
+    "refundPolicy": "토요일 자정 전에 해지해야 합니다. 주를 건너뛸 수 있습니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "everyplate.com/account에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "구독 취소를 클릭합니다."
+          },
+          {
+            "instruction": "해지를 확인합니다."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "브라우저를 사용하세요. 앱 내 해지는 지원되지 않습니다."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "브라우저를 사용하세요. 앱 내 해지는 지원되지 않습니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "언제까지 해지할 수 있나요?",
+        "answer": "다음 배송을 피하려면 토요일 자정 전에 해지하세요."
+      },
+      {
+        "question": "EveryPlate는 누가 운영하나요?",
+        "answer": "EveryPlate는 HelloFresh 소속입니다."
+      }
+    ]
+  },
+  "sun-basket": {
+    "description": "Sun Basket은 유기농 밀키트 서비스입니다(1식 $10.99-$16.99). 웹사이트에서 해지할 수 있습니다. 일시정지가 강하게 권장됩니다.",
+    "difficulty": "보통",
+    "difficultyReason": "해지 전에 일시정지 옵션이 강하게 권장됩니다. 수요일 마감일을 확인해야 합니다.",
+    "refundPolicy": "수요일 자정 전에 해지해야 합니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "sunbasket.com/account에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "일시정지 제안을 지나 스크롤하여 플랜 취소를 클릭합니다."
+          },
+          {
+            "instruction": "해지를 확인합니다."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "브라우저를 사용하세요. 앱 내 해지는 지원되지 않습니다."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "브라우저를 사용하세요. 앱 내 해지는 지원되지 않습니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "언제까지 해지할 수 있나요?",
+        "answer": "다음 배송을 피하려면 수요일 자정 전에 해지하세요."
+      },
+      {
+        "question": "일시정지 옵션이 제공되나요?",
+        "answer": "네, Sun Basket은 일시정지를 제공하며 해지 전에 강하게 권장됩니다."
+      }
+    ]
+  },
+  "butcherbox": {
+    "description": "ButcherBox는 육류 배송 서비스입니다(1박스 $146-$291). 웹사이트에서 해지할 수 있습니다. 결제일 3일 전에 해지하세요.",
+    "difficulty": "보통",
+    "difficultyReason": "해지 링크를 찾으려면 스크롤이 필요합니다. 3일 전 마감일을 지켜야 합니다.",
+    "refundPolicy": "결제일 3일 전에 해지하세요. 주문을 연기하거나 건너뛸 수 있습니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "butcherbox.com/account/plan에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "아래로 스크롤하여 멤버십 취소를 클릭합니다."
+          },
+          {
+            "instruction": "해지를 확인합니다."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "브라우저를 사용하세요. 앱 내 해지는 지원되지 않습니다."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "브라우저를 사용하세요. 앱 내 해지는 지원되지 않습니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "얼마나 미리 해지해야 하나요?",
+        "answer": "다음 결제일 최소 3일 전에 해지하세요."
+      },
+      {
+        "question": "주문을 건너뛸 수 있나요?",
+        "answer": "네, 주문을 연기하거나 건너뛸 수 있습니다."
+      }
+    ]
+  },
+  "dollar-shave-club": {
+    "description": "Dollar Shave Club은 면도기 및 그루밍 용품 구독 서비스입니다(월 $5-$15). 웹사이트에서 간편하게 해지할 수 있습니다.",
+    "difficulty": "쉬움",
+    "difficultyReason": "멤버십 설정에 명확한 해지 옵션이 있습니다.",
+    "refundPolicy": "미개봉 제품은 30일 이내 반품 가능합니다. 배송을 일시정지하거나 연기할 수 있습니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "dollarshaveclub.com/account에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "멤버십 설정을 클릭합니다."
+          },
+          {
+            "instruction": "멤버십 취소를 클릭합니다."
+          },
+          {
+            "instruction": "해지를 확인합니다."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "브라우저를 사용하세요. 앱 내 해지는 지원되지 않습니다."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "브라우저를 사용하세요. 앱 내 해지는 지원되지 않습니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "해지 대신 일시정지할 수 있나요?",
+        "answer": "네, 배송을 일시정지하거나 연기할 수 있습니다."
+      },
+      {
+        "question": "제품을 반품할 수 있나요?",
+        "answer": "네, 미개봉 제품은 30일 이내에 반품할 수 있습니다."
+      }
+    ]
   }
 }
