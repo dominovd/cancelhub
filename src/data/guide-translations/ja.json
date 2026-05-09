@@ -3803,5 +3803,507 @@
         "answer": "Chewyは優れたカスタマーサービスで知られています。問題がある場合はサポートにお問い合わせください。"
       }
     ]
+  },
+  "noom": {
+    "description": "Noomは体重管理コーチングプログラムです（月59〜209ドル）。解約にはアプリ内チャットまたはweb.noom.com/settingsが必要です。",
+    "difficulty": "難しい",
+    "difficultyReason": "セルフサービスの解約ボタンはありません。引き留めのオファーがあります。FTCへの苦情もある不明確な請求慣行があります。",
+    "refundPolicy": "14日間の試用期間（0.50〜1ドル）。請求を避けるため試用期間中に解約してください。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "web.noom.com/settingsにアクセスしてログインします。"
+          },
+          {
+            "instruction": "サブスクリプションの管理またはキャンセルのオプションを探します。"
+          },
+          {
+            "instruction": "キャンセルボタンが表示されない場合は、アプリ内チャットサポートを使用します。"
+          },
+          {
+            "instruction": "エージェントにサブスクリプションのキャンセルを明示的に依頼します。",
+            "note": "引き留めのオファーが予想されます。決断を貫いてください。"
+          },
+          {
+            "instruction": "メールで確認を待ちます。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Noomアプリを開き、プロフィールアイコンをタップします。"
+          },
+          {
+            "instruction": "設定→チャットサポートに連絡をタップします。"
+          },
+          {
+            "instruction": "サブスクリプションのキャンセルを依頼します。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Noomアプリを開き、プロフィールアイコンをタップします。"
+          },
+          {
+            "instruction": "設定→チャットサポートに連絡をタップします。"
+          },
+          {
+            "instruction": "サブスクリプションのキャンセルを依頼します。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "キャンセルボタンはありますか？",
+        "answer": "いいえ。キャンセルはアプリ内チャットまたはweb.noom.com/settingsから依頼する必要があります。"
+      },
+      {
+        "question": "14日間の試用期間について教えてください。",
+        "answer": "試用期間は0.50〜1ドルです。全額請求を避けるため試用期間中にキャンセルしてください。"
+      }
+    ]
+  },
+  "masterclass": {
+    "description": "MasterClassはオンライン学習プラットフォームです（年間請求で月10ドル）。ウェブから簡単に解約できます。",
+    "difficulty": "簡単",
+    "difficultyReason": "引き留め戦術なしにアカウント設定に明確なキャンセルオプションがあります。",
+    "refundPolicy": "年間プランには30日間の返金保証があります。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "masterclass.comにアクセスしてログインします。"
+          },
+          {
+            "instruction": "アカウント→メンバーシップの管理に移動します。"
+          },
+          {
+            "instruction": "メンバーシップをキャンセルをクリックします。"
+          },
+          {
+            "instruction": "指示に従ってキャンセルを確認します。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhoneの設定→自分の名前→サブスクリプション→MasterClass→キャンセルをタップします。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Playストア→プロフィール→お支払いとサブスクリプション→サブスクリプション→MasterClass→キャンセルをタップします。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "返金はありますか？",
+        "answer": "はい、年間プランには30日間の返金保証があります。"
+      },
+      {
+        "question": "すぐにアクセスを失いますか？",
+        "answer": "いいえ、請求期間終了までアクセスは継続します。"
+      }
+    ]
+  },
+  "skillshare": {
+    "description": "Skillshareはクリエイティブ学習プラットフォームです（月14ドル）。ウェブまたはデバイス設定から簡単に解約できます。",
+    "difficulty": "簡単",
+    "difficultyReason": "アカウント設定に明確なキャンセルオプションがあります。",
+    "refundPolicy": "年間プランには7日間の返金期間があります。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "skillshare.com/account/membershipにアクセスしてログインします。"
+          },
+          {
+            "instruction": "メンバーシップをキャンセルをクリックします。"
+          },
+          {
+            "instruction": "一時停止が提案される場合があります。キャンセルを希望する場合は断ります。"
+          },
+          {
+            "instruction": "キャンセルを確認します。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhoneの設定→自分の名前→サブスクリプション→Skillshare→キャンセルをタップします。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Playストア→プロフィール→お支払いとサブスクリプション→サブスクリプション→Skillshare→キャンセルをタップします。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "キャンセルの代わりに一時停止できますか？",
+        "answer": "はい、Skillshareはキャンセルプロセス中に一時停止オプションを提供します。"
+      },
+      {
+        "question": "返金は可能ですか？",
+        "answer": "年間プランは更新後7日間の返金期間があります。"
+      }
+    ]
+  },
+  "chegg": {
+    "description": "Chegg Studyは宿題サポートサービスです（月14.95〜19.95ドル）。ウェブまたはモバイルブラウザから解約できます。",
+    "difficulty": "普通",
+    "difficultyReason": "ウェブからキャンセル可能ですが、一時停止機能がなく複数のステップが必要です。",
+    "refundPolicy": "自動返金はありません。キャンセル確認メールを確認してください。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "chegg.com/accountにアクセスしてログインします。"
+          },
+          {
+            "instruction": "サブスクリプションをクリックします。"
+          },
+          {
+            "instruction": "サブスクリプションをキャンセルをクリックして指示に従います。"
+          },
+          {
+            "instruction": "キャンセル確認のメールを確認します。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "ChiggのサブスクリプションはApp Storeで管理されていません。"
+          },
+          {
+            "instruction": "ブラウザを開いてchegg.com/accountにアクセスしてキャンセルします。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "ChiggのサブスクリプションはGoogle Playで管理されていません。"
+          },
+          {
+            "instruction": "ブラウザを開いてchegg.com/accountにアクセスしてキャンセルします。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Cheggを一時停止できますか？",
+        "answer": "いいえ、Cheggは一時停止機能を提供していません。"
+      },
+      {
+        "question": "キャンセルを確認するにはどうすればよいですか？",
+        "answer": "確認メールが届きます。スパムフォルダも確認してください。"
+      }
+    ]
+  },
+  "scribd": {
+    "description": "Scribdは電子書籍とオーディオブックのサブスクリプションサービスです（月11.99ドル）。アカウント設定から簡単に解約できます。",
+    "difficulty": "簡単",
+    "difficultyReason": "支払い設定に明確なキャンセルオプションがあります。",
+    "refundPolicy": "電子書籍とオーディオブックへのアクセスは請求期間終了時に終わります。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "scribd.com/account-settings/paymentsにアクセスしてログインします。"
+          },
+          {
+            "instruction": "サブスクリプションをキャンセルをクリックします。"
+          },
+          {
+            "instruction": "キャンセルを確認します。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhoneの設定→自分の名前→サブスクリプション→Scribd→キャンセルをタップします。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Playストア→プロフィール→お支払いとサブスクリプション→サブスクリプション→Scribd→キャンセルをタップします。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "サブスクリプションを一時停止できますか？",
+        "answer": "はい、Scribdは2ヶ月間の一時停止オプションを提供しています。"
+      },
+      {
+        "question": "キャンセル後すぐにアクセスを失いますか？",
+        "answer": "アクセスは現在の請求期間終了時に終わります。"
+      }
+    ]
+  },
+  "adt": {
+    "description": "ADTセキュリティ監視（月28.99〜59.99ドル）は電話のみで解約できます。通常36ヶ月契約です。",
+    "difficulty": "難しい",
+    "difficultyReason": "電話のみでのキャンセルです。早期解約手数料が高額です。",
+    "refundPolicy": "早期解約の場合、残契約残高の75%が手数料として発生します。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "オンラインでのキャンセルはできません。電話チャンネルをご利用ください。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "ADTアプリではキャンセルできません。1-800-238-2727にお電話ください。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "ADTアプリではキャンセルできません。1-800-238-2727にお電話ください。"
+          }
+        ]
+      },
+      "phone": {
+        "steps": [
+          {
+            "instruction": "1-800-238-2727に電話します。"
+          },
+          {
+            "instruction": "サービスのキャンセルを依頼します。"
+          },
+          {
+            "instruction": "早期解約手数料について確認します。",
+            "note": "残契約残高の75%が手数料となります。"
+          },
+          {
+            "instruction": "代替案：キャンセルの代わりに引越し時にサービスを転送する。"
+          },
+          {
+            "instruction": "キャンセルの書面による確認を依頼します。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "ADTをオンラインでキャンセルできますか？",
+        "answer": "いいえ。1-800-238-2727への電話のみでキャンセル可能です。"
+      },
+      {
+        "question": "早期解約の費用はいくらですか？",
+        "answer": "残契約残高の75%が請求されます。"
+      }
+    ]
+  },
+  "curology": {
+    "description": "Curologyはカスタマイズスキンケアサービスです（月29.95〜39.95ドル）。アカウント設定またはチャットサポートで解約できます。",
+    "difficulty": "普通",
+    "difficultyReason": "処理日の48時間前までにキャンセルが必要です。チャットサポートが必要な場合があります。",
+    "refundPolicy": "最大3ヶ月間の一時停止が可能です。自動返金はありません。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "curology.com/accountにアクセスしてログインします。"
+          },
+          {
+            "instruction": "サブスクリプションをキャンセルのオプションを探します。"
+          },
+          {
+            "instruction": "ボタンがない場合は、チャットサポートを使用します。"
+          },
+          {
+            "instruction": "次の処理日の少なくとも48時間前にキャンセルします。",
+            "note": "不要な請求を防ぎます。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "アプリではキャンセルできないため、ブラウザでcurology.com/accountを開きます。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "アプリではキャンセルできないため、ブラウザでcurology.com/accountを開きます。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "キャンセルの代わりに一時停止できますか？",
+        "answer": "はい、Curologyは最大3ヶ月間の一時停止を許可しています。"
+      },
+      {
+        "question": "どれくらい前にキャンセルすべきですか？",
+        "answer": "次の処理日の少なくとも48時間前です。"
+      }
+    ]
+  },
+  "starz": {
+    "description": "Starzはプレミアムストリーミングサービスです（月9.99ドル）。直接加入者はウェブからキャンセル、それ以外はプラットフォームから行います。",
+    "difficulty": "簡単",
+    "difficultyReason": "直接加入者向けの明確なキャンセルオプションがあります。プラットフォーム加入者はそのプラットフォームからキャンセルします。",
+    "refundPolicy": "日割り返金なし。請求期間終了までアクセスは継続します。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "starz.com/account/subscriptionにアクセスしてログインします。"
+          },
+          {
+            "instruction": "キャンセルをクリックします（直接加入者のみ）。"
+          },
+          {
+            "instruction": "キャンセルを確認します。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhoneの設定→自分の名前→サブスクリプション→Starz→キャンセルをタップします。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Playストア→プロフィール→お支払いとサブスクリプション→サブスクリプション→Starz→キャンセルをタップします。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Amazon/Apple/Rokuで加入しました。どこでキャンセルしますか？",
+        "answer": "加入したプラットフォームからキャンセルします。starz.comからではありません。"
+      },
+      {
+        "question": "いつアクセスが終了しますか？",
+        "answer": "現在の請求期間終了時です。"
+      }
+    ]
+  },
+  "shudder": {
+    "description": "Shudderはホラーストリーミングサービスです（月5.99ドル）。ウェブまたはデバイス設定から簡単に解約できます。",
+    "difficulty": "簡単",
+    "difficultyReason": "アカウント設定に明確なキャンセルオプションがあります。",
+    "refundPolicy": "キャンセル後もウォッチリストは保存されます。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "shudder.com/accountにアクセスしてログインします。"
+          },
+          {
+            "instruction": "メンバーシップをキャンセルをクリックします。"
+          },
+          {
+            "instruction": "キャンセルを確認します。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhoneの設定→自分の名前→サブスクリプション→Shudder→キャンセルをタップします。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Playストア→プロフィール→お支払いとサブスクリプション→サブスクリプション→Shudder→キャンセルをタップします。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Amazonで加入しました。どこでキャンセルしますか？",
+        "answer": "Amazon Prime Video Channelsからキャンセルします。shudder.comからではありません。"
+      },
+      {
+        "question": "ウォッチリストは保存されますか？",
+        "answer": "はい、キャンセル後もウォッチリストは保存されます。"
+      }
+    ]
+  },
+  "discovery-plus": {
+    "description": "Discovery+はノンフィクションストリーミングサービスです（月4.99〜8.99ドル）。ウェブまたはデバイス設定から簡単に解約できます。",
+    "difficulty": "簡単",
+    "difficultyReason": "直接加入者向けの明確なキャンセルオプションがあります。",
+    "refundPolicy": "日割り返金なし。請求期間終了まで継続します。Max/HBOコンテンツは含まれません。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "discoveryplus.com/accountにアクセスしてログインします。"
+          },
+          {
+            "instruction": "サブスクリプションをキャンセルをクリックします。"
+          },
+          {
+            "instruction": "キャンセルを確認します。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhoneの設定→自分の名前→サブスクリプション→Discovery+→キャンセルをタップします。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Playストア→プロフィール→お支払いとサブスクリプション→サブスクリプション→Discovery+→キャンセルをタップします。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Amazonで加入しました。どこでキャンセルしますか？",
+        "answer": "Amazon Prime Video Channelsからキャンセルします。discoveryplus.comからではありません。"
+      },
+      {
+        "question": "Discovery+にはHBOコンテンツが含まれますか？",
+        "answer": "いいえ。Discovery+にはMax/HBOコンテンツが含まれていません。"
+      }
+    ]
   }
 }

@@ -3902,5 +3902,507 @@
         "answer": "O Chewy e conhecido pelo seu excelente servico ao cliente. Contacta o suporte para qualquer problema."
       }
     ]
+  },
+  "noom": {
+    "description": "O Noom é um programa de coaching de perda de peso (59-209 $/mês). O cancelamento requer o chat no aplicativo ou web.noom.com/settings.",
+    "difficulty": "Difícil",
+    "difficultyReason": "Sem botão de cancelamento de autoatendimento. Ofertas de retenção são feitas. Reclamações à FTC sobre práticas de cobrança enganosas.",
+    "refundPolicy": "Período de teste de 14 dias por 0,50-1 $. Cancele durante o teste para evitar cobranças.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse web.noom.com/settings e faça login."
+          },
+          {
+            "instruction": "Procure a opção de gerenciamento ou cancelamento da assinatura."
+          },
+          {
+            "instruction": "Se não houver botão de cancelamento, use o chat de suporte no aplicativo."
+          },
+          {
+            "instruction": "Peça expressamente ao agente para cancelar sua assinatura.",
+            "note": "Espere ofertas de retenção. Mantenha sua decisão."
+          },
+          {
+            "instruction": "Aguarde a confirmação por e-mail."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abra o aplicativo Noom e toque no ícone de perfil."
+          },
+          {
+            "instruction": "Toque em Configurações e entre em contato com o suporte via chat."
+          },
+          {
+            "instruction": "Solicite o cancelamento da sua assinatura."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abra o aplicativo Noom e toque no ícone de perfil."
+          },
+          {
+            "instruction": "Toque em Configurações e entre em contato com o suporte via chat."
+          },
+          {
+            "instruction": "Solicite o cancelamento da sua assinatura."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Há um botão de cancelamento?",
+        "answer": "Não. O cancelamento deve ser solicitado pelo chat no aplicativo ou por web.noom.com/settings."
+      },
+      {
+        "question": "E o período de teste de 14 dias?",
+        "answer": "Custa 0,50-1 $. Cancele durante o teste para evitar a cobrança completa."
+      }
+    ]
+  },
+  "masterclass": {
+    "description": "O MasterClass é uma plataforma de aprendizado online (10 $/mês cobrado anualmente). O cancelamento é simples pelo site.",
+    "difficulty": "Fácil",
+    "difficultyReason": "Opção de cancelamento clara nas configurações da conta sem táticas de retenção.",
+    "refundPolicy": "Garantia de devolução de 30 dias nos planos anuais.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse masterclass.com e faça login."
+          },
+          {
+            "instruction": "Navegue até Conta e depois Gerenciar assinatura."
+          },
+          {
+            "instruction": "Clique em Cancelar assinatura."
+          },
+          {
+            "instruction": "Siga as instruções e confirme o cancelamento."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Configurações do iPhone, seu nome, Assinaturas, MasterClass, Cancelar assinatura."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Perfil, Pagamentos e assinaturas, Assinaturas, MasterClass, Cancelar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Receberei reembolso?",
+        "answer": "Sim, planos anuais têm garantia de devolução de 30 dias."
+      },
+      {
+        "question": "Perderei o acesso imediatamente?",
+        "answer": "Não, o acesso continua até o fim do período de faturamento."
+      }
+    ]
+  },
+  "skillshare": {
+    "description": "O Skillshare é uma plataforma de aprendizado criativo (14 $/mês). O cancelamento é simples pelo site ou configurações do dispositivo.",
+    "difficulty": "Fácil",
+    "difficultyReason": "Opção de cancelamento clara nas configurações da conta.",
+    "refundPolicy": "Janela de reembolso de 7 dias para planos anuais.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse skillshare.com/account/membership e faça login."
+          },
+          {
+            "instruction": "Clique em Cancelar assinatura."
+          },
+          {
+            "instruction": "Pode ser oferecida uma pausa. Recuse se quiser cancelar."
+          },
+          {
+            "instruction": "Confirme o cancelamento."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Configurações do iPhone, seu nome, Assinaturas, Skillshare, Cancelar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Perfil, Pagamentos e assinaturas, Assinaturas, Skillshare, Cancelar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Posso pausar em vez de cancelar?",
+        "answer": "Sim, o Skillshare oferece pausa durante o processo de cancelamento."
+      },
+      {
+        "question": "Há possibilidade de reembolso?",
+        "answer": "Planos anuais têm janela de reembolso de 7 dias após a renovação."
+      }
+    ]
+  },
+  "chegg": {
+    "description": "O Chegg Study é um serviço de ajuda nos estudos (14,95-19,95 $/mês). O cancelamento é possível pelo site ou navegador mobile.",
+    "difficulty": "Médio",
+    "difficultyReason": "Cancelamento possível na web, mas sem pausa e com vários passos necessários.",
+    "refundPolicy": "Sem reembolsos automáticos. Verifique o e-mail de confirmação do cancelamento.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse chegg.com/account e faça login."
+          },
+          {
+            "instruction": "Clique em Assinaturas."
+          },
+          {
+            "instruction": "Clique em Cancelar assinatura e siga as instruções."
+          },
+          {
+            "instruction": "Verifique seu e-mail para a confirmação do cancelamento."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Assinaturas do Chegg não são gerenciadas pela App Store."
+          },
+          {
+            "instruction": "Abra o navegador e acesse chegg.com/account para cancelar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Assinaturas do Chegg não são gerenciadas pelo Google Play."
+          },
+          {
+            "instruction": "Abra o navegador e acesse chegg.com/account para cancelar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Posso pausar o Chegg?",
+        "answer": "Não, o Chegg não oferece opção de pausa."
+      },
+      {
+        "question": "Como confirmo o cancelamento?",
+        "answer": "Você receberá confirmação por e-mail. Verifique também a pasta de spam."
+      }
+    ]
+  },
+  "scribd": {
+    "description": "O Scribd é um serviço de assinatura de livros e audiolivros (11,99 $/mês). O cancelamento é simples nas configurações da conta.",
+    "difficulty": "Fácil",
+    "difficultyReason": "Opção de cancelamento clara nas configurações de pagamento.",
+    "refundPolicy": "O acesso a livros e audiolivros termina ao final do período de faturamento.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse scribd.com/account-settings/payments e faça login."
+          },
+          {
+            "instruction": "Clique em Cancelar assinatura."
+          },
+          {
+            "instruction": "Confirme o cancelamento."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Configurações do iPhone, seu nome, Assinaturas, Scribd, Cancelar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Perfil, Pagamentos e assinaturas, Assinaturas, Scribd, Cancelar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Posso pausar a assinatura?",
+        "answer": "Sim, o Scribd oferece opção de pausa de 2 meses."
+      },
+      {
+        "question": "Perderei o acesso imediatamente após cancelar?",
+        "answer": "O acesso termina ao final do período de faturamento atual."
+      }
+    ]
+  },
+  "adt": {
+    "description": "O monitoramento de segurança ADT (28,99-59,99 $/mês) só pode ser cancelado por telefone. Contrato típico de 36 meses.",
+    "difficulty": "Difícil",
+    "difficultyReason": "Cancelamento apenas por telefone. Alta taxa por rescisão antecipada.",
+    "refundPolicy": "Rescisão antecipada resulta em taxa de 75% do saldo restante do contrato.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Cancelamento online não disponível. Use o canal telefônico."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "O aplicativo ADT não permite cancelar. Ligue para 1-800-238-2727."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "O aplicativo ADT não permite cancelar. Ligue para 1-800-238-2727."
+          }
+        ]
+      },
+      "phone": {
+        "steps": [
+          {
+            "instruction": "Ligue para 1-800-238-2727."
+          },
+          {
+            "instruction": "Solicite o cancelamento do serviço."
+          },
+          {
+            "instruction": "Pergunte sobre as taxas de rescisão antecipada.",
+            "note": "75% do saldo restante do contrato são cobrados."
+          },
+          {
+            "instruction": "Alternativa: transferir o serviço em caso de mudança em vez de cancelar."
+          },
+          {
+            "instruction": "Solicite confirmação por escrito do cancelamento."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Posso cancelar o ADT online?",
+        "answer": "Não. Somente por telefone no 1-800-238-2727."
+      },
+      {
+        "question": "Quanto custa o cancelamento antecipado?",
+        "answer": "75% do saldo restante do contrato são cobrados."
+      }
+    ]
+  },
+  "curology": {
+    "description": "O Curology é um serviço personalizado de cuidados com a pele (29,95-39,95 $/mês). Cancelamento pelas configurações da conta ou suporte por chat.",
+    "difficulty": "Médio",
+    "difficultyReason": "O cancelamento deve ocorrer 48 horas antes da data de processamento. O suporte por chat pode ser necessário.",
+    "refundPolicy": "Pausa possível por até 3 meses. Sem reembolsos automáticos.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse curology.com/account e faça login."
+          },
+          {
+            "instruction": "Procure a opção Cancelar assinatura."
+          },
+          {
+            "instruction": "Se não houver botão, use o suporte por chat."
+          },
+          {
+            "instruction": "Cancele pelo menos 48 horas antes da próxima data de processamento.",
+            "note": "Evita cobranças indesejadas."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Abra curology.com/account no navegador, pois o aplicativo não permite cancelamento."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Abra curology.com/account no navegador, pois o aplicativo não permite cancelamento."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Posso pausar em vez de cancelar?",
+        "answer": "Sim, o Curology permite pausa por até 3 meses."
+      },
+      {
+        "question": "Com quanto de antecedência devo cancelar?",
+        "answer": "Pelo menos 48 horas antes da próxima data de processamento."
+      }
+    ]
+  },
+  "starz": {
+    "description": "O Starz é um serviço de streaming premium (9,99 $/mês). Assinantes diretos cancelam pelo site; os demais pela plataforma utilizada.",
+    "difficulty": "Fácil",
+    "difficultyReason": "Opção de cancelamento clara para assinantes diretos. Assinantes de plataforma cancelam por lá.",
+    "refundPolicy": "Sem acesso proporcional; o acesso continua até o fim do período de faturamento.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse starz.com/account/subscription e faça login."
+          },
+          {
+            "instruction": "Clique em Cancelar (somente assinantes diretos)."
+          },
+          {
+            "instruction": "Confirme o cancelamento."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Configurações do iPhone, seu nome, Assinaturas, Starz, Cancelar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Perfil, Pagamentos e assinaturas, Assinaturas, Starz, Cancelar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Assinei via Amazon/Apple/Roku. Onde cancelo?",
+        "answer": "Cancele pela plataforma pela qual assinou, não pelo starz.com."
+      },
+      {
+        "question": "Quando meu acesso termina?",
+        "answer": "Ao final do período de faturamento atual."
+      }
+    ]
+  },
+  "shudder": {
+    "description": "O Shudder é um serviço de streaming de terror (5,99 $/mês). Cancelamento simples pelo site ou configurações do dispositivo.",
+    "difficulty": "Fácil",
+    "difficultyReason": "Opção de cancelamento clara nas configurações da conta.",
+    "refundPolicy": "Sua lista de favoritos é preservada após o cancelamento.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse shudder.com/account e faça login."
+          },
+          {
+            "instruction": "Clique em Cancelar assinatura."
+          },
+          {
+            "instruction": "Confirme o cancelamento."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Configurações do iPhone, seu nome, Assinaturas, Shudder, Cancelar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Perfil, Pagamentos e assinaturas, Assinaturas, Shudder, Cancelar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Assinei via Amazon. Onde cancelo?",
+        "answer": "Cancele pelo Amazon Prime Video Channels, não pelo shudder.com."
+      },
+      {
+        "question": "Minha lista de favoritos é salva?",
+        "answer": "Sim, a lista de favoritos é preservada após o cancelamento."
+      }
+    ]
+  },
+  "discovery-plus": {
+    "description": "O Discovery+ é um serviço de streaming de não ficção (4,99-8,99 $/mês). Cancelamento simples pelo site ou configurações do dispositivo.",
+    "difficulty": "Fácil",
+    "difficultyReason": "Opção de cancelamento clara para assinantes diretos.",
+    "refundPolicy": "Sem acesso proporcional; continua até o fim do período de faturamento. Não inclui conteúdo Max/HBO.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Acesse discoveryplus.com/account e faça login."
+          },
+          {
+            "instruction": "Clique em Cancelar assinatura."
+          },
+          {
+            "instruction": "Confirme o cancelamento."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Configurações do iPhone, seu nome, Assinaturas, Discovery+, Cancelar."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Perfil, Pagamentos e assinaturas, Assinaturas, Discovery+, Cancelar."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Assinei via Amazon. Onde cancelo?",
+        "answer": "Cancele pelo Amazon Prime Video Channels, não pelo discoveryplus.com."
+      },
+      {
+        "question": "O Discovery+ inclui conteúdo da HBO?",
+        "answer": "Não. O Discovery+ não inclui conteúdo Max/HBO."
+      }
+    ]
   }
 }

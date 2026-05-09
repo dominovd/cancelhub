@@ -3853,5 +3853,507 @@
         "answer": "Chewy aer kaent foer sin utmaerkta kundservice. Kontakta support vid problem."
       }
     ]
+  },
+  "noom": {
+    "description": "Noom är ett coachningsprogram för viktminskning (59-209 dollar/månad). Avbokning kräver in-app-chatt eller web.noom.com/settings.",
+    "difficulty": "Svårt",
+    "difficultyReason": "Ingen självbetjäningsknapp för avbokning. Kvarhållningserbjudanden görs. FTC-klagomål om oklara faktureringspraxis.",
+    "refundPolicy": "14-dagars provperiod för 0,50-1 dollar. Avboka under provperioden för att undvika avgifter.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gå till web.noom.com/settings och logga in."
+          },
+          {
+            "instruction": "Hitta alternativet för prenumerationshantering eller avbokning."
+          },
+          {
+            "instruction": "Om det inte finns någon avbokningsknapp, använd in-app-chattsupporten."
+          },
+          {
+            "instruction": "Be agenten uttryckligen att avboka din prenumeration.",
+            "note": "Förvänta dig kvarhållningserbjudanden. Håll fast vid ditt beslut."
+          },
+          {
+            "instruction": "Vänta på bekräftelse via e-post."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Öppna Noom-appen och tryck på profilikonen."
+          },
+          {
+            "instruction": "Tryck på Inställningar och kontakta chattsupport."
+          },
+          {
+            "instruction": "Begär avbokning av din prenumeration."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Öppna Noom-appen och tryck på profilikonen."
+          },
+          {
+            "instruction": "Tryck på Inställningar och kontakta chattsupport."
+          },
+          {
+            "instruction": "Begär avbokning av din prenumeration."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Finns det en avbokningsknapp?",
+        "answer": "Nej. Avbokning måste begäras via in-app-chatt eller web.noom.com/settings."
+      },
+      {
+        "question": "Vad gäller för 14-dagars provperioden?",
+        "answer": "Kostar 0,50-1 dollar. Avboka under provperioden för att undvika full prenumerationsavgift."
+      }
+    ]
+  },
+  "masterclass": {
+    "description": "MasterClass är en plattform för onlinelärande (10 dollar/månad, faktureras årligen). Avbokning är enkel via webbplatsen.",
+    "difficulty": "Enkelt",
+    "difficultyReason": "Tydligt avbokningsalternativ i kontoinställningarna utan kvarhållningstaktik.",
+    "refundPolicy": "30 dagars pengarna-tillbaka-garanti på årsplaner.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gå till masterclass.com och logga in."
+          },
+          {
+            "instruction": "Navigera till Konto och sedan Hantera medlemskap."
+          },
+          {
+            "instruction": "Klicka på Avboka medlemskap."
+          },
+          {
+            "instruction": "Följ instruktionerna och bekräfta avbokningen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone-inställningar, ditt namn, Prenumerationer, MasterClass, Avboka prenumeration."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Butik, Profil, Betalningar och prenumerationer, Prenumerationer, MasterClass, Avboka."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Får jag en återbetalning?",
+        "answer": "Ja, årsplaner har 30 dagars pengarna-tillbaka-garanti."
+      },
+      {
+        "question": "Förlorar jag åtkomsten direkt?",
+        "answer": "Nej, åtkomsten fortsätter till slutet av faktureringsperioden."
+      }
+    ]
+  },
+  "skillshare": {
+    "description": "Skillshare är en kreativ lärplattform (14 dollar/månad). Avbokning är enkel via webbplatsen eller enhetsinställningar.",
+    "difficulty": "Enkelt",
+    "difficultyReason": "Tydligt avbokningsalternativ i kontoinställningarna.",
+    "refundPolicy": "7 dagars återbetalningsfönster för årsplaner.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gå till skillshare.com/account/membership och logga in."
+          },
+          {
+            "instruction": "Klicka på Avboka medlemskap."
+          },
+          {
+            "instruction": "Ett pauserbjudande kan ges. Avvisa om du vill avboka."
+          },
+          {
+            "instruction": "Bekräfta avbokningen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone-inställningar, ditt namn, Prenumerationer, Skillshare, Avboka."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Butik, Profil, Betalningar och prenumerationer, Prenumerationer, Skillshare, Avboka."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kan jag pausa istället för att avboka?",
+        "answer": "Ja, Skillshare erbjuder pausfunktion under avbokningsprocessen."
+      },
+      {
+        "question": "Är återbetalning möjlig?",
+        "answer": "Årsplaner har ett återbetalningsfönster på 7 dagar efter förnyelse."
+      }
+    ]
+  },
+  "chegg": {
+    "description": "Chegg Study är en läxhjälpstjänst (14,95-19,95 dollar/månad). Avbokning möjlig via webbplatsen eller mobil webbläsare.",
+    "difficulty": "Medel",
+    "difficultyReason": "Avbokning möjlig via webben men utan pausfunktion och kräver flera steg.",
+    "refundPolicy": "Inga automatiska återbetalningar. Kontrollera bekräftelsemail för avbokning.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gå till chegg.com/account och logga in."
+          },
+          {
+            "instruction": "Klicka på Prenumerationer."
+          },
+          {
+            "instruction": "Klicka på Avboka prenumeration och följ instruktionerna."
+          },
+          {
+            "instruction": "Kontrollera din e-post för avbokningsbekräftelse."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Chegg-prenumerationer hanteras inte via App Store."
+          },
+          {
+            "instruction": "Öppna webbläsaren och gå till chegg.com/account för att avboka."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Chegg-prenumerationer hanteras inte via Google Play."
+          },
+          {
+            "instruction": "Öppna webbläsaren och gå till chegg.com/account för att avboka."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kan jag pausa Chegg?",
+        "answer": "Nej, Chegg erbjuder ingen pausfunktion."
+      },
+      {
+        "question": "Hur bekräftar jag avbokningen?",
+        "answer": "Du får ett bekräftelsemail. Kontrollera även skräppostmappen."
+      }
+    ]
+  },
+  "scribd": {
+    "description": "Scribd är en prenumerationstjänst för böcker och ljudböcker (11,99 dollar/månad). Avbokning är enkel i kontoinställningarna.",
+    "difficulty": "Enkelt",
+    "difficultyReason": "Tydligt avbokningsalternativ i betalningsinställningarna.",
+    "refundPolicy": "Åtkomst till böcker och ljudböcker upphör vid faktureringsperiodens slut.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gå till scribd.com/account-settings/payments och logga in."
+          },
+          {
+            "instruction": "Klicka på Avboka prenumeration."
+          },
+          {
+            "instruction": "Bekräfta avbokningen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone-inställningar, ditt namn, Prenumerationer, Scribd, Avboka."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Butik, Profil, Betalningar och prenumerationer, Prenumerationer, Scribd, Avboka."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kan jag pausa prenumerationen?",
+        "answer": "Ja, Scribd erbjuder ett pausalternativ på 2 månader."
+      },
+      {
+        "question": "Förlorar jag åtkomsten direkt efter avbokning?",
+        "answer": "Åtkomsten upphör vid slutet av den aktuella faktureringsperioden."
+      }
+    ]
+  },
+  "adt": {
+    "description": "ADT säkerhetsövervakning (28,99-59,99 dollar/månad) kan bara avbokas via telefon. Typiskt 36-månaders avtal.",
+    "difficulty": "Svårt",
+    "difficultyReason": "Avbokning enbart via telefon. Hög avgift vid förtida uppsägning.",
+    "refundPolicy": "Förtida uppsägning innebär en avgift på 75% av återstående kontraktssaldo.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Onlineavbokning är inte tillgänglig. Använd telefonkanalen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "ADT-appen kan inte avboka. Ring 1-800-238-2727."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "ADT-appen kan inte avboka. Ring 1-800-238-2727."
+          }
+        ]
+      },
+      "phone": {
+        "steps": [
+          {
+            "instruction": "Ring 1-800-238-2727."
+          },
+          {
+            "instruction": "Begär avbokning av din tjänst."
+          },
+          {
+            "instruction": "Fråga om avgifter för förtida uppsägning.",
+            "note": "75% av återstående kontraktssaldo debiteras."
+          },
+          {
+            "instruction": "Alternativ: Överför tjänsten vid flytt istället för att avboka."
+          },
+          {
+            "instruction": "Begär skriftlig bekräftelse på avbokningen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kan jag avboka ADT online?",
+        "answer": "Nej. Endast via telefon på 1-800-238-2727."
+      },
+      {
+        "question": "Vad kostar förtida uppsägning?",
+        "answer": "75% av återstående kontraktssaldo debiteras."
+      }
+    ]
+  },
+  "curology": {
+    "description": "Curology är en personlig hudvårdstjänst (29,95-39,95 dollar/månad). Avbokning via kontoinställningar eller chattsupport.",
+    "difficulty": "Medel",
+    "difficultyReason": "Avbokning måste ske 48 timmar före behandlingsdatum. Chattsupport kan behövas.",
+    "refundPolicy": "Paus möjlig i upp till 3 månader. Inga automatiska återbetalningar.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gå till curology.com/account och logga in."
+          },
+          {
+            "instruction": "Hitta alternativet Avboka prenumeration."
+          },
+          {
+            "instruction": "Om det inte finns någon knapp, använd chattsupport."
+          },
+          {
+            "instruction": "Avboka minst 48 timmar före nästa behandlingsdatum.",
+            "note": "Förhindrar oönskade debiteringar."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Öppna curology.com/account i webbläsaren eftersom appen inte tillåter avbokning."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Öppna curology.com/account i webbläsaren eftersom appen inte tillåter avbokning."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kan jag pausa istället för att avboka?",
+        "answer": "Ja, Curology tillåter paus i upp till 3 månader."
+      },
+      {
+        "question": "Hur långt i förväg måste jag avboka?",
+        "answer": "Minst 48 timmar före nästa behandlingsdatum."
+      }
+    ]
+  },
+  "starz": {
+    "description": "Starz är en premium-streamingtjänst (9,99 dollar/månad). Direktprenumeranter avbokar via webbplatsen; andra via sin plattform.",
+    "difficulty": "Enkelt",
+    "difficultyReason": "Tydligt avbokningsalternativ för direktprenumeranter. Plattformsprenumeranter avbokar via sin plattform.",
+    "refundPolicy": "Ingen proportionell åtkomst; fortsätter till slutet av faktureringsperioden.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gå till starz.com/account/subscription och logga in."
+          },
+          {
+            "instruction": "Klicka på Avboka (endast för direktprenumeranter)."
+          },
+          {
+            "instruction": "Bekräfta avbokningen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone-inställningar, ditt namn, Prenumerationer, Starz, Avboka."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Butik, Profil, Betalningar och prenumerationer, Prenumerationer, Starz, Avboka."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Jag prenumererar via Amazon/Apple/Roku. Var avbokar jag?",
+        "answer": "Via den plattform du prenumererade via, inte via starz.com."
+      },
+      {
+        "question": "När upphör min åtkomst?",
+        "answer": "Vid slutet av den aktuella faktureringsperioden."
+      }
+    ]
+  },
+  "shudder": {
+    "description": "Shudder är en skräck-streamingtjänst (5,99 dollar/månad). Avbokning är enkel via webbplatsen eller enhetsinställningar.",
+    "difficulty": "Enkelt",
+    "difficultyReason": "Tydligt avbokningsalternativ i kontoinställningarna.",
+    "refundPolicy": "Din bevakningslista bevaras efter avbokning.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gå till shudder.com/account och logga in."
+          },
+          {
+            "instruction": "Klicka på Avboka medlemskap."
+          },
+          {
+            "instruction": "Bekräfta avbokningen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone-inställningar, ditt namn, Prenumerationer, Shudder, Avboka."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Butik, Profil, Betalningar och prenumerationer, Prenumerationer, Shudder, Avboka."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Jag prenumererar via Amazon. Var avbokar jag?",
+        "answer": "Via Amazon Prime Video Channels, inte via shudder.com."
+      },
+      {
+        "question": "Sparas min bevakningslista?",
+        "answer": "Ja, bevakningslistan bevaras efter avbokning."
+      }
+    ]
+  },
+  "discovery-plus": {
+    "description": "Discovery+ är en non-fiction streamingtjänst (4,99-8,99 dollar/månad). Avbokning är enkel via webbplatsen eller enhetsinställningar.",
+    "difficulty": "Enkelt",
+    "difficultyReason": "Tydligt avbokningsalternativ för direktprenumeranter.",
+    "refundPolicy": "Ingen proportionell åtkomst; fortsätter till slutet av faktureringsperioden. Innehåller inte Max/HBO-innehåll.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gå till discoveryplus.com/account och logga in."
+          },
+          {
+            "instruction": "Klicka på Avboka prenumeration."
+          },
+          {
+            "instruction": "Bekräfta avbokningen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone-inställningar, ditt namn, Prenumerationer, Discovery+, Avboka."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Butik, Profil, Betalningar och prenumerationer, Prenumerationer, Discovery+, Avboka."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Jag prenumererar via Amazon. Var avbokar jag?",
+        "answer": "Via Amazon Prime Video Channels, inte via discoveryplus.com."
+      },
+      {
+        "question": "Innehåller Discovery+ HBO-innehåll?",
+        "answer": "Nej. Discovery+ innehåller inget Max/HBO-innehåll."
+      }
+    ]
   }
 }

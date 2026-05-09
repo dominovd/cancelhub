@@ -3853,5 +3853,507 @@
         "answer": "Chewy mukemmel musteri hizmetiyle bilinir. Sorun yasarsaniz destek ile iletisime gecin."
       }
     ]
+  },
+  "noom": {
+    "description": "Noom, kilo verme koçluk programidir (ayda 59-209 dolar). Iptal etmek icin uygulama ici sohbet veya web.noom.com/settings gereklidir.",
+    "difficulty": "Zor",
+    "difficultyReason": "Self-servis iptal dugmesi yok. Elde tutma teklifleri yapiliyor. Belirsiz faturalandirma uygulamalari nedeniyle FTC sikayetleri var.",
+    "refundPolicy": "0,50-1 dolar karsiliginda 14 gunluk deneme suresi. Ucretleri onlemek icin deneme suresi icerisinde iptal edin.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "web.noom.com/settings adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "Abonelik yonetimi veya iptal secenegini arayin."
+          },
+          {
+            "instruction": "Iptal dugmesi yoksa uygulama ici sohbet destegini kullanin."
+          },
+          {
+            "instruction": "Temsilciden aboneliginizi iptal etmesini acikca isteyin.",
+            "note": "Elde tutma teklifleri beklenir. Kararinizda kararli olun."
+          },
+          {
+            "instruction": "E-posta ile onay bekleyin."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Noom uygulamasini acin ve profil simgesine dokunun."
+          },
+          {
+            "instruction": "Ayarlar'a dokunun ve sohbet destegiyle iletisime gecin."
+          },
+          {
+            "instruction": "Aboneliginizin iptalini isteyin."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Noom uygulamasini acin ve profil simgesine dokunun."
+          },
+          {
+            "instruction": "Ayarlar'a dokunun ve sohbet destegiyle iletisime gecin."
+          },
+          {
+            "instruction": "Aboneliginizin iptalini isteyin."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Iptal dugmesi var mi?",
+        "answer": "Hayir. Iptal, uygulama ici sohbet veya web.noom.com/settings araciligiyla talep edilmelidir."
+      },
+      {
+        "question": "14 gunluk deneme suresi hakkinda ne bilmeliyim?",
+        "answer": "0,50-1 dolara mal olur. Tam abonelik ucretinden kacmak icin deneme suresi icerisinde iptal edin."
+      }
+    ]
+  },
+  "masterclass": {
+    "description": "MasterClass, cevrimici ogrenme platformudur (yillik faturalandirilarak ayda 10 dolar). Web sitesi uzerinden kolayca iptal edilebilir.",
+    "difficulty": "Kolay",
+    "difficultyReason": "Hesap ayarlarinda acik iptal secenegi, elde tutma taktigi yok.",
+    "refundPolicy": "Yillik planlarda 30 gunluk para iade garantisi.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "masterclass.com adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "Hesap ve ardindan Uyeligi yonet bolumune gidin."
+          },
+          {
+            "instruction": "Uyeligi iptal et'e tiklayin."
+          },
+          {
+            "instruction": "Talimatlari izleyin ve iptali onaylayin."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone Ayarlar, adiniz, Abonelikler, MasterClass, Aboneligi iptal et."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profil, Odemeler ve abonelikler, Abonelikler, MasterClass, Iptal."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Para iadesi alabilir miyim?",
+        "answer": "Evet, yillik planlar 30 gunluk para iade garantisine sahiptir."
+      },
+      {
+        "question": "Erisimi hemen kaybeder miyim?",
+        "answer": "Hayir, erisim faturalama doneminin sonuna kadar devam eder."
+      }
+    ]
+  },
+  "skillshare": {
+    "description": "Skillshare, yaratici ogrenme platformudur (ayda 14 dolar). Web sitesi veya cihaz ayarlari uzerinden kolayca iptal edilebilir.",
+    "difficulty": "Kolay",
+    "difficultyReason": "Hesap ayarlarinda acik iptal secenegi.",
+    "refundPolicy": "Yillik planlar icin 7 gunluk iade penceresi.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "skillshare.com/account/membership adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "Uyeligi iptal et'e tiklayin."
+          },
+          {
+            "instruction": "Duraklama teklifi yapilabilir. Iptal etmek istiyorsaniz reddedin."
+          },
+          {
+            "instruction": "Iptali onaylayin."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone Ayarlar, adiniz, Abonelikler, Skillshare, Iptal."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profil, Odemeler ve abonelikler, Skillshare, Iptal."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Iptal etmek yerine duraklatabilir miyim?",
+        "answer": "Evet, Skillshare iptal sureci sirasinda duraklama secenegi sunar."
+      },
+      {
+        "question": "Para iadesi mumkun mu?",
+        "answer": "Yillik planlarda yenileme sonrasi 7 gunluk iade penceresi vardir."
+      }
+    ]
+  },
+  "chegg": {
+    "description": "Chegg Study, odev yardim hizmetidir (ayda 14,95-19,95 dolar). Web sitesi veya mobil tarayici uzerinden iptal edilebilir.",
+    "difficulty": "Orta",
+    "difficultyReason": "Web'de iptal mumkun ancak duraklama ozelligi yok ve birden fazla adim gerekiyor.",
+    "refundPolicy": "Otomatik iade yok. Iptal onay e-postasini kontrol edin.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "chegg.com/account adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "Abonelikler'e tiklayin."
+          },
+          {
+            "instruction": "Aboneligi iptal et'e tiklayin ve talimatlari izleyin."
+          },
+          {
+            "instruction": "Iptal onay e-postasini kontrol edin."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Chegg abonelikleri App Store uzerinden yonetilmez."
+          },
+          {
+            "instruction": "Tarayici acin ve iptal etmek icin chegg.com/account adresine gidin."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Chegg abonelikleri Google Play uzerinden yonetilmez."
+          },
+          {
+            "instruction": "Tarayici acin ve iptal etmek icin chegg.com/account adresine gidin."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Chegg'i duraklatabilir miyim?",
+        "answer": "Hayir, Chegg duraklama ozelligi sunmaz."
+      },
+      {
+        "question": "Iptali nasil onaylayabilirim?",
+        "answer": "E-posta ile onay alacaksiniz. Spam klasorunu de kontrol edin."
+      }
+    ]
+  },
+  "scribd": {
+    "description": "Scribd, kitap ve sesli kitap abonelik hizmetidir (ayda 11,99 dolar). Hesap ayarlarinda kolayca iptal edilebilir.",
+    "difficulty": "Kolay",
+    "difficultyReason": "Odeme ayarlarinda acik iptal secenegi.",
+    "refundPolicy": "Kitap ve sesli kitaplara erisim faturalama doneminin kapanmasinda sona erer.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "scribd.com/account-settings/payments adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "Aboneligi iptal et'e tiklayin."
+          },
+          {
+            "instruction": "Iptali onaylayin."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone Ayarlar, adiniz, Abonelikler, Scribd, Iptal."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profil, Odemeler ve abonelikler, Scribd, Iptal."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Aboneligi duraklatabilir miyim?",
+        "answer": "Evet, Scribd 2 aylik duraklama secenegi sunar."
+      },
+      {
+        "question": "Iptal sonrasi erisimi hemen kaybeder miyim?",
+        "answer": "Erisim, mevcut faturalama doneminin sonunda sona erer."
+      }
+    ]
+  },
+  "adt": {
+    "description": "ADT guvenlik izleme (ayda 28,99-59,99 dolar) yalnizca telefonla iptal edilebilir. Tipik 36 aylik sozlesme.",
+    "difficulty": "Zor",
+    "difficultyReason": "Yalnizca telefon iptal mumkun. Erken fesih ucreti yuksek.",
+    "refundPolicy": "Erken fesih, kalan sozlesme bakiyesinin yuzde 75'i kadar ucrete yol acar.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Cevrimici iptal mevcut degil. Telefon kanalini kullanin."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "ADT uygulamasi iptal edemiyor. 1-800-238-2727'yi arayin."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "ADT uygulamasi iptal edemiyor. 1-800-238-2727'yi arayin."
+          }
+        ]
+      },
+      "phone": {
+        "steps": [
+          {
+            "instruction": "1-800-238-2727'yi arayin."
+          },
+          {
+            "instruction": "Hizmetinizin iptalini talep edin."
+          },
+          {
+            "instruction": "Erken fesih ucretleri hakkinda bilgi alin.",
+            "note": "Kalan sozlesme bakiyesinin yuzde 75'i faturalandirilir."
+          },
+          {
+            "instruction": "Alternatif: tasima sirasinda iptal yerine hizmeti devredin."
+          },
+          {
+            "instruction": "Iptalin yazili onayini isteyin."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "ADT'yi cevrimici iptal edebilir miyim?",
+        "answer": "Hayir. Yalnizca 1-800-238-2727 numarayi arayarak iptal edilebilir."
+      },
+      {
+        "question": "Erken fesih maliyeti nedir?",
+        "answer": "Kalan sozlesme bakiyesinin yuzde 75'i faturalandirilir."
+      }
+    ]
+  },
+  "curology": {
+    "description": "Curology, kisisellestirilmis cilt bakimi hizmetidir (ayda 29,95-39,95 dolar). Hesap ayarlari veya sohbet destegi araciligiyla iptal edin.",
+    "difficulty": "Orta",
+    "difficultyReason": "Iptal, isleme tarihinden 48 saat once yapilmalidir. Sohbet destegi gerekebilir.",
+    "refundPolicy": "3 aya kadar duraklama mumkun. Otomatik iade yok.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "curology.com/account adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "Aboneligi iptal et secenegini arayin."
+          },
+          {
+            "instruction": "Dugme yoksa sohbet destegini kullanin."
+          },
+          {
+            "instruction": "Bir sonraki isleme tarihinden en az 48 saat once iptal edin.",
+            "note": "Istenmeyen tahsilatlar onlenir."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Uygulama iptale izin vermediginden tarayicide curology.com/account adresini acin."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Uygulama iptale izin vermediginden tarayicide curology.com/account adresini acin."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Iptal etmek yerine duraklatabilir miyim?",
+        "answer": "Evet, Curology 3 aya kadar duraklama izni verir."
+      },
+      {
+        "question": "Ne kadar onceden iptal etmeliyim?",
+        "answer": "Bir sonraki isleme tarihinden en az 48 saat once."
+      }
+    ]
+  },
+  "starz": {
+    "description": "Starz, premium yayin hizmetidir (ayda 9,99 dolar). Dogrudan aboneler web sitesinden iptal eder; diger aboneler kendi platformlarindan.",
+    "difficulty": "Kolay",
+    "difficultyReason": "Dogrudan aboneler icin acik iptal secenegi. Platform aboneleri kendi platformlari uzerinden iptal eder.",
+    "refundPolicy": "Oransal erisim yok; faturalama doneminin sonuna kadar devam eder.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "starz.com/account/subscription adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "Iptal et'e tiklayin (yalnizca dogrudan aboneler icin)."
+          },
+          {
+            "instruction": "Iptali onaylayin."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone Ayarlar, adiniz, Abonelikler, Starz, Iptal."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profil, Odemeler ve abonelikler, Starz, Iptal."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Amazon/Apple/Roku uzerinden abone oldum. Nerede iptal edebilirim?",
+        "answer": "Abone oldugunuz platform uzerinden iptal edin, starz.com uzerinden degil."
+      },
+      {
+        "question": "Erisimim ne zaman sona erer?",
+        "answer": "Mevcut faturalama doneminin sonunda."
+      }
+    ]
+  },
+  "shudder": {
+    "description": "Shudder, korku yayin hizmetidir (ayda 5,99 dolar). Web sitesi veya cihaz ayarlari uzerinden kolayca iptal edilebilir.",
+    "difficulty": "Kolay",
+    "difficultyReason": "Hesap ayarlarinda acik iptal secenegi.",
+    "refundPolicy": "Izleme listeniz iptal sonrasinda korunur.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "shudder.com/account adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "Uyeligi iptal et'e tiklayin."
+          },
+          {
+            "instruction": "Iptali onaylayin."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone Ayarlar, adiniz, Abonelikler, Shudder, Iptal."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profil, Odemeler ve abonelikler, Shudder, Iptal."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Amazon uzerinden abone oldum. Nerede iptal edebilirim?",
+        "answer": "shudder.com uzerinden degil, Amazon Prime Video Channels uzerinden iptal edin."
+      },
+      {
+        "question": "Izleme listem kaydedilir mi?",
+        "answer": "Evet, izleme listesi iptal sonrasinda korunur."
+      }
+    ]
+  },
+  "discovery-plus": {
+    "description": "Discovery+, belgesel yayin hizmetidir (ayda 4,99-8,99 dolar). Web sitesi veya cihaz ayarlari uzerinden kolayca iptal edilebilir.",
+    "difficulty": "Kolay",
+    "difficultyReason": "Dogrudan aboneler icin acik iptal secenegi.",
+    "refundPolicy": "Oransal erisim yok; faturalama doneminin sonuna kadar devam eder. Max/HBO icerigi dahil degil.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "discoveryplus.com/account adresine gidin ve giris yapin."
+          },
+          {
+            "instruction": "Aboneligi iptal et'e tiklayin."
+          },
+          {
+            "instruction": "Iptali onaylayin."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone Ayarlar, adiniz, Abonelikler, Discovery+, Iptal."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profil, Odemeler ve abonelikler, Discovery+, Iptal."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Amazon uzerinden abone oldum. Nerede iptal edebilirim?",
+        "answer": "discoveryplus.com uzerinden degil, Amazon Prime Video Channels uzerinden iptal edin."
+      },
+      {
+        "question": "Discovery+ HBO icerigi iceriyor mu?",
+        "answer": "Hayir. Discovery+, Max/HBO icerigi icermiyor."
+      }
+    ]
   }
 }

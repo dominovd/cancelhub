@@ -3952,5 +3952,513 @@
         "answer": "Chewy est reconnu pour son excellent service client. Contactez le support en cas de probleme."
       }
     ]
+  },
+  "noom": {
+    "description": "Noom est un programme de coaching minceur (59-209 $/mois). L'annulation est difficile et necessite le chat intégré ou web.noom.com/settings.",
+    "difficulty": "Difficile",
+    "difficultyReason": "Pas de bouton d'annulation en libre-service. Des offres de retention sont proposées. Plaintes FTC pour pratiques de facturation trompeuses.",
+    "refundPolicy": "Essai de 14 jours pour 0,50-1 $. Annuler pendant l'essai pour éviter les frais.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Accede a web.noom.com/settings et connecte-toi."
+          },
+          {
+            "instruction": "Recherche l'option de gestion ou d'annulation d'abonnement."
+          },
+          {
+            "instruction": "Si aucun bouton d'annulation n'est visible, utilise le chat d'assistance intégré."
+          },
+          {
+            "instruction": "Demande expressément à l'agent d'annuler ton abonnement.",
+            "note": "Attends-toi à des offres de retention. Reste ferme dans ta décision."
+          },
+          {
+            "instruction": "Attends la confirmation par e-mail."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ouvre l'application Noom et appuie sur l'icône de profil."
+          },
+          {
+            "instruction": "Appuie sur Paramètres → Contacter l'assistance par chat."
+          },
+          {
+            "instruction": "Demande l'annulation de ton abonnement."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ouvre l'application Noom et appuie sur l'icône de profil."
+          },
+          {
+            "instruction": "Appuie sur Paramètres → Contacter l'assistance par chat."
+          },
+          {
+            "instruction": "Demande l'annulation de ton abonnement."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Y a-t-il un bouton d'annulation ?",
+        "answer": "Non. L'annulation doit être demandée via le chat intégré ou web.noom.com/settings."
+      },
+      {
+        "question": "Qu'en est-il de l'essai de 14 jours ?",
+        "answer": "L'essai coute 0,50-1 $. Annule pendant l'essai pour éviter l'abonnement complet."
+      }
+    ]
+  },
+  "masterclass": {
+    "description": "MasterClass est une plateforme d'apprentissage en ligne (10 $/mois facturé annuellement). L'annulation est simple depuis le site web.",
+    "difficulty": "Facile",
+    "difficultyReason": "Option d'annulation claire dans les paramètres du compte, sans tactiques de rétention.",
+    "refundPolicy": "Garantie satisfait ou remboursé de 30 jours sur les plans annuels.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Accede a masterclass.com et connecte-toi."
+          },
+          {
+            "instruction": "Navigue vers Compte → Gérer l'adhésion."
+          },
+          {
+            "instruction": "Clique sur Annuler l'adhésion."
+          },
+          {
+            "instruction": "Suis les instructions et confirme l'annulation."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ouvre les Réglages iPhone → ton nom → Abonnements."
+          },
+          {
+            "instruction": "Sélectionne MasterClass et appuie sur Annuler l'abonnement."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ouvre le Google Play Store → Profil → Paiements et abonnements → Abonnements."
+          },
+          {
+            "instruction": "Sélectionne MasterClass et appuie sur Annuler l'abonnement."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Serai-je remboursé(e) ?",
+        "answer": "Oui, les plans annuels bénéficient d'une garantie de remboursement de 30 jours."
+      },
+      {
+        "question": "Vais-je perdre l'accès immédiatement ?",
+        "answer": "Non, l'accès continue jusqu'à la fin de la période de facturation."
+      }
+    ]
+  },
+  "skillshare": {
+    "description": "Skillshare est une plateforme d'apprentissage créatif (14 $/mois). L'annulation est simple depuis le site web ou les paramètres de l'appareil.",
+    "difficulty": "Facile",
+    "difficultyReason": "Option d'annulation claire dans les paramètres du compte.",
+    "refundPolicy": "Fenêtre de remboursement de 7 jours pour les plans annuels.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Accede a skillshare.com/account/membership et connecte-toi."
+          },
+          {
+            "instruction": "Clique sur Annuler l'adhésion."
+          },
+          {
+            "instruction": "Une pause peut être proposée. Refuse si tu souhaites annuler."
+          },
+          {
+            "instruction": "Confirme l'annulation."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ouvre Réglages iPhone → ton nom → Abonnements → Skillshare → Annuler."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ouvre Google Play Store → Profil → Paiements et abonnements → Abonnements → Skillshare → Annuler."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Puis-je mettre en pause au lieu d'annuler ?",
+        "answer": "Oui, Skillshare propose une option de pause lors du processus d'annulation."
+      },
+      {
+        "question": "Y a-t-il un remboursement possible ?",
+        "answer": "Les plans annuels ont une fenêtre de remboursement de 7 jours après le renouvellement."
+      }
+    ]
+  },
+  "chegg": {
+    "description": "Chegg Study est un service d'aide aux devoirs (14,95-19,95 $/mois). L'annulation est possible depuis le site web ou le navigateur mobile.",
+    "difficulty": "Moyen",
+    "difficultyReason": "L'annulation est possible sur le web mais sans option de pause et nécessite plusieurs étapes.",
+    "refundPolicy": "Pas de remboursement automatique. Vérifie l'e-mail de confirmation d'annulation.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Accede a chegg.com/account et connecte-toi."
+          },
+          {
+            "instruction": "Clique sur Abonnements."
+          },
+          {
+            "instruction": "Clique sur Annuler l'abonnement et suis les instructions."
+          },
+          {
+            "instruction": "Vérifie ton e-mail pour la confirmation d'annulation."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Les abonnements Chegg ne sont pas gérés via l'App Store."
+          },
+          {
+            "instruction": "Ouvre le navigateur et accede a chegg.com/account pour annuler."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Les abonnements Chegg ne sont pas gérés via Google Play."
+          },
+          {
+            "instruction": "Ouvre le navigateur et accede a chegg.com/account pour annuler."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Puis-je mettre Chegg en pause ?",
+        "answer": "Non, Chegg ne propose pas d'option de pause."
+      },
+      {
+        "question": "Comment confirmer l'annulation ?",
+        "answer": "Tu recevras une confirmation par e-mail. Vérifie aussi ton dossier spam."
+      }
+    ]
+  },
+  "scribd": {
+    "description": "Scribd est un service d'abonnement de livres et livres audio (11,99 $/mois). L'annulation est simple dans les paramètres du compte.",
+    "difficulty": "Facile",
+    "difficultyReason": "Option d'annulation claire dans les paramètres de paiement.",
+    "refundPolicy": "L'accès aux livres et livres audio se termine à la fin de la période de facturation.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Accede a scribd.com/account-settings/payments et connecte-toi."
+          },
+          {
+            "instruction": "Clique sur Annuler l'abonnement."
+          },
+          {
+            "instruction": "Confirme l'annulation."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ouvre Réglages iPhone → ton nom → Abonnements → Scribd → Annuler."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ouvre Google Play Store → Profil → Paiements et abonnements → Abonnements → Scribd → Annuler."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Puis-je mettre l'abonnement en pause ?",
+        "answer": "Oui, Scribd propose une option de pause de 2 mois."
+      },
+      {
+        "question": "Vais-je perdre l'accès immédiatement après l'annulation ?",
+        "answer": "L'accès se termine à la fin de la période de facturation en cours."
+      }
+    ]
+  },
+  "adt": {
+    "description": "Le monitoring de sécurité ADT (28,99-59,99 $/mois) ne peut être annulé que par téléphone. Contrat typique de 36 mois.",
+    "difficulty": "Difficile",
+    "difficultyReason": "Annulation uniquement par téléphone. Frais de résiliation anticipée élevés.",
+    "refundPolicy": "La résiliation anticipée entraîne des frais de 75 % du solde restant du contrat.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "L'annulation en ligne n'est pas disponible. Utilise le canal téléphonique."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "L'application ADT ne permet pas d'annuler l'abonnement. Appelle le 1-800-238-2727."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "L'application ADT ne permet pas d'annuler l'abonnement. Appelle le 1-800-238-2727."
+          }
+        ]
+      },
+      "phone": {
+        "steps": [
+          {
+            "instruction": "Appelle le 1-800-238-2727."
+          },
+          {
+            "instruction": "Demande l'annulation de ton service."
+          },
+          {
+            "instruction": "Renseigne-toi sur les frais de résiliation anticipée.",
+            "note": "Les frais correspondent à 75 % du solde restant du contrat."
+          },
+          {
+            "instruction": "Alternative : transférer le service lors d'un déménagement plutôt qu'annuler."
+          },
+          {
+            "instruction": "Demande une confirmation écrite de l'annulation."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Puis-je annuler ADT en ligne ?",
+        "answer": "Non. ADT ne peut être annulé que par téléphone au 1-800-238-2727."
+      },
+      {
+        "question": "Quel est le coût de la résiliation anticipée ?",
+        "answer": "75 % du solde restant du contrat sont facturés."
+      }
+    ]
+  },
+  "curology": {
+    "description": "Curology est un service de soins de la peau personnalisé (29,95-39,95 $/mois). Annulation via les paramètres du compte ou l'assistance par chat.",
+    "difficulty": "Moyen",
+    "difficultyReason": "L'annulation doit être effectuée 48 heures avant la date de traitement. L'assistance par chat peut être nécessaire.",
+    "refundPolicy": "Possibilité de pause jusqu'à 3 mois. Pas de remboursement automatique.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Accede a curology.com/account et connecte-toi."
+          },
+          {
+            "instruction": "Recherche l'option Annuler l'abonnement."
+          },
+          {
+            "instruction": "Si aucun bouton n'est visible, utilise l'assistance par chat."
+          },
+          {
+            "instruction": "Annule au moins 48 heures avant la prochaine date de traitement.",
+            "note": "Annuler à temps évite les frais indésirables."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ouvre le navigateur et accede a curology.com/account, car l'application ne permet pas l'annulation."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ouvre le navigateur et accede a curology.com/account, car l'application ne permet pas l'annulation."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Puis-je mettre en pause plutôt qu'annuler ?",
+        "answer": "Oui, Curology permet une pause jusqu'à 3 mois."
+      },
+      {
+        "question": "Combien de temps à l'avance dois-je annuler ?",
+        "answer": "Au moins 48 heures avant la prochaine date de traitement."
+      }
+    ]
+  },
+  "starz": {
+    "description": "Starz est un service de streaming premium (9,99 $/mois). Les abonnés directs annulent depuis le site web ; les autres via leur plateforme.",
+    "difficulty": "Facile",
+    "difficultyReason": "Option d'annulation claire pour les abonnés directs. Les abonnés via plateforme annulent depuis leur plateforme respective.",
+    "refundPolicy": "Pas d'accès au prorata ; le service continue jusqu'à la fin de la période de facturation.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Accede a starz.com/account/subscription et connecte-toi."
+          },
+          {
+            "instruction": "Clique sur Annuler (abonnés directs uniquement)."
+          },
+          {
+            "instruction": "Confirme l'annulation."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ouvre Réglages iPhone → ton nom → Abonnements → Starz → Annuler."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ouvre Google Play Store → Profil → Paiements et abonnements → Abonnements → Starz → Annuler."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Je me suis abonné via Amazon/Apple/Roku. Où annuler ?",
+        "answer": "Annule via la plateforme par laquelle tu t'es abonné, pas depuis starz.com."
+      },
+      {
+        "question": "Quand mon accès prend-il fin ?",
+        "answer": "À la fin de la période de facturation en cours."
+      }
+    ]
+  },
+  "shudder": {
+    "description": "Shudder est un service de streaming d'horreur (5,99 $/mois). L'annulation est simple depuis le site web ou les paramètres de l'appareil.",
+    "difficulty": "Facile",
+    "difficultyReason": "Option d'annulation claire dans les paramètres du compte.",
+    "refundPolicy": "Ta liste de suivi est conservée après l'annulation.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Accede a shudder.com/account et connecte-toi."
+          },
+          {
+            "instruction": "Clique sur Annuler l'adhésion."
+          },
+          {
+            "instruction": "Confirme l'annulation."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ouvre Réglages iPhone → ton nom → Abonnements → Shudder → Annuler."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ouvre Google Play Store → Profil → Paiements et abonnements → Abonnements → Shudder → Annuler."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Je me suis abonné via Amazon. Où annuler ?",
+        "answer": "Annule via Amazon Prime Video Channels, pas depuis shudder.com."
+      },
+      {
+        "question": "Ma liste de suivi est-elle sauvegardée ?",
+        "answer": "Oui, la liste de suivi est conservée après l'annulation."
+      }
+    ]
+  },
+  "discovery-plus": {
+    "description": "Discovery+ est un service de streaming non-fiction (4,99-8,99 $/mois). L'annulation est simple depuis le site web ou les paramètres de l'appareil.",
+    "difficulty": "Facile",
+    "difficultyReason": "Option d'annulation claire pour les abonnés directs.",
+    "refundPolicy": "Pas d'accès au prorata ; le service continue jusqu'à la fin de la période de facturation. N'inclut pas les contenus Max/HBO.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Accede a discoveryplus.com/account et connecte-toi."
+          },
+          {
+            "instruction": "Clique sur Annuler l'abonnement."
+          },
+          {
+            "instruction": "Confirme l'annulation."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Ouvre Réglages iPhone → ton nom → Abonnements → Discovery+ → Annuler."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Ouvre Google Play Store → Profil → Paiements et abonnements → Abonnements → Discovery+ → Annuler."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Je me suis abonné via Amazon. Où annuler ?",
+        "answer": "Annule via Amazon Prime Video Channels, pas depuis discoveryplus.com."
+      },
+      {
+        "question": "Discovery+ inclut-il des contenus HBO ?",
+        "answer": "Non. Discovery+ n'inclut pas les contenus Max/HBO."
+      }
+    ]
   }
 }

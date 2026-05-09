@@ -3992,5 +3992,507 @@
         "answer": "Chewy staat bekend om uitstekende klantenservice. Neem contact op met support bij problemen."
       }
     ]
+  },
+  "noom": {
+    "description": "Noom is een gewichtsverliesprogramma met coaching ($59-$209/maand). Opzeggen vereist de in-app chat of web.noom.com/settings.",
+    "difficulty": "Moeilijk",
+    "difficultyReason": "Geen selfservice-annuleringsknop. Er worden retentieaanbiedingen gedaan. FTC-klachten over onduidelijke factureringspraktijken.",
+    "refundPolicy": "14-daagse proefperiode voor $0,50-$1. Annuleer tijdens de proefperiode om kosten te vermijden.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar web.noom.com/settings en log in."
+          },
+          {
+            "instruction": "Zoek de optie voor abonnementsbeheer of -annulering."
+          },
+          {
+            "instruction": "Als er geen annuleringsknop is, gebruik dan de in-app chatsupport."
+          },
+          {
+            "instruction": "Vraag de agent uitdrukkelijk om je abonnement te annuleren.",
+            "note": "Verwacht retentieaanbiedingen. Houd vast aan je beslissing."
+          },
+          {
+            "instruction": "Wacht op bevestiging per e-mail."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Open de Noom-app en tik op het profielpictogram."
+          },
+          {
+            "instruction": "Tik op Instellingen en neem contact op met chatsupport."
+          },
+          {
+            "instruction": "Vraag om annulering van je abonnement."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Open de Noom-app en tik op het profielpictogram."
+          },
+          {
+            "instruction": "Tik op Instellingen en neem contact op met chatsupport."
+          },
+          {
+            "instruction": "Vraag om annulering van je abonnement."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Is er een annuleringsknop?",
+        "answer": "Nee. Annulering moet worden aangevraagd via de in-app chat of web.noom.com/settings."
+      },
+      {
+        "question": "Wat gebeurt er met de 14-daagse proefperiode?",
+        "answer": "Kost $0,50-$1. Annuleer tijdens de proefperiode om de volledige abonnementskosten te vermijden."
+      }
+    ]
+  },
+  "masterclass": {
+    "description": "MasterClass is een online leerplatform ($10/maand, jaarlijks gefactureerd). Opzeggen is eenvoudig via de website.",
+    "difficulty": "Gemakkelijk",
+    "difficultyReason": "Duidelijke annuleringsoptie in de accountinstellingen zonder retentietactieken.",
+    "refundPolicy": "30 dagen geld-terug-garantie op jaarplannen.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar masterclass.com en log in."
+          },
+          {
+            "instruction": "Navigeer naar Account en vervolgens Lidmaatschap beheren."
+          },
+          {
+            "instruction": "Klik op Lidmaatschap annuleren."
+          },
+          {
+            "instruction": "Volg de instructies en bevestig de annulering."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone-instellingen, je naam, Abonnementen, MasterClass, Abonnement annuleren."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profiel, Betalingen en abonnementen, Abonnementen, MasterClass, Annuleren."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Krijg ik een terugbetaling?",
+        "answer": "Ja, jaarplannen hebben een geld-terug-garantie van 30 dagen."
+      },
+      {
+        "question": "Verlies ik direct de toegang?",
+        "answer": "Nee, de toegang loopt door tot het einde van de factureringsperiode."
+      }
+    ]
+  },
+  "skillshare": {
+    "description": "Skillshare is een creatief leerplatform ($14/maand). Opzeggen is eenvoudig via de website of apparaatinstellingen.",
+    "difficulty": "Gemakkelijk",
+    "difficultyReason": "Duidelijke annuleringsoptie in de accountinstellingen.",
+    "refundPolicy": "7 dagen terugbetalingsvenster voor jaarplannen.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar skillshare.com/account/membership en log in."
+          },
+          {
+            "instruction": "Klik op Lidmaatschap annuleren."
+          },
+          {
+            "instruction": "Er kan een pauzeaanbod worden gedaan. Weiger als je wilt annuleren."
+          },
+          {
+            "instruction": "Bevestig de annulering."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone-instellingen, je naam, Abonnementen, Skillshare, Annuleren."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profiel, Betalingen en abonnementen, Abonnementen, Skillshare, Annuleren."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kan ik pauzeren in plaats van annuleren?",
+        "answer": "Ja, Skillshare biedt een pauzeoptie aan tijdens het annuleringsproces."
+      },
+      {
+        "question": "Is terugbetaling mogelijk?",
+        "answer": "Jaarplannen hebben een terugbetalingsvenster van 7 dagen na verlenging."
+      }
+    ]
+  },
+  "chegg": {
+    "description": "Chegg Study is een huiswerkservice ($14,95-$19,95/maand). Opzeggen is mogelijk via de website of mobiele browser.",
+    "difficulty": "Gemiddeld",
+    "difficultyReason": "Annulering mogelijk via web, maar geen pauzeoptie en meerdere stappen vereist.",
+    "refundPolicy": "Geen automatische terugbetalingen. Controleer de bevestigingsmail van de annulering.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar chegg.com/account en log in."
+          },
+          {
+            "instruction": "Klik op Abonnementen."
+          },
+          {
+            "instruction": "Klik op Abonnement annuleren en volg de instructies."
+          },
+          {
+            "instruction": "Controleer je e-mail voor de annuleringsbevestiging."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Chegg-abonnementen worden niet beheerd via de App Store."
+          },
+          {
+            "instruction": "Open de browser en ga naar chegg.com/account om te annuleren."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Chegg-abonnementen worden niet beheerd via Google Play."
+          },
+          {
+            "instruction": "Open de browser en ga naar chegg.com/account om te annuleren."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kan ik Chegg pauzeren?",
+        "answer": "Nee, Chegg biedt geen pauzeoptie."
+      },
+      {
+        "question": "Hoe bevestig ik de annulering?",
+        "answer": "Je ontvangt een bevestigingsmail. Controleer ook je spammap."
+      }
+    ]
+  },
+  "scribd": {
+    "description": "Scribd is een abonnementsservice voor boeken en luisterboeken ($11,99/maand). Opzeggen is eenvoudig in de accountinstellingen.",
+    "difficulty": "Gemakkelijk",
+    "difficultyReason": "Duidelijke annuleringsoptie in de betalingsinstellingen.",
+    "refundPolicy": "Toegang tot boeken en luisterboeken eindigt aan het einde van de factureringsperiode.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar scribd.com/account-settings/payments en log in."
+          },
+          {
+            "instruction": "Klik op Abonnement annuleren."
+          },
+          {
+            "instruction": "Bevestig de annulering."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone-instellingen, je naam, Abonnementen, Scribd, Annuleren."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profiel, Betalingen en abonnementen, Abonnementen, Scribd, Annuleren."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kan ik het abonnement pauzeren?",
+        "answer": "Ja, Scribd biedt een pauzeoptie van 2 maanden."
+      },
+      {
+        "question": "Verlies ik direct de toegang na annulering?",
+        "answer": "De toegang eindigt aan het einde van de huidige factureringsperiode."
+      }
+    ]
+  },
+  "adt": {
+    "description": "ADT-beveiligingsmonitoring ($28,99-$59,99/maand) kan alleen telefonisch worden opgezegd. Typisch 36-maandscontract.",
+    "difficulty": "Moeilijk",
+    "difficultyReason": "Alleen telefonische annulering mogelijk. Hoge boete bij vroegtijdige beeindiging.",
+    "refundPolicy": "Vroegtijdige beeindiging resulteert in een boete van 75% van het resterende contractsaldo.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Online annulering is niet beschikbaar. Gebruik het telefonische kanaal."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "De ADT-app kan niet annuleren. Bel 1-800-238-2727."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "De ADT-app kan niet annuleren. Bel 1-800-238-2727."
+          }
+        ]
+      },
+      "phone": {
+        "steps": [
+          {
+            "instruction": "Bel 1-800-238-2727."
+          },
+          {
+            "instruction": "Vraag om annulering van je service."
+          },
+          {
+            "instruction": "Vraag naar de boetes voor vroegtijdige beeindiging.",
+            "note": "75% van het resterende contractsaldo wordt in rekening gebracht."
+          },
+          {
+            "instruction": "Alternatief: service overdragen bij verhuizing in plaats van annuleren."
+          },
+          {
+            "instruction": "Vraag om schriftelijke bevestiging van de annulering."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kan ik ADT online annuleren?",
+        "answer": "Nee. Alleen telefonisch via 1-800-238-2727."
+      },
+      {
+        "question": "Wat kost vroegtijdige opzegging?",
+        "answer": "75% van het resterende contractsaldo wordt in rekening gebracht."
+      }
+    ]
+  },
+  "curology": {
+    "description": "Curology is een gepersonaliseerde huidverzorgingsservice ($29,95-$39,95/maand). Opzeggen via accountinstellingen of chatsupport.",
+    "difficulty": "Gemiddeld",
+    "difficultyReason": "Annulering moet 48 uur voor de verwerkingsdatum plaatsvinden. Chatsupport kan nodig zijn.",
+    "refundPolicy": "Pauze mogelijk tot 3 maanden. Geen automatische terugbetalingen.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar curology.com/account en log in."
+          },
+          {
+            "instruction": "Zoek de optie Abonnement annuleren."
+          },
+          {
+            "instruction": "Als er geen knop is, gebruik dan chatsupport."
+          },
+          {
+            "instruction": "Annuleer minimaal 48 uur voor de volgende verwerkingsdatum.",
+            "note": "Voorkomt ongewenste kosten."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Open curology.com/account in de browser, want de app staat geen annulering toe."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Open curology.com/account in de browser, want de app staat geen annulering toe."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kan ik pauzeren in plaats van annuleren?",
+        "answer": "Ja, Curology staat een pauze van maximaal 3 maanden toe."
+      },
+      {
+        "question": "Hoe ver van tevoren moet ik annuleren?",
+        "answer": "Minimaal 48 uur voor de volgende verwerkingsdatum."
+      }
+    ]
+  },
+  "starz": {
+    "description": "Starz is een premium streamingservice ($9,99/maand). Directe abonnees annuleren via de website; anderen via hun platform.",
+    "difficulty": "Gemakkelijk",
+    "difficultyReason": "Duidelijke annuleringsoptie voor directe abonnees. Platformabonnees annuleren via hun respectieve platform.",
+    "refundPolicy": "Geen prorata-toegang; loopt door tot het einde van de factureringsperiode.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar starz.com/account/subscription en log in."
+          },
+          {
+            "instruction": "Klik op Annuleren (alleen voor directe abonnees)."
+          },
+          {
+            "instruction": "Bevestig de annulering."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone-instellingen, je naam, Abonnementen, Starz, Annuleren."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profiel, Betalingen en abonnementen, Abonnementen, Starz, Annuleren."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ik heb via Amazon/Apple/Roku geabonneerd. Waar annuleer ik?",
+        "answer": "Via het platform waarmee je hebt geabonneerd, niet via starz.com."
+      },
+      {
+        "question": "Wanneer eindigt mijn toegang?",
+        "answer": "Aan het einde van de huidige factureringsperiode."
+      }
+    ]
+  },
+  "shudder": {
+    "description": "Shudder is een horror-streamingservice ($5,99/maand). Opzeggen is eenvoudig via de website of apparaatinstellingen.",
+    "difficulty": "Gemakkelijk",
+    "difficultyReason": "Duidelijke annuleringsoptie in de accountinstellingen.",
+    "refundPolicy": "Je kijklijst blijft bewaard na annulering.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar shudder.com/account en log in."
+          },
+          {
+            "instruction": "Klik op Lidmaatschap annuleren."
+          },
+          {
+            "instruction": "Bevestig de annulering."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone-instellingen, je naam, Abonnementen, Shudder, Annuleren."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profiel, Betalingen en abonnementen, Abonnementen, Shudder, Annuleren."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ik heb via Amazon geabonneerd. Waar annuleer ik?",
+        "answer": "Via Amazon Prime Video Channels, niet via shudder.com."
+      },
+      {
+        "question": "Wordt mijn kijklijst opgeslagen?",
+        "answer": "Ja, de kijklijst blijft bewaard na annulering."
+      }
+    ]
+  },
+  "discovery-plus": {
+    "description": "Discovery+ is een non-fictie streamingservice ($4,99-$8,99/maand). Opzeggen is eenvoudig via de website of apparaatinstellingen.",
+    "difficulty": "Gemakkelijk",
+    "difficultyReason": "Duidelijke annuleringsoptie voor directe abonnees.",
+    "refundPolicy": "Geen prorata-toegang; loopt door tot het einde van de factureringsperiode. Bevat geen Max/HBO-inhoud.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Ga naar discoveryplus.com/account en log in."
+          },
+          {
+            "instruction": "Klik op Abonnement annuleren."
+          },
+          {
+            "instruction": "Bevestig de annulering."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone-instellingen, je naam, Abonnementen, Discovery+, Annuleren."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profiel, Betalingen en abonnementen, Abonnementen, Discovery+, Annuleren."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ik heb via Amazon geabonneerd. Waar annuleer ik?",
+        "answer": "Via Amazon Prime Video Channels, niet via discoveryplus.com."
+      },
+      {
+        "question": "Bevat Discovery+ HBO-inhoud?",
+        "answer": "Nee. Discovery+ bevat geen Max/HBO-inhoud."
+      }
+    ]
   }
 }

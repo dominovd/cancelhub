@@ -71,6 +71,16 @@ import { xboxGamePass } from './xbox-game-pass'
 import { calm } from './calm'
 import { headspace } from './headspace'
 import { chewyAutoship } from './chewy-autoship'
+import { noom } from './noom'
+import { masterclass } from './masterclass'
+import { skillshare } from './skillshare'
+import { chegg } from './chegg'
+import { scribd } from './scribd'
+import { adt } from './adt'
+import { curology } from './curology'
+import { starz } from './starz'
+import { shudder } from './shudder'
+import { discoveryPlus } from './discovery-plus'
 
 export const allGuides: CancelGuide[] = [
   netflix,
@@ -145,6 +155,16 @@ export const allGuides: CancelGuide[] = [
   calm,
   headspace,
   chewyAutoship,
+  noom,
+  masterclass,
+  skillshare,
+  chegg,
+  scribd,
+  adt,
+  curology,
+  starz,
+  shudder,
+  discoveryPlus,
 ]
 
 export const guidesBySlug: Record<string, CancelGuide> = Object.fromEntries(

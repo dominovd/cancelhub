@@ -3853,5 +3853,507 @@
         "answer": "Chewy dikenal dengan layanan pelanggan yang sangat baik. Hubungi dukungan jika ada masalah."
       }
     ]
+  },
+  "noom": {
+    "description": "Noom adalah program pelatihan penurunan berat badan ($59-$209/bulan). Pembatalan memerlukan obrolan dalam aplikasi atau web.noom.com/settings.",
+    "difficulty": "Sulit",
+    "difficultyReason": "Tidak ada tombol pembatalan mandiri. Penawaran retensi diberikan. Ada pengaduan FTC tentang praktik penagihan yang tidak jelas.",
+    "refundPolicy": "Uji coba 14 hari seharga $0,50-$1. Batalkan selama uji coba untuk menghindari tagihan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka web.noom.com/settings dan masuk."
+          },
+          {
+            "instruction": "Cari opsi manajemen atau pembatalan langganan."
+          },
+          {
+            "instruction": "Jika tidak ada tombol batal, gunakan obrolan dukungan dalam aplikasi."
+          },
+          {
+            "instruction": "Minta agen secara eksplisit untuk membatalkan langganan Anda.",
+            "note": "Harapkan penawaran retensi. Tetap pada keputusan Anda."
+          },
+          {
+            "instruction": "Tunggu konfirmasi melalui email."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Buka aplikasi Noom dan ketuk ikon profil."
+          },
+          {
+            "instruction": "Ketuk Pengaturan dan hubungi dukungan obrolan."
+          },
+          {
+            "instruction": "Minta pembatalan langganan Anda."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Buka aplikasi Noom dan ketuk ikon profil."
+          },
+          {
+            "instruction": "Ketuk Pengaturan dan hubungi dukungan obrolan."
+          },
+          {
+            "instruction": "Minta pembatalan langganan Anda."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Apakah ada tombol batal?",
+        "answer": "Tidak. Pembatalan harus diminta melalui obrolan dalam aplikasi atau web.noom.com/settings."
+      },
+      {
+        "question": "Bagaimana dengan uji coba 14 hari?",
+        "answer": "Biayanya $0,50-$1. Batalkan selama uji coba untuk menghindari tagihan penuh."
+      }
+    ]
+  },
+  "masterclass": {
+    "description": "MasterClass adalah platform pembelajaran online ($10/bulan, ditagih tahunan). Pembatalan mudah melalui situs web.",
+    "difficulty": "Mudah",
+    "difficultyReason": "Opsi pembatalan jelas di pengaturan akun tanpa taktik retensi.",
+    "refundPolicy": "Garansi uang kembali 30 hari untuk paket tahunan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka masterclass.com dan masuk."
+          },
+          {
+            "instruction": "Navigasi ke Akun lalu Kelola keanggotaan."
+          },
+          {
+            "instruction": "Klik Batalkan keanggotaan."
+          },
+          {
+            "instruction": "Ikuti petunjuk dan konfirmasi pembatalan."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Pengaturan iPhone, nama Anda, Langganan, MasterClass, Batalkan langganan."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profil, Pembayaran dan langganan, Langganan, MasterClass, Batalkan."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Apakah saya mendapat pengembalian dana?",
+        "answer": "Ya, paket tahunan memiliki garansi uang kembali 30 hari."
+      },
+      {
+        "question": "Apakah saya langsung kehilangan akses?",
+        "answer": "Tidak, akses berlanjut hingga akhir periode penagihan."
+      }
+    ]
+  },
+  "skillshare": {
+    "description": "Skillshare adalah platform pembelajaran kreatif ($14/bulan). Pembatalan mudah melalui situs web atau pengaturan perangkat.",
+    "difficulty": "Mudah",
+    "difficultyReason": "Opsi pembatalan jelas di pengaturan akun.",
+    "refundPolicy": "Jendela pengembalian dana 7 hari untuk paket tahunan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka skillshare.com/account/membership dan masuk."
+          },
+          {
+            "instruction": "Klik Batalkan keanggotaan."
+          },
+          {
+            "instruction": "Mungkin ditawarkan jeda. Tolak jika ingin membatalkan."
+          },
+          {
+            "instruction": "Konfirmasi pembatalan."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Pengaturan iPhone, nama Anda, Langganan, Skillshare, Batalkan."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profil, Pembayaran dan langganan, Skillshare, Batalkan."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Bisakah saya menjeda daripada membatalkan?",
+        "answer": "Ya, Skillshare menawarkan opsi jeda selama proses pembatalan."
+      },
+      {
+        "question": "Apakah pengembalian dana mungkin?",
+        "answer": "Paket tahunan memiliki jendela pengembalian dana 7 hari setelah perpanjangan."
+      }
+    ]
+  },
+  "chegg": {
+    "description": "Chegg Study adalah layanan bantuan tugas ($14,95-$19,95/bulan). Pembatalan bisa melalui situs web atau browser ponsel.",
+    "difficulty": "Sedang",
+    "difficultyReason": "Pembatalan memungkinkan di web tapi tanpa fitur jeda dan memerlukan beberapa langkah.",
+    "refundPolicy": "Tidak ada pengembalian dana otomatis. Periksa email konfirmasi pembatalan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka chegg.com/account dan masuk."
+          },
+          {
+            "instruction": "Klik Langganan."
+          },
+          {
+            "instruction": "Klik Batalkan langganan dan ikuti petunjuk."
+          },
+          {
+            "instruction": "Periksa email untuk konfirmasi pembatalan."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Langganan Chegg tidak dikelola melalui App Store."
+          },
+          {
+            "instruction": "Buka browser dan buka chegg.com/account untuk membatalkan."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Langganan Chegg tidak dikelola melalui Google Play."
+          },
+          {
+            "instruction": "Buka browser dan buka chegg.com/account untuk membatalkan."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Bisakah saya menjeda Chegg?",
+        "answer": "Tidak, Chegg tidak menawarkan fitur jeda."
+      },
+      {
+        "question": "Bagaimana cara mengonfirmasi pembatalan?",
+        "answer": "Anda akan menerima konfirmasi email. Periksa juga folder spam."
+      }
+    ]
+  },
+  "scribd": {
+    "description": "Scribd adalah layanan berlangganan buku dan buku audio ($11,99/bulan). Pembatalan mudah di pengaturan akun.",
+    "difficulty": "Mudah",
+    "difficultyReason": "Opsi pembatalan jelas di pengaturan pembayaran.",
+    "refundPolicy": "Akses ke buku dan buku audio berakhir pada penutupan periode penagihan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka scribd.com/account-settings/payments dan masuk."
+          },
+          {
+            "instruction": "Klik Batalkan langganan."
+          },
+          {
+            "instruction": "Konfirmasi pembatalan."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Pengaturan iPhone, nama Anda, Langganan, Scribd, Batalkan."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profil, Pembayaran dan langganan, Scribd, Batalkan."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Bisakah saya menjeda langganan?",
+        "answer": "Ya, Scribd menawarkan opsi jeda 2 bulan."
+      },
+      {
+        "question": "Apakah saya langsung kehilangan akses setelah membatalkan?",
+        "answer": "Akses berakhir di akhir periode penagihan saat ini."
+      }
+    ]
+  },
+  "adt": {
+    "description": "Pemantauan keamanan ADT ($28,99-$59,99/bulan) hanya bisa dibatalkan melalui telepon. Kontrak tipikal 36 bulan.",
+    "difficulty": "Sulit",
+    "difficultyReason": "Hanya pembatalan melalui telepon. Biaya pemutusan awal tinggi.",
+    "refundPolicy": "Pemutusan awal menghasilkan biaya 75% dari saldo kontrak yang tersisa.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Pembatalan online tidak tersedia. Gunakan saluran telepon."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Aplikasi ADT tidak dapat membatalkan. Hubungi 1-800-238-2727."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Aplikasi ADT tidak dapat membatalkan. Hubungi 1-800-238-2727."
+          }
+        ]
+      },
+      "phone": {
+        "steps": [
+          {
+            "instruction": "Hubungi 1-800-238-2727."
+          },
+          {
+            "instruction": "Minta pembatalan layanan Anda."
+          },
+          {
+            "instruction": "Tanyakan tentang biaya pemutusan awal.",
+            "note": "75% dari saldo kontrak yang tersisa akan ditagih."
+          },
+          {
+            "instruction": "Alternatif: transfer layanan saat pindah daripada membatalkan."
+          },
+          {
+            "instruction": "Minta konfirmasi tertulis atas pembatalan."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Bisakah saya membatalkan ADT secara online?",
+        "answer": "Tidak. Hanya melalui telepon di 1-800-238-2727."
+      },
+      {
+        "question": "Berapa biaya pemutusan awal?",
+        "answer": "75% dari saldo kontrak yang tersisa."
+      }
+    ]
+  },
+  "curology": {
+    "description": "Curology adalah layanan perawatan kulit yang dipersonalisasi ($29,95-$39,95/bulan). Batalkan melalui pengaturan akun atau dukungan obrolan.",
+    "difficulty": "Sedang",
+    "difficultyReason": "Pembatalan harus dilakukan 48 jam sebelum tanggal pemrosesan. Dukungan obrolan mungkin diperlukan.",
+    "refundPolicy": "Jeda hingga 3 bulan memungkinkan. Tidak ada pengembalian dana otomatis.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka curology.com/account dan masuk."
+          },
+          {
+            "instruction": "Cari opsi Batalkan langganan."
+          },
+          {
+            "instruction": "Jika tidak ada tombol, gunakan dukungan obrolan."
+          },
+          {
+            "instruction": "Batalkan setidaknya 48 jam sebelum tanggal pemrosesan berikutnya.",
+            "note": "Mencegah tagihan yang tidak diinginkan."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Buka curology.com/account di browser karena aplikasi tidak mendukung pembatalan."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Buka curology.com/account di browser karena aplikasi tidak mendukung pembatalan."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Bisakah saya menjeda daripada membatalkan?",
+        "answer": "Ya, Curology mengizinkan jeda hingga 3 bulan."
+      },
+      {
+        "question": "Seberapa jauh sebelumnya saya harus membatalkan?",
+        "answer": "Setidaknya 48 jam sebelum tanggal pemrosesan berikutnya."
+      }
+    ]
+  },
+  "starz": {
+    "description": "Starz adalah layanan streaming premium ($9,99/bulan). Pelanggan langsung membatalkan melalui situs web; lainnya melalui platform mereka.",
+    "difficulty": "Mudah",
+    "difficultyReason": "Opsi pembatalan jelas untuk pelanggan langsung. Pelanggan platform membatalkan di platform masing-masing.",
+    "refundPolicy": "Tidak ada akses pro-rata; berlanjut hingga akhir periode penagihan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka starz.com/account/subscription dan masuk."
+          },
+          {
+            "instruction": "Klik Batalkan (hanya untuk pelanggan langsung)."
+          },
+          {
+            "instruction": "Konfirmasi pembatalan."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Pengaturan iPhone, nama Anda, Langganan, Starz, Batalkan."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profil, Pembayaran dan langganan, Starz, Batalkan."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Saya berlangganan melalui Amazon/Apple/Roku. Di mana membatalkan?",
+        "answer": "Melalui platform tempat Anda berlangganan, bukan melalui starz.com."
+      },
+      {
+        "question": "Kapan akses saya berakhir?",
+        "answer": "Di akhir periode penagihan saat ini."
+      }
+    ]
+  },
+  "shudder": {
+    "description": "Shudder adalah layanan streaming horor ($5,99/bulan). Pembatalan mudah melalui situs web atau pengaturan perangkat.",
+    "difficulty": "Mudah",
+    "difficultyReason": "Opsi pembatalan jelas di pengaturan akun.",
+    "refundPolicy": "Daftar tontonan Anda tetap tersimpan setelah pembatalan.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka shudder.com/account dan masuk."
+          },
+          {
+            "instruction": "Klik Batalkan keanggotaan."
+          },
+          {
+            "instruction": "Konfirmasi pembatalan."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Pengaturan iPhone, nama Anda, Langganan, Shudder, Batalkan."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profil, Pembayaran dan langganan, Shudder, Batalkan."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Saya berlangganan melalui Amazon. Di mana membatalkan?",
+        "answer": "Melalui Amazon Prime Video Channels, bukan melalui shudder.com."
+      },
+      {
+        "question": "Apakah daftar tontonan saya tersimpan?",
+        "answer": "Ya, daftar tontonan tetap tersimpan setelah pembatalan."
+      }
+    ]
+  },
+  "discovery-plus": {
+    "description": "Discovery+ adalah layanan streaming non-fiksi ($4,99-$8,99/bulan). Pembatalan mudah melalui situs web atau pengaturan perangkat.",
+    "difficulty": "Mudah",
+    "difficultyReason": "Opsi pembatalan jelas untuk pelanggan langsung.",
+    "refundPolicy": "Tidak ada akses pro-rata; berlanjut hingga akhir periode penagihan. Tidak termasuk konten Max/HBO.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Buka discoveryplus.com/account dan masuk."
+          },
+          {
+            "instruction": "Klik Batalkan langganan."
+          },
+          {
+            "instruction": "Konfirmasi pembatalan."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Pengaturan iPhone, nama Anda, Langganan, Discovery+, Batalkan."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profil, Pembayaran dan langganan, Discovery+, Batalkan."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Saya berlangganan melalui Amazon. Di mana membatalkan?",
+        "answer": "Melalui Amazon Prime Video Channels, bukan melalui discoveryplus.com."
+      },
+      {
+        "question": "Apakah Discovery+ menyertakan konten HBO?",
+        "answer": "Tidak. Discovery+ tidak menyertakan konten Max/HBO."
+      }
+    ]
   }
 }

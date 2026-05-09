@@ -3992,5 +3992,507 @@
         "answer": "Chewy 以出色的客戶服務聞名。有任何問題請聯絡客服。"
       }
     ]
+  },
+  "noom": {
+    "description": "Noom 是一個體重管理教練計畫（每月59-209美元）。取消需要透過應用程式內聊天或 web.noom.com/settings。",
+    "difficulty": "困難",
+    "difficultyReason": "沒有自助取消按鈕。會提供留客優惠。因不透明帳單慣例而收到FTC投訴。",
+    "refundPolicy": "14天試用期只需0.50-1美元。請在試用期內取消以避免收費。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 web.noom.com/settings 並登入。"
+          },
+          {
+            "instruction": "尋找訂閱管理或取消選項。"
+          },
+          {
+            "instruction": "若無取消按鈕，請使用應用程式內聊天支援。"
+          },
+          {
+            "instruction": "明確要求客服人員取消您的訂閱。",
+            "note": "預期會有留客優惠。請堅持您的決定。"
+          },
+          {
+            "instruction": "等待電子郵件確認。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "開啟 Noom 應用程式並點選個人資料圖示。"
+          },
+          {
+            "instruction": "點選設定，然後聯絡聊天支援。"
+          },
+          {
+            "instruction": "請求取消您的訂閱。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "開啟 Noom 應用程式並點選個人資料圖示。"
+          },
+          {
+            "instruction": "點選設定，然後聯絡聊天支援。"
+          },
+          {
+            "instruction": "請求取消您的訂閱。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "有取消按鈕嗎？",
+        "answer": "沒有。必須透過應用程式內聊天或 web.noom.com/settings 請求取消。"
+      },
+      {
+        "question": "14天試用期是怎麼回事？",
+        "answer": "費用為0.50-1美元。請在試用期內取消以避免全額訂閱費用。"
+      }
+    ]
+  },
+  "masterclass": {
+    "description": "MasterClass 是一個線上學習平台（每年計費，每月10美元）。可輕鬆透過網站取消。",
+    "difficulty": "簡單",
+    "difficultyReason": "帳戶設定中有清楚的取消選項，沒有留客手段。",
+    "refundPolicy": "年度方案享有30天退款保證。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 masterclass.com 並登入。"
+          },
+          {
+            "instruction": "導覽至帳戶，然後管理會員資格。"
+          },
+          {
+            "instruction": "點選取消會員資格。"
+          },
+          {
+            "instruction": "依照指示確認取消。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone 設定 → 您的姓名 → 訂閱 → MasterClass → 取消訂閱。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play 商店 → 個人資料 → 付款與訂閱 → 訂閱 → MasterClass → 取消。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我能獲得退款嗎？",
+        "answer": "可以，年度方案有30天退款保證。"
+      },
+      {
+        "question": "我會立即失去存取權嗎？",
+        "answer": "不會，存取權持續到計費週期結束。"
+      }
+    ]
+  },
+  "skillshare": {
+    "description": "Skillshare 是一個創意學習平台（每月14美元）。可輕鬆透過網站或裝置設定取消。",
+    "difficulty": "簡單",
+    "difficultyReason": "帳戶設定中有清楚的取消選項。",
+    "refundPolicy": "年度方案享有7天退款期限。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 skillshare.com/account/membership 並登入。"
+          },
+          {
+            "instruction": "點選取消會員資格。"
+          },
+          {
+            "instruction": "可能會提供暫停選項。若要取消請拒絕。"
+          },
+          {
+            "instruction": "確認取消。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone 設定 → 您的姓名 → 訂閱 → Skillshare → 取消。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play 商店 → 個人資料 → 付款與訂閱 → 訂閱 → Skillshare → 取消。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我可以暫停而非取消嗎？",
+        "answer": "可以，Skillshare 在取消過程中提供暫停選項。"
+      },
+      {
+        "question": "可以退款嗎？",
+        "answer": "年度方案在續訂後有7天退款期限。"
+      }
+    ]
+  },
+  "chegg": {
+    "description": "Chegg Study 是一個作業輔助服務（每月14.95-19.95美元）。可透過網站或行動瀏覽器取消。",
+    "difficulty": "中等",
+    "difficultyReason": "可透過網站取消，但沒有暫停功能且需要多個步驟。",
+    "refundPolicy": "無自動退款。請查看取消確認電子郵件。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 chegg.com/account 並登入。"
+          },
+          {
+            "instruction": "點選訂閱。"
+          },
+          {
+            "instruction": "點選取消訂閱並依照指示操作。"
+          },
+          {
+            "instruction": "查看電子郵件確認取消。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Chegg 訂閱不透過 App Store 管理。"
+          },
+          {
+            "instruction": "開啟瀏覽器前往 chegg.com/account 取消。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Chegg 訂閱不透過 Google Play 管理。"
+          },
+          {
+            "instruction": "開啟瀏覽器前往 chegg.com/account 取消。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我可以暫停 Chegg 嗎？",
+        "answer": "不行，Chegg 不提供暫停功能。"
+      },
+      {
+        "question": "如何確認取消？",
+        "answer": "您將收到電子郵件確認。也請查看垃圾郵件資料夾。"
+      }
+    ]
+  },
+  "scribd": {
+    "description": "Scribd 是書籍和有聲書訂閱服務（每月11.99美元）。可輕鬆在帳戶設定中取消。",
+    "difficulty": "簡單",
+    "difficultyReason": "付款設定中有清楚的取消選項。",
+    "refundPolicy": "計費週期結束時失去書籍和有聲書存取權。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 scribd.com/account-settings/payments 並登入。"
+          },
+          {
+            "instruction": "點選取消訂閱。"
+          },
+          {
+            "instruction": "確認取消。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone 設定 → 您的姓名 → 訂閱 → Scribd → 取消。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play 商店 → 個人資料 → 付款與訂閱 → 訂閱 → Scribd → 取消。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我可以暫停訂閱嗎？",
+        "answer": "可以，Scribd 提供2個月暫停選項。"
+      },
+      {
+        "question": "取消後我會立即失去存取權嗎？",
+        "answer": "存取權在目前計費週期結束時終止。"
+      }
+    ]
+  },
+  "adt": {
+    "description": "ADT 安全監控（每月28.99-59.99美元）只能透過電話取消。通常為36個月合約。",
+    "difficulty": "困難",
+    "difficultyReason": "僅能透過電話取消。提前終止費用高昂。",
+    "refundPolicy": "提前終止將收取剩餘合約金額75%的費用。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "無法線上取消。請使用電話管道。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "ADT 應用程式無法取消訂閱。請撥打 1-800-238-2727。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "ADT 應用程式無法取消訂閱。請撥打 1-800-238-2727。"
+          }
+        ]
+      },
+      "phone": {
+        "steps": [
+          {
+            "instruction": "撥打 1-800-238-2727。"
+          },
+          {
+            "instruction": "請求取消您的服務。"
+          },
+          {
+            "instruction": "詢問提前終止費用。",
+            "note": "將收取剩餘合約金額75%的費用。"
+          },
+          {
+            "instruction": "替代方案：搬家時轉移服務而非取消。"
+          },
+          {
+            "instruction": "請求書面取消確認。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我可以線上取消 ADT 嗎？",
+        "answer": "不行。只能透過電話 1-800-238-2727 取消。"
+      },
+      {
+        "question": "提前終止費用是多少？",
+        "answer": "剩餘合約金額的75%。"
+      }
+    ]
+  },
+  "curology": {
+    "description": "Curology 是個人化護膚服務（每月29.95-39.95美元）。可透過帳戶設定或聊天支援取消。",
+    "difficulty": "中等",
+    "difficultyReason": "必須在處理日期前48小時取消。可能需要聊天支援。",
+    "refundPolicy": "可暫停最多3個月。無自動退款。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 curology.com/account 並登入。"
+          },
+          {
+            "instruction": "尋找取消訂閱選項。"
+          },
+          {
+            "instruction": "若無按鈕，請使用聊天支援。"
+          },
+          {
+            "instruction": "至少在下次處理日期前48小時取消。",
+            "note": "避免不必要的扣款。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "在瀏覽器開啟 curology.com/account，因為應用程式不支援取消。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "在瀏覽器開啟 curology.com/account，因為應用程式不支援取消。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我可以暫停而非取消嗎？",
+        "answer": "可以，Curology 允許暫停最多3個月。"
+      },
+      {
+        "question": "需要提前多久取消？",
+        "answer": "至少在下次處理日期前48小時。"
+      }
+    ]
+  },
+  "starz": {
+    "description": "Starz 是頂級串流服務（每月9.99美元）。直接訂閱者透過網站取消；其他人透過各自平台取消。",
+    "difficulty": "簡單",
+    "difficultyReason": "直接訂閱者有清楚的取消選項。平台訂閱者在各自平台取消。",
+    "refundPolicy": "無按比例退款；持續到計費週期結束。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 starz.com/account/subscription 並登入。"
+          },
+          {
+            "instruction": "點選取消（僅限直接訂閱者）。"
+          },
+          {
+            "instruction": "確認取消。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone 設定 → 您的姓名 → 訂閱 → Starz → 取消。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play 商店 → 個人資料 → 付款與訂閱 → 訂閱 → Starz → 取消。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我透過 Amazon/Apple/Roku 訂閱。在哪裡取消？",
+        "answer": "透過您訂閱的平台取消，不是透過 starz.com。"
+      },
+      {
+        "question": "我的存取權何時結束？",
+        "answer": "在目前計費週期結束時。"
+      }
+    ]
+  },
+  "shudder": {
+    "description": "Shudder 是恐怖片串流服務（每月5.99美元）。可輕鬆透過網站或裝置設定取消。",
+    "difficulty": "簡單",
+    "difficultyReason": "帳戶設定中有清楚的取消選項。",
+    "refundPolicy": "取消後觀看清單仍會保留。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 shudder.com/account 並登入。"
+          },
+          {
+            "instruction": "點選取消會員資格。"
+          },
+          {
+            "instruction": "確認取消。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone 設定 → 您的姓名 → 訂閱 → Shudder → 取消。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play 商店 → 個人資料 → 付款與訂閱 → 訂閱 → Shudder → 取消。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我透過 Amazon 訂閱。在哪裡取消？",
+        "answer": "透過 Amazon Prime Video Channels 取消，不是透過 shudder.com。"
+      },
+      {
+        "question": "我的觀看清單會被保存嗎？",
+        "answer": "是的，取消後觀看清單仍會保留。"
+      }
+    ]
+  },
+  "discovery-plus": {
+    "description": "Discovery+ 是非虛構內容串流服務（每月4.99-8.99美元）。可輕鬆透過網站或裝置設定取消。",
+    "difficulty": "簡單",
+    "difficultyReason": "直接訂閱者有清楚的取消選項。",
+    "refundPolicy": "無按比例退款；持續到計費週期結束。不包含 Max/HBO 內容。",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "前往 discoveryplus.com/account 並登入。"
+          },
+          {
+            "instruction": "點選取消訂閱。"
+          },
+          {
+            "instruction": "確認取消。"
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone 設定 → 您的姓名 → 訂閱 → Discovery+ → 取消。"
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play 商店 → 個人資料 → 付款與訂閱 → 訂閱 → Discovery+ → 取消。"
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "我透過 Amazon 訂閱。在哪裡取消？",
+        "answer": "透過 Amazon Prime Video Channels 取消，不是透過 discoveryplus.com。"
+      },
+      {
+        "question": "Discovery+ 包含 HBO 內容嗎？",
+        "answer": "不包含。Discovery+ 不含 Max/HBO 內容。"
+      }
+    ]
   }
 }

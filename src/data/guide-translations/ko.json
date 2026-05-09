@@ -3802,5 +3802,507 @@
         "answer": "Chewy는 우수한 고객 서비스로 유명합니다. 문제가 있으면 지원팀에 문의하세요."
       }
     ]
+  },
+  "noom": {
+    "description": "Noom은 체중 감량 코칭 프로그램입니다(월 59~209달러). 취소는 앱 내 채팅 또는 web.noom.com/settings를 통해야 합니다.",
+    "difficulty": "어려움",
+    "difficultyReason": "셀프서비스 취소 버튼 없음. 유지 오퍼가 제공됩니다. 불분명한 청구 관행으로 FTC 민원이 있습니다.",
+    "refundPolicy": "14일 무료 체험(0.50~1달러). 청구를 피하려면 체험 기간 내에 취소하세요.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "web.noom.com/settings에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "구독 관리 또는 취소 옵션을 찾습니다."
+          },
+          {
+            "instruction": "취소 버튼이 없으면 앱 내 채팅 지원을 이용합니다."
+          },
+          {
+            "instruction": "상담원에게 구독 취소를 명확히 요청합니다.",
+            "note": "유지 오퍼가 있을 수 있습니다. 결정을 지키세요."
+          },
+          {
+            "instruction": "이메일 확인을 기다립니다."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Noom 앱을 열고 프로필 아이콘을 탭합니다."
+          },
+          {
+            "instruction": "설정 → 채팅 지원 문의를 탭합니다."
+          },
+          {
+            "instruction": "구독 취소를 요청합니다."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Noom 앱을 열고 프로필 아이콘을 탭합니다."
+          },
+          {
+            "instruction": "설정 → 채팅 지원 문의를 탭합니다."
+          },
+          {
+            "instruction": "구독 취소를 요청합니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "취소 버튼이 있나요?",
+        "answer": "아니요. 앱 내 채팅 또는 web.noom.com/settings를 통해 취소를 요청해야 합니다."
+      },
+      {
+        "question": "14일 체험 기간은 어떻게 되나요?",
+        "answer": "0.50~1달러가 청구됩니다. 전액 청구를 피하려면 체험 기간 내에 취소하세요."
+      }
+    ]
+  },
+  "masterclass": {
+    "description": "MasterClass는 온라인 학습 플랫폼입니다(연간 결제 시 월 10달러). 웹사이트에서 쉽게 취소할 수 있습니다.",
+    "difficulty": "쉬움",
+    "difficultyReason": "유지 전략 없이 계정 설정에 명확한 취소 옵션이 있습니다.",
+    "refundPolicy": "연간 플랜에 30일 환불 보장이 있습니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "masterclass.com에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "계정 → 멤버십 관리로 이동합니다."
+          },
+          {
+            "instruction": "멤버십 취소를 클릭합니다."
+          },
+          {
+            "instruction": "안내를 따라 취소를 확인합니다."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone 설정 → 이름 → 구독 → MasterClass → 구독 취소를 탭합니다."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play 스토어 → 프로필 → 결제 및 구독 → 구독 → MasterClass → 취소를 탭합니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "환불받을 수 있나요?",
+        "answer": "예, 연간 플랜에는 30일 환불 보장이 있습니다."
+      },
+      {
+        "question": "즉시 이용이 불가능해지나요?",
+        "answer": "아니요, 청구 기간 종료까지 이용 가능합니다."
+      }
+    ]
+  },
+  "skillshare": {
+    "description": "Skillshare는 창의적 학습 플랫폼입니다(월 14달러). 웹 또는 기기 설정에서 쉽게 취소할 수 있습니다.",
+    "difficulty": "쉬움",
+    "difficultyReason": "계정 설정에 명확한 취소 옵션이 있습니다.",
+    "refundPolicy": "연간 플랜에 7일 환불 기간이 있습니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "skillshare.com/account/membership에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "멤버십 취소를 클릭합니다."
+          },
+          {
+            "instruction": "일시정지 제안이 있을 수 있습니다. 취소를 원하면 거절합니다."
+          },
+          {
+            "instruction": "취소를 확인합니다."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone 설정 → 이름 → 구독 → Skillshare → 취소를 탭합니다."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play 스토어 → 프로필 → 결제 및 구독 → 구독 → Skillshare → 취소를 탭합니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "취소 대신 일시정지할 수 있나요?",
+        "answer": "예, Skillshare는 취소 과정에서 일시정지 옵션을 제공합니다."
+      },
+      {
+        "question": "환불이 가능한가요?",
+        "answer": "연간 플랜은 갱신 후 7일 환불 기간이 있습니다."
+      }
+    ]
+  },
+  "chegg": {
+    "description": "Chegg Study는 숙제 도움 서비스입니다(월 14.95~19.95달러). 웹 또는 모바일 브라우저에서 취소할 수 있습니다.",
+    "difficulty": "보통",
+    "difficultyReason": "웹에서 취소 가능하지만 일시정지 기능이 없고 여러 단계가 필요합니다.",
+    "refundPolicy": "자동 환불 없음. 취소 확인 이메일을 확인하세요.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "chegg.com/account에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "구독을 클릭합니다."
+          },
+          {
+            "instruction": "구독 취소를 클릭하고 안내를 따릅니다."
+          },
+          {
+            "instruction": "취소 확인 이메일을 확인합니다."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Chegg 구독은 앱 스토어에서 관리되지 않습니다."
+          },
+          {
+            "instruction": "브라우저에서 chegg.com/account에 접속하여 취소합니다."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Chegg 구독은 Google Play에서 관리되지 않습니다."
+          },
+          {
+            "instruction": "브라우저에서 chegg.com/account에 접속하여 취소합니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Chegg를 일시정지할 수 있나요?",
+        "answer": "아니요, Chegg는 일시정지 기능을 제공하지 않습니다."
+      },
+      {
+        "question": "취소를 어떻게 확인하나요?",
+        "answer": "확인 이메일이 발송됩니다. 스팸 폴더도 확인하세요."
+      }
+    ]
+  },
+  "scribd": {
+    "description": "Scribd는 책과 오디오북 구독 서비스입니다(월 11.99달러). 계정 설정에서 쉽게 취소할 수 있습니다.",
+    "difficulty": "쉬움",
+    "difficultyReason": "결제 설정에 명확한 취소 옵션이 있습니다.",
+    "refundPolicy": "책과 오디오북 이용은 청구 기간 종료 시 끝납니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "scribd.com/account-settings/payments에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "구독 취소를 클릭합니다."
+          },
+          {
+            "instruction": "취소를 확인합니다."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone 설정 → 이름 → 구독 → Scribd → 취소를 탭합니다."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play 스토어 → 프로필 → 결제 및 구독 → 구독 → Scribd → 취소를 탭합니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "구독을 일시정지할 수 있나요?",
+        "answer": "예, Scribd는 2개월 일시정지 옵션을 제공합니다."
+      },
+      {
+        "question": "취소 후 즉시 이용이 불가능해지나요?",
+        "answer": "현재 청구 기간 종료 시 이용이 끝납니다."
+      }
+    ]
+  },
+  "adt": {
+    "description": "ADT 보안 모니터링(월 28.99~59.99달러)은 전화로만 취소할 수 있습니다. 일반적인 36개월 계약입니다.",
+    "difficulty": "어려움",
+    "difficultyReason": "전화로만 취소 가능합니다. 조기 해지 수수료가 높습니다.",
+    "refundPolicy": "조기 해지 시 남은 계약 잔액의 75%가 수수료로 부과됩니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "온라인 취소는 불가능합니다. 전화 채널을 이용하세요."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "ADT 앱으로는 취소할 수 없습니다. 1-800-238-2727로 전화하세요."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "ADT 앱으로는 취소할 수 없습니다. 1-800-238-2727로 전화하세요."
+          }
+        ]
+      },
+      "phone": {
+        "steps": [
+          {
+            "instruction": "1-800-238-2727로 전화합니다."
+          },
+          {
+            "instruction": "서비스 취소를 요청합니다."
+          },
+          {
+            "instruction": "조기 해지 수수료에 대해 문의합니다.",
+            "note": "남은 계약 잔액의 75%가 부과됩니다."
+          },
+          {
+            "instruction": "대안: 이사 시 취소 대신 서비스 이전을 고려합니다."
+          },
+          {
+            "instruction": "취소 확인서를 서면으로 요청합니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "ADT를 온라인으로 취소할 수 있나요?",
+        "answer": "아니요. 1-800-238-2727로 전화로만 취소 가능합니다."
+      },
+      {
+        "question": "조기 해지 비용은 얼마인가요?",
+        "answer": "남은 계약 잔액의 75%가 청구됩니다."
+      }
+    ]
+  },
+  "curology": {
+    "description": "Curology는 맞춤형 스킨케어 서비스입니다(월 29.95~39.95달러). 계정 설정 또는 채팅 지원으로 취소할 수 있습니다.",
+    "difficulty": "보통",
+    "difficultyReason": "처리 날짜 48시간 전에 취소해야 합니다. 채팅 지원이 필요할 수 있습니다.",
+    "refundPolicy": "최대 3개월 일시정지 가능. 자동 환불 없음.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "curology.com/account에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "구독 취소 옵션을 찾습니다."
+          },
+          {
+            "instruction": "버튼이 없으면 채팅 지원을 이용합니다."
+          },
+          {
+            "instruction": "다음 처리 날짜 최소 48시간 전에 취소합니다.",
+            "note": "원치 않는 청구를 방지합니다."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "앱에서는 취소할 수 없으므로 브라우저에서 curology.com/account를 엽니다."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "앱에서는 취소할 수 없으므로 브라우저에서 curology.com/account를 엽니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "취소 대신 일시정지할 수 있나요?",
+        "answer": "예, Curology는 최대 3개월 일시정지를 허용합니다."
+      },
+      {
+        "question": "얼마나 미리 취소해야 하나요?",
+        "answer": "다음 처리 날짜 최소 48시간 전입니다."
+      }
+    ]
+  },
+  "starz": {
+    "description": "Starz는 프리미엄 스트리밍 서비스입니다(월 9.99달러). 직접 가입자는 웹에서, 플랫폼 가입자는 해당 플랫폼에서 취소합니다.",
+    "difficulty": "쉬움",
+    "difficultyReason": "직접 가입자를 위한 명확한 취소 옵션이 있습니다. 플랫폼 가입자는 해당 플랫폼에서 취소합니다.",
+    "refundPolicy": "일할 계산 환불 없음. 청구 기간 종료까지 이용 가능합니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "starz.com/account/subscription에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "취소를 클릭합니다(직접 가입자만)."
+          },
+          {
+            "instruction": "취소를 확인합니다."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone 설정 → 이름 → 구독 → Starz → 취소를 탭합니다."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play 스토어 → 프로필 → 결제 및 구독 → 구독 → Starz → 취소를 탭합니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Amazon/Apple/Roku로 가입했습니다. 어디서 취소하나요?",
+        "answer": "가입한 플랫폼에서 취소하세요. starz.com에서가 아닙니다."
+      },
+      {
+        "question": "이용이 언제 종료되나요?",
+        "answer": "현재 청구 기간 종료 시입니다."
+      }
+    ]
+  },
+  "shudder": {
+    "description": "Shudder는 공포 스트리밍 서비스입니다(월 5.99달러). 웹 또는 기기 설정에서 쉽게 취소할 수 있습니다.",
+    "difficulty": "쉬움",
+    "difficultyReason": "계정 설정에 명확한 취소 옵션이 있습니다.",
+    "refundPolicy": "취소 후에도 시청 목록이 보존됩니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "shudder.com/account에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "멤버십 취소를 클릭합니다."
+          },
+          {
+            "instruction": "취소를 확인합니다."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone 설정 → 이름 → 구독 → Shudder → 취소를 탭합니다."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play 스토어 → 프로필 → 결제 및 구독 → 구독 → Shudder → 취소를 탭합니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Amazon으로 가입했습니다. 어디서 취소하나요?",
+        "answer": "shudder.com이 아닌 Amazon Prime Video Channels에서 취소하세요."
+      },
+      {
+        "question": "시청 목록이 저장되나요?",
+        "answer": "예, 취소 후에도 시청 목록이 보존됩니다."
+      }
+    ]
+  },
+  "discovery-plus": {
+    "description": "Discovery+는 논픽션 스트리밍 서비스입니다(월 4.99~8.99달러). 웹 또는 기기 설정에서 쉽게 취소할 수 있습니다.",
+    "difficulty": "쉬움",
+    "difficultyReason": "직접 가입자를 위한 명확한 취소 옵션이 있습니다.",
+    "refundPolicy": "일할 계산 환불 없음. 청구 기간 종료까지 계속됩니다. Max/HBO 콘텐츠 포함되지 않습니다.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "discoveryplus.com/account에 접속하여 로그인합니다."
+          },
+          {
+            "instruction": "구독 취소를 클릭합니다."
+          },
+          {
+            "instruction": "취소를 확인합니다."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone 설정 → 이름 → 구독 → Discovery+ → 취소를 탭합니다."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play 스토어 → 프로필 → 결제 및 구독 → 구독 → Discovery+ → 취소를 탭합니다."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Amazon으로 가입했습니다. 어디서 취소하나요?",
+        "answer": "discoveryplus.com이 아닌 Amazon Prime Video Channels에서 취소하세요."
+      },
+      {
+        "question": "Discovery+에 HBO 콘텐츠가 포함되나요?",
+        "answer": "아니요. Discovery+에는 Max/HBO 콘텐츠가 포함되지 않습니다."
+      }
+    ]
   }
 }

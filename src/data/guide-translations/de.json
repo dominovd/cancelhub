@@ -3961,5 +3961,513 @@
         "answer": "Chewy ist fuer seinen exzellenten Kundenservice bekannt. Bei Problemen einfach den Support kontaktieren."
       }
     ]
+  },
+  "noom": {
+    "description": "Noom ist ein Gewichtsverlust-Coaching-Programm (59-209 $/Monat). Kuendigung erfordert In-App-Chat oder web.noom.com/settings.",
+    "difficulty": "Schwer",
+    "difficultyReason": "Kein Self-Service-Kuendigungsbutton. Bindungsangebote werden gemacht. FTC-Beschwerden wegen unklarer Abrechnungspraktiken.",
+    "refundPolicy": "14-Tage-Test fuer 0,50-1 $. Innerhalb des Tests kuendigen, um Kosten zu vermeiden.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu web.noom.com/settings und melde dich an."
+          },
+          {
+            "instruction": "Suche die Option zur Abonnementverwaltung oder -kuendigung."
+          },
+          {
+            "instruction": "Wenn kein Kuendigungsbutton sichtbar, nutze den In-App-Chat-Support."
+          },
+          {
+            "instruction": "Bitte den Support-Mitarbeiter ausdruecklich um die Kuendigung.",
+            "note": "Erwarte Bindungsangebote. Bleib bei deiner Entscheidung."
+          },
+          {
+            "instruction": "Warte auf eine Bestaetigung per E-Mail."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Oeffne die Noom App und tippe auf das Profil-Symbol."
+          },
+          {
+            "instruction": "Tippe auf Einstellungen und kontaktiere den Chat-Support."
+          },
+          {
+            "instruction": "Fordere die Kuendigung deines Abonnements an."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Oeffne die Noom App und tippe auf das Profil-Symbol."
+          },
+          {
+            "instruction": "Tippe auf Einstellungen und kontaktiere den Chat-Support."
+          },
+          {
+            "instruction": "Fordere die Kuendigung deines Abonnements an."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Gibt es einen Kuendigungsbutton?",
+        "answer": "Nein. Kuendigung muss per In-App-Chat oder web.noom.com/settings beantragt werden."
+      },
+      {
+        "question": "Was ist mit der 14-Tage-Testversion?",
+        "answer": "Kostet 0,50-1 $. Innerhalb des Tests kuendigen, um die volle Abo-Gebuehr zu vermeiden."
+      }
+    ]
+  },
+  "masterclass": {
+    "description": "MasterClass ist eine Online-Lernplattform (10 $/Monat, jaehrlich). Kuendigung einfach ueber die Website.",
+    "difficulty": "Einfach",
+    "difficultyReason": "Klare Kuendigungsoption in den Kontoeinstellungen ohne Haltetaktiken.",
+    "refundPolicy": "30-Tage-Geld-zurueck-Garantie fuer Jahresplaene.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu masterclass.com und melde dich an."
+          },
+          {
+            "instruction": "Navigiere zu Konto und dann Mitgliedschaft verwalten."
+          },
+          {
+            "instruction": "Klicke auf Mitgliedschaft kuendigen."
+          },
+          {
+            "instruction": "Folge den Anweisungen und bestatige."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Oeffne iPhone-Einstellungen, tippe auf deinen Namen und dann Abonnements."
+          },
+          {
+            "instruction": "Waehle MasterClass und tippe auf Abonnement kuendigen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Oeffne Google Play Store, Profil, Zahlungen und Abonnements, Abonnements."
+          },
+          {
+            "instruction": "Waehle MasterClass und tippe auf Abonnement kuendigen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Erhalte ich eine Erstattung?",
+        "answer": "Ja, Jahresplaene haben eine 30-Tage-Geld-zurueck-Garantie."
+      },
+      {
+        "question": "Verliere ich sofort den Zugang?",
+        "answer": "Nein, der Zugang laeuft bis zum Ende des Abrechnungszeitraums."
+      }
+    ]
+  },
+  "skillshare": {
+    "description": "Skillshare ist eine kreative Lernplattform (14 $/Monat). Kuendigung einfach ueber Website oder Geraeteeinstellungen.",
+    "difficulty": "Einfach",
+    "difficultyReason": "Klare Kuendigungsoption in den Kontoeinstellungen.",
+    "refundPolicy": "7-Tage-Erstattungsfenster fuer Jahresplaene.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu skillshare.com/account/membership und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf Mitgliedschaft kuendigen."
+          },
+          {
+            "instruction": "Moeglicherweise wird eine Pause angeboten. Ablehnen, wenn du kuendigen moechtest."
+          },
+          {
+            "instruction": "Bestatige die Kuendigung."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone-Einstellungen, deinen Namen, Abonnements, Skillshare, Kuendigen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profil, Zahlungen und Abonnements, Abonnements, Skillshare, Kuendigen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kann ich pausieren statt kuendigen?",
+        "answer": "Ja, Skillshare bietet beim Kuendigungsvorgang eine Pause an."
+      },
+      {
+        "question": "Gibt es eine Erstattung?",
+        "answer": "Jahresplaene haben ein 7-Tage-Erstattungsfenster nach Verlaengerung."
+      }
+    ]
+  },
+  "chegg": {
+    "description": "Chegg Study ist ein Nachhilfe-Dienst (14,95-19,95 $/Monat). Kuendigung im Web oder per Browser auf dem Handy.",
+    "difficulty": "Mittel",
+    "difficultyReason": "Kuendigung im Web moeglich, aber keine Pausenfunktion und mehrere Schritte erforderlich.",
+    "refundPolicy": "Keine automatischen Erstattungen. Kuendigungsbestaetigung per E-Mail pruefen.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu chegg.com/account und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf Abonnements."
+          },
+          {
+            "instruction": "Klicke auf Abonnement kuendigen und folge den Anweisungen."
+          },
+          {
+            "instruction": "Pruefe deine E-Mail auf die Kuendigungsbestaetigung."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Chegg-Abonnements werden nicht ueber den App Store verwaltet."
+          },
+          {
+            "instruction": "Oeffne den Browser und gehe zu chegg.com/account."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Chegg-Abonnements werden nicht ueber Google Play verwaltet."
+          },
+          {
+            "instruction": "Oeffne den Browser und gehe zu chegg.com/account."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kann ich Chegg pausieren?",
+        "answer": "Nein, Chegg bietet keine Pausenfunktion an."
+      },
+      {
+        "question": "Wie bestatige ich die Kuendigung?",
+        "answer": "Du erhaeltst eine Bestaetigung per E-Mail. Auch Spam-Ordner pruefen."
+      }
+    ]
+  },
+  "scribd": {
+    "description": "Scribd ist ein Abo-Dienst fuer Buecher und Hoerbuecher (11,99 $/Monat). Kuendigung einfach in den Kontoeinstellungen.",
+    "difficulty": "Einfach",
+    "difficultyReason": "Klare Kuendigungsoption in den Zahlungseinstellungen.",
+    "refundPolicy": "Zugang zu Buechern und Hoerbuechern endet mit dem Abrechnungszeitraum.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu scribd.com/account-settings/payments und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf Abonnement kuendigen."
+          },
+          {
+            "instruction": "Bestatige die Kuendigung."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone-Einstellungen, deinen Namen, Abonnements, Scribd, Kuendigen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profil, Zahlungen und Abonnements, Abonnements, Scribd, Kuendigen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kann ich das Abonnement pausieren?",
+        "answer": "Ja, Scribd bietet eine 2-Monats-Pause-Option an."
+      },
+      {
+        "question": "Verliere ich den Zugang sofort?",
+        "answer": "Der Zugang endet am Ende des aktuellen Abrechnungszeitraums."
+      }
+    ]
+  },
+  "adt": {
+    "description": "ADT Sicherheitsmonitoring (28,99-59,99 $/Monat) nur per Telefon kuendigbar. Typischer 36-Monats-Vertrag.",
+    "difficulty": "Schwer",
+    "difficultyReason": "Nur telefonische Kuendigung. Hohe Gebuehr bei vorzeitiger Vertragsaufloesung.",
+    "refundPolicy": "Vorzeitige Kuendigung kostet 75 % des verbleibenden Vertragsguthabens.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Online-Kuendigung nicht verfuegbar. Bitte telefonisch kuendigen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Die ADT-App kann nicht kuendigen. Ruf 1-800-238-2727 an."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Die ADT-App kann nicht kuendigen. Ruf 1-800-238-2727 an."
+          }
+        ]
+      },
+      "phone": {
+        "steps": [
+          {
+            "instruction": "Ruf 1-800-238-2727 an."
+          },
+          {
+            "instruction": "Bitte um die Kuendigung deines Dienstes."
+          },
+          {
+            "instruction": "Frage nach den Kuendigungsgebuehren.",
+            "note": "75 % des verbleibenden Vertragsguthabens werden faellig."
+          },
+          {
+            "instruction": "Alternativ: Dienst bei Umzug uebertragen statt kuendigen."
+          },
+          {
+            "instruction": "Lass dir die Kuendigung schriftlich bestaetigen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kann ich ADT online kuendigen?",
+        "answer": "Nein. Nur per Telefon unter 1-800-238-2727."
+      },
+      {
+        "question": "Was kostet die vorzeitige Kuendigung?",
+        "answer": "75 % des verbleibenden Vertragsguthabens."
+      }
+    ]
+  },
+  "curology": {
+    "description": "Curology ist personalisierte Hautpflege (29,95-39,95 $/Monat). Kuendigung per Kontoeinstellungen oder Chat-Support.",
+    "difficulty": "Mittel",
+    "difficultyReason": "Kuendigung muss 48 Stunden vor Verarbeitungsdatum erfolgen. Chat-Support kann noetig sein.",
+    "refundPolicy": "Bis zu 3 Monate Pause moeglich. Keine automatischen Erstattungen.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu curology.com/account und melde dich an."
+          },
+          {
+            "instruction": "Suche die Option Abonnement kuendigen."
+          },
+          {
+            "instruction": "Falls kein Button, nutze den Chat-Support."
+          },
+          {
+            "instruction": "Kuendige mindestens 48 Stunden vor dem naechsten Verarbeitungsdatum.",
+            "note": "Verhindert unerwuenschte Belastungen."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "Oeffne curology.com/account im Browser, da die App keine Kuendigung erlaubt."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Oeffne curology.com/account im Browser, da die App keine Kuendigung erlaubt."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Kann ich pausieren statt kuendigen?",
+        "answer": "Ja, bis zu 3 Monate Pause moeglich."
+      },
+      {
+        "question": "Wie fruehzeitig muss ich kuendigen?",
+        "answer": "Mindestens 48 Stunden vor dem naechsten Verarbeitungsdatum."
+      }
+    ]
+  },
+  "starz": {
+    "description": "Starz ist ein Premium-Streamingdienst (9,99 $/Monat). Direktabonnenten kuendigen per Website; andere ueber ihre Plattform.",
+    "difficulty": "Einfach",
+    "difficultyReason": "Klare Kuendigungsoption fuer Direktabonnenten. Plattform-Abonnenten kuendigen ueber ihre Plattform.",
+    "refundPolicy": "Kein anteiliger Zugang; laeuft bis zum Ende des Abrechnungszeitraums.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu starz.com/account/subscription und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf Kuendigen (nur Direktabonnenten)."
+          },
+          {
+            "instruction": "Bestatige die Kuendigung."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone-Einstellungen, deinen Namen, Abonnements, Starz, Kuendigen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profil, Zahlungen und Abonnements, Abonnements, Starz, Kuendigen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ich habe ueber Amazon/Apple/Roku abonniert. Wo kuendige ich?",
+        "answer": "Ueber die jeweilige Plattform, nicht ueber starz.com."
+      },
+      {
+        "question": "Wann endet mein Zugang?",
+        "answer": "Am Ende des aktuellen Abrechnungszeitraums."
+      }
+    ]
+  },
+  "shudder": {
+    "description": "Shudder ist ein Horror-Streamingdienst (5,99 $/Monat). Kuendigung einfach per Website oder Geraeteeinstellungen.",
+    "difficulty": "Einfach",
+    "difficultyReason": "Klare Kuendigungsoption in den Kontoeinstellungen.",
+    "refundPolicy": "Deine Merkliste bleibt nach der Kuendigung erhalten.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu shudder.com/account und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf Mitgliedschaft kuendigen."
+          },
+          {
+            "instruction": "Bestatige die Kuendigung."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone-Einstellungen, deinen Namen, Abonnements, Shudder, Kuendigen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profil, Zahlungen und Abonnements, Abonnements, Shudder, Kuendigen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ich habe ueber Amazon abonniert. Wo kuendige ich?",
+        "answer": "Ueber Amazon Prime Video Channels, nicht ueber shudder.com."
+      },
+      {
+        "question": "Bleibt meine Merkliste gespeichert?",
+        "answer": "Ja, die Merkliste bleibt nach der Kuendigung erhalten."
+      }
+    ]
+  },
+  "discovery-plus": {
+    "description": "Discovery+ ist ein Non-Fiction-Streamingdienst (4,99-8,99 $/Monat). Kuendigung einfach per Website oder Geraeteeinstellungen.",
+    "difficulty": "Einfach",
+    "difficultyReason": "Klare Kuendigungsoption fuer Direktabonnenten.",
+    "refundPolicy": "Kein anteiliger Zugang; laeuft bis Ende des Abrechnungszeitraums. Kein Max/HBO-Inhalt.",
+    "platforms": {
+      "web": {
+        "steps": [
+          {
+            "instruction": "Gehe zu discoveryplus.com/account und melde dich an."
+          },
+          {
+            "instruction": "Klicke auf Abonnement kuendigen."
+          },
+          {
+            "instruction": "Bestatige die Kuendigung."
+          }
+        ]
+      },
+      "ios": {
+        "steps": [
+          {
+            "instruction": "iPhone-Einstellungen, deinen Namen, Abonnements, Discovery+, Kuendigen."
+          }
+        ]
+      },
+      "android": {
+        "steps": [
+          {
+            "instruction": "Google Play Store, Profil, Zahlungen und Abonnements, Abonnements, Discovery+, Kuendigen."
+          }
+        ]
+      }
+    },
+    "commonIssues": [
+      {
+        "question": "Ich habe ueber Amazon abonniert. Wo kuendige ich?",
+        "answer": "Ueber Amazon Prime Video Channels, nicht ueber discoveryplus.com."
+      },
+      {
+        "question": "Enthaelt Discovery+ HBO-Inhalte?",
+        "answer": "Nein. Discovery+ enthaelt keine Max/HBO-Inhalte."
+      }
+    ]
   }
 }
