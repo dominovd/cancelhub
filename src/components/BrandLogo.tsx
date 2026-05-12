@@ -1,12 +1,13 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { brandIconSlug, brandIconUrl } from '@/lib/brandIcon'
+import { brandIconSlug, brandIconUrl, brandInitial } from '@/lib/brandIcon'
 
 interface BrandLogoProps {
   /** Guide slug (e.g. 'netflix', 'apple-tv-plus'). */
   slug: string
-  /** Accessible label — usually the service name. Empty string keeps it decorative. */
+  /** Service name — used for the initial fallback and as alt text when alt is empty. */
+  service?: string
   alt?: string
   /** Pixel size (square). Defaults to 20. */
   size?: number
@@ -14,15 +15,21 @@ interface BrandLogoProps {
 }
 
 /**
- * Brand logo rendered via the simple-icons CDN.
- * Swaps to a light fill in dark mode for logos whose default is near-black.
+ * Brand logo rendered via the simple-icons CDN with a graceful initial-box
+ * fallback when the icon is missing.
  */
-export function BrandLogo({ slug, alt = '', size = 20, className = '' }: BrandLogoProps) {
-  // Initial src uses light variant — the theme bootstrap script runs before
-  // hydration so dark-mode overrides are applied on first effect.
-  const [src, setSrc] = useState(() => brandIconUrl(slug, 'light'))
+export function BrandLogo({ slug, service, alt, size = 20, className = '' }: BrandLogoProps) {
+  const mappedSlug = brandIconSlug(slug)
+  const skipFetch = mappedSlug === null
+
+  // src is null when we already know the brand isn't in simple-icons.
+  const [src, setSrc] = useState<string | null>(() =>
+    skipFetch ? null : brandIconUrl(slug, 'light')
+  )
+  const [failed, setFailed] = useState(skipFetch)
 
   useEffect(() => {
+    if (skipFetch) return
     const apply = () => {
       const theme = document.documentElement.getAttribute('data-theme')
       const resolved: 'light' | 'dark' =
@@ -31,6 +38,7 @@ export function BrandLogo({ slug, alt = '', size = 20, className = '' }: BrandLo
           ? 'dark'
           : 'light'
       setSrc(brandIconUrl(slug, resolved))
+      setFailed(false) // give the new URL a chance on theme change
     }
     apply()
 
@@ -47,20 +55,50 @@ export function BrandLogo({ slug, alt = '', size = 20, className = '' }: BrandLo
       observer.disconnect()
       mq.removeEventListener('change', apply)
     }
-  }, [slug])
+  }, [slug, skipFetch])
+
+  // Fallback: hairline square with service initial. Same physical footprint
+  // as the icon so list rows don't reflow.
+  if (failed || !src) {
+    const initial = brandInitial(service ?? slug)
+    return (
+      <span
+        aria-label={alt || service || slug}
+        className={className}
+        style={{
+          display: 'inline-flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          width: size,
+          height: size,
+          fontSize: Math.max(9, Math.round(size * 0.42)),
+          letterSpacing: '-0.02em',
+          color: 'var(--ink-2)',
+          border: '1px solid var(--rule-strong)',
+          borderRadius: 4,
+          flexShrink: 0,
+          fontWeight: 500,
+          fontFamily: 'inherit',
+        }}
+      >
+        {initial}
+      </span>
+    )
+  }
 
   return (
-    // simple-icons returns SVGs which next/image cannot optimise — using plain <img> is correct.
+    // simple-icons returns SVGs which next/image cannot optimise.
     // eslint-disable-next-line @next/next/no-img-element
     <img
       src={src}
-      alt={alt}
+      alt={alt ?? service ?? ''}
       width={size}
       height={size}
       loading="lazy"
+      onError={() => setFailed(true)}
       className={className}
       style={{ objectFit: 'contain', flexShrink: 0 }}
-      data-brand-slug={brandIconSlug(slug)}
+      data-brand-slug={mappedSlug}
     />
   )
 }

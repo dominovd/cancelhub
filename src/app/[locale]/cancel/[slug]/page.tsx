@@ -94,7 +94,7 @@ export default async function GuidePage({
 
         {/* Title with logo */}
         <div className="flex items-start gap-5 mb-3">
-          <BrandLogo slug={guide.slug} alt={guide.service} size={36} className="mt-2" />
+          <BrandLogo slug={guide.slug} service={guide.service} alt={guide.service} size={36} className="mt-2" />
           <h1
             className="text-[34px] sm:text-[38px] leading-[1.05] flex-1 min-w-0"
             style={{ fontWeight: 500, letterSpacing: '-0.018em' }}
@@ -182,7 +182,7 @@ export default async function GuidePage({
                     className="group grid items-center gap-5 py-[14px] border-b border-rule hover:opacity-90 transition-opacity"
                     style={{ gridTemplateColumns: '24px 1fr auto 20px' }}
                   >
-                    <BrandLogo slug={altSlug} alt={alt.name} size={20} />
+                    <BrandLogo slug={altSlug} service={alt.name} alt={alt.name} size={20} />
                     <span className="text-[15px] ink">{alt.name}</span>
                     <span className="text-[12px] ink-2 truncate max-w-[24ch]">
                       {alt.description}

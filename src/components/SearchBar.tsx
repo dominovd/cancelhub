@@ -65,7 +65,7 @@ export function SearchBar({ guides, locale }: SearchBarProps) {
               }}
               className="w-full flex items-center gap-3 px-4 py-3 hover:bg-paper-2 text-left transition-colors border-b border-rule last:border-0"
             >
-              <BrandLogo slug={g.slug} alt={g.service} size={18} />
+              <BrandLogo slug={g.slug} service={g.service} alt={g.service} size={18} />
               <div className="flex-1 min-w-0">
                 <p className="text-[14px] ink truncate" style={{ fontWeight: 500 }}>
                   {t('resultLabel', { service: g.service })}

@@ -72,7 +72,7 @@ export default async function HomePage({
                   className="group grid items-center gap-5 py-[14px] border-b border-rule hover:opacity-90 transition-opacity"
                   style={{ gridTemplateColumns: '24px 1fr auto 20px' }}
                 >
-                  <BrandLogo slug={guide.slug} alt={guide.service} size={20} />
+                  <BrandLogo slug={guide.slug} service={guide.service} alt={guide.service} size={20} />
                   <span className="text-[15px] ink truncate">{guide.service}</span>
                   <DifficultyBadge difficulty={guide.difficulty} shortLabel />
                   <span className="ink-3 text-[14px] opacity-40 group-hover:opacity-100 transition-opacity">→</span>
