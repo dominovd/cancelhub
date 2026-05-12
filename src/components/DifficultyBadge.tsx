@@ -3,21 +3,43 @@
 import { useTranslations } from 'next-intl'
 import { Difficulty } from '@/types/guide'
 
-const config: Record<Difficulty, { color: string; icon: string }> = {
-  easy: { color: 'bg-green-100 text-green-700 border-green-200', icon: '✓' },
-  medium: { color: 'bg-yellow-100 text-yellow-700 border-yellow-200', icon: '~' },
-  hard: { color: 'bg-red-100 text-red-700 border-red-200', icon: '✗' },
+const DOT_COUNT_BY_DIFFICULTY: Record<Difficulty, number> = {
+  easy: 1,
+  medium: 2,
+  hard: 3,
 }
 
-export function DifficultyBadge({ difficulty, reason }: { difficulty: Difficulty; reason?: string }) {
+interface DifficultyBadgeProps {
+  difficulty: Difficulty
+  reason?: string
+  /** Show just the word, e.g. "easy" — defaults to the i18n label */
+  shortLabel?: boolean
+}
+
+/**
+ * Three-dot progress indicator + label.
+ * Filled dots take the semantic color (--c-easy/medium/hard); the label
+ * stays in neutral ink-2 so it doesn't shout.
+ */
+export function DifficultyBadge({ difficulty, reason, shortLabel = false }: DifficultyBadgeProps) {
   const t = useTranslations('difficulty')
-  const { color, icon } = config[difficulty]
+  const filled = DOT_COUNT_BY_DIFFICULTY[difficulty]
+  const label = shortLabel ? difficulty : t(difficulty)
+
   return (
     <span
       title={reason}
-      className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-semibold border ${color} cursor-default`}
+      className={`diff--${difficulty} inline-flex items-center gap-1.5 text-[12px] ink-2 cursor-default`}
     >
-      <span>{icon}</span> {t(difficulty)}
+      <span className="inline-flex items-center gap-[3px]">
+        {[0, 1, 2].map((i) => (
+          <span
+            key={i}
+            className={`diff-dot ${i < filled ? 'diff-dot--on' : ''}`}
+          />
+        ))}
+      </span>
+      <span>{label}</span>
     </span>
   )
 }

@@ -1,25 +1,35 @@
 'use client'
 
+import { useState } from 'react'
 import { useTranslations } from 'next-intl'
 
 export function WaitlistForm() {
   const t = useTranslations('home')
+  const [submitted, setSubmitted] = useState(false)
 
   return (
     <form
-      className="flex gap-2 max-w-sm mx-auto"
-      onSubmit={(e) => e.preventDefault()}
+      className="flex items-center gap-3 max-w-md"
+      onSubmit={(e) => {
+        e.preventDefault()
+        setSubmitted(true)
+      }}
     >
       <input
         type="email"
+        required
         placeholder={t('waitlistPlaceholder')}
-        className="flex-1 px-4 py-2.5 rounded-xl bg-gray-800 border border-gray-700 text-sm text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500"
+        disabled={submitted}
+        className="flex-1 bg-transparent ink text-[14px] py-2 border-0 border-b border-rule-strong focus:outline-none focus:border-[var(--ink)] transition-colors placeholder:ink-3"
+        style={{ borderBottomWidth: 1, borderRadius: 0 }}
       />
       <button
         type="submit"
-        className="px-5 py-2.5 bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold rounded-xl transition-colors"
+        disabled={submitted}
+        className="text-[13px] py-2 px-4 border border-[var(--ink)] ink bg-transparent hover:bg-[var(--ink)] hover:text-[var(--bg)] transition-colors disabled:opacity-60 disabled:cursor-default"
+        style={{ borderRadius: 0, fontWeight: 500 }}
       >
-        {t('waitlistButton')}
+        {submitted ? '✓' : t('waitlistButton')}
       </button>
     </form>
   )

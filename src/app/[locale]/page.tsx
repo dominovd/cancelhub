@@ -6,6 +6,7 @@ import { canonicalUrl, hreflangAlternates } from '@/config/seo'
 import { SearchBar } from '@/components/SearchBar'
 import { DifficultyBadge } from '@/components/DifficultyBadge'
 import { WaitlistForm } from '@/components/WaitlistForm'
+import { BrandLogo } from '@/components/BrandLogo'
 
 export async function generateMetadata({
   params: { locale },
@@ -35,98 +36,93 @@ export default async function HomePage({
   return (
     <div className="min-h-screen">
       {/* Hero */}
-      <section className="bg-white border-b border-gray-100 py-16 px-4">
-        <div className="max-w-3xl mx-auto text-center">
-          <p className="text-sm font-semibold text-blue-600 uppercase tracking-widest mb-4">
-            {t('badge')}
-          </p>
-          <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-900 leading-tight mb-4">
-            {t('title')}
-          </h1>
-          <p className="text-lg text-gray-500 mb-10 max-w-xl mx-auto">
-            {t('subtitle')}
-          </p>
-          <SearchBar guides={allGuides} locale={locale} />
+      <section className="max-w-3xl mx-auto px-6 pt-20 pb-14">
+        <h1
+          className="text-[40px] sm:text-[44px] leading-[1.05] mb-5 text-balance"
+          style={{ fontWeight: 500, letterSpacing: '-0.02em' }}
+        >
+          {t('title')}
+        </h1>
+        <p className="text-[16px] ink-2 leading-[1.55] max-w-[34ch] mb-10">
+          {t('subtitle')}
+        </p>
 
-          {/* Stats */}
-          <div className="flex items-center justify-center gap-8 mt-10 text-sm text-gray-400">
-            <div className="text-center">
-              <p className="text-2xl font-bold text-gray-900">{allGuides.length}</p>
-              <p>{t('statsGuides')}</p>
-            </div>
-            <div className="w-px h-8 bg-gray-200" />
-            <div className="text-center">
-              <p className="text-2xl font-bold text-gray-900">100%</p>
-              <p>{t('statsFree')}</p>
-            </div>
-            <div className="w-px h-8 bg-gray-200" />
-            <div className="text-center">
-              <p className="text-2xl font-bold text-gray-900">3</p>
-              <p>{t('statsPlatforms')}</p>
-            </div>
-          </div>
-        </div>
+        <SearchBar guides={allGuides} locale={locale} />
+
+        <p className="text-[12px] ink-3 mt-3">
+          {allGuides.length} {t('statsGuides').toLowerCase()} ·{' '}
+          <a href="#dark-patterns" className="underline underline-offset-2 hover:ink transition-colors">
+            {t('darkPatternBadge').toLowerCase()}
+          </a>
+        </p>
       </section>
 
-      {/* Dark Pattern banner */}
-      <section className="bg-red-50 border-b border-red-100 py-5 px-4">
-        <div className="max-w-5xl mx-auto flex items-center justify-between gap-4 flex-wrap">
-          <div className="flex items-center gap-3">
-            <span className="text-2xl">🚨</span>
+      {/* Guides */}
+      <section id="guides" className="max-w-3xl mx-auto px-6 pb-20">
+        {categories.map(([category, guides], idx) => (
+          <div key={category} className={idx === 0 ? '' : 'mt-12'}>
+            <h2 className="text-[11px] ink-3 uppercase mb-2" style={{ letterSpacing: '0.18em' }}>
+              {category}
+            </h2>
             <div>
-              <p className="font-semibold text-red-800 text-sm">{t('darkPatternBadge')}</p>
-              <p className="text-red-600 text-xs">{t('darkPatternDesc')}</p>
+              {guides.map((guide) => (
+                <Link
+                  key={guide.slug}
+                  href={`/${locale}/cancel/${guide.slug}`}
+                  className="group grid items-center gap-5 py-[14px] border-b border-rule hover:opacity-90 transition-opacity"
+                  style={{ gridTemplateColumns: '24px 1fr auto 20px' }}
+                >
+                  <BrandLogo slug={guide.slug} alt={guide.service} size={20} />
+                  <span className="text-[15px] ink truncate">{guide.service}</span>
+                  <DifficultyBadge difficulty={guide.difficulty} shortLabel />
+                  <span className="ink-3 text-[14px] opacity-40 group-hover:opacity-100 transition-opacity">→</span>
+                </Link>
+              ))}
             </div>
           </div>
+        ))}
+      </section>
+
+      {/* Dark patterns — inline essay note instead of red banner */}
+      <section id="dark-patterns" className="border-y border-rule">
+        <div className="max-w-3xl mx-auto px-6 py-12">
+          <p
+            className="text-[11px] ink-3 uppercase mb-3"
+            style={{ letterSpacing: '0.18em' }}
+          >
+            {t('darkPatternBadge')}
+          </p>
+          <p className="text-[16px] ink-2 leading-[1.6] max-w-[60ch]">
+            {t('darkPatternDesc')}
+          </p>
           <Link
             href={`/${locale}/cancel`}
-            className="text-xs font-semibold text-red-700 hover:text-red-900 border border-red-200 px-3 py-1.5 rounded-full transition-colors whitespace-nowrap"
+            className="inline-block mt-5 text-[13px] ink hover:opacity-80 transition-opacity"
+            style={{ borderBottom: '1px solid currentColor', paddingBottom: 2 }}
           >
             {t('darkPatternLink')}
           </Link>
         </div>
       </section>
 
-      {/* Guides by category */}
-      <section className="max-w-5xl mx-auto px-4 py-14">
-        <h2 className="text-2xl font-bold text-gray-900 mb-8">{t('browseTitle')}</h2>
-        <div className="space-y-10">
-          {categories.map(([category, guides]) => (
-            <div key={category}>
-              <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-widest mb-4">
-                {category}
-              </h3>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-                {guides.map((guide) => (
-                  <Link
-                    key={guide.slug}
-                    href={`/${locale}/cancel/${guide.slug}`}
-                    className="group flex items-center gap-4 p-4 bg-white rounded-2xl border border-gray-200 hover:border-blue-300 hover:shadow-md transition-all"
-                  >
-                    <span className="text-3xl">{guide.logo}</span>
-                    <div className="flex-1 min-w-0">
-                      <p className="font-semibold text-gray-900 text-sm group-hover:text-blue-600 transition-colors">
-                        {guide.service}
-                      </p>
-                      <DifficultyBadge difficulty={guide.difficulty} />
-                    </div>
-                    <span className="text-gray-300 group-hover:text-blue-400 transition-colors">→</span>
-                  </Link>
-                ))}
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* Waitlist */}
-      <section id="about" className="bg-gray-900 text-white py-14 px-4">
-        <div className="max-w-xl mx-auto text-center">
-          <p className="text-3xl mb-4">✂️</p>
-          <h2 className="text-2xl font-bold mb-3">{t('waitlistTitle')}</h2>
-          <p className="text-gray-400 mb-6">{t('waitlistDesc')}</p>
-          <WaitlistForm />
-        </div>
+      {/* Waitlist — same paper, separated by hairline */}
+      <section id="about" className="max-w-3xl mx-auto px-6 py-16">
+        <p
+          className="text-[11px] ink-3 uppercase mb-3"
+          style={{ letterSpacing: '0.18em' }}
+        >
+          {t('waitlistTitle')}
+        </p>
+        <h2
+          className="text-[22px] mb-3"
+          style={{ fontWeight: 500, letterSpacing: '-0.012em' }}
+        >
+          {t('waitlistTitle')}
+        </h2>
+        <p className="text-[14px] ink-2 leading-[1.6] max-w-[48ch] mb-6">
+          {t('waitlistDesc')}
+        </p>
+        <WaitlistForm />
       </section>
     </div>
   )

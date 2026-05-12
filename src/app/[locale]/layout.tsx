@@ -30,6 +30,10 @@ export const metadata: Metadata = {
   },
 }
 
+// Runs before paint to apply persisted theme. Avoids a light-mode flash for
+// users who picked dark. Inlined so it executes synchronously.
+const themeBootstrap = `(function(){try{var t=localStorage.getItem('theme');if(t==='dark'||t==='light'){document.documentElement.setAttribute('data-theme',t);}}catch(e){}})();`
+
 export default async function LocaleLayout({
   children,
   params: { locale },
@@ -45,6 +49,9 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} dir={dir} className={geistSans.variable}>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: themeBootstrap }} />
+      </head>
       <body className="font-sans">
         <NextIntlClientProvider messages={messages}>
           <Header locale={locale} />

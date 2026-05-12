@@ -1,0 +1,523 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>CancelHub — minimal prototype</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    /* Light palette */
+    --ink: #0a0a0a;
+    --ink-2: #525252;
+    --ink-3: #a3a3a3;
+    --rule: #e5e5e5;
+    --rule-strong: #d4d4d4;
+    --bg: #ffffff;
+    --bg-2: #fafafa;
+    --header-bg: rgba(255, 255, 255, 0.85);
+    /* Semantic status — muted 700-stops for light theme */
+    --c-easy: #15803d;
+    --c-medium: #a16207;
+    --c-hard: #b91c1c;
+    color-scheme: light;
+  }
+  html[data-theme="dark"] {
+    /* Dark palette — off-black bg, off-white ink, hairline rules */
+    --ink: #f5f5f4;
+    --ink-2: #a1a1aa;
+    --ink-3: #6b6b73;
+    --rule: #232326;
+    --rule-strong: #3a3a3f;
+    --bg: #0b0b0c;
+    --bg-2: #141416;
+    --header-bg: rgba(11, 11, 12, 0.82);
+    /* 400-stops sit comfortably on dark bg without screaming */
+    --c-easy: #4ade80;
+    --c-medium: #facc15;
+    --c-hard: #f87171;
+    color-scheme: dark;
+  }
+  html, body { background: var(--bg); color: var(--ink); }
+  body { font-family: 'Inter', system-ui, -apple-system, Segoe UI, sans-serif; font-feature-settings: "cv11","ss01"; }
+  .h1 { font-weight: 500; letter-spacing: -0.02em; }
+  .h2 { font-weight: 500; letter-spacing: -0.012em; }
+  .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+  .rule { border-color: var(--rule); }
+  .rule-b { border-bottom: 1px solid var(--rule); }
+  .rule-t { border-top: 1px solid var(--rule); }
+  .ink-2 { color: var(--ink-2); }
+  .ink-3 { color: var(--ink-3); }
+  .header-bg { background: var(--header-bg); }
+  .search-line { border: 0; border-bottom: 1px solid var(--rule-strong); background: transparent; color: var(--ink); transition: border-color .15s; }
+  .search-line:focus { outline: none; border-bottom-color: var(--ink); }
+  .search-line::placeholder { color: var(--ink-3); }
+  .row { display: grid; grid-template-columns: 22px 1fr auto auto; align-items: center; gap: 18px; padding: 14px 0; border-bottom: 1px solid var(--rule); }
+  .row:last-child { border-bottom: 0; }
+  .row a { display: contents; }
+  .row:hover .row-arrow { transform: translateX(2px); opacity: 1; }
+  .row-arrow { opacity: .35; transition: all .15s; }
+  .brand { width: 20px; height: 20px; object-fit: contain; flex-shrink: 0; }
+  html[data-theme="dark"] .brand { opacity: 0.92; }
+  .brand-hero { width: 36px; height: 36px; object-fit: contain; flex-shrink: 0; }
+  .brand-fallback { width: 20px; height: 20px; border: 1px solid var(--rule-strong); border-radius: 4px; display: inline-flex; align-items: center; justify-content: center; font-size: 10px; font-weight: 500; color: var(--ink-2); }
+  .dot { display: inline-block; width: 5px; height: 5px; border-radius: 50%; background: var(--ink-3); margin-right: 3px; opacity: 0.45; }
+  .dot.on { background: var(--ink); opacity: 1; }
+  .diff { color: var(--ink-2); }
+  .diff-easy .dot.on { background: var(--c-easy); }
+  .diff-medium .dot.on { background: var(--c-medium); }
+  .diff-hard .dot.on { background: var(--c-hard); }
+  .btn { font-weight: 500; padding: 8px 14px; border: 1px solid var(--ink); border-radius: 0; background: transparent; color: var(--ink); transition: background .15s, color .15s; cursor: pointer; }
+  .btn:hover { background: var(--ink); color: var(--bg); }
+  .ghost { color: var(--ink); padding: 6px 0; border-bottom: 1px solid var(--ink); }
+  .ghost:hover { color: var(--ink-2); border-color: var(--ink-2); }
+  a { color: inherit; }
+  a:hover { color: var(--ink); }
+  .hover\:text-black:hover { color: var(--ink) !important; }
+  .view { display: none; }
+  .view.active { display: block; }
+  .switcher button { font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-3); padding: 4px 10px; border: 1px solid var(--rule); background: var(--bg); cursor: pointer; }
+  .switcher button.active { color: var(--ink); border-color: var(--ink); }
+  .step-num { font-variant-numeric: tabular-nums; color: var(--ink-3); }
+  .tab { font-size: 12px; padding: 6px 0; margin-right: 22px; color: var(--ink-3); border-bottom: 1px solid transparent; cursor: pointer; }
+  .tab.active { color: var(--ink); border-bottom-color: var(--ink); }
+  .kbd { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; padding: 1px 5px; border: 1px solid var(--rule-strong); border-radius: 3px; color: var(--ink-2); background: var(--bg-2); }
+</style>
+</head>
+<body>
+
+<!-- Floating prototype switcher -->
+<div class="fixed top-3 right-3 switcher flex gap-1 z-50">
+  <button data-view="home" class="active">Home</button>
+  <button data-view="guide">Guide</button>
+  <span style="width: 8px;"></span>
+  <button data-theme-toggle id="theme-toggle">Light</button>
+</div>
+
+<!-- ============================================================ -->
+<!-- HOME -->
+<!-- ============================================================ -->
+<section id="view-home" class="view active">
+
+  <header class="rule-b sticky top-0 header-bg backdrop-blur z-40">
+    <div class="max-w-3xl mx-auto px-6 h-14 flex items-center justify-between">
+      <a href="#" class="text-[15px] tracking-tight" style="font-weight: 500;">CancelHub</a>
+      <nav class="flex items-center gap-6 text-[13px] ink-2">
+        <a href="#guides" class="hover:text-black">Guides</a>
+        <a href="#about" class="hover:text-black">About</a>
+        <span class="ink-3">·</span>
+        <span class="mono text-[11px] ink-3">EN</span>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="max-w-3xl mx-auto px-6 pt-24 pb-16">
+    <h1 class="h1 text-[44px] leading-[1.05] mb-5">
+      How to cancel<br/>any subscription.
+    </h1>
+    <p class="text-[16px] ink-2 leading-[1.55] max-w-[34ch] mb-10">
+      Independent step-by-step guides for the 80 services that make leaving hardest. No ads. No upsell. No fluff.
+    </p>
+
+    <!-- Search -->
+    <label class="block">
+      <input
+        type="text"
+        placeholder="Search a service — Netflix, Adobe, Spotify…"
+        class="search-line w-full bg-transparent text-[15px] py-3 placeholder:text-[--ink-3]" />
+    </label>
+    <p class="text-[11px] ink-3 mt-2">
+      80 guides · last verified May 2026 · <a href="#dark" class="underline underline-offset-2 hover:text-black">read about dark patterns</a>
+    </p>
+  </section>
+
+  <!-- Guides -->
+  <section id="guides" class="max-w-3xl mx-auto px-6 pb-24">
+
+    <!-- Category: Streaming -->
+    <h2 class="text-[11px] ink-3 tracking-[0.18em] uppercase mb-2">Streaming</h2>
+    <div>
+      <div class="row">
+        <a href="#" onclick="showView('guide'); return false;">
+          <img class="brand" data-slug="netflix" alt="Netflix" />
+          <span class="text-[15px]">Netflix</span>
+          <span class="diff diff-easy text-[12px]"><span class="dot on"></span><span class="dot"></span><span class="dot"></span> easy</span>
+          <span class="row-arrow text-[14px] ink-3">→</span>
+        </a>
+      </div>
+      <div class="row">
+        <a href="#">
+          <img class="brand" data-slug="spotify" alt="Spotify" />
+          <span class="text-[15px]">Spotify Premium</span>
+          <span class="diff diff-easy text-[12px]"><span class="dot on"></span><span class="dot"></span><span class="dot"></span> easy</span>
+          <span class="row-arrow text-[14px] ink-3">→</span>
+        </a>
+      </div>
+      <div class="row">
+        <a href="#">
+          <img class="brand" data-slug="youtube" alt="YouTube" />
+          <span class="text-[15px]">YouTube Premium</span>
+          <span class="diff diff-medium text-[12px]"><span class="dot on"></span><span class="dot on"></span><span class="dot"></span> medium</span>
+          <span class="row-arrow text-[14px] ink-3">→</span>
+        </a>
+      </div>
+      <div class="row">
+        <a href="#">
+          <img class="brand" data-slug="disneyplus" alt="Disney+" />
+          <span class="text-[15px]">Disney+</span>
+          <span class="diff diff-easy text-[12px]"><span class="dot on"></span><span class="dot"></span><span class="dot"></span> easy</span>
+          <span class="row-arrow text-[14px] ink-3">→</span>
+        </a>
+      </div>
+      <div class="row">
+        <a href="#">
+          <img class="brand" data-slug="hulu" alt="Hulu" />
+          <span class="text-[15px]">Hulu</span>
+          <span class="diff diff-medium text-[12px]"><span class="dot on"></span><span class="dot on"></span><span class="dot"></span> medium</span>
+          <span class="row-arrow text-[14px] ink-3">→</span>
+        </a>
+      </div>
+      <div class="row">
+        <a href="#">
+          <img class="brand" data-slug="appletv" alt="Apple TV+" />
+          <span class="text-[15px]">Apple TV+</span>
+          <span class="diff diff-easy text-[12px]"><span class="dot on"></span><span class="dot"></span><span class="dot"></span> easy</span>
+          <span class="row-arrow text-[14px] ink-3">→</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Category: SaaS -->
+    <h2 class="text-[11px] ink-3 tracking-[0.18em] uppercase mt-12 mb-2">SaaS</h2>
+    <div>
+      <div class="row">
+        <a href="#">
+          <img class="brand" data-slug="adobecreativecloud" alt="Adobe Creative Cloud" />
+          <span class="text-[15px]">Adobe Creative Cloud</span>
+          <span class="diff diff-hard text-[12px]"><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span> hard</span>
+          <span class="row-arrow text-[14px] ink-3">→</span>
+        </a>
+      </div>
+      <div class="row">
+        <a href="#">
+          <img class="brand" data-slug="dropbox" alt="Dropbox" />
+          <span class="text-[15px]">Dropbox</span>
+          <span class="diff diff-medium text-[12px]"><span class="dot on"></span><span class="dot on"></span><span class="dot"></span> medium</span>
+          <span class="row-arrow text-[14px] ink-3">→</span>
+        </a>
+      </div>
+      <div class="row">
+        <a href="#">
+          <img class="brand" data-slug="linkedin" alt="LinkedIn" />
+          <span class="text-[15px]">LinkedIn Premium</span>
+          <span class="diff diff-medium text-[12px]"><span class="dot on"></span><span class="dot on"></span><span class="dot"></span> medium</span>
+          <span class="row-arrow text-[14px] ink-3">→</span>
+        </a>
+      </div>
+      <div class="row">
+        <a href="#">
+          <img class="brand" data-slug="microsoft365" alt="Microsoft 365" />
+          <span class="text-[15px]">Microsoft 365</span>
+          <span class="diff diff-easy text-[12px]"><span class="dot on"></span><span class="dot"></span><span class="dot"></span> easy</span>
+          <span class="row-arrow text-[14px] ink-3">→</span>
+        </a>
+      </div>
+      <div class="row">
+        <a href="#">
+          <img class="brand" data-slug="grammarly" alt="Grammarly" />
+          <span class="text-[15px]">Grammarly Premium</span>
+          <span class="diff diff-medium text-[12px]"><span class="dot on"></span><span class="dot on"></span><span class="dot"></span> medium</span>
+          <span class="row-arrow text-[14px] ink-3">→</span>
+        </a>
+      </div>
+      <div class="row">
+        <a href="#">
+          <img class="brand" data-slug="openai" alt="ChatGPT" />
+          <span class="text-[15px]">ChatGPT Plus</span>
+          <span class="diff diff-easy text-[12px]"><span class="dot on"></span><span class="dot"></span><span class="dot"></span> easy</span>
+          <span class="row-arrow text-[14px] ink-3">→</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Category: Fitness & wellness -->
+    <h2 class="text-[11px] ink-3 tracking-[0.18em] uppercase mt-12 mb-2">Fitness &amp; wellness</h2>
+    <div>
+      <div class="row">
+        <a href="#">
+          <img class="brand" data-slug="peloton" alt="Peloton" />
+          <span class="text-[15px]">Peloton</span>
+          <span class="diff diff-hard text-[12px]"><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span> hard</span>
+          <span class="row-arrow text-[14px] ink-3">→</span>
+        </a>
+      </div>
+      <div class="row">
+        <a href="#">
+          <img class="brand" data-slug="classpass" alt="ClassPass" />
+          <span class="text-[15px]">ClassPass</span>
+          <span class="diff diff-hard text-[12px]"><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span> hard</span>
+          <span class="row-arrow text-[14px] ink-3">→</span>
+        </a>
+      </div>
+      <div class="row">
+        <a href="#">
+          <img class="brand" data-slug="calm" alt="Calm" />
+          <span class="text-[15px]">Calm</span>
+          <span class="diff diff-easy text-[12px]"><span class="dot on"></span><span class="dot"></span><span class="dot"></span> easy</span>
+          <span class="row-arrow text-[14px] ink-3">→</span>
+        </a>
+      </div>
+      <div class="row">
+        <a href="#">
+          <img class="brand" data-slug="weightwatchers" alt="WeightWatchers" />
+          <span class="text-[15px]">WeightWatchers</span>
+          <span class="diff diff-hard text-[12px]"><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span> hard</span>
+          <span class="row-arrow text-[14px] ink-3">→</span>
+        </a>
+      </div>
+    </div>
+
+    <p class="text-[12px] ink-3 mt-12">
+      <a href="#" class="underline underline-offset-2 hover:text-black">See all 80 guides →</a>
+    </p>
+  </section>
+
+  <!-- Dark patterns essay-style note -->
+  <section id="dark" class="rule-t rule-b">
+    <div class="max-w-3xl mx-auto px-6 py-14">
+      <p class="text-[11px] ink-3 tracking-[0.18em] uppercase mb-3">A note on dark patterns</p>
+      <p class="text-[16px] leading-[1.6] ink-2 max-w-[60ch]">
+        Most subscription services don't ban cancellation — they bury it. Hidden menus, redirected flows, mandatory retention pages, support-chat-only paths. CancelHub scores every service on how hostile its exit is, and gives you the shortest path through.
+      </p>
+      <a href="#" class="ghost text-[13px] inline-block mt-5">See the worst offenders</a>
+    </div>
+  </section>
+
+  <!-- Waitlist (no dark block — same paper, separated by line) -->
+  <section class="max-w-3xl mx-auto px-6 py-20">
+    <p class="text-[11px] ink-3 tracking-[0.18em] uppercase mb-3">Coming soon</p>
+    <h2 class="h2 text-[22px] mb-3">One click. Any subscription. Cancelled.</h2>
+    <p class="text-[14px] ink-2 max-w-[48ch] mb-6">
+      We're building an app that handles the cancellation flow for you — including the chat agents, the retention loops, and the "are you sure?" pages. Sign up to hear when it ships.
+    </p>
+    <form class="flex items-center gap-3 max-w-md" onsubmit="event.preventDefault(); this.querySelector('button').textContent='✓ thanks';">
+      <input type="email" placeholder="you@email.com" class="search-line flex-1 bg-transparent text-[14px] py-2" />
+      <button type="submit" class="btn text-[13px]">Join waitlist</button>
+    </form>
+  </section>
+
+  <footer class="rule-t">
+    <div class="max-w-3xl mx-auto px-6 py-10 flex flex-wrap items-center justify-between gap-4 text-[12px] ink-3">
+      <span>CancelHub · independent &amp; ad-free</span>
+      <div class="flex items-center gap-5">
+        <a href="#" class="hover:text-black">Guides</a>
+        <a href="#" class="hover:text-black">About</a>
+        <a href="#" class="hover:text-black">Contact</a>
+        <span>© 2026</span>
+      </div>
+    </div>
+  </footer>
+</section>
+
+<!-- ============================================================ -->
+<!-- GUIDE (Netflix sample) -->
+<!-- ============================================================ -->
+<section id="view-guide" class="view">
+
+  <header class="rule-b sticky top-0 header-bg backdrop-blur z-40">
+    <div class="max-w-3xl mx-auto px-6 h-14 flex items-center justify-between">
+      <a href="#" onclick="showView('home'); return false;" class="text-[15px] tracking-tight" style="font-weight: 500;">CancelHub</a>
+      <nav class="flex items-center gap-6 text-[13px] ink-2">
+        <a href="#" onclick="showView('home'); return false;" class="hover:text-black">Guides</a>
+        <a href="#" class="hover:text-black">About</a>
+        <span class="ink-3">·</span>
+        <span class="mono text-[11px] ink-3">EN</span>
+      </nav>
+    </div>
+  </header>
+
+  <article class="max-w-2xl mx-auto px-6 pt-16 pb-24">
+
+    <!-- Breadcrumb / category -->
+    <p class="text-[11px] ink-3 mb-6">
+      <a href="#" onclick="showView('home'); return false;" class="hover:text-black">Guides</a>
+      <span class="mx-2">/</span>
+      <span>Streaming</span>
+    </p>
+
+    <!-- Title -->
+    <div class="flex items-start gap-5 mb-3">
+      <img class="brand-hero mt-2" data-slug="netflix" alt="Netflix" />
+      <h1 class="h1 text-[38px] leading-[1.05]">How to cancel Netflix</h1>
+    </div>
+    <p class="text-[16px] ink-2 leading-[1.6] max-w-[55ch] mb-8">
+      Three taps from any device. No phone call, no chat agent, no retention page. The cancellation takes effect at the end of your current billing cycle and you keep access until then.
+    </p>
+
+    <!-- Meta strip -->
+    <div class="rule-b rule-t py-3 flex flex-wrap items-center gap-x-8 gap-y-2 text-[12px] ink-2">
+      <span><span class="ink-3">Difficulty</span> &nbsp;<span class="diff diff-easy"><span class="dot on"></span><span class="dot"></span><span class="dot"></span>&nbsp; easy</span></span>
+      <span><span class="ink-3">Price</span> &nbsp;$6.99 – $24.99/mo</span>
+      <span><span class="ink-3">Refund</span> &nbsp;No partial refunds</span>
+      <span class="ml-auto ink-3">Verified May 8, 2026</span>
+    </div>
+
+    <!-- Platform tabs -->
+    <div class="mt-10 mb-6 rule-b flex items-center">
+      <span class="tab active">Web</span>
+      <span class="tab">iOS</span>
+      <span class="tab">Android</span>
+      <span class="tab">TV</span>
+    </div>
+
+    <!-- Steps -->
+    <ol class="space-y-7">
+      <li class="grid grid-cols-[28px_1fr] gap-4">
+        <span class="step-num text-[13px] mono mt-[3px]">01</span>
+        <div>
+          <p class="text-[15px] leading-[1.55]">Open <a href="#" class="underline underline-offset-2">netflix.com/account</a> in any browser and sign in.</p>
+        </div>
+      </li>
+      <li class="grid grid-cols-[28px_1fr] gap-4">
+        <span class="step-num text-[13px] mono mt-[3px]">02</span>
+        <div>
+          <p class="text-[15px] leading-[1.55]">Under <em class="not-italic" style="font-style:normal; font-weight: 500;">Membership &amp; Billing</em>, click <span class="kbd">Cancel Membership</span>.</p>
+        </div>
+      </li>
+      <li class="grid grid-cols-[28px_1fr] gap-4">
+        <span class="step-num text-[13px] mono mt-[3px]">03</span>
+        <div>
+          <p class="text-[15px] leading-[1.55]">Confirm with <span class="kbd">Finish Cancellation</span>. You'll see a confirmation screen and receive an email within a minute.</p>
+          <p class="text-[12px] ink-3 mt-2">Netflix will offer to pause your account for up to 3 months — you can decline and finish cancelling.</p>
+        </div>
+      </li>
+    </ol>
+
+    <!-- Refund / heads-up -->
+    <div class="rule-t mt-12 pt-8">
+      <p class="text-[11px] ink-3 tracking-[0.18em] uppercase mb-3">Heads up</p>
+      <p class="text-[15px] ink-2 leading-[1.6] max-w-[60ch]">
+        Netflix doesn't issue partial refunds for the current billing period. Cancel at least one day before your renewal date to avoid the next charge. Watch history is preserved for 10 months in case you return.
+      </p>
+    </div>
+
+    <!-- Common issues -->
+    <div class="rule-t mt-12 pt-8">
+      <p class="text-[11px] ink-3 tracking-[0.18em] uppercase mb-5">Common issues</p>
+      <div class="space-y-7">
+        <div>
+          <p class="text-[14px] mb-1" style="font-weight: 500;">I cancelled but I'm still being charged.</p>
+          <p class="text-[14px] ink-2 leading-[1.55] max-w-[60ch]">Your subscription may be billed through a third party — Apple, Google Play, T-Mobile, Verizon, or your cable provider. Cancellation has to happen wherever you originally subscribed. Check your billing receipts to find the source.</p>
+        </div>
+        <div>
+          <p class="text-[14px] mb-1" style="font-weight: 500;">My account was on a free trial — will I be charged?</p>
+          <p class="text-[14px] ink-2 leading-[1.55] max-w-[60ch]">Netflix no longer offers free trials in most countries. If you're on a promotional plan, cancellation prevents the next charge but doesn't reverse anything already paid.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Alternatives -->
+    <div class="rule-t mt-12 pt-8">
+      <p class="text-[11px] ink-3 tracking-[0.18em] uppercase mb-5">Alternatives</p>
+      <div>
+        <div class="row">
+          <a href="#">
+            <img class="brand" data-slug="tubi" alt="Tubi" />
+            <span class="text-[15px]">Tubi</span>
+            <span class="text-[12px] ink-2">free, ad-supported</span>
+            <span class="row-arrow text-[14px] ink-3">→</span>
+          </a>
+        </div>
+        <div class="row">
+          <a href="#">
+            <img class="brand" data-slug="plutotv" alt="Pluto TV" />
+            <span class="text-[15px]">Pluto TV</span>
+            <span class="text-[12px] ink-2">free, ad-supported</span>
+            <span class="row-arrow text-[14px] ink-3">→</span>
+          </a>
+        </div>
+        <div class="row">
+          <a href="#">
+            <img class="brand" data-slug="kanopy" alt="Kanopy" />
+            <span class="text-[15px]">Kanopy</span>
+            <span class="text-[12px] ink-2">free with library card</span>
+            <span class="row-arrow text-[14px] ink-3">→</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer nav -->
+    <div class="rule-t mt-12 pt-6 flex items-center justify-between text-[12px] ink-3">
+      <a href="#" onclick="showView('home'); return false;" class="hover:text-black">← All guides</a>
+      <span>Spotted something out of date? <a href="mailto:hello@cancelhub.app" class="underline underline-offset-2 hover:text-black">Tell us</a></span>
+    </div>
+  </article>
+
+  <footer class="rule-t">
+    <div class="max-w-3xl mx-auto px-6 py-10 flex flex-wrap items-center justify-between gap-4 text-[12px] ink-3">
+      <span>CancelHub · independent &amp; ad-free</span>
+      <div class="flex items-center gap-5">
+        <a href="#" class="hover:text-black">Guides</a>
+        <a href="#" class="hover:text-black">About</a>
+        <a href="#" class="hover:text-black">Contact</a>
+        <span>© 2026</span>
+      </div>
+    </div>
+  </footer>
+
+</section>
+
+<script>
+  function showView(name) {
+    document.querySelectorAll('.view').forEach(el => el.classList.remove('active'));
+    document.getElementById('view-' + name).classList.add('active');
+    document.querySelectorAll('.switcher button[data-view]').forEach(b => {
+      b.classList.toggle('active', b.dataset.view === name);
+    });
+    window.scrollTo({ top: 0, behavior: 'instant' });
+  }
+  document.querySelectorAll('.switcher button[data-view]').forEach(b => {
+    b.addEventListener('click', () => showView(b.dataset.view));
+  });
+
+  // Theme toggle
+  const html = document.documentElement;
+  const themeBtn = document.getElementById('theme-toggle');
+  function syncThemeBtn() {
+    const isDark = html.dataset.theme === 'dark';
+    themeBtn.textContent = isDark ? 'Light' : 'Dark';
+  }
+  syncThemeBtn();
+  themeBtn.addEventListener('click', () => {
+    html.dataset.theme = html.dataset.theme === 'dark' ? 'light' : 'dark';
+    syncThemeBtn();
+    paintBrands();
+  });
+
+  // Brand logos via simple-icons CDN.
+  // For brands whose default color is too dark for dark mode (or too light for light mode),
+  // override per-theme so they remain visible.
+  const BRAND_OVERRIDES = {
+    apple:  { dark: 'f5f5f4' },
+    appletv:{ dark: 'f5f5f4' },
+    openai: { dark: 'f5f5f4' },
+  };
+  function paintBrands() {
+    const theme = html.dataset.theme === 'dark' ? 'dark' : 'light';
+    document.querySelectorAll('img[data-slug]').forEach(img => {
+      const slug = img.dataset.slug;
+      const override = BRAND_OVERRIDES[slug] && BRAND_OVERRIDES[slug][theme];
+      const color = override ? '/' + override : '';
+      img.src = `https://cdn.simpleicons.org/${slug}${color}`;
+    });
+  }
+  paintBrands();
+</script>
+
+</body>
+</html>

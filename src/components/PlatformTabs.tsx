@@ -5,12 +5,6 @@ import { useTranslations } from 'next-intl'
 import { PlatformGuide } from '@/types/guide'
 import { InteractiveSteps } from './InteractiveSteps'
 
-const platformIcons: Record<string, string> = {
-  web: '🌐',
-  ios: '🍎',
-  android: '🤖',
-}
-
 export function PlatformTabs({ platforms }: { platforms: PlatformGuide[] }) {
   const t = useTranslations('guide')
   const [active, setActive] = useState(0)
@@ -18,18 +12,20 @@ export function PlatformTabs({ platforms }: { platforms: PlatformGuide[] }) {
 
   return (
     <div>
-      <div className="flex gap-1 mb-6 bg-gray-100 p-1 rounded-xl w-fit">
+      {/* Hairline-underline tabs */}
+      <div className="flex items-center border-b border-rule mb-8">
         {platforms.map((p, i) => (
           <button
             key={p.platform}
             onClick={() => setActive(i)}
-            className={`flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-all ${
-              active === i
-                ? 'bg-white text-gray-900 shadow-sm'
-                : 'text-gray-500 hover:text-gray-700'
+            className={`text-[13px] py-2 mr-6 transition-colors ${
+              active === i ? 'ink' : 'ink-3 hover:ink-2'
             }`}
+            style={{
+              borderBottom: active === i ? '1px solid var(--ink)' : '1px solid transparent',
+              marginBottom: -1,
+            }}
           >
-            <span>{platformIcons[p.platform] ?? '📱'}</span>
             {p.label}
           </button>
         ))}
@@ -40,9 +36,10 @@ export function PlatformTabs({ platforms }: { platforms: PlatformGuide[] }) {
           href={current.deepLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 mb-6 px-4 py-2.5 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium rounded-lg transition-colors"
+          className="inline-block mb-8 text-[13px] ink hover:opacity-80 transition-opacity"
+          style={{ borderBottom: '1px solid currentColor', paddingBottom: 2, fontWeight: 500 }}
         >
-          <span>→</span> {t('goToCancellationPage')}
+          {t('goToCancellationPage')} →
         </a>
       )}
 
