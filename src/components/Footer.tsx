@@ -12,24 +12,24 @@ export async function Footer({ locale = defaultLocale }: FooterProps) {
   const prefix = locale === defaultLocale ? '' : `/${locale}`
 
   return (
-    <footer className="border-t border-rule mt-20 py-10 text-[12px] ink-3">
+    <footer className="border-t border-rule mt-20 py-10 text-[12px] ink-2">
       <div className="max-w-3xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
-        <span>CancelHub · independent &amp; ad-free</span>
-        <p className="text-center max-w-md">{t('tagline')}</p>
+        <span className="ink-2">CancelHub · independent &amp; ad-free</span>
+        <p className="text-center max-w-md ink-3">{t('tagline')}</p>
         <div className="flex items-center gap-4 flex-wrap justify-center">
-          <Link href={`${prefix}/cancel`} className="hover:ink transition-colors">
+          <Link href={`${prefix}/cancel`} className="hover:accent transition-colors">
             {tNav('allGuides')}
           </Link>
           <span className="ink-3 opacity-50">·</span>
-          <Link href={`${prefix}/about`} className="hover:ink transition-colors">
+          <Link href={`${prefix}/about`} className="hover:accent transition-colors">
             {t('about')}
           </Link>
           <span className="ink-3 opacity-50">·</span>
-          <Link href={`${prefix}/contact`} className="hover:ink transition-colors">
+          <Link href={`${prefix}/contact`} className="hover:accent transition-colors">
             {t('contact')}
           </Link>
           <span className="ink-3 opacity-50">·</span>
-          <span>© {new Date().getFullYear()}</span>
+          <span className="ink-3">© {new Date().getFullYear()}</span>
         </div>
       </div>
     </footer>

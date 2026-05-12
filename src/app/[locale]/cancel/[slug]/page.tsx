@@ -81,11 +81,11 @@ export default async function GuidePage({
       <article className="max-w-2xl mx-auto px-6 pt-12 pb-20">
         {/* Breadcrumb */}
         <nav className="flex items-center gap-2 text-[12px] ink-3 mb-8">
-          <Link href={`/${params.locale}`} className="hover:ink transition-colors">
+          <Link href={`/${params.locale}`} className="hover:accent transition-colors">
             {tNav('home')}
           </Link>
           <span>/</span>
-          <Link href={`/${params.locale}/cancel`} className="hover:ink transition-colors">
+          <Link href={`/${params.locale}/cancel`} className="hover:accent transition-colors">
             {tNav('guides')}
           </Link>
           <span>/</span>
@@ -179,15 +179,15 @@ export default async function GuidePage({
                   <Link
                     key={alt.name}
                     href={alt.url}
-                    className="group grid items-center gap-5 py-[14px] border-b border-rule hover:opacity-90 transition-opacity"
+                    className="group grid items-center gap-5 py-[14px] border-b border-rule transition-colors"
                     style={{ gridTemplateColumns: '24px 1fr auto 20px' }}
                   >
-                    <BrandLogo slug={altSlug} service={alt.name} alt={alt.name} size={20} />
-                    <span className="text-[15px] ink">{alt.name}</span>
+                    <BrandLogo slug={altSlug} service={alt.name} alt={alt.name} size={22} />
+                    <span className="text-[15px] ink group-hover:accent transition-colors">{alt.name}</span>
                     <span className="text-[12px] ink-2 truncate max-w-[24ch]">
                       {alt.description}
                     </span>
-                    <span className="ink-3 text-[14px] opacity-40 group-hover:opacity-100 transition-opacity">→</span>
+                    <span className="text-[14px] ink-3 opacity-50 group-hover:opacity-100 group-hover:accent transition-all">→</span>
                   </Link>
                 )
               })}
@@ -199,7 +199,7 @@ export default async function GuidePage({
         <div className="border-t border-rule mt-12 pt-6 flex items-center justify-between flex-wrap gap-4 text-[12px] ink-3">
           <Link
             href={`/${params.locale}/cancel`}
-            className="hover:ink transition-colors"
+            className="hover:accent transition-colors"
           >
             {t('backLink')}
           </Link>
@@ -207,7 +207,7 @@ export default async function GuidePage({
             {t('reportLink')}{' '}
             <a
               href="mailto:hello@cancelhub.app"
-              className="underline underline-offset-2 hover:ink transition-colors"
+              className="underline underline-offset-2 hover:accent transition-colors ink-2"
             >
               {t('reportLinkSuffix')}
             </a>

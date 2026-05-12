@@ -49,7 +49,7 @@ export function SearchBar({ guides, locale }: SearchBarProps) {
         }}
         onFocus={() => setOpen(true)}
         aria-label={tHome('searchPlaceholder')}
-        className="w-full bg-transparent ink text-[15px] py-3 border-0 border-b border-rule-strong focus:outline-none focus:border-[var(--ink)] transition-colors placeholder:ink-3"
+        className="w-full bg-transparent ink text-[15px] py-3 border-0 border-b border-rule-strong focus:outline-none focus:border-[var(--accent)] transition-colors placeholder:text-[var(--ink-2)]"
         style={{ borderBottomWidth: 1, borderRadius: 0 }}
       />
 
@@ -63,16 +63,16 @@ export function SearchBar({ guides, locale }: SearchBarProps) {
                 setQuery('')
                 setOpen(false)
               }}
-              className="w-full flex items-center gap-3 px-4 py-3 hover:bg-paper-2 text-left transition-colors border-b border-rule last:border-0"
+              className="group w-full flex items-center gap-3 px-4 py-3 hover:bg-paper-2 text-left transition-colors border-b border-rule last:border-0"
             >
-              <BrandLogo slug={g.slug} service={g.service} alt={g.service} size={18} />
+              <BrandLogo slug={g.slug} service={g.service} alt={g.service} size={20} />
               <div className="flex-1 min-w-0">
                 <p className="text-[14px] ink truncate" style={{ fontWeight: 500 }}>
                   {t('resultLabel', { service: g.service })}
                 </p>
-                <p className="text-[12px] ink-3">{g.category}</p>
+                <p className="text-[12px] ink-2">{g.category}</p>
               </div>
-              <span className="ink-3 text-[14px]">→</span>
+              <span className="text-[14px] ink-3 group-hover:accent transition-colors">→</span>
             </button>
           ))}
         </div>

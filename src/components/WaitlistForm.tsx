@@ -20,7 +20,7 @@ export function WaitlistForm() {
         required
         placeholder={t('waitlistPlaceholder')}
         disabled={submitted}
-        className="flex-1 bg-transparent ink text-[14px] py-2 border-0 border-b border-rule-strong focus:outline-none focus:border-[var(--ink)] transition-colors placeholder:ink-3"
+        className="flex-1 bg-transparent ink text-[14px] py-2 border-0 border-b border-rule-strong focus:outline-none focus:border-[var(--accent)] transition-colors placeholder:text-[var(--ink-2)]"
         style={{ borderBottomWidth: 1, borderRadius: 0 }}
       />
       <button

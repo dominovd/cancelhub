@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { brandIconSlug, brandIconUrl, brandInitial } from '@/lib/brandIcon'
+import { brandIconSlug, brandIconUrl, brandInitial, brandPalette } from '@/lib/brandIcon'
 
 interface BrandLogoProps {
   /** Guide slug (e.g. 'netflix', 'apple-tv-plus'). */
@@ -27,18 +27,21 @@ export function BrandLogo({ slug, service, alt, size = 20, className = '' }: Bra
     skipFetch ? null : brandIconUrl(slug, 'light')
   )
   const [failed, setFailed] = useState(skipFetch)
+  const [theme, setTheme] = useState<'light' | 'dark'>('light')
 
   useEffect(() => {
-    if (skipFetch) return
     const apply = () => {
-      const theme = document.documentElement.getAttribute('data-theme')
+      const explicit = document.documentElement.getAttribute('data-theme')
       const resolved: 'light' | 'dark' =
-        theme === 'dark' ||
-        (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)
+        explicit === 'dark' ||
+        (!explicit && window.matchMedia('(prefers-color-scheme: dark)').matches)
           ? 'dark'
           : 'light'
-      setSrc(brandIconUrl(slug, resolved))
-      setFailed(false) // give the new URL a chance on theme change
+      setTheme(resolved)
+      if (!skipFetch) {
+        setSrc(brandIconUrl(slug, resolved))
+        setFailed(false) // give the new URL a chance on theme change
+      }
     }
     apply()
 
@@ -57,10 +60,12 @@ export function BrandLogo({ slug, service, alt, size = 20, className = '' }: Bra
     }
   }, [slug, skipFetch])
 
-  // Fallback: hairline square with service initial. Same physical footprint
-  // as the icon so list rows don't reflow.
+  // Fallback: colored square with service initial. Same physical footprint
+  // as the icon so list rows don't reflow. Color is stable per service via
+  // hash → palette, so users build recognition over time.
   if (failed || !src) {
     const initial = brandInitial(service ?? slug)
+    const palette = brandPalette(service ?? slug, theme)
     return (
       <span
         aria-label={alt || service || slug}
@@ -71,14 +76,15 @@ export function BrandLogo({ slug, service, alt, size = 20, className = '' }: Bra
           justifyContent: 'center',
           width: size,
           height: size,
-          fontSize: Math.max(9, Math.round(size * 0.42)),
+          fontSize: Math.max(9, Math.round(size * 0.46)),
           letterSpacing: '-0.02em',
-          color: 'var(--ink-2)',
-          border: '1px solid var(--rule-strong)',
-          borderRadius: 4,
+          color: palette.fg,
+          background: palette.bg,
+          borderRadius: 5,
           flexShrink: 0,
-          fontWeight: 500,
+          fontWeight: 600,
           fontFamily: 'inherit',
+          lineHeight: 1,
         }}
       >
         {initial}

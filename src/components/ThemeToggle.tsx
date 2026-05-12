@@ -38,7 +38,7 @@ export function ThemeToggle() {
       type="button"
       onClick={toggle}
       aria-label="Toggle theme"
-      className="text-[11px] tracking-wider uppercase ink-3 hover:ink transition-colors"
+      className="text-[11px] tracking-wider uppercase ink-2 hover:accent transition-colors"
       style={{ minWidth: 36, textAlign: 'right' }}
     >
       {label}

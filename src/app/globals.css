@@ -7,49 +7,67 @@
   /* Light palette */
   --ink: #0a0a0a;
   --ink-2: #525252;
-  --ink-3: #a3a3a3;
-  --rule: #e5e5e5;
-  --rule-strong: #d4d4d4;
+  --ink-3: #737373;          /* was #a3a3a3 — too faint for secondary info */
+  --rule: #d4d4d4;           /* was #e5e5e5 — rows now have visible separation */
+  --rule-strong: #a3a3a3;    /* was #d4d4d4 — section breaks anchor stronger */
   --bg: #ffffff;
   --bg-2: #fafafa;
   --header-bg: rgba(255, 255, 255, 0.85);
-  /* Semantic status — muted 700-stops */
-  --c-easy: #15803d;
-  --c-medium: #a16207;
-  --c-hard: #b91c1c;
+
+  /* Semantic status — 600 stops (one step brighter than before) */
+  --c-easy: #16a34a;
+  --c-medium: #d97706;
+  --c-hard: #dc2626;
+
+  /* Editorial accent — used sparingly: link hover, focus ring, row affordance */
+  --accent: #4f46e5;         /* indigo-600 */
+  --accent-soft: #eef2ff;    /* indigo-50 (for hover row bg if needed) */
+
+  /* Empty difficulty dot in this theme */
+  --dot-empty-opacity: 0.55;
+
   color-scheme: light;
 }
 
 html[data-theme="dark"] {
   --ink: #f5f5f4;
-  --ink-2: #a1a1aa;
-  --ink-3: #6b6b73;
-  --rule: #232326;
-  --rule-strong: #3a3a3f;
+  --ink-2: #d4d4d8;          /* was #a1a1aa — readable body-secondary on dark */
+  --ink-3: #8a8a93;          /* was #6b6b73 — labels remain muted but legible */
+  --rule: #2e2e34;           /* was #232326 — visible hairlines on dark */
+  --rule-strong: #4a4a52;    /* was #3a3a3f — clear section anchors */
   --bg: #0b0b0c;
-  --bg-2: #141416;
+  --bg-2: #161618;
   --header-bg: rgba(11, 11, 12, 0.82);
-  /* 400-stops sit comfortably on dark bg without screaming */
+
+  /* 400 stops sit on dark bg with good signal */
   --c-easy: #4ade80;
   --c-medium: #facc15;
   --c-hard: #f87171;
+
+  --accent: #818cf8;         /* indigo-400 — readable on dark */
+  --accent-soft: #1e1b4b;    /* indigo-950 */
+
+  --dot-empty-opacity: 0.7;
+
   color-scheme: dark;
 }
 
-/* Honour system preference when the user hasn't set an explicit theme */
 @media (prefers-color-scheme: dark) {
   html:not([data-theme]) {
     --ink: #f5f5f4;
-    --ink-2: #a1a1aa;
-    --ink-3: #6b6b73;
-    --rule: #232326;
-    --rule-strong: #3a3a3f;
+    --ink-2: #d4d4d8;
+    --ink-3: #8a8a93;
+    --rule: #2e2e34;
+    --rule-strong: #4a4a52;
     --bg: #0b0b0c;
-    --bg-2: #141416;
+    --bg-2: #161618;
     --header-bg: rgba(11, 11, 12, 0.82);
     --c-easy: #4ade80;
     --c-medium: #facc15;
     --c-hard: #f87171;
+    --accent: #818cf8;
+    --accent-soft: #1e1b4b;
+    --dot-empty-opacity: 0.7;
     color-scheme: dark;
   }
 }
@@ -67,14 +85,16 @@ body {
 /* ── Utilities ───────────────────────────────────────────────────────────── */
 @layer utilities {
   .text-balance { text-wrap: balance; }
-  .ink   { color: var(--ink); }
-  .ink-2 { color: var(--ink-2); }
-  .ink-3 { color: var(--ink-3); }
+  .ink     { color: var(--ink); }
+  .ink-2   { color: var(--ink-2); }
+  .ink-3   { color: var(--ink-3); }
+  .accent  { color: var(--accent); }
+  .hover\:accent:hover { color: var(--accent); }
   .bg-paper   { background: var(--bg); }
   .bg-paper-2 { background: var(--bg-2); }
   .border-rule        { border-color: var(--rule); }
   .border-rule-strong { border-color: var(--rule-strong); }
-  .header-bg          { background: var(--header-bg); }
+  .header-bg { background: var(--header-bg); }
 }
 
 /* ── Difficulty dots ─────────────────────────────────────────────────────── */
@@ -84,7 +104,7 @@ body {
   height: 5px;
   border-radius: 50%;
   background: var(--ink-3);
-  opacity: 0.45;
+  opacity: var(--dot-empty-opacity);
 }
 .diff-dot--on { opacity: 1; background: var(--ink); }
 .diff--easy   .diff-dot--on { background: var(--c-easy); }

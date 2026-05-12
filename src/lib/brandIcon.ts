@@ -94,3 +94,37 @@ export function brandInitial(service: string): string {
   }
   return (words[0][0] + words[1][0]).toUpperCase()
 }
+
+/**
+ * Stable 8-color palette for the fallback initial squares. Same service
+ * always resolves to the same slot so users build recognition over time.
+ * Pairs are sourced from Tailwind 50/700 (light) and 950/300 (dark) so they
+ * stay readable in both themes.
+ */
+const FALLBACK_PALETTES: Array<{ lightBg: string; lightFg: string; darkBg: string; darkFg: string }> = [
+  { lightBg: '#eef2ff', lightFg: '#4338ca', darkBg: '#1e1b4b', darkFg: '#a5b4fc' }, // indigo
+  { lightBg: '#ecfeff', lightFg: '#0e7490', darkBg: '#083344', darkFg: '#67e8f9' }, // cyan
+  { lightBg: '#fef3c7', lightFg: '#a16207', darkBg: '#422006', darkFg: '#fcd34d' }, // amber
+  { lightBg: '#fce7f3', lightFg: '#a21caf', darkBg: '#4a044e', darkFg: '#f0abfc' }, // fuchsia
+  { lightBg: '#dcfce7', lightFg: '#15803d', darkBg: '#052e16', darkFg: '#86efac' }, // green
+  { lightBg: '#ffedd5', lightFg: '#9a3412', darkBg: '#431407', darkFg: '#fdba74' }, // orange
+  { lightBg: '#e0f2fe', lightFg: '#075985', darkBg: '#082f49', darkFg: '#7dd3fc' }, // sky
+  { lightBg: '#f3e8ff', lightFg: '#6b21a8', darkBg: '#3b0764', darkFg: '#d8b4fe' }, // purple
+]
+
+/** Lightweight 32-bit FNV-ish hash for stable slot assignment. */
+function hash(s: string): number {
+  let h = 0x811c9dc5
+  for (let i = 0; i < s.length; i++) {
+    h ^= s.charCodeAt(i)
+    h = (h * 0x01000193) >>> 0
+  }
+  return h
+}
+
+export function brandPalette(service: string, theme: 'light' | 'dark' = 'light') {
+  const palette = FALLBACK_PALETTES[hash(service) % FALLBACK_PALETTES.length]
+  return theme === 'dark'
+    ? { bg: palette.darkBg, fg: palette.darkFg }
+    : { bg: palette.lightBg, fg: palette.lightFg }
+}

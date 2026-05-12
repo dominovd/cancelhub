@@ -17,14 +17,14 @@ export async function Header({ locale = defaultLocale }: HeaderProps) {
       <div className="max-w-3xl mx-auto px-6 h-14 flex items-center justify-between">
         <Link
           href={`/${locale}`}
-          className="text-[15px] tracking-tight ink hover:opacity-80 transition-opacity"
+          className="text-[15px] tracking-tight ink hover:accent transition-colors"
           style={{ fontWeight: 500 }}
         >
           CancelHub
         </Link>
         <div className="flex items-center gap-5">
           <nav className="hidden sm:flex items-center gap-5 text-[13px] ink-2">
-            <Link href={guidesHref} className="hover:ink transition-colors">
+            <Link href={guidesHref} className="hover:accent transition-colors">
               {t('allGuides')}
             </Link>
           </nav>

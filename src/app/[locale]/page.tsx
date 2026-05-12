@@ -49,9 +49,9 @@ export default async function HomePage({
 
         <SearchBar guides={allGuides} locale={locale} />
 
-        <p className="text-[12px] ink-3 mt-3">
+        <p className="text-[12px] ink-2 mt-3">
           {allGuides.length} {t('statsGuides').toLowerCase()} ·{' '}
-          <a href="#dark-patterns" className="underline underline-offset-2 hover:ink transition-colors">
+          <a href="#dark-patterns" className="underline underline-offset-2 hover:accent transition-colors">
             {t('darkPatternBadge').toLowerCase()}
           </a>
         </p>
@@ -69,13 +69,13 @@ export default async function HomePage({
                 <Link
                   key={guide.slug}
                   href={`/${locale}/cancel/${guide.slug}`}
-                  className="group grid items-center gap-5 py-[14px] border-b border-rule hover:opacity-90 transition-opacity"
+                  className="group grid items-center gap-5 py-[14px] border-b border-rule transition-colors"
                   style={{ gridTemplateColumns: '24px 1fr auto 20px' }}
                 >
-                  <BrandLogo slug={guide.slug} service={guide.service} alt={guide.service} size={20} />
-                  <span className="text-[15px] ink truncate">{guide.service}</span>
+                  <BrandLogo slug={guide.slug} service={guide.service} alt={guide.service} size={22} />
+                  <span className="text-[15px] ink truncate group-hover:accent transition-colors">{guide.service}</span>
                   <DifficultyBadge difficulty={guide.difficulty} shortLabel />
-                  <span className="ink-3 text-[14px] opacity-40 group-hover:opacity-100 transition-opacity">→</span>
+                  <span className="text-[14px] ink-3 opacity-50 group-hover:opacity-100 group-hover:accent transition-all">→</span>
                 </Link>
               ))}
             </div>
@@ -97,7 +97,7 @@ export default async function HomePage({
           </p>
           <Link
             href={`/${locale}/cancel`}
-            className="inline-block mt-5 text-[13px] ink hover:opacity-80 transition-opacity"
+            className="inline-block mt-5 text-[13px] ink hover:accent transition-colors"
             style={{ borderBottom: '1px solid currentColor', paddingBottom: 2 }}
           >
             {t('darkPatternLink')}
