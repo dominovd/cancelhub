@@ -3,6 +3,7 @@ import localFont from 'next/font/local'
 import { notFound } from 'next/navigation'
 import { NextIntlClientProvider } from 'next-intl'
 import { getMessages, setRequestLocale } from 'next-intl/server'
+import { Analytics } from '@vercel/analytics/next'
 import { locales, isRtl, type Locale } from '@/config/i18n'
 import '../globals.css'
 import { Header } from '@/components/Header'
@@ -50,6 +51,7 @@ export default async function LocaleLayout({
           <main>{children}</main>
           <Footer locale={locale} />
         </NextIntlClientProvider>
+        <Analytics />
       </body>
     </html>
   )
