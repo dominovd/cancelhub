@@ -1,12 +1,12 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { brandIconSlug, brandIconUrl, brandInitial, brandPalette } from '@/lib/brandIcon'
+import { brandIconUrl, brandInitial, brandPalette } from '@/lib/brandIcon'
 
 interface BrandLogoProps {
   /** Guide slug (e.g. 'netflix', 'apple-tv-plus'). */
   slug: string
-  /** Service name — used for the initial fallback and as alt text when alt is empty. */
+  /** Service name — used for the initial fallback and as alt text. */
   service?: string
   alt?: string
   /** Pixel size (square). Defaults to 20. */
@@ -15,18 +15,12 @@ interface BrandLogoProps {
 }
 
 /**
- * Brand logo rendered via the simple-icons CDN with a graceful initial-box
- * fallback when the icon is missing.
+ * Brand logo from Google's faviconV2 service.
+ * Falls back to a coloured initial square (palette stable per service) if
+ * the favicon is unavailable for any reason.
  */
 export function BrandLogo({ slug, service, alt, size = 20, className = '' }: BrandLogoProps) {
-  const mappedSlug = brandIconSlug(slug)
-  const skipFetch = mappedSlug === null
-
-  // src is null when we already know the brand isn't in simple-icons.
-  const [src, setSrc] = useState<string | null>(() =>
-    skipFetch ? null : brandIconUrl(slug, 'light')
-  )
-  const [failed, setFailed] = useState(skipFetch)
+  const [failed, setFailed] = useState(false)
   const [theme, setTheme] = useState<'light' | 'dark'>('light')
 
   useEffect(() => {
@@ -38,10 +32,6 @@ export function BrandLogo({ slug, service, alt, size = 20, className = '' }: Bra
           ? 'dark'
           : 'light'
       setTheme(resolved)
-      if (!skipFetch) {
-        setSrc(brandIconUrl(slug, resolved))
-        setFailed(false) // give the new URL a chance on theme change
-      }
     }
     apply()
 
@@ -58,12 +48,9 @@ export function BrandLogo({ slug, service, alt, size = 20, className = '' }: Bra
       observer.disconnect()
       mq.removeEventListener('change', apply)
     }
-  }, [slug, skipFetch])
+  }, [])
 
-  // Fallback: colored square with service initial. Same physical footprint
-  // as the icon so list rows don't reflow. Color is stable per service via
-  // hash → palette, so users build recognition over time.
-  if (failed || !src) {
+  if (failed) {
     const initial = brandInitial(service ?? slug)
     const palette = brandPalette(service ?? slug, theme)
     return (
@@ -92,19 +79,23 @@ export function BrandLogo({ slug, service, alt, size = 20, className = '' }: Bra
     )
   }
 
+  // Request a slightly larger asset than render size for crisp Retina output.
+  const requestSize = Math.max(32, size * 2)
   return (
-    // simple-icons returns SVGs which next/image cannot optimise.
     // eslint-disable-next-line @next/next/no-img-element
     <img
-      src={src}
+      src={brandIconUrl(slug, requestSize)}
       alt={alt ?? service ?? ''}
       width={size}
       height={size}
       loading="lazy"
       onError={() => setFailed(true)}
       className={className}
-      style={{ objectFit: 'contain', flexShrink: 0 }}
-      data-brand-slug={mappedSlug}
+      style={{
+        objectFit: 'contain',
+        flexShrink: 0,
+        borderRadius: 4,
+      }}
     />
   )
 }

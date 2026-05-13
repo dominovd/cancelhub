@@ -2,33 +2,36 @@
 
 import { useTranslations } from 'next-intl'
 
+/**
+ * 10-tick severity scale. Filled ticks take the semantic colour for the
+ * bucket (easy/medium/hard tokens reused). Empty ticks are hairlines.
+ * The textual label stays in neutral ink-2 — colour does the signalling.
+ */
 export function DarkPatternScore({ score }: { score: number }) {
   const t = useTranslations('darkPattern')
 
-  const color =
-    score <= 2 ? 'text-green-600' :
-    score <= 4 ? 'text-yellow-600' :
-    score <= 6 ? 'text-orange-500' :
-    'text-red-600'
+  const bucket = score <= 2 ? 'easy' : score <= 5 ? 'medium' : 'hard'
+  const fillColor = `var(--c-${bucket})`
 
   return (
     <div className="flex items-center gap-3">
-      <div className="flex gap-0.5">
+      <div className="flex items-center gap-[2px]">
         {Array.from({ length: 10 }).map((_, i) => (
-          <div
+          <span
             key={i}
-            className={`h-2 w-2.5 rounded-sm transition-colors ${
-              i < score
-                ? score <= 2 ? 'bg-green-500' :
-                  score <= 4 ? 'bg-yellow-400' :
-                  score <= 6 ? 'bg-orange-400' :
-                  'bg-red-500'
-                : 'bg-gray-200'
-            }`}
+            aria-hidden="true"
+            style={{
+              display: 'inline-block',
+              width: 2,
+              height: 12,
+              background: i < score ? fillColor : 'var(--rule-strong)',
+              opacity: i < score ? 1 : 0.55,
+              borderRadius: 1,
+            }}
           />
         ))}
       </div>
-      <span className={`text-xs font-medium ${color}`}>{t(score.toString())}</span>
+      <span className="text-[12px] ink-2 whitespace-nowrap">{t(score.toString())}</span>
     </div>
   )
 }

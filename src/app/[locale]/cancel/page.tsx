@@ -5,6 +5,7 @@ import { allGuides } from '@/data/guides'
 import { canonicalUrl, hreflangAlternates } from '@/config/seo'
 import { DifficultyBadge } from '@/components/DifficultyBadge'
 import { DarkPatternScore } from '@/components/DarkPatternScore'
+import { BrandLogo } from '@/components/BrandLogo'
 
 export async function generateMetadata({
   params: { locale },
@@ -28,52 +29,54 @@ export default async function CancelIndexPage({
 }) {
   setRequestLocale(locale)
   const t = await getTranslations({ locale, namespace: 'guides' })
+  // Hardest-first: surface the worst dark-pattern offenders at the top.
   const sorted = [...allGuides].sort((a, b) => b.darkPatternScore - a.darkPatternScore)
 
   return (
-    <div className="max-w-5xl mx-auto px-4 py-12">
-      <div className="mb-10">
-        <p className="text-sm font-semibold text-blue-600 uppercase tracking-widest mb-2">
-          All guides
-        </p>
-        <h1 className="text-3xl font-extrabold text-gray-900 mb-3">{t('title')}</h1>
-        <p className="text-gray-500">
-          {allGuides.length} {t('subtitle')}
-        </p>
+    <div className="max-w-3xl mx-auto px-6 pt-16 pb-20">
+      <h1
+        className="text-[34px] sm:text-[38px] leading-[1.05] mb-3"
+        style={{ fontWeight: 500, letterSpacing: '-0.018em' }}
+      >
+        {t('title')}
+      </h1>
+      <p className="text-[15px] ink-2 mb-12 max-w-[55ch] leading-[1.55]">
+        {allGuides.length} {t('subtitle')}
+      </p>
+
+      {/* Column labels (desktop only) */}
+      <div
+        className="hidden sm:grid items-center gap-5 pb-3 border-b border-rule-strong text-[11px] ink-3 uppercase grid-cols-[24px_1fr_auto_auto_20px]"
+        style={{ letterSpacing: '0.18em' }}
+      >
+        <span />
+        <span>{t('colService')}</span>
+        <span>{t('colDifficulty')}</span>
+        <span className="text-right">{t('colDarkPatterns')}</span>
+        <span />
       </div>
 
-      <div className="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-        <div className="grid grid-cols-[1fr_auto_auto] sm:grid-cols-[2fr_1fr_1fr_auto] gap-4 px-5 py-3 bg-gray-50 border-b border-gray-200 text-xs font-semibold text-gray-500 uppercase tracking-wide">
-          <span>{t('colService')}</span>
-          <span className="hidden sm:block">{t('colDifficulty')}</span>
-          <span className="hidden sm:block">{t('colDarkPatterns')}</span>
-          <span />
-        </div>
-
+      <div>
         {sorted.map((guide) => (
           <Link
             key={guide.slug}
             href={`/${locale}/cancel/${guide.slug}`}
-            className="group grid grid-cols-[1fr_auto_auto] sm:grid-cols-[2fr_1fr_1fr_auto] gap-4 items-center px-5 py-4 border-b border-gray-100 last:border-0 hover:bg-blue-50 transition-colors"
+            className="group grid items-center gap-5 py-[14px] border-b border-rule transition-colors grid-cols-[24px_1fr_auto_20px] sm:grid-cols-[24px_1fr_auto_auto_20px]"
           >
-            <div className="flex items-center gap-3 min-w-0">
-              <span className="text-2xl flex-shrink-0">{guide.logo}</span>
-              <div className="min-w-0">
-                <p className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors text-sm truncate">
-                  {guide.service}
-                </p>
-                <p className="text-xs text-gray-400 sm:hidden">
-                  {guide.difficulty} · {guide.category}
-                </p>
-              </div>
+            <BrandLogo slug={guide.slug} service={guide.service} alt={guide.service} size={22} />
+            <div className="min-w-0">
+              <p className="text-[15px] ink truncate group-hover:accent transition-colors">
+                {guide.service}
+              </p>
+              <p className="text-[11px] ink-3 truncate sm:hidden">
+                {guide.category}
+              </p>
             </div>
-            <div className="hidden sm:block">
-              <DifficultyBadge difficulty={guide.difficulty} />
-            </div>
+            <DifficultyBadge difficulty={guide.difficulty} shortLabel />
             <div className="hidden sm:block">
               <DarkPatternScore score={guide.darkPatternScore} />
             </div>
-            <span className="text-gray-300 group-hover:text-blue-400 transition-colors">→</span>
+            <span className="text-[14px] ink-3 opacity-50 group-hover:opacity-100 group-hover:accent transition-all">→</span>
           </Link>
         ))}
       </div>

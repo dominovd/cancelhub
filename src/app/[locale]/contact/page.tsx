@@ -27,84 +27,78 @@ export default async function ContactPage({
   setRequestLocale(locale)
   const t = await getTranslations({ locale, namespace: 'contact' })
 
+  const sections = [
+    {
+      key: 'general',
+      title: t('emailTitle'),
+      desc: t('emailDesc'),
+      mailto: 'mailto:info@cancelhub.app',
+      shown: 'info@cancelhub.app',
+    },
+    {
+      key: 'report',
+      title: t('reportTitle'),
+      desc: t('reportDesc'),
+      mailto: 'mailto:info@cancelhub.app?subject=Guide%20correction',
+      shown: 'info@cancelhub.app',
+    },
+    {
+      key: 'suggest',
+      title: t('suggestTitle'),
+      desc: t('suggestDesc'),
+      mailto: 'mailto:info@cancelhub.app?subject=Guide%20suggestion',
+      shown: 'info@cancelhub.app',
+    },
+  ]
+
   return (
-    <div className="min-h-screen bg-white">
-      <div className="max-w-2xl mx-auto px-4 py-16">
-        {/* Back link */}
-        <Link
-          href={`/${locale}`}
-          className="text-sm text-gray-400 hover:text-gray-600 transition-colors mb-10 inline-block"
-        >
+    <article className="max-w-2xl mx-auto px-6 pt-12 pb-20">
+      <nav className="text-[12px] ink-3 mb-10">
+        <Link href={`/${locale}`} className="hover:accent transition-colors">
           ← {t('backLink')}
         </Link>
+      </nav>
 
-        <h1 className="text-4xl font-extrabold text-gray-900 mb-3">{t('title')}</h1>
-        <p className="text-gray-500 text-lg mb-12">{t('subtitle')}</p>
+      <h1
+        className="text-[36px] sm:text-[40px] leading-[1.05] mb-3"
+        style={{ fontWeight: 500, letterSpacing: '-0.02em' }}
+      >
+        {t('title')}
+      </h1>
+      <p className="text-[16px] ink-2 leading-[1.55] max-w-[55ch] mb-2">
+        {t('subtitle')}
+      </p>
+      <p className="text-[12px] ink-3 mb-12">{t('responseNote')}</p>
 
-        {/* Contact cards */}
-        <div className="space-y-4">
-          {/* Email */}
-          <div className="flex items-start gap-5 p-6 bg-gray-50 rounded-2xl border border-gray-100">
-            <span className="text-2xl mt-0.5">✉️</span>
-            <div>
-              <p className="font-semibold text-gray-900 mb-1">{t('emailTitle')}</p>
-              <p className="text-sm text-gray-500 mb-3">{t('emailDesc')}</p>
-              <a
-                href="mailto:info@cancelhub.app"
-                className="inline-block text-sm font-medium text-blue-600 hover:underline"
-              >
-                info@cancelhub.app
-              </a>
-            </div>
-          </div>
+      {sections.map((s) => (
+        <section key={s.key} className="border-t border-rule pt-8 mt-8 first:mt-0">
+          <h2
+            className="text-[16px] mb-2"
+            style={{ fontWeight: 500, letterSpacing: '-0.01em' }}
+          >
+            {s.title}
+          </h2>
+          <p className="text-[14px] ink-2 leading-[1.55] max-w-[60ch] mb-3">
+            {s.desc}
+          </p>
+          <a
+            href={s.mailto}
+            className="text-[14px] ink underline underline-offset-[3px] hover:accent transition-colors"
+          >
+            {s.shown}
+          </a>
+        </section>
+      ))}
 
-          {/* Report wrong steps */}
-          <div className="flex items-start gap-5 p-6 bg-gray-50 rounded-2xl border border-gray-100">
-            <span className="text-2xl mt-0.5">🔧</span>
-            <div>
-              <p className="font-semibold text-gray-900 mb-1">{t('reportTitle')}</p>
-              <p className="text-sm text-gray-500 mb-3">{t('reportDesc')}</p>
-              <a
-                href="mailto:info@cancelhub.app?subject=Guide%20correction"
-                className="inline-block text-sm font-medium text-blue-600 hover:underline"
-              >
-                info@cancelhub.app
-              </a>
-            </div>
-          </div>
-
-          {/* Suggest a guide */}
-          <div className="flex items-start gap-5 p-6 bg-gray-50 rounded-2xl border border-gray-100">
-            <span className="text-2xl mt-0.5">💡</span>
-            <div>
-              <p className="font-semibold text-gray-900 mb-1">{t('suggestTitle')}</p>
-              <p className="text-sm text-gray-500 mb-3">{t('suggestDesc')}</p>
-              <a
-                href="mailto:info@cancelhub.app?subject=Guide%20suggestion"
-                className="inline-block text-sm font-medium text-blue-600 hover:underline"
-              >
-                info@cancelhub.app
-              </a>
-            </div>
-          </div>
-        </div>
-
-        {/* Note */}
-        <p className="mt-10 text-sm text-gray-400 text-center">
-          {t('responseNote')}
-        </p>
-
-        {/* Links */}
-        <div className="mt-10 flex justify-center gap-6 text-sm">
-          <Link href={`/${locale}/about`} className="text-gray-400 hover:text-gray-700 transition-colors">
-            {t('aboutLink')}
-          </Link>
-          <span className="text-gray-200">·</span>
-          <Link href={`/${locale}/cancel`} className="text-gray-400 hover:text-gray-700 transition-colors">
-            {t('guidesLink')}
-          </Link>
-        </div>
+      <div className="border-t border-rule-strong mt-12 pt-6 flex items-center gap-5 text-[12px] ink-3">
+        <Link href={`/${locale}/about`} className="hover:accent transition-colors">
+          {t('aboutLink')}
+        </Link>
+        <span className="opacity-50">·</span>
+        <Link href={`/${locale}/cancel`} className="hover:accent transition-colors">
+          {t('guidesLink')}
+        </Link>
       </div>
-    </div>
+    </article>
   )
 }

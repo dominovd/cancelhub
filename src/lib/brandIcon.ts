@@ -1,93 +1,90 @@
-// Maps a CancelGuide slug to its simple-icons CDN slug.
+// Brand logos via Google's faviconV2 service.
 //
-// Strategy: simple-icons has limited coverage of subscription brands (only
-// ~35% of our catalogue is there at all). For services that aren't in the
-// registry, BrandLogo falls back to a service initial in a hairline square.
-// This map exists for the cases where the simple-icons slug differs from the
-// guide slug (e.g. apple-tv-plus → appletv, youtube-premium → youtube).
+// This gives us 100% coverage of real brands without curating anything by
+// hand: every service we cover has a public website with a favicon, and
+// Google's service returns it (cached, fast, free, no API key).
 //
-// `null` means: don't even attempt a CDN fetch — go straight to the initial
-// fallback. Use this for guides where probing confirmed no matching icon.
-type SlugOverride = string | null
+// The only mapping we need is guide slug → primary brand domain. For most
+// services we can derive it from the slug, but a number of cases need an
+// explicit override (sub-brands, country variants, edge cases).
 
-const OVERRIDES: Record<string, SlugOverride> = {
-  // Real overrides (guide slug → known-working simple-icons slug)
-  'youtube-premium':  'youtube',
-  'youtube-tv':       'youtube',
-  'apple-tv-plus':    'appletv',
-  'amazon-prime':     'primevideo',     // amazonprime doesn't exist; primevideo does
-  'apple-music':      'applemusic',
-  'amazon-music':     null,             // not in registry → fallback
-  'icloud-plus':      'icloud',
-  'google-one':       'google',
-  'microsoft-365':    null,             // microsoft365 not in registry
-  'kindle-unlimited': null,             // amazonkindle not in registry
-  'tinder-gold':      'tinder',
-  'snapchat-plus':    'snapchat',
-  'playstation-plus': 'playstation',
-  'xbox-game-pass':   null,             // xbox not in registry
-  'crunch-fitness':   null,
-  'blink-fitness':    null,
-  'discovery-plus':   null,             // discoveryplus not in registry
-  'paramount-plus':   'paramountplus',
-  'disney-plus':      'disneyplus',
-  'espn-plus':        'espn',
-  'fubotv':           'fubo',
-  'sling-tv':         null,
-  'home-chef':        null,
-  'blue-apron':       null,
-  'sun-basket':       null,
-  'every-plate':      null,
-  'dollar-shave-club':null,
-  'stitch-fix':       null,
-  'thrive-market':    null,
-  'linkedin-premium': 'linkedin',
-  'canva-pro':        null,             // canva not in registry
-  'duolingo-plus':    'duolingo',
-  'chewy-autoship':   null,
-  'factor-meals':     null,
-  'ring-protect':     'ring',
-  'ea-play':          'ea',
-  'chatgpt':          null,             // openai removed from simple-icons
-  'claude':           'claude',         // anthropic claude icon is present
-  'uber-eats':        'ubereats',
-  'uber-one':         'uber',
+const DOMAIN_OVERRIDES: Record<string, string> = {
+  // Subscription product → parent company domain
+  'apple-tv-plus':    'tv.apple.com',
+  'apple-music':      'music.apple.com',
+  'amazon-prime':     'primevideo.com',
+  'amazon-music':     'music.amazon.com',
+  'kindle-unlimited': 'amazon.com',
+  'youtube-premium':  'youtube.com',
+  'youtube-tv':       'tv.youtube.com',
+  'icloud-plus':      'icloud.com',
+  'google-one':       'one.google.com',
+  'microsoft-365':    'microsoft365.com',
+  'tinder-gold':      'tinder.com',
+  'snapchat-plus':    'snapchat.com',
+  'playstation-plus': 'playstation.com',
+  'xbox-game-pass':   'xbox.com',
+  'discovery-plus':   'discoveryplus.com',
+  'paramount-plus':   'paramountplus.com',
+  'disney-plus':      'disneyplus.com',
+  'espn-plus':        'espn.com',
+  'linkedin-premium': 'linkedin.com',
+  'canva-pro':        'canva.com',
+  'duolingo-plus':    'duolingo.com',
+  'chewy-autoship':   'chewy.com',
+  'factor-meals':     'factor75.com',
+  'ring-protect':     'ring.com',
+  'ea-play':          'ea.com',
+  'chatgpt':          'openai.com',
+  'claude':           'claude.ai',
+  'uber-eats':        'ubereats.com',
+  'uber-one':         'uber.com',
+  'sling-tv':         'sling.com',
+  'fubotv':           'fubo.tv',
+  // Hyphenated brand names that don't simply lose the hyphen
+  'apple-tv':         'tv.apple.com',
+  'home-chef':        'homechef.com',
+  'blue-apron':       'blueapron.com',
+  'sun-basket':       'sunbasket.com',
+  'every-plate':      'everyplate.com',
+  'dollar-shave-club':'dollarshaveclub.com',
+  'stitch-fix':       'stitchfix.com',
+  'thrive-market':    'thrivemarket.com',
+  'weight-watchers':  'weightwatchers.com',
+  'crunch-fitness':   'crunch.com',
+  'blink-fitness':    'blinkfitness.com',
+  'acorn-tv':         'acorn.tv',
+  // 'norton' default would resolve to norton.com — fine. Same for 'adt', 'starz', 'shudder', 'philo'.
 }
 
-// Some brand logos render near-black by default; in dark mode they vanish.
-// Force a light fill for those.
-const DARK_OVERRIDE_FOREGROUND_COLOR = 'f5f5f4'
-const DARK_OVERRIDE_SLUGS = new Set([
-  'apple', 'appletv', 'github', 'x', 'macos', 'ios', 'claude',
-])
-
-export function brandIconSlug(guideSlug: string): string | null {
-  if (guideSlug in OVERRIDES) return OVERRIDES[guideSlug]
-  // Default: strip dashes and lowercase (already lowercase, but be safe)
-  return guideSlug.replace(/-/g, '').toLowerCase()
+function defaultDomain(slug: string): string {
+  // Strip dashes, append .com. e.g. 'amazon-prime' → 'amazonprime.com'
+  // We use this only as a last-resort default; manual overrides above
+  // handle the cases where this would be wrong.
+  return `${slug.replace(/-/g, '')}.com`
 }
 
-export function brandIconUrl(guideSlug: string, theme: 'light' | 'dark' = 'light'): string | null {
-  const slug = brandIconSlug(guideSlug)
-  if (!slug) return null
-  const needsOverride = theme === 'dark' && DARK_OVERRIDE_SLUGS.has(slug)
-  return needsOverride
-    ? `https://cdn.simpleicons.org/${slug}/${DARK_OVERRIDE_FOREGROUND_COLOR}`
-    : `https://cdn.simpleicons.org/${slug}`
+export function brandDomain(guideSlug: string): string {
+  return DOMAIN_OVERRIDES[guideSlug] ?? defaultDomain(guideSlug)
 }
 
 /**
- * Returns the 1–2 character initial used by the fallback square when no icon
- * is available. Tries to pick the most recognisable letter(s):
- *   "Netflix" → "N", "Apple TV+" → "A", "Disney+" → "D"
- *   "WeightWatchers" → "WW"
+ * URL for the brand favicon at the requested visual size.
+ * Google's CDN can serve any size; 64 gives us crisp results at our 20–36px
+ * render targets after Retina scaling.
  */
+export function brandIconUrl(guideSlug: string, size = 64): string {
+  const domain = brandDomain(guideSlug)
+  return `https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://${domain}&size=${size}`
+}
+
+/* ── Initial fallback (rare — only when favicon load fails) ──────────────── */
+
 export function brandInitial(service: string): string {
   const cleaned = service.replace(/[+\-_().]/g, ' ').trim()
   const words = cleaned.split(/\s+/).filter(Boolean)
   if (words.length === 0) return '?'
   if (words.length === 1) {
-    // Single word — uppercase first letter, plus an internal cap if present
     const w = words[0]
     const internalCap = w.slice(1).match(/[A-Z]/)
     return internalCap ? (w[0] + internalCap[0]).toUpperCase() : w[0].toUpperCase()
@@ -95,12 +92,6 @@ export function brandInitial(service: string): string {
   return (words[0][0] + words[1][0]).toUpperCase()
 }
 
-/**
- * Stable 8-color palette for the fallback initial squares. Same service
- * always resolves to the same slot so users build recognition over time.
- * Pairs are sourced from Tailwind 50/700 (light) and 950/300 (dark) so they
- * stay readable in both themes.
- */
 const FALLBACK_PALETTES: Array<{ lightBg: string; lightFg: string; darkBg: string; darkFg: string }> = [
   { lightBg: '#eef2ff', lightFg: '#4338ca', darkBg: '#1e1b4b', darkFg: '#a5b4fc' }, // indigo
   { lightBg: '#ecfeff', lightFg: '#0e7490', darkBg: '#083344', darkFg: '#67e8f9' }, // cyan
@@ -112,7 +103,6 @@ const FALLBACK_PALETTES: Array<{ lightBg: string; lightFg: string; darkBg: strin
   { lightBg: '#f3e8ff', lightFg: '#6b21a8', darkBg: '#3b0764', darkFg: '#d8b4fe' }, // purple
 ]
 
-/** Lightweight 32-bit FNV-ish hash for stable slot assignment. */
 function hash(s: string): number {
   let h = 0x811c9dc5
   for (let i = 0; i < s.length; i++) {
