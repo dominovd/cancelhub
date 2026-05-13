@@ -8,6 +8,7 @@ import { locales } from '@/config/i18n'
 import { DifficultyBadge } from '@/components/DifficultyBadge'
 import { PlatformTabs } from '@/components/PlatformTabs'
 import { BrandLogo } from '@/components/BrandLogo'
+import { DarkPatternCard } from '@/components/DarkPatternCard'
 import { getGuideTranslations, applyGuideTranslations } from '@/data/guide-translations/loader'
 
 export function generateStaticParams() {
@@ -137,6 +138,9 @@ export default async function GuidePage({
           </h2>
           <PlatformTabs platforms={guide.platforms} />
         </section>
+
+        {/* Dark pattern scorecard */}
+        <DarkPatternCard score={guide.darkPatternScore} flags={guide.darkPatternFlags} />
 
         {/* Common issues */}
         {guide.commonIssues.length > 0 && (

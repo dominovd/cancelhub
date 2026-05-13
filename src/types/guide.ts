@@ -14,6 +14,23 @@ export interface PlatformGuide {
   deepLink?: string // direct URL to cancellation settings
 }
 
+export interface DarkPatternFlags {
+  /** Cancel button/link is buried or non-obvious */
+  hiddenButton?: boolean
+  /** Must call customer support to cancel */
+  requiresCall?: boolean
+  /** Must use live chat to cancel (no self-serve) */
+  requiresChat?: boolean
+  /** Shows guilt-trip offers, countdown timers, or "pause instead" pop-ups */
+  retentionTactics?: boolean
+  /** Uses shame-y or manipulative language on cancel confirmation screen */
+  confirmationShaming?: boolean
+  /** How clearly refund eligibility is communicated */
+  refundClarity?: 'clear' | 'murky' | 'none'
+  /** Typical minutes needed to complete cancellation */
+  estimatedMinutes?: number
+}
+
 export interface CancelGuide {
   slug: string
   service: string
@@ -23,6 +40,7 @@ export interface CancelGuide {
   difficulty: Difficulty
   difficultyReason: string
   darkPatternScore: number // 0–10: how hard the service makes it intentionally
+  darkPatternFlags?: DarkPatternFlags
   lastVerified: string // ISO date
   monthlyPrice?: string
   annualPrice?: string
