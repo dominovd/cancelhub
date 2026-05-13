@@ -9,6 +9,7 @@ import { DifficultyBadge } from '@/components/DifficultyBadge'
 import { PlatformTabs } from '@/components/PlatformTabs'
 import { BrandLogo } from '@/components/BrandLogo'
 import { DarkPatternCard } from '@/components/DarkPatternCard'
+import { FreshnessBar } from '@/components/FreshnessBar'
 import { getGuideTranslations, applyGuideTranslations } from '@/data/guide-translations/loader'
 
 export function generateStaticParams() {
@@ -199,23 +200,27 @@ export default async function GuidePage({
           </section>
         )}
 
+        {/* Freshness bar */}
+        <FreshnessBar
+          lastVerified={guide.lastVerified}
+          service={guide.service}
+          slug={guide.slug}
+        />
+
         {/* Footer nav */}
-        <div className="border-t border-rule mt-12 pt-6 flex items-center justify-between flex-wrap gap-4 text-[12px] ink-3">
+        <div className="border-t border-rule mt-8 pt-6 flex items-center justify-between flex-wrap gap-4 text-[12px] ink-3">
           <Link
             href={`/${params.locale}/cancel`}
             className="hover:accent transition-colors"
           >
             {t('backLink')}
           </Link>
-          <p>
-            {t('reportLink')}{' '}
-            <a
-              href="mailto:hello@cancelhub.app"
-              className="underline underline-offset-2 hover:accent transition-colors ink-2"
-            >
-              {t('reportLinkSuffix')}
-            </a>
-          </p>
+          <Link
+            href={`/${params.locale}/rankings`}
+            className="hover:accent transition-colors"
+          >
+            See all rankings →
+          </Link>
         </div>
       </article>
     </>
