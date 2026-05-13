@@ -11,6 +11,7 @@ interface HeaderProps {
 export async function Header({ locale = defaultLocale }: HeaderProps) {
   const t = await getTranslations({ locale, namespace: 'nav' })
   const guidesHref = locale === defaultLocale ? '/cancel' : `/${locale}/cancel`
+  const rankingsHref = locale === defaultLocale ? '/rankings' : `/${locale}/rankings`
 
   return (
     <header className="sticky top-0 z-50 header-bg backdrop-blur border-b border-rule">
@@ -26,6 +27,9 @@ export async function Header({ locale = defaultLocale }: HeaderProps) {
           <nav className="hidden sm:flex items-center gap-5 text-[13px] ink-2">
             <Link href={guidesHref} className="hover:accent transition-colors">
               {t('allGuides')}
+            </Link>
+            <Link href={rankingsHref} className="hover:accent transition-colors">
+              Rankings
             </Link>
           </nav>
           <ThemeToggle />

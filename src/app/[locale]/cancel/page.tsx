@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import Link from 'next/link'
 import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { allGuides } from '@/data/guides'
 import { canonicalUrl, hreflangAlternates } from '@/config/seo'
@@ -37,9 +38,16 @@ export default async function CancelIndexPage({
       >
         {t('title')}
       </h1>
-      <p className="text-[15px] ink-2 mb-10 max-w-[55ch] leading-[1.55]">
+      <p className="text-[15px] ink-2 mb-4 max-w-[55ch] leading-[1.55]">
         {allGuides.length} {t('subtitle')}
       </p>
+      <Link
+        href={`/${locale}/rankings`}
+        className="inline-flex items-center gap-2 text-[13px] mb-8 hover:accent transition-colors"
+        style={{ color: 'var(--accent)' }}
+      >
+        See ranked list: hardest &amp; easiest to cancel →
+      </Link>
 
       <GuideFilter
         guides={sorted}
