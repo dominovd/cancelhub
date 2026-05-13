@@ -10,6 +10,7 @@ import { PlatformTabs } from '@/components/PlatformTabs'
 import { BrandLogo } from '@/components/BrandLogo'
 import { DarkPatternCard } from '@/components/DarkPatternCard'
 import { FreshnessBar } from '@/components/FreshnessBar'
+import { categoryToSlug } from '@/lib/categories'
 import { getGuideTranslations, applyGuideTranslations } from '@/data/guide-translations/loader'
 
 export function generateStaticParams() {
@@ -91,7 +92,12 @@ export default async function GuidePage({
             {tNav('guides')}
           </Link>
           <span>/</span>
-          <span className="ink-2">{guide.category}</span>
+          <Link
+            href={`/${params.locale}/categories/${categoryToSlug(guide.category)}`}
+            className="ink-2 hover:accent transition-colors"
+          >
+            {guide.category}
+          </Link>
         </nav>
 
         {/* Title with logo */}
