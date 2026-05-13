@@ -184,15 +184,29 @@ export default async function GuidePage({
                   <Link
                     key={alt.name}
                     href={alt.url}
-                    className="group grid items-center gap-5 py-[14px] border-b border-rule transition-colors"
-                    style={{ gridTemplateColumns: '24px 1fr auto 20px' }}
+                    className="group grid items-center gap-4 py-[14px] border-b border-rule transition-colors"
+                    style={{ gridTemplateColumns: '28px 1fr 20px' }}
                   >
+                    {/* Logo — fixed width, vertically centred */}
                     <BrandLogo slug={altSlug} service={alt.name} alt={alt.name} size={22} />
-                    <span className="text-[15px] ink group-hover:accent transition-colors">{alt.name}</span>
-                    <span className="text-[12px] ink-2 truncate max-w-[24ch]">
-                      {alt.description}
+
+                    {/* Name + description stacked — takes all remaining space */}
+                    <div className="min-w-0">
+                      <span
+                        className="block text-[15px] ink group-hover:accent transition-colors leading-snug"
+                        style={{ fontWeight: 500 }}
+                      >
+                        {alt.name}
+                      </span>
+                      <span className="block text-[12px] ink-3 mt-[2px] leading-snug truncate">
+                        {alt.description}
+                      </span>
+                    </div>
+
+                    {/* Arrow */}
+                    <span className="text-[14px] ink-3 opacity-40 group-hover:opacity-100 group-hover:accent transition-all justify-self-end">
+                      →
                     </span>
-                    <span className="text-[14px] ink-3 opacity-50 group-hover:opacity-100 group-hover:accent transition-all">→</span>
                   </Link>
                 )
               })}
