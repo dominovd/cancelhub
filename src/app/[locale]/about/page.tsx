@@ -95,7 +95,7 @@ export default async function AboutPage({
           Scoring methodology
         </h2>
         <p className="text-[15px] ink-2 leading-[1.65] max-w-[60ch] mb-8">
-          Every guide carries two independent scores. Here's exactly what each one measures.
+          Every guide carries two independent scores. Here&apos;s exactly what each one measures.
         </p>
 
         <h3 className="text-[14px] mb-2" style={{ fontWeight: 600 }}>
