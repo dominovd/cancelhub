@@ -8,7 +8,7 @@ export const fuboTV: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'FuboTV offers a simple online cancellation with no early termination fees.',
   darkPatternScore: 3,
-  lastVerified: '2025-04-10',
+  lastVerified: '2026-04-10',
   monthlyPrice: '$84.99/mo (Pro plan)',
   refundPolicy: 'No refunds. Access continues until the end of the billing period.',
   description: 'Cancel FuboTV in under 2 minutes on the web. No cancellation fee — access continues until billing period ends.',

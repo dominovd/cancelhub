@@ -8,7 +8,7 @@ export const curology: CancelGuide = {
   difficulty: 'medium',
   difficultyReason: 'Curology cancellation requires navigating account settings or contacting support. The cancel option is not prominently displayed.',
   darkPatternScore: 5,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$29.95–$39.95/mo (custom formula + 2 hero ingredients)',
   refundPolicy: 'No refunds on shipped products. Cancel before your next processing date to avoid being charged.',
   description: 'Cancel Curology subscription in under 5 minutes via account settings. Cancel before processing date to avoid next shipment.',

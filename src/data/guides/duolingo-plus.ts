@@ -8,7 +8,7 @@ export const duolingoPlus: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Duolingo Plus (Super Duolingo) cancellation is quick through the app or device subscription settings.',
   darkPatternScore: 2,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: 'Super Duolingo: $6.99/mo · $83.99/yr · Family Plan: $9.99/mo',
   refundPolicy: 'No refunds. Access continues until end of billing period.',
   description: 'Cancel Duolingo Plus (Super Duolingo) in under 2 minutes via the app, iOS Settings, or Google Play.',

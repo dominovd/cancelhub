@@ -8,7 +8,7 @@ export const playstationPlus: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'PlayStation Plus cancellation is available online and through the PS console, though the menu layout changes with firmware updates.',
   darkPatternScore: 3,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: 'Essential: $9.99/mo · Extra: $14.99/mo · Premium: $17.99/mo',
   refundPolicy: 'No refunds once subscription is used. Unused portions of prepaid subscriptions may be refunded — contact PlayStation support.',
   description: 'Cancel PlayStation Plus in under 5 minutes via PS console, web, or the PlayStation app.',

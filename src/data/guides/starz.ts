@@ -8,7 +8,7 @@ export const starz: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Starz cancellation is available online and in the app. Where you cancel depends on how you subscribed.',
   darkPatternScore: 3,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$9.99/mo · $74.99/yr',
   refundPolicy: 'No refunds. Access continues until end of billing period.',
   description: 'Cancel Starz in under 3 minutes via web, app, iOS, or Android. Cancel through wherever you subscribed.',

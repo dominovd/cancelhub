@@ -8,7 +8,7 @@ export const headspace: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Headspace cancellation is available online and in the app. The cancel option can be a bit hard to find in settings.',
   darkPatternScore: 3,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$12.99/mo · $69.99/yr · Student: $9.99/yr',
   refundPolicy: 'No refunds on monthly plans. Annual plans: contact support within 14 days of renewal for a refund.',
   description: 'Cancel Headspace in under 3 minutes via web, iOS, or Android. Free content remains accessible after cancellation.',

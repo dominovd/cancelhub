@@ -8,7 +8,7 @@ export const paramountPlus: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: "Paramount+ cancellation is straightforward on web, though the app may require extra steps depending on how you subscribed.",
   darkPatternScore: 3,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$7.99/mo (Essential) · $12.99/mo (with SHOWTIME)',
   refundPolicy: 'No refunds. Access continues until end of billing period.',
   description: 'Cancel Paramount+ in under 5 minutes on web, iOS, or Android. Includes SHOWTIME bundle cancellation.',

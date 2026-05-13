@@ -8,7 +8,7 @@ export const doordash: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'DoorDash allows easy cancellation through the app or website with no retention screens.',
   darkPatternScore: 2,
-  lastVerified: '2025-04-10',
+  lastVerified: '2026-04-10',
   monthlyPrice: '$9.99/mo (DashPass)',
   refundPolicy: 'No refunds. DashPass benefits continue until the end of the billing period.',
   description: 'Cancel DashPass in under 2 minutes. No cancellation fee — access continues until billing period ends.',

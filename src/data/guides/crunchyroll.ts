@@ -8,7 +8,7 @@ export const crunchyroll: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Crunchyroll cancellation is quick and straightforward on web or mobile.',
   darkPatternScore: 2,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: 'Fan: $7.99/mo · Mega Fan: $9.99/mo · Ultimate Fan: $14.99/mo',
   refundPolicy: 'No refunds. Access continues until end of billing period.',
   description: 'Cancel Crunchyroll in under 3 minutes on web, iOS, or Android. Anime library stays accessible until billing period ends.',

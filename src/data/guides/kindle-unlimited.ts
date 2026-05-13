@@ -8,7 +8,7 @@ export const kindleUnlimited: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Kindle Unlimited cancellation is simple and straightforward through Amazon.',
   darkPatternScore: 2,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$11.99/mo',
   refundPolicy: 'No refunds. Access continues until end of billing period. Borrowed books are removed after cancellation.',
   description: 'Cancel Kindle Unlimited in under 2 minutes at Amazon. All borrowed books are removed after your period ends.',

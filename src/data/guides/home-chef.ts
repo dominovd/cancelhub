@@ -8,7 +8,7 @@ export const homeChef: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Home Chef cancellation is available online and is relatively easy, though you must cancel before the weekly cutoff.',
   darkPatternScore: 3,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$9.95–$15.95/meal depending on plan',
   refundPolicy: "No refunds on delivered boxes. Cancel or skip before Thursday midnight to avoid next week's charge.",
   description: 'Cancel Home Chef before Thursday midnight to avoid next week\'s delivery charge. Takes 2 minutes online.',

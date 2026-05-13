@@ -8,7 +8,7 @@ export const beachbody: CancelGuide = {
   difficulty: 'medium',
   difficultyReason: 'Beachbody (now BODi) cancellation requires contacting support or navigating buried account settings. Auto-renewal is aggressive.',
   darkPatternScore: 6,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$19.99/mo · $119.88/yr',
   refundPolicy: '30-day money-back guarantee on first purchase. No refunds after 30 days.',
   description: 'Cancel BODi (Beachbody On Demand) in under 5 minutes via web or by contacting support. 30-day refund available for new subscribers.',

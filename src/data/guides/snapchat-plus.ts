@@ -8,7 +8,7 @@ export const snapchatPlus: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Snapchat+ cancellation is quick and available in the app or device settings.',
   darkPatternScore: 2,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$3.99/mo · $29.99/yr',
   refundPolicy: 'No refunds. Access continues until end of billing period.',
   description: 'Cancel Snapchat+ in under 2 minutes via the Snapchat app, iOS Settings, or Google Play.',

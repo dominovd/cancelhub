@@ -8,7 +8,7 @@ export const britbox: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'BritBox cancellation is quick and available on the web or through device subscription settings.',
   darkPatternScore: 2,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$8.99/mo · $89.99/yr',
   refundPolicy: 'No refunds. Access continues until end of billing period.',
   description: 'Cancel BritBox in under 3 minutes via web, iOS, or Android. British TV access ends at billing period close.',

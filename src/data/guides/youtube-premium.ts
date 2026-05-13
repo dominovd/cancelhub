@@ -8,7 +8,7 @@ export const youtubePremium: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'YouTube Premium cancellation is quick on the web, though the mobile app requires a few extra taps.',
   darkPatternScore: 2,
-  lastVerified: '2025-04-07',
+  lastVerified: '2026-04-07',
   monthlyPrice: '$13.99/mo · $22.99/mo (Family)',
   refundPolicy: 'No refunds. Access and ad-free experience continue until billing period ends.',
   description: 'Cancel YouTube Premium in under 3 minutes on web, iOS, or Android.',

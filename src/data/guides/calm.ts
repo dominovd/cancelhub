@@ -8,7 +8,7 @@ export const calm: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Calm cancellation is available via web or app settings. Mobile subscriptions must cancel through the device.',
   darkPatternScore: 3,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$14.99/mo · $69.99/yr · Calm Premium for Life: $399.99 one-time',
   refundPolicy: 'No refunds on monthly plans. Annual plans: contact support within 30 days.',
   description: 'Cancel Calm Premium in under 3 minutes via web, iOS, or Android. Meditation content is removed after cancellation.',

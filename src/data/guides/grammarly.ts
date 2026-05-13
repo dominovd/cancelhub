@@ -8,7 +8,7 @@ export const grammarly: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Grammarly cancellation is straightforward but requires navigating account settings on the web — the browser extension has no cancel option.',
   darkPatternScore: 3,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: 'Premium: $12/mo · Business: $15/user/mo (billed annually)',
   refundPolicy: 'No refunds on monthly plans. Annual plans: contact support within 30 days for a refund.',
   description: 'Cancel Grammarly Premium in under 3 minutes via grammarly.com account settings. The browser extension cannot cancel.',

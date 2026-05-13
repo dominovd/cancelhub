@@ -8,7 +8,7 @@ export const tinderGold: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Tinder Gold cancellation is simple through your device subscription settings.',
   darkPatternScore: 3,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$29.99/mo · $14.99/mo (6-month) · $9.99/mo (12-month)',
   refundPolicy: 'No refunds. Access continues until end of billing period.',
   description: 'Cancel Tinder Gold or Tinder Plus in under 2 minutes via iOS, Android, or web.',

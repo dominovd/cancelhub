@@ -8,7 +8,7 @@ export const xboxGamePass: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Xbox Game Pass cancellation is clean and simple via Microsoft account settings or the Xbox app.',
   darkPatternScore: 2,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: 'PC Game Pass: $9.99/mo · Game Pass Ultimate: $14.99/mo',
   refundPolicy: 'No refunds. Access continues until end of billing period.',
   description: 'Cancel Xbox Game Pass or PC Game Pass in under 3 minutes via Microsoft account settings.',

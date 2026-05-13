@@ -8,7 +8,7 @@ export const thriveMarket: CancelGuide = {
   difficulty: 'medium',
   difficultyReason: 'Thrive Market membership cancellation requires contacting support or navigating account settings, and the cancel option is not prominently displayed.',
   darkPatternScore: 5,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$12/mo · $59.99/yr (annual saves ~58%)',
   refundPolicy: 'Annual memberships are refundable within 30 days. Monthly memberships have no refund.',
   description: 'Cancel Thrive Market membership in under 5 minutes via account settings or live chat.',

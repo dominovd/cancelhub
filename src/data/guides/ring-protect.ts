@@ -8,7 +8,7 @@ export const ringProtect: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Ring Protect cancellation is available online and in the app, though finding the right settings takes a few clicks.',
   darkPatternScore: 3,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: 'Basic: $4.99/mo per device · Plus: $10/mo · Pro: $20/mo',
   refundPolicy: 'No refunds. Access continues until end of billing period. Annual plans get prorated refund if cancelled within 30 days.',
   description: 'Cancel Ring Protect plan in under 3 minutes via the Ring app or Amazon account settings.',

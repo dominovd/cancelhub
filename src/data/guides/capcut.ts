@@ -8,7 +8,7 @@ export const capcut: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'CapCut Pro cancellation is available through device subscription settings or the app.',
   darkPatternScore: 3,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$7.99/mo · $49.99/yr',
   refundPolicy: 'No refunds. Access continues until end of billing period.',
   description: 'Cancel CapCut Pro in under 2 minutes via iOS, Android, or web account settings.',

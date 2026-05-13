@@ -8,7 +8,7 @@ export const pandora: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Pandora cancellation is available on the web but not directly in the mobile app.',
   darkPatternScore: 3,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: 'Plus: $4.99/mo · Premium: $9.99/mo · Family Plan: $14.99/mo',
   refundPolicy: 'No refunds. Access continues until end of billing period.',
   description: 'Cancel Pandora Plus or Premium in under 3 minutes via web. Mobile app requires web browser to cancel.',

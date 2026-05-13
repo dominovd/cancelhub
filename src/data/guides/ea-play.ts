@@ -8,7 +8,7 @@ export const eaPlay: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'EA Play cancellation is available online but requires a few steps to find the right page.',
   darkPatternScore: 3,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: 'EA Play: $4.99/mo · EA Play Pro: $14.99/mo',
   refundPolicy: 'No refunds. Access continues until end of billing period.',
   description: 'Cancel EA Play or EA Play Pro in under 5 minutes on web, PlayStation, Xbox, or device settings.',

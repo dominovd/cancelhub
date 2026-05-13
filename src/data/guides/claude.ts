@@ -8,7 +8,7 @@ export const claude: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Anthropic provides a simple cancellation flow with no retention friction.',
   darkPatternScore: 1,
-  lastVerified: '2025-04-09',
+  lastVerified: '2026-04-09',
   monthlyPrice: '$20/mo (Pro) · $25/mo per user (Team)',
   refundPolicy: 'No refunds. Access continues until end of billing period.',
   description: 'Cancel Claude Pro or Team subscription in under 3 minutes via web or Apple settings.',

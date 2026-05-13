@@ -17,7 +17,7 @@ export const adobe: CancelGuide = {
     refundClarity: 'murky',
     estimatedMinutes: 8,
   },
-  lastVerified: '2025-04-05',
+  lastVerified: '2026-04-05',
   monthlyPrice: '$54.99/mo (annual plan)',
   refundPolicy: 'Early termination fee: 50% of remaining months if cancelled in first year. Free if cancelled within 14 days of purchase or renewal.',
   description: 'Cancel Adobe Creative Cloud without paying the early termination fee. Timing matters — here\'s exactly what to do.',

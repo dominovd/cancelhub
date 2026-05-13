@@ -8,7 +8,7 @@ export const appleMusic: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Apple Music cancellation is built into iOS settings and takes about 30 seconds.',
   darkPatternScore: 1,
-  lastVerified: '2025-04-08',
+  lastVerified: '2026-04-08',
   monthlyPrice: '$10.99/mo (Individual) · $16.99/mo (Family)',
   refundPolicy: 'No partial refunds. Access continues until billing period ends.',
   description: 'Cancel Apple Music on iPhone, Mac, Android, or the web. Includes free-trial timing.',

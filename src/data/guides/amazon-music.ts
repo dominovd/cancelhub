@@ -8,7 +8,7 @@ export const amazonMusic: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Amazon Music Unlimited cancellation is straightforward through Amazon account settings.',
   darkPatternScore: 2,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$10.99/mo · $8.99/mo (Prime members) · $4.99/mo (single device)',
   refundPolicy: 'No refunds. Access continues until end of billing period.',
   description: 'Cancel Amazon Music Unlimited in under 2 minutes at Amazon. Prime members can downgrade to free Prime Music.',

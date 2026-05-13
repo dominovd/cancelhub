@@ -8,7 +8,7 @@ export const uberOne: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Uber One cancellation is available in the app but buried under several menus.',
   darkPatternScore: 3,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$9.99/mo · $96/yr',
   refundPolicy: 'No refunds. Access continues until end of billing period.',
   description: 'Cancel Uber One membership in under 3 minutes in the Uber or Uber Eats app.',

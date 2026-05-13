@@ -8,7 +8,7 @@ export const chegg: CancelGuide = {
   difficulty: 'medium',
   difficultyReason: 'Chegg cancellation is available online but requires navigating account settings and may show retention offers.',
   darkPatternScore: 5,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: 'Chegg Study: $14.95/mo · Chegg Study Pack: $19.95/mo',
   refundPolicy: 'No refunds. Cancel before your renewal date to avoid the next charge.',
   description: 'Cancel Chegg subscription in under 3 minutes via chegg.com account settings.',

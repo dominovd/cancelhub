@@ -8,7 +8,7 @@ export const googleOne: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Google One cancellation (downgrade to free) is straightforward through Google Account settings.',
   darkPatternScore: 2,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$1.99/mo (100GB) · $2.99/mo (200GB) · $9.99/mo (2TB)',
   refundPolicy: 'No refunds. Downgrade takes effect at end of billing period. Free plan includes 15GB.',
   description: 'Cancel Google One (downgrade to free 15GB) in under 3 minutes via web or Android.',

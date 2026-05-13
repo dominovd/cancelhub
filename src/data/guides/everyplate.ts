@@ -8,7 +8,7 @@ export const everyplate: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'EveryPlate cancellation is available online but you must cancel before the weekly cutoff to avoid charges.',
   darkPatternScore: 3,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$4.99–$6.99/meal — one of the most affordable meal kit services',
   refundPolicy: "No refunds on delivered boxes. Cancel before Saturday midnight to avoid next week's charge.",
   description: "Cancel EveryPlate before Saturday midnight to avoid next week's charge. Takes 2 minutes online.",

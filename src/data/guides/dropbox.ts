@@ -8,7 +8,7 @@ export const dropbox: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Dropbox cancellation is available online and is relatively straightforward, though it downgrade to free rather than fully closing the account.',
   darkPatternScore: 3,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: 'Plus: $9.99/mo · Professional: $16.58/mo · Business: $15/user/mo',
   refundPolicy: 'No refunds on monthly plans. Annual plans may qualify for a prorated refund if cancelled within 30 days.',
   description: 'Cancel Dropbox paid plan (downgrade to free 2GB) in under 3 minutes via web.',

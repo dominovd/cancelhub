@@ -8,7 +8,7 @@ export const factorMeals: CancelGuide = {
   difficulty: 'medium',
   difficultyReason: "Factor requires cancelling before a weekly cutoff deadline or you'll be charged for the next week. The deadline is easy to miss.",
   darkPatternScore: 5,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$10.99–$15.99/meal (6–18 meals/week)',
   refundPolicy: "No refunds on delivered meals. Cancel before the weekly cutoff (typically Wednesday 11:59 PM CT) to avoid being charged for the next week.",
   description: "Cancel Factor Meals before Wednesday 11:59 PM CT to avoid next week's charge. Takes 2 minutes online.",

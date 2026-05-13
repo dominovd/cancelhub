@@ -8,7 +8,7 @@ export const chewyAutoship: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Chewy Autoship is easy to cancel or modify — Chewy provides a clear cancellation flow in your account.',
   darkPatternScore: 2,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: 'Varies — 5–35% discount on recurring pet supply orders',
   refundPolicy: 'Full refunds on unwanted orders if reported within a reasonable time. Chewy is known for exceptional customer service.',
   description: 'Cancel Chewy Autoship orders in under 2 minutes via chewy.com or the Chewy app. Each Autoship order cancels separately.',

@@ -8,7 +8,7 @@ export const skillshare: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Skillshare cancellation is available online but can involve a few extra steps and a pause offer.',
   darkPatternScore: 3,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$14/mo · $99/yr',
   refundPolicy: 'No refunds on monthly plans. Annual plans: 7-day refund window — contact support.',
   description: 'Cancel Skillshare membership in under 3 minutes via web or the app.',

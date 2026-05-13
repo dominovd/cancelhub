@@ -17,7 +17,7 @@ export const amazonPrime: CancelGuide = {
     refundClarity: 'murky',
     estimatedMinutes: 5,
   },
-  lastVerified: '2025-04-07',
+  lastVerified: '2026-04-07',
   monthlyPrice: '$14.99/mo · $139/yr',
   refundPolicy: 'Prorated refund available if you haven\'t used Prime benefits during the current billing period.',
   description: 'Cancel Amazon Prime and potentially get a refund. Amazon makes this tricky — follow the exact steps below.',

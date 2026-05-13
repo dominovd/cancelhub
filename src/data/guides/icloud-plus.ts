@@ -8,7 +8,7 @@ export const icloudPlus: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Apple makes iCloud+ cancellation (downgrade to free) very straightforward on all devices.',
   darkPatternScore: 1,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$0.99/mo (50GB) · $2.99/mo (200GB) · $9.99/mo (2TB)',
   refundPolicy: 'No refunds. You can downgrade to the free 5GB plan at any time.',
   description: 'Cancel iCloud+ (downgrade to free 5GB) in under 2 minutes on iPhone, Mac, or web.',

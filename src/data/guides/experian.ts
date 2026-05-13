@@ -17,7 +17,7 @@ export const experian: CancelGuide = {
     refundClarity: 'murky',
     estimatedMinutes: 20,
   },
-  lastVerified: '2025-04-10',
+  lastVerified: '2026-04-10',
   monthlyPrice: '$24.99/mo (CreditWorks Premium)',
   refundPolicy: 'Prorated refunds available in some cases. Contact support within the billing cycle for best results.',
   description: 'Cancel Experian CreditWorks or IdentityWorks subscription. Requires phone or chat — no online self-cancel.',

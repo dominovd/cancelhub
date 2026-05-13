@@ -8,7 +8,7 @@ export const classpass: CancelGuide = {
   difficulty: 'medium',
   difficultyReason: 'ClassPass uses multiple retention steps and requires navigating deep into account settings. Pausing is pushed heavily before cancellation.',
   darkPatternScore: 6,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$19–$159/mo depending on credit plan',
   refundPolicy: 'No refunds on unused credits. Credits expire at end of billing period.',
   description: 'Cancel ClassPass in under 5 minutes via the app or web. Unused credits are forfeited at billing end.',

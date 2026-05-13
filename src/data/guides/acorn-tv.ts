@@ -8,7 +8,7 @@ export const acornTv: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Acorn TV cancellation is simple via web or device settings.',
   darkPatternScore: 2,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$6.99/mo · $69.99/yr',
   refundPolicy: 'No refunds. Access continues until end of billing period.',
   description: 'Cancel Acorn TV in under 2 minutes via web, iOS, or Android.',

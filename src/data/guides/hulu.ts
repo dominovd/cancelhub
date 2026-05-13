@@ -8,7 +8,7 @@ export const hulu: CancelGuide = {
   difficulty: 'medium',
   difficultyReason: 'Hulu uses multiple confirmation screens and offers discounts before letting you cancel.',
   darkPatternScore: 5,
-  lastVerified: '2025-04-06',
+  lastVerified: '2026-04-06',
   monthlyPrice: '$7.99/mo (with ads) · $17.99/mo (no ads)',
   refundPolicy: 'No refunds. Access continues until end of billing period.',
   description: 'Cancel Hulu on web, iOS, Android, or Amazon in 5 minutes. Includes Disney Bundle cancellation.',

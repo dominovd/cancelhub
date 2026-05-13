@@ -17,7 +17,7 @@ export const blinkFitness: CancelGuide = {
     refundClarity: 'murky',
     estimatedMinutes: 15,
   },
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$15/mo (Monthly) · $25/mo (All Out) · Annual fee: $49/yr',
   refundPolicy: 'No refunds. 30-day cancellation notice required for monthly plans. Annual members may owe remaining dues.',
   description: 'Cancel Blink Fitness in person at your home gym or by certified mail. No online cancellation available.',

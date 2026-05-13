@@ -8,7 +8,7 @@ export const grubhub: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Grubhub+ cancellation is available in the app and on the web with minimal friction.',
   darkPatternScore: 3,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$9.99/mo',
   refundPolicy: 'No refunds. Access continues until end of billing period.',
   description: 'Cancel Grubhub+ membership in under 3 minutes via the app or grubhub.com.',

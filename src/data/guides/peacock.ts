@@ -8,7 +8,7 @@ export const peacock: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: "Peacock's cancellation flow is straightforward with minimal retention friction.",
   darkPatternScore: 3,
-  lastVerified: '2025-04-10',
+  lastVerified: '2026-04-10',
   monthlyPrice: '$7.99/mo (Premium) · $13.99/mo (Premium Plus)',
   refundPolicy: 'No refunds. Access continues until end of billing period.',
   description: 'Cancel Peacock Premium in under 3 minutes on web or through your device\'s subscription settings.',

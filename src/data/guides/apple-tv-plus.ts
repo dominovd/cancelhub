@@ -8,7 +8,7 @@ export const appleTvPlus: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Apple TV+ is one of the easiest subscriptions to cancel — Apple provides a clean, friction-free flow.',
   darkPatternScore: 1,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$9.99/mo · $99/yr',
   refundPolicy: 'No refunds. Access continues until end of billing period. Apple may offer prorated refunds in some regions.',
   description: 'Cancel Apple TV+ in under 2 minutes via iPhone, Mac, or the web. Apple makes it easy with no retention screens.',

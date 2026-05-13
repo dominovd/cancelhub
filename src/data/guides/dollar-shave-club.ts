@@ -8,7 +8,7 @@ export const dollarShaveClub: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Dollar Shave Club cancellation is available online but requires a few steps to find the cancel option in account settings.',
   darkPatternScore: 3,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$5–$15/mo depending on products selected',
   refundPolicy: 'Contact support within 30 days of delivery for a return/refund on unopened products.',
   description: 'Cancel Dollar Shave Club membership in under 3 minutes via dollarshaveclub.com account settings.',

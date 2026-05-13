@@ -8,7 +8,7 @@ export const onlyfans: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'OnlyFans subscription cancellation is available in the app and web, though each creator must be unsubscribed separately.',
   darkPatternScore: 3,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: 'Varies by creator: $4.99–$49.99/mo per creator',
   refundPolicy: 'No refunds. Access continues until end of subscription period. Turn off auto-renew to stop being charged.',
   description: 'Cancel OnlyFans subscriptions in under 2 minutes. Each creator must be unsubscribed separately — turn off auto-renew.',

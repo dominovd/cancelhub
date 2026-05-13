@@ -8,7 +8,7 @@ export const slingTv: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Sling TV cancellation is available online and takes just a few minutes, though they may offer discounts to keep you.',
   darkPatternScore: 3,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$40/mo (Orange or Blue) · $55/mo (Orange + Blue)',
   refundPolicy: 'No refunds. Sling offers prorated credit if you cancel partway through the month in some cases.',
   description: 'Cancel Sling TV in under 5 minutes on web or mobile. No contracts or early termination fees.',

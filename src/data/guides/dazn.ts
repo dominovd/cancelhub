@@ -8,7 +8,7 @@ export const dazn: CancelGuide = {
   difficulty: 'medium',
   difficultyReason: "DAZN cancellation varies by country and requires navigating account settings that aren't always clearly labeled.",
   darkPatternScore: 5,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: 'Varies by country: $19.99–$24.99/mo (US) · £9.99/mo (UK)',
   refundPolicy: 'No refunds. Access continues until end of billing period. Cancellation policies vary by region.',
   description: 'Cancel DAZN in under 5 minutes via web or mobile. Steps vary slightly by country.',

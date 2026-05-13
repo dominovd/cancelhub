@@ -8,7 +8,7 @@ export const ancestry: CancelGuide = {
   difficulty: 'medium',
   difficultyReason: 'Ancestry uses multiple confirmation screens and auto-renewal that is easy to miss. The cancel option is buried in account settings.',
   darkPatternScore: 6,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$24.99/mo (US Discovery) · $49.99/mo (World Explorer) · Annual plans available',
   refundPolicy: 'No refunds on current subscription period. Cancel before renewal to avoid next charge.',
   description: 'Cancel Ancestry subscription and stop auto-renewal in under 5 minutes. Steps work for all Ancestry plans.',

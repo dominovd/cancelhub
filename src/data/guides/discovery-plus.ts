@@ -8,7 +8,7 @@ export const discoveryPlus: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Discovery+ cancellation is available online and in the app. Cancel where you subscribed.',
   darkPatternScore: 3,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$4.99/mo (with ads) · $8.99/mo (ad-free)',
   refundPolicy: 'No refunds. Access continues until end of billing period.',
   description: 'Cancel Discovery+ in under 3 minutes via web, iOS, or Android. Cancel through wherever you originally subscribed.',

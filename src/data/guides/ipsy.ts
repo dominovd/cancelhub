@@ -8,7 +8,7 @@ export const ipsy: CancelGuide = {
   difficulty: 'medium',
   difficultyReason: 'IPSY cancellation requires navigating account settings and must be done before the monthly cutoff to avoid being charged for the next box.',
   darkPatternScore: 6,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: 'Glam Bag: $14/mo · Glam Bag Plus: $28/mo · Glam Bag X: $55/quarter',
   refundPolicy: 'No refunds on shipped bags. Cancel before the 1st of the month to avoid being charged for the next cycle.',
   description: 'Cancel IPSY Glam Bag before the 1st of the month to avoid next charge. Takes 3 minutes online.',

@@ -8,7 +8,7 @@ export const philo: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Philo offers a simple cancellation flow with no major retention tactics.',
   darkPatternScore: 2,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$25/mo',
   refundPolicy: 'No refunds. Access continues until end of billing period.',
   description: 'Cancel Philo in under 3 minutes on web, iOS, or Android. No contracts or cancellation fees.',

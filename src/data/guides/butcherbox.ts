@@ -8,7 +8,7 @@ export const butcherbox: CancelGuide = {
   difficulty: 'medium',
   difficultyReason: 'ButcherBox cancellation requires navigating account settings and must be done before the monthly cutoff. The cancel link is not prominently displayed.',
   darkPatternScore: 5,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$146–$291/box (every 4–8 weeks depending on plan)',
   refundPolicy: 'No refunds on shipped boxes. Cancel before your billing date to avoid next shipment.',
   description: "Cancel ButcherBox before your billing date to avoid next month's charge. The cancel option is in Account Settings.",

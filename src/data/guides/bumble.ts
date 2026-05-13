@@ -8,7 +8,7 @@ export const bumble: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Bumble subscription cancellation is straightforward through your device or the app.',
   darkPatternScore: 3,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: 'Bumble Boost: $16.99/mo · Bumble Premium: $32.99/mo',
   refundPolicy: 'No refunds. Access continues until end of billing period.',
   description: 'Cancel Bumble Boost or Premium in under 3 minutes via iOS, Android, or web.',

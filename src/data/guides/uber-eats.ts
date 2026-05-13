@@ -8,7 +8,7 @@ export const uberEats: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Cancellation is straightforward through the Uber app with no retention friction.',
   darkPatternScore: 2,
-  lastVerified: '2025-04-10',
+  lastVerified: '2026-04-10',
   monthlyPrice: '$9.99/mo (Uber One)',
   refundPolicy: 'No refunds. Uber One benefits continue until the end of the billing period.',
   description: 'Cancel Uber One (Uber Eats + Uber rides membership) in under 2 minutes through the app or website.',

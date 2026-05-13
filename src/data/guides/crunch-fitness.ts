@@ -17,7 +17,7 @@ export const crunchFitness: CancelGuide = {
     refundClarity: 'murky',
     estimatedMinutes: 20,
   },
-  lastVerified: '2025-04-10',
+  lastVerified: '2026-04-10',
   monthlyPrice: '$9.99–$29.99/mo depending on tier and location',
   refundPolicy: 'No refunds. Annual contract members owe an early termination fee if cancelling before contract end.',
   description: 'Cancel your Crunch Fitness membership in person, by certified mail, or sometimes online. Annual contracts have early termination fees.',

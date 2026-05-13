@@ -8,7 +8,7 @@ export const hellofresh: CancelGuide = {
   difficulty: 'medium',
   difficultyReason: 'HelloFresh uses a pause-push strategy and requires cancelling before a weekly cutoff. The cancel option is hard to find.',
   darkPatternScore: 6,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$7.99–$13.99/meal depending on plan (2–5 meals × 2–4 people/week)',
   refundPolicy: 'No refunds on delivered boxes. Cancel or skip before the weekly cutoff (typically Friday midnight) to avoid the next charge.',
   description: "Cancel HelloFresh before Friday midnight to avoid next week's charge. The cancel button is buried — follow these exact steps.",

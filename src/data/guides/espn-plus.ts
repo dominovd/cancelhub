@@ -8,7 +8,7 @@ export const espnPlus: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'ESPN+ cancellation is straightforward via the web, though bundled Disney subscriptions require extra steps.',
   darkPatternScore: 3,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$10.99/mo · $109.99/yr · Disney Bundle from $14.99/mo',
   refundPolicy: 'No refunds. Access continues until end of billing period.',
   description: 'Cancel ESPN+ in under 5 minutes on web, iOS, or Android. Includes Disney Bundle cancellation steps.',

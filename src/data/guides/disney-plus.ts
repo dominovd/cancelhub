@@ -8,7 +8,7 @@ export const disneyPlus: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Disney+ cancellation is straightforward with no early termination fees.',
   darkPatternScore: 3,
-  lastVerified: '2025-04-06',
+  lastVerified: '2026-04-06',
   monthlyPrice: '$7.99/mo (with ads) · $13.99/mo (no ads)',
   refundPolicy: 'No refunds. Access continues until end of billing period.',
   description: 'Cancel Disney+ in 5 minutes on web, iOS, Android, or through Roku and Amazon.',

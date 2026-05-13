@@ -8,7 +8,7 @@ export const blueApron: CancelGuide = {
   difficulty: 'medium',
   difficultyReason: 'Blue Apron requires cancelling before the weekly cutoff and the cancel option is buried under account settings. Pausing is heavily pushed.',
   darkPatternScore: 5,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$9.99–$13.99/meal depending on plan',
   refundPolicy: "No refunds on delivered boxes. Skip or cancel before the weekly cutoff (typically Friday) to avoid next week's charge.",
   description: "Cancel Blue Apron before Friday to avoid next week's charge. The cancel button is under Account → Plan Settings.",

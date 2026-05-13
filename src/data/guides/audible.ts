@@ -8,7 +8,7 @@ export const audible: CancelGuide = {
   difficulty: 'medium',
   difficultyReason: 'Audible uses multiple retention screens, offers pauses and discounts, but cancellation is ultimately available.',
   darkPatternScore: 6,
-  lastVerified: '2025-04-10',
+  lastVerified: '2026-04-10',
   monthlyPrice: '$14.95/mo (Premium Plus)',
   refundPolicy: 'Unused credits are lost upon cancellation. Purchased audiobooks are yours to keep forever.',
   description: 'Cancel Audible without losing your credits or purchased audiobooks. Timing your cancellation matters.',

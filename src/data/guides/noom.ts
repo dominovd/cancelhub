@@ -17,7 +17,7 @@ export const noom: CancelGuide = {
     refundClarity: 'none',
     estimatedMinutes: 20,
   },
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$59–$209/mo depending on plan length (longer = cheaper per month)',
   refundPolicy: 'No refunds after the trial period. Noom offers a 14-day trial for $0.50–$1. Cancel within the trial to avoid charges.',
   description: 'Cancel Noom — requires live chat or phone support. No direct cancel button. Must act within 14-day trial to avoid being charged.',

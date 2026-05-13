@@ -8,7 +8,7 @@ export const fabfitfun: CancelGuide = {
   difficulty: 'medium',
   difficultyReason: 'FabFitFun requires cancelling before the seasonal cutoff and the cancel option is buried in account settings.',
   darkPatternScore: 5,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$54.99/quarter (seasonal box) · $219.99/yr (annual)',
   refundPolicy: 'No refunds on shipped boxes. Cancel before the seasonal cutoff to avoid being charged for the next box.',
   description: 'Cancel FabFitFun before the seasonal billing date to avoid next box charge. Takes 3 minutes online.',

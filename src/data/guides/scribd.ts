@@ -8,7 +8,7 @@ export const scribd: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Scribd cancellation is available online and in the app, though the cancel option requires a few clicks to find.',
   darkPatternScore: 3,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$11.99/mo',
   refundPolicy: 'No refunds. Access continues until end of billing period.',
   description: 'Cancel Scribd in under 3 minutes via web or the app. Access to books, audiobooks, and documents ends at billing period close.',

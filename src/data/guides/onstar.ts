@@ -17,7 +17,7 @@ export const onstar: CancelGuide = {
     refundClarity: 'murky',
     estimatedMinutes: 15,
   },
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$14.99–$49.99/mo depending on plan (Protection, Security, Remote Access, etc.)',
   refundPolicy: 'No refunds on used months. Cancel before renewal to avoid next charge.',
   description: 'Cancel OnStar by phone — there is no online cancellation. Call 1-888-466-7827 and follow the prompts.',

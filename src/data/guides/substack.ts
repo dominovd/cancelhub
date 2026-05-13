@@ -8,7 +8,7 @@ export const substack: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Substack paid newsletter cancellation is simple and done directly from your subscription email or account settings.',
   darkPatternScore: 2,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: 'Varies by newsletter: $5–$30+/mo per newsletter',
   refundPolicy: "No automatic refunds. Contact the newsletter author directly to request a refund. Annual subscriptions may be prorated at the author's discretion.",
   description: 'Cancel Substack paid newsletter subscription in under 2 minutes. Each newsletter cancels separately.',

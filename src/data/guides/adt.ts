@@ -17,7 +17,7 @@ export const adt: CancelGuide = {
     refundClarity: 'murky',
     estimatedMinutes: 30,
   },
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$28.99–$59.99/mo depending on plan and equipment',
   refundPolicy: 'No refunds. Early termination fee applies if cancelled before contract end (typically 75% of remaining balance).',
   description: 'Cancel ADT — requires calling 1-800-238-2727. Long-term contracts may include early termination fees up to 75% of remaining balance.',

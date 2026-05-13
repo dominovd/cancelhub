@@ -8,7 +8,7 @@ export const shudder: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Shudder cancellation is quick and straightforward via web or device subscription settings.',
   darkPatternScore: 2,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$5.99/mo · $56.99/yr',
   refundPolicy: 'No refunds. Access continues until end of billing period.',
   description: 'Cancel Shudder in under 2 minutes via web, iOS, or Android. Horror content access ends at billing period close.',

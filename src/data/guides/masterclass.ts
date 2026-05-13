@@ -8,7 +8,7 @@ export const masterclass: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'MasterClass cancellation is available online and takes a few minutes, though the layout can make the cancel option hard to find.',
   darkPatternScore: 3,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: 'Individual: $10/mo (billed $120/yr) · Duo: $15/mo · Family: $20/mo',
   refundPolicy: '30-day satisfaction guarantee on annual plans. Contact support within 30 days for a full refund.',
   description: 'Cancel MasterClass in under 3 minutes via account settings. 30-day refund available on annual plans.',

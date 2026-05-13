@@ -17,7 +17,7 @@ export const siriusxm: CancelGuide = {
     refundClarity: 'murky',
     estimatedMinutes: 25,
   },
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$9.99–$22.99/mo depending on plan. Promotional rates often jump to full price after the first year.',
   refundPolicy: 'Prorated refunds available for prepaid annual plans if cancelled within the billing period.',
   description: 'Cancel SiriusXM by phone or online chat — cancellation by phone can take 20+ minutes due to aggressive retention tactics.',

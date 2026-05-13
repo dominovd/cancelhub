@@ -8,7 +8,7 @@ export const patreon: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Patreon membership cancellation is quick and clean — each creator membership is managed separately.',
   darkPatternScore: 2,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: 'Varies by creator: $1–$100+/mo per creator',
   refundPolicy: 'No automatic refunds. You can request a refund from the creator within 5 days of being charged. Access continues until end of billing period.',
   description: 'Cancel Patreon membership(s) in under 2 minutes. Each creator is cancelled separately.',

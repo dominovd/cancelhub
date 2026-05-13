@@ -8,7 +8,7 @@ export const youtubeTv: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'YouTube TV has a clean cancellation flow with no major retention friction.',
   darkPatternScore: 2,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$72.99/mo',
   refundPolicy: 'No refunds. Access continues through end of billing period.',
   description: 'Cancel YouTube TV in under 3 minutes on web or mobile. No hidden fees or cancellation charges.',

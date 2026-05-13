@@ -8,7 +8,7 @@ export const nordvpn: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'NordVPN offers a 30-day money-back guarantee and a simple cancellation flow.',
   darkPatternScore: 2,
-  lastVerified: '2025-04-08',
+  lastVerified: '2026-04-08',
   monthlyPrice: '$3.99–$12.99/mo (depending on plan)',
   refundPolicy: '30-day money-back guarantee. Request a refund via live chat or email within 30 days.',
   description: 'Cancel NordVPN and get a full refund if you\'re within 30 days of purchase. Takes under 5 minutes.',

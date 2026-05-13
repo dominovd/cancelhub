@@ -17,7 +17,7 @@ export const fabletics: CancelGuide = {
     refundClarity: 'murky',
     estimatedMinutes: 15,
   },
-  lastVerified: '2025-04-10',
+  lastVerified: '2026-04-10',
   monthlyPrice: '$59.95/mo VIP membership credit',
   refundPolicy: 'Member credits can be used for purchases after cancellation if used promptly. No cash refunds on credits.',
   description: 'Cancel Fabletics VIP membership — requires a phone call or chat. Skip the "member credit" trap first.',

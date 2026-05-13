@@ -8,7 +8,7 @@ export const instacart: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Instacart+ cancellation is straightforward through the app with minimal retention friction.',
   darkPatternScore: 3,
-  lastVerified: '2025-04-10',
+  lastVerified: '2026-04-10',
   monthlyPrice: '$9.99/mo · $99/yr',
   refundPolicy: 'No refunds. Benefits continue until end of billing period. Annual subscribers may get a prorated refund if unused.',
   description: 'Cancel Instacart+ (formerly Instacart Express) in under 2 minutes on the app or website.',

@@ -17,7 +17,7 @@ export const weightwatchers: CancelGuide = {
     refundClarity: 'murky',
     estimatedMinutes: 12,
   },
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$23–$55/mo depending on plan (Digital, Workshops+Digital)',
   refundPolicy: 'No refunds. Commitment plans (3 or 6 months) require completing the term before cancelling.',
   description: 'Cancel WeightWatchers digital or workshop membership in under 5 minutes via web or by calling support.',

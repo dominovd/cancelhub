@@ -17,7 +17,7 @@ export const norton: CancelGuide = {
     refundClarity: 'murky',
     estimatedMinutes: 5,
   },
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$19.99–$34.99/mo (annual plans billed upfront: $29.99–$99.99/yr)',
   refundPolicy: '60-day money-back guarantee on annual plans. Contact support within 60 days of purchase.',
   description: 'Cancel Norton 360 and stop auto-renewal in under 5 minutes. Includes steps to get your 60-day refund.',

@@ -8,7 +8,7 @@ export const hims: CancelGuide = {
   difficulty: 'medium',
   difficultyReason: 'Hims requires contacting support to cancel and may require giving advance notice before the next billing cycle.',
   darkPatternScore: 6,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: 'Varies by product: $20–$100+/mo depending on treatment',
   refundPolicy: 'No refunds on shipped products. Cancel before your next processing date to avoid being charged.',
   description: 'Cancel Hims subscription — contact support via chat or account settings. Cancel before processing date to avoid next shipment.',

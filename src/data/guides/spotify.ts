@@ -8,7 +8,7 @@ export const spotify: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Cancellation on the web is straightforward, though the app does not support cancellation directly.',
   darkPatternScore: 2,
-  lastVerified: '2025-04-08',
+  lastVerified: '2026-04-08',
   monthlyPrice: '$11.99',
   refundPolicy: 'No refunds. Premium continues until the end of the billing period.',
   description: 'Cancel Spotify Premium in under 60 seconds. Web is the fastest path — the app does not let you cancel directly.',

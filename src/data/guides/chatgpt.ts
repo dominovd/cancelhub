@@ -8,7 +8,7 @@ export const chatgpt: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'OpenAI provides a simple cancellation flow with no retention friction.',
   darkPatternScore: 1,
-  lastVerified: '2025-04-09',
+  lastVerified: '2026-04-09',
   monthlyPrice: '$20/mo (Plus) · $200/mo (Pro)',
   refundPolicy: 'No refunds. Access continues until end of billing period.',
   description: 'Cancel ChatGPT Plus or Pro in under 2 minutes. Stop the next charge without losing current access.',

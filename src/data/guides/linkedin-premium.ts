@@ -17,7 +17,7 @@ export const linkedinPremium: CancelGuide = {
     refundClarity: 'murky',
     estimatedMinutes: 4,
   },
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: 'Career: $29.99/mo · Business: $59.99/mo · Sales Navigator: $99.99/mo',
   refundPolicy: 'No refunds. Access continues until end of billing period.',
   description: 'Cancel LinkedIn Premium in under 5 minutes via web or mobile. Includes steps to avoid the retention screens.',

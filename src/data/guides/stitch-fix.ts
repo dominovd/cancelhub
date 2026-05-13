@@ -8,7 +8,7 @@ export const stitchFix: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Stitch Fix cancellation is available online, though the terminology ("pausing" vs "cancelling a Fix") can be confusing.',
   darkPatternScore: 3,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$20 styling fee per Fix (credited toward purchase) · Freestyle has no subscription',
   refundPolicy: 'Return unwanted items within 3 days of delivery. The $20 styling fee is non-refundable if you keep no items.',
   description: 'Cancel or pause your Stitch Fix subscription in 2 minutes online. You can keep a one-time Fix active without scheduling future deliveries.',

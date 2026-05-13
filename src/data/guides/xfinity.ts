@@ -17,7 +17,7 @@ export const xfinity: CancelGuide = {
     refundClarity: 'murky',
     estimatedMinutes: 30,
   },
-  lastVerified: '2025-04-10',
+  lastVerified: '2026-04-10',
   monthlyPrice: '$30–$120+/mo depending on plan',
   refundPolicy: 'Prorated refund for unused days after cancellation. Early termination fee applies if under contract.',
   description: 'Cancel Xfinity internet, cable, or streaming without paying early termination fees. Requires a call or store visit.',

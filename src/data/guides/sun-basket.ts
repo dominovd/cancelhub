@@ -8,7 +8,7 @@ export const sunBasket: CancelGuide = {
   difficulty: 'medium',
   difficultyReason: 'Sun Basket cancellation requires navigating account settings and must be done before the weekly cutoff. The cancel option is not prominently displayed.',
   darkPatternScore: 5,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$10.99–$16.99/meal depending on plan',
   refundPolicy: "No refunds on delivered orders. Cancel before Wednesday midnight to avoid next week's charge.",
   description: "Cancel Sun Basket before Wednesday midnight to avoid next week's charge. Takes 3 minutes online.",

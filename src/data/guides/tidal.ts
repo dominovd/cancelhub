@@ -8,7 +8,7 @@ export const tidal: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Tidal cancellation is straightforward via web or the app settings.',
   darkPatternScore: 2,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: 'Tidal Free · HiFi: $10.99/mo · HiFi Plus: $19.99/mo',
   refundPolicy: 'No refunds. Access continues until end of billing period.',
   description: 'Cancel Tidal HiFi or HiFi Plus in under 3 minutes via web, iOS, or Android.',

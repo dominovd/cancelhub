@@ -8,7 +8,7 @@ export const whoop: CancelGuide = {
   difficulty: 'medium',
   difficultyReason: 'WHOOP membership requires contacting support to cancel and may involve a device commitment period.',
   darkPatternScore: 6,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$30/mo · $239/yr · $399/2yr (membership required to use device)',
   refundPolicy: 'No refunds after 30 days. If within 30 days and unused, contact support for a return.',
   description: 'Cancel WHOOP membership — requires contacting support. The device is free but only works with an active membership.',

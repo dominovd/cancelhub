@@ -8,7 +8,7 @@ export const netflix: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Netflix allows cancellation in 2 clicks from account settings with no retention tactics.',
   darkPatternScore: 1,
-  lastVerified: '2025-04-10',
+  lastVerified: '2026-04-10',
   monthlyPrice: '$15.49–$22.99',
   refundPolicy: 'No refunds. Access continues until end of billing period.',
   description: 'Cancel your Netflix subscription in under 2 minutes. Steps work on web, iOS, Android, and Roku.',

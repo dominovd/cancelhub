@@ -8,7 +8,7 @@ export const canvaPro: CancelGuide = {
   difficulty: 'easy',
   difficultyReason: 'Canva Pro cancellation is available in account settings and is relatively straightforward.',
   darkPatternScore: 3,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: 'Pro: $14.99/mo · $119.99/yr · Teams: $29.99/mo for 5 people',
   refundPolicy: 'No refunds on monthly plans. Annual plans: prorated refund may be available — contact support.',
   description: 'Cancel Canva Pro in under 3 minutes via canva.com account settings. All your designs are preserved on the free plan.',

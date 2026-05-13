@@ -17,7 +17,7 @@ export const microsoft365: CancelGuide = {
     refundClarity: 'clear',
     estimatedMinutes: 5,
   },
-  lastVerified: '2025-04-05',
+  lastVerified: '2026-04-05',
   monthlyPrice: '$6.99/mo (Personal) · $9.99/mo (Family)',
   refundPolicy: 'Prorated refund available within 30 days for annual subscriptions.',
   description: 'Cancel Microsoft 365 without losing your files. OneDrive storage drops to 5GB — here\'s how to prepare.',

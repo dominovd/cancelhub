@@ -8,7 +8,7 @@ export const peloton: CancelGuide = {
   difficulty: 'medium',
   difficultyReason: 'Peloton membership cancellation requires going through account settings and may involve multiple confirmation steps.',
   darkPatternScore: 5,
-  lastVerified: '2025-05-01',
+  lastVerified: '2026-05-01',
   monthlyPrice: '$12.99/mo (App One) · $24/mo (App+) · $44/mo (All-Access with hardware)',
   refundPolicy: 'No refunds on membership fees. Equipment has a separate 30-day return policy.',
   description: 'Cancel Peloton membership in under 5 minutes via the app or web. Hardware and app memberships cancel separately.',
