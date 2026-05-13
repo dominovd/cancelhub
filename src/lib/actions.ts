@@ -1,8 +1,8 @@
 import type { CancelGuide } from '@/types/guide'
 
-export type ActionType = 'pause' | 'refund'
+export type ActionType = 'pause' | 'refund' | 'delete'
 
-export const SUPPORTED_ACTIONS: ActionType[] = ['pause', 'refund']
+export const SUPPORTED_ACTIONS: ActionType[] = ['pause', 'refund', 'delete']
 
 export interface ActionMeta {
   type: ActionType
@@ -25,6 +25,13 @@ export const ACTION_META: Record<ActionType, ActionMeta> = {
     title: (s) => `How to Get a ${s} Refund`,
     description: (s) =>
       `${s} refund policy explained: eligibility, how to request one, and what to do if you were charged after cancelling.`,
+  },
+  delete: {
+    type: 'delete',
+    label: 'Delete account',
+    title: (s) => `How to Delete Your ${s} Account`,
+    description: (s) =>
+      `How to permanently delete your ${s} account and all associated data. Cancelling a subscription and deleting an account are two different things — here's how to do both.`,
   },
 }
 

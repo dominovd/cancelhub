@@ -149,6 +149,12 @@ export default async function GuidePage({
           >
             Get a refund →
           </Link>
+          <Link
+            href={`/${params.locale}/cancel/${guide.slug}/delete`}
+            className="text-[12px] px-3 py-[5px] border border-rule rounded-full hover:border-[var(--accent)] hover:accent transition-colors ink-3"
+          >
+            Delete account →
+          </Link>
         </div>
 
         {/* Meta strip */}

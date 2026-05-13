@@ -271,6 +271,116 @@ function RefundContent({ guide }: { guide: CancelGuide; locale: string }) {
   )
 }
 
+// ─── Delete content ───────────────────────────────────────────────────────────
+
+function DeleteContent({ guide, locale }: { guide: CancelGuide; locale: string }) {
+  // Check if guide mentions delete/close account in commonIssues
+  const deleteIssue = guide.commonIssues.find((i) =>
+    /delete|close|remove.{0,10}account/i.test(i.question)
+  )
+
+  const webPlatform = guide.platforms.find((p) => p.platform === 'web')
+  const accountUrl = webPlatform?.deepLink
+
+  return (
+    <div className="space-y-8">
+      {/* Key distinction banner */}
+      <div
+        className="px-4 py-4 rounded-[6px] border border-rule text-[13px] ink-2 leading-[1.6]"
+        style={{ background: 'var(--accent-soft)' }}
+      >
+        <strong className="ink block mb-1">Cancelling ≠ deleting</strong>
+        Cancelling stops future billing but keeps your account and data intact.
+        Deleting your account is permanent — all history, preferences, and data are removed.
+        Do both only if you are certain you won&apos;t return.
+      </div>
+
+      {/* Steps */}
+      <div>
+        <h2
+          className="text-[11px] ink-3 uppercase mb-5"
+          style={{ letterSpacing: '0.18em' }}
+        >
+          How to delete your {guide.service} account
+        </h2>
+        <ol className="space-y-4">
+          {[
+            {
+              n: 1,
+              title: 'Cancel your subscription first',
+              body: (
+                <>
+                  Before deleting, cancel your active subscription to avoid being charged
+                  after account deletion.{' '}
+                  <Link
+                    href={`/${locale}/cancel/${guide.slug}`}
+                    className="underline underline-offset-2 hover:accent transition-colors"
+                  >
+                    See full cancellation guide →
+                  </Link>
+                </>
+              ),
+            },
+            {
+              n: 2,
+              title: 'Export your data',
+              body: 'Download any content, history, or data you want to keep before proceeding. Most services offer a data export option in account settings.',
+            },
+            {
+              n: 3,
+              title: 'Find the account deletion option',
+              body: accountUrl
+                ? `Go to ${guide.service} account settings (${accountUrl}) and look for "Delete account", "Close account", or "Deactivate".`
+                : `Sign in and go to ${guide.service} account settings. Look for "Delete account", "Close account", or "Deactivate" — usually under Privacy, Security, or Account.`,
+            },
+            {
+              n: 4,
+              title: 'Confirm deletion',
+              body: `${guide.service} will ask you to confirm. You may need to enter your password or verify via email. Once confirmed, the deletion is permanent.`,
+            },
+          ].map(({ n, title, body }) => (
+            <li key={n} className="flex gap-4">
+              <span
+                className="shrink-0 w-6 h-6 rounded-full flex items-center justify-center text-[11px] mt-[2px]"
+                style={{ background: 'var(--rule)', color: 'var(--ink-2)', fontWeight: 600 }}
+              >
+                {n}
+              </span>
+              <div className="min-w-0">
+                <p className="text-[14px] ink mb-[3px]" style={{ fontWeight: 500 }}>{title}</p>
+                <p className="text-[14px] ink-2 leading-[1.6] max-w-[56ch]">{body}</p>
+              </div>
+            </li>
+          ))}
+        </ol>
+      </div>
+
+      {/* Service-specific note from commonIssues if available */}
+      {deleteIssue && (
+        <div className="border-t border-rule pt-6">
+          <h2
+            className="text-[11px] ink-3 uppercase mb-3"
+            style={{ letterSpacing: '0.18em' }}
+          >
+            {guide.service}-specific note
+          </h2>
+          <p className="text-[13px] ink-3 mb-1">{deleteIssue.question}</p>
+          <p className="text-[14px] ink-2 leading-[1.6] max-w-[58ch]">{deleteIssue.answer}</p>
+        </div>
+      )}
+
+      {/* Warning */}
+      <div className="border-t border-rule pt-6">
+        <p className="text-[13px] ink-3 leading-[1.6] max-w-[56ch]">
+          If you can&apos;t find the delete option, contact {guide.service} support directly and
+          request account deletion. Under GDPR (EU) and CCPA (California), you have a legal right
+          to request deletion of your personal data.
+        </p>
+      </div>
+    </div>
+  )
+}
+
 // ─── Page ─────────────────────────────────────────────────────────────────────
 
 export default function ActionPage({
@@ -320,6 +430,7 @@ export default function ActionPage({
       {/* Content */}
       {actionType === 'pause' && <PauseContent guide={guide} locale={locale} />}
       {actionType === 'refund' && <RefundContent guide={guide} locale={locale} />}
+      {actionType === 'delete' && <DeleteContent guide={guide} locale={locale} />}
 
       {/* Other actions */}
       <section className="border-t border-rule mt-12 pt-6">
@@ -347,6 +458,14 @@ export default function ActionPage({
               className="text-[13px] px-3 py-[6px] border border-rule rounded-full hover:border-[var(--accent)] hover:accent transition-colors ink-2"
             >
               Get a refund
+            </Link>
+          )}
+          {actionType !== 'delete' && (
+            <Link
+              href={`/${locale}/cancel/${slug}/delete`}
+              className="text-[13px] px-3 py-[6px] border border-rule rounded-full hover:border-[var(--accent)] hover:accent transition-colors ink-2"
+            >
+              Delete account
             </Link>
           )}
         </div>
