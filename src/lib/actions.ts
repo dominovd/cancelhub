@@ -69,8 +69,6 @@ export interface RefundInfo {
 
 export function deriveRefundInfo(guide: CancelGuide): RefundInfo {
   const policy = guide.refundPolicy ?? 'No refund policy information available for this service.'
-  const lower = policy.toLowerCase()
-
   const noRefund = /^no refunds?/i.test(policy.trim())
   const eligible = !noRefund
 
