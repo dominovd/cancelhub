@@ -110,9 +110,25 @@ export default async function GuidePage({
             {t('howToCancel', { service: guide.service })}
           </h1>
         </div>
-        <p className="text-[16px] ink-2 leading-[1.6] max-w-[55ch] mb-8">
+        <p className="text-[16px] ink-2 leading-[1.6] max-w-[55ch] mb-5">
           {guide.description}
         </p>
+
+        {/* Action cross-links */}
+        <div className="flex flex-wrap gap-2 mb-8">
+          <Link
+            href={`/${params.locale}/cancel/${guide.slug}/pause`}
+            className="text-[12px] px-3 py-[5px] border border-rule rounded-full hover:border-[var(--accent)] hover:accent transition-colors ink-3"
+          >
+            How to pause →
+          </Link>
+          <Link
+            href={`/${params.locale}/cancel/${guide.slug}/refund`}
+            className="text-[12px] px-3 py-[5px] border border-rule rounded-full hover:border-[var(--accent)] hover:accent transition-colors ink-3"
+          >
+            Get a refund →
+          </Link>
+        </div>
 
         {/* Meta strip */}
         <div className="border-y border-rule py-3 flex flex-wrap items-center gap-x-8 gap-y-2 text-[12px] ink-2">
