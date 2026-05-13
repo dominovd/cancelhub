@@ -111,7 +111,7 @@ export default async function HomePage({
           className="text-[11px] ink-3 uppercase mb-3"
           style={{ letterSpacing: '0.18em' }}
         >
-          {t('waitlistTitle')}
+          Early Access
         </p>
         <h2
           className="text-[22px] mb-3"

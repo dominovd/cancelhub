@@ -4,6 +4,35 @@ import { useState, useRef, useEffect } from 'react'
 import { usePathname, useRouter } from 'next/navigation'
 import { locales, localeLabels, type Locale } from '@/config/i18n'
 
+function GlobeIcon() {
+  return (
+    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <circle cx="12" cy="12" r="10" />
+      <line x1="2" y1="12" x2="22" y2="12" />
+      <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+    </svg>
+  )
+}
+
+function ChevronIcon({ open }: { open: boolean }) {
+  return (
+    <svg
+      width="10"
+      height="10"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+      style={{ transition: 'transform 0.15s', transform: open ? 'rotate(180deg)' : 'rotate(0deg)' }}
+    >
+      <polyline points="6 9 12 15 18 9" />
+    </svg>
+  )
+}
+
 export function LanguageSwitcher({ currentLocale }: { currentLocale: string }) {
   const [open, setOpen] = useState(false)
   const ref = useRef<HTMLDivElement>(null)
@@ -19,9 +48,7 @@ export function LanguageSwitcher({ currentLocale }: { currentLocale: string }) {
   }, [])
 
   const switchLocale = (locale: Locale) => {
-    // Replace current locale prefix in path
     const segments = pathname.split('/')
-    // segments[1] is the current locale (or empty for default)
     const isDefaultLocale = !locales.includes(segments[1] as Locale)
     const pathWithoutLocale = isDefaultLocale ? pathname : '/' + segments.slice(2).join('/')
     const newPath = locale === 'en' ? pathWithoutLocale || '/' : `/${locale}${pathWithoutLocale}`
@@ -33,29 +60,64 @@ export function LanguageSwitcher({ currentLocale }: { currentLocale: string }) {
     <div ref={ref} className="relative">
       <button
         onClick={() => setOpen(!open)}
-        className="flex items-center gap-1.5 text-sm text-gray-600 hover:text-gray-900 px-3 py-1.5 rounded-lg hover:bg-gray-100 transition-colors"
+        className="flex items-center gap-1.5 ink-2 hover:accent transition-colors text-[13px]"
+        aria-label="Switch language"
+        aria-expanded={open}
       >
-        <span>🌐</span>
-        <span className="uppercase font-medium">{currentLocale}</span>
-        <span className={`text-xs transition-transform ${open ? 'rotate-180' : ''}`}>▾</span>
+        <GlobeIcon />
+        <span className="uppercase" style={{ fontWeight: 500, letterSpacing: '0.04em' }}>
+          {currentLocale}
+        </span>
+        <ChevronIcon open={open} />
       </button>
 
       {open && (
-        <div className="absolute right-0 top-full mt-2 w-52 bg-white rounded-xl border border-gray-200 shadow-xl z-50 overflow-hidden max-h-80 overflow-y-auto">
-          {locales.map((locale) => (
-            <button
-              key={locale}
-              onClick={() => switchLocale(locale)}
-              className={`w-full text-left px-4 py-2.5 text-sm transition-colors flex items-center justify-between ${
-                locale === currentLocale
-                  ? 'bg-blue-50 text-blue-700 font-semibold'
-                  : 'text-gray-700 hover:bg-gray-50'
-              }`}
-            >
-              <span>{localeLabels[locale]}</span>
-              {locale === currentLocale && <span className="text-blue-500 text-xs">✓</span>}
-            </button>
-          ))}
+        <div
+          className="absolute right-0 top-full z-50 overflow-hidden overflow-y-auto"
+          style={{
+            marginTop: 8,
+            width: 200,
+            maxHeight: 320,
+            background: 'var(--header-bg, var(--bg))',
+            border: '1px solid var(--rule-strong)',
+            borderRadius: 6,
+            boxShadow: '0 4px 24px rgba(0,0,0,0.12)',
+          }}
+        >
+          {locales.map((locale) => {
+            const isCurrent = locale === currentLocale
+            return (
+              <button
+                key={locale}
+                onClick={() => switchLocale(locale)}
+                className="w-full text-left transition-colors"
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'space-between',
+                  padding: '8px 14px',
+                  fontSize: 13,
+                  color: isCurrent ? 'var(--accent)' : 'var(--ink-2)',
+                  fontWeight: isCurrent ? 600 : 400,
+                  background: 'transparent',
+                  borderBottom: '1px solid var(--rule)',
+                }}
+                onMouseEnter={(e) => {
+                  if (!isCurrent) (e.currentTarget as HTMLButtonElement).style.color = 'var(--ink)'
+                }}
+                onMouseLeave={(e) => {
+                  if (!isCurrent) (e.currentTarget as HTMLButtonElement).style.color = 'var(--ink-2)'
+                }}
+              >
+                <span>{localeLabels[locale]}</span>
+                {isCurrent && (
+                  <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                )}
+              </button>
+            )
+          })}
         </div>
       )}
     </div>

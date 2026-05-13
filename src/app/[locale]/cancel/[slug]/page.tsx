@@ -119,9 +119,9 @@ export default async function GuidePage({
             </span>
           )}
           {guide.refundPolicy && (
-            <span className="inline-flex items-center gap-2">
-              <span className="ink-3">{t('refundTitle')}</span>
-              <span className="truncate max-w-[28ch]">{guide.refundPolicy}</span>
+            <span className="inline-flex items-start gap-2">
+              <span className="ink-3 shrink-0">{t('refundTitle')}</span>
+              <span>{guide.refundPolicy}</span>
             </span>
           )}
           <span className="ink-3 ml-auto">{t('verifiedOn', { date: guide.lastVerified })}</span>
