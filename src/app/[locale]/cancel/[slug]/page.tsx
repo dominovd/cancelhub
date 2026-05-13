@@ -74,12 +74,33 @@ export default async function GuidePage({
     })),
   }
 
+  const faqSchema = guide.commonIssues.length > 0
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: guide.commonIssues.map((issue) => ({
+          '@type': 'Question',
+          name: issue.question,
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: issue.answer,
+          },
+        })),
+      }
+    : null
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
       />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
 
       <article className="max-w-2xl mx-auto px-6 pt-12 pb-20">
         {/* Breadcrumb */}
