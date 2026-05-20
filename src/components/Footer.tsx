@@ -79,6 +79,12 @@ export async function Footer({ locale = defaultLocale }: FooterProps) {
               <Link href={`${prefix}/contact`} className="block py-[3px] text-[13.5px] ink hover:accent transition-colors">
                 {tFoot('contact')}
               </Link>
+              <Link href={`${prefix}/privacy`} className="block py-[3px] text-[13.5px] ink hover:accent transition-colors">
+                {tFoot('privacy')}
+              </Link>
+              <Link href={`${prefix}/terms`} className="block py-[3px] text-[13.5px] ink hover:accent transition-colors">
+                {tFoot('terms')}
+              </Link>
             </div>
           </div>
         </div>

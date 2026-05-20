@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- Background — ink black with rounded corners -->
+  <rect width="120" height="120" rx="22" fill="#16140f"/>
+
+  <!-- C·H monogram, italic serif. Letters in cream, terracotta middle dot -->
+  <text
+    x="60"
+    y="80"
+    font-family="'Fraunces', 'Instrument Serif', Georgia, serif"
+    font-style="italic"
+    font-weight="600"
+    font-size="64"
+    fill="#f4ede0"
+    text-anchor="middle"
+    letter-spacing="-3"
+  >C<tspan dx="-2" dy="-2" font-style="normal" font-size="22" fill="#f0a878">·</tspan><tspan dx="-2" dy="2">H</tspan></text>
+</svg>
