@@ -323,6 +323,102 @@ html[data-theme="dark"] body {
   margin-top: 1px;
 }
 
+/* ── Step list (used on guide pages) ─────────────────────────────────────── */
+ol.step-list {
+  list-style: none; padding: 0; counter-reset: step;
+  position: relative;
+}
+ol.step-list::before {
+  content: ""; position: absolute;
+  left: 15px; top: 16px; bottom: 16px; width: 2px;
+  background: repeating-linear-gradient(var(--line) 0 6px, transparent 6px 12px);
+}
+ol.step-list li {
+  counter-increment: step; position: relative;
+  padding: 0 0 22px 46px;
+  cursor: pointer; user-select: none;
+}
+ol.step-list li:last-child { padding-bottom: 0; }
+ol.step-list li::before {
+  content: counter(step); position: absolute;
+  left: 0; top: -2px;
+  width: 32px; height: 32px; border-radius: 50%;
+  background: var(--card); border: 2px solid var(--ink); color: var(--ink);
+  font-family: var(--font-sans);
+  font-weight: 700; font-size: 14px;
+  display: flex; align-items: center; justify-content: center;
+  transition: background .15s ease, color .15s ease, border-color .15s ease;
+}
+ol.step-list li.done::before {
+  content: "✓"; background: var(--green); border-color: var(--green); color: #fff;
+}
+ol.step-list li .step-title {
+  font-weight: 600; font-size: 15px; transition: color .15s ease, text-decoration-color .15s ease;
+}
+ol.step-list li.done .step-title {
+  color: var(--ink-3); text-decoration: line-through; text-decoration-color: var(--ink-4);
+}
+ol.step-list li .step-note {
+  font-size: 14px; color: var(--ink-3); margin-top: 4px;
+}
+ol.step-list li .step-warn {
+  display: inline-block;
+  font-size: 12px; font-weight: 600;
+  background: var(--hard-soft); color: var(--hard);
+  padding: 2px 8px; border-radius: 6px; margin-top: 6px;
+}
+
+/* Platform tabs — pill style */
+.platform-tabs { display: flex; gap: 6px; margin-bottom: 16px; flex-wrap: wrap; }
+.platform-tab {
+  font-size: 13px; font-weight: 600;
+  padding: 8px 14px; border-radius: 9px; cursor: pointer;
+  border: 1px solid var(--line); background: var(--card); color: var(--ink-3);
+  transition: all .12s ease;
+}
+.platform-tab:not(.on):hover { border-color: var(--accent); color: var(--accent); }
+.platform-tab.on { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+
+/* After-cancel checklist */
+.checklist { list-style: none; padding: 0; }
+.checklist li {
+  display: flex; gap: 11px; padding: 10px 0;
+  border-bottom: 1px dashed var(--line); font-size: 14px;
+}
+.checklist li:last-child { border-bottom: none; }
+.checklist .mk {
+  flex: none; width: 20px; height: 20px; border-radius: 6px;
+  background: var(--green-soft); color: var(--green);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 12px; font-weight: 700; margin-top: 1px;
+}
+.checklist .mk.x { background: var(--hard-soft); color: var(--hard); }
+
+/* Accordion (common-issues) */
+.faq-item {
+  border: 1px solid var(--line); border-radius: 11px;
+  background: var(--card); margin-bottom: 8px; overflow: hidden;
+}
+.faq-item summary {
+  list-style: none; cursor: pointer;
+  padding: 14px 18px; font-weight: 600; font-size: 14.5px;
+  display: flex; align-items: center; gap: 10px;
+}
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary::before {
+  content: "+";
+  font-family: var(--font-sans);
+  font-weight: 700; color: var(--accent);
+  font-size: 18px; width: 18px; flex: none;
+  transition: transform .2s ease;
+}
+.faq-item[open] summary::before { content: "−"; }
+.faq-item .faq-body {
+  padding: 0 18px 16px 46px;
+  font-size: 14px; color: var(--ink-2);
+  line-height: 1.6;
+}
+
 /* ── Inline keyboard hint ────────────────────────────────────────────────── */
 .kbd {
   font-family: ui-monospace, SFMono-Regular, Menlo, monospace;

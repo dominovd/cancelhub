@@ -5,7 +5,6 @@ import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { allGuides, guidesBySlug } from '@/data/guides'
 import { canonicalUrl, hreflangAlternates } from '@/config/seo'
 import { locales } from '@/config/i18n'
-import { DifficultyBadge } from '@/components/DifficultyBadge'
 import { PlatformTabs } from '@/components/PlatformTabs'
 import { BrandLogo } from '@/components/BrandLogo'
 import { DarkPatternCard } from '@/components/DarkPatternCard'
@@ -46,6 +45,36 @@ export async function generateMetadata({
   }
 }
 
+function SectionHeading({ n, children }: { n: number | string; children: React.ReactNode }) {
+  return (
+    <div className="flex items-baseline gap-[10px] mb-[6px]">
+      <span
+        style={{
+          fontSize: 13,
+          color: '#fff',
+          background: 'var(--ink)',
+          width: 24,
+          height: 24,
+          borderRadius: 7,
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          fontWeight: 700,
+          flexShrink: 0,
+        }}
+      >
+        {n}
+      </span>
+      <h2
+        className="font-serif-display"
+        style={{ fontWeight: 600, fontSize: 23, letterSpacing: '-0.01em' }}
+      >
+        {children}
+      </h2>
+    </div>
+  )
+}
+
 export default async function GuidePage({
   params,
 }: {
@@ -60,6 +89,7 @@ export default async function GuidePage({
 
   const t = await getTranslations({ locale: params.locale, namespace: 'guide' })
   const tNav = await getTranslations({ locale: params.locale, namespace: 'nav' })
+  const tDiff = await getTranslations({ locale: params.locale, namespace: 'difficulty' })
 
   const primaryPlatform = guide.platforms.find((p) => p.platform === 'web') ?? guide.platforms[0]
   const howToSchema = {
@@ -81,13 +111,26 @@ export default async function GuidePage({
         mainEntity: guide.commonIssues.map((issue) => ({
           '@type': 'Question',
           name: issue.question,
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: issue.answer,
-          },
+          acceptedAnswer: { '@type': 'Answer', text: issue.answer },
         })),
       }
     : null
+
+  const difficultyClass =
+    guide.difficulty === 'easy' ? 'pill pill-easy' : guide.difficulty === 'medium' ? 'pill pill-med' : 'pill pill-hard'
+  const difficultyShort =
+    guide.difficulty === 'easy' ? tDiff('easyShort') : guide.difficulty === 'medium' ? tDiff('medShort') : tDiff('hardShort')
+
+  const estimatedMinutes = guide.darkPatternFlags?.estimatedMinutes
+  const bestPlatform =
+    primaryPlatform.platform === 'web' ? 'Website' :
+    primaryPlatform.platform === 'ios' ? 'iPhone / iPad' : 'Android'
+
+  // section counter so the "When to cancel" advisory inserts cleanly when present
+  let sectionN = 0
+  const nextN = () => String(++sectionN)
+
+  const showWhen = !!guide.refundPolicy
 
   return (
     <>
@@ -102,115 +145,218 @@ export default async function GuidePage({
         />
       )}
 
-      <article className="max-w-2xl mx-auto px-6 pt-12 pb-20">
+      <article className="max-w-[760px] mx-auto px-[22px]">
         {/* Breadcrumb */}
-        <nav className="flex items-center gap-2 text-[12px] ink-3 mb-8">
-          <Link href={`/${params.locale}`} className="hover:accent transition-colors">
-            {tNav('home')}
-          </Link>
+        <nav
+          aria-label="Breadcrumb"
+          style={{
+            fontSize: 13,
+            color: 'var(--ink-3)',
+            padding: '20px 0 0',
+            display: 'flex',
+            gap: 7,
+            flexWrap: 'wrap',
+          }}
+        >
+          <Link href={`/${params.locale}`} className="hover:accent transition-colors">{tNav('home')}</Link>
           <span>/</span>
-          <Link href={`/${params.locale}/cancel`} className="hover:accent transition-colors">
-            {tNav('guides')}
-          </Link>
+          <Link href={`/${params.locale}/cancel`} className="hover:accent transition-colors">{tNav('allGuides')}</Link>
           <span>/</span>
           <Link
             href={`/${params.locale}/categories/${categoryToSlug(guide.category)}`}
-            className="ink-2 hover:accent transition-colors"
+            className="hover:accent transition-colors"
           >
             {guide.category}
           </Link>
         </nav>
 
-        {/* Title with logo */}
-        <div className="flex items-start gap-5 mb-3">
-          <BrandLogo slug={guide.slug} service={guide.service} alt={guide.service} size={36} className="mt-2" />
-          <h1
-            className="text-[34px] sm:text-[38px] leading-[1.05] flex-1 min-w-0"
-            style={{ fontWeight: 500, letterSpacing: '-0.018em' }}
+        {/* Header */}
+        <header style={{ padding: '18px 0 8px' }}>
+          <div className="flex items-center gap-4 mb-[18px]">
+            <div
+              className="flex-none flex items-center justify-center shadow-warm"
+              style={{
+                width: 58,
+                height: 58,
+                borderRadius: 14,
+                background: 'var(--card)',
+                border: '1px solid var(--line)',
+              }}
+            >
+              <BrandLogo slug={guide.slug} service={guide.service} alt={guide.service} size={42} />
+            </div>
+            <div className="min-w-0">
+              <h1
+                className="font-serif-display"
+                style={{
+                  fontWeight: 600,
+                  fontSize: 'clamp(28px, 5vw, 40px)',
+                  lineHeight: 1.1,
+                  letterSpacing: '-0.02em',
+                }}
+              >
+                {t('howToCancel', { service: guide.service })}
+              </h1>
+              <p style={{ color: 'var(--ink-3)', fontSize: 15, marginTop: 3 }}>
+                {guide.description}
+              </p>
+            </div>
+          </div>
+
+          {/* Fact strip */}
+          <div
+            style={{
+              display: 'grid',
+              gridTemplateColumns: 'repeat(3, 1fr)',
+              border: '1px solid var(--line)',
+              borderRadius: 14,
+              overflow: 'hidden',
+              background: 'var(--card)',
+              boxShadow: 'var(--shadow)',
+              marginBottom: 14,
+            }}
           >
-            {t('howToCancel', { service: guide.service })}
-          </h1>
-        </div>
-        <p className="text-[16px] ink-2 leading-[1.6] max-w-[55ch] mb-5">
-          {guide.description}
-        </p>
+            <div style={{ padding: '14px 16px', borderRight: '1px solid var(--line)' }}>
+              <div style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '0.09em', color: 'var(--ink-3)', fontWeight: 600 }}>
+                {t('factDifficulty')}
+              </div>
+              <div style={{ fontSize: 16, fontWeight: 600, marginTop: 4, display: 'flex', alignItems: 'center', gap: 7 }}>
+                <span className={difficultyClass}>{difficultyShort}</span>
+              </div>
+            </div>
+            <div style={{ padding: '14px 16px', borderRight: '1px solid var(--line)' }}>
+              <div style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '0.09em', color: 'var(--ink-3)', fontWeight: 600 }}>
+                {t('factTime')}
+              </div>
+              <div style={{ fontSize: 16, fontWeight: 600, marginTop: 4 }}>
+                {estimatedMinutes ? `~${estimatedMinutes} min` : '—'}
+              </div>
+            </div>
+            <div style={{ padding: '14px 16px' }}>
+              <div style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '0.09em', color: 'var(--ink-3)', fontWeight: 600 }}>
+                {t('factPlatform')}
+              </div>
+              <div style={{ fontSize: 16, fontWeight: 600, marginTop: 4 }}>
+                {bestPlatform}
+              </div>
+            </div>
+          </div>
+
+          {/* Reassurance banner — only for easy cancellations */}
+          {guide.difficulty === 'easy' && (
+            <div className="reassure">
+              <span className="dot">✓</span>
+              <div>
+                <b>This one&apos;s quick.</b> Most people finish in under {estimatedMinutes ?? 3} minutes. No phone calls, no retention loops, no hidden fees.
+              </div>
+            </div>
+          )}
+        </header>
 
         {/* Action cross-links */}
-        <div className="flex flex-wrap gap-2 mb-8">
+        <div className="flex flex-wrap gap-2 mt-6 mb-2">
           <Link
             href={`/${params.locale}/cancel/${guide.slug}/pause`}
-            className="text-[12px] px-3 py-[5px] border border-rule rounded-full hover:border-[var(--accent)] hover:accent transition-colors ink-3"
+            className="chip"
+            style={{ fontSize: 12.5, padding: '5px 11px' }}
           >
             How to pause →
           </Link>
           <Link
             href={`/${params.locale}/cancel/${guide.slug}/refund`}
-            className="text-[12px] px-3 py-[5px] border border-rule rounded-full hover:border-[var(--accent)] hover:accent transition-colors ink-3"
+            className="chip"
+            style={{ fontSize: 12.5, padding: '5px 11px' }}
           >
             Get a refund →
           </Link>
           <Link
             href={`/${params.locale}/cancel/${guide.slug}/delete`}
-            className="text-[12px] px-3 py-[5px] border border-rule rounded-full hover:border-[var(--accent)] hover:accent transition-colors ink-3"
+            className="chip"
+            style={{ fontSize: 12.5, padding: '5px 11px' }}
           >
             Delete account →
           </Link>
         </div>
 
-        {/* Meta strip */}
-        <div className="border-y border-rule py-3 flex flex-wrap items-center gap-x-8 gap-y-2 text-[12px] ink-2">
-          <span className="inline-flex items-center gap-2">
-            <span className="ink-3">{t('difficulty')}</span>
-            <DifficultyBadge difficulty={guide.difficulty} reason={guide.difficultyReason} shortLabel />
-          </span>
-          {guide.monthlyPrice && (
-            <span className="inline-flex items-center gap-2">
-              <span className="ink-3">Price</span>
-              <span>{guide.monthlyPrice}</span>
-            </span>
-          )}
-          {guide.refundPolicy && (
-            <span className="inline-flex items-start gap-2">
-              <span className="ink-3 shrink-0">{t('refundTitle')}</span>
-              <span>{guide.refundPolicy}</span>
-            </span>
-          )}
-          <span className="ink-3 ml-auto">{t('verifiedOn', { date: guide.lastVerified })}</span>
-        </div>
+        {/* When to cancel — terracotta advisory (refund-aware) */}
+        {showWhen && (
+          <section style={{ padding: '34px 0 4px' }}>
+            <SectionHeading n={nextN()}>{t('whenTitle')}</SectionHeading>
+            <div
+              style={{
+                background: 'var(--accent-soft)',
+                border: '1px solid var(--accent-border)',
+                borderRadius: 14,
+                padding: '18px 20px',
+                marginTop: 10,
+                marginLeft: 34,
+              }}
+            >
+              <div
+                className="font-serif-display"
+                style={{ fontSize: 18, fontWeight: 600, color: '#7c2d12' }}
+              >
+                {t('refundTitle')}
+              </div>
+              <p style={{ fontSize: 14, color: '#7c2d12', marginTop: 5 }}>{guide.refundPolicy}</p>
+            </div>
+          </section>
+        )}
 
         {/* Steps */}
-        <section className="mt-12">
-          <h2
-            className="text-[11px] ink-3 uppercase mb-6"
-            style={{ letterSpacing: '0.18em' }}
+        <section style={{ padding: '34px 0 4px' }}>
+          <SectionHeading n={nextN()}>{t('stepsTitle')}</SectionHeading>
+          <p
+            style={{
+              color: 'var(--ink-3)',
+              fontSize: 14,
+              marginBottom: 16,
+              paddingLeft: 34,
+            }}
           >
-            {t('stepsTitle')}
-          </h2>
-          <PlatformTabs platforms={guide.platforms} />
+            Pick your platform — the steps are slightly different on web vs mobile.
+          </p>
+          <div style={{ paddingLeft: 0 }}>
+            <PlatformTabs platforms={guide.platforms} />
+          </div>
         </section>
 
-        {/* Dark pattern scorecard */}
-        <DarkPatternCard score={guide.darkPatternScore} flags={guide.darkPatternFlags} />
+        {/* After you cancel */}
+        <section style={{ padding: '34px 0 4px' }}>
+          <SectionHeading n={nextN()}>{t('afterTitle')}</SectionHeading>
+          <div className="card-warm" style={{ marginTop: 10 }}>
+            <ul className="checklist">
+              <li>
+                <span className="mk">✓</span>
+                <span>{t('afterCheck1')}</span>
+              </li>
+              <li>
+                <span className="mk">✓</span>
+                <span>{t('afterCheck2')}</span>
+              </li>
+              <li>
+                <span className="mk">✓</span>
+                <span>{t('afterCheck3')}</span>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        {/* Dark pattern card — keep existing component */}
+        <section style={{ paddingTop: 28 }}>
+          <DarkPatternCard score={guide.darkPatternScore} flags={guide.darkPatternFlags} />
+        </section>
 
         {/* Common issues */}
         {guide.commonIssues.length > 0 && (
-          <section className="border-t border-rule mt-12 pt-10">
-            <h2
-              className="text-[11px] ink-3 uppercase mb-6"
-              style={{ letterSpacing: '0.18em' }}
-            >
-              {t('issuesTitle')}
-            </h2>
-            <div className="space-y-6">
+          <section style={{ padding: '34px 0 4px' }}>
+            <SectionHeading n={nextN()}>{t('issuesTitle')}</SectionHeading>
+            <div style={{ marginTop: 10 }}>
               {guide.commonIssues.map((issue, i) => (
-                <div key={i}>
-                  <p className="text-[14px] ink mb-1" style={{ fontWeight: 500 }}>
-                    {issue.question}
-                  </p>
-                  <p className="text-[14px] ink-2 leading-[1.55] max-w-[60ch]">
-                    {issue.answer}
-                  </p>
-                </div>
+                <details key={i} className="faq-item">
+                  <summary>{issue.question}</summary>
+                  <div className="faq-body">{issue.answer}</div>
+                </details>
               ))}
             </div>
           </section>
@@ -218,44 +364,29 @@ export default async function GuidePage({
 
         {/* Alternatives */}
         {guide.alternatives && guide.alternatives.length > 0 && (
-          <section className="border-t border-rule mt-12 pt-10">
+          <section style={{ padding: '34px 0 4px' }}>
             <h2
-              className="text-[11px] ink-3 uppercase mb-5"
-              style={{ letterSpacing: '0.18em' }}
+              className="font-serif-display"
+              style={{ fontWeight: 600, fontSize: 22, letterSpacing: '-0.01em', marginBottom: 12 }}
             >
               {t('alternativesTitle', { service: guide.service })}
             </h2>
-            <div>
+            <div
+              className="grid gap-[10px]"
+              style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(228px, 1fr))' }}
+            >
               {guide.alternatives.map((alt) => {
-                // url is like '/cancel/disney-plus' — extract slug for the logo
                 const altSlug = alt.url.split('/').filter(Boolean).pop() ?? ''
                 return (
-                  <Link
-                    key={alt.name}
-                    href={alt.url}
-                    className="group grid items-center gap-4 py-[14px] border-b border-rule transition-colors"
-                    style={{ gridTemplateColumns: '28px 1fr 20px' }}
-                  >
-                    {/* Logo — fixed width, vertically centred */}
-                    <BrandLogo slug={altSlug} service={alt.name} alt={alt.name} size={22} />
-
-                    {/* Name + description stacked — takes all remaining space */}
-                    <div className="min-w-0">
-                      <span
-                        className="block text-[15px] ink group-hover:accent transition-colors leading-snug"
-                        style={{ fontWeight: 500 }}
-                      >
+                  <Link key={alt.name} href={alt.url} className="gcard">
+                    <BrandLogo slug={altSlug} service={alt.name} alt={alt.name} size={42} />
+                    <div className="min-w-0 flex-1">
+                      <div className="truncate" style={{ fontWeight: 600, fontSize: 14.5, lineHeight: 1.25 }}>
                         {alt.name}
-                      </span>
-                      <span className="block text-[12px] ink-3 mt-[2px] leading-snug truncate">
-                        {alt.description}
-                      </span>
+                      </div>
+                      <div style={{ fontSize: 12, color: 'var(--ink-3)' }}>{alt.description}</div>
                     </div>
-
-                    {/* Arrow */}
-                    <span className="text-[14px] ink-3 opacity-40 group-hover:opacity-100 group-hover:accent transition-all justify-self-end">
-                      →
-                    </span>
+                    <span style={{ color: 'var(--ink-3)' }}>→</span>
                   </Link>
                 )
               })}
@@ -271,17 +402,14 @@ export default async function GuidePage({
         />
 
         {/* Footer nav */}
-        <div className="border-t border-rule mt-8 pt-6 flex items-center justify-between flex-wrap gap-4 text-[12px] ink-3">
-          <Link
-            href={`/${params.locale}/cancel`}
-            className="hover:accent transition-colors"
-          >
+        <div
+          className="flex items-center justify-between flex-wrap gap-4 mt-8 pt-6"
+          style={{ borderTop: '1px solid var(--line)', fontSize: 13, color: 'var(--ink-3)' }}
+        >
+          <Link href={`/${params.locale}/cancel`} className="hover:accent transition-colors">
             {t('backLink')}
           </Link>
-          <Link
-            href={`/${params.locale}/rankings`}
-            className="hover:accent transition-colors"
-          >
+          <Link href={`/${params.locale}/rankings`} className="hover:accent transition-colors">
             See all rankings →
           </Link>
         </div>

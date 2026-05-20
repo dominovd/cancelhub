@@ -1,11 +1,10 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
-import { setRequestLocale } from 'next-intl/server'
+import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { allGuides } from '@/data/guides'
 import { canonicalUrl, hreflangAlternates } from '@/config/seo'
 import { locales } from '@/config/i18n'
 import { BrandLogo } from '@/components/BrandLogo'
-import { DifficultyBadge } from '@/components/DifficultyBadge'
 import type { CancelGuide } from '@/types/guide'
 
 export function generateStaticParams() {
@@ -17,290 +16,327 @@ export async function generateMetadata({
 }: {
   params: { locale: string }
 }): Promise<Metadata> {
+  const t = await getTranslations({ locale, namespace: 'rankings' })
   const path = '/rankings'
   return {
-    title: 'Hardest Subscriptions to Cancel — 2025 Rankings',
-    description:
-      'Which subscriptions make cancellation the most painful? We scored 90+ services on dark patterns, required phone calls, guilt tactics, and refund opacity.',
+    title: t('metaTitle'),
+    description: t('metaDesc'),
     alternates: {
       canonical: canonicalUrl(path, locale),
       languages: hreflangAlternates(path),
     },
     openGraph: {
-      title: 'Hardest Subscriptions to Cancel — CancelHub Rankings',
-      description:
-        'Which subscriptions make cancellation the most painful? We scored 90+ services on dark patterns, required phone calls, guilt tactics, and refund opacity.',
+      title: t('metaTitle'),
+      description: t('metaDesc'),
       url: canonicalUrl(path, locale),
     },
   }
 }
 
-// ─── Helpers ──────────────────────────────────────────────────────────────────
+function scoreColor(score: number): { bar: string; text: string } {
+  if (score <= 3) return { bar: 'var(--easy)', text: 'var(--easy)' }
+  if (score <= 6) return { bar: 'var(--med)', text: 'var(--med)' }
+  return { bar: 'var(--hard)', text: 'var(--hard)' }
+}
 
 function ScoreBar({ score }: { score: number }) {
-  const bucket = score <= 2 ? 'easy' : score <= 5 ? 'medium' : 'hard'
+  const c = scoreColor(score)
+  const pct = (score / 10) * 100
   return (
-    <div className="flex items-center gap-2">
-      <div className="flex items-center gap-[2px]">
-        {Array.from({ length: 10 }).map((_, i) => (
-          <span
-            key={i}
-            aria-hidden="true"
-            style={{
-              display: 'inline-block',
-              width: 3,
-              height: 12,
-              background: i < score ? `var(--c-${bucket})` : 'var(--rule-strong)',
-              opacity: i < score ? 1 : 0.4,
-              borderRadius: 1,
-            }}
-          />
-        ))}
-      </div>
-      <span
-        className="text-[12px] tabular-nums"
-        style={{ color: `var(--c-${bucket})`, fontWeight: 500, minWidth: '2.4ch' }}
+    <div style={{ width: 130, flexShrink: 0 }}>
+      <div
+        className="flex justify-between items-baseline"
+        style={{ fontFamily: 'var(--font-serif)', fontWeight: 600, fontSize: 15 }}
       >
-        {score}/10
-      </span>
+        <span style={{ fontSize: 20, color: c.text }}>{score}</span>
+        <span style={{ fontSize: 11, color: 'var(--ink-3)' }}>/ 10</span>
+      </div>
+      <div
+        style={{
+          height: 7,
+          borderRadius: 999,
+          background: 'var(--paper)',
+          border: '1px solid var(--line)',
+          marginTop: 5,
+          overflow: 'hidden',
+        }}
+      >
+        <div
+          style={{
+            height: '100%',
+            width: `${pct}%`,
+            borderRadius: 999,
+            background: c.bar,
+            transition: 'width .4s ease',
+          }}
+        />
+      </div>
     </div>
   )
 }
 
-function FlagPills({ guide }: { guide: CancelGuide }) {
-  const f = guide.darkPatternFlags
-  if (!f) return null
-
-  const pills: { label: string; bad: boolean }[] = []
-  if (f.requiresCall) pills.push({ label: 'Requires call', bad: true })
-  if (f.requiresChat && !f.requiresCall) pills.push({ label: 'Requires chat', bad: true })
-  if (f.hiddenButton) pills.push({ label: 'Hidden cancel', bad: true })
-  if (f.retentionTactics) pills.push({ label: 'Retention tactics', bad: true })
-  if (f.confirmationShaming) pills.push({ label: 'Guilt trip', bad: true })
-  if (f.refundClarity === 'none') pills.push({ label: 'No refund info', bad: true })
-
-  if (pills.length === 0) return null
-
-  return (
-    <div className="flex flex-wrap gap-[5px] mt-[6px]">
-      {pills.map((p) => (
-        <span
-          key={p.label}
-          className="text-[10px] px-[7px] py-[2px] rounded-full"
-          style={{
-            background: 'var(--accent-soft)',
-            color: 'var(--accent)',
-            fontWeight: 500,
-            letterSpacing: '0.02em',
-          }}
-        >
-          {p.label}
-        </span>
-      ))}
-    </div>
-  )
+function patternTags(g: CancelGuide): string[] {
+  const out: string[] = []
+  const f = g.darkPatternFlags
+  if (!f) return out
+  if (f.requiresCall) out.push('Phone-only')
+  if (f.requiresChat && !f.requiresCall) out.push('Chat-only')
+  if (f.hiddenButton) out.push('Hidden link')
+  if (f.retentionTactics) out.push('Retention loops')
+  if (f.confirmationShaming) out.push('Guilt screens')
+  if (f.refundClarity === 'none') out.push('No refund info')
+  return out
 }
 
 function GuideRow({
   guide,
   rank,
   locale,
+  worst,
 }: {
   guide: CancelGuide
   rank: number
   locale: string
+  worst?: boolean
 }) {
+  const tags = patternTags(guide)
   return (
     <Link
       href={`/${locale}/cancel/${guide.slug}`}
-      className="group grid items-start gap-4 py-4 border-b border-rule hover:bg-[var(--accent-soft)] transition-colors rounded-[4px] px-2 -mx-2"
-      style={{ gridTemplateColumns: '2ch 28px 1fr auto' }}
+      className="shadow-warm"
+      style={{
+        background: 'var(--card)',
+        border: `1px solid ${worst ? '#e8b4b0' : 'var(--line)'}`,
+        borderRadius: 14,
+        padding: '15px 17px',
+        display: 'flex',
+        alignItems: 'center',
+        gap: 15,
+        marginBottom: 8,
+        transition: 'transform .1s ease, border-color .1s ease',
+        textDecoration: 'none',
+        color: 'inherit',
+      }}
     >
-      {/* Rank */}
-      <span
-        className="text-[13px] ink-3 tabular-nums pt-[2px]"
-        style={{ fontWeight: 500 }}
+      <div
+        className="font-serif-display"
+        style={{
+          fontWeight: 600,
+          fontSize: 22,
+          width: 38,
+          flexShrink: 0,
+          textAlign: 'center',
+          color: worst ? 'var(--hard)' : 'var(--ink-3)',
+        }}
       >
-        {rank}
-      </span>
-
-      {/* Logo */}
-      <BrandLogo slug={guide.slug} service={guide.service} alt={guide.service} size={24} className="mt-[2px]" />
-
-      {/* Service + pills */}
-      <div className="min-w-0">
-        <span className="text-[15px] ink group-hover:accent transition-colors" style={{ fontWeight: 500 }}>
-          {guide.service}
-        </span>
-        <div className="text-[12px] ink-3 mt-[1px]">{guide.category}</div>
-        <FlagPills guide={guide} />
+        {String(rank).padStart(2, '0')}
       </div>
 
-      {/* Score */}
-      <div className="pt-[3px] shrink-0">
-        <ScoreBar score={guide.darkPatternScore} />
-        <div className="mt-[5px] flex justify-end">
-          <DifficultyBadge difficulty={guide.difficulty} shortLabel />
+      <div className="flex-none">
+        <BrandLogo slug={guide.slug} service={guide.service} alt={guide.service} size={46} />
+      </div>
+
+      <div className="flex-1 min-w-0">
+        <div style={{ fontWeight: 600, fontSize: 15.5 }}>{guide.service}</div>
+        <div style={{ fontSize: 13, color: 'var(--ink-3)', marginTop: 1 }}>
+          {guide.difficultyReason}
         </div>
+        {tags.length > 0 && (
+          <div className="flex flex-wrap gap-[5px] mt-[6px]">
+            {tags.slice(0, 3).map((tag) => (
+              <span
+                key={tag}
+                style={{
+                  fontSize: 10.5,
+                  fontWeight: 600,
+                  background: 'var(--hard-soft)',
+                  color: 'var(--hard)',
+                  padding: '2px 7px',
+                  borderRadius: 6,
+                }}
+              >
+                {tag}
+              </span>
+            ))}
+          </div>
+        )}
       </div>
+
+      <ScoreBar score={guide.darkPatternScore} />
     </Link>
   )
 }
 
-// ─── Page ─────────────────────────────────────────────────────────────────────
-
-export default function RankingsPage({
+export default async function RankingsPage({
   params: { locale },
 }: {
   params: { locale: string }
 }) {
   setRequestLocale(locale)
+  const t = await getTranslations({ locale, namespace: 'rankings' })
 
   const byScore = [...allGuides].sort((a, b) => b.darkPatternScore - a.darkPatternScore)
-  const hardest = byScore.slice(0, 15)
-  const easiest = [...allGuides]
+  const worst = byScore.slice(0, 15)
+  const best = [...allGuides]
     .sort((a, b) => a.darkPatternScore - b.darkPatternScore)
     .slice(0, 10)
 
-  // Category stats — average dark pattern score per category
-  const categoryMap = new Map<string, number[]>()
-  for (const g of allGuides) {
-    const arr = categoryMap.get(g.category) ?? []
-    arr.push(g.darkPatternScore)
-    categoryMap.set(g.category, arr)
-  }
-  const categoryStats = Array.from(categoryMap.entries())
-    .map(([cat, scores]: [string, number[]]) => ({
-      category: cat,
-      avg: scores.reduce((a: number, b: number) => a + b, 0) / scores.length,
-      count: scores.length,
-    }))
-    .sort((a: { avg: number }, b: { avg: number }) => b.avg - a.avg)
-    .slice(0, 8)
-
   return (
-    <article className="max-w-2xl mx-auto px-6 pt-12 pb-20">
-
-      {/* Breadcrumb */}
-      <nav className="flex items-center gap-2 text-[12px] ink-3 mb-8">
+    <article className="max-w-[900px] mx-auto px-[22px]">
+      <nav
+        style={{ fontSize: 13, color: 'var(--ink-3)', padding: '20px 0 0', display: 'flex', gap: 7 }}
+        aria-label="Breadcrumb"
+      >
         <Link href={`/${locale}`} className="hover:accent transition-colors">Home</Link>
         <span>/</span>
-        <span className="ink-2">Rankings</span>
+        <span>Rankings</span>
       </nav>
 
-      {/* Hero */}
-      <h1
-        className="text-[34px] sm:text-[38px] leading-[1.05] mb-4"
-        style={{ fontWeight: 500, letterSpacing: '-0.018em' }}
-      >
-        Hardest subscriptions to cancel
-      </h1>
-      <p className="text-[16px] ink-2 leading-[1.6] max-w-[56ch] mb-3">
-        We scored {allGuides.length} services on intentional cancellation friction —
-        hidden flows, mandatory phone calls, guilt-trip dialogs, and refund opacity.
-        Higher score = more dark patterns.
-      </p>
-      <p className="text-[12px] ink-3 mb-10">
-        Last updated May 2025 · Methodology:{' '}
-        <Link href={`/${locale}/about`} className="underline underline-offset-2 hover:accent transition-colors">
-          how we score
-        </Link>
-      </p>
-
-      {/* ── Top 15 hardest ── */}
-      <section>
-        <h2
-          className="text-[11px] ink-3 uppercase mb-1"
-          style={{ letterSpacing: '0.18em' }}
+      <section style={{ padding: '14px 0 8px' }}>
+        <span className="eyebrow danger" style={{ marginBottom: 16 }}>{t('eyebrow')}</span>
+        <h1
+          className="font-serif-display"
+          style={{
+            fontWeight: 600,
+            fontSize: 'clamp(32px, 5.5vw, 52px)',
+            lineHeight: 1.04,
+            letterSpacing: '-0.03em',
+            maxWidth: '18ch',
+            marginTop: 8,
+          }}
         >
-          Hardest to cancel
-        </h2>
-        <p className="text-[13px] ink-3 mb-6">
-          These services use the most aggressive dark patterns to prevent you from leaving.
-        </p>
-        <div>
-          {hardest.map((g, i) => (
-            <GuideRow key={g.slug} guide={g} rank={i + 1} locale={locale} />
-          ))}
-        </div>
-      </section>
-
-      {/* ── Category breakdown ── */}
-      <section className="border-t border-rule mt-14 pt-10">
-        <h2
-          className="text-[11px] ink-3 uppercase mb-1"
-          style={{ letterSpacing: '0.18em' }}
-        >
-          Worst categories on average
-        </h2>
-        <p className="text-[13px] ink-3 mb-7">
-          Average dark pattern score by subscription category.
-        </p>
-        <div>
-          {categoryStats.map((cs) => (
-            <div
-              key={cs.category}
-              className="flex items-center justify-between py-3 border-b border-rule"
-            >
-              <div>
-                <span className="text-[14px] ink" style={{ fontWeight: 500 }}>{cs.category}</span>
-                <span className="text-[12px] ink-3 ml-2">({cs.count} services)</span>
-              </div>
-              <ScoreBar score={Math.round(cs.avg)} />
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* ── Top 10 easiest ── */}
-      <section className="border-t border-rule mt-14 pt-10">
-        <h2
-          className="text-[11px] ink-3 uppercase mb-1"
-          style={{ letterSpacing: '0.18em' }}
-        >
-          Easiest to cancel
-        </h2>
-        <p className="text-[13px] ink-3 mb-6">
-          These services let you leave without friction — a rarity worth noting.
-        </p>
-        <div>
-          {easiest.map((g, i) => (
-            <GuideRow key={g.slug} guide={g} rank={i + 1} locale={locale} />
-          ))}
-        </div>
-      </section>
-
-      {/* ── Methodology ── */}
-      <section className="border-t border-rule mt-14 pt-8">
-        <h2
-          className="text-[11px] ink-3 uppercase mb-4"
-          style={{ letterSpacing: '0.18em' }}
-        >
-          How scores are calculated
-        </h2>
-        <p className="text-[14px] ink-2 leading-[1.6] max-w-[58ch]">
-          Each service is scored 0–10 based on intentional cancellation friction.
-          We check for hidden cancel buttons, mandatory phone or chat requirements,
-          retention pop-ups and guilt-trip dialogs, early termination fee clarity,
-          and refund policy transparency. Scores are verified manually and updated
-          when services change their flows.
-        </p>
-        <p className="text-[14px] ink-2 leading-[1.6] max-w-[58ch] mt-4">
-          Difficulty (easy / medium / hard) is a separate rating that reflects how
-          many steps the cancellation process takes — not how intentionally hostile
-          the service is.
-        </p>
-        <p className="text-[13px] ink-3 mt-5">
-          Spotted an error?{' '}
-          <a
-            href="mailto:hello@cancelhub.app"
-            className="underline underline-offset-2 hover:accent transition-colors ink-2"
+          {t('title')}{' '}
+          <em
+            className="font-serif-display"
+            style={{ fontStyle: 'italic', fontWeight: 500, color: 'var(--accent)' }}
           >
-            hello@cancelhub.app
-          </a>
+            {t('titleAccent')}
+          </em>
+        </h1>
+        <p style={{ color: 'var(--ink-3)', fontSize: 16, marginTop: 14, maxWidth: '58ch' }}>
+          {t('intro')}
         </p>
+
+        <div
+          className="flex flex-wrap items-center gap-[18px] mt-4"
+          style={{ fontSize: 13, color: 'var(--ink-3)' }}
+        >
+          <span className="inline-flex items-center gap-[6px]">
+            <span style={{ color: 'var(--green)', fontWeight: 700 }}>✓</span>
+            {t('trustVerified')}
+          </span>
+          <span className="inline-flex items-center gap-[6px]">
+            <span style={{ color: 'var(--green)', fontWeight: 700 }}>✓</span>
+            {t('trustUpdated')}
+          </span>
+          <span className="inline-flex items-center gap-[6px]">
+            <span style={{ color: 'var(--green)', fontWeight: 700 }}>✓</span>
+            {t('trustOpen')}
+          </span>
+        </div>
       </section>
 
+      <div className="card-warm" style={{ margin: '22px 0 8px' }}>
+        <h3
+          className="font-serif-display flex items-center gap-[8px]"
+          style={{ fontWeight: 600, fontSize: 16, letterSpacing: '-0.01em' }}
+        >
+          <span style={{ color: 'var(--accent)' }}>◐</span> {t('methodTitle')}
+        </h3>
+        <p style={{ fontSize: 13.5, color: 'var(--ink-3)', marginTop: 6 }}>{t('methodDesc')}</p>
+        <div className="flex flex-wrap gap-[8px] mt-3">
+          {[
+            t('critHidden'),
+            t('critRetention'),
+            t('critClicks'),
+            t('critShaming'),
+            t('critPhone'),
+            t('critFees'),
+          ].map((tag) => (
+            <span
+              key={tag}
+              style={{
+                fontSize: 12,
+                fontWeight: 600,
+                background: 'var(--paper)',
+                border: '1px solid var(--line)',
+                padding: '4px 10px',
+                borderRadius: 8,
+                color: 'var(--ink)',
+              }}
+            >
+              {tag}
+            </span>
+          ))}
+        </div>
+      </div>
+
+      <div
+        className="flex items-center gap-[8px] flex-wrap"
+        style={{ margin: '24px 0 14px', fontSize: 12.5, color: 'var(--ink-3)' }}
+      >
+        <span className="inline-flex items-center gap-[6px]">
+          <span style={{ width: 14, height: 14, borderRadius: 4, background: 'var(--easy)' }} />
+          {t('scoreLegendEasy')}
+        </span>
+        <span className="inline-flex items-center gap-[6px]">
+          <span style={{ width: 14, height: 14, borderRadius: 4, background: 'var(--med)' }} />
+          {t('scoreLegendMed')}
+        </span>
+        <span className="inline-flex items-center gap-[6px]">
+          <span style={{ width: 14, height: 14, borderRadius: 4, background: 'var(--hard)' }} />
+          {t('scoreLegendHard')}
+        </span>
+      </div>
+
+      <div className="flex items-center gap-[12px] mb-[14px] mt-[16px]">
+        <h2
+          className="font-serif-display"
+          style={{ fontWeight: 600, fontSize: 18, letterSpacing: '-0.01em', color: 'var(--hard)', whiteSpace: 'nowrap' }}
+        >
+          {t('dividerHard')}
+        </h2>
+        <div style={{ flex: 1, height: 1, background: 'var(--line)' }} />
+      </div>
+      <div>
+        {worst.map((g, i) => (
+          <GuideRow key={g.slug} guide={g} rank={i + 1} locale={locale} worst />
+        ))}
+      </div>
+
+      <div
+        className="dark-card mt-8 flex items-center gap-4 flex-wrap"
+        style={{ padding: '20px 22px' }}
+      >
+        <div className="flex-1 min-w-[200px]">
+          <h3
+            className="font-serif-display"
+            style={{ fontWeight: 600, fontSize: 17, letterSpacing: '-0.01em' }}
+          >
+            {t('shareTitle')}
+          </h3>
+          <p style={{ fontSize: 13, color: '#a59e8c', marginTop: 3 }}>{t('shareDesc')}</p>
+        </div>
+        <Link href={`/${locale}/contact`} className="btn-accent" style={{ padding: '10px 16px' }}>
+          {t('shareButton')}
+        </Link>
+      </div>
+
+      <div className="flex items-center gap-[12px] mb-[14px] mt-[36px]">
+        <h2
+          className="font-serif-display"
+          style={{ fontWeight: 600, fontSize: 18, letterSpacing: '-0.01em', color: 'var(--green)', whiteSpace: 'nowrap' }}
+        >
+          {t('dividerEasy')}
+        </h2>
+        <div style={{ flex: 1, height: 1, background: 'var(--line)' }} />
+      </div>
+      <p style={{ fontSize: 13.5, color: 'var(--ink-3)', marginBottom: 12 }}>{t('easyNote')}</p>
+      <div>
+        {best.map((g, i) => (
+          <GuideRow key={g.slug} guide={g} rank={i + 1} locale={locale} />
+        ))}
+      </div>
     </article>
   )
 }

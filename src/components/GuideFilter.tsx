@@ -2,8 +2,7 @@
 
 import { useState, useMemo } from 'react'
 import Link from 'next/link'
-import { DifficultyBadge } from './DifficultyBadge'
-import { DarkPatternScore } from './DarkPatternScore'
+import { useTranslations } from 'next-intl'
 import { BrandLogo } from './BrandLogo'
 
 interface Guide {
@@ -17,95 +16,204 @@ interface Guide {
 interface GuideFilterProps {
   guides: Guide[]
   locale: string
-  colService: string
-  colDifficulty: string
-  colDarkPatterns: string
 }
 
-export function GuideFilter({ guides, locale, colService, colDifficulty, colDarkPatterns }: GuideFilterProps) {
+function diffPillClass(d: 'easy' | 'medium' | 'hard'): string {
+  return d === 'easy' ? 'pill pill-easy' : d === 'medium' ? 'pill pill-med' : 'pill pill-hard'
+}
+
+export function GuideFilter({ guides, locale }: GuideFilterProps) {
+  const t = useTranslations('guides')
+  const tDiff = useTranslations('difficulty')
+
   const [query, setQuery] = useState('')
+  const [activeCat, setActiveCat] = useState<string>('all')
+  const [activeDiffs, setActiveDiffs] = useState<Set<'easy' | 'medium' | 'hard'>>(new Set())
+
+  const allCats = useMemo(() => {
+    const seen = new Set<string>()
+    for (const g of guides) seen.add(g.category)
+    return Array.from(seen).sort()
+  }, [guides])
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase()
-    if (!q) return guides
-    return guides.filter(
-      (g) =>
-        g.service.toLowerCase().includes(q) ||
-        g.category.toLowerCase().includes(q)
-    )
-  }, [guides, query])
+    return guides.filter((g) => {
+      if (activeCat !== 'all' && g.category !== activeCat) return false
+      if (activeDiffs.size > 0 && !activeDiffs.has(g.difficulty)) return false
+      if (q) {
+        return (
+          g.service.toLowerCase().includes(q) ||
+          g.category.toLowerCase().includes(q)
+        )
+      }
+      return true
+    })
+  }, [guides, query, activeCat, activeDiffs])
+
+  const groups = useMemo(() => {
+    const map = new Map<string, Guide[]>()
+    for (const g of filtered) {
+      if (!map.has(g.category)) map.set(g.category, [])
+      map.get(g.category)!.push(g)
+    }
+    return Array.from(map.entries()).sort(([a], [b]) => a.localeCompare(b))
+  }, [filtered])
+
+  const toggleDiff = (d: 'easy' | 'medium' | 'hard') => {
+    setActiveDiffs((prev) => {
+      const next = new Set(prev)
+      if (next.has(d)) next.delete(d)
+      else next.add(d)
+      return next
+    })
+  }
+
+  const diffShort = (d: 'easy' | 'medium' | 'hard') =>
+    d === 'easy' ? tDiff('easyShort') : d === 'medium' ? tDiff('medShort') : tDiff('hardShort')
 
   return (
     <>
-      {/* Filter input */}
-      <div className="mb-6 relative">
+      {/* Search */}
+      <div className="relative" style={{ maxWidth: 560, margin: '22px 0 8px' }}>
+        <span
+          className="absolute left-[16px] top-1/2 -translate-y-1/2 pointer-events-none"
+          style={{ color: 'var(--ink-3)' }}
+          aria-hidden="true"
+        >
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <circle cx="11" cy="11" r="7" />
+            <path d="m20 20-3-3" />
+          </svg>
+        </span>
         <input
           type="search"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Filter services…"
-          className="w-full bg-transparent text-[14px] ink placeholder:ink-3 border-b border-rule focus:border-rule-strong outline-none pb-2 pr-8 transition-colors"
-          autoComplete="off"
+          placeholder="Search a service…"
+          className="w-full"
+          style={{
+            padding: '14px 18px 14px 46px',
+            fontFamily: 'inherit',
+            fontSize: 15,
+            border: '1px solid var(--line)',
+            borderRadius: 13,
+            background: 'var(--card)',
+            color: 'var(--ink)',
+            boxShadow: 'var(--shadow)',
+            outline: 'none',
+          }}
         />
-        {query && (
+      </div>
+
+      {/* Toolbar */}
+      <div className="flex items-center gap-[10px] flex-wrap" style={{ margin: '18px 0 6px' }}>
+        <button
+          className={`chip ${activeCat === 'all' ? 'on' : ''}`}
+          onClick={() => setActiveCat('all')}
+        >
+          All
+        </button>
+        {allCats.map((cat) => (
           <button
-            onClick={() => setQuery('')}
-            aria-label="Clear filter"
-            className="absolute right-0 top-0 ink-3 hover:accent transition-colors text-[16px] leading-none"
-            style={{ paddingBottom: 6 }}
+            key={cat}
+            className={`chip ${activeCat === cat ? 'on' : ''}`}
+            onClick={() => setActiveCat((prev) => (prev === cat ? 'all' : cat))}
           >
-            ×
+            {cat}
           </button>
-        )}
+        ))}
+
+        <div className="flex gap-[5px] items-center ml-auto" style={{ fontSize: 12.5, color: 'var(--ink-3)' }}>
+          <button
+            className={`dchip easy ${activeDiffs.has('easy') ? 'on' : ''}`}
+            onClick={() => toggleDiff('easy')}
+            aria-pressed={activeDiffs.has('easy')}
+          >
+            {diffShort('easy')}
+          </button>
+          <button
+            className={`dchip med ${activeDiffs.has('medium') ? 'on' : ''}`}
+            onClick={() => toggleDiff('medium')}
+            aria-pressed={activeDiffs.has('medium')}
+          >
+            {diffShort('medium')}
+          </button>
+          <button
+            className={`dchip hard ${activeDiffs.has('hard') ? 'on' : ''}`}
+            onClick={() => toggleDiff('hard')}
+            aria-pressed={activeDiffs.has('hard')}
+          >
+            {diffShort('hard')}
+          </button>
+        </div>
       </div>
 
-      {/* Column headers */}
-      <div
-        className="hidden sm:grid items-center gap-5 pb-3 border-b border-rule-strong text-[11px] ink-3 uppercase grid-cols-[24px_1fr_auto_auto_20px]"
-        style={{ letterSpacing: '0.18em' }}
-      >
-        <span />
-        <span>{colService}</span>
-        <span>{colDifficulty}</span>
-        <span className="text-right">{colDarkPatterns}</span>
-        <span />
-      </div>
+      <p style={{ fontSize: 13, color: 'var(--ink-3)', margin: '14px 0 16px' }}>
+        {t('countShown', { count: filtered.length, total: guides.length })}
+      </p>
 
-      {/* Rows */}
-      <div>
-        {filtered.length === 0 ? (
-          <p className="text-[14px] ink-3 py-10 text-center">No results for &ldquo;{query}&rdquo;</p>
-        ) : (
-          filtered.map((guide) => (
-            <Link
-              key={guide.slug}
-              href={`/${locale}/cancel/${guide.slug}`}
-              className="group grid items-center gap-5 py-[14px] border-b border-rule transition-colors grid-cols-[24px_1fr_auto_20px] sm:grid-cols-[24px_1fr_auto_auto_20px]"
-            >
-              <BrandLogo slug={guide.slug} service={guide.service} alt={guide.service} size={22} />
-              <div className="min-w-0">
-                <p className="text-[15px] ink truncate group-hover:accent transition-colors">
-                  {guide.service}
-                </p>
-                <p className="text-[11px] ink-3 truncate sm:hidden">
-                  {guide.category}
-                </p>
-              </div>
-              <DifficultyBadge difficulty={guide.difficulty} shortLabel />
-              <div className="hidden sm:block">
-                <DarkPatternScore score={guide.darkPatternScore} />
-              </div>
-              <span className="text-[14px] ink-3 opacity-50 group-hover:opacity-100 group-hover:accent transition-all">→</span>
-            </Link>
-          ))
-        )}
-      </div>
-
-      {/* Count */}
-      {query && (
-        <p className="text-[12px] ink-3 mt-4">
-          {filtered.length} of {guides.length} services
+      {/* Groups */}
+      {groups.length === 0 ? (
+        <p style={{ fontSize: 14, color: 'var(--ink-3)', padding: '40px 0', textAlign: 'center' }}>
+          No results for &ldquo;{query}&rdquo;
         </p>
+      ) : (
+        groups.map(([category, items]) => (
+          <div key={category} style={{ marginBottom: 30 }}>
+            <div
+              className="flex items-baseline gap-[9px]"
+              style={{
+                paddingBottom: 7,
+                marginBottom: 11,
+                borderBottom: '1px solid var(--line)',
+              }}
+            >
+              <h2
+                className="font-serif-display"
+                style={{ fontWeight: 600, fontSize: 19, letterSpacing: '-0.01em' }}
+              >
+                {category}
+              </h2>
+              <span
+                style={{
+                  fontSize: 11,
+                  fontWeight: 600,
+                  color: 'var(--ink-3)',
+                  background: 'var(--card)',
+                  border: '1px solid var(--line)',
+                  padding: '1px 8px',
+                  borderRadius: 999,
+                }}
+              >
+                {items.length}
+              </span>
+            </div>
+
+            <div
+              className="grid gap-[10px]"
+              style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(228px, 1fr))' }}
+            >
+              {items.map((g) => (
+                <Link key={g.slug} href={`/${locale}/cancel/${g.slug}`} className="gcard">
+                  <BrandLogo slug={g.slug} service={g.service} alt={g.service} size={42} />
+                  <div className="min-w-0 flex-1">
+                    <div
+                      style={{ fontWeight: 600, fontSize: 14.5, lineHeight: 1.25 }}
+                      className="truncate"
+                    >
+                      {g.service}
+                    </div>
+                    <div style={{ fontSize: 12, color: 'var(--ink-3)' }}>{g.category}</div>
+                  </div>
+                  <span className={diffPillClass(g.difficulty)} style={{ flexShrink: 0 }}>
+                    {diffShort(g.difficulty)}
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        ))
       )}
     </>
   )

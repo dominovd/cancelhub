@@ -12,19 +12,12 @@ export function PlatformTabs({ platforms }: { platforms: PlatformGuide[] }) {
 
   return (
     <div>
-      {/* Hairline-underline tabs */}
-      <div className="flex items-center border-b border-rule mb-8">
+      <div className="platform-tabs">
         {platforms.map((p, i) => (
           <button
             key={p.platform}
             onClick={() => setActive(i)}
-            className={`text-[13px] py-2 mr-6 transition-colors ${
-              active === i ? 'ink' : 'ink-3 hover:ink-2'
-            }`}
-            style={{
-              borderBottom: active === i ? '1px solid var(--ink)' : '1px solid transparent',
-              marginBottom: -1,
-            }}
+            className={`platform-tab ${active === i ? 'on' : ''}`}
           >
             {p.label}
           </button>
@@ -36,8 +29,8 @@ export function PlatformTabs({ platforms }: { platforms: PlatformGuide[] }) {
           href={current.deepLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block mb-8 text-[13px] ink hover:opacity-80 transition-opacity"
-          style={{ borderBottom: '1px solid currentColor', paddingBottom: 2, fontWeight: 500 }}
+          className="btn-accent"
+          style={{ marginBottom: 18 }}
         >
           {t('goToCancellationPage')} →
         </a>

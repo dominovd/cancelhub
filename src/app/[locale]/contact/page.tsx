@@ -2,6 +2,11 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { canonicalUrl, hreflangAlternates } from '@/config/seo'
+import { locales } from '@/config/i18n'
+
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }))
+}
 
 export async function generateMetadata({
   params: { locale },
@@ -9,12 +14,13 @@ export async function generateMetadata({
   params: { locale: string }
 }): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: 'contact' })
+  const path = '/contact'
   return {
     title: t('metaTitle'),
     description: t('metaDesc'),
     alternates: {
-      canonical: canonicalUrl('/contact', locale),
-      languages: hreflangAlternates('/contact'),
+      canonical: canonicalUrl(path, locale),
+      languages: hreflangAlternates(path),
     },
   }
 }
@@ -27,76 +33,112 @@ export default async function ContactPage({
   setRequestLocale(locale)
   const t = await getTranslations({ locale, namespace: 'contact' })
 
-  const sections = [
+  const cards = [
     {
-      key: 'general',
       title: t('emailTitle'),
       desc: t('emailDesc'),
-      mailto: 'mailto:info@cancelhub.app',
-      shown: 'info@cancelhub.app',
+      cta: 'hello@cancelhub.app',
+      href: 'mailto:hello@cancelhub.app',
+      tone: 'default' as const,
     },
     {
-      key: 'report',
       title: t('reportTitle'),
       desc: t('reportDesc'),
-      mailto: 'mailto:info@cancelhub.app?subject=Guide%20correction',
-      shown: 'info@cancelhub.app',
+      cta: 'report@cancelhub.app',
+      href: 'mailto:report@cancelhub.app?subject=Outdated%20guide',
+      tone: 'warn' as const,
     },
     {
-      key: 'suggest',
       title: t('suggestTitle'),
       desc: t('suggestDesc'),
-      mailto: 'mailto:info@cancelhub.app?subject=Guide%20suggestion',
-      shown: 'info@cancelhub.app',
+      cta: 'hello@cancelhub.app',
+      href: 'mailto:hello@cancelhub.app?subject=New%20service%20suggestion',
+      tone: 'default' as const,
     },
   ]
 
   return (
-    <article className="max-w-2xl mx-auto px-6 pt-12 pb-20">
-      <nav className="text-[12px] ink-3 mb-10">
-        <Link href={`/${locale}`} className="hover:accent transition-colors">
-          ← {t('backLink')}
-        </Link>
+    <article className="max-w-[760px] mx-auto px-[22px]">
+      <nav
+        style={{ fontSize: 13, color: 'var(--ink-3)', padding: '20px 0 0', display: 'flex', gap: 7 }}
+        aria-label="Breadcrumb"
+      >
+        <Link href={`/${locale}`} className="hover:accent transition-colors">{t('backLink')}</Link>
+        <span>/</span>
+        <span>Contact</span>
       </nav>
 
-      <h1
-        className="text-[36px] sm:text-[40px] leading-[1.05] mb-3"
-        style={{ fontWeight: 500, letterSpacing: '-0.02em' }}
-      >
-        {t('title')}
-      </h1>
-      <p className="text-[16px] ink-2 leading-[1.55] max-w-[55ch] mb-2">
-        {t('subtitle')}
-      </p>
-      <p className="text-[12px] ink-3 mb-12">{t('responseNote')}</p>
+      <header style={{ padding: '18px 0 8px' }}>
+        <h1
+          className="font-serif-display"
+          style={{
+            fontWeight: 600,
+            fontSize: 'clamp(32px, 5vw, 48px)',
+            lineHeight: 1.05,
+            letterSpacing: '-0.025em',
+          }}
+        >
+          {t('title')}
+        </h1>
+        <p style={{ color: 'var(--ink-3)', fontSize: 16, marginTop: 10, maxWidth: '54ch' }}>
+          {t('subtitle')}
+        </p>
+      </header>
 
-      {sections.map((s) => (
-        <section key={s.key} className="border-t border-rule pt-8 mt-8 first:mt-0">
-          <h2
-            className="text-[16px] mb-2"
-            style={{ fontWeight: 500, letterSpacing: '-0.01em' }}
-          >
-            {s.title}
-          </h2>
-          <p className="text-[14px] ink-2 leading-[1.55] max-w-[60ch] mb-3">
-            {s.desc}
-          </p>
+      <div className="grid sm:grid-cols-3 gap-[14px] mt-8">
+        {cards.map((c, i) => (
           <a
-            href={s.mailto}
-            className="text-[14px] ink underline underline-offset-[3px] hover:accent transition-colors"
+            key={i}
+            href={c.href}
+            className="card-warm hover:-translate-y-[2px] transition-transform"
+            style={{
+              display: 'block',
+              textDecoration: 'none',
+              borderLeft: c.tone === 'warn' ? '3px solid var(--accent)' : undefined,
+            }}
           >
-            {s.shown}
+            <h3
+              className="font-serif-display"
+              style={{ fontWeight: 600, fontSize: 18, letterSpacing: '-0.01em' }}
+            >
+              {c.title}
+            </h3>
+            <p style={{ fontSize: 13.5, color: 'var(--ink-3)', marginTop: 6, lineHeight: 1.5 }}>{c.desc}</p>
+            <div
+              style={{
+                marginTop: 14,
+                fontSize: 13,
+                fontWeight: 600,
+                color: 'var(--accent)',
+              }}
+            >
+              {c.cta} →
+            </div>
           </a>
-        </section>
-      ))}
+        ))}
+      </div>
 
-      <div className="border-t border-rule-strong mt-12 pt-6 flex items-center gap-5 text-[12px] ink-3">
+      <div
+        className="card-warm mt-6"
+        style={{
+          background: 'var(--accent-soft)',
+          border: '1px solid var(--accent-border)',
+        }}
+      >
+        <p style={{ fontSize: 14, color: '#7c2d12' }}>
+          <strong style={{ fontWeight: 600 }}>{t('responseNote')}</strong>
+        </p>
+      </div>
+
+      <div
+        className="flex items-center justify-between flex-wrap gap-4 mt-10 pt-6"
+        style={{ borderTop: '1px solid var(--line)', fontSize: 13, color: 'var(--ink-3)' }}
+      >
         <Link href={`/${locale}/about`} className="hover:accent transition-colors">
           {t('aboutLink')}
         </Link>
-        <span className="opacity-50">·</span>
         <Link href={`/${locale}/cancel`} className="hover:accent transition-colors">
-          {t('guidesLink')}
+          {t('guidesLink')} →
         </Link>
       </div>
     </article>

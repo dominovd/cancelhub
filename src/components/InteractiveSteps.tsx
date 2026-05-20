@@ -21,60 +21,60 @@ export function InteractiveSteps({ steps, platform }: { steps: CancelStep[]; pla
 
   return (
     <div>
-      <ol className="space-y-6">
+      <ol className="step-list">
         {steps.map((s) => {
           const done = checked.has(s.step)
           return (
             <li
               key={`${platform}-${s.step}`}
               onClick={() => toggle(s.step)}
-              className="grid gap-4 cursor-pointer select-none group"
-              style={{ gridTemplateColumns: '28px 1fr' }}
+              className={done ? 'done' : ''}
             >
-              <span
-                className={`text-[13px] mt-[3px] transition-colors ${done ? 'ink-3' : 'ink-3 group-hover:ink-2'}`}
-                style={{ fontFamily: 'ui-monospace, SFMono-Regular, Menlo, monospace', fontVariantNumeric: 'tabular-nums' }}
-              >
-                {String(s.step).padStart(2, '0')}
-              </span>
-              <div>
-                <p
-                  className={`text-[15px] leading-[1.55] transition-all ${
-                    done ? 'ink-3 line-through' : 'ink'
-                  }`}
-                >
-                  {s.instruction}
-                </p>
-                {s.note && (
-                  <p className="mt-2 text-[12px] ink-3 leading-[1.5]">{s.note}</p>
-                )}
-              </div>
+              <div className="step-title">{s.instruction}</div>
+              {s.note && <div className="step-note">{s.note}</div>}
             </li>
           )
         })}
       </ol>
 
       {allDone && (
-        <div className="mt-8 border-t border-rule pt-5">
-          <p className="text-[14px] ink" style={{ fontWeight: 500 }}>
-            {t('allDoneTitle')}
+        <div
+          className="mt-7 pt-5 border-t"
+          style={{ borderColor: 'var(--line)' }}
+        >
+          <p style={{ fontSize: 15, fontWeight: 600, color: 'var(--green)' }}>
+            ✓ {t('allDoneTitle')}
           </p>
-          <p className="text-[13px] ink-2 mt-1">{t('allDoneDesc')}</p>
+          <p style={{ fontSize: 13.5, color: 'var(--ink-3)', marginTop: 4 }}>
+            {t('allDoneDesc')}
+          </p>
         </div>
       )}
 
       {!allDone && checked.size > 0 && (
         <div className="mt-6">
-          <div className="flex justify-between text-[11px] ink-3 mb-1.5">
+          <div
+            className="flex justify-between mb-[6px]"
+            style={{ fontSize: 11.5, color: 'var(--ink-3)' }}
+          >
             <span>{t('progressOf', { done: checked.size, total: steps.length })}</span>
             <span>{Math.round((checked.size / steps.length) * 100)}%</span>
           </div>
-          <div className="h-px bg-rule overflow-hidden" style={{ background: 'var(--rule)' }}>
+          <div
+            style={{
+              height: 6,
+              background: 'var(--paper-2)',
+              borderRadius: 999,
+              overflow: 'hidden',
+            }}
+          >
             <div
-              className="h-full transition-all"
               style={{
                 width: `${(checked.size / steps.length) * 100}%`,
-                background: 'var(--ink)',
+                background: 'var(--accent)',
+                height: '100%',
+                borderRadius: 999,
+                transition: 'width .35s ease',
               }}
             />
           </div>
