@@ -6,11 +6,24 @@
  * less ceremony.
  *
  * Keep this in sync with supabase/migrations/0001_init.sql.
+ *
+ * NOTE: Each table needs a `Relationships: []` entry — without it the
+ * @supabase/supabase-js generic types fall through to `never` and you
+ * get cryptic "is not assignable to parameter of type 'never[]'" errors
+ * on every `.insert()` and `.update()` call.
  */
 
 import type { NotificationSettings } from '@/types/dashboard'
 
-export interface Database {
+export type Json =
+  | string
+  | number
+  | boolean
+  | null
+  | { [key: string]: Json | undefined }
+  | Json[]
+
+export type Database = {
   public: {
     Tables: {
       subscriptions: {
@@ -44,9 +57,22 @@ export interface Database {
           notes?: string | null
           created_at?: string
         }
-        Update: Partial<
-          Database['public']['Tables']['subscriptions']['Insert']
-        >
+        Update: {
+          id?: string
+          user_id?: string
+          name?: string
+          guide_slug?: string | null
+          category?: string
+          monthly_price?: number
+          currency?: string
+          next_charge_date?: string
+          trial_ends_on?: string | null
+          difficulty?: 'easy' | 'medium' | 'hard' | null
+          last_used_date?: string | null
+          notes?: string | null
+          created_at?: string
+        }
+        Relationships: []
       }
       notification_settings: {
         Row: {
@@ -64,9 +90,14 @@ export interface Database {
           quiet_hours?: NotificationSettings['quietHours']
           digest_mode?: NotificationSettings['digestMode']
         }
-        Update: Partial<
-          Database['public']['Tables']['notification_settings']['Insert']
-        >
+        Update: {
+          user_id?: string
+          channels?: NotificationSettings['channels']
+          alerts?: NotificationSettings['alerts']
+          quiet_hours?: NotificationSettings['quietHours']
+          digest_mode?: NotificationSettings['digestMode']
+        }
+        Relationships: []
       }
       notification_events: {
         Row: {
@@ -91,7 +122,15 @@ export interface Database {
         Insert: {
           id?: string
           user_id: string
-          type: Database['public']['Tables']['notification_events']['Row']['type']
+          type:
+            | 'trial-ending'
+            | 'renewal'
+            | 'price-increase'
+            | 'idle'
+            | 'weekly-brief'
+            | 'monthly-summary'
+            | 'subscription-added'
+            | 'subscription-cancelled'
           title: string
           body: string
           channels?: string[]
@@ -99,9 +138,26 @@ export interface Database {
           sent_at?: string
           read?: boolean
         }
-        Update: Partial<
-          Database['public']['Tables']['notification_events']['Insert']
-        >
+        Update: {
+          id?: string
+          user_id?: string
+          type?:
+            | 'trial-ending'
+            | 'renewal'
+            | 'price-increase'
+            | 'idle'
+            | 'weekly-brief'
+            | 'monthly-summary'
+            | 'subscription-added'
+            | 'subscription-cancelled'
+          title?: string
+          body?: string
+          channels?: string[]
+          subscription_id?: string | null
+          sent_at?: string
+          read?: boolean
+        }
+        Relationships: []
       }
     }
     Views: { [_ in never]: never }
