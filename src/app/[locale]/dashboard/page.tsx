@@ -3,10 +3,14 @@ import { setRequestLocale } from 'next-intl/server'
 import { canonicalUrl, hreflangAlternates } from '@/config/seo'
 import { locales } from '@/config/i18n'
 import { DashboardClient } from '@/components/dashboard/DashboardClient'
+import { getDashboardSnapshot } from '@/lib/dashboard/queries'
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }))
 }
+
+// Dashboard is per-user — never serve a cached version.
+export const dynamic = 'force-dynamic'
 
 export async function generateMetadata({
   params: { locale },
@@ -22,20 +26,23 @@ export async function generateMetadata({
       canonical: canonicalUrl(path, locale),
       languages: hreflangAlternates(path),
     },
-    // The dashboard is user-personal data — no indexing.
     robots: { index: false, follow: false },
   }
 }
 
-export default function DashboardPage({
+export default async function DashboardPage({
   params: { locale },
 }: {
   params: { locale: string }
 }) {
   setRequestLocale(locale)
+
+  // Middleware redirects unauthenticated users to /login before we get here.
+  const snapshot = await getDashboardSnapshot()
+
   return (
     <div className="max-w-[1000px] mx-auto px-[22px]">
-      <DashboardClient locale={locale} />
+      <DashboardClient locale={locale} initial={snapshot} />
     </div>
   )
 }

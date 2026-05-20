@@ -3,10 +3,13 @@ import { setRequestLocale } from 'next-intl/server'
 import { canonicalUrl, hreflangAlternates } from '@/config/seo'
 import { locales } from '@/config/i18n'
 import { NotificationsClient } from '@/components/dashboard/NotificationsClient'
+import { getDashboardSnapshot } from '@/lib/dashboard/queries'
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }))
 }
+
+export const dynamic = 'force-dynamic'
 
 export async function generateMetadata({
   params: { locale },
@@ -26,15 +29,17 @@ export async function generateMetadata({
   }
 }
 
-export default function NotificationsPage({
+export default async function NotificationsPage({
   params: { locale },
 }: {
   params: { locale: string }
 }) {
   setRequestLocale(locale)
+  const snapshot = await getDashboardSnapshot()
+
   return (
     <div className="max-w-[880px] mx-auto px-[22px]">
-      <NotificationsClient locale={locale} />
+      <NotificationsClient locale={locale} initial={snapshot} />
     </div>
   )
 }

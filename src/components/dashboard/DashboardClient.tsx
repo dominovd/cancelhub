@@ -3,13 +3,15 @@
 import { useMemo, useState } from 'react'
 import Link from 'next/link'
 import { useTranslations } from 'next-intl'
-import { useDashboard } from '@/lib/dashboard-store'
+import { useDashboard, type DashboardInitial } from '@/lib/dashboard/use-dashboard'
 import type { Subscription } from '@/types/dashboard'
 import { BrandLogo } from '@/components/BrandLogo'
 import { AddSubscriptionDialog } from './AddSubscriptionDialog'
+import { LegacyImportPrompt } from './LegacyImportPrompt'
 
 interface Props {
   locale: string
+  initial: DashboardInitial
 }
 
 // ── Helpers ──────────────────────────────────────────────────────────────────

@@ -1,0 +1,351 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="color-scheme" content="light" />
+    <meta name="supported-color-schemes" content="light" />
+    <title>Sign in to CancelHub</title>
+    <!--[if mso]>
+      <style type="text/css">
+        body, table, td, p, a { font-family: Georgia, 'Times New Roman', serif !important; }
+      </style>
+    <![endif]-->
+  </head>
+  <body
+    style="
+      margin: 0;
+      padding: 0;
+      width: 100% !important;
+      background-color: #f7f4ec;
+      color: #16140f;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    "
+  >
+    <!-- Pre-header (hidden but shows in inbox preview) -->
+    <div
+      style="
+        display: none;
+        max-height: 0;
+        overflow: hidden;
+        mso-hide: all;
+        font-size: 1px;
+        line-height: 1px;
+        color: #f7f4ec;
+      "
+    >
+      Tap once to sign in. The link is valid for 10 minutes.
+    </div>
+
+    <table
+      role="presentation"
+      cellpadding="0"
+      cellspacing="0"
+      border="0"
+      width="100%"
+      style="background-color: #f7f4ec; padding: 32px 16px;"
+    >
+      <tr>
+        <td align="center">
+          <!-- Outer container -->
+          <table
+            role="presentation"
+            cellpadding="0"
+            cellspacing="0"
+            border="0"
+            width="560"
+            style="
+              max-width: 560px;
+              background-color: #fffdf7;
+              border: 1px solid #dcd4bf;
+              border-radius: 18px;
+            "
+          >
+            <!-- Brand wordmark -->
+            <tr>
+              <td
+                align="center"
+                style="
+                  padding: 32px 32px 8px;
+                  border-bottom: 1px solid #ece6d4;
+                "
+              >
+                <span
+                  style="
+                    font-family: Georgia, 'Times New Roman', serif;
+                    font-style: italic;
+                    font-weight: 600;
+                    font-size: 22px;
+                    color: #16140f;
+                    letter-spacing: -0.01em;
+                    line-height: 1;
+                  "
+                >Cancel<span style="color: #c2410c;">·</span>Hub</span>
+              </td>
+            </tr>
+
+            <!-- Headline + body -->
+            <tr>
+              <td style="padding: 32px 36px 8px;">
+                <p
+                  style="
+                    margin: 0 0 8px;
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+                    font-size: 12px;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    letter-spacing: 0.1em;
+                    color: #6f6856;
+                  "
+                >
+                  Your sign-in link
+                </p>
+                <h1
+                  style="
+                    margin: 0 0 18px;
+                    font-family: Georgia, 'Times New Roman', serif;
+                    font-weight: 600;
+                    font-size: 30px;
+                    line-height: 1.15;
+                    letter-spacing: -0.02em;
+                    color: #16140f;
+                  "
+                >
+                  Tap once to sign in to
+                  <em style="font-style: italic; color: #c2410c;">CancelHub</em>.
+                </h1>
+                <p
+                  style="
+                    margin: 0 0 14px;
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+                    font-size: 15px;
+                    line-height: 1.6;
+                    color: #3a3528;
+                  "
+                >
+                  We received a sign-in request for
+                  <strong style="color: #16140f;">{{ .Email }}</strong>. If that
+                  was you, tap the button below to land back in your dashboard.
+                </p>
+              </td>
+            </tr>
+
+            <!-- CTA button -->
+            <tr>
+              <td align="center" style="padding: 12px 36px 8px;">
+                <!--[if mso]>
+                  <v:roundrect
+                    xmlns:v="urn:schemas-microsoft-com:vml"
+                    xmlns:w="urn:schemas-microsoft-com:office:word"
+                    href="{{ .ConfirmationURL }}"
+                    style="height:48px;v-text-anchor:middle;width:240px;"
+                    arcsize="22%"
+                    stroke="f"
+                    fillcolor="#16140f"
+                  >
+                    <w:anchorlock />
+                    <center
+                      style="color:#f7f4ec;font-family:Helvetica,Arial,sans-serif;font-size:15px;font-weight:600;"
+                    >
+                      Sign in to CancelHub
+                    </center>
+                  </v:roundrect>
+                <![endif]-->
+                <!--[if !mso]><!-- -->
+                <a
+                  href="{{ .ConfirmationURL }}"
+                  style="
+                    display: inline-block;
+                    background-color: #16140f;
+                    color: #f7f4ec;
+                    text-decoration: none;
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+                    font-weight: 600;
+                    font-size: 15px;
+                    line-height: 1;
+                    padding: 16px 28px;
+                    border-radius: 11px;
+                    mso-padding-alt: 0;
+                  "
+                >Sign in to CancelHub →</a>
+                <!--<![endif]-->
+              </td>
+            </tr>
+
+            <!-- Expiration note -->
+            <tr>
+              <td align="center" style="padding: 8px 36px 28px;">
+                <p
+                  style="
+                    margin: 0;
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+                    font-size: 13px;
+                    color: #6f6856;
+                  "
+                >
+                  This link expires in
+                  <strong style="color: #16140f;">10 minutes</strong> and can
+                  only be used once.
+                </p>
+              </td>
+            </tr>
+
+            <!-- Divider -->
+            <tr>
+              <td style="padding: 0 36px;">
+                <table
+                  role="presentation"
+                  cellpadding="0"
+                  cellspacing="0"
+                  border="0"
+                  width="100%"
+                >
+                  <tr>
+                    <td
+                      style="
+                        border-top: 1px dashed #dcd4bf;
+                        font-size: 0;
+                        line-height: 0;
+                        height: 1px;
+                      "
+                    >&nbsp;</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Fallback link -->
+            <tr>
+              <td style="padding: 22px 36px 8px;">
+                <p
+                  style="
+                    margin: 0 0 8px;
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+                    font-size: 13px;
+                    color: #6f6856;
+                  "
+                >
+                  Button not working? Copy and paste this URL into your browser:
+                </p>
+                <p
+                  style="
+                    margin: 0;
+                    font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo,
+                      Consolas, 'Liberation Mono', monospace;
+                    font-size: 12px;
+                    color: #c2410c;
+                    word-break: break-all;
+                    line-height: 1.5;
+                  "
+                >
+                  <a
+                    href="{{ .ConfirmationURL }}"
+                    style="color: #c2410c; text-decoration: underline;"
+                  >{{ .ConfirmationURL }}</a>
+                </p>
+              </td>
+            </tr>
+
+            <!-- "Didn't request" advisory — terracotta-soft panel -->
+            <tr>
+              <td style="padding: 22px 36px 32px;">
+                <table
+                  role="presentation"
+                  cellpadding="0"
+                  cellspacing="0"
+                  border="0"
+                  width="100%"
+                  style="
+                    background-color: #fbe7da;
+                    border: 1px solid #f0c9b1;
+                    border-radius: 12px;
+                  "
+                >
+                  <tr>
+                    <td style="padding: 14px 16px;">
+                      <p
+                        style="
+                          margin: 0;
+                          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+                          font-size: 13px;
+                          line-height: 1.55;
+                          color: #7c2d12;
+                        "
+                      >
+                        <strong style="color: #5c220e;"
+                          >Didn&rsquo;t request this?</strong
+                        >
+                        Someone may have typed your address by mistake. Ignore
+                        this email — the link expires on its own and your
+                        account stays safe.
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+
+          <!-- Footer -->
+          <table
+            role="presentation"
+            cellpadding="0"
+            cellspacing="0"
+            border="0"
+            width="560"
+            style="max-width: 560px; margin-top: 18px;"
+          >
+            <tr>
+              <td
+                align="center"
+                style="
+                  padding: 12px 16px 4px;
+                  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+                  font-size: 12px;
+                  line-height: 1.6;
+                  color: #6f6856;
+                "
+              >
+                CancelHub &middot; independent &amp; ad-free<br />
+                We send sign-in emails only when you request them.<br />
+                No marketing, no &ldquo;we miss you&rdquo; — ever.
+              </td>
+            </tr>
+            <tr>
+              <td
+                align="center"
+                style="
+                  padding: 12px 16px 24px;
+                  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+                  font-size: 11px;
+                  color: #9a937e;
+                "
+              >
+                <a
+                  href="{{ .SiteURL }}"
+                  style="color: #6f6856; text-decoration: none;"
+                  >cancelhub.app</a
+                >
+                &nbsp;·&nbsp;
+                <a
+                  href="{{ .SiteURL }}/about"
+                  style="color: #6f6856; text-decoration: none;"
+                  >About</a
+                >
+                &nbsp;·&nbsp;
+                <a
+                  href="{{ .SiteURL }}/contact"
+                  style="color: #6f6856; text-decoration: none;"
+                  >Contact</a
+                >
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
