@@ -1,7 +1,7 @@
 /**
  * Server-side Supabase client for App Router. Use in:
  *   - Server Components
- *   - Route Handlers (app/**/route.ts)
+ *   - Route Handlers
  *   - Server Actions
  *
  * Reads cookies via next/headers and writes back any session refresh
@@ -60,7 +60,7 @@ export function createAdminClient() {
     process.env.SUPABASE_SERVICE_ROLE_KEY,
     {
       cookies: {
-        get: (name) => cookieStore.get(name)?.value,
+        get: (name: string) => cookieStore.get(name)?.value,
         set: () => {},
         remove: () => {},
       },

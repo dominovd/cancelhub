@@ -2,11 +2,12 @@
 
 import { useMemo, useState } from 'react'
 import Link from 'next/link'
-import { useDashboard } from '@/lib/dashboard-store'
+import { useDashboard, type DashboardInitial } from '@/lib/dashboard/use-dashboard'
 import type { NotificationEvent, NotificationType } from '@/types/dashboard'
 
 interface Props {
   locale: string
+  initial: DashboardInitial
 }
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
@@ -120,20 +121,12 @@ function VisStepper({
 
 // ── Main ─────────────────────────────────────────────────────────────────────
 
-export function NotificationsClient({ locale }: Props) {
-  const store = useDashboard()
+export function NotificationsClient({ locale, initial }: Props) {
+  const store = useDashboard(initial)
   const [tab, setTab] = useState<'settings' | 'history'>('settings')
   const [savedFlash, setSavedFlash] = useState(false)
 
   const unreadCount = useMemo(() => store.events.filter((e) => !e.read).length, [store.events])
-
-  if (!store.ready) {
-    return (
-      <div style={{ minHeight: 300, color: 'var(--ink-3)', textAlign: 'center', padding: 60 }}>
-        Loading…
-      </div>
-    )
-  }
 
   const s = store.settings
   const update = store.updateSettings

@@ -125,9 +125,9 @@ function SubRow({ sub, onRemove }: { sub: Subscription; onRemove: () => void }) 
 
 // ── Main component ───────────────────────────────────────────────────────────
 
-export function DashboardClient({ locale }: Props) {
+export function DashboardClient({ locale, initial }: Props) {
   const t = useTranslations('dashboard')
-  const store = useDashboard()
+  const store = useDashboard(initial)
   const [adding, setAdding] = useState(false)
 
   // Derived data
@@ -226,44 +226,40 @@ export function DashboardClient({ locale }: Props) {
 
   const maxCategoryAmount = categoryBreakdown[0]?.amount ?? 1
 
-  if (!store.ready) {
-    // SSR / first paint — render a minimal skeleton so the layout doesn't jump.
-    return (
-      <div style={{ minHeight: 400, color: 'var(--ink-3)', textAlign: 'center', padding: 60 }}>
-        Loading your dashboard…
-      </div>
-    )
-  }
-
   if (store.subs.length === 0) {
     return (
-      <div style={{ textAlign: 'center', padding: '40px 0 60px' }}>
-        <h2
-          className="font-serif-display"
-          style={{ fontWeight: 600, fontSize: 28, letterSpacing: '-0.018em', marginBottom: 8 }}
-        >
-          No subscriptions tracked yet.
-        </h2>
-        <p style={{ color: 'var(--ink-3)', fontSize: 15, maxWidth: '44ch', margin: '0 auto 22px' }}>
-          Add anything that bills you each month and we&apos;ll remind you before the next charge.
-        </p>
-        <button type="button" className="btn-dark" onClick={() => setAdding(true)}>
-          ＋ Add your first subscription
-        </button>
-        <AddSubscriptionDialog
-          open={adding}
-          onClose={() => setAdding(false)}
-          onAdd={(sub) => {
-            store.addSubscription(sub)
-            setAdding(false)
-          }}
-        />
-      </div>
+      <>
+        <LegacyImportPrompt onImported={() => {}} />
+        <div style={{ textAlign: 'center', padding: '40px 0 60px' }}>
+          <h2
+            className="font-serif-display"
+            style={{ fontWeight: 600, fontSize: 28, letterSpacing: '-0.018em', marginBottom: 8 }}
+          >
+            No subscriptions tracked yet.
+          </h2>
+          <p style={{ color: 'var(--ink-3)', fontSize: 15, maxWidth: '44ch', margin: '0 auto 22px' }}>
+            Add anything that bills you each month and we&apos;ll remind you before the next charge.
+          </p>
+          <button type="button" className="btn-dark" onClick={() => setAdding(true)}>
+            ＋ Add your first subscription
+          </button>
+          <AddSubscriptionDialog
+            open={adding}
+            onClose={() => setAdding(false)}
+            onAdd={(sub) => {
+              store.addSubscription(sub)
+              setAdding(false)
+            }}
+          />
+        </div>
+      </>
     )
   }
 
   return (
     <>
+      <LegacyImportPrompt onImported={() => {}} />
+
       {/* ── PAGE HEADER ── */}
       <div className="flex items-end justify-between gap-4 flex-wrap" style={{ padding: '30px 0 6px' }}>
         <div>
