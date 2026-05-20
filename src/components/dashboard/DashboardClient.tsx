@@ -2,7 +2,6 @@
 
 import { useMemo, useState } from 'react'
 import Link from 'next/link'
-import { useTranslations } from 'next-intl'
 import { useDashboard, type DashboardInitial } from '@/lib/dashboard/use-dashboard'
 import type { Subscription } from '@/types/dashboard'
 import { BrandLogo } from '@/components/BrandLogo'
@@ -126,7 +125,6 @@ function SubRow({ sub, onRemove }: { sub: Subscription; onRemove: () => void }) 
 // ── Main component ───────────────────────────────────────────────────────────
 
 export function DashboardClient({ locale, initial }: Props) {
-  const t = useTranslations('dashboard')
   const store = useDashboard(initial)
   const [adding, setAdding] = useState(false)
 

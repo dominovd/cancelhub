@@ -18,11 +18,9 @@ import { createClient } from '@/lib/supabase/server'
 import type {
   Subscription,
   NotificationSettings,
-  NotificationEvent,
 } from '@/types/dashboard'
 import {
   rowToSubscription,
-  rowToEvent,
   subscriptionToInsert,
   subscriptionPatchToUpdate,
   settingsPatchToUpdate,

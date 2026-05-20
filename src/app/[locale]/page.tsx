@@ -1,7 +1,7 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
 import { getTranslations, setRequestLocale } from 'next-intl/server'
-import { allGuides, popularGuides } from '@/data/guides'
+import { allGuides } from '@/data/guides'
 import { canonicalUrl, hreflangAlternates } from '@/config/seo'
 import { SearchBar } from '@/components/SearchBar'
 import { BrandLogo } from '@/components/BrandLogo'
