@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Subscriptions — CancelHub</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,ital,wght@9..144,0,400;9..144,0,500;9..144,0,600;9..144,1,500&family=Spline+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#16140f;
+    --paper:#f7f4ec;
+    --card:#fffdf7;
+    --line:#dcd4bf;
+    --accent:#c2410c;
+    --accent-soft:#fbe7da;
+    --green:#3f6b3a;
+    --green-soft:#e3ecdd;
+    --muted:#6f6856;
+    --hard:#b3261e;
+    --med:#b8741a;
+    --easy:#3f6b3a;
+    --shadow:0 1px 0 rgba(0,0,0,.04),0 8px 24px -12px rgba(40,30,10,.18);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Spline Sans',sans-serif;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+    background-image:radial-gradient(rgba(120,100,60,.05) 1px,transparent 1px);
+    background-size:22px 22px;
+  }
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:980px;margin:0 auto;padding:0 22px}
+
+  /* nav */
+  nav{
+    border-bottom:1px solid var(--line);
+    background:rgba(247,244,236,.85);
+    backdrop-filter:blur(8px);
+    position:sticky;top:0;z-index:50;
+  }
+  .nav-in{max-width:980px;margin:0 auto;padding:14px 22px;display:flex;align-items:center;gap:18px}
+  .logo{font-family:'Fraunces',serif;font-weight:600;font-size:19px;letter-spacing:-.01em}
+  .logo span{color:var(--accent)}
+  .nav-links{margin-left:auto;display:flex;gap:18px;font-size:14px;color:var(--muted);font-weight:500}
+  .nav-links a:hover{color:var(--ink)}
+  .nav-links a.on{color:var(--ink);font-weight:600}
+  .avatar{
+    width:32px;height:32px;border-radius:50%;background:var(--accent);
+    color:#fff;display:flex;align-items:center;justify-content:center;
+    font-weight:600;font-size:13px;
+  }
+
+  /* page head */
+  .phead{padding:30px 0 6px;display:flex;align-items:flex-end;justify-content:space-between;gap:16px;flex-wrap:wrap}
+  .phead h1{
+    font-family:'Fraunces',serif;font-weight:600;
+    font-size:clamp(26px,4.5vw,34px);letter-spacing:-.02em;line-height:1.1;
+  }
+  .phead h1 em{font-style:italic;font-weight:500;color:var(--accent)}
+  .phead .sub{color:var(--muted);font-size:14px;margin-top:3px}
+  .head-actions{display:flex;gap:8px;align-items:center}
+  .period{
+    background:var(--card);border:1px solid var(--line);
+    padding:9px 13px 9px 13px;border-radius:11px;font-size:13.5px;
+    color:var(--ink);font-weight:500;cursor:pointer;
+    display:flex;align-items:center;gap:7px;
+  }
+  .period:hover{border-color:#c9bfa3}
+  .period .chev{color:var(--muted);font-size:11px}
+  .add-btn{
+    display:inline-flex;align-items:center;gap:7px;
+    background:var(--ink);color:var(--paper);font-weight:600;font-size:14px;
+    padding:10px 16px;border-radius:11px;border:none;cursor:pointer;
+    transition:transform .12s ease,box-shadow .12s ease;
+  }
+  .add-btn:hover{transform:translateY(-1px);box-shadow:0 6px 16px -6px rgba(0,0,0,.4)}
+
+  /* ===== hero stat ===== */
+  .hero-row{
+    margin-top:18px;display:grid;grid-template-columns:1.4fr 1fr;gap:14px;
+  }
+  .stat-card{
+    background:var(--ink);color:var(--paper);
+    border-radius:20px;padding:26px 28px 24px;position:relative;overflow:hidden;
+  }
+  .stat-card::after{
+    content:"";position:absolute;right:-60px;top:-60px;width:240px;height:240px;
+    border-radius:50%;background:radial-gradient(circle,rgba(194,65,12,.5),transparent 70%);
+    pointer-events:none;
+  }
+  .stat-card .lbl{
+    font-size:12px;text-transform:uppercase;letter-spacing:.1em;
+    color:#a59e8c;font-weight:600;position:relative;
+  }
+  .stat-card .amt{
+    font-family:'Fraunces',serif;font-weight:600;
+    font-size:clamp(40px,8vw,62px);line-height:1;letter-spacing:-.03em;
+    margin-top:8px;position:relative;
+  }
+  .stat-card .amt .cur{color:var(--accent)}
+  .stat-card .amt .per{font-size:22px;color:#a59e8c;font-weight:400}
+  .stat-row{display:flex;gap:22px;margin-top:18px;position:relative;flex-wrap:wrap}
+  .mini{font-size:12.5px;color:#a59e8c}
+  .mini b{display:block;color:var(--paper);font-size:17px;
+    font-family:'Fraunces',serif;font-weight:600;letter-spacing:-.01em;margin-top:1px}
+  .mini b.warn{color:#f0a878}
+  .mini b.up{color:#f0a878}
+  .mini b.down{color:#9cc790}
+
+  /* spend trend mini chart */
+  .trend{
+    background:var(--card);border:1px solid var(--line);
+    border-radius:20px;padding:20px 22px;box-shadow:var(--shadow);
+    display:flex;flex-direction:column;
+  }
+  .trend-head{display:flex;justify-content:space-between;align-items:baseline}
+  .trend-head .t{
+    font-family:'Fraunces',serif;font-weight:600;font-size:15px;letter-spacing:-.005em;
+  }
+  .trend-head .v{
+    font-family:'Fraunces',serif;font-weight:600;font-size:15px;color:var(--accent);
+  }
+  .trend-head .v .up{color:var(--hard);font-size:11px;margin-left:4px}
+  .trend-bars{
+    flex:1;display:flex;align-items:flex-end;gap:6px;height:80px;margin-top:14px;
+  }
+  .tbar{
+    flex:1;background:var(--accent-soft);border-radius:6px 6px 3px 3px;
+    position:relative;transition:background .12s ease;
+    border-top:2px solid var(--accent);
+  }
+  .tbar.curr{background:var(--accent);border-top-color:var(--accent)}
+  .tbar:hover{background:#f0c9b1}
+  .tbar.curr:hover{background:#a8350a}
+  .trend-lbls{
+    display:flex;gap:6px;margin-top:8px;font-size:10.5px;color:var(--muted);
+    text-transform:uppercase;letter-spacing:.06em;font-weight:600;
+  }
+  .trend-lbls span{flex:1;text-align:center}
+  .trend-lbls span.on{color:var(--accent)}
+
+  /* ===== insights row ===== */
+  .insights{
+    display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:14px;
+  }
+  .insight{
+    background:var(--card);border:1px solid var(--line);border-radius:14px;
+    padding:14px 16px;box-shadow:var(--shadow);
+    display:flex;align-items:flex-start;gap:11px;
+    transition:transform .12s ease,border-color .12s ease;cursor:pointer;
+  }
+  .insight:hover{transform:translateY(-2px);border-color:#c9bfa3}
+  .insight.urgent{background:var(--accent-soft);border-color:#f0c9b1}
+  .insight.idle{background:var(--green-soft);border-color:#cdddc4}
+  .insight .ic{
+    width:32px;height:32px;border-radius:9px;flex:none;
+    display:flex;align-items:center;justify-content:center;font-size:14px;
+    background:var(--card);border:1px solid var(--line);
+  }
+  .insight.urgent .ic{background:var(--accent);color:#fff;border-color:var(--accent)}
+  .insight.idle .ic{background:var(--green);color:#fff;border-color:var(--green)}
+  .insight .it{font-size:12px;color:var(--muted);font-weight:500;line-height:1.4}
+  .insight .it b{display:block;color:var(--ink);font-size:14.5px;font-weight:600;
+    font-family:'Fraunces',serif;letter-spacing:-.005em;margin-bottom:1px}
+  .insight.urgent .it{color:#7c2d12}
+  .insight.urgent .it b{color:#5c220e}
+  .insight.idle .it{color:#2f4d2b}
+  .insight.idle .it b{color:#1f3a1c}
+
+  /* ===== section heading ===== */
+  .seclbl{display:flex;align-items:baseline;gap:9px;margin:32px 0 12px}
+  .seclbl h2{
+    font-family:'Fraunces',serif;font-weight:600;font-size:19px;letter-spacing:-.01em;
+  }
+  .seclbl .cnt{
+    font-size:11px;font-weight:600;color:var(--muted);
+    background:var(--card);border:1px solid var(--line);
+    padding:1px 8px;border-radius:999px;
+  }
+  .seclbl .right{margin-left:auto;font-size:13px;color:var(--muted)}
+  .seclbl .right b{color:var(--ink);font-weight:600}
+  .seclbl .right a{color:var(--accent);font-weight:600;margin-left:8px}
+
+  /* ===== timeline (next 14 days) ===== */
+  .timeline-wrap{
+    background:var(--card);border:1px solid var(--line);border-radius:16px;
+    padding:18px 20px 16px;box-shadow:var(--shadow);
+  }
+  .tl-head{
+    display:flex;justify-content:space-between;align-items:baseline;
+    font-size:13px;color:var(--muted);margin-bottom:14px;
+  }
+  .tl-head b{color:var(--ink);font-weight:600;
+    font-family:'Fraunces',serif;font-size:14.5px}
+  .tl-head .sum{color:var(--accent);font-weight:600}
+  .tl-grid{
+    display:grid;grid-template-columns:repeat(14,1fr);gap:3px;
+    position:relative;
+  }
+  .tl-day{
+    height:74px;border-radius:7px;background:var(--paper);
+    border:1px solid var(--line);position:relative;cursor:pointer;
+    transition:transform .12s ease,border-color .12s ease;
+    overflow:hidden;
+    display:flex;flex-direction:column;
+  }
+  .tl-day:hover{transform:translateY(-2px);border-color:#c9bfa3}
+  .tl-day .dn{
+    font-size:9px;font-weight:600;color:var(--muted);
+    text-transform:uppercase;letter-spacing:.06em;
+    padding:4px 4px 0;text-align:center;line-height:1.1;
+  }
+  .tl-day .dd{
+    font-family:'Fraunces',serif;font-weight:600;font-size:15px;
+    text-align:center;margin-top:1px;color:var(--ink);line-height:1;
+  }
+  .tl-day.today{background:#fffdf7;border-color:var(--ink);border-width:1.5px}
+  .tl-day.today .dn{color:var(--ink)}
+  .tl-day.weekend .dn{color:#9a937e}
+  .tl-marks{
+    flex:1;display:flex;flex-direction:column;justify-content:flex-end;
+    padding:2px 3px 3px;gap:1px;
+  }
+  .mk-bar{
+    height:6px;border-radius:2px;
+  }
+  .mk-bar.easy{background:var(--green)}
+  .mk-bar.med{background:var(--med)}
+  .mk-bar.hard{background:var(--hard)}
+  .tl-day .total{
+    font-size:9px;font-weight:600;color:var(--ink);
+    text-align:center;padding:1px 2px 4px;
+    font-family:'Fraunces',serif;letter-spacing:-.01em;
+  }
+  .tl-day.has-trial{background:var(--accent-soft);border-color:#f0c9b1}
+  .tl-day.has-trial .dd{color:#7c2d12}
+  .tl-day.has-trial .total{color:#7c2d12}
+
+  .tl-legend{
+    display:flex;gap:14px;margin-top:14px;font-size:11.5px;color:var(--muted);
+    flex-wrap:wrap;
+  }
+  .tl-legend span{display:flex;align-items:center;gap:5px}
+  .tl-legend i{width:10px;height:10px;border-radius:2.5px;display:inline-block}
+
+  /* ===== category breakdown ===== */
+  .cat-wrap{
+    background:var(--card);border:1px solid var(--line);border-radius:16px;
+    padding:18px 20px;box-shadow:var(--shadow);
+  }
+  .cat-head{
+    display:flex;justify-content:space-between;align-items:baseline;margin-bottom:14px;
+  }
+  .cat-head .t{font-family:'Fraunces',serif;font-weight:600;font-size:14.5px}
+  .cat-head .v{font-size:12.5px;color:var(--muted)}
+  .cat-head .v b{color:var(--ink);font-weight:600;
+    font-family:'Fraunces',serif;font-size:13.5px}
+  .cat-row{
+    display:grid;grid-template-columns:140px 1fr 60px;
+    gap:12px;align-items:center;padding:6px 0;font-size:13px;
+  }
+  .cat-row .cn{font-weight:500;color:var(--ink)}
+  .cat-row .cv{
+    font-family:'Fraunces',serif;font-weight:600;text-align:right;
+    color:var(--ink);font-size:13.5px;letter-spacing:-.005em;
+  }
+  .cat-track{
+    height:8px;background:var(--paper);border:1px solid var(--line);
+    border-radius:999px;overflow:hidden;
+  }
+  .cat-fill{height:100%;border-radius:999px;background:var(--accent);
+    transition:width .6s ease;}
+  .cat-fill.s2{background:#d96b3b}
+  .cat-fill.s3{background:#e09060}
+  .cat-fill.s4{background:#e8b08b}
+  .cat-fill.s5{background:#f0c9b1}
+
+  /* ===== two-column row ===== */
+  .two{
+    display:grid;grid-template-columns:1.3fr 1fr;gap:14px;margin-top:14px;
+  }
+
+  /* ===== sub row (active list) ===== */
+  .sub{
+    background:var(--card);border:1px solid var(--line);border-radius:14px;
+    padding:14px 16px;display:flex;align-items:center;gap:14px;
+    box-shadow:var(--shadow);margin-bottom:8px;
+    transition:transform .1s ease,border-color .1s ease;
+  }
+  .sub:hover{transform:translateX(2px);border-color:#c9bfa3}
+  .sub.trial{border-color:#f0c9b1;background:#fffaf4}
+  .ico{
+    width:42px;height:42px;border-radius:11px;flex:none;
+    display:flex;align-items:center;justify-content:center;
+    font-family:'Fraunces',serif;font-weight:600;font-size:18px;color:#fff;
+  }
+  .sub-main{flex:1;min-width:0}
+  .sub-name{font-weight:600;font-size:14.5px;display:flex;align-items:center;gap:8px}
+  .sub-meta{font-size:12.5px;color:var(--muted);margin-top:1px}
+  .badge{
+    font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;
+    padding:2px 7px;border-radius:6px;
+  }
+  .badge.trial{background:var(--accent);color:#fff}
+  .badge.hard{background:#f8dcda;color:var(--hard)}
+  .badge.med{background:#f5e6cf;color:var(--med)}
+  .badge.easy{background:var(--green-soft);color:var(--easy)}
+  .badge.idle{background:#f5e6cf;color:var(--med)}
+  .sub-price{text-align:right;flex:none}
+  .sub-price .p{font-weight:600;font-size:14.5px;font-family:'Fraunces',serif}
+  .sub-price .d{font-size:12px;color:var(--muted)}
+  .sub-price .d.soon{color:var(--accent);font-weight:600}
+  .cancel-link{
+    flex:none;font-size:12.5px;font-weight:600;color:var(--accent);
+    border:1px solid #f0c9b1;background:var(--accent-soft);
+    padding:6px 10px;border-radius:9px;white-space:nowrap;
+    transition:all .12s ease;
+  }
+  .cancel-link:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
+
+  /* ===== review-suggestions ===== */
+  .review-grid{
+    display:grid;grid-template-columns:repeat(2,1fr);gap:9px;
+  }
+  .review{
+    background:var(--card);border:1px solid var(--line);border-radius:13px;
+    padding:14px 15px;box-shadow:var(--shadow);
+    display:flex;align-items:center;gap:12px;cursor:pointer;
+    transition:transform .12s ease,border-color .12s ease;
+  }
+  .review:hover{transform:translateY(-2px);border-color:#c9bfa3}
+  .rv-main{flex:1;min-width:0}
+  .rv-name{font-weight:600;font-size:14px;display:flex;align-items:center;gap:7px}
+  .rv-why{font-size:12px;color:var(--muted);margin-top:2px;line-height:1.4}
+  .rv-amt{
+    font-family:'Fraunces',serif;font-weight:600;font-size:13.5px;color:var(--accent);
+    flex:none;letter-spacing:-.005em;
+  }
+
+  /* hint */
+  .hint{
+    border:1.5px dashed var(--line);border-radius:14px;
+    padding:16px;text-align:center;color:var(--muted);font-size:13.5px;
+    margin-top:10px;
+  }
+  .hint b{color:var(--ink)}
+  .hint a{color:var(--accent);font-weight:600}
+
+  /* ===== notification preview strip ===== */
+  .nfx{
+    margin-top:14px;background:var(--ink);color:var(--paper);
+    border-radius:16px;padding:18px 22px;display:flex;align-items:center;
+    gap:14px;flex-wrap:wrap;position:relative;overflow:hidden;
+  }
+  .nfx::after{
+    content:"";position:absolute;right:-50px;bottom:-70px;width:200px;height:200px;
+    border-radius:50%;background:radial-gradient(circle,rgba(194,65,12,.4),transparent 70%);
+    pointer-events:none;
+  }
+  .nfx .ic{
+    flex:none;width:38px;height:38px;border-radius:10px;background:var(--accent);
+    color:#fff;display:flex;align-items:center;justify-content:center;font-size:16px;
+    position:relative;
+  }
+  .nfx .nm{font-family:'Fraunces',serif;font-weight:600;font-size:16px;position:relative}
+  .nfx .nd{font-size:12.5px;color:#a59e8c;margin-top:2px;position:relative}
+  .nfx-main{flex:1;min-width:160px;position:relative}
+  .nfx-cta{
+    background:var(--accent);color:#fff;font-weight:600;font-size:13.5px;
+    padding:9px 15px;border-radius:9px;border:none;cursor:pointer;
+    transition:transform .12s ease;position:relative;
+  }
+  .nfx-cta:hover{transform:translateY(-1px)}
+
+  /* footer */
+  footer{border-top:1px solid var(--line);margin-top:44px;padding:24px 0 40px}
+  .foot-in{max-width:980px;margin:0 auto;padding:0 22px;font-size:13px;color:var(--muted)}
+  .foot-in .badge2{
+    display:inline-flex;align-items:center;gap:6px;font-weight:600;color:var(--green);
+    background:var(--green-soft);padding:4px 10px;border-radius:999px;font-size:12px;margin-bottom:9px;
+  }
+  .foot-links{display:flex;gap:16px;margin-top:11px;flex-wrap:wrap}
+  .foot-links a:hover{color:var(--accent)}
+
+  @media(max-width:780px){
+    .hero-row{grid-template-columns:1fr}
+    .insights{grid-template-columns:1fr}
+    .two{grid-template-columns:1fr}
+    .review-grid{grid-template-columns:1fr}
+    .tl-grid{grid-template-columns:repeat(7,1fr)}
+    .tl-day:nth-child(n+8){display:none}
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-in">
+    <div class="logo">Cancel<span>Hub</span></div>
+    <div class="nav-links">
+      <a href="#">All Guides</a>
+      <a href="#">Rankings</a>
+      <a href="#" class="on">My Subscriptions</a>
+      <a href="notifications.html">Notifications</a>
+    </div>
+    <div class="avatar">A</div>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <div class="phead">
+    <div>
+      <h1>Hey, Anna — you have <em>8 active</em> subs</h1>
+      <div class="sub">Tracked since Feb 2026 · 2 trials ending this week</div>
+    </div>
+    <div class="head-actions">
+      <button class="period">This month <span class="chev">▾</span></button>
+      <button class="add-btn">＋ Add subscription</button>
+    </div>
+  </div>
+
+  <!-- ===== HERO ROW ===== -->
+  <div class="hero-row">
+    <div class="stat-card">
+      <div class="lbl">You're spending</div>
+      <div class="amt"><span class="cur">$</span>147.32<span class="per"> / month</span></div>
+      <div class="stat-row">
+        <div class="mini">Per year<b>$1,767.84</b></div>
+        <div class="mini">Active subscriptions<b>8</b></div>
+        <div class="mini">Trials ending soon<b class="warn">2</b></div>
+        <div class="mini">vs. last month<b class="up">+$24.99</b></div>
+      </div>
+    </div>
+
+    <div class="trend">
+      <div class="trend-head">
+        <span class="t">Spending trend</span>
+        <span class="v">$147 <span class="up">▲ 20%</span></span>
+      </div>
+      <div class="trend-bars">
+        <div class="tbar" style="height:48%" title="Dec · $98"></div>
+        <div class="tbar" style="height:52%" title="Jan · $107"></div>
+        <div class="tbar" style="height:60%" title="Feb · $122"></div>
+        <div class="tbar" style="height:58%" title="Mar · $118"></div>
+        <div class="tbar" style="height:62%" title="Apr · $123"></div>
+        <div class="tbar curr" style="height:80%" title="May · $147"></div>
+      </div>
+      <div class="trend-lbls">
+        <span>Dec</span><span>Jan</span><span>Feb</span><span>Mar</span><span>Apr</span><span class="on">May</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== INSIGHTS ===== -->
+  <div class="insights">
+    <div class="insight urgent">
+      <div class="ic">!</div>
+      <div class="it"><b>2 trials end this week</b>Audible in 2d · Canva Pro in 6d. You'll be charged $29.94 unless you cancel.</div>
+    </div>
+    <div class="insight idle">
+      <div class="ic">✓</div>
+      <div class="it"><b>Crunch Fitness — 32 days idle</b>You haven't used it since Apr 14. Worth $24.99/mo to you?</div>
+    </div>
+    <div class="insight">
+      <div class="ic">↑</div>
+      <div class="it"><b>Adobe just raised the price</b>$54.99 → $59.99 starting Jul 12. Heads-up before renewal.</div>
+    </div>
+  </div>
+
+  <!-- ===== UPCOMING TIMELINE ===== -->
+  <div class="seclbl">
+    <h2>Upcoming charges</h2>
+    <span class="cnt">Next 14 days</span>
+    <span class="right">Total <b>$124.40</b> incoming · <a href="#">View calendar →</a></span>
+  </div>
+
+  <div class="timeline-wrap">
+    <div class="tl-head">
+      <span>From <b>May 20</b> to <b>Jun 2</b></span>
+      <span class="sum">5 charges scheduled · 2 trial conversions</span>
+    </div>
+    <div class="tl-grid">
+      <div class="tl-day today">
+        <div class="dn">Tue</div><div class="dd">20</div>
+        <div class="tl-marks"></div>
+      </div>
+      <div class="tl-day">
+        <div class="dn">Wed</div><div class="dd">21</div>
+        <div class="tl-marks"></div>
+      </div>
+      <div class="tl-day has-trial">
+        <div class="dn">Thu</div><div class="dd">22</div>
+        <div class="tl-marks"><div class="mk-bar med" title="Audible $14.95 (trial)"></div></div>
+        <div class="total">$14.95</div>
+      </div>
+      <div class="tl-day">
+        <div class="dn">Fri</div><div class="dd">23</div>
+        <div class="tl-marks"><div class="mk-bar easy" title="Netflix $15.49"></div></div>
+        <div class="total">$15.49</div>
+      </div>
+      <div class="tl-day weekend">
+        <div class="dn">Sat</div><div class="dd">24</div>
+        <div class="tl-marks"></div>
+      </div>
+      <div class="tl-day weekend">
+        <div class="dn">Sun</div><div class="dd">25</div>
+        <div class="tl-marks"></div>
+      </div>
+      <div class="tl-day has-trial">
+        <div class="dn">Mon</div><div class="dd">26</div>
+        <div class="tl-marks"><div class="mk-bar med" title="Canva $14.99 (trial)"></div></div>
+        <div class="total">$14.99</div>
+      </div>
+      <div class="tl-day">
+        <div class="dn">Tue</div><div class="dd">27</div>
+        <div class="tl-marks"></div>
+      </div>
+      <div class="tl-day">
+        <div class="dn">Wed</div><div class="dd">28</div>
+        <div class="tl-marks"><div class="mk-bar easy" title="Spotify $11.99"></div></div>
+        <div class="total">$11.99</div>
+      </div>
+      <div class="tl-day">
+        <div class="dn">Thu</div><div class="dd">29</div>
+        <div class="tl-marks"></div>
+      </div>
+      <div class="tl-day">
+        <div class="dn">Fri</div><div class="dd">30</div>
+        <div class="tl-marks"></div>
+      </div>
+      <div class="tl-day weekend">
+        <div class="dn">Sat</div><div class="dd">31</div>
+        <div class="tl-marks"></div>
+      </div>
+      <div class="tl-day weekend">
+        <div class="dn">Sun</div><div class="dd">1</div>
+        <div class="tl-marks"><div class="mk-bar hard" title="Crunch Fitness $24.99"></div></div>
+        <div class="total">$24.99</div>
+      </div>
+      <div class="tl-day">
+        <div class="dn">Mon</div><div class="dd">2</div>
+        <div class="tl-marks"><div class="mk-bar hard" title="Adobe CC $54.99"></div></div>
+        <div class="total">$54.99</div>
+      </div>
+    </div>
+    <div class="tl-legend">
+      <span><i style="background:var(--green)"></i>Easy to cancel</span>
+      <span><i style="background:var(--med)"></i>Medium</span>
+      <span><i style="background:var(--hard)"></i>Hard</span>
+      <span><i style="background:var(--accent)"></i>Trial converting</span>
+    </div>
+  </div>
+
+  <!-- ===== TWO-COLUMN: category + notification preview ===== -->
+  <div class="two">
+    <div class="cat-wrap">
+      <div class="cat-head">
+        <span class="t">Where the money goes</span>
+        <span class="v">5 categories · <b>$147.32</b>/mo</span>
+      </div>
+      <div class="cat-row">
+        <span class="cn">Software</span>
+        <div class="cat-track"><div class="cat-fill" style="width:55%"></div></div>
+        <span class="cv">$54.99</span>
+      </div>
+      <div class="cat-row">
+        <span class="cn">Fitness</span>
+        <div class="cat-track"><div class="cat-fill s2" style="width:42%"></div></div>
+        <span class="cv">$24.99</span>
+      </div>
+      <div class="cat-row">
+        <span class="cn">AI</span>
+        <div class="cat-track"><div class="cat-fill s3" style="width:38%"></div></div>
+        <span class="cv">$20.00</span>
+      </div>
+      <div class="cat-row">
+        <span class="cn">Streaming</span>
+        <div class="cat-track"><div class="cat-fill s4" style="width:31%"></div></div>
+        <span class="cv">$15.49</span>
+      </div>
+      <div class="cat-row">
+        <span class="cn">Music</span>
+        <div class="cat-track"><div class="cat-fill s5" style="width:25%"></div></div>
+        <span class="cv">$11.99</span>
+      </div>
+    </div>
+
+    <div class="nfx">
+      <div class="ic">🔔</div>
+      <div class="nfx-main">
+        <div class="nm">3 alerts queued for this week</div>
+        <div class="nd">Email · 2 days before each trial ends, charges $25+, idle sub flags</div>
+      </div>
+      <a href="notifications.html" class="nfx-cta">Settings →</a>
+    </div>
+  </div>
+
+  <!-- ===== ACTIVE SUBSCRIPTIONS ===== -->
+  <div class="seclbl">
+    <h2>Active subscriptions</h2>
+    <span class="cnt">8</span>
+    <span class="right">Sorted by <b>next charge</b></span>
+  </div>
+
+  <div class="sub trial">
+    <div class="ico" style="background:#f8991d">A</div>
+    <div class="sub-main">
+      <div class="sub-name">Audible <span class="badge trial">Trial · ends in 2d</span></div>
+      <div class="sub-meta">Audiobooks · billing starts after trial</div>
+    </div>
+    <div class="sub-price"><div class="p">$14.95</div><div class="d soon">May 22</div></div>
+    <a href="#" class="cancel-link">How to cancel →</a>
+  </div>
+
+  <div class="sub trial">
+    <div class="ico" style="background:#5b51e0">C</div>
+    <div class="sub-main">
+      <div class="sub-name">Canva Pro <span class="badge trial">Trial · ends in 6d</span></div>
+      <div class="sub-meta">Creative tools · billing starts after trial</div>
+    </div>
+    <div class="sub-price"><div class="p">$14.99</div><div class="d soon">May 26</div></div>
+    <a href="#" class="cancel-link">How to cancel →</a>
+  </div>
+
+  <div class="sub">
+    <div class="ico" style="background:#e50914">N</div>
+    <div class="sub-main">
+      <div class="sub-name">Netflix <span class="badge easy">Easy</span></div>
+      <div class="sub-meta">Streaming · Premium plan · used 14h this month</div>
+    </div>
+    <div class="sub-price"><div class="p">$15.49</div><div class="d soon">May 23</div></div>
+    <a href="#" class="cancel-link">How to cancel →</a>
+  </div>
+
+  <div class="sub">
+    <div class="ico" style="background:#1db954">S</div>
+    <div class="sub-main">
+      <div class="sub-name">Spotify <span class="badge easy">Easy</span></div>
+      <div class="sub-meta">Music · Individual · used daily</div>
+    </div>
+    <div class="sub-price"><div class="p">$11.99</div><div class="d">May 28</div></div>
+    <a href="#" class="cancel-link">How to cancel →</a>
+  </div>
+
+  <div class="sub">
+    <div class="ico" style="background:#c2410c">C</div>
+    <div class="sub-main">
+      <div class="sub-name">Crunch Fitness <span class="badge hard">Hard</span> <span class="badge idle">32d idle</span></div>
+      <div class="sub-meta">Fitness · needs written notice · last check-in Apr 14</div>
+    </div>
+    <div class="sub-price"><div class="p">$24.99</div><div class="d">Jun 1</div></div>
+    <a href="#" class="cancel-link">How to cancel →</a>
+  </div>
+
+  <div class="sub">
+    <div class="ico" style="background:#0066d6">A</div>
+    <div class="sub-main">
+      <div class="sub-name">Adobe Creative Cloud <span class="badge hard">Hard</span></div>
+      <div class="sub-meta">Software · annual paid monthly · price rises Jul 12</div>
+    </div>
+    <div class="sub-price"><div class="p">$54.99</div><div class="d">Jun 2</div></div>
+    <a href="#" class="cancel-link">How to cancel →</a>
+  </div>
+
+  <div class="sub">
+    <div class="ico" style="background:#000000">C</div>
+    <div class="sub-main">
+      <div class="sub-name">ChatGPT Plus <span class="badge easy">Easy</span></div>
+      <div class="sub-meta">AI · monthly plan · used daily</div>
+    </div>
+    <div class="sub-price"><div class="p">$20.00</div><div class="d">Jun 9</div></div>
+    <a href="#" class="cancel-link">How to cancel →</a>
+  </div>
+
+  <div class="sub">
+    <div class="ico" style="background:#5b6770">i</div>
+    <div class="sub-main">
+      <div class="sub-name">iCloud+ <span class="badge easy">Easy</span></div>
+      <div class="sub-meta">Cloud storage · 200 GB</div>
+    </div>
+    <div class="sub-price"><div class="p">$2.99</div><div class="d">Jun 12</div></div>
+    <a href="#" class="cancel-link">How to cancel →</a>
+  </div>
+
+  <!-- ===== REVIEW / DISCOVERY ===== -->
+  <div class="seclbl">
+    <h2>Worth reviewing</h2>
+    <span class="cnt">3</span>
+    <span class="right">Subscriptions you might not need</span>
+  </div>
+
+  <div class="review-grid">
+    <div class="review">
+      <div class="ico" style="background:#c2410c;width:38px;height:38px;border-radius:10px;font-size:16px">C</div>
+      <div class="rv-main">
+        <div class="rv-name">Crunch Fitness <span class="badge idle">32d idle</span></div>
+        <div class="rv-why">No check-ins since April 14. You'd save $300/yr.</div>
+      </div>
+      <div class="rv-amt">$24.99/mo</div>
+    </div>
+    <div class="review">
+      <div class="ico" style="background:#f8991d;width:38px;height:38px;border-radius:10px;font-size:16px">A</div>
+      <div class="rv-main">
+        <div class="rv-name">Audible <span class="badge trial">Trial</span></div>
+        <div class="rv-why">Trial ends in 2 days. You started 1 audiobook.</div>
+      </div>
+      <div class="rv-amt">$14.95/mo</div>
+    </div>
+    <div class="review">
+      <div class="ico" style="background:#5b6770;width:38px;height:38px;border-radius:10px;font-size:16px">i</div>
+      <div class="rv-main">
+        <div class="rv-name">iCloud+ 200 GB</div>
+        <div class="rv-why">Using 41 GB. The 50 GB plan would save $2/mo.</div>
+      </div>
+      <div class="rv-amt">$2.99/mo</div>
+    </div>
+  </div>
+
+  <div class="hint">
+    Most people miss <b>2–3 subscriptions</b> they forgot about.
+    <a href="#">Run a 5-min discovery check →</a>
+  </div>
+
+</div>
+
+<footer>
+  <div class="foot-in">
+    <span class="badge2">● Independent &amp; ad-free</span>
+    <div>We help you leave — and we'll never make it hard to leave us. No upsells, no retention tricks.</div>
+    <div class="foot-links">
+      <a href="#">All Guides</a><a href="#">Rankings</a><a href="notifications.html">Notifications</a><a href="#">About</a><span>© 2026 CancelHub</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // wiggle the bars slightly on load for life
+  document.querySelectorAll('.tbar').forEach((b,i)=>{
+    const h = b.style.height;
+    b.style.height = '0%';
+    setTimeout(()=>{ b.style.transition='height .6s cubic-bezier(.2,.6,.2,1)'; b.style.height = h; }, 100 + i*80);
+  });
+  // category bars
+  document.querySelectorAll('.cat-fill').forEach((f,i)=>{
+    const w = f.style.width;
+    f.style.width = '0%';
+    setTimeout(()=>{ f.style.width = w; }, 200 + i*100);
+  });
+</script>
+
+</body>
+</html>

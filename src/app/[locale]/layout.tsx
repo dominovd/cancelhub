@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import localFont from 'next/font/local'
+import { Fraunces, Spline_Sans } from 'next/font/google'
 import { notFound } from 'next/navigation'
 import { NextIntlClientProvider } from 'next-intl'
 import { getMessages, setRequestLocale } from 'next-intl/server'
@@ -9,10 +9,22 @@ import '../globals.css'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 
-const geistSans = localFont({
-  src: '../fonts/GeistVF.woff',
-  variable: '--font-geist-sans',
-  weight: '100 900',
+// Editorial serif — used for h1/h2, numbers, and the brand wordmark.
+// Italic 500 is the "em" accent used throughout the design system.
+const fraunces = Fraunces({
+  subsets: ['latin'],
+  variable: '--font-serif',
+  weight: ['400', '500', '600'],
+  style: ['normal', 'italic'],
+  display: 'swap',
+})
+
+// Body sans — humanist geometric, pairs cleanly with Fraunces.
+const splineSans = Spline_Sans({
+  subsets: ['latin'],
+  variable: '--font-sans',
+  weight: ['400', '500', '600', '700'],
+  display: 'swap',
 })
 
 export function generateStaticParams() {
@@ -48,11 +60,11 @@ export default async function LocaleLayout({
   const dir = isRtl(locale as Locale) ? 'rtl' : 'ltr'
 
   return (
-    <html lang={locale} dir={dir} className={geistSans.variable}>
+    <html lang={locale} dir={dir} className={`${fraunces.variable} ${splineSans.variable}`}>
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeBootstrap }} />
       </head>
-      <body className="font-sans">
+      <body style={{ fontFamily: 'var(--font-sans), system-ui, sans-serif' }}>
         <NextIntlClientProvider messages={messages}>
           <Header locale={locale} />
           <main>{children}</main>

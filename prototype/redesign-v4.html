@@ -1,0 +1,1182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>CancelHub · Case 07 · Adobe</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+:root {
+  --paper: #F4F1E8;
+  --paper-2: #ECE7D8;
+  --ink: #14110E;
+  --ink-2: #3D362C;
+  --ink-3: #6B6356;
+  --ink-4: #978E7E;
+  --line: #D5CDB8;
+  --line-2: #BFB59E;
+  --red: #C53030;
+  --red-soft: #F1D9D9;
+  --red-bg: #E8C5C5;
+  --amber: #E8B340;
+  --amber-soft: #FAEEDA;
+  --green: #4A7C2A;
+  --serif: 'Instrument Serif', Georgia, serif;
+  --sans: 'Inter', system-ui, sans-serif;
+  --mono: 'JetBrains Mono', ui-monospace, monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 15px;
+  line-height: 1.55;
+  font-weight: 400;
+}
+a { color: inherit; text-decoration: none; cursor: pointer; }
+button { font: inherit; cursor: pointer; border: 0; background: transparent; color: inherit; }
+img, svg { display: block; max-width: 100%; }
+
+.caps {
+  font-family: var(--mono); font-size: 10.5px;
+  letter-spacing: 0.16em; text-transform: uppercase;
+  color: var(--ink-3);
+}
+.caps-red { color: var(--red); }
+.serif { font-family: var(--serif); font-weight: 400; }
+.it { font-style: italic; }
+.container { max-width: 1200px; margin: 0 auto; padding: 0 40px; }
+.hl {
+  background: linear-gradient(transparent 62%, var(--red-soft) 62%, var(--red-soft) 92%, transparent 92%);
+  padding: 0 4px;
+}
+.hl-amber {
+  background: linear-gradient(transparent 62%, var(--amber-soft) 62%, var(--amber-soft) 92%, transparent 92%);
+  padding: 0 4px;
+}
+
+/* ===== MASTHEAD ===== */
+.mast {
+  background: var(--ink); color: var(--paper);
+  padding: 10px 0;
+}
+.mast-row {
+  display: grid; grid-template-columns: 1fr auto 1fr;
+  align-items: center; gap: 24px;
+}
+.mast-left, .mast-right {
+  display: flex; gap: 22px;
+  font-family: var(--mono); font-size: 10.5px;
+  letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--line-2);
+}
+.mast-right { justify-content: flex-end; }
+.mast-left a:hover, .mast-right a:hover { color: var(--paper); }
+.mast-brand {
+  font-family: var(--serif); font-style: italic;
+  font-size: 26px; letter-spacing: -0.005em;
+  color: var(--paper); text-align: center;
+}
+.mast-meta {
+  border-top: 0.5px solid #3D362C;
+  margin-top: 8px; padding-top: 7px;
+  display: flex; justify-content: space-between;
+  font-family: var(--mono); font-size: 10px;
+  letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--line-2);
+}
+
+/* ===== HERO ===== */
+.hero { padding: 50px 0 30px; }
+.hero-label {
+  display: flex; align-items: center; gap: 14px;
+  margin-bottom: 28px;
+}
+.hero-label::before {
+  content: ''; display: block; width: 40px; height: 1px; background: var(--red);
+}
+.hero-label .l {
+  font-family: var(--mono); font-size: 10.5px;
+  letter-spacing: 0.18em; text-transform: uppercase;
+  color: var(--red);
+}
+
+.hero-comp {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 48px;
+  align-items: end;
+  padding-bottom: 30px;
+  border-bottom: 1px solid var(--ink);
+}
+.score {
+  display: flex; align-items: baseline; gap: 4px;
+  line-height: 0.82;
+}
+.score-n {
+  font-weight: 500; font-size: 192px;
+  letter-spacing: -0.06em; color: var(--red);
+}
+.score-d { font-weight: 500; font-size: 54px; color: var(--ink); }
+.score-meta {
+  margin-top: 14px;
+  display: grid; grid-template-columns: 76px 1fr;
+  row-gap: 6px;
+  font-size: 13px; line-height: 1.4;
+}
+.score-meta .k {
+  font-family: var(--mono); font-size: 10px;
+  letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--ink-3); padding-top: 2px;
+}
+.score-meta .v { color: var(--ink); font-weight: 500; }
+
+.head {
+  font-weight: 500;
+  font-size: 92px; line-height: 0.92;
+  letter-spacing: -0.035em;
+  max-width: 740px;
+}
+.head em { font-style: normal; }
+.head-deck {
+  font-family: var(--serif); font-style: italic;
+  font-size: 22px; line-height: 1.4;
+  color: var(--ink-2);
+  margin-top: 18px;
+  max-width: 540px;
+}
+
+.stats-bar {
+  display: grid; grid-template-columns: repeat(5, 1fr);
+  border-bottom: 1px solid var(--ink);
+  padding: 22px 0;
+}
+.stat { padding: 0 18px; border-right: 0.5px solid var(--line-2); }
+.stat:last-child { border-right: 0; }
+.stat-v {
+  font-weight: 500; font-size: 34px;
+  line-height: 1; letter-spacing: -0.02em;
+}
+.stat-v em { font-style: normal; color: var(--red); }
+.stat-v .serif-it { font-family: var(--serif); font-style: italic; font-weight: 400; }
+.stat-k {
+  font-family: var(--mono); font-size: 10px;
+  letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--ink-3); margin-top: 10px;
+}
+
+/* ===== MAZE BIG ===== */
+.maze-section { padding: 40px 0 60px; }
+.maze-head {
+  display: flex; justify-content: space-between; align-items: end;
+  margin-bottom: 24px;
+}
+.maze-title {
+  font-weight: 500; font-size: 38px; line-height: 1; letter-spacing: -0.025em;
+}
+.maze-title em { font-family: var(--serif); font-style: italic; font-weight: 400; color: var(--red); }
+.maze-legend { display: flex; gap: 18px; }
+.maze-legend span {
+  display: flex; align-items: center; gap: 6px;
+  font-family: var(--mono); font-size: 10px;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--ink-3);
+}
+.maze-legend i { display: inline-block; width: 18px; height: 3px; }
+.maze-frame {
+  background: #FFFFFF;
+  border: 1px solid var(--ink);
+  padding: 36px 30px 24px;
+}
+.maze-foot {
+  display: flex; justify-content: space-between;
+  margin-top: 16px;
+  font-family: var(--mono); font-size: 10px;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--ink-3);
+}
+
+/* ===== ROOM CARDS ===== */
+.rooms-section { padding: 70px 0 60px; border-top: 1px solid var(--ink); }
+.section-h {
+  display: flex; justify-content: space-between; align-items: end;
+  margin-bottom: 38px;
+}
+.section-h-l { max-width: 540px; }
+.section-h h2 {
+  font-weight: 500; font-size: 48px; line-height: 0.95; letter-spacing: -0.03em;
+  margin-top: 12px;
+}
+.section-h h2 em { font-family: var(--serif); font-style: italic; font-weight: 400; }
+.section-h p { font-family: var(--serif); font-style: italic; font-size: 18px; color: var(--ink-2); margin-top: 14px; max-width: 460px; }
+
+.rooms-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  border-top: 1px solid var(--ink);
+  border-left: 1px solid var(--ink);
+}
+.room {
+  border-right: 1px solid var(--ink);
+  border-bottom: 1px solid var(--ink);
+  padding: 22px 22px 24px;
+  background: var(--paper);
+  position: relative;
+  display: flex; flex-direction: column;
+  min-height: 280px;
+}
+.room-bad { background: var(--red-soft); }
+.room-top {
+  display: flex; justify-content: space-between; align-items: baseline;
+  margin-bottom: 16px;
+}
+.room-n {
+  font-weight: 500; font-size: 32px; line-height: 1;
+  letter-spacing: -0.03em;
+}
+.room-time {
+  font-family: var(--mono); font-size: 10.5px;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--ink-3);
+}
+.room-bad .room-time { color: var(--red); }
+.room-name {
+  font-weight: 500; font-size: 17px;
+  letter-spacing: -0.005em;
+  margin-bottom: 10px;
+}
+.room-mock {
+  flex: 1;
+  border: 0.5px dashed var(--line-2);
+  padding: 12px;
+  margin-bottom: 14px;
+  background: rgba(255,255,255,0.4);
+  display: flex; flex-direction: column; gap: 6px;
+  font-size: 11px;
+}
+.room-bad .room-mock { border-color: var(--red); background: rgba(255,255,255,0.5); }
+.mock-line { height: 6px; background: var(--line); border-radius: 1px; }
+.mock-line.s { width: 60%; }
+.mock-line.m { width: 80%; }
+.mock-line.l { width: 100%; }
+.mock-btn-row { display: flex; gap: 6px; margin-top: 4px; }
+.mock-btn { padding: 4px 10px; border-radius: 999px; font-size: 9px; }
+.mock-btn-p { background: #1473E6; color: white; }
+.mock-btn-g { border: 0.5px solid var(--line-2); color: var(--ink-3); }
+.mock-btn-tiny { font-size: 8px; color: var(--ink-4); text-decoration: underline; align-self: center; }
+.mock-pill { display: inline-block; padding: 2px 8px; border-radius: 999px; background: var(--paper-2); font-family: var(--mono); font-size: 9px; color: var(--ink-3); }
+.mock-q { display: inline-flex; width: 14px; height: 14px; border-radius: 50%; background: var(--line); color: var(--ink-3); align-items: center; justify-content: center; font-size: 9px; }
+.room-trick {
+  font-family: var(--serif); font-style: italic;
+  font-size: 15px; line-height: 1.4;
+  color: var(--ink);
+}
+.room-bad .room-trick { color: var(--red); }
+.room-trick::before {
+  content: '↳'; margin-right: 6px; color: var(--ink-3);
+}
+.room-bad .room-trick::before { color: var(--red); }
+
+/* ===== FEE FULL-BLEED ===== */
+.fee {
+  background: var(--ink); color: var(--paper);
+  padding: 110px 0;
+  margin-top: 60px;
+}
+.fee-grid {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 60px; align-items: center;
+}
+.fee-big {
+  font-family: var(--serif); font-style: italic;
+  font-weight: 400; font-size: 280px; line-height: 0.82;
+  letter-spacing: -0.04em;
+  color: var(--red);
+}
+.fee-meta {
+  font-family: var(--mono); font-size: 11px;
+  letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--line-2);
+  margin-top: 18px;
+}
+.fee-text {
+  font-weight: 500; font-size: 32px; line-height: 1.15;
+  letter-spacing: -0.018em;
+  color: var(--paper);
+}
+.fee-text em { font-family: var(--serif); font-style: italic; font-weight: 400; }
+.fee-sub {
+  font-family: var(--serif); font-style: italic;
+  font-size: 18px; line-height: 1.5;
+  color: var(--line-2);
+  margin-top: 22px;
+  max-width: 420px;
+}
+
+/* ===== ESCAPE STEPS ===== */
+.escape { padding: 80px 0 60px; }
+.escape-card {
+  border: 1px solid var(--ink);
+  background: var(--paper-2);
+  padding: 32px 36px;
+}
+.escape-card-top {
+  display: flex; justify-content: space-between; align-items: baseline;
+  border-bottom: 0.5px solid var(--line-2);
+  padding-bottom: 18px; margin-bottom: 24px;
+}
+.escape-card-top h3 {
+  font-weight: 500; font-size: 26px; letter-spacing: -0.015em;
+}
+.escape-card-top h3 em { font-family: var(--serif); font-style: italic; font-weight: 400; }
+.escape-list {
+  list-style: none; padding: 0;
+}
+.escape-list li {
+  display: grid; grid-template-columns: 50px 1fr 160px;
+  gap: 20px;
+  padding: 18px 0;
+  border-bottom: 0.5px solid var(--line-2);
+  align-items: baseline;
+}
+.escape-list li:last-child { border-bottom: 0; }
+.escape-list .n {
+  font-family: var(--mono); font-size: 11px;
+  letter-spacing: 0.1em; color: var(--ink-3);
+}
+.escape-list .t {
+  font-size: 16px; color: var(--ink); line-height: 1.55;
+}
+.escape-list .t strong { font-weight: 500; }
+.escape-list .t code {
+  font-family: var(--mono); font-size: 13px;
+  background: var(--paper); padding: 2px 6px; border-radius: 3px;
+}
+.escape-list .meta {
+  font-family: var(--mono); font-size: 10.5px;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--ink-3); text-align: right;
+}
+
+/* ===== COMPARE ===== */
+.compare { padding: 70px 0 60px; border-top: 1px solid var(--ink); }
+.compare-grid {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  margin-top: 40px;
+}
+.compare-col {
+  border: 1px solid var(--ink);
+  padding: 28px;
+}
+.compare-col-h {
+  display: flex; justify-content: space-between; align-items: baseline;
+  margin-bottom: 6px;
+}
+.compare-col-h h4 { font-weight: 500; font-size: 22px; letter-spacing: -0.015em; }
+.compare-col-score { font-weight: 500; font-size: 22px; }
+.compare-col-score em { font-style: normal; }
+.compare-bad .compare-col-score em { color: var(--red); }
+.compare-good .compare-col-score em { color: var(--green); }
+.compare-col-meta {
+  font-family: var(--mono); font-size: 10.5px;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--ink-3);
+  margin-bottom: 22px;
+}
+.compare-svg-wrap { background: #FFFFFF; padding: 20px; }
+
+/* ===== ARCHIVE ===== */
+.archive { padding: 70px 0 60px; border-top: 1px solid var(--ink); }
+.archive-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 26px;
+}
+.archive-card {
+  border: 1px solid var(--ink);
+  background: var(--paper);
+  padding: 20px;
+  cursor: pointer;
+  transition: background .15s;
+}
+.archive-card:hover { background: var(--paper-2); }
+.archive-thumb {
+  background: #FFFFFF;
+  padding: 14px;
+  margin-bottom: 16px;
+  border-bottom: 0.5px solid var(--line);
+}
+.archive-iss {
+  display: flex; justify-content: space-between;
+  font-family: var(--mono); font-size: 10px;
+  letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--ink-3); margin-bottom: 10px;
+}
+.archive-iss .sc { color: var(--red); font-weight: 500; }
+.archive-name { font-weight: 500; font-size: 19px; letter-spacing: -0.01em; line-height: 1.2; margin-bottom: 6px; }
+.archive-trick { font-family: var(--serif); font-style: italic; font-size: 14px; color: var(--ink-2); line-height: 1.5; }
+
+/* ===== HEATMAP ===== */
+.heatmap { padding: 70px 0 60px; border-top: 1px solid var(--ink); }
+.heat-bar {
+  display: flex; gap: 4px;
+  margin: 28px 0 20px;
+  align-items: center;
+}
+.heat-bar .scale {
+  display: flex; height: 16px; flex: 1;
+}
+.heat-bar .scale span { flex: 1; }
+.heat-bar .l, .heat-bar .r {
+  font-family: var(--mono); font-size: 10.5px;
+  letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-3);
+}
+.heat-grid {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  gap: 4px;
+}
+.heat-cell {
+  aspect-ratio: 1;
+  cursor: pointer;
+  border-radius: 1px;
+  transition: transform .15s;
+  position: relative;
+}
+.heat-cell:hover { transform: scale(1.3); z-index: 2; }
+.heat-cell:hover::after {
+  content: attr(data-label);
+  position: absolute; bottom: calc(100% + 8px); left: 50%;
+  transform: translateX(-50%);
+  background: var(--ink); color: var(--paper);
+  font-family: var(--mono); font-size: 10px;
+  padding: 4px 8px; border-radius: 3px;
+  white-space: nowrap; z-index: 3;
+  letter-spacing: 0.04em;
+}
+
+/* ===== FOOTER ===== */
+.foot {
+  background: var(--ink); color: var(--paper);
+  padding: 60px 0 30px;
+  margin-top: 70px;
+}
+.foot-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 50px; }
+.foot-brand {
+  font-family: var(--serif); font-style: italic;
+  font-size: 36px; line-height: 1; margin-bottom: 14px;
+}
+.foot-tag { color: var(--line-2); max-width: 320px; line-height: 1.6; font-size: 14px; }
+.foot-col h6 {
+  font-family: var(--mono); font-size: 10px;
+  letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--ink-4); margin-bottom: 14px; font-weight: 400;
+}
+.foot-col a { display: block; padding: 5px 0; color: var(--line-2); font-size: 14px; }
+.foot-col a:hover { color: var(--paper); }
+.foot-bottom {
+  margin-top: 50px; padding-top: 16px;
+  border-top: 0.5px solid #3D362C;
+  display: flex; justify-content: space-between;
+  font-family: var(--mono); font-size: 10px;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--ink-4);
+}
+
+/* SVG annotations */
+.room-fab {
+  position: absolute; top: -8px; right: 14px;
+  background: var(--red); color: white;
+  font-family: var(--mono); font-size: 9px;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  padding: 4px 10px; border-radius: 0;
+}
+
+@media (max-width: 880px) {
+  .head { font-size: 56px; }
+  .score-n { font-size: 132px; }
+  .hero-comp { grid-template-columns: 1fr; gap: 24px; }
+  .stats-bar { grid-template-columns: repeat(2, 1fr); gap: 14px; padding: 14px 0; }
+  .stat { padding: 8px 12px; }
+  .rooms-grid { grid-template-columns: 1fr; }
+  .fee-grid { grid-template-columns: 1fr; gap: 30px; }
+  .fee-big { font-size: 160px; }
+  .compare-grid { grid-template-columns: 1fr; gap: 20px; }
+  .archive-grid { grid-template-columns: 1fr; }
+  .heat-grid { grid-template-columns: repeat(10, 1fr); }
+  .foot-grid { grid-template-columns: 1fr 1fr; gap: 30px; }
+  .container { padding: 0 20px; }
+  .mast-left, .mast-right { display: none; }
+}
+</style>
+</head>
+<body>
+
+<header class="mast">
+  <div class="container">
+    <div class="mast-row">
+      <div class="mast-left">
+        <a href="#">Latest</a><a href="#archive">Archive</a><a href="#heatmap">Index</a>
+      </div>
+      <div class="mast-brand">CancelHub</div>
+      <div class="mast-right">
+        <a href="#">Method</a><a href="#">About</a><a href="#">Subscribe</a>
+      </div>
+    </div>
+    <div class="container mast-meta" style="padding: 0;">
+      <span>Case file 07 · Saturday 16 May 2026</span>
+      <span>Independent · No affiliates</span>
+      <span>92 cases · 17 languages</span>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-label"><span class="l">Investigation · The dark-pattern files</span></div>
+
+      <div class="hero-comp">
+        <div>
+          <div class="score">
+            <span class="score-n">94</span><span class="score-d">/100</span>
+          </div>
+          <div class="score-meta">
+            <span class="k">Subject</span><span class="v">Adobe Creative Cloud</span>
+            <span class="k">Verdict</span><span class="v">Resistant by design</span>
+            <span class="k">Filed</span><span class="v">14:02–14:21 EST · 16 May</span>
+          </div>
+        </div>
+
+        <div>
+          <h1 class="head">Six screens<br/>to <em class="hl">leave.</em><br/>One to confirm.</h1>
+          <p class="head-deck">Adobe holds the top spot on our Dark Pattern Index for the fourteenth consecutive week. We sat down with a stopwatch and mapped the maze.</p>
+        </div>
+      </div>
+
+      <div class="stats-bar">
+        <div class="stat"><div class="stat-v">18:42</div><div class="stat-k">Time on task</div></div>
+        <div class="stat"><div class="stat-v">3</div><div class="stat-k">Retention loops</div></div>
+        <div class="stat"><div class="stat-v"><em>$329</em></div><div class="stat-k">Termination fee</div></div>
+        <div class="stat"><div class="stat-v">6</div><div class="stat-k">Screens to escape</div></div>
+        <div class="stat"><div class="stat-v"><span class="serif-it">14<sup style="font-size:14px;">th</sup></span></div><div class="stat-k">Consecutive week as #1</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MAZE BIG ===== -->
+  <section class="maze-section">
+    <div class="container">
+      <div class="maze-head">
+        <div>
+          <span class="caps caps-red">The Adobe maze · 16 May 2026</span>
+          <div class="maze-title" style="margin-top: 10px;">Top-down view of the <em>cancellation flow.</em></div>
+        </div>
+        <div class="maze-legend">
+          <span><i style="background: var(--red)"></i>escape path</span>
+          <span><i style="background: var(--ink); border-style: dashed; border: 1px dashed var(--ink);"></i>dead end</span>
+          <span><i style="background: var(--line-2)"></i>retention loop</span>
+        </div>
+      </div>
+
+      <div class="maze-frame">
+        <svg viewBox="0 0 1100 380" xmlns="http://www.w3.org/2000/svg" style="width: 100%; height: auto;" aria-label="Map of Adobe cancellation flow">
+          <defs>
+            <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+              <circle cx="1" cy="1" r="0.7" fill="#E8E5DC"/>
+            </pattern>
+            <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+              <path d="M 0 0 L 10 5 L 0 10 z" fill="#C53030"/>
+            </marker>
+            <marker id="arrowB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+              <path d="M 0 0 L 10 5 L 0 10 z" fill="#14110E"/>
+            </marker>
+          </defs>
+          <rect x="0" y="0" width="1100" height="380" fill="url(#grid)"/>
+
+          <!-- Bottom row: escape path (7 rooms) -->
+          <g font-family="ui-monospace, monospace" font-size="11" fill="#14110E">
+            <g>
+              <rect x="20" y="290" width="120" height="70" fill="#FFFFFF" stroke="#14110E" stroke-width="1.2"/>
+              <text x="80" y="318" text-anchor="middle" font-weight="500" font-size="13">Sign in</text>
+              <text x="80" y="336" text-anchor="middle" fill="#6B6356" font-size="10">step 01 · 0:24</text>
+              <text x="80" y="350" text-anchor="middle" fill="#6B6356" font-size="9">account.adobe.com</text>
+            </g>
+            <g>
+              <rect x="170" y="290" width="120" height="70" fill="#FFFFFF" stroke="#14110E" stroke-width="1.2"/>
+              <text x="230" y="318" text-anchor="middle" font-weight="500" font-size="13">Plans page</text>
+              <text x="230" y="336" text-anchor="middle" fill="#6B6356" font-size="10">step 02 · 1:48</text>
+              <text x="230" y="350" text-anchor="middle" fill="#6B6356" font-size="9">scroll for tiny link</text>
+            </g>
+            <g>
+              <rect x="320" y="290" width="120" height="70" fill="#FFFFFF" stroke="#14110E" stroke-width="1.2"/>
+              <text x="380" y="318" text-anchor="middle" font-weight="500" font-size="13">Manage plan</text>
+              <text x="380" y="336" text-anchor="middle" fill="#6B6356" font-size="10">step 03 · 0:52</text>
+              <text x="380" y="350" text-anchor="middle" fill="#6B6356" font-size="9">click "?" icon</text>
+            </g>
+            <g>
+              <rect x="470" y="290" width="120" height="70" fill="#FFFFFF" stroke="#C53030" stroke-width="1.2"/>
+              <text x="530" y="318" text-anchor="middle" font-weight="500" font-size="13" fill="#C53030">Offer 1</text>
+              <text x="530" y="336" text-anchor="middle" fill="#C53030" font-size="10">step 04 · 3:11</text>
+              <text x="530" y="350" text-anchor="middle" fill="#6B6356" font-size="9">2 months free</text>
+            </g>
+            <g>
+              <rect x="620" y="290" width="120" height="70" fill="#FFFFFF" stroke="#C53030" stroke-width="1.2"/>
+              <text x="680" y="318" text-anchor="middle" font-weight="500" font-size="13" fill="#C53030">Offer 2</text>
+              <text x="680" y="336" text-anchor="middle" fill="#C53030" font-size="10">step 05 · 2:48</text>
+              <text x="680" y="350" text-anchor="middle" fill="#6B6356" font-size="9">50% off · 6mo</text>
+            </g>
+            <g>
+              <rect x="770" y="290" width="120" height="70" fill="#FFFFFF" stroke="#C53030" stroke-width="1.2"/>
+              <text x="830" y="318" text-anchor="middle" font-weight="500" font-size="13" fill="#C53030">Offer 3</text>
+              <text x="830" y="336" text-anchor="middle" fill="#C53030" font-size="10">step 06 · 2:22</text>
+              <text x="830" y="350" text-anchor="middle" fill="#6B6356" font-size="9">downgrade plan</text>
+            </g>
+            <g>
+              <rect x="920" y="290" width="160" height="70" fill="#C53030" stroke="#C53030" stroke-width="1.2"/>
+              <text x="1000" y="316" text-anchor="middle" font-weight="500" font-size="13" fill="#FFFFFF">Out — $329 fee</text>
+              <text x="1000" y="335" text-anchor="middle" fill="#F1D9D9" font-size="10">step 07 · 7:17</text>
+              <text x="1000" y="349" text-anchor="middle" fill="#F1D9D9" font-size="9">confirm cancellation</text>
+            </g>
+          </g>
+
+          <!-- Top: dead ends (4) -->
+          <g font-family="ui-monospace, monospace" font-size="10" fill="#6B6356">
+            <g>
+              <rect x="320" y="30" width="120" height="56" fill="#F4F1E8" stroke="#14110E" stroke-width="1" stroke-dasharray="4 3"/>
+              <text x="380" y="52" text-anchor="middle" font-size="11" fill="#14110E">Switch plan</text>
+              <text x="380" y="68" text-anchor="middle">↺ back to step 02</text>
+            </g>
+            <g>
+              <rect x="470" y="30" width="120" height="56" fill="#F4F1E8" stroke="#14110E" stroke-width="1" stroke-dasharray="4 3"/>
+              <text x="530" y="52" text-anchor="middle" font-size="11" fill="#14110E">Accept "2 mo"</text>
+              <text x="530" y="68" text-anchor="middle" fill="#C53030">↺ subscribed</text>
+            </g>
+            <g>
+              <rect x="620" y="30" width="120" height="56" fill="#F4F1E8" stroke="#14110E" stroke-width="1" stroke-dasharray="4 3"/>
+              <text x="680" y="52" text-anchor="middle" font-size="11" fill="#14110E">Take 50% off</text>
+              <text x="680" y="68" text-anchor="middle" fill="#C53030">↺ subscribed</text>
+            </g>
+            <g>
+              <rect x="770" y="30" width="120" height="56" fill="#F4F1E8" stroke="#14110E" stroke-width="1" stroke-dasharray="4 3"/>
+              <text x="830" y="52" text-anchor="middle" font-size="11" fill="#14110E">Downgrade</text>
+              <text x="830" y="68" text-anchor="middle" fill="#C53030">↺ subscribed</text>
+            </g>
+          </g>
+
+          <!-- Dead-end connectors -->
+          <g fill="none" stroke="#14110E" stroke-width="1" stroke-dasharray="3 3" opacity="0.6">
+            <path d="M380 290 V 86" marker-end="url(#arrowB)"/>
+            <path d="M530 290 V 86" marker-end="url(#arrowB)"/>
+            <path d="M680 290 V 86" marker-end="url(#arrowB)"/>
+            <path d="M830 290 V 86" marker-end="url(#arrowB)"/>
+          </g>
+
+          <!-- Return-to-start arrow for switch plan -->
+          <g fill="none" stroke="#978E7E" stroke-width="1" stroke-dasharray="2 3">
+            <path d="M320 58 Q 200 20 80 100 V 290" marker-end="url(#arrowB)"/>
+          </g>
+
+          <!-- Main escape path -->
+          <g fill="none" stroke="#C53030" stroke-width="3.5" stroke-linecap="round">
+            <path d="M140 325 H 170" marker-end="url(#arrow)"/>
+            <path d="M290 325 H 320" marker-end="url(#arrow)"/>
+            <path d="M440 325 H 470" marker-end="url(#arrow)"/>
+            <path d="M590 325 H 620" marker-end="url(#arrow)"/>
+            <path d="M740 325 H 770" marker-end="url(#arrow)"/>
+            <path d="M890 325 H 920" marker-end="url(#arrow)"/>
+          </g>
+
+          <!-- You marker -->
+          <g>
+            <circle cx="1000" cy="325" r="5" fill="#FFFFFF"/>
+            <circle cx="1000" cy="325" r="9" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
+          </g>
+
+          <!-- Labels for the rows -->
+          <text x="14" y="170" font-family="ui-monospace, monospace" font-size="9" fill="#6B6356" letter-spacing="1.5" transform="rotate(-90 14 170)">DEAD ENDS — RETENTION LOOPS</text>
+          <text x="14" y="278" font-family="ui-monospace, monospace" font-size="9" fill="#6B6356" letter-spacing="1.5">↓ ESCAPE PATH · 18m 42s · 7 STEPS</text>
+
+          <!-- Annotation: fee surprise -->
+          <g>
+            <line x1="1000" y1="290" x2="1000" y2="240" stroke="#C53030" stroke-width="1" stroke-dasharray="2 2"/>
+            <rect x="900" y="200" width="200" height="36" fill="#C53030"/>
+            <text x="912" y="217" font-family="ui-monospace, monospace" font-size="10" fill="#FFFFFF" letter-spacing="1">SURPRISE FEE</text>
+            <text x="912" y="231" font-family="ui-monospace, monospace" font-size="9" fill="#F1D9D9" letter-spacing="0.5">not disclosed at sign-up</text>
+          </g>
+
+          <!-- Annotation: hidden link -->
+          <g>
+            <line x1="230" y1="290" x2="230" y2="260" stroke="#14110E" stroke-width="1" stroke-dasharray="2 2"/>
+            <text x="155" y="252" font-family="ui-monospace, monospace" font-size="9" fill="#14110E" letter-spacing="0.5">↓ 10px grey link, below the fold</text>
+          </g>
+        </svg>
+
+        <div class="maze-foot">
+          <span>Diagram · CancelHub · CC-BY 4.0</span>
+          <span>Mapped from a fresh desktop session</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ROOM CARDS ===== -->
+  <section class="rooms-section">
+    <div class="container">
+      <div class="section-h">
+        <div class="section-h-l">
+          <span class="caps">The walk · room by room</span>
+          <h2>Each screen, and what they do <em>to you</em> in it.</h2>
+        </div>
+        <p>Adobe's flow is layered. Each screen has a job. Some hide. Some flatter. Some threaten.</p>
+      </div>
+
+      <div class="rooms-grid">
+        <div class="room">
+          <div class="room-top"><span class="room-n">01</span><span class="room-time">0:24 · benign</span></div>
+          <div class="room-name">Sign in</div>
+          <div class="room-mock">
+            <div class="mock-line m"></div>
+            <div class="mock-line s"></div>
+            <div style="margin-top: auto;"></div>
+            <div class="mock-btn-row"><span class="mock-btn mock-btn-p">Sign in</span></div>
+          </div>
+          <div class="room-trick">Nothing to see yet. The screen is honest.</div>
+        </div>
+
+        <div class="room">
+          <div class="room-top"><span class="room-n">02</span><span class="room-time">1:48 · misdirection</span></div>
+          <div class="room-name">Plans &amp; payment</div>
+          <div class="room-mock">
+            <span class="mock-pill">Creative Cloud All Apps</span>
+            <div class="mock-line l"></div>
+            <div class="mock-line m"></div>
+            <div class="mock-btn-row"><span class="mock-btn mock-btn-p">Change plan</span><span class="mock-btn mock-btn-g">Payment</span></div>
+            <div style="margin-top: auto; text-align: right;"><span class="mock-btn-tiny">Manage plan</span></div>
+          </div>
+          <div class="room-trick">Three prominent buttons keep you. The exit is 10px grey, below the fold.</div>
+        </div>
+
+        <div class="room room-bad">
+          <div class="room-fab">Trap</div>
+          <div class="room-top"><span class="room-n">03</span><span class="room-time">0:52 · hidden</span></div>
+          <div class="room-name">Manage plan</div>
+          <div class="room-mock">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+              <div><div class="mock-line l" style="width: 100px;"></div></div>
+              <span class="mock-q">?</span>
+            </div>
+            <div class="mock-line s"></div>
+            <div class="mock-line s"></div>
+          </div>
+          <div class="room-trick">"Cancel" lives behind a question mark, not behind a button.</div>
+        </div>
+
+        <div class="room room-bad">
+          <div class="room-fab">Offer 1</div>
+          <div class="room-top"><span class="room-n">04</span><span class="room-time">3:11 · plea</span></div>
+          <div class="room-name">Two months free</div>
+          <div class="room-mock" style="background: rgba(255,236,200,0.6);">
+            <div class="mock-line l"></div>
+            <div class="mock-line m"></div>
+            <div class="mock-btn-row" style="margin-top: auto;"><span class="mock-btn mock-btn-p" style="background: #1473E6;">Get 2 months free</span></div>
+            <div style="text-align: center;"><span class="mock-btn-tiny" style="color: #978E7E;">No thanks, continue cancelling</span></div>
+          </div>
+          <div class="room-trick">Big blue button keeps you. 10px grey link lets you proceed.</div>
+        </div>
+
+        <div class="room room-bad">
+          <div class="room-fab">Offer 2</div>
+          <div class="room-top"><span class="room-n">05</span><span class="room-time">2:48 · discount</span></div>
+          <div class="room-name">Fifty percent off</div>
+          <div class="room-mock" style="background: rgba(232,197,197,0.5);">
+            <div class="mock-line l"></div>
+            <div class="mock-line m"></div>
+            <div class="mock-btn-row" style="margin-top: auto;"><span class="mock-btn mock-btn-p" style="background: #C53030;">Stay at 50% off</span></div>
+            <div style="text-align: center;"><span class="mock-btn-tiny">Continue cancelling</span></div>
+          </div>
+          <div class="room-trick">Same trick. Different button label, so you can't muscle-memory through it.</div>
+        </div>
+
+        <div class="room room-bad">
+          <div class="room-fab">Offer 3</div>
+          <div class="room-top"><span class="room-n">06</span><span class="room-time">2:22 · downgrade</span></div>
+          <div class="room-name">Photography plan</div>
+          <div class="room-mock">
+            <span class="mock-pill" style="background: rgba(20,115,230,0.1); color: #1473E6;">Save $45/mo</span>
+            <div class="mock-line m"></div>
+            <div class="mock-line l"></div>
+            <div class="mock-btn-row" style="margin-top: auto;"><span class="mock-btn mock-btn-p">Downgrade</span></div>
+            <div style="text-align: center;"><span class="mock-btn-tiny">Continue cancelling</span></div>
+          </div>
+          <div class="room-trick">Last attempt. Frame the exit as a financial mistake.</div>
+        </div>
+
+        <div class="room room-bad" style="grid-column: span 2; background: var(--red); color: white;">
+          <div class="room-fab" style="background: #14110E;">Fee disclosed</div>
+          <div class="room-top"><span class="room-n" style="color: white;">07</span><span class="room-time" style="color: var(--red-soft);">7:17 · shock</span></div>
+          <div class="room-name" style="color: white;">Confirm — early termination fee $329.96</div>
+          <div class="room-mock" style="border-color: #F1D9D9; background: rgba(255,255,255,0.08);">
+            <div class="mock-line l" style="background: rgba(255,255,255,0.4);"></div>
+            <div class="mock-line m" style="background: rgba(255,255,255,0.3);"></div>
+            <div class="mock-line s" style="background: rgba(255,255,255,0.3);"></div>
+            <div class="mock-btn-row" style="margin-top: auto;"><span class="mock-btn mock-btn-g" style="border-color: rgba(255,255,255,0.3); color: rgba(255,255,255,0.7);">Go back</span><span class="mock-btn mock-btn-p" style="background: white; color: var(--red);">Confirm</span></div>
+          </div>
+          <div class="room-trick" style="color: white;">The fee was never shown when you signed up. It surfaces here. Two clicks before the end.</div>
+        </div>
+
+        <div class="room" style="background: var(--ink); color: white;">
+          <div class="room-top"><span class="room-n" style="color: white;">08</span><span class="room-time" style="color: var(--line-2);">18:42 · out</span></div>
+          <div class="room-name" style="color: white;">You are out</div>
+          <div class="room-mock" style="border-color: rgba(255,255,255,0.2); background: rgba(255,255,255,0.04);">
+            <span class="mock-pill" style="background: rgba(255,255,255,0.1); color: white;">Cancelled</span>
+            <div class="mock-line l" style="background: rgba(255,255,255,0.3);"></div>
+            <div class="mock-line m" style="background: rgba(255,255,255,0.2);"></div>
+          </div>
+          <div class="room-trick" style="color: white;">A "we miss you already" email arrives within 20 minutes. We did not miss them back.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FEE FULL-BLEED ===== -->
+  <section class="fee">
+    <div class="container">
+      <div class="fee-grid">
+        <div class="fee-big">$329</div>
+        <div>
+          <div class="fee-meta">— The fee</div>
+          <div class="fee-text">Adobe never <em>showed us this number</em> when we signed up.<br/>It surfaces here, two clicks before the end.</div>
+          <div class="fee-sub">A 50% early-termination penalty on annual plans paid monthly. Disclosed not at sign-up, not on the plans page, not when you click cancel — but on the very last screen, in red on red.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ESCAPE STEPS ===== -->
+  <section class="escape">
+    <div class="container">
+      <div class="section-h">
+        <div class="section-h-l">
+          <span class="caps">Field notes · for the impatient</span>
+          <h2>The escape, <em>in 7 clicks.</em></h2>
+        </div>
+        <p>Don't care about the analysis? The exact sequence, ignoring every retention dialogue.</p>
+      </div>
+
+      <div class="escape-card">
+        <div class="escape-card-top">
+          <h3>Cancel Adobe — <em>step-by-step.</em></h3>
+          <span class="caps">~18 min · last verified 16 May 2026</span>
+        </div>
+        <ol class="escape-list">
+          <li><span class="n">01</span><span class="t">Sign in on desktop at <code>account.adobe.com</code>. The mobile app cannot cancel.</span><span class="meta">0:24</span></li>
+          <li><span class="n">02</span><span class="t">On the Plans page, scroll past the storage upsell. Click the grey <strong>Manage plan</strong> link in the lower right.</span><span class="meta">1:48</span></li>
+          <li><span class="n">03</span><span class="t">Click the <strong>?</strong> icon on your active plan card. Choose <strong>Cancel your plan</strong>.</span><span class="meta">0:52</span></li>
+          <li><span class="n">04</span><span class="t">Offer 1 — "2 months free". Click the grey <strong>No thanks, continue cancelling</strong>.</span><span class="meta">3:11</span></li>
+          <li><span class="n">05</span><span class="t">Offer 2 — "50% off". Same trick, different label. <strong>Continue cancelling</strong>.</span><span class="meta">2:48</span></li>
+          <li><span class="n">06</span><span class="t">Offer 3 — Photography plan downgrade. <strong>Continue cancelling.</strong></span><span class="meta">2:22</span></li>
+          <li><span class="n">07</span><span class="t">Review the early-termination fee. Click <strong>Confirm cancellation</strong>. Save the email.</span><span class="meta">7:17</span></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COMPARE ===== -->
+  <section class="compare">
+    <div class="container">
+      <div class="section-h">
+        <div class="section-h-l">
+          <span class="caps">For comparison</span>
+          <h2>Adobe's maze, next to one that <em>isn't.</em></h2>
+        </div>
+        <p>Netflix doesn't make you fight. Same task. One sixth the screens. No fee. Walk.</p>
+      </div>
+
+      <div class="compare-grid">
+        <div class="compare-col compare-bad">
+          <div class="compare-col-h">
+            <h4>Adobe Creative Cloud</h4>
+            <span class="compare-col-score">94<em>/100</em></span>
+          </div>
+          <div class="compare-col-meta">7 screens · 3 retention loops · $329 fee · 18m 42s</div>
+          <div class="compare-svg-wrap">
+            <svg viewBox="0 0 480 180" style="width:100%; height:auto;">
+              <defs><pattern id="g1" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.5" fill="#E8E5DC"/></pattern></defs>
+              <rect width="480" height="180" fill="url(#g1)"/>
+              <!-- 7 rooms in a row -->
+              <g font-family="ui-monospace, monospace" font-size="9" fill="#14110E">
+                <rect x="14" y="120" width="50" height="28" fill="#fff" stroke="#14110E"/><text x="39" y="138" text-anchor="middle">01</text>
+                <rect x="78" y="120" width="50" height="28" fill="#fff" stroke="#14110E"/><text x="103" y="138" text-anchor="middle">02</text>
+                <rect x="142" y="120" width="50" height="28" fill="#fff" stroke="#14110E"/><text x="167" y="138" text-anchor="middle">03</text>
+                <rect x="206" y="120" width="50" height="28" fill="#fff" stroke="#C53030"/><text x="231" y="138" text-anchor="middle" fill="#C53030">04</text>
+                <rect x="270" y="120" width="50" height="28" fill="#fff" stroke="#C53030"/><text x="295" y="138" text-anchor="middle" fill="#C53030">05</text>
+                <rect x="334" y="120" width="50" height="28" fill="#fff" stroke="#C53030"/><text x="359" y="138" text-anchor="middle" fill="#C53030">06</text>
+                <rect x="398" y="120" width="70" height="28" fill="#C53030" stroke="#C53030"/><text x="433" y="138" text-anchor="middle" fill="#fff">$329</text>
+              </g>
+              <!-- 4 dead ends -->
+              <g font-family="ui-monospace, monospace" font-size="8" fill="#6B6356">
+                <rect x="142" y="30" width="50" height="22" fill="#F4F1E8" stroke="#14110E" stroke-dasharray="2 2"/><text x="167" y="45" text-anchor="middle">switch</text>
+                <rect x="206" y="30" width="50" height="22" fill="#F4F1E8" stroke="#14110E" stroke-dasharray="2 2"/><text x="231" y="45" text-anchor="middle">↺ stay</text>
+                <rect x="270" y="30" width="50" height="22" fill="#F4F1E8" stroke="#14110E" stroke-dasharray="2 2"/><text x="295" y="45" text-anchor="middle">↺ stay</text>
+                <rect x="334" y="30" width="50" height="22" fill="#F4F1E8" stroke="#14110E" stroke-dasharray="2 2"/><text x="359" y="45" text-anchor="middle">↺ stay</text>
+              </g>
+              <g fill="none" stroke="#14110E" stroke-width="0.8" stroke-dasharray="2 2" opacity="0.5">
+                <path d="M167 120 V 52"/><path d="M231 120 V 52"/><path d="M295 120 V 52"/><path d="M359 120 V 52"/>
+              </g>
+              <g fill="none" stroke="#C53030" stroke-width="2.5" stroke-linecap="round">
+                <path d="M64 134 H 78 M128 134 H 142 M192 134 H 206 M256 134 H 270 M320 134 H 334 M384 134 H 398"/>
+              </g>
+            </svg>
+          </div>
+        </div>
+
+        <div class="compare-col compare-good">
+          <div class="compare-col-h">
+            <h4>Netflix</h4>
+            <span class="compare-col-score">22<em>/100</em></span>
+          </div>
+          <div class="compare-col-meta">2 screens · 0 retention loops · no fee · 1m 30s</div>
+          <div class="compare-svg-wrap">
+            <svg viewBox="0 0 480 180" style="width:100%; height:auto;">
+              <defs><pattern id="g2" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.5" fill="#E8E5DC"/></pattern></defs>
+              <rect width="480" height="180" fill="url(#g2)"/>
+              <g font-family="ui-monospace, monospace" font-size="9" fill="#14110E">
+                <rect x="80" y="120" width="120" height="28" fill="#fff" stroke="#14110E"/><text x="140" y="138" text-anchor="middle">01 · Sign in</text>
+                <rect x="260" y="120" width="140" height="28" fill="#4A7C2A" stroke="#4A7C2A"/><text x="330" y="138" text-anchor="middle" fill="#fff">02 · Cancel · done</text>
+              </g>
+              <g fill="none" stroke="#4A7C2A" stroke-width="2.5" stroke-linecap="round">
+                <path d="M200 134 H 260"/>
+              </g>
+              <text x="240" y="80" text-anchor="middle" font-family="serif" font-style="italic" font-size="22" fill="#6B6356">that's it.</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ARCHIVE ===== -->
+  <section class="archive" id="archive">
+    <div class="container">
+      <div class="section-h">
+        <div class="section-h-l">
+          <span class="caps">Previously, in the dark-pattern files</span>
+          <h2>Six maps from the <em>last six weeks.</em></h2>
+        </div>
+        <a href="#" class="caps" style="border-bottom: 1px solid var(--ink); padding-bottom: 2px; color: var(--ink);">All issues →</a>
+      </div>
+
+      <div class="archive-grid">
+        <a class="archive-card">
+          <div class="archive-thumb"><svg viewBox="0 0 280 80" style="width:100%; height:auto;">
+            <g font-family="ui-monospace, monospace" font-size="8" fill="#14110E">
+              <rect x="10" y="50" width="46" height="22" fill="#fff" stroke="#14110E"/><text x="33" y="64" text-anchor="middle">01</text>
+              <rect x="70" y="50" width="60" height="22" fill="#fff" stroke="#C53030"/><text x="100" y="64" text-anchor="middle" fill="#C53030">chatbot</text>
+              <rect x="144" y="50" width="46" height="22" fill="#fff" stroke="#C53030"/><text x="167" y="64" text-anchor="middle" fill="#C53030">offer</text>
+              <rect x="204" y="50" width="66" height="22" fill="#C53030" stroke="#C53030"/><text x="237" y="64" text-anchor="middle" fill="#fff">out</text>
+            </g>
+            <g fill="none" stroke="#C53030" stroke-width="2"><path d="M56 61 H70 M130 61 H144 M190 61 H204"/></g>
+            <g stroke="#14110E" stroke-dasharray="2 2" stroke-width="0.8" fill="none"><path d="M100 50 V 30 H 60 V 50"/></g>
+          </svg></div>
+          <div class="archive-iss"><span>Issue 06 · 09 May</span><span class="sc">88</span></div>
+          <div class="archive-name">Noom</div>
+          <div class="archive-trick">"Cancel" is hidden behind a chatbot that asks you to type the word three times.</div>
+        </a>
+
+        <a class="archive-card">
+          <div class="archive-thumb"><svg viewBox="0 0 280 80" style="width:100%; height:auto;">
+            <g font-family="ui-monospace, monospace" font-size="8" fill="#14110E">
+              <rect x="10" y="50" width="46" height="22" fill="#fff" stroke="#14110E"/><text x="33" y="64" text-anchor="middle">01</text>
+              <rect x="70" y="50" width="80" height="22" fill="#fff" stroke="#C53030"/><text x="110" y="64" text-anchor="middle" fill="#C53030">phone call</text>
+              <rect x="164" y="50" width="46" height="22" fill="#fff" stroke="#C53030"/><text x="187" y="64" text-anchor="middle" fill="#C53030">argue</text>
+              <rect x="224" y="50" width="46" height="22" fill="#C53030" stroke="#C53030"/><text x="247" y="64" text-anchor="middle" fill="#fff">out</text>
+            </g>
+            <g fill="none" stroke="#C53030" stroke-width="2"><path d="M56 61 H70 M150 61 H164 M210 61 H224"/></g>
+          </svg></div>
+          <div class="archive-iss"><span>Issue 05 · 02 May</span><span class="sc">84</span></div>
+          <div class="archive-name">SiriusXM</div>
+          <div class="archive-trick">Demands a phone call. Then the retention agent argues with you.</div>
+        </a>
+
+        <a class="archive-card">
+          <div class="archive-thumb"><svg viewBox="0 0 280 80" style="width:100%; height:auto;">
+            <g font-family="ui-monospace, monospace" font-size="8" fill="#14110E">
+              <rect x="10" y="50" width="46" height="22" fill="#fff" stroke="#14110E"/><text x="33" y="64" text-anchor="middle">01</text>
+              <rect x="70" y="50" width="60" height="22" fill="#fff" stroke="#C53030"/><text x="100" y="64" text-anchor="middle" fill="#C53030">retention</text>
+              <rect x="144" y="50" width="60" height="22" fill="#fff" stroke="#C53030"/><text x="174" y="64" text-anchor="middle" fill="#C53030">hold 22m</text>
+              <rect x="218" y="50" width="52" height="22" fill="#C53030" stroke="#C53030"/><text x="244" y="64" text-anchor="middle" fill="#fff">out</text>
+            </g>
+            <g fill="none" stroke="#C53030" stroke-width="2"><path d="M56 61 H70 M130 61 H144 M204 61 H218"/></g>
+          </svg></div>
+          <div class="archive-iss"><span>Issue 04 · 25 Apr</span><span class="sc">80</span></div>
+          <div class="archive-name">Xfinity</div>
+          <div class="archive-trick">Routed to a retention specialist. Average hold: 22 minutes.</div>
+        </a>
+
+        <a class="archive-card">
+          <div class="archive-thumb"><svg viewBox="0 0 280 80" style="width:100%; height:auto;">
+            <g font-family="ui-monospace, monospace" font-size="8" fill="#14110E">
+              <rect x="10" y="50" width="60" height="22" fill="#fff" stroke="#14110E"/><text x="40" y="64" text-anchor="middle">request</text>
+              <rect x="84" y="50" width="90" height="22" fill="#fff" stroke="#C53030"/><text x="129" y="64" text-anchor="middle" fill="#C53030">written notice</text>
+              <rect x="188" y="50" width="82" height="22" fill="#C53030" stroke="#C53030"/><text x="229" y="64" text-anchor="middle" fill="#fff">certified mail</text>
+            </g>
+            <g fill="none" stroke="#C53030" stroke-width="2"><path d="M70 61 H84 M174 61 H188"/></g>
+          </svg></div>
+          <div class="archive-iss"><span>Issue 03 · 18 Apr</span><span class="sc">76</span></div>
+          <div class="archive-name">ADT</div>
+          <div class="archive-trick">Requires a written notice by certified mail. We mailed it.</div>
+        </a>
+
+        <a class="archive-card">
+          <div class="archive-thumb"><svg viewBox="0 0 280 80" style="width:100%; height:auto;">
+            <g font-family="ui-monospace, monospace" font-size="8" fill="#14110E">
+              <rect x="10" y="50" width="60" height="22" fill="#fff" stroke="#14110E"/><text x="40" y="64" text-anchor="middle">account</text>
+              <rect x="84" y="50" width="60" height="22" fill="#fff" stroke="#14110E"/><text x="114" y="64" text-anchor="middle">skip mo</text>
+              <rect x="158" y="50" width="60" height="22" fill="#fff" stroke="#C53030"/><text x="188" y="64" text-anchor="middle" fill="#C53030">cancel</text>
+              <rect x="232" y="50" width="38" height="22" fill="#C53030" stroke="#C53030"/><text x="251" y="64" text-anchor="middle" fill="#fff">out</text>
+            </g>
+            <g fill="none" stroke="#C53030" stroke-width="2"><path d="M70 61 H84 M144 61 H158 M218 61 H232"/></g>
+            <g stroke="#14110E" stroke-dasharray="2 2" stroke-width="0.8" fill="none"><path d="M114 50 V 30 H 188 V 50"/></g>
+          </svg></div>
+          <div class="archive-iss"><span>Issue 02 · 11 Apr</span><span class="sc">74</span></div>
+          <div class="archive-name">Fabletics</div>
+          <div class="archive-trick">Auto-bills if you don't skip the month. By design.</div>
+        </a>
+
+        <a class="archive-card">
+          <div class="archive-thumb"><svg viewBox="0 0 280 80" style="width:100%; height:auto;">
+            <g font-family="ui-monospace, monospace" font-size="8" fill="#14110E">
+              <rect x="10" y="50" width="46" height="22" fill="#fff" stroke="#14110E"/><text x="33" y="64" text-anchor="middle">01</text>
+              <rect x="70" y="50" width="46" height="22" fill="#fff" stroke="#C53030"/><text x="93" y="64" text-anchor="middle" fill="#C53030">end?</text>
+              <rect x="130" y="50" width="46" height="22" fill="#fff" stroke="#C53030"/><text x="153" y="64" text-anchor="middle" fill="#C53030">end?</text>
+              <rect x="190" y="50" width="46" height="22" fill="#fff" stroke="#C53030"/><text x="213" y="64" text-anchor="middle" fill="#C53030">end?</text>
+              <rect x="250" y="50" width="20" height="22" fill="#C53030" stroke="#C53030"/><text x="260" y="64" text-anchor="middle" fill="#fff" font-size="7">out</text>
+            </g>
+            <g fill="none" stroke="#C53030" stroke-width="2"><path d="M56 61 H70 M116 61 H130 M176 61 H190 M236 61 H250"/></g>
+          </svg></div>
+          <div class="archive-iss"><span>Issue 01 · 04 Apr</span><span class="sc">71</span></div>
+          <div class="archive-name">Amazon Prime</div>
+          <div class="archive-trick">Shows the same "end membership" screen three times in a row.</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HEATMAP ===== -->
+  <section class="heatmap" id="heatmap">
+    <div class="container">
+      <div class="section-h">
+        <div class="section-h-l">
+          <span class="caps">The whole index</span>
+          <h2>All 92 services we've timed — coloured by <em>resistance.</em></h2>
+        </div>
+        <p>Hover any square to see the service. Click to read the case file.</p>
+      </div>
+
+      <div class="heat-bar">
+        <span class="l">0 · benign</span>
+        <div class="scale">
+          <span style="background: #EAF3DE"></span>
+          <span style="background: #C0DD97"></span>
+          <span style="background: #97C459"></span>
+          <span style="background: #639922"></span>
+          <span style="background: #FAC775"></span>
+          <span style="background: #EF9F27"></span>
+          <span style="background: #BA7517"></span>
+          <span style="background: #F09595"></span>
+          <span style="background: #E24B4A"></span>
+          <span style="background: #A32D2D"></span>
+          <span style="background: #791F1F"></span>
+        </div>
+        <span class="r">100 · resistant</span>
+      </div>
+
+      <div class="heat-grid" id="heatGrid"></div>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <div class="container">
+      <div class="foot-grid">
+        <div class="foot-col">
+          <div class="foot-brand">CancelHub</div>
+          <p class="foot-tag">An independent publication that maps how subscriptions trap their users. Reader-supported. No affiliates. No sponsorships.</p>
+        </div>
+        <div class="foot-col">
+          <h6>Read</h6>
+          <a href="#">Latest case</a><a href="#archive">Archive</a><a href="#heatmap">Service index</a><a href="#">Dark Pattern Index</a>
+        </div>
+        <div class="foot-col">
+          <h6>Method</h6>
+          <a href="#">How we score</a><a href="#">Editorial standards</a><a href="#">Corrections</a><a href="#">Submit a tip</a>
+        </div>
+        <div class="foot-col">
+          <h6>Follow</h6>
+          <a href="#">Weekly case</a><a href="#">RSS</a><a href="#">Patreon</a>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <span>© 2026 CancelHub · independent &amp; reader-supported</span>
+        <span>Case 07 · 16 May 2026 · 92 cases filed</span>
+      </div>
+    </div>
+  </footer>
+
+</main>
+
+<script>
+// 92 services, sorted by category, with scores
+const SERVICES = [
+  // Hard (red zone)
+  ['Adobe CC', 94], ['Noom', 88], ['SiriusXM', 84], ['Xfinity', 80], ['ADT', 76],
+  ['Fabletics', 74], ['Crunch Fitness', 71], ['Amazon Prime', 71], ['Blink Fitness', 68], ['OnStar', 66],
+  ['Curology', 62], ['Beachbody', 58], ['Audible', 54],
+  // Medium
+  ['Peloton', 49], ['WHOOP', 48], ['Hims', 44], ['ClassPass', 43], ['Hulu', 41],
+  ['Norton 360', 39], ['HelloFresh', 38], ['WeightWatchers', 36], ['Microsoft 365', 35],
+  ['ButcherBox', 34], ['Thrive Market', 33], ['Sun Basket', 32], ['Factor Meals', 31],
+  ['Blue Apron', 30], ['LinkedIn Premium', 29], ['Experian', 28], ['Ancestry', 27],
+  ['DAZN', 26], ['IPSY', 25], ['FabFitFun', 25],
+  // Easy
+  ['Spotify', 24], ['YouTube Premium', 23], ['Netflix', 22], ['Disney+', 21], ['Apple Music', 19],
+  ['ChatGPT Plus', 18], ['Claude Pro', 16], ['Tidal', 15], ['NordVPN', 14], ['Patreon', 13],
+  ['Substack', 12], ['Calm', 11], ['Headspace', 10], ['Grammarly', 12],
+  ['CapCut Pro', 11], ['Canva Pro', 12], ['iCloud+', 10], ['Google One', 11], ['Dropbox', 13],
+  ['Kindle Unlimited', 14], ['Scribd', 15], ['Skillshare', 16], ['Duolingo Plus', 13],
+  ['MasterClass', 18], ['Chegg', 32], ['OnlyFans', 14], ['Tinder Gold', 17], ['Bumble', 16],
+  ['EA Play', 18], ['PlayStation Plus', 17], ['Xbox Game Pass', 16], ['Crunchyroll', 19],
+  ['Snapchat+', 14], ['ESPN+', 20], ['Ring Protect', 22], ['Uber One', 18], ['Grubhub+', 17],
+  ['Instacart+', 19], ['Stitch Fix', 28], ['Home Chef', 24], ['EveryPlate', 23], ['Dollar Shave Club', 22],
+  ['Chewy Autoship', 19], ['YouTube TV', 21], ['Paramount+', 22], ['Apple TV+', 20], ['Philo', 21],
+  ['Sling TV', 24], ['FuboTV', 25], ['Peacock', 23], ['Discovery+', 22], ['BritBox', 23], ['Acorn TV', 22],
+  ['Starz', 24], ['Shudder', 23], ['Pandora', 21], ['Amazon Music', 22]
+];
+
+function colorFor(score) {
+  if (score < 15) return '#EAF3DE';
+  if (score < 25) return '#C0DD97';
+  if (score < 35) return '#97C459';
+  if (score < 45) return '#FAC775';
+  if (score < 55) return '#EF9F27';
+  if (score < 65) return '#BA7517';
+  if (score < 75) return '#F09595';
+  if (score < 85) return '#E24B4A';
+  if (score < 92) return '#A32D2D';
+  return '#791F1F';
+}
+
+const grid = document.getElementById('heatGrid');
+grid.innerHTML = SERVICES.map(([name, score]) =>
+  `<div class="heat-cell" style="background:${colorFor(score)}" data-label="${name} · ${score}/100" title="${name}"></div>`
+).join('');
+</script>
+
+</body>
+</html>

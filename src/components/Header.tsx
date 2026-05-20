@@ -10,32 +10,38 @@ interface HeaderProps {
 
 export async function Header({ locale = defaultLocale }: HeaderProps) {
   const t = await getTranslations({ locale, namespace: 'nav' })
-  const guidesHref = locale === defaultLocale ? '/cancel' : `/${locale}/cancel`
-  const rankingsHref = locale === defaultLocale ? '/rankings' : `/${locale}/rankings`
-  const categoriesHref = locale === defaultLocale ? '/categories' : `/${locale}/categories`
+  const prefix = locale === defaultLocale ? '' : `/${locale}`
 
   return (
-    <header className="sticky top-0 z-50 header-bg backdrop-blur border-b border-rule">
-      <div className="max-w-3xl mx-auto px-6 h-14 flex items-center justify-between">
+    <header
+      className="sticky top-0 z-50 header-bg border-b border-line"
+      style={{ backdropFilter: 'blur(8px)' }}
+    >
+      <div className="max-w-[1000px] mx-auto px-[22px] h-14 flex items-center gap-4">
         <Link
           href={`/${locale}`}
-          className="text-[15px] tracking-tight ink hover:accent transition-colors"
-          style={{ fontWeight: 500 }}
+          className="logo-mark"
+          aria-label="CancelHub"
         >
-          CancelHub
+          Cancel<span>Hub</span>
         </Link>
-        <div className="flex items-center gap-5">
-          <nav className="hidden sm:flex items-center gap-5 text-[13px] ink-2">
-            <Link href={guidesHref} className="hover:accent transition-colors">
-              {t('allGuides')}
-            </Link>
-            <Link href={categoriesHref} className="hover:accent transition-colors">
-              Categories
-            </Link>
-            <Link href={rankingsHref} className="hover:accent transition-colors">
-              Rankings
-            </Link>
-          </nav>
+
+        <nav
+          className="ml-auto hidden sm:flex items-center gap-[18px] text-[14px]"
+          style={{ color: 'var(--ink-3)', fontWeight: 500 }}
+        >
+          <Link href={`${prefix}/cancel`} className="hover:accent transition-colors">
+            {t('allGuides')}
+          </Link>
+          <Link href={`${prefix}/categories`} className="hover:accent transition-colors">
+            {t('categories')}
+          </Link>
+          <Link href={`${prefix}/rankings`} className="hover:accent transition-colors">
+            {t('rankings')}
+          </Link>
+        </nav>
+
+        <div className="flex items-center gap-3 sm:ml-0 ml-auto">
           <ThemeToggle />
           <LanguageSwitcher currentLocale={locale} />
         </div>
