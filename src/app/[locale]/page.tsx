@@ -366,7 +366,7 @@ export default async function HomePage({
             fontSize: 'clamp(24px, 4vw, 32px)',
             letterSpacing: '-0.02em',
             marginTop: 6,
-            color: '#7c2d12',
+            color: 'var(--accent-deep)',
             maxWidth: '18ch',
           }}
         >
@@ -376,7 +376,7 @@ export default async function HomePage({
           style={{
             position: 'relative',
             fontSize: 15,
-            color: '#7c2d12',
+            color: 'var(--accent-deep)',
             marginTop: 10,
             maxWidth: '46ch',
           }}
@@ -415,7 +415,8 @@ export default async function HomePage({
             position: 'relative',
             display: 'block',
             marginTop: 11,
-            color: '#a86a48',
+            color: 'var(--accent-deep)',
+            opacity: 0.78,
             fontSize: 12.5,
           }}
         >

@@ -19,11 +19,16 @@
   --accent: #c2410c;
   --accent-soft: #fbe7da;
   --accent-border: #f0c9b1;
+  /* "deep" variant for text rendered ON --accent-soft — flips light in dark mode */
+  --accent-deep: #7c2d12;
+  --accent-deeper: #5c220e;
 
   /* Sage — calm / safe / easy */
   --green: #3f6b3a;
   --green-soft: #e3ecdd;
   --green-border: #cdddc4;
+  --green-deep: #2f4d2b;
+  --green-deeper: #1f3a1c;
 
   /* Difficulty semantics */
   --easy: #3f6b3a;
@@ -61,10 +66,14 @@ html[data-theme="dark"] {
   --accent: #f0a878;
   --accent-soft: #3a2218;
   --accent-border: #5c3320;
+  --accent-deep: #f0a878;
+  --accent-deeper: #fbd9c2;
 
   --green: #9cc790;
   --green-soft: #1f3a1c;
   --green-border: #2f4d2b;
+  --green-deep: #c0dd97;
+  --green-deeper: #d6e8c8;
 
   --easy: #9cc790;
   --easy-soft: #1f3a1c;
@@ -94,9 +103,13 @@ html[data-theme="dark"] {
     --accent: #f0a878;
     --accent-soft: #3a2218;
     --accent-border: #5c3320;
+    --accent-deep: #f0a878;
+    --accent-deeper: #fbd9c2;
     --green: #9cc790;
     --green-soft: #1f3a1c;
     --green-border: #2f4d2b;
+    --green-deep: #c0dd97;
+    --green-deeper: #d6e8c8;
     --easy: #9cc790;
     --easy-soft: #1f3a1c;
     --med: #d9a356;
@@ -417,6 +430,158 @@ ol.step-list li .step-warn {
   padding: 0 18px 16px 46px;
   font-size: 14px; color: var(--ink-2);
   line-height: 1.6;
+}
+
+/* ── Dashboard primitives ────────────────────────────────────────────────── */
+
+/* Sub-row used on the dashboard subscriptions list */
+.sub-row {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  box-shadow: var(--shadow);
+  transition: transform 0.1s ease, border-color 0.1s ease;
+}
+.sub-row:hover { transform: translateX(2px); border-color: var(--line-2); }
+.sub-row.trial-row {
+  background: #fffaf4;
+  border-color: var(--accent-border);
+}
+html[data-theme="dark"] .sub-row.trial-row {
+  background: rgba(240, 168, 120, 0.07);
+  border-color: var(--accent-border);
+}
+
+/* Fact strip: 3-column meta card used on guide + category pages */
+.fact-strip {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  overflow: hidden;
+  background: var(--card);
+  box-shadow: var(--shadow);
+}
+.fact-strip > div {
+  padding: 14px 16px;
+  border-right: 1px solid var(--line);
+}
+.fact-strip > div:last-child { border-right: 0; }
+.fact-strip .k {
+  font-size: 11px; text-transform: uppercase; letter-spacing: 0.09em;
+  color: var(--ink-3); font-weight: 600;
+}
+.fact-strip .v {
+  font-size: 16px; font-weight: 600; margin-top: 4px;
+  display: flex; align-items: center; gap: 7px;
+}
+
+/* Dashboard 14-day timeline grid */
+.timeline-grid {
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  gap: 3px;
+}
+
+/* Notification alert row: 4-column layout for icon / text / time / switch */
+.alert-row {
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  gap: 14px;
+  align-items: center;
+  padding: 14px 0;
+  border-bottom: 1px dashed var(--line);
+}
+.alert-row:last-child { border-bottom: 0; }
+.alert-row .alert-right {
+  font-family: var(--font-serif), serif;
+  font-weight: 600; font-size: 13.5px; color: var(--ink);
+  letter-spacing: -0.005em; text-align: right;
+}
+
+/* Notification channel row */
+.channel-row {
+  display: flex; align-items: center; gap: 14px;
+  padding: 13px 0; border-bottom: 1px dashed var(--line);
+}
+.channel-row:last-child { border-bottom: 0; }
+.channel-row .channel-input { flex: 1.4; min-width: 160px; }
+
+/* ── Mobile responsive ───────────────────────────────────────────────────── */
+@media (max-width: 640px) {
+  /* Fact strip: stack rows on small screens */
+  .fact-strip { grid-template-columns: 1fr; }
+  .fact-strip > div {
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .fact-strip > div:last-child { border-bottom: 0; }
+
+  /* Dashboard timeline: horizontal scroll on mobile, ~60px per day */
+  .timeline-grid {
+    grid-template-columns: repeat(14, 56px);
+    overflow-x: auto;
+    padding-bottom: 6px;
+    /* hide scrollbar where possible but keep functional */
+    scrollbar-width: thin;
+  }
+  .timeline-grid::-webkit-scrollbar { height: 6px; }
+  .timeline-grid::-webkit-scrollbar-thumb { background: var(--line); border-radius: 999px; }
+
+  /* Sub-row: wrap price + cancel below name on small screens */
+  .sub-row { flex-wrap: wrap; gap: 10px 14px; }
+  .sub-row .sub-right { text-align: left; }
+  .sub-row .btn-cancel { margin-left: auto; }
+
+  /* Alert row: stack right column under text */
+  .alert-row {
+    grid-template-columns: auto 1fr auto;
+    row-gap: 8px;
+  }
+  .alert-row .alert-right { grid-column: 2 / 4; text-align: left; }
+
+  /* Channel row: input takes full width */
+  .channel-row { flex-wrap: wrap; }
+  .channel-row .channel-input { flex: 1 1 100%; }
+
+  /* Page-level container padding tightening */
+  .max-w-\[1000px\], .max-w-\[900px\], .max-w-\[880px\], .max-w-\[760px\] {
+    /* let the .container padding handle the inset */
+  }
+}
+
+/* ── Dark-mode polish (text contrast on coloured surfaces) ───────────────── */
+html[data-theme="dark"] .insight-urgent .insight-title { color: #fbd9c2; }
+html[data-theme="dark"] .insight-urgent .insight-body  { color: #efbf9d; }
+html[data-theme="dark"] .insight-idle   .insight-title { color: #d6e8c8; }
+html[data-theme="dark"] .insight-idle   .insight-body  { color: #b5cca0; }
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme]) .insight-urgent .insight-title { color: #fbd9c2; }
+  html:not([data-theme]) .insight-urgent .insight-body  { color: #efbf9d; }
+  html:not([data-theme]) .insight-idle   .insight-title { color: #d6e8c8; }
+  html:not([data-theme]) .insight-idle   .insight-body  { color: #b5cca0; }
+}
+
+/* Modal overlay — darker on dark mode for proper contrast */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(20, 17, 14, 0.55);
+  backdrop-filter: blur(4px);
+  z-index: 100;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 60px 20px 20px;
+  overflow: auto;
+}
+html[data-theme="dark"] .modal-overlay { background: rgba(0, 0, 0, 0.65); }
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme]) .modal-overlay { background: rgba(0, 0, 0, 0.65); }
 }
 
 /* ── Inline keyboard hint ────────────────────────────────────────────────── */

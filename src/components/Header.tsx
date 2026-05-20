@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { getTranslations } from 'next-intl/server'
 import { LanguageSwitcher } from './LanguageSwitcher'
 import { ThemeToggle } from './ThemeToggle'
+import { MobileMenu } from './MobileMenu'
 import { defaultLocale } from '@/config/i18n'
 
 interface HeaderProps {
@@ -11,6 +12,15 @@ interface HeaderProps {
 export async function Header({ locale = defaultLocale }: HeaderProps) {
   const t = await getTranslations({ locale, namespace: 'nav' })
   const prefix = locale === defaultLocale ? '' : `/${locale}`
+
+  const mobileItems = [
+    { href: `${prefix || '/'}`, label: t('home') },
+    { href: `${prefix}/cancel`, label: t('allGuides') },
+    { href: `${prefix}/categories`, label: t('categories') },
+    { href: `${prefix}/rankings`, label: t('rankings') },
+    { href: `${prefix}/dashboard`, label: t('trackSubs'), cta: true },
+    { href: `${prefix}/notifications`, label: t('notifications') },
+  ]
 
   return (
     <header
@@ -27,7 +37,7 @@ export async function Header({ locale = defaultLocale }: HeaderProps) {
         </Link>
 
         <nav
-          className="ml-auto hidden sm:flex items-center gap-[18px] text-[14px]"
+          className="hidden sm:flex items-center gap-[18px] text-[14px] ml-6"
           style={{ color: 'var(--ink-3)', fontWeight: 500 }}
         >
           <Link href={`${prefix}/cancel`} className="hover:accent transition-colors">
@@ -41,9 +51,17 @@ export async function Header({ locale = defaultLocale }: HeaderProps) {
           </Link>
         </nav>
 
-        <div className="flex items-center gap-3 sm:ml-0 ml-auto">
+        <div className="flex items-center gap-3 ml-auto">
+          <Link
+            href={`${prefix}/dashboard`}
+            className="btn-dark hidden sm:inline-flex"
+            style={{ padding: '7px 13px', fontSize: 13, borderRadius: 9 }}
+          >
+            {t('trackSubs')}
+          </Link>
           <ThemeToggle />
           <LanguageSwitcher currentLocale={locale} />
+          <MobileMenu items={mobileItems} />
         </div>
       </div>
     </header>

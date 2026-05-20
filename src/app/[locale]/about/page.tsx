@@ -79,41 +79,24 @@ export default async function AboutPage({
       </header>
 
       {/* Stats strip */}
-      <div
-        style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(3, 1fr)',
-          border: '1px solid var(--line)',
-          borderRadius: 14,
-          overflow: 'hidden',
-          background: 'var(--card)',
-          boxShadow: 'var(--shadow)',
-          margin: '24px 0',
-        }}
-      >
-        <div style={{ padding: '16px 18px', borderRight: '1px solid var(--line)' }}>
+      <div className="fact-strip" style={{ margin: '24px 0' }}>
+        <div>
           <div className="font-serif-display" style={{ fontSize: 28, fontWeight: 600, letterSpacing: '-0.02em' }}>
             {allGuides.length}
           </div>
-          <div style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '0.09em', color: 'var(--ink-3)', fontWeight: 600, marginTop: 2 }}>
-            {t('stat1')}
-          </div>
+          <div className="k" style={{ marginTop: 2 }}>{t('stat1')}</div>
         </div>
-        <div style={{ padding: '16px 18px', borderRight: '1px solid var(--line)' }}>
+        <div>
           <div className="font-serif-display" style={{ fontSize: 28, fontWeight: 600, letterSpacing: '-0.02em' }}>
             17
           </div>
-          <div style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '0.09em', color: 'var(--ink-3)', fontWeight: 600, marginTop: 2 }}>
-            {t('stat2')}
-          </div>
+          <div className="k" style={{ marginTop: 2 }}>{t('stat2')}</div>
         </div>
-        <div style={{ padding: '16px 18px' }}>
+        <div>
           <div className="font-serif-display" style={{ fontSize: 28, fontWeight: 600, letterSpacing: '-0.02em' }}>
             0
           </div>
-          <div style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '0.09em', color: 'var(--ink-3)', fontWeight: 600, marginTop: 2 }}>
-            {t('stat3')}
-          </div>
+          <div className="k" style={{ marginTop: 2 }}>{t('stat3')}</div>
         </div>
       </div>
 

@@ -204,41 +204,18 @@ export default async function GuidePage({
           </div>
 
           {/* Fact strip */}
-          <div
-            style={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(3, 1fr)',
-              border: '1px solid var(--line)',
-              borderRadius: 14,
-              overflow: 'hidden',
-              background: 'var(--card)',
-              boxShadow: 'var(--shadow)',
-              marginBottom: 14,
-            }}
-          >
-            <div style={{ padding: '14px 16px', borderRight: '1px solid var(--line)' }}>
-              <div style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '0.09em', color: 'var(--ink-3)', fontWeight: 600 }}>
-                {t('factDifficulty')}
-              </div>
-              <div style={{ fontSize: 16, fontWeight: 600, marginTop: 4, display: 'flex', alignItems: 'center', gap: 7 }}>
-                <span className={difficultyClass}>{difficultyShort}</span>
-              </div>
+          <div className="fact-strip" style={{ marginBottom: 14 }}>
+            <div>
+              <div className="k">{t('factDifficulty')}</div>
+              <div className="v"><span className={difficultyClass}>{difficultyShort}</span></div>
             </div>
-            <div style={{ padding: '14px 16px', borderRight: '1px solid var(--line)' }}>
-              <div style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '0.09em', color: 'var(--ink-3)', fontWeight: 600 }}>
-                {t('factTime')}
-              </div>
-              <div style={{ fontSize: 16, fontWeight: 600, marginTop: 4 }}>
-                {estimatedMinutes ? `~${estimatedMinutes} min` : '—'}
-              </div>
+            <div>
+              <div className="k">{t('factTime')}</div>
+              <div className="v">{estimatedMinutes ? `~${estimatedMinutes} min` : '—'}</div>
             </div>
-            <div style={{ padding: '14px 16px' }}>
-              <div style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '0.09em', color: 'var(--ink-3)', fontWeight: 600 }}>
-                {t('factPlatform')}
-              </div>
-              <div style={{ fontSize: 16, fontWeight: 600, marginTop: 4 }}>
-                {bestPlatform}
-              </div>
+            <div>
+              <div className="k">{t('factPlatform')}</div>
+              <div className="v">{bestPlatform}</div>
             </div>
           </div>
 
@@ -294,11 +271,11 @@ export default async function GuidePage({
             >
               <div
                 className="font-serif-display"
-                style={{ fontSize: 18, fontWeight: 600, color: '#7c2d12' }}
+                style={{ fontSize: 18, fontWeight: 600, color: 'var(--accent-deep)' }}
               >
                 {t('refundTitle')}
               </div>
-              <p style={{ fontSize: 14, color: '#7c2d12', marginTop: 5 }}>{guide.refundPolicy}</p>
+              <p style={{ fontSize: 14, color: 'var(--accent-deep)', marginTop: 5 }}>{guide.refundPolicy}</p>
             </div>
           </section>
         )}

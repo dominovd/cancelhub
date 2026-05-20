@@ -4,7 +4,8 @@
     "categories": "Categories",
     "rankings": "Rankings",
     "howItWorks": "How it works",
-    "trackSubs": "Track subscriptions",
+    "trackSubs": "My subscriptions",
+    "notifications": "Notifications",
     "about": "About",
     "home": "Home",
     "guides": "Guides"
@@ -194,6 +195,23 @@
     "stat1": "Guides published",
     "stat2": "Languages",
     "stat3": "Ads or tracking"
+  },
+  "login": {
+    "eyebrow": "Independent & ad-free",
+    "title": "Sign in to track",
+    "titleAccent": "what you actually pay for",
+    "subtitle": "Magic link, no password. Your subscriptions and settings sync across every device you sign in on.",
+    "googleCta": "Continue with Google",
+    "or": "or",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@example.com",
+    "magicCta": "Send magic link",
+    "sending": "Sending…",
+    "sentTitle": "Check your inbox",
+    "sentBody": "We sent a one-time login link to {email}. It expires in 10 minutes.",
+    "useDifferentEmail": "Use a different email",
+    "terms": "By signing in you agree to our policies.",
+    "termsLink": "Read more"
   },
   "contact": {
     "metaTitle": "Contact CancelHub",

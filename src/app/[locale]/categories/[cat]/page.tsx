@@ -98,38 +98,21 @@ export default async function CategoryPage({
       </header>
 
       {/* Quick stats */}
-      <div
-        style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(3, 1fr)',
-          border: '1px solid var(--line)',
-          borderRadius: 14,
-          overflow: 'hidden',
-          background: 'var(--card)',
-          boxShadow: 'var(--shadow)',
-          margin: '20px 0 8px',
-        }}
-      >
-        <div style={{ padding: '14px 16px', borderRight: '1px solid var(--line)' }}>
-          <div style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '0.09em', color: 'var(--ink-3)', fontWeight: 600 }}>
-            Services
-          </div>
+      <div className="fact-strip" style={{ margin: '20px 0 8px' }}>
+        <div>
+          <div className="k">Services</div>
           <div className="font-serif-display" style={{ fontSize: 22, fontWeight: 600, marginTop: 3, letterSpacing: '-0.01em' }}>
             {category.count}
           </div>
         </div>
-        <div style={{ padding: '14px 16px', borderRight: '1px solid var(--line)' }}>
-          <div style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '0.09em', color: 'var(--ink-3)', fontWeight: 600 }}>
-            Avg dark-pattern
-          </div>
+        <div>
+          <div className="k">Avg dark-pattern</div>
           <div className="font-serif-display" style={{ fontSize: 22, fontWeight: 600, marginTop: 3, letterSpacing: '-0.01em' }}>
             {category.avgScore}<span style={{ fontSize: 14, color: 'var(--ink-3)' }}>/10</span>
           </div>
         </div>
-        <div style={{ padding: '14px 16px' }}>
-          <div style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '0.09em', color: 'var(--ink-3)', fontWeight: 600 }}>
-            Hardest
-          </div>
+        <div>
+          <div className="k">Hardest</div>
           <div className="font-serif-display" style={{ fontSize: 17, fontWeight: 600, marginTop: 3, letterSpacing: '-0.01em' }}>
             {hardest.service}
           </div>

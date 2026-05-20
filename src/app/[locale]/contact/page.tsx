@@ -125,7 +125,7 @@ export default async function ContactPage({
           border: '1px solid var(--accent-border)',
         }}
       >
-        <p style={{ fontSize: 14, color: '#7c2d12' }}>
+        <p style={{ fontSize: 14, color: 'var(--accent-deep)' }}>
           <strong style={{ fontWeight: 600 }}>{t('responseNote')}</strong>
         </p>
       </div>
