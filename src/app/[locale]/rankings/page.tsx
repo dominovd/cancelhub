@@ -88,16 +88,30 @@ function patternTags(g: CancelGuide): string[] {
   return out
 }
 
+function formatVerifiedDate(iso: string): string {
+  try {
+    return new Date(iso).toLocaleDateString('en-US', {
+      month: 'short',
+      day: 'numeric',
+      year: 'numeric',
+    })
+  } catch {
+    return iso
+  }
+}
+
 function GuideRow({
   guide,
   rank,
   locale,
   worst,
+  verifiedLabel,
 }: {
   guide: CancelGuide
   rank: number
   locale: string
   worst?: boolean
+  verifiedLabel: string
 }) {
   const tags = patternTags(guide)
   return (
@@ -141,25 +155,33 @@ function GuideRow({
         <div style={{ fontSize: 13, color: 'var(--ink-3)', marginTop: 1 }}>
           {guide.difficultyReason}
         </div>
-        {tags.length > 0 && (
-          <div className="flex flex-wrap gap-[5px] mt-[6px]">
-            {tags.slice(0, 3).map((tag) => (
-              <span
-                key={tag}
-                style={{
-                  fontSize: 10.5,
-                  fontWeight: 600,
-                  background: 'var(--hard-soft)',
-                  color: 'var(--hard)',
-                  padding: '2px 7px',
-                  borderRadius: 6,
-                }}
-              >
-                {tag}
-              </span>
-            ))}
-          </div>
-        )}
+        <div className="flex flex-wrap gap-[5px] mt-[6px] items-center">
+          {tags.slice(0, 3).map((tag) => (
+            <span
+              key={tag}
+              style={{
+                fontSize: 10.5,
+                fontWeight: 600,
+                background: 'var(--hard-soft)',
+                color: 'var(--hard)',
+                padding: '2px 7px',
+                borderRadius: 6,
+              }}
+            >
+              {tag}
+            </span>
+          ))}
+          <span
+            style={{
+              fontSize: 11,
+              color: 'var(--ink-3)',
+              fontFamily: 'var(--font-mono, ui-monospace, monospace)',
+              marginLeft: tags.length ? 4 : 0,
+            }}
+          >
+            {verifiedLabel}
+          </span>
+        </div>
       </div>
 
       <ScoreBar score={guide.darkPatternScore} />
@@ -269,6 +291,20 @@ export default async function RankingsPage({
             </span>
           ))}
         </div>
+        <Link
+          href={`/${locale}/method`}
+          style={{
+            display: 'inline-block',
+            marginTop: 14,
+            fontSize: 13,
+            fontWeight: 600,
+            color: 'var(--accent)',
+            borderBottom: '1px solid currentColor',
+            paddingBottom: 1,
+          }}
+        >
+          {t('methodLink')}
+        </Link>
       </div>
 
       <div
@@ -300,7 +336,14 @@ export default async function RankingsPage({
       </div>
       <div>
         {worst.map((g, i) => (
-          <GuideRow key={g.slug} guide={g} rank={i + 1} locale={locale} worst />
+          <GuideRow
+            key={g.slug}
+            guide={g}
+            rank={i + 1}
+            locale={locale}
+            worst
+            verifiedLabel={t('verifiedOn', { date: formatVerifiedDate(g.lastVerified) })}
+          />
         ))}
       </div>
 
@@ -313,13 +356,19 @@ export default async function RankingsPage({
             className="font-serif-display"
             style={{ fontWeight: 600, fontSize: 17, letterSpacing: '-0.01em' }}
           >
-            {t('shareTitle')}
+            {t('reportInaccuracyTitle')}
           </h3>
-          <p style={{ fontSize: 13, color: '#a59e8c', marginTop: 3 }}>{t('shareDesc')}</p>
+          <p style={{ fontSize: 13, color: '#a59e8c', marginTop: 3 }}>
+            {t('reportInaccuracyDesc')}
+          </p>
         </div>
-        <Link href={`/${locale}/contact`} className="btn-accent" style={{ padding: '10px 16px' }}>
-          {t('shareButton')}
-        </Link>
+        <a
+          href="mailto:hello@cancelhub.app?subject=Ranking%20inaccuracy"
+          className="btn-accent"
+          style={{ padding: '10px 16px' }}
+        >
+          {t('reportInaccuracyButton')}
+        </a>
       </div>
 
       <div className="flex items-center gap-[12px] mb-[14px] mt-[36px]">
@@ -334,8 +383,40 @@ export default async function RankingsPage({
       <p style={{ fontSize: 13.5, color: 'var(--ink-3)', marginBottom: 12 }}>{t('easyNote')}</p>
       <div>
         {best.map((g, i) => (
-          <GuideRow key={g.slug} guide={g} rank={i + 1} locale={locale} />
+          <GuideRow
+            key={g.slug}
+            guide={g}
+            rank={i + 1}
+            locale={locale}
+            verifiedLabel={t('verifiedOn', { date: formatVerifiedDate(g.lastVerified) })}
+          />
         ))}
+      </div>
+
+      <div
+        className="card-warm"
+        style={{
+          marginTop: 36,
+          background: 'var(--paper-2)',
+          borderLeft: '2px solid var(--line-2)',
+          borderRadius: 0,
+        }}
+      >
+        <div
+          style={{
+            fontSize: 11,
+            textTransform: 'uppercase',
+            letterSpacing: '0.09em',
+            color: 'var(--ink-3)',
+            fontWeight: 600,
+            marginBottom: 8,
+          }}
+        >
+          {t('disclaimerTitle')}
+        </div>
+        <p style={{ fontSize: 13.5, color: 'var(--ink-2)', lineHeight: 1.6, margin: 0 }}>
+          {t('disclaimer')}
+        </p>
       </div>
     </article>
   )

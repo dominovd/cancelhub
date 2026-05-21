@@ -59,6 +59,9 @@ export async function Footer({ locale = defaultLocale }: FooterProps) {
               <Link href={`${prefix}/rankings`} className="block py-[3px] text-[13.5px] ink hover:accent transition-colors">
                 {tNav('rankings')}
               </Link>
+              <Link href={`${prefix}/method`} className="block py-[3px] text-[13.5px] ink hover:accent transition-colors">
+                {tFoot('method')}
+              </Link>
             </div>
             <div>
               <h4
