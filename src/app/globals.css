@@ -307,11 +307,24 @@ html[data-theme="dark"] body {
 }
 .gcard:hover { transform: translateY(-2px); border-color: var(--line-2); }
 
-/* Inverted dark hero card (used on home + dashboard) */
+/* Inverted dark hero card (used on home + dashboard).
+ * Locked to always-dark — this is a contrasting feature surface, NOT a
+ * page surface. In light mode it pops against cream; in dark mode it
+ * elevates above the page background to stay visually distinct.
+ */
 .dark-card {
-  background: var(--ink); color: var(--paper);
-  border-radius: 20px; padding: 28px 30px;
-  position: relative; overflow: hidden;
+  background: #16140f;
+  color: #f4ede0;
+  border-radius: 20px;
+  padding: 28px 30px;
+  position: relative;
+  overflow: hidden;
+}
+html[data-theme="dark"] .dark-card {
+  background: #25221c;
+}
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme]) .dark-card { background: #25221c; }
 }
 .dark-card::after {
   content: ""; position: absolute; right: -60px; bottom: -80px;

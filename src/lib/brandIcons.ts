@@ -72,7 +72,9 @@ export const BRAND_ICONS: Record<string, BrandIcon> = {
 
   // ── AI ────────────────────────────────────────────────────────────────────
   chatgpt: { si: 'openai', color: '412991' },
+  'chatgpt-plus': { si: 'openai', color: '412991' },
   claude: { si: 'anthropic', color: 'D97757' },
+  'claude-pro': { si: 'anthropic', color: 'D97757' },
 
   // ── Audiobooks / Books ────────────────────────────────────────────────────
   audible: { si: 'audible', color: 'F8991C' },
