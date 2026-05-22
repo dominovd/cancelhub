@@ -18,14 +18,17 @@
  */
 
 export interface BrandIcon {
-  /** Simple Icons slug, see https://simpleicons.org. Used in CDN URL. */
-  si: string
+  /**
+   * Simple Icons slug, see https://simpleicons.org. Used in CDN URL.
+   * Optional — if omitted, BrandLogo shows a branded initial square
+   * using `color` as the background (no image request, no fallback lag).
+   */
+  si?: string
   /** Primary brand hex without #. Background of the rounded square. */
   color: string
   /**
-   * Optional white-foreground override. Some brands (e.g. with very
-   * dark primary colors) need a different foreground color. Default is
-   * white (`ffffff`).
+   * Foreground color override (default: `ffffff` = white).
+   * Use for brands with very light backgrounds (e.g. yellow, white).
    */
   fg?: string
 }
@@ -128,6 +131,38 @@ export const BRAND_ICONS: Record<string, BrandIcon> = {
   substack: { si: 'substack', color: 'FF6719' },
   onlyfans: { si: 'onlyfans', color: '00AFF0' },
   'amazon-prime-video': { si: 'primevideo', color: '00A8E1' },
+
+  // ── Services covered by color-initial (no Simple Icons entry) ───────────
+  // Brand color sourced from each service's official visual identity.
+  adt:                { color: '003087' },                    // ADT navy blue
+  ancestry:           { color: '2A6EBB' },                    // Ancestry blue
+  beachbody:          { color: 'FF5B00' },                    // BODi/Beachbody orange
+  'blink-fitness':    { color: 'CAFD26', fg: '000000' },      // Blink neon yellow
+  'blue-apron':       { color: '3264A0' },                    // Blue Apron blue
+  butcherbox:         { color: '8B2228' },                    // ButcherBox burgundy
+  'chewy-autoship':   { color: '00A9E0' },                    // Chewy blue
+  classpass:          { color: 'F47458' },                    // ClassPass coral
+  'crunch-fitness':   { color: 'FBC800', fg: '000000' },      // Crunch yellow
+  curology:           { color: '5B69B2' },                    // Curology lavender-blue
+  'dollar-shave-club':{ color: '1A1A1A' },                    // DSC near-black
+  everyplate:         { color: 'D9385B' },                    // EveryPlate red-pink
+  experian:           { color: '232850' },                    // Experian dark navy
+  fabfitfun:          { color: 'E8327B' },                    // FabFitFun pink
+  fabletics:          { color: '000000' },                    // Fabletics black
+  'factor-meals':     { color: 'FF6B35' },                    // Factor orange
+  hims:               { color: '2563EB' },                    // Hims blue
+  'home-chef':        { color: 'D44D0B' },                    // Home Chef orange-red
+  ipsy:               { color: 'FF3C6B' },                    // IPSY hot pink
+  noom:               { color: '10B981' },                    // Noom green
+  onstar:             { color: '1D5CA6' },                    // OnStar blue
+  'ring-protect':     { color: '1C9BDE' },                    // Ring teal-blue
+  siriusxm:           { color: '0033A0' },                    // SiriusXM dark blue
+  'snapchat-plus':    { si: 'snapchat', color: 'FFFC00', fg: '000000' }, // Snapchat yellow
+  'stitch-fix':       { color: '8B173B' },                    // Stitch Fix plum
+  'sun-basket':       { color: 'ED6E32' },                    // Sun Basket orange
+  'thrive-market':    { color: '3D7A4A' },                    // Thrive Market green
+  weightwatchers:     { color: '0E548D' },                    // WW blue
+  xfinity:            { color: '000000' },                    // Xfinity black
 }
 
 /**

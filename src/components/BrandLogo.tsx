@@ -57,9 +57,10 @@ export function BrandLogo({ slug, service, alt, size = 20, className = '' }: Bra
   // Border radius scales with size — small badges get 4-5px, big tiles 12-14px.
   const radius = Math.max(4, Math.round(size * 0.22))
 
-  // ── Tier 1: curated Simple Icons brand tile ─────────────────────────────
   const curated = BRAND_ICONS[slug]
-  if (curated && !failed) {
+
+  // ── Tier 1a: curated Simple Icons brand tile ────────────────────────────
+  if (curated && curated.si && !failed) {
     const fg = curated.fg ?? 'ffffff'
     return (
       <span
@@ -97,7 +98,38 @@ export function BrandLogo({ slug, service, alt, size = 20, className = '' }: Bra
     )
   }
 
-  // ── Tier 3: coloured initial (also used when image loads fail) ──────────
+  // ── Tier 1b: curated brand color, no SI icon (or SI failed) ────────────
+  // Show a crisp branded initial square using the known brand color.
+  if (curated && (!curated.si || failed)) {
+    const fg = curated.fg ?? 'ffffff'
+    const initial = brandInitial(service ?? slug)
+    return (
+      <span
+        aria-label={alt ?? service ?? slug}
+        className={className}
+        style={{
+          display: 'inline-flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          width: size,
+          height: size,
+          fontSize: Math.max(9, Math.round(size * 0.38)),
+          letterSpacing: '-0.02em',
+          color: `#${fg}`,
+          background: `#${curated.color}`,
+          borderRadius: radius,
+          flexShrink: 0,
+          fontWeight: 700,
+          fontFamily: 'inherit',
+          lineHeight: 1,
+        }}
+      >
+        {initial}
+      </span>
+    )
+  }
+
+  // ── Tier 3: generic palette initial (uncurated + favicon failed) ────────
   if (failed) {
     const initial = brandInitial(service ?? slug)
     const palette = brandPalette(service ?? slug, theme)
@@ -111,13 +143,13 @@ export function BrandLogo({ slug, service, alt, size = 20, className = '' }: Bra
           justifyContent: 'center',
           width: size,
           height: size,
-          fontSize: Math.max(9, Math.round(size * 0.46)),
+          fontSize: Math.max(9, Math.round(size * 0.38)),
           letterSpacing: '-0.02em',
           color: palette.fg,
           background: palette.bg,
           borderRadius: radius,
           flexShrink: 0,
-          fontWeight: 600,
+          fontWeight: 700,
           fontFamily: 'inherit',
           lineHeight: 1,
         }}
@@ -127,7 +159,7 @@ export function BrandLogo({ slug, service, alt, size = 20, className = '' }: Bra
     )
   }
 
-  // ── Tier 2: Google faviconV2 fallback ───────────────────────────────────
+  // ── Tier 2: Google faviconV2 fallback (uncurated services) ─────────────
   // Request a slightly larger asset than render size for crisp Retina output.
   const requestSize = Math.max(32, size * 2)
   return (
