@@ -64,7 +64,7 @@ export const BRAND_ICONS: Record<string, BrandIcon> = {
   'youtube-music': { si: 'youtubemusic', color: 'FF0000' },
 
   // ── Software ──────────────────────────────────────────────────────────────
-  adobe: { si: 'adobe', color: 'FF0000' },
+  adobe: { si: 'adobecreativecloud', color: 'DA1F26' },
   'microsoft-365': { si: 'microsoft365', color: 'D83B01' },
   'canva-pro': { si: 'canva', color: '00C4CC' },
   capcut: { si: 'capcut', color: '000000' },
