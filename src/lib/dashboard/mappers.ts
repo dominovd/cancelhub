@@ -6,17 +6,13 @@
  * the code never sees raw rows.
  */
 
-import type { Database } from '@/lib/supabase/types'
+import type { SubRow, SettingsRow, EventRow } from '@/lib/db/types'
 import type {
   Subscription,
   NotificationSettings,
   NotificationEvent,
 } from '@/types/dashboard'
 import { DEFAULT_NOTIFICATION_SETTINGS } from '@/types/dashboard'
-
-type SubRow = Database['public']['Tables']['subscriptions']['Row']
-type SettingsRow = Database['public']['Tables']['notification_settings']['Row']
-type EventRow = Database['public']['Tables']['notification_events']['Row']
 
 // ── subscriptions ────────────────────────────────────────────────────────────
 
@@ -37,14 +33,10 @@ export function rowToSubscription(row: SubRow): Subscription {
   }
 }
 
-/**
- * App-shape Subscription → DB Insert row (without id/created_at, those are
- * server-generated). `user_id` must be supplied by the caller.
- */
 export function subscriptionToInsert(
   sub: Omit<Subscription, 'id' | 'createdAt'>,
   userId: string,
-): Database['public']['Tables']['subscriptions']['Insert'] {
+): Omit<SubRow, 'id' | 'created_at'> {
   return {
     user_id: userId,
     name: sub.name,
@@ -62,8 +54,8 @@ export function subscriptionToInsert(
 
 export function subscriptionPatchToUpdate(
   patch: Partial<Subscription>,
-): Database['public']['Tables']['subscriptions']['Update'] {
-  const out: Database['public']['Tables']['subscriptions']['Update'] = {}
+): Partial<Omit<SubRow, 'id' | 'user_id' | 'created_at'>> {
+  const out: Partial<Omit<SubRow, 'id' | 'user_id' | 'created_at'>> = {}
   if (patch.name !== undefined) out.name = patch.name
   if (patch.guideSlug !== undefined) out.guide_slug = patch.guideSlug ?? null
   if (patch.category !== undefined) out.category = patch.category
@@ -91,8 +83,8 @@ export function rowToSettings(row: SettingsRow | null): NotificationSettings {
 
 export function settingsPatchToUpdate(
   patch: Partial<NotificationSettings>,
-): Database['public']['Tables']['notification_settings']['Update'] {
-  const out: Database['public']['Tables']['notification_settings']['Update'] = {}
+): Partial<Omit<SettingsRow, 'user_id' | 'updated_at'>> {
+  const out: Partial<Omit<SettingsRow, 'user_id' | 'updated_at'>> = {}
   if (patch.channels !== undefined) out.channels = patch.channels
   if (patch.alerts !== undefined) out.alerts = patch.alerts
   if (patch.quietHours !== undefined) out.quiet_hours = patch.quietHours
@@ -103,8 +95,6 @@ export function settingsPatchToUpdate(
 // ── notification_events ──────────────────────────────────────────────────────
 
 export function rowToEvent(row: EventRow): NotificationEvent {
-  // Channels stored as text[], so they may include unknown strings — narrow
-  // to the union and drop anything weird that wouldn't render.
   const safeChannels = row.channels.filter(
     (c): c is NotificationEvent['channels'][number] =>
       c === 'email' || c === 'push' || c === 'sms' || c === 'calendar',
@@ -112,7 +102,7 @@ export function rowToEvent(row: EventRow): NotificationEvent {
 
   return {
     id: row.id,
-    type: row.type,
+    type: row.type as NotificationEvent['type'],
     title: row.title,
     body: row.body,
     channels: safeChannels,

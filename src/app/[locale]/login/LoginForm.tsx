@@ -1,20 +1,12 @@
 'use client'
 
 import { useState } from 'react'
+import { signIn } from 'next-auth/react'
 import { useTranslations } from 'next-intl'
-import { createClient } from '@/lib/supabase/client'
 
 interface Props {
   next?: string
   initialError?: string
-}
-
-function siteOrigin(): string {
-  // Prefer the explicit env var; fall back to window.location for dev.
-  return (
-    process.env.NEXT_PUBLIC_SITE_URL ||
-    (typeof window !== 'undefined' ? window.location.origin : 'http://localhost:3000')
-  )
 }
 
 function GoogleIcon() {
@@ -46,38 +38,38 @@ export function LoginForm({ next, initialError }: Props) {
   const [phase, setPhase] = useState<'idle' | 'sending' | 'sent'>('idle')
   const [error, setError] = useState<string | null>(initialError ?? null)
 
-  const supabase = createClient()
-  const emailRedirectTo = `${siteOrigin()}/auth/callback${next ? `?next=${encodeURIComponent(next)}` : ''}`
+  const redirectTo = next && next.startsWith('/') ? next : '/dashboard'
+
+  const signInWithGoogle = async () => {
+    setError(null)
+    try {
+      await signIn('google', { redirectTo })
+    } catch {
+      setError('Google sign-in failed. Please try again.')
+    }
+  }
 
   const submitMagicLink = async (e: React.FormEvent) => {
     e.preventDefault()
     if (!email.trim()) return
     setPhase('sending')
     setError(null)
-    const { error } = await supabase.auth.signInWithOtp({
-      email: email.trim(),
-      options: {
-        emailRedirectTo,
-        // Don't auto-create users — only existing accounts. Set to true if
-        // you want signup-on-first-login (we do for now).
-        shouldCreateUser: true,
-      },
-    })
-    if (error) {
-      setError(error.message)
+    try {
+      const result = await signIn('resend', {
+        email: email.trim(),
+        redirectTo,
+        redirect: false,
+      })
+      if (result?.error) {
+        setError(result.error)
+        setPhase('idle')
+      } else {
+        setPhase('sent')
+      }
+    } catch {
+      setError('Failed to send magic link. Please try again.')
       setPhase('idle')
-    } else {
-      setPhase('sent')
     }
-  }
-
-  const signInWithGoogle = async () => {
-    setError(null)
-    const { error } = await supabase.auth.signInWithOAuth({
-      provider: 'google',
-      options: { redirectTo: emailRedirectTo },
-    })
-    if (error) setError(error.message)
   }
 
   if (phase === 'sent') {
