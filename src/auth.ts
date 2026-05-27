@@ -97,7 +97,7 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
   callbacks: {
     // Expose user.id (= token.sub) on the session object so server actions
     // and server components can call session.user.id without extra lookups.
-    jwt({ token, account, profile }) {
+    jwt({ token, account }) {
       // On first sign-in, `account` and `profile` are present.
       // On subsequent requests only `token` is populated.
       if (account?.providerAccountId) {
