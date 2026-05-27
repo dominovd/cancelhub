@@ -34,9 +34,6 @@ function ChevronIcon({ open }: { open: boolean }) {
 }
 
 export function LanguageSwitcher({ currentLocale }: { currentLocale: string }) {
-  // Hide automatically when only one locale is configured
-  if (locales.length <= 1) return null
-
   const [open, setOpen] = useState(false)
   const ref = useRef<HTMLDivElement>(null)
   const pathname = usePathname()
@@ -58,6 +55,9 @@ export function LanguageSwitcher({ currentLocale }: { currentLocale: string }) {
     router.push(newPath)
     setOpen(false)
   }
+
+  // Hide when only one locale configured — after hooks to satisfy rules-of-hooks
+  if (locales.length <= 1) return null
 
   return (
     <div ref={ref} className="relative">
