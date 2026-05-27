@@ -73,10 +73,10 @@ const providers = [
     clientSecret: process.env.AUTH_GOOGLE_SECRET!,
   }),
   // Remove this provider (and the adapter) if you only want Google login.
-  ...(process.env.AUTH_RESEND_KEY
+  ...(process.env.RESEND_API_KEY ?? process.env.AUTH_RESEND_KEY
     ? [
         Resend({
-          apiKey: process.env.AUTH_RESEND_KEY,
+          apiKey: (process.env.RESEND_API_KEY ?? process.env.AUTH_RESEND_KEY)!,
           from: process.env.AUTH_RESEND_FROM ?? 'noreply@cancelhub.app',
         }),
       ]
@@ -88,7 +88,7 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
 
   // Only attach the DB adapter when Resend is configured (it's only needed
   // for verification token storage). Google OAuth works fine without it.
-  ...(process.env.AUTH_RESEND_KEY && process.env.DATABASE_URL
+  ...((process.env.RESEND_API_KEY ?? process.env.AUTH_RESEND_KEY) && process.env.DATABASE_URL
     ? { adapter: makeAdapter(process.env.DATABASE_URL) }
     : {}),
 
