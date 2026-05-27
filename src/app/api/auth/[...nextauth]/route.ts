@@ -11,7 +11,3 @@
  *   GET      /api/auth/providers
  */
 export { handlers as GET, handlers as POST } from '@/auth'
-
-// Re-export named to satisfy the Next.js route handler convention.
-import { handlers } from '@/auth'
-export { handlers }
