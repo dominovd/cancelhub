@@ -72,8 +72,11 @@ const providers = [
     clientId: process.env.AUTH_GOOGLE_ID!,
     clientSecret: process.env.AUTH_GOOGLE_SECRET!,
   }),
-  // Remove this provider (and the adapter) if you only want Google login.
-  ...(process.env.RESEND_API_KEY ?? process.env.AUTH_RESEND_KEY
+  // Email magic link — only enabled when BOTH Resend key AND DATABASE_URL are
+  // set. Auth.js requires a DB adapter for email providers (to store
+  // verification tokens). Without DATABASE_URL the adapter can't be created
+  // and Auth.js would fail to initialise ALL providers, including Google.
+  ...((process.env.RESEND_API_KEY ?? process.env.AUTH_RESEND_KEY) && process.env.DATABASE_URL
     ? [
         Resend({
           apiKey: (process.env.RESEND_API_KEY ?? process.env.AUTH_RESEND_KEY)!,
