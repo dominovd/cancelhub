@@ -50,7 +50,7 @@ export const acornTv: CancelGuide = {
   ],
   alternatives: [
     { name: 'BritBox', url: '/cancel/britbox', description: '$8.99/mo — British BBC & ITV content' },
-    { name: 'MHz Choice', url: '#', description: '$7.99/mo — European crime drama' },
+    { name: 'MHz Choice', description: '$7.99/mo — European crime drama' },
   ],
   tags: ['streaming', 'british', 'international', 'drama', 'mystery'],
 }

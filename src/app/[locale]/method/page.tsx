@@ -91,6 +91,11 @@ export default async function MethodPage({
             Six observable signals, all visible to any user going through the flow today. We&apos;re
             not measuring intent or motive — just what the flow does.
           </p>
+          <p>
+            A service appears in the public friction index only after its factor breakdown is
+            complete. Cancellation guides can be published earlier, but an incomplete assessment
+            is labelled as pending and is not included in ranked comparisons.
+          </p>
           <Criterion
             n="01"
             name="Steps below the fold"

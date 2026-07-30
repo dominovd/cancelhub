@@ -52,8 +52,8 @@ export const hims: CancelGuide = {
     },
   ],
   alternatives: [
-    { name: 'Ro', url: '#', description: 'Similar telehealth & prescription services' },
-    { name: 'Roman', url: '#', description: "Men's health telehealth platform" },
+    { name: 'Ro', description: 'Similar telehealth & prescription services' },
+    { name: 'Roman', description: "Men's health telehealth platform" },
   ],
   tags: ['health', 'wellness', 'telehealth', 'men', 'prescription'],
 }

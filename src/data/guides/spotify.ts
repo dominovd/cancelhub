@@ -57,7 +57,7 @@ export const spotify: CancelGuide = {
   ],
   alternatives: [
     { name: 'Apple Music', url: '/cancel/apple-music', description: '$10.99/mo, great if you\'re in the Apple ecosystem' },
-    { name: 'YouTube Music', url: '/cancel/youtube-music', description: '$10.99/mo, included with YouTube Premium' },
+    { name: 'YouTube Music', description: '$10.99/mo, included with YouTube Premium' },
   ],
   tags: ['music', 'streaming', 'audio'],
 }

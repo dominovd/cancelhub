@@ -49,7 +49,7 @@ export const calm: CancelGuide = {
   ],
   alternatives: [
     { name: 'Headspace', url: '/cancel/headspace', description: '$12.99/mo — meditation & mindfulness' },
-    { name: 'Insight Timer', url: '#', description: 'Free — 100,000+ guided meditations' },
+    { name: 'Insight Timer', description: 'Free — 100,000+ guided meditations' },
   ],
   tags: ['meditation', 'wellness', 'sleep', 'mindfulness', 'health'],
 }

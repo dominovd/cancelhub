@@ -65,7 +65,7 @@ export const netflix: CancelGuide = {
   alternatives: [
     { name: 'Apple TV+', url: '/cancel/apple-tv-plus', description: 'Ad-free, $9.99/mo' },
     { name: 'Disney+', url: '/cancel/disney-plus', description: 'Disney, Marvel, Star Wars — $7.99/mo' },
-    { name: 'Max', url: '/cancel/max', description: 'HBO content — $9.99/mo' },
+    { name: 'Max', description: 'HBO content — $9.99/mo' },
   ],
   tags: ['streaming', 'video', 'entertainment'],
 }

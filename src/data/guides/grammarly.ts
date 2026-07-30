@@ -49,8 +49,8 @@ export const grammarly: CancelGuide = {
     },
   ],
   alternatives: [
-    { name: 'ProWritingAid', url: '#', description: '$10/mo — deep grammar and style analysis' },
-    { name: 'Hemingway Editor', url: '#', description: 'One-time $19.99 — readability focused' },
+    { name: 'ProWritingAid', description: '$10/mo — deep grammar and style analysis' },
+    { name: 'Hemingway Editor', description: 'One-time $19.99 — readability focused' },
   ],
   tags: ['writing', 'grammar', 'productivity', 'ai', 'editing'],
 }

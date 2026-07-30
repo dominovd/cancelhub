@@ -3,7 +3,7 @@ import { CancelGuide } from '@/types/guide'
 export const uberOne: CancelGuide = {
   slug: 'uber-one',
   service: 'Uber One',
-  category: 'Food & Delivery',
+  category: 'Food Delivery',
   logo: '🚗',
   difficulty: 'easy',
   difficultyReason: 'Uber One cancellation is available in the app but buried under several menus.',

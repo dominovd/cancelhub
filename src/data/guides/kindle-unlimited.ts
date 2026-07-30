@@ -52,7 +52,7 @@ export const kindleUnlimited: CancelGuide = {
   ],
   alternatives: [
     { name: 'Audible', url: '/cancel/audible', description: '$14.95/mo — audiobooks' },
-    { name: 'Scribd', url: '#', description: '$11.99/mo — books, audiobooks & more' },
+    { name: 'Scribd', url: '/cancel/scribd', description: '$11.99/mo — books, audiobooks & more' },
   ],
   tags: ['books', 'reading', 'amazon', 'ebooks'],
 }

@@ -65,8 +65,8 @@ export const crunchFitness: CancelGuide = {
     },
   ],
   alternatives: [
-    { name: 'Planet Fitness', url: '/cancel/planet-fitness', description: '$10–$25/mo — easy online cancellation' },
-    { name: 'Anytime Fitness', url: '/cancel/anytime-fitness', description: '$30–$50/mo — 24/7 access' },
+    { name: 'Planet Fitness', description: '$10–$25/mo — alternative gym membership' },
+    { name: 'Anytime Fitness', description: '$30–$50/mo — 24/7 access' },
   ],
   tags: ['fitness', 'gym', 'membership', 'annual-contract'],
 }

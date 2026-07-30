@@ -67,9 +67,9 @@ export const adobe: CancelGuide = {
     },
   ],
   alternatives: [
-    { name: 'Affinity Suite', url: '#', description: 'One-time purchase, no subscription. Photoshop/Illustrator alternative.' },
-    { name: 'Canva Pro', url: '#', description: '$12.99/mo — great for non-designers' },
-    { name: 'Figma', url: '#', description: 'Free tier available, best for UI/UX design' },
+    { name: 'Affinity Suite', description: 'One-time purchase, no subscription. Photoshop/Illustrator alternative.' },
+    { name: 'Canva Pro', url: '/cancel/canva-pro', description: '$12.99/mo — great for non-designers' },
+    { name: 'Figma', description: 'Free tier available, best for UI/UX design' },
   ],
   tags: ['software', 'creative', 'design', 'annual-contract'],
 }

@@ -52,7 +52,7 @@ export const thriveMarket: CancelGuide = {
     },
   ],
   alternatives: [
-    { name: 'Costco', url: '#', description: '$65/yr membership — warehouse club' },
+    { name: 'Costco', description: '$65/yr membership — warehouse club' },
     { name: 'Amazon Prime', url: '/cancel/amazon-prime', description: '$14.99/mo — free shipping + more' },
   ],
   tags: ['grocery', 'organic', 'food', 'delivery', 'membership'],

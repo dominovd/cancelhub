@@ -53,7 +53,7 @@ export const bumble: CancelGuide = {
   ],
   alternatives: [
     { name: 'Tinder Gold', url: '/cancel/tinder-gold', description: 'From $9.99/mo — largest dating app' },
-    { name: 'Hinge', url: '#', description: 'Free with optional Preferred membership' },
+    { name: 'Hinge', description: 'Free with optional Preferred membership' },
   ],
   tags: ['dating', 'social', 'subscription'],
 }

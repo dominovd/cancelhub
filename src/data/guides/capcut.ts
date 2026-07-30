@@ -52,8 +52,8 @@ export const capcut: CancelGuide = {
     },
   ],
   alternatives: [
-    { name: 'Adobe Premiere Rush', url: '#', description: 'Included with Adobe Creative Cloud' },
-    { name: 'InShot Pro', url: '#', description: '$3.99/mo — simple mobile video editor' },
+    { name: 'Adobe Premiere Rush', description: 'Included with Adobe Creative Cloud' },
+    { name: 'InShot Pro', description: '$3.99/mo — simple mobile video editor' },
   ],
   tags: ['video', 'editing', 'creative', 'social-media', 'tiktok'],
 }

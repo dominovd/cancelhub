@@ -64,8 +64,8 @@ export const weightwatchers: CancelGuide = {
     },
   ],
   alternatives: [
-    { name: 'Noom', url: '#', description: 'From $59/mo — psychology-based weight loss' },
-    { name: 'Lose It!', url: '#', description: 'Free with premium — calorie tracking app' },
+    { name: 'Noom', url: '/cancel/noom', description: 'From $59/mo — psychology-based weight loss' },
+    { name: 'Lose It!', description: 'Free with premium — calorie tracking app' },
   ],
   tags: ['health', 'wellness', 'weight-loss', 'diet', 'fitness'],
 }

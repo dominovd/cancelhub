@@ -65,8 +65,8 @@ export const experian: CancelGuide = {
     },
   ],
   alternatives: [
-    { name: 'Credit Karma', url: '/cancel/credit-karma', description: 'Free credit monitoring — no subscription needed' },
-    { name: 'Identity Guard', url: '#', description: '$8.99/mo — identity theft protection' },
+    { name: 'Credit Karma', description: 'Free credit monitoring — no subscription needed' },
+    { name: 'Identity Guard', description: '$8.99/mo — identity theft protection' },
   ],
   tags: ['finance', 'credit', 'identity', 'monitoring'],
 }

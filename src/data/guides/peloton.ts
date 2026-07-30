@@ -57,7 +57,7 @@ export const peloton: CancelGuide = {
   ],
   alternatives: [
     { name: 'ClassPass', url: '/cancel/classpass', description: 'From $19/mo — gym & fitness classes' },
-    { name: 'Apple Fitness+', url: '#', description: '$9.99/mo — included with Apple One' },
+    { name: 'Apple Fitness+', description: '$9.99/mo — included with Apple One' },
   ],
   tags: ['fitness', 'cycling', 'health', 'workout', 'hardware'],
 }

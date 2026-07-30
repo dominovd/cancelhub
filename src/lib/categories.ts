@@ -1,5 +1,9 @@
 import { allGuides } from '@/data/guides'
 import type { CancelGuide } from '@/types/guide'
+import {
+  compareGuidesByDifficulty,
+  hasDarkPatternAssessment,
+} from '@/lib/dark-patterns'
 
 // ─── Slug helpers ─────────────────────────────────────────────────────────────
 
@@ -23,9 +27,11 @@ export interface CategoryMeta {
   name: string
   slug: string
   guides: CancelGuide[]
+  assessedGuides: CancelGuide[]
   count: number
-  avgScore: number
-  maxScore: number
+  avgScore: number | null
+  maxScore: number | null
+  indexable: boolean
 }
 
 function buildCategories(): CategoryMeta[] {
@@ -40,17 +46,25 @@ function buildCategories(): CategoryMeta[] {
   return Array.from(map.entries())
     .filter(([, guides]) => guides.length >= 2)
     .map(([name, guides]) => {
-      const scores = guides.map((g) => g.darkPatternScore)
+      const scores = guides
+        .filter(hasDarkPatternAssessment)
+        .map((g) => g.darkPatternScore)
       return {
         name,
         slug: categoryToSlug(name),
-        guides: [...guides].sort((a, b) => b.darkPatternScore - a.darkPatternScore),
+        guides: [...guides].sort(compareGuidesByDifficulty),
+        assessedGuides: guides
+          .filter(hasDarkPatternAssessment)
+          .sort((a, b) => b.darkPatternScore - a.darkPatternScore),
         count: guides.length,
-        avgScore: Math.round(scores.reduce((a, b) => a + b, 0) / scores.length),
-        maxScore: Math.max(...scores),
+        avgScore: scores.length
+          ? Math.round(scores.reduce((a, b) => a + b, 0) / scores.length)
+          : null,
+        maxScore: scores.length ? Math.max(...scores) : null,
+        indexable: guides.length >= 3,
       }
     })
-    .sort((a, b) => b.count - a.count || b.avgScore - a.avgScore)
+    .sort((a, b) => b.count - a.count || (b.avgScore ?? -1) - (a.avgScore ?? -1))
 }
 
 export const allCategories: CategoryMeta[] = buildCategories()
@@ -99,10 +113,8 @@ const categoryIntros: Record<string, string> = {
     'Creative software subscriptions vary from instant self-serve cancel to contracts with early termination fees.',
   Security:
     'Security software is notorious for auto-renewing at inflated prices. Cancel before renewal to avoid surprise charges.',
-  'Food & Delivery':
-    'Food delivery memberships are easy to cancel — but check for annual vs. monthly billing to time it right.',
   'Food Delivery':
-    'Food delivery subscriptions typically offer self-serve cancellation with no major dark patterns.',
+    'Food delivery memberships are generally self-serve, but annual billing and renewal timing can still affect when access and charges stop.',
 }
 
 export function getCategoryIntro(name: string): string {

@@ -1,8 +1,30 @@
 import type { CancelGuide } from '@/types/guide'
 
-export type ActionType = 'pause' | 'refund' | 'delete'
+export type ActionType = 'pause' | 'refund'
 
-export const SUPPORTED_ACTIONS: ActionType[] = ['pause', 'refund', 'delete']
+export const SUPPORTED_ACTIONS: ActionType[] = ['pause', 'refund']
+
+/**
+ * Pause availability must be editorially asserted. Text matching is not
+ * reliable: many cancellation flows mention a pause only to say it is
+ * unavailable or to present it as a retention offer.
+ */
+const PAUSE_STATUS_BY_SLUG: Partial<Record<string, boolean>> = {
+  audible: true,
+  butcherbox: true,
+  chegg: false,
+  'chewy-autoship': true,
+  curology: true,
+  'dollar-shave-club': true,
+  fabfitfun: false,
+  'factor-meals': true,
+  hims: true,
+  'kindle-unlimited': true,
+  netflix: true,
+  philo: false,
+  scribd: true,
+  'youtube-tv': true,
+}
 
 export interface ActionMeta {
   type: ActionType
@@ -17,7 +39,7 @@ export const ACTION_META: Record<ActionType, ActionMeta> = {
     label: 'Pause',
     title: (s) => `How to Pause ${s}`,
     description: (s) =>
-      `Can you pause ${s} instead of cancelling? Here's what the pause option includes, how long it lasts, and step-by-step instructions.`,
+      `Can you pause ${s} instead of cancelling? Check whether a verified pause option is available and what it means for billing.`,
   },
   refund: {
     type: 'refund',
@@ -26,65 +48,54 @@ export const ACTION_META: Record<ActionType, ActionMeta> = {
     description: (s) =>
       `${s} refund policy explained: eligibility, how to request one, and what to do if you were charged after cancelling.`,
   },
-  delete: {
-    type: 'delete',
-    label: 'Delete account',
-    title: (s) => `How to Delete Your ${s} Account`,
-    description: (s) =>
-      `How to permanently delete your ${s} account and all associated data. Cancelling a subscription and deleting an account are two different things — here's how to do both.`,
-  },
 }
 
 // ─── Pause ────────────────────────────────────────────────────────────────────
 
 export interface PauseInfo {
   supported: boolean
-  answer?: string    // from commonIssues
-  stepHint?: string  // from steps if mentioned
-  source: 'commonIssues' | 'steps' | 'none'
+  answer?: string
+  source: 'editorial'
 }
 
-export function derivePauseInfo(guide: CancelGuide): PauseInfo {
-  // 1. Check commonIssues for a pause-related question
+export function getPauseInfo(guide: CancelGuide): PauseInfo | null {
+  const supported = PAUSE_STATUS_BY_SLUG[guide.slug]
+  if (supported === undefined) return null
+
   const pauseIssue = guide.commonIssues.find((i) =>
     /pause|pausing/i.test(i.question)
   )
-  if (pauseIssue) {
-    return { supported: true, answer: pauseIssue.answer, source: 'commonIssues' }
-  }
 
-  // 2. Check steps across all platforms for a pause mention
-  for (const platform of guide.platforms) {
-    for (const step of platform.steps) {
-      if (/\bpause\b/i.test(step.instruction)) {
-        return { supported: true, stepHint: step.instruction, source: 'steps' }
-      }
-    }
+  return {
+    supported,
+    answer: pauseIssue?.answer,
+    source: 'editorial',
   }
-
-  return { supported: false, source: 'none' }
 }
 
 // ─── Refund ───────────────────────────────────────────────────────────────────
 
 export interface RefundInfo {
   policy: string
-  eligible: boolean   // true if there's any chance of a refund
-  window?: string     // extracted: "30 days", "14 days"…
-  hasMBG: boolean     // money-back guarantee
+  policySaysNoRefunds: boolean
 }
 
-export function deriveRefundInfo(guide: CancelGuide): RefundInfo {
+export function getRefundInfo(guide: CancelGuide): RefundInfo {
   const policy = guide.refundPolicy ?? 'No refund policy information available for this service.'
-  const noRefund = /^no refunds?/i.test(policy.trim())
-  const eligible = !noRefund
+  const policySaysNoRefunds = /^no refunds?\b/i.test(policy.trim())
 
-  // Extract time window
-  const windowMatch = policy.match(/(\d+)[\s-]day/i)
-  const window = windowMatch ? `${windowMatch[1]} days` : undefined
+  return { policy, policySaysNoRefunds }
+}
 
-  const hasMBG =
-    /money.back guarantee|satisfaction guarantee/i.test(policy)
+export function getPublishedActions(guide: CancelGuide): ActionType[] {
+  const actions: ActionType[] = ['refund']
+  if (PAUSE_STATUS_BY_SLUG[guide.slug] !== undefined) actions.unshift('pause')
+  return actions
+}
 
-  return { policy, eligible, window, hasMBG }
+export function isPublishedAction(
+  guide: CancelGuide,
+  action: string,
+): action is ActionType {
+  return getPublishedActions(guide).includes(action as ActionType)
 }

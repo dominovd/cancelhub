@@ -53,7 +53,7 @@ export const hellofresh: CancelGuide = {
   ],
   alternatives: [
     { name: 'Factor Meals', url: '/cancel/factor-meals', description: 'From $10.99/meal — prepared meals, no cooking' },
-    { name: 'Home Chef', url: '#', description: 'From $9.95/meal — flexible meal kits' },
+    { name: 'Home Chef', url: '/cancel/home-chef', description: 'From $9.95/meal — flexible meal kits' },
   ],
   tags: ['meal-kit', 'food', 'delivery', 'cooking', 'subscription'],
 }

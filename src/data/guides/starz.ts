@@ -49,7 +49,7 @@ export const starz: CancelGuide = {
   ],
   alternatives: [
     { name: 'Showtime (Paramount+)', url: '/cancel/paramount-plus', description: '$12.99/mo — with Paramount+' },
-    { name: 'HBO Max', url: '#', description: '$15.99/mo — premium HBO content' },
+    { name: 'HBO Max', description: '$15.99/mo — premium HBO content' },
   ],
   tags: ['streaming', 'video', 'movies', 'tv', 'premium'],
 }

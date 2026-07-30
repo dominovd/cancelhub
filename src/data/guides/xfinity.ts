@@ -66,8 +66,8 @@ export const xfinity: CancelGuide = {
     },
   ],
   alternatives: [
-    { name: 'AT&T Internet', url: '#', description: 'Fiber internet — competitive pricing' },
-    { name: 'Google Fiber', url: '#', description: 'No contracts, no data caps' },
+    { name: 'AT&T Internet', description: 'Fiber internet — competitive pricing' },
+    { name: 'Google Fiber', description: 'No contracts, no data caps' },
   ],
   tags: ['internet', 'cable', 'isp', 'comcast'],
 }

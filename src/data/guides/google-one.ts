@@ -54,7 +54,7 @@ export const googleOne: CancelGuide = {
   ],
   alternatives: [
     { name: 'iCloud+', url: '/cancel/icloud-plus', description: '$0.99/mo for 50GB — Apple devices' },
-    { name: 'Dropbox', url: '#', description: 'From $9.99/mo — cross-platform cloud storage' },
+    { name: 'Dropbox', url: '/cancel/dropbox', description: 'From $9.99/mo — cross-platform cloud storage' },
   ],
   tags: ['cloud', 'storage', 'google', 'backup', 'photos'],
 }

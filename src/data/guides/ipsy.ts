@@ -52,8 +52,8 @@ export const ipsy: CancelGuide = {
     },
   ],
   alternatives: [
-    { name: 'FabFitFun', url: '#', description: '$54.99/quarter — lifestyle subscription box' },
-    { name: 'Birchbox', url: '#', description: '$15/mo — beauty sample subscription' },
+    { name: 'FabFitFun', url: '/cancel/fabfitfun', description: '$54.99/quarter — lifestyle subscription box' },
+    { name: 'Birchbox', description: '$15/mo — beauty sample subscription' },
   ],
   tags: ['beauty', 'subscription-box', 'cosmetics', 'makeup'],
 }

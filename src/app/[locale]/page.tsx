@@ -5,6 +5,7 @@ import { allGuides } from '@/data/guides'
 import { canonicalUrl, hreflangAlternates } from '@/config/seo'
 import { SearchBar } from '@/components/SearchBar'
 import { BrandLogo } from '@/components/BrandLogo'
+import { hasDarkPatternAssessment } from '@/lib/dark-patterns'
 
 export async function generateMetadata({
   params: { locale },
@@ -32,7 +33,8 @@ export default async function HomePage({
   const tDiff = await getTranslations({ locale, namespace: 'difficulty' })
   const prefix = locale === 'en' ? '' : `/${locale}`
 
-  const top3Hardest = [...allGuides]
+  const assessedGuides = allGuides.filter(hasDarkPatternAssessment)
+  const top3Hardest = assessedGuides
     .sort((a, b) => b.darkPatternScore - a.darkPatternScore)
     .slice(0, 3)
 
@@ -206,7 +208,7 @@ export default async function HomePage({
             color: '#f0a878',
           }}
         >
-          {t('darkPatternLink', { count: allGuides.length })}
+          {t('darkPatternLink', { count: assessedGuides.length })}
         </Link>
       </section>
 

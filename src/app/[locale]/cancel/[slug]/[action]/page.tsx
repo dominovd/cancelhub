@@ -9,8 +9,10 @@ import { BrandLogo } from '@/components/BrandLogo'
 import {
   SUPPORTED_ACTIONS,
   ACTION_META,
-  derivePauseInfo,
-  deriveRefundInfo,
+  getPauseInfo,
+  getPublishedActions,
+  getRefundInfo,
+  isPublishedAction,
   type ActionType,
 } from '@/lib/actions'
 import type { CancelGuide } from '@/types/guide'
@@ -20,10 +22,12 @@ import type { CancelGuide } from '@/types/guide'
 export function generateStaticParams() {
   return locales.flatMap((locale) =>
     allGuides.flatMap((g) =>
-      SUPPORTED_ACTIONS.map((action) => ({ locale, slug: g.slug, action }))
+      getPublishedActions(g).map((action) => ({ locale, slug: g.slug, action }))
     )
   )
 }
+
+export const dynamicParams = false
 
 // ─── Metadata ─────────────────────────────────────────────────────────────────
 
@@ -33,7 +37,7 @@ export async function generateMetadata({
   params: { locale: string; slug: string; action: string }
 }): Promise<Metadata> {
   const guide = guidesBySlug[slug]
-  if (!guide || !SUPPORTED_ACTIONS.includes(action as ActionType)) return {}
+  if (!guide || !isPublishedAction(guide, action)) return {}
 
   const meta = ACTION_META[action as ActionType]
   const path = `/cancel/${slug}/${action}`
@@ -52,6 +56,10 @@ export async function generateMetadata({
       description,
       url: canonicalUrl(path, locale),
     },
+    robots: {
+      index: false,
+      follow: true,
+    },
   }
 }
 
@@ -59,7 +67,8 @@ export async function generateMetadata({
 
 function PauseContent({ guide, locale }: { guide: CancelGuide; locale: string }) {
   if (!guide) return null
-  const info = derivePauseInfo(guide)
+  const info = getPauseInfo(guide)
+  if (!info) return null
 
   return (
     <>
@@ -85,20 +94,6 @@ function PauseContent({ guide, locale }: { guide: CancelGuide; locale: string })
               </h2>
               <p className="text-[15px] ink-2 leading-[1.65] max-w-[58ch]">
                 {info.answer}
-              </p>
-            </div>
-          )}
-
-          {info.stepHint && !info.answer && (
-            <div>
-              <h2
-                className="text-[11px] ink-3 uppercase mb-4"
-                style={{ letterSpacing: '0.18em' }}
-              >
-                Where to find the pause option
-              </h2>
-              <p className="text-[15px] ink-2 leading-[1.65] max-w-[58ch]">
-                {info.stepHint}
               </p>
             </div>
           )}
@@ -137,7 +132,8 @@ function PauseContent({ guide, locale }: { guide: CancelGuide; locale: string })
             <div className="space-y-3 text-[15px] ink-2 leading-[1.65] max-w-[56ch]">
               <p>
                 <strong className="ink">Cancel and re-subscribe later.</strong>{' '}
-                Most services let you re-join at any time without losing your account history.{' '}
+                Before cancelling, check the service&apos;s retention policy if preserving account
+                history or saved data matters to you.{' '}
                 <Link
                   href={`/${locale}/cancel/${guide.slug}`}
                   className="underline underline-offset-2 hover:accent transition-colors"
@@ -162,9 +158,9 @@ function PauseContent({ guide, locale }: { guide: CancelGuide; locale: string })
 
 // ─── Refund content ───────────────────────────────────────────────────────────
 
-function RefundContent({ guide }: { guide: CancelGuide; locale: string }) {
+function RefundContent({ guide, locale }: { guide: CancelGuide; locale: string }) {
   if (!guide) return null
-  const info = deriveRefundInfo(guide)
+  const info = getRefundInfo(guide)
 
   return (
     <div className="space-y-8">
@@ -173,16 +169,18 @@ function RefundContent({ guide }: { guide: CancelGuide; locale: string }) {
         className="flex items-center gap-2 text-[13px] px-4 py-3 rounded-[6px] border border-rule"
         style={{ background: 'var(--accent-soft)' }}
       >
-        <span style={{ color: info.eligible ? 'var(--c-easy)' : 'var(--c-hard)', fontWeight: 600 }}>
-          {info.eligible ? '✓' : '✗'}
+        <span
+          style={{
+            color: info.policySaysNoRefunds ? 'var(--c-hard)' : 'var(--ink-3)',
+            fontWeight: 600,
+          }}
+        >
+          {info.policySaysNoRefunds ? '✗' : 'i'}
         </span>
         <span className="ink-2">
-          {info.hasMBG
-            ? `${guide.service} offers a money-back guarantee.`
-            : info.eligible
-            ? `${guide.service} may issue refunds in some cases.`
-            : `${guide.service} does not offer refunds.`}
-          {info.window && ` Request within ${info.window}.`}
+          {info.policySaysNoRefunds
+            ? `${guide.service}'s published policy says refunds are not offered.`
+            : 'Eligibility depends on the plan, billing channel, purchase date, and reason for the request. Review the policy below.'}
         </span>
       </div>
 
@@ -200,7 +198,7 @@ function RefundContent({ guide }: { guide: CancelGuide; locale: string }) {
       </div>
 
       {/* How to request */}
-      {info.eligible && (
+      {!info.policySaysNoRefunds && (
         <div>
           <h2
             className="text-[11px] ink-3 uppercase mb-4"
@@ -214,7 +212,7 @@ function RefundContent({ guide }: { guide: CancelGuide; locale: string }) {
               <span>
                 Cancel your subscription first to stop future charges.{' '}
                 <Link
-                  href={`/${guide.slug.includes('/') ? '' : '/'}cancel/${guide.slug}`}
+                  href={`/${locale}/cancel/${guide.slug}`}
                   className="underline underline-offset-2 hover:accent transition-colors ink"
                 >
                   See cancellation steps →
@@ -231,8 +229,8 @@ function RefundContent({ guide }: { guide: CancelGuide; locale: string }) {
             <li className="flex gap-3">
               <span className="ink-3 tabular-nums shrink-0">3.</span>
               <span>
-                If denied, dispute the charge with your bank or card issuer as a last resort.
-                Most banks side with the customer for subscription billing disputes.
+                If the charge was unauthorized or continued after a confirmed cancellation,
+                contact your card issuer and follow its billing-dispute process.
               </span>
             </li>
           </ol>
@@ -240,7 +238,7 @@ function RefundContent({ guide }: { guide: CancelGuide; locale: string }) {
       )}
 
       {/* No refund — what to do */}
-      {!info.eligible && (
+      {info.policySaysNoRefunds && (
         <div>
           <h2
             className="text-[11px] ink-3 uppercase mb-4"
@@ -250,133 +248,23 @@ function RefundContent({ guide }: { guide: CancelGuide; locale: string }) {
           </h2>
           <div className="space-y-3 text-[15px] ink-2 leading-[1.65] max-w-[56ch]">
             <p>
-              <strong className="ink">Cancel immediately</strong> to stop the next charge.
-              Your access will continue until the end of the current billing period.{' '}
+              <strong className="ink">Cancel before the next renewal or processing cutoff</strong>{' '}
+              to prevent another eligible charge or shipment.{' '}
               <Link
-                href={`/${guide.slug.includes('/') ? '' : '/'}cancel/${guide.slug}`}
+                href={`/${locale}/cancel/${guide.slug}`}
                 className="underline underline-offset-2 hover:accent transition-colors"
               >
                 See how to cancel →
               </Link>
             </p>
             <p>
-              <strong className="ink">Dispute with your bank</strong> if you were charged
-              after cancelling or during a free trial without notice. Banks typically support
-              customers in clear billing errors.
+              <strong className="ink">Contact your card issuer</strong> if a charge was
+              unauthorized or continued after a confirmed cancellation. Follow the issuer&apos;s
+              billing-dispute process and keep your cancellation confirmation.
             </p>
           </div>
         </div>
       )}
-    </div>
-  )
-}
-
-// ─── Delete content ───────────────────────────────────────────────────────────
-
-function DeleteContent({ guide, locale }: { guide: CancelGuide; locale: string }) {
-  // Check if guide mentions delete/close account in commonIssues
-  const deleteIssue = guide.commonIssues.find((i) =>
-    /delete|close|remove.{0,10}account/i.test(i.question)
-  )
-
-  const webPlatform = guide.platforms.find((p) => p.platform === 'web')
-  const accountUrl = webPlatform?.deepLink
-
-  return (
-    <div className="space-y-8">
-      {/* Key distinction banner */}
-      <div
-        className="px-4 py-4 rounded-[6px] border border-rule text-[13px] ink-2 leading-[1.6]"
-        style={{ background: 'var(--accent-soft)' }}
-      >
-        <strong className="ink block mb-1">Cancelling ≠ deleting</strong>
-        Cancelling stops future billing but keeps your account and data intact.
-        Deleting your account is permanent — all history, preferences, and data are removed.
-        Do both only if you are certain you won&apos;t return.
-      </div>
-
-      {/* Steps */}
-      <div>
-        <h2
-          className="text-[11px] ink-3 uppercase mb-5"
-          style={{ letterSpacing: '0.18em' }}
-        >
-          How to delete your {guide.service} account
-        </h2>
-        <ol className="space-y-4">
-          {[
-            {
-              n: 1,
-              title: 'Cancel your subscription first',
-              body: (
-                <>
-                  Before deleting, cancel your active subscription to avoid being charged
-                  after account deletion.{' '}
-                  <Link
-                    href={`/${locale}/cancel/${guide.slug}`}
-                    className="underline underline-offset-2 hover:accent transition-colors"
-                  >
-                    See full cancellation guide →
-                  </Link>
-                </>
-              ),
-            },
-            {
-              n: 2,
-              title: 'Export your data',
-              body: 'Download any content, history, or data you want to keep before proceeding. Most services offer a data export option in account settings.',
-            },
-            {
-              n: 3,
-              title: 'Find the account deletion option',
-              body: accountUrl
-                ? `Go to ${guide.service} account settings (${accountUrl}) and look for "Delete account", "Close account", or "Deactivate".`
-                : `Sign in and go to ${guide.service} account settings. Look for "Delete account", "Close account", or "Deactivate" — usually under Privacy, Security, or Account.`,
-            },
-            {
-              n: 4,
-              title: 'Confirm deletion',
-              body: `${guide.service} will ask you to confirm. You may need to enter your password or verify via email. Once confirmed, the deletion is permanent.`,
-            },
-          ].map(({ n, title, body }) => (
-            <li key={n} className="flex gap-4">
-              <span
-                className="shrink-0 w-6 h-6 rounded-full flex items-center justify-center text-[11px] mt-[2px]"
-                style={{ background: 'var(--rule)', color: 'var(--ink-2)', fontWeight: 600 }}
-              >
-                {n}
-              </span>
-              <div className="min-w-0">
-                <p className="text-[14px] ink mb-[3px]" style={{ fontWeight: 500 }}>{title}</p>
-                <p className="text-[14px] ink-2 leading-[1.6] max-w-[56ch]">{body}</p>
-              </div>
-            </li>
-          ))}
-        </ol>
-      </div>
-
-      {/* Service-specific note from commonIssues if available */}
-      {deleteIssue && (
-        <div className="border-t border-rule pt-6">
-          <h2
-            className="text-[11px] ink-3 uppercase mb-3"
-            style={{ letterSpacing: '0.18em' }}
-          >
-            {guide.service}-specific note
-          </h2>
-          <p className="text-[13px] ink-3 mb-1">{deleteIssue.question}</p>
-          <p className="text-[14px] ink-2 leading-[1.6] max-w-[58ch]">{deleteIssue.answer}</p>
-        </div>
-      )}
-
-      {/* Warning */}
-      <div className="border-t border-rule pt-6">
-        <p className="text-[13px] ink-3 leading-[1.6] max-w-[56ch]">
-          If you can&apos;t find the delete option, contact {guide.service} support directly and
-          request account deletion. Under GDPR (EU) and CCPA (California), you have a legal right
-          to request deletion of your personal data.
-        </p>
-      </div>
     </div>
   )
 }
@@ -393,6 +281,7 @@ export default function ActionPage({
   if (!SUPPORTED_ACTIONS.includes(action as ActionType)) notFound()
   const guide = guidesBySlug[slug]
   if (!guide) notFound()
+  if (!isPublishedAction(guide, action)) notFound()
 
   const actionType = action as ActionType
   const meta = ACTION_META[actionType]
@@ -430,7 +319,6 @@ export default function ActionPage({
       {/* Content */}
       {actionType === 'pause' && <PauseContent guide={guide} locale={locale} />}
       {actionType === 'refund' && <RefundContent guide={guide} locale={locale} />}
-      {actionType === 'delete' && <DeleteContent guide={guide} locale={locale} />}
 
       {/* Other actions */}
       <section className="border-t border-rule mt-12 pt-6">
@@ -444,7 +332,7 @@ export default function ActionPage({
           >
             How to cancel
           </Link>
-          {actionType !== 'pause' && (
+          {actionType !== 'pause' && getPublishedActions(guide).includes('pause') && (
             <Link
               href={`/${locale}/cancel/${slug}/pause`}
               className="text-[13px] px-3 py-[6px] border border-rule rounded-full hover:border-[var(--accent)] hover:accent transition-colors ink-2"
@@ -458,14 +346,6 @@ export default function ActionPage({
               className="text-[13px] px-3 py-[6px] border border-rule rounded-full hover:border-[var(--accent)] hover:accent transition-colors ink-2"
             >
               Get a refund
-            </Link>
-          )}
-          {actionType !== 'delete' && (
-            <Link
-              href={`/${locale}/cancel/${slug}/delete`}
-              className="text-[13px] px-3 py-[6px] border border-rule rounded-full hover:border-[var(--accent)] hover:accent transition-colors ink-2"
-            >
-              Delete account
             </Link>
           )}
         </div>

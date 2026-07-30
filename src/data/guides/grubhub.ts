@@ -3,7 +3,7 @@ import { CancelGuide } from '@/types/guide'
 export const grubhub: CancelGuide = {
   slug: 'grubhub',
   service: 'Grubhub+',
-  category: 'Food & Delivery',
+  category: 'Food Delivery',
   logo: '🍔',
   difficulty: 'easy',
   difficultyReason: 'Grubhub+ cancellation is available in the app and on the web with minimal friction.',

@@ -49,8 +49,8 @@ export const chewyAutoship: CancelGuide = {
     },
   ],
   alternatives: [
-    { name: 'Amazon Subscribe & Save', url: '#', description: 'Up to 15% off recurring Amazon orders' },
-    { name: 'PetSmart', url: '#', description: 'In-store and online pet supplies' },
+    { name: 'Amazon Subscribe & Save', description: 'Up to 15% off recurring Amazon orders' },
+    { name: 'PetSmart', description: 'In-store and online pet supplies' },
   ],
   tags: ['pets', 'autoship', 'subscription', 'delivery', 'chewy'],
 }

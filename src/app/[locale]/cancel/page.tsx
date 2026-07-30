@@ -4,6 +4,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { allGuides } from '@/data/guides'
 import { canonicalUrl, hreflangAlternates } from '@/config/seo'
 import { GuideFilter } from '@/components/GuideFilter'
+import { compareGuidesByDifficulty } from '@/lib/dark-patterns'
 
 export async function generateMetadata({
   params: { locale },
@@ -28,9 +29,9 @@ export default async function CancelIndexPage({
   setRequestLocale(locale)
   const t = await getTranslations({ locale, namespace: 'guides' })
 
-  // Hardest-first by default: surface the worst dark-pattern offenders at the top
-  // (the filter component re-groups by category, but the iteration order respects this).
-  const sorted = [...allGuides].sort((a, b) => b.darkPatternScore - a.darkPatternScore)
+  // Hardest-first by the editorial difficulty label. A numeric score is used
+  // only as a tie-breaker when both guides have a completed evidence breakdown.
+  const sorted = [...allGuides].sort(compareGuidesByDifficulty)
 
   return (
     <div className="max-w-[1000px] mx-auto px-[22px]">

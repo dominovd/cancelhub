@@ -50,8 +50,8 @@ export const dollarShaveClub: CancelGuide = {
     },
   ],
   alternatives: [
-    { name: "Harry's", url: '#', description: 'Similar subscription razor service' },
-    { name: 'Gillette on Demand', url: '#', description: 'Order razors as needed, no subscription' },
+    { name: "Harry's", description: 'Similar subscription razor service' },
+    { name: 'Gillette on Demand', description: 'Order razors as needed, no subscription' },
   ],
   tags: ['personal-care', 'grooming', 'razors', 'shaving', 'subscription'],
 }

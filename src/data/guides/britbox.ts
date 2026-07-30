@@ -51,7 +51,7 @@ export const britbox: CancelGuide = {
   ],
   alternatives: [
     { name: 'Acorn TV', url: '/cancel/acorn-tv', description: '$6.99/mo — British & international drama' },
-    { name: 'PBS Passport', url: '#', description: '$5/mo — PBS shows & documentaries' },
+    { name: 'PBS Passport', description: '$5/mo — PBS shows & documentaries' },
   ],
   tags: ['streaming', 'british', 'tv', 'uk', 'drama'],
 }

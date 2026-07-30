@@ -51,7 +51,7 @@ export const butcherbox: CancelGuide = {
   ],
   alternatives: [
     { name: 'Thrive Market', url: '/cancel/thrive-market', description: '$12/mo — organic groceries at wholesale prices' },
-    { name: 'Crowd Cow', url: '#', description: 'No subscription — order premium meat on demand' },
+    { name: 'Crowd Cow', description: 'No subscription — order premium meat on demand' },
   ],
   tags: ['meat', 'food', 'grocery', 'delivery', 'subscription'],
 }

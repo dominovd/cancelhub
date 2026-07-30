@@ -52,7 +52,7 @@ export const snapchatPlus: CancelGuide = {
     },
   ],
   alternatives: [
-    { name: 'Instagram', url: '#', description: 'Free social media with no subscription needed' },
+    { name: 'Instagram', description: 'Free social media with no subscription needed' },
   ],
   tags: ['social-media', 'snapchat', 'messaging', 'premium'],
 }

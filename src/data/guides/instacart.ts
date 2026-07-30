@@ -53,8 +53,8 @@ export const instacart: CancelGuide = {
     },
   ],
   alternatives: [
-    { name: 'Amazon Fresh', url: '#', description: 'Free delivery with Prime — grocery delivery' },
-    { name: 'Shipt', url: '#', description: '$99/yr — Target + other retailers' },
+    { name: 'Amazon Fresh', description: 'Free delivery with Prime — grocery delivery' },
+    { name: 'Shipt', description: '$99/yr — Target + other retailers' },
   ],
   tags: ['grocery', 'delivery', 'subscription'],
 }

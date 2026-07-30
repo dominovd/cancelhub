@@ -53,7 +53,7 @@ export const curology: CancelGuide = {
   ],
   alternatives: [
     { name: 'Hims', url: '/cancel/hims', description: 'From $20/mo — telehealth & skincare' },
-    { name: 'Ro', url: '#', description: 'Telehealth platform with skincare options' },
+    { name: 'Ro', description: 'Telehealth platform with skincare options' },
   ],
   tags: ['skincare', 'health', 'beauty', 'prescription', 'telehealth'],
 }

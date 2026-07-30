@@ -51,7 +51,7 @@ export const skillshare: CancelGuide = {
   ],
   alternatives: [
     { name: 'MasterClass', url: '/cancel/masterclass', description: '$10/mo — celebrity-taught courses' },
-    { name: 'Coursera', url: '#', description: 'From $49/mo — university-level courses' },
+    { name: 'Coursera', description: 'From $49/mo — university-level courses' },
   ],
   tags: ['education', 'creative', 'design', 'learning', 'courses'],
 }

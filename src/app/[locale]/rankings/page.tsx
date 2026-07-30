@@ -6,6 +6,7 @@ import { canonicalUrl, hreflangAlternates } from '@/config/seo'
 import { locales } from '@/config/i18n'
 import { BrandLogo } from '@/components/BrandLogo'
 import type { CancelGuide } from '@/types/guide'
+import { hasDarkPatternAssessment } from '@/lib/dark-patterns'
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }))
@@ -197,9 +198,10 @@ export default async function RankingsPage({
   setRequestLocale(locale)
   const t = await getTranslations({ locale, namespace: 'rankings' })
 
-  const byScore = [...allGuides].sort((a, b) => b.darkPatternScore - a.darkPatternScore)
+  const assessedGuides = allGuides.filter(hasDarkPatternAssessment)
+  const byScore = [...assessedGuides].sort((a, b) => b.darkPatternScore - a.darkPatternScore)
   const worst = byScore.slice(0, 15)
-  const best = [...allGuides]
+  const best = [...assessedGuides]
     .sort((a, b) => a.darkPatternScore - b.darkPatternScore)
     .slice(0, 10)
 

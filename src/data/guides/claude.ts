@@ -54,7 +54,7 @@ export const claude: CancelGuide = {
   ],
   alternatives: [
     { name: 'ChatGPT Plus', url: '/cancel/chatgpt', description: '$20/mo — OpenAI\'s GPT-4o and more' },
-    { name: 'Gemini Advanced', url: '#', description: '$19.99/mo — Google\'s most capable AI' },
+    { name: 'Gemini Advanced', description: '$19.99/mo — Google\'s most capable AI' },
   ],
   tags: ['ai', 'chatbot', 'productivity', 'anthropic'],
 }

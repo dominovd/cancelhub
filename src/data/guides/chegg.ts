@@ -51,8 +51,8 @@ export const chegg: CancelGuide = {
     },
   ],
   alternatives: [
-    { name: 'Quizlet', url: '#', description: 'Free flashcards & study tools' },
-    { name: 'Khan Academy', url: '#', description: 'Free — comprehensive academic subjects' },
+    { name: 'Quizlet', description: 'Free flashcards & study tools' },
+    { name: 'Khan Academy', description: 'Free — comprehensive academic subjects' },
   ],
   tags: ['education', 'studying', 'homework', 'textbooks', 'college'],
 }

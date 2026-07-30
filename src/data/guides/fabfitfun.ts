@@ -52,7 +52,7 @@ export const fabfitfun: CancelGuide = {
   ],
   alternatives: [
     { name: 'IPSY', url: '/cancel/ipsy', description: '$14/mo — beauty subscription box' },
-    { name: 'Birchbox', url: '#', description: '$15/mo — beauty samples' },
+    { name: 'Birchbox', description: '$15/mo — beauty samples' },
   ],
   tags: ['subscription-box', 'beauty', 'lifestyle', 'wellness', 'fashion'],
 }

@@ -67,8 +67,8 @@ export const microsoft365: CancelGuide = {
     },
   ],
   alternatives: [
-    { name: 'Google Workspace (free)', url: '#', description: 'Docs, Sheets, Slides — free with Google account' },
-    { name: 'LibreOffice', url: '#', description: 'Free, open-source Office alternative' },
+    { name: 'Google Workspace (free)', description: 'Docs, Sheets, Slides — free with Google account' },
+    { name: 'LibreOffice', description: 'Free, open-source Office alternative' },
   ],
   tags: ['productivity', 'office', 'microsoft', 'cloud'],
 }

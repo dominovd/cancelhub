@@ -59,8 +59,8 @@ export const linkedinPremium: CancelGuide = {
     },
   ],
   alternatives: [
-    { name: 'Indeed Resume', url: '#', description: 'Free job search with resume visibility' },
-    { name: 'Glassdoor', url: '#', description: 'Free company reviews and salary data' },
+    { name: 'Indeed Resume', description: 'Free job search with resume visibility' },
+    { name: 'Glassdoor', description: 'Free company reviews and salary data' },
   ],
   tags: ['professional', 'networking', 'career', 'jobs', 'linkedin'],
 }

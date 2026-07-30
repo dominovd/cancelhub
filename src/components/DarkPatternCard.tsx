@@ -113,7 +113,11 @@ export function DarkPatternCard({ score, flags }: DarkPatternCardProps) {
         >
           Dark Pattern Score
         </h2>
-        <ScoreBar score={score} />
+        {hasFlags ? (
+          <ScoreBar score={score} />
+        ) : (
+          <span className="text-[12px] ink-3">Assessment pending</span>
+        )}
       </div>
 
       {/* Breakdown */}
@@ -133,8 +137,9 @@ export function DarkPatternCard({ score, flags }: DarkPatternCardProps) {
 
       {/* Methodology note */}
       <p className="text-[11px] ink-3 mt-4 leading-[1.5]">
-        Score reflects intentional friction: hidden flows, required phone calls, guilt-trip dialogs, and refund opacity.
-        Difficulty to find the service is not included.
+        {hasFlags
+          ? 'Score reflects intentional friction: hidden flows, required phone calls, guilt-trip dialogs, and refund opacity. Difficulty to find the service is not included.'
+          : 'We have not completed the evidence breakdown for this service, so its numeric dark-pattern score is not published yet.'}
       </p>
     </section>
   )

@@ -51,8 +51,8 @@ export const eaPlay: CancelGuide = {
     },
   ],
   alternatives: [
-    { name: 'Xbox Game Pass', url: '#', description: '$14.99/mo — 100s of games + EA Play included' },
-    { name: 'PlayStation Plus', url: '#', description: 'From $9.99/mo — PS games & online play' },
+    { name: 'Xbox Game Pass', url: '/cancel/xbox-game-pass', description: '$14.99/mo — 100s of games + EA Play included' },
+    { name: 'PlayStation Plus', url: '/cancel/playstation-plus', description: 'From $9.99/mo — PS games & online play' },
   ],
   tags: ['gaming', 'ea', 'games', 'subscription'],
 }

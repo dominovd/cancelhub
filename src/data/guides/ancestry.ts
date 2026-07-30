@@ -55,8 +55,8 @@ export const ancestry: CancelGuide = {
     },
   ],
   alternatives: [
-    { name: 'MyHeritage', url: '#', description: 'From $9.90/mo — family history & DNA' },
-    { name: 'Findmypast', url: '#', description: 'From $9.99/mo — UK & Irish records focus' },
+    { name: 'MyHeritage', description: 'From $9.90/mo — family history & DNA' },
+    { name: 'Findmypast', description: 'From $9.99/mo — UK & Irish records focus' },
   ],
   tags: ['genealogy', 'family-tree', 'dna', 'history', 'records'],
 }

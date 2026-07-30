@@ -50,7 +50,7 @@ export const canvaPro: CancelGuide = {
     },
   ],
   alternatives: [
-    { name: 'Adobe Express', url: '#', description: 'Free basic / $9.99/mo premium — Adobe creative tools' },
+    { name: 'Adobe Express', description: 'Free basic / $9.99/mo premium — Adobe creative tools' },
     { name: 'CapCut', url: '/cancel/capcut', description: '$7.99/mo — video & graphic editor' },
   ],
   tags: ['design', 'graphics', 'creative', 'templates', 'visual'],

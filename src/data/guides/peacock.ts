@@ -55,7 +55,7 @@ export const peacock: CancelGuide = {
   ],
   alternatives: [
     { name: 'Paramount+', url: '/cancel/paramount-plus', description: '$7.99/mo — CBS, MTV, Nickelodeon' },
-    { name: 'Max', url: '/cancel/max', description: '$9.99/mo — HBO content' },
+    { name: 'Max', description: '$9.99/mo — HBO content' },
   ],
   tags: ['streaming', 'video', 'nbc', 'entertainment'],
 }

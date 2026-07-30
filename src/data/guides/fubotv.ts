@@ -56,7 +56,7 @@ export const fuboTV: CancelGuide = {
   alternatives: [
     { name: 'YouTube TV', url: '/cancel/youtube-tv', description: '$72.99/mo — 100+ channels, unlimited DVR' },
     { name: 'Sling TV', url: '/cancel/sling-tv', description: 'From $40/mo — flexible channel packages' },
-    { name: 'DirecTV Stream', url: '#', description: 'From $64.99/mo — live sports focus' },
+    { name: 'DirecTV Stream', description: 'From $64.99/mo — live sports focus' },
   ],
   tags: ['streaming', 'live-tv', 'sports', 'cable-alternative'],
 }

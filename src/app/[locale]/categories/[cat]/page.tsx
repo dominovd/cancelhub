@@ -38,6 +38,12 @@ export async function generateMetadata({
       description,
       url: canonicalUrl(path, locale),
     },
+    robots: category.indexable
+      ? undefined
+      : {
+          index: false,
+          follow: true,
+        },
   }
 }
 
@@ -58,8 +64,8 @@ export default async function CategoryPage({
   const diffShort = (d: 'easy' | 'medium' | 'hard') =>
     d === 'easy' ? tDiff('easyShort') : d === 'medium' ? tDiff('medShort') : tDiff('hardShort')
 
-  const hardest = category.guides[0]
-  const easiest = category.guides[category.guides.length - 1]
+  const hardest = category.assessedGuides[0]
+  const easiest = category.assessedGuides[category.assessedGuides.length - 1]
 
   return (
     <article className="max-w-[1000px] mx-auto px-[22px]">
@@ -108,13 +114,19 @@ export default async function CategoryPage({
         <div>
           <div className="k">Avg dark-pattern</div>
           <div className="font-serif-display" style={{ fontSize: 22, fontWeight: 600, marginTop: 3, letterSpacing: '-0.01em' }}>
-            {category.avgScore}<span style={{ fontSize: 14, color: 'var(--ink-3)' }}>/10</span>
+            {category.avgScore === null ? (
+              <span style={{ fontSize: 14, color: 'var(--ink-3)' }}>Pending</span>
+            ) : (
+              <>
+                {category.avgScore}<span style={{ fontSize: 14, color: 'var(--ink-3)' }}>/10</span>
+              </>
+            )}
           </div>
         </div>
         <div>
           <div className="k">Hardest</div>
           <div className="font-serif-display" style={{ fontSize: 17, fontWeight: 600, marginTop: 3, letterSpacing: '-0.01em' }}>
-            {hardest.service}
+            {hardest?.service ?? 'Pending'}
           </div>
         </div>
       </div>
@@ -174,7 +186,7 @@ export default async function CategoryPage({
       </section>
 
       {/* Hardest/easiest highlight */}
-      {category.count >= 3 && (
+      {category.count >= 3 && hardest && easiest && (
         <section className="grid sm:grid-cols-2 gap-[14px] mt-12">
           <div className="card-warm" style={{ borderLeft: '3px solid var(--hard)' }}>
             <div style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '0.09em', color: 'var(--hard)', fontWeight: 600 }}>

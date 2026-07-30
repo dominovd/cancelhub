@@ -55,8 +55,8 @@ export const ringProtect: CancelGuide = {
     },
   ],
   alternatives: [
-    { name: 'Nest Aware', url: '#', description: 'From $8/mo — Google Nest camera subscription' },
-    { name: 'SimpliSafe', url: '#', description: 'From $19.99/mo — professional monitoring' },
+    { name: 'Nest Aware', description: 'From $8/mo — Google Nest camera subscription' },
+    { name: 'SimpliSafe', description: 'From $19.99/mo — professional monitoring' },
   ],
   tags: ['home-security', 'camera', 'amazon', 'ring', 'monitoring'],
 }

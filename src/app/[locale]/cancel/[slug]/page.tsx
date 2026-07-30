@@ -10,6 +10,7 @@ import { BrandLogo } from '@/components/BrandLogo'
 import { DarkPatternCard } from '@/components/DarkPatternCard'
 import { FreshnessBar } from '@/components/FreshnessBar'
 import { categoryToSlug } from '@/lib/categories'
+import { getPublishedActions } from '@/lib/actions'
 import { getGuideTranslations, applyGuideTranslations } from '@/data/guide-translations/loader'
 
 export function generateStaticParams() {
@@ -131,6 +132,7 @@ export default async function GuidePage({
   const nextN = () => String(++sectionN)
 
   const showWhen = !!guide.refundPolicy
+  const publishedActions = getPublishedActions(guide)
 
   return (
     <>
@@ -232,27 +234,24 @@ export default async function GuidePage({
 
         {/* Action cross-links */}
         <div className="flex flex-wrap gap-2 mt-6 mb-2">
-          <Link
-            href={`/${params.locale}/cancel/${guide.slug}/pause`}
-            className="chip"
-            style={{ fontSize: 12.5, padding: '5px 11px' }}
-          >
-            How to pause →
-          </Link>
-          <Link
-            href={`/${params.locale}/cancel/${guide.slug}/refund`}
-            className="chip"
-            style={{ fontSize: 12.5, padding: '5px 11px' }}
-          >
-            Get a refund →
-          </Link>
-          <Link
-            href={`/${params.locale}/cancel/${guide.slug}/delete`}
-            className="chip"
-            style={{ fontSize: 12.5, padding: '5px 11px' }}
-          >
-            Delete account →
-          </Link>
+          {publishedActions.includes('pause') && (
+            <Link
+              href={`/${params.locale}/cancel/${guide.slug}/pause`}
+              className="chip"
+              style={{ fontSize: 12.5, padding: '5px 11px' }}
+            >
+              Can you pause? →
+            </Link>
+          )}
+          {publishedActions.includes('refund') && (
+            <Link
+              href={`/${params.locale}/cancel/${guide.slug}/refund`}
+              className="chip"
+              style={{ fontSize: 12.5, padding: '5px 11px' }}
+            >
+              Refund policy →
+            </Link>
+          )}
         </div>
 
         {/* When to cancel — terracotta advisory (refund-aware) */}
@@ -353,9 +352,9 @@ export default async function GuidePage({
               style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(228px, 1fr))' }}
             >
               {guide.alternatives.map((alt) => {
-                const altSlug = alt.url.split('/').filter(Boolean).pop() ?? ''
-                return (
-                  <Link key={alt.name} href={alt.url} className="gcard">
+                const altSlug = alt.url?.split('/').filter(Boolean).pop() ?? ''
+                const content = (
+                  <>
                     <BrandLogo slug={altSlug} service={alt.name} alt={alt.name} size={42} />
                     <div className="min-w-0 flex-1">
                       <div className="truncate" style={{ fontWeight: 600, fontSize: 14.5, lineHeight: 1.25 }}>
@@ -363,9 +362,18 @@ export default async function GuidePage({
                       </div>
                       <div style={{ fontSize: 12, color: 'var(--ink-3)' }}>{alt.description}</div>
                     </div>
-                    <span style={{ color: 'var(--ink-3)' }}>→</span>
-                  </Link>
+                    {alt.url && <span style={{ color: 'var(--ink-3)' }}>→</span>}
+                  </>
                 )
+
+                if (!alt.url) {
+                  return <div key={alt.name} className="gcard">{content}</div>
+                }
+
+                const href = alt.url.startsWith('/')
+                  ? `${params.locale === 'en' ? '' : `/${params.locale}`}${alt.url}`
+                  : alt.url
+                return <Link key={alt.name} href={href} className="gcard">{content}</Link>
               })}
             </div>
           </section>

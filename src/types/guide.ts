@@ -48,7 +48,7 @@ export interface CancelGuide {
   description: string
   platforms: PlatformGuide[]
   commonIssues: { question: string; answer: string }[]
-  alternatives?: { name: string; url: string; description: string }[]
+  alternatives?: { name: string; url?: string; description: string }[]
   tags: string[]
 }
 

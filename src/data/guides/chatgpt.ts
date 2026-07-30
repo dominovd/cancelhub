@@ -57,8 +57,8 @@ export const chatgpt: CancelGuide = {
   ],
   alternatives: [
     { name: 'Claude', url: '/cancel/claude', description: 'Anthropic\'s AI — free tier + $20/mo Pro' },
-    { name: 'Gemini Advanced', url: '#', description: 'Google\'s AI — $19.99/mo, included in Google One AI Premium' },
-    { name: 'Perplexity', url: '#', description: '$20/mo — AI search engine' },
+    { name: 'Gemini Advanced', description: 'Google\'s AI — $19.99/mo, included in Google One AI Premium' },
+    { name: 'Perplexity', description: '$20/mo — AI search engine' },
   ],
   tags: ['ai', 'chatbot', 'productivity'],
 }

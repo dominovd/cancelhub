@@ -62,8 +62,8 @@ export const norton: CancelGuide = {
     },
   ],
   alternatives: [
-    { name: 'Malwarebytes', url: '#', description: 'Free basic protection or $44.99/yr premium' },
-    { name: 'Windows Defender', url: '#', description: 'Free built-in antivirus for Windows users' },
+    { name: 'Malwarebytes', description: 'Free basic protection or $44.99/yr premium' },
+    { name: 'Windows Defender', description: 'Free built-in antivirus for Windows users' },
   ],
   tags: ['security', 'antivirus', 'vpn', 'protection'],
 }

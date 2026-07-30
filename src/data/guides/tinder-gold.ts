@@ -53,7 +53,7 @@ export const tinderGold: CancelGuide = {
   ],
   alternatives: [
     { name: 'Bumble', url: '/cancel/bumble', description: 'Free dating with Boost/Premium options' },
-    { name: 'Hinge', url: '#', description: 'Free with optional Preferred membership' },
+    { name: 'Hinge', description: 'Free with optional Preferred membership' },
   ],
   tags: ['dating', 'social', 'subscription'],
 }

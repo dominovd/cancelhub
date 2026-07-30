@@ -56,7 +56,7 @@ export const crunchyroll: CancelGuide = {
     },
   ],
   alternatives: [
-    { name: 'Funimation', url: '#', description: '$7.99/mo — now merged into Crunchyroll' },
+    { name: 'Funimation', description: '$7.99/mo — now merged into Crunchyroll' },
     { name: 'Netflix', url: '/cancel/netflix', description: 'From $7.99/mo — some anime available' },
   ],
   tags: ['streaming', 'anime', 'manga', 'entertainment'],

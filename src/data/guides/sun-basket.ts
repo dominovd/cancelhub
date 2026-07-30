@@ -52,7 +52,7 @@ export const sunBasket: CancelGuide = {
   ],
   alternatives: [
     { name: 'HelloFresh', url: '/cancel/hellofresh', description: 'From $7.99/meal — most popular meal kit' },
-    { name: 'Green Chef', url: '#', description: 'From $12.99/meal — organic & specialty diets' },
+    { name: 'Green Chef', description: 'From $12.99/meal — organic & specialty diets' },
   ],
   tags: ['meal-kit', 'organic', 'healthy', 'food', 'delivery'],
 }

@@ -53,8 +53,8 @@ export const duolingoPlus: CancelGuide = {
     },
   ],
   alternatives: [
-    { name: 'Babbel', url: '#', description: 'From $6.95/mo — structured language lessons' },
-    { name: 'Rosetta Stone', url: '#', description: 'From $11.99/mo — immersive language learning' },
+    { name: 'Babbel', description: 'From $6.95/mo — structured language lessons' },
+    { name: 'Rosetta Stone', description: 'From $11.99/mo — immersive language learning' },
   ],
   tags: ['education', 'language', 'learning', 'app'],
 }

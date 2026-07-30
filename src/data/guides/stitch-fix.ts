@@ -51,8 +51,8 @@ export const stitchFix: CancelGuide = {
     },
   ],
   alternatives: [
-    { name: 'Trunk Club', url: '#', description: "Nordstrom's personal styling service" },
-    { name: 'Nordstrom Rack', url: '#', description: 'Shop discounted designer brands directly' },
+    { name: 'Trunk Club', description: "Nordstrom's personal styling service" },
+    { name: 'Nordstrom Rack', description: 'Shop discounted designer brands directly' },
   ],
   tags: ['fashion', 'clothing', 'styling', 'subscription-box'],
 }
